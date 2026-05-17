@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
-import Navbar from '@/components/Navbar'
+import AppLayout from '@/components/AppLayout'
 import { getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import Link from 'next/link'
 
@@ -22,131 +22,115 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const loadData = async () => {
+    const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) return
 
-      // Get total available questions
-      const { count } = await supabase
-        .from('questions')
-        .select('id', { count: 'exact', head: true })
-        .eq('is_active', true)
-
+      const { count } = await supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true)
       setTotalQuestions(count || 0)
 
-      // Get domain stats
-      const { data: domainStats, error } = await supabase
-        .rpc('get_user_domain_stats', { p_user_id: user.id })
-      
-      if (domainStats) {
-        setStats(domainStats as DomainStat[])
-        setTotalAttempted(domainStats.reduce((s: number, d: DomainStat) => s + Number(d.total_attempted), 0))
-        setTotalCorrect(domainStats.reduce((s: number, d: DomainStat) => s + Number(d.total_correct), 0))
+      const { data: ds } = await supabase.rpc('get_user_domain_stats', { p_user_id: user.id })
+      if (ds) {
+        setStats(ds as DomainStat[])
+        setTotalAttempted(ds.reduce((s: number, d: DomainStat) => s + Number(d.total_attempted), 0))
+        setTotalCorrect(ds.reduce((s: number, d: DomainStat) => s + Number(d.total_correct), 0))
       }
-
       setLoading(false)
     }
-
-    loadData()
+    load()
   }, [supabase])
 
-  const overallPercentage = totalAttempted > 0
-    ? Math.round((totalCorrect / totalAttempted) * 100)
-    : 0
+  const overallPct = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : 0
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-        {/* Welcome + Stats Summary */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-          <div className="bg-white rounded-xl border border-gray-200 p-5">
-            <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Overall Score</p>
-            <p className="text-3xl font-bold mt-1">
-              {loading ? <span className="skeleton inline-block w-16 h-8 rounded" /> : `${overallPercentage}%`}
-            </p>
-            <p className="text-xs text-gray-400 mt-1">
-              {totalAttempted} of {totalQuestions} questions attempted
-            </p>
-          </div>
-          <div className="bg-white rounded-xl border border-gray-200 p-5">
-            <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Correct</p>
-            <p className="text-3xl font-bold mt-1 text-green-600">{totalCorrect}</p>
-            <p className="text-xs text-gray-400 mt-1">Across all domains</p>
-          </div>
-          <div className="bg-white rounded-xl border border-gray-200 p-5">
-            <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Domains</p>
-            <p className="text-3xl font-bold mt-1">{stats.length}</p>
-            <p className="text-xs text-gray-400 mt-1">{totalQuestions} questions in bank</p>
+    <AppLayout title="Dashboard" subtitle="Your performance overview">
+      {/* Stats row */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 12, marginBottom: 24 }}>
+        <div className="stat-card">
+          {loading ? (
+            <div className="skeleton" style={{ height: 24, width: 60, marginBottom: 6 }} />
+          ) : (
+            <div className="stat-value" style={{ color: 'var(--accent-blue)' }}>{overallPct}%</div>
+          )}
+          <div className="stat-label">Overall Score</div>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 4 }}>
+            {totalAttempted} of {totalQuestions} answered
           </div>
         </div>
-
-        {/* Domain Breakdown */}
-        <div className="bg-white rounded-xl border border-gray-200 p-6">
-          <div className="flex items-center justify-between mb-5">
-            <h2 className="font-semibold">Domain Performance</h2>
-            <Link
-              href="/quiz"
-              className="text-sm text-blue-600 hover:underline font-medium"
-            >
-              Start practice →
-            </Link>
+        <div className="stat-card">
+          <div className="stat-value" style={{ color: 'var(--success)' }}>{totalCorrect}</div>
+          <div className="stat-label">Correct</div>
+        </div>
+        <div className="stat-card">
+          <div className="stat-value" style={{ color: 'var(--accent-purple)' }}>{stats.length}</div>
+          <div className="stat-label">Domains</div>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 4 }}>
+            {totalQuestions} total questions
           </div>
+        </div>
+      </div>
 
-          {loading ? (
-            <div className="space-y-3">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="skeleton h-12 rounded-lg" />
-              ))}
-            </div>
-          ) : stats.length === 0 ? (
-            <div className="text-center py-10">
-              <p className="text-gray-500 text-sm">No questions attempted yet.</p>
-              <Link
-                href="/quiz"
-                className="inline-block mt-3 text-sm text-blue-600 hover:underline font-medium"
-              >
-                Start your first practice session →
-              </Link>
-            </div>
-          ) : (
-            <div className="space-y-2">
-              {stats.map(s => (
-                <Link
-                  key={s.domain}
-                  href={`/quiz?domain=${s.domain}`}
-                  className="block"
+      {/* Domain breakdown */}
+      <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+        <div style={{ padding: '16px 20px', borderBottom: '1px solid var(--border-subtle)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <h2 style={{ fontSize: 14, fontWeight: 600 }}>Domain Performance</h2>
+          <Link href="/quiz" className="btn btn-ghost btn-sm">Practice →</Link>
+        </div>
+
+        {loading ? (
+          <div style={{ padding: 20 }}>
+            {[...Array(5)].map((_, i) => (
+              <div key={i} className="skeleton" style={{ height: 44, marginBottom: 6, borderRadius: 8 }} />
+            ))}
+          </div>
+        ) : stats.length === 0 ? (
+          <div style={{ padding: '40px 20px', textAlign: 'center' }}>
+            <p style={{ fontSize: 13, color: 'var(--text-tertiary)', marginBottom: 12 }}>No questions attempted yet.</p>
+            <Link href="/quiz" className="btn btn-primary">Start your first practice →</Link>
+          </div>
+        ) : (
+          <div style={{ padding: '8px 20px 16px' }}>
+            {stats.map(s => (
+              <Link key={s.domain} href={`/quiz?domain=${s.domain}`} style={{ textDecoration: 'none' }}>
+                <div
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 10,
+                    padding: '10px 8px', borderRadius: 8,
+                    transition: 'background 0.15s',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-blue-subtle)'}
+                  onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
                 >
-                  <div className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
-                    <div className={`w-2.5 h-2.5 rounded-full shrink-0 ${getDomainColor(s.domain)}`} />
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium truncate">
-                        {getDomainDisplayName(s.domain)}
-                      </p>
-                      <div className="flex items-center gap-2 mt-1">
-                        <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                          <div
-                            className="h-full rounded-full bg-blue-500 transition-all"
-                            style={{ width: `${s.percentage}%` }}
-                          />
-                        </div>
-                        <span className="text-xs text-gray-500 font-mono shrink-0">
-                          {s.total_correct}/{s.total_attempted}
-                        </span>
-                        <span className={`text-xs font-mono shrink-0 ${
-                          s.percentage >= 70 ? 'text-green-600' : s.percentage >= 50 ? 'text-amber-600' : 'text-red-600'
-                        }`}>
-                          {s.percentage}%
-                        </span>
-                      </div>
+                  <div style={{ width: 8, height: 8, borderRadius: '50%', background: getDomainColor(s.domain).replace('bg-', '').replace('blue', 'var(--accent-blue)').replace('green', 'var(--success)').replace('emerald', 'var(--success)').replace('red', 'var(--error)').replace('amber', 'var(--warning)').replace('purple', 'var(--accent-purple)'), flexShrink: 0 }} />
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {getDomainDisplayName(s.domain)}
+                    </div>
+                    <div className="progress-bar" style={{ marginTop: 4 }}>
+                      <div
+                        className="progress-fill progress-fill-blue"
+                        style={{ width: `${s.percentage}%` }}
+                      />
                     </div>
                   </div>
-                </Link>
-              ))}
-            </div>
-          )}
-        </div>
-      </main>
-    </div>
+                  <div style={{ textAlign: 'right', flexShrink: 0 }}>
+                    <div style={{ fontSize: 12, color: 'var(--text-secondary)' }}>
+                      {s.total_correct}/{s.total_attempted}
+                    </div>
+                    <div style={{
+                      fontSize: 12, fontWeight: 600,
+                      color: s.percentage >= 70 ? 'var(--success)' : s.percentage >= 50 ? 'var(--warning)' : 'var(--error)',
+                    }}>
+                      {s.percentage}%
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    </AppLayout>
   )
 }

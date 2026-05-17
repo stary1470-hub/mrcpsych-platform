@@ -3,15 +3,11 @@
 import { useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
-import Navbar from '@/components/Navbar'
+import AppLayout from '@/components/AppLayout'
 import { getDomainDisplayName, getDomainColor } from '@/lib/utils'
-import type { Question } from '@/types'
 
 interface DomainOption {
-  domain: string
-  count: number
-  attempted: number
-  percentage: number | null
+  domain: string; count: number; attempted: number; percentage: number | null
 }
 
 export default function QuizMenuPage() {
@@ -20,164 +16,148 @@ export default function QuizMenuPage() {
   const supabase = createClient()
   const [domains, setDomains] = useState<DomainOption[]>([])
   const [loading, setLoading] = useState(true)
-  const [mode, setMode] = useState<'domain' | 'random' | 'weakest'>('domain')
-
-  const preSelectedDomain = searchParams.get('domain')
 
   useEffect(() => {
-    const loadDomains = async () => {
+    const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) return
 
-      // Get all active questions, group by domain
-      const { data: allQuestions } = await supabase
-        .from('questions')
-        .select('domain')
-        .eq('is_active', true)
-
+      const { data: allQuestions } = await supabase.from('questions').select('domain').eq('is_active', true)
       const countMap = new Map<string, number>()
       if (allQuestions) {
         for (const row of allQuestions) {
-          const d = row.domain
-          countMap.set(d, (countMap.get(d) || 0) + 1)
+          countMap.set(row.domain, (countMap.get(row.domain) || 0) + 1)
         }
       }
 
-      // Get user's performance by domain
-      const { data: userStats } = await supabase
-        .rpc('get_user_domain_stats', { p_user_id: user.id })
-
+      const { data: userStats } = await supabase.rpc('get_user_domain_stats', { p_user_id: user.id })
       const statsMap = new Map<string, { attempted: number; percentage: number }>()
       if (userStats) {
         for (const s of userStats as any[]) {
-          statsMap.set(s.domain, {
-            attempted: Number(s.total_attempted),
-            percentage: Number(s.percentage),
-          })
+          statsMap.set(s.domain, { attempted: Number(s.total_attempted), percentage: Number(s.percentage) })
         }
       }
 
       const domainList: DomainOption[] = Array.from(countMap.entries())
-        .map(([domain, count]) => ({
-          domain,
-          count,
-          attempted: statsMap.get(domain)?.attempted || 0,
-          percentage: statsMap.get(domain)?.percentage || null,
-        }))
-        .sort((a, b) => {
-          // Sort by weakest first (lowest percentage)
-          const aPct = a.percentage ?? 100
-          const bPct = b.percentage ?? 100
-          return aPct - bPct
-        })
+        .map(([domain, count]) => ({ domain, count, attempted: statsMap.get(domain)?.attempted || 0, percentage: statsMap.get(domain)?.percentage || null }))
+        .sort((a, b) => (a.percentage ?? 100) - (b.percentage ?? 100))
 
       setDomains(domainList)
       setLoading(false)
     }
-
-    loadDomains()
+    load()
   }, [supabase])
 
   const startQuiz = async (domain?: string) => {
-    let query = supabase
-      .from('questions')
-      .select('id')
-      .eq('is_active', true)
-
-    if (domain) {
-      query = query.eq('domain', domain)
-    }
-
+    let query = supabase.from('questions').select('id').eq('is_active', true)
+    if (domain) query = query.eq('domain', domain)
     const { data: questions } = await query.limit(50)
-
     if (questions && questions.length > 0) {
       router.push(`/quiz/${questions[0].id}?domain=${domain || 'all'}`)
-    } else {
-      alert('No questions available for this domain yet.')
-    }
-  }
-
-  const startWeakestQuiz = async () => {
-    if (domains.length > 0) {
-      const weakest = domains[0] // already sorted weakest first
-      startQuiz(weakest.domain)
     }
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
-        <h1 className="text-2xl font-bold mb-6">Practice</h1>
+    <AppLayout title="Practice" subtitle="Select a domain to start">
+      {/* Quick start */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 10, marginBottom: 24 }}>
+        <button onClick={() => startQuiz()} className="card" style={{ cursor: 'pointer', textAlign: 'left', border: '1px solid var(--border-subtle)' }}>
+          <div style={{ fontSize: 24, marginBottom: 6 }}>🎲</div>
+          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Random Quiz</div>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>All domains mixed</div>
+        </button>
+        <button
+          onClick={() => { if (domains.length > 0) startQuiz(domains[0].domain) }}
+          disabled={domains.length === 0}
+          className="card"
+          style={{ cursor: 'pointer', textAlign: 'left', opacity: domains.length === 0 ? 0.5 : 1, border: '1px solid var(--border-subtle)' }}
+        >
+          <div style={{ fontSize: 24, marginBottom: 6 }}>🎯</div>
+          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Weakest Domain</div>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>Focus on your lowest score</div>
+        </button>
+        <div className="card" style={{ border: '1px solid var(--border-subtle)' }}>
+          <div style={{ fontSize: 24, marginBottom: 6 }}>📂</div>
+          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Pick a Domain</div>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>Choose below</div>
+        </div>
+      </div>
 
-        {/* Quick start options */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
-          <button
-            onClick={() => startQuiz()}
-            className="p-4 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all text-left"
-          >
-            <p className="font-semibold text-sm">🎲 Random Quiz</p>
-            <p className="text-xs text-gray-500 mt-1">Questions from all domains</p>
-          </button>
-          <button
-            onClick={startWeakestQuiz}
-            disabled={domains.length === 0}
-            className="p-4 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all text-left disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            <p className="font-semibold text-sm">🎯 Weakest Domain</p>
-            <p className="text-xs text-gray-500 mt-1">Focus on your lowest-scoring area</p>
-          </button>
-          <button
-            onClick={() => setMode(mode === 'domain' ? 'random' : 'domain')}
-            className="p-4 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all text-left"
-          >
-            <p className="font-semibold text-sm">📂 Pick a Domain</p>
-            <p className="text-xs text-gray-500 mt-1">Choose what to practice below</p>
-          </button>
+      {/* Domain list */}
+      <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
+        <div style={{ padding: '14px 20px', borderBottom: '1px solid var(--border-subtle)' }}>
+          <h2 style={{ fontSize: 13, fontWeight: 600 }}>Domains</h2>
         </div>
 
-        {/* Domain list */}
-        <div className="bg-white rounded-xl border border-gray-200">
-          <div className="p-4 border-b border-gray-100">
-            <h2 className="font-semibold text-sm">Domains</h2>
+        {loading ? (
+          <div style={{ padding: 16 }}>
+            {[...Array(6)].map((_, i) => (
+              <div key={i} className="skeleton" style={{ height: 44, marginBottom: 4, borderRadius: 8 }} />
+            ))}
           </div>
-          {loading ? (
-            <div className="p-4 space-y-2">
-              {[...Array(5)].map((_, i) => (
-                <div key={i} className="skeleton h-12 rounded-lg" />
-              ))}
-            </div>
-          ) : (
-            <div className="divide-y divide-gray-50">
-              {domains.map(d => (
-                <button
-                  key={d.domain}
-                  onClick={() => startQuiz(d.domain)}
-                  className="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors text-left"
-                >
-                  <div className={`w-2.5 h-2.5 rounded-full shrink-0 ${getDomainColor(d.domain)}`} />
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium truncate">
-                      {getDomainDisplayName(d.domain)}
-                    </p>
-                    <p className="text-xs text-gray-400">
-                      {d.count} questions
-                      {d.attempted > 0 && ` • ${d.attempted} attempted`}
-                    </p>
+        ) : (
+          <div style={{ padding: '4px 6px' }}>
+            {domains.map(d => (
+              <button
+                key={d.domain}
+                onClick={() => startQuiz(d.domain)}
+                style={{
+                  width: '100%', display: 'flex', alignItems: 'center', gap: 10,
+                  padding: '10px 14px', border: 'none', borderRadius: 8,
+                  background: 'transparent', cursor: 'pointer',
+                  color: 'var(--text-primary)', fontSize: 13,
+                  transition: 'background 0.1s',
+                }}
+                onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-blue-subtle)'}
+                onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+              >
+                <div style={{
+                  width: 8, height: 8, borderRadius: '50%',
+                  background: getDomainColor(d.domain)
+                    .replace('bg-blue-500', 'var(--accent-blue)')
+                    .replace('bg-emerald-500', 'var(--success)')
+                    .replace('bg-violet-500', 'var(--accent-purple)')
+                    .replace('bg-amber-500', 'var(--warning)')
+                    .replace('bg-rose-500', 'var(--error)')
+                    .replace('bg-cyan-500', '#06b6d4')
+                    .replace('bg-indigo-500', '#6366f1')
+                    .replace('bg-teal-500', '#14b8a6')
+                    .replace('bg-pink-500', '#ec4899')
+                    .replace('bg-orange-500', '#f97316')
+                    .replace('bg-sky-500', '#0ea5e9')
+                    .replace('bg-fuchsia-500', '#d946ef')
+                    .replace('bg-red-500', 'var(--error)')
+                    .replace('bg-yellow-500', 'var(--warning)')
+                    .replace('bg-green-500', 'var(--success)')
+                    .replace('bg-purple-500', 'var(--accent-purple)')
+                    .replace('bg-stone-500', '#78716c')
+                    .replace('bg-lime-500', '#84cc16')
+                    .replace('bg-slate-500', '#64748b')
+                    .replace('bg-amber-600', '#d97706')
+                    .replace('bg-teal-600', '#0d9488')
+                    .replace('bg-rose-400', '#fb7185')
+                    .replace('bg-gray-400', '#9ca3af'),
+                  flexShrink: 0,
+                }} />
+                <div style={{ flex: 1, textAlign: 'left' }}>
+                  <div style={{ color: 'var(--text-primary)', fontWeight: 500 }}>{getDomainDisplayName(d.domain)}</div>
+                  <div style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>
+                    {d.count} questions{d.attempted > 0 ? ` • ${d.attempted} attempted` : ''}
                   </div>
-                  {d.percentage !== null && (
-                    <span className={`text-xs font-mono shrink-0 ${
-                      d.percentage >= 70 ? 'text-green-600' : d.percentage >= 50 ? 'text-amber-600' : 'text-red-600'
-                    }`}>
-                      {d.percentage}%
-                    </span>
-                  )}
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-      </main>
-    </div>
+                </div>
+                {d.percentage !== null && (
+                  <span style={{
+                    fontSize: 12, fontWeight: 600,
+                    color: d.percentage >= 70 ? 'var(--success)' : d.percentage >= 50 ? 'var(--warning)' : 'var(--error)',
+                  }}>
+                    {d.percentage}%
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    </AppLayout>
   )
 }

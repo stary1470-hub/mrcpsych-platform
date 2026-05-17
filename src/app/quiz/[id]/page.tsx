@@ -3,15 +3,37 @@
 import { useEffect, useState, use } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
-import Navbar from '@/components/Navbar'
+import AppLayout from '@/components/AppLayout'
 import { getOptionLabel, getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import type { Question } from '@/types'
 
-export default function QuizQuestionPage({
-  params,
-}: {
-  params: Promise<{ id: string }>
-}) {
+const domainColorCSS = (domain: string) =>
+  getDomainColor(domain)
+    .replace('bg-blue-500', 'var(--accent-blue)')
+    .replace('bg-emerald-500', 'var(--success)')
+    .replace('bg-violet-500', 'var(--accent-purple)')
+    .replace('bg-amber-500', 'var(--warning)')
+    .replace('bg-rose-500', 'var(--error)')
+    .replace('bg-cyan-500', '#06b6d4')
+    .replace('bg-indigo-500', '#6366f1')
+    .replace('bg-teal-500', '#14b8a6')
+    .replace('bg-pink-500', '#ec4899')
+    .replace('bg-orange-500', '#f97316')
+    .replace('bg-sky-500', '#0ea5e9')
+    .replace('bg-fuchsia-500', '#d946ef')
+    .replace('bg-red-500', 'var(--error)')
+    .replace('bg-yellow-500', 'var(--warning)')
+    .replace('bg-green-500', 'var(--success)')
+    .replace('bg-purple-500', 'var(--accent-purple)')
+    .replace('bg-stone-500', '#78716c')
+    .replace('bg-lime-500', '#84cc16')
+    .replace('bg-slate-500', '#64748b')
+    .replace('bg-amber-600', '#d97706')
+    .replace('bg-teal-600', '#0d9488')
+    .replace('bg-rose-400', '#fb7185')
+    .replace('bg-gray-400', '#9ca3af')
+
+export default function QuizQuestionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params)
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -23,45 +45,19 @@ export default function QuizQuestionPage({
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
   const [submitted, setSubmitted] = useState(false)
   const [isCorrect, setIsCorrect] = useState(false)
-  const [showFeedback, setShowFeedback] = useState(false)
   const [sessionStats, setSessionStats] = useState({ correct: 0, total: 0 })
   const [nextQuestionId, setNextQuestionId] = useState<string | null>(null)
 
-  useEffect(() => {
-    loadQuestion()
-  }, [id])
+  useEffect(() => { loadQuestion() }, [id])
 
   const loadQuestion = async () => {
-    setLoading(true)
-    setSelectedIndex(null)
-    setSubmitted(false)
-    setShowFeedback(false)
-
-    const { data: q, error } = await supabase
-      .from('questions')
-      .select('*')
-      .eq('id', id)
-      .single()
-
-    if (error || !q) {
-      router.push('/quiz')
-      return
-    }
-
+    setLoading(true); setSelectedIndex(null); setSubmitted(false)
+    const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
+    if (!q) { router.push('/quiz'); return }
     setQuestion(q as Question)
 
-    // Find next question
-    let query = supabase
-      .from('questions')
-      .select('id')
-      .eq('is_active', true)
-      .neq('id', id)
-      .order('id')
-
-    if (domain && domain !== 'all') {
-      query = query.eq('domain', domain)
-    }
-
+    let query = supabase.from('questions').select('id').eq('is_active', true).neq('id', id).order('id')
+    if (domain && domain !== 'all') query = query.eq('domain', domain)
     const { data: nextQs } = await query.limit(1)
     setNextQuestionId(nextQs?.[0]?.id || null)
     setLoading(false)
@@ -69,121 +65,87 @@ export default function QuizQuestionPage({
 
   const handleSubmit = async () => {
     if (selectedIndex === null || !question || submitted) return
-
     const correct = selectedIndex === question.correct_index
     setIsCorrect(correct)
     setSubmitted(true)
-    setShowFeedback(true)
+    setSessionStats(p => ({ correct: p.correct + (correct ? 1 : 0), total: p.total + 1 }))
 
-    setSessionStats(prev => ({
-      correct: prev.correct + (correct ? 1 : 0),
-      total: prev.total + 1,
-    }))
-
-    // Record progress
     const { data: { user } } = await supabase.auth.getUser()
     if (user) {
-      await supabase.from('user_progress').upsert({
-        user_id: user.id,
-        question_id: question.id,
-        selected_index: selectedIndex,
-        correct,
-      }, {
-        onConflict: 'user_id, question_id',
-        ignoreDuplicates: false,
-      })
-    }
-  }
-
-  const handleNext = () => {
-    if (nextQuestionId) {
-      router.push(`/quiz/${nextQuestionId}?domain=${domain || 'all'}`)
-    } else {
-      router.push('/quiz')
+      await supabase.from('user_progress').upsert(
+        { user_id: user.id, question_id: question.id, selected_index: selectedIndex, correct },
+        { onConflict: 'user_id, question_id' }
+      )
     }
   }
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <Navbar />
-        <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
-          <div className="skeleton h-8 w-48 mb-6 rounded" />
-          <div className="bg-white rounded-xl border border-gray-200 p-6 space-y-4">
-            <div className="skeleton h-16 rounded" />
-            <div className="skeleton h-12 rounded" />
-            <div className="skeleton h-12 rounded" />
-            <div className="skeleton h-12 rounded" />
-            <div className="skeleton h-12 rounded" />
+      <AppLayout title="Practice">
+        <div style={{ maxWidth: 720, margin: '0 auto' }}>
+          <div className="skeleton" style={{ height: 24, width: 200, marginBottom: 16 }} />
+          <div className="card" style={{ padding: 24 }}>
+            <div className="skeleton" style={{ height: 80, marginBottom: 16 }} />
+            {[...Array(5)].map((_, i) => (
+              <div key={i} className="skeleton" style={{ height: 48, marginBottom: 8 }} />
+            ))}
           </div>
-        </main>
-      </div>
+        </div>
+      </AppLayout>
     )
   }
 
   if (!question) return null
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-6">
-          <div className="flex items-center gap-2">
-            {question.domain && (
-              <>
-                <div className={`w-2.5 h-2.5 rounded-full ${getDomainColor(question.domain)}`} />
-                <span className="text-xs text-gray-500 font-medium">
-                  {getDomainDisplayName(question.domain)}
-                </span>
-              </>
-            )}
-            {question.difficulty && (
-              <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                question.difficulty === 'easy' ? 'bg-green-100 text-green-700' :
-                question.difficulty === 'medium' ? 'bg-amber-100 text-amber-700' :
-                'bg-red-100 text-red-700'
-              }`}>
-                {question.difficulty}
-              </span>
-            )}
-            {question.bloom_taxonomy && (
-              <span className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full">
-                {question.bloom_taxonomy}
-              </span>
-            )}
-          </div>
+    <AppLayout title="Practice" subtitle="Answer the question below">
+      <div style={{ maxWidth: 720, margin: '0 auto' }}>
+        {/* Header meta */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14, flexWrap: 'wrap' }}>
+          {question.domain && (
+            <span className="badge badge-blue" style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+              <span style={{ width: 6, height: 6, borderRadius: '50%', background: domainColorCSS(question.domain), display: 'inline-block' }} />
+              {getDomainDisplayName(question.domain)}
+            </span>
+          )}
+          {question.difficulty && (
+            <span className={`badge ${
+              question.difficulty === 'easy' ? 'badge-green' :
+              question.difficulty === 'medium' ? 'badge-amber' : 'badge-red'
+            }`}>
+              {question.difficulty}
+            </span>
+          )}
+          {question.bloom_taxonomy && (
+            <span className="badge badge-gray">{question.bloom_taxonomy}</span>
+          )}
+          <div style={{ flex: 1 }} />
           {sessionStats.total > 0 && (
-            <span className="text-xs text-gray-500">
-              Session: {sessionStats.correct}/{sessionStats.total} correct
+            <span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>
+              Session: {sessionStats.correct}/{sessionStats.total}
             </span>
           )}
         </div>
 
-        {/* Question stem */}
-        <div className="bg-white rounded-xl border border-gray-200 p-6 mb-4">
-          <h2 className="text-base leading-relaxed">{question.stem}</h2>
+        {/* Question card */}
+        <div className="card" style={{ padding: '24px 24px 20px', marginBottom: 12 }}>
+          <h2 style={{ fontSize: 15, lineHeight: 1.6, fontWeight: 450, color: 'var(--text-primary)' }}>
+            {question.stem}
+          </h2>
         </div>
 
         {/* Options */}
-        <div className="space-y-2">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           {question.options.map((option, index) => {
             const isSelected = selectedIndex === index
-            let optionClass =
-              'w-full text-left p-4 rounded-lg border transition-all duration-150 text-sm leading-relaxed'
+            let className = 'quiz-option'
 
-            if (!submitted) {
-              optionClass += isSelected
-                ? ' border-blue-500 bg-blue-50 ring-1 ring-blue-500'
-                : ' border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 cursor-pointer'
-            } else {
-              if (index === question.correct_index) {
-                optionClass += ' border-green-500 bg-green-50'
-              } else if (isSelected && !isCorrect) {
-                optionClass += ' border-red-500 bg-red-50'
-              } else {
-                optionClass += ' border-gray-200 opacity-60'
-              }
+            if (submitted) {
+              if (index === question.correct_index) className += ' correct disabled'
+              else if (isSelected && !isCorrect) className += ' wrong disabled'
+              else className += ' disabled'
+            } else if (isSelected) {
+              className += ' selected'
             }
 
             return (
@@ -191,31 +153,34 @@ export default function QuizQuestionPage({
                 key={index}
                 onClick={() => !submitted && setSelectedIndex(index)}
                 disabled={submitted}
-                className={optionClass}
+                className={className}
               >
-                <span className="font-medium text-gray-400 mr-2">
-                  {getOptionLabel(index)}.
-                </span>
-                {option}
+                <span className="quiz-option-label">{getOptionLabel(index)}</span>
+                <span>{option.replace(/^ /, '')}</span>
               </button>
             )
           })}
         </div>
 
         {/* Submit / Next */}
-        <div className="mt-6">
+        <div style={{ marginTop: 16 }}>
           {!submitted ? (
             <button
               onClick={handleSubmit}
               disabled={selectedIndex === null}
-              className="w-full py-3 bg-blue-600 text-white rounded-lg font-medium text-sm hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="btn btn-primary btn-lg"
+              style={{ width: '100%' }}
             >
               Submit Answer
             </button>
           ) : (
             <button
-              onClick={handleNext}
-              className="w-full py-3 bg-blue-600 text-white rounded-lg font-medium text-sm hover:bg-blue-700 transition-colors"
+              onClick={() => {
+                if (nextQuestionId) router.push(`/quiz/${nextQuestionId}?domain=${domain || 'all'}`)
+                else router.push('/quiz')
+              }}
+              className="btn btn-primary btn-lg"
+              style={{ width: '100%' }}
             >
               {nextQuestionId ? 'Next Question →' : 'Back to Quiz Menu'}
             </button>
@@ -223,50 +188,45 @@ export default function QuizQuestionPage({
         </div>
 
         {/* Feedback card */}
-        {showFeedback && (
-          <div className={`mt-6 rounded-xl border p-5 ${
-            isCorrect
-              ? 'bg-green-50 border-green-200'
-              : 'bg-red-50 border-red-200'
-          }`}>
-            <div className="flex items-center gap-2 mb-3">
-              <span className="text-xl">{isCorrect ? '✓' : '✗'}</span>
-              <p className="font-semibold text-sm">
+        {submitted && (
+          <div className={`feedback-card ${isCorrect ? 'correct' : 'wrong'}`}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+              <span style={{ fontSize: 20 }}>{isCorrect ? '✅' : '❌'}</span>
+              <span style={{ fontSize: 14, fontWeight: 600, color: isCorrect ? 'var(--success)' : 'var(--error)' }}>
                 {isCorrect ? 'Correct!' : 'Incorrect'}
-              </p>
+              </span>
             </div>
 
-            {/* Distractor rationale */}
-            {!isCorrect && question.distractors_rationale && question.distractors_rationale.length > 0 && (
-              <div className="mb-3">
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">
-                  Why you got it wrong
+            {!isCorrect && question.distractors_rationale?.[selectedIndex!] && (
+              <div style={{ marginBottom: 12 }}>
+                <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>
+                  Why you chose wrong
+                </div>
+                <p style={{ fontSize: 13, lineHeight: 1.5, color: 'var(--text-secondary)' }}>
+                  {question.distractors_rationale[selectedIndex!]}
                 </p>
-                <p className="text-sm" dangerouslySetInnerHTML={{
-                  __html: question.distractors_rationale[selectedIndex!] || 'Review the teaching point below.'
-                }} />
               </div>
             )}
 
-            {/* Teaching point */}
             {question.teaching_point && (
               <div>
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">
+                <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>
                   Teaching Point
+                </div>
+                <p style={{ fontSize: 13, lineHeight: 1.6, color: 'var(--text-secondary)' }}>
+                  {question.teaching_point}
                 </p>
-                <p className="text-sm leading-relaxed">{question.teaching_point}</p>
               </div>
             )}
 
-            {/* Source reference */}
             {question.source && (
-              <p className="mt-3 text-xs text-gray-400">
+              <p style={{ marginTop: 10, fontSize: 11, color: 'var(--text-tertiary)', fontStyle: 'italic' }}>
                 Source: {question.source}
               </p>
             )}
           </div>
         )}
-      </main>
-    </div>
+      </div>
+    </AppLayout>
   )
 }
