@@ -7,31 +7,7 @@ import AppLayout from '@/components/AppLayout'
 import { getOptionLabel, getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import type { Question } from '@/types'
 
-const domainColorCSS = (domain: string) =>
-  getDomainColor(domain)
-    .replace('bg-blue-500', 'var(--accent-blue)')
-    .replace('bg-emerald-500', 'var(--success)')
-    .replace('bg-violet-500', 'var(--accent-purple)')
-    .replace('bg-amber-500', 'var(--warning)')
-    .replace('bg-rose-500', 'var(--error)')
-    .replace('bg-cyan-500', '#06b6d4')
-    .replace('bg-indigo-500', '#6366f1')
-    .replace('bg-teal-500', '#14b8a6')
-    .replace('bg-pink-500', '#ec4899')
-    .replace('bg-orange-500', '#f97316')
-    .replace('bg-sky-500', '#0ea5e9')
-    .replace('bg-fuchsia-500', '#d946ef')
-    .replace('bg-red-500', 'var(--error)')
-    .replace('bg-yellow-500', 'var(--warning)')
-    .replace('bg-green-500', 'var(--success)')
-    .replace('bg-purple-500', 'var(--accent-purple)')
-    .replace('bg-stone-500', '#78716c')
-    .replace('bg-lime-500', '#84cc16')
-    .replace('bg-slate-500', '#64748b')
-    .replace('bg-amber-600', '#d97706')
-    .replace('bg-teal-600', '#0d9488')
-    .replace('bg-rose-400', '#fb7185')
-    .replace('bg-gray-400', '#9ca3af')
+const domainColorCSS = (domain: string) => getDomainColor(domain)
 
 export default function QuizQuestionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params)

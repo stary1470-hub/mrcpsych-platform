@@ -20,30 +20,30 @@ export function formatDate(dateString: string): string {
 
 export function getDomainColor(domain: string): string {
   const colors: Record<string, string> = {
-    psychopharmacology: 'bg-blue-500',
-    neurobiology: 'bg-emerald-500',
-    psychopathology: 'bg-violet-500',
-    classification: 'bg-amber-500',
-    psychometrics: 'bg-rose-500',
-    research_methodology: 'bg-cyan-500',
-    genetics: 'bg-indigo-500',
-    epidemiology: 'bg-teal-500',
-    affective_disorders: 'bg-pink-500',
-    psychotic_disorders: 'bg-orange-500',
-    anxiety_disorders: 'bg-sky-500',
-    personality_disorders: 'bg-fuchsia-500',
-    legislation_mha: 'bg-red-500',
-    legislation_mca: 'bg-yellow-500',
-    psychotherapy: 'bg-green-500',
-    child_adolescent: 'bg-purple-500',
-    forensic_psychiatry: 'bg-stone-500',
-    learning_disability: 'bg-lime-500',
-    old_age_psychiatry: 'bg-slate-500',
-    substance_misuse: 'bg-amber-600',
-    liaison_psychiatry: 'bg-teal-600',
-    perinatal_psychiatry: 'bg-rose-400',
+    psychopharmacology: '#4b7bec',
+    neurobiology: '#22c55e',
+    psychopathology: '#8b5cf6',
+    classification: '#f59e0b',
+    psychometrics: '#f43f5e',
+    research_methodology: '#06b6d4',
+    genetics: '#6366f1',
+    epidemiology: '#14b8a6',
+    affective_disorders: '#ec4899',
+    psychotic_disorders: '#f97316',
+    anxiety_disorders: '#0ea5e9',
+    personality_disorders: '#d946ef',
+    legislation_mha: '#ef4444',
+    legislation_mca: '#eab308',
+    psychotherapy: '#22c55e',
+    child_adolescent: '#a855f7',
+    forensic_psychiatry: '#78716c',
+    learning_disability: '#84cc16',
+    old_age_psychiatry: '#64748b',
+    substance_misuse: '#d97706',
+    liaison_psychiatry: '#0d9488',
+    perinatal_psychiatry: '#fb7185',
   }
-  return colors[domain] || 'bg-gray-400'
+  return colors[domain] || '#6b7280'
 }
 
 export function getDomainDisplayName(domain: string): string {

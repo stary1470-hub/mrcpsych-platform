@@ -102,7 +102,7 @@ export default function DashboardPage() {
                   onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-blue-subtle)'}
                   onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
                 >
-                  <div style={{ width: 8, height: 8, borderRadius: '50%', background: getDomainColor(s.domain).replace('bg-', '').replace('blue', 'var(--accent-blue)').replace('green', 'var(--success)').replace('emerald', 'var(--success)').replace('red', 'var(--error)').replace('amber', 'var(--warning)').replace('purple', 'var(--accent-purple)'), flexShrink: 0 }} />
+                  <div style={{ width: 8, height: 8, borderRadius: '50%', background: getDomainColor(s.domain), flexShrink: 0 }} />
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                       {getDomainDisplayName(s.domain)}
