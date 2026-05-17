@@ -44,6 +44,10 @@ export default function LoginPage() {
 
           {error && <div style={{ fontSize: 12, color: 'var(--error)', background: 'var(--error-subtle)', padding: '8px 12px', borderRadius: 'var(--radius-sm)' }}>{error}</div>}
 
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: -8 }}>
+            <a href="/forgot-password" style={{ fontSize: 12, color: 'var(--accent-blue)', textDecoration: 'none' }}>Forgot password?</a>
+          </div>
+
           <button type="submit" disabled={loading} className="btn btn-primary btn-lg" style={{ marginTop: 4 }}>
             {loading ? 'Signing in...' : 'Sign in'}
           </button>
