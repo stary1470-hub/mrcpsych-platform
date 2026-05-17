@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import AppLayout from '@/components/AppLayout'
 import { getDomainDisplayName, getDomainColor } from '@/lib/utils'
@@ -12,10 +12,10 @@ interface DomainOption {
 
 export default function QuizMenuPage() {
   const router = useRouter()
-  const searchParams = useSearchParams()
   const supabase = createClient()
   const [domains, setDomains] = useState<DomainOption[]>([])
   const [loading, setLoading] = useState(true)
+  const [adapting, setAdapting] = useState(false)
 
   useEffect(() => {
     const load = async () => {
@@ -57,10 +57,44 @@ export default function QuizMenuPage() {
     }
   }
 
+  const startAdaptive = async () => {
+    setAdapting(true)
+    try {
+      const res = await fetch('/api/quiz/adaptive-start')
+      const data = await res.json()
+      if (data.all_done || !data.question) {
+        router.push('/dashboard')
+        return
+      }
+      router.push(`/quiz/${data.question.id}?adaptive=true`)
+    } catch {
+      setAdapting(false)
+    }
+  }
+
   return (
     <AppLayout title="Practice" subtitle="Select a domain to start">
       {/* Quick start */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 10, marginBottom: 24 }}>
+        <button
+          onClick={startAdaptive}
+          disabled={adapting}
+          className="card"
+          style={{
+            cursor: 'pointer', textAlign: 'left',
+            border: '1px solid var(--accent-blue)',
+            background: 'var(--accent-blue-subtle)',
+            opacity: adapting ? 0.6 : 1,
+          }}
+        >
+          <div style={{ fontSize: 24, marginBottom: 6 }}>🧠</div>
+          <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--accent-blue)' }}>
+            {adapting ? 'Starting...' : 'Adaptive Session'}
+          </div>
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>
+            AI targets your weakest domains first
+          </div>
+        </button>
         <button onClick={() => startQuiz()} className="card" style={{ cursor: 'pointer', textAlign: 'left', border: '1px solid var(--border-subtle)' }}>
           <div style={{ fontSize: 24, marginBottom: 6 }}>🎲</div>
           <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Random Quiz</div>
