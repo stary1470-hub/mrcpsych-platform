@@ -65,7 +65,6 @@ export default function Sidebar() {
           zIndex: 50,
           width: 36,
           height: 36,
-          display: 'none',
           alignItems: 'center',
           justifyContent: 'center',
           borderRadius: 6,
@@ -74,6 +73,7 @@ export default function Sidebar() {
           color: 'var(--text-primary)',
           cursor: 'pointer',
           fontSize: 16,
+          padding: 0,
         } as React.CSSProperties}
       >
         <span>{expanded ? '✕' : '☰'}</span>
