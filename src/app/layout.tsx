@@ -4,7 +4,7 @@ import './globals.css'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'MRCPsych Pro — Adaptive Exam Preparation',
+  title: 'PsychStar — Adaptive MRCPsych Exam Preparation',
   description:
     'Advanced, adaptive question bank for MRCPsych Paper A & B. Built for trainees who want to understand their blind spots and close them before exam day.',
 }

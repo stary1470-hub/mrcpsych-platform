@@ -47,7 +47,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
         <div className="flex items-center gap-6">
           <Link href="/dashboard" className="font-bold text-lg tracking-tight">
-            MRCPsych<span className="text-blue-600">Pro</span>
+            Psych<span style={{ color: 'var(--accent-blue)' }}>Star</span>
           </Link>
           <div className="hidden sm:flex items-center gap-4">
             <Link href="/dashboard" className={linkClass('/dashboard')}>

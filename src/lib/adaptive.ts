@@ -1,5 +1,5 @@
 /**
- * MRCPsych Pro — Adaptive Engine
+ * PsychStar — Adaptive Engine
  *
  * Core algorithm: Wilson score proficiency estimation + weak-domain-first selection.
  *

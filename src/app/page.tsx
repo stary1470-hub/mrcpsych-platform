@@ -29,8 +29,8 @@ export default function HomePage() {
       {/* Brand header */}
       <div style={{ textAlign: 'center', marginBottom: 40 }}>
         <div style={{ fontSize: 32, fontWeight: 700, letterSpacing: '-0.03em' }}>
-          <span className="text-gradient">MRCPsych</span>
-          <span style={{ color: 'var(--text-primary)' }}>Pro</span>
+          <span className="text-gradient">Psych</span>
+          <span style={{ color: 'var(--accent-blue)' }}>Star</span>
         </div>
         <p style={{ color: 'var(--text-tertiary)', fontSize: 14, marginTop: 8 }}>
           Adaptive exam preparation for the MRCPsych

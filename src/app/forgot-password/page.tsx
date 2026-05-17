@@ -19,12 +19,7 @@ export default function ForgotPasswordPage() {
       redirectTo: 'https://mrcpsych-platform.vercel.app/auth/callback',
     })
 
-    if (error) {
-      setError(error.message)
-      setLoading(false)
-      return
-    }
-
+    if (error) { setError(error.message); setLoading(false); return }
     setSent(true)
     setLoading(false)
   }
@@ -53,7 +48,9 @@ export default function ForgotPasswordPage() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-header">
-          <div className="auth-logo" style={{ fontSize: 20 }}>MRCPsychPro</div>
+          <div style={{ fontSize: 24, fontWeight: 700, background: 'var(--gradient-brand)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+            PsychStar
+          </div>
           <p className="auth-subtitle">Reset your password</p>
         </div>
 

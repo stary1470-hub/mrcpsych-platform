@@ -57,26 +57,48 @@ export default function Sidebar() {
       {/* Mobile hamburger */}
       <button
         onClick={() => setExpanded(!expanded)}
-        className="fixed top-3 left-3 z-50 md:hidden w-9 h-9 flex items-center justify-center rounded-lg bg-surface-card border border-border-subtle"
+        className="sidebar-mobile-toggle"
+        style={{
+          position: 'fixed',
+          top: 12,
+          left: 12,
+          zIndex: 50,
+          width: 36,
+          height: 36,
+          display: 'none',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: 6,
+          background: 'var(--surface-card)',
+          border: '1px solid var(--border-subtle)',
+          color: 'var(--text-primary)',
+          cursor: 'pointer',
+          fontSize: 16,
+        } as React.CSSProperties}
       >
-        <span className="text-sm">{expanded ? '✕' : '☰'}</span>
+        <span>{expanded ? '✕' : '☰'}</span>
       </button>
 
       {/* Overlay */}
       {expanded && (
         <div
-          className="fixed inset-0 bg-black/50 z-30 md:hidden"
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0,0,0,0.5)',
+            zIndex: 30,
+          }}
           onClick={() => setExpanded(false)}
         />
       )}
 
       {/* Sidebar */}
-      <aside className={`sidebar ${expanded ? '!block' : ''}`}>
+      <aside className={`sidebar ${expanded ? 'mobile-expanded' : ''}`}>
         <div className="sidebar-header">
           <Link href="/dashboard" className="sidebar-logo">
-            MRCPsych<span className="text-accent-blue">Pro</span>
+            Psych<span style={{ color: 'var(--accent-blue)', background: 'none', WebkitTextFillColor: 'var(--accent-blue)' }}>Star</span>
           </Link>
-          <div className="sidebar-logo-sub">Adaptive Exam Preparation</div>
+          <div className="sidebar-logo-sub">MRCPsych Exam Preparation</div>
         </div>
 
         <nav className="sidebar-nav">
@@ -125,7 +147,14 @@ export default function Sidebar() {
             </div>
             <button
               onClick={handleSignOut}
-              className="text-xs text-text-tertiary hover:text-error transition-colors"
+              style={{
+                fontSize: 12,
+                color: 'var(--text-tertiary)',
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                padding: 0,
+              }}
               title="Sign out"
             >
               ⏻

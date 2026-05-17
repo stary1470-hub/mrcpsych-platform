@@ -1,11 +1,37 @@
 /* ═══════════════════════════════════════════
-   MRCPsych Pro — Design System
+   PsychStar — Design System
    Dark theme · Premium · Medical-grade
    ═══════════════════════════════════════════ */
 
 @import "tailwindcss";
 
-/* ── Design Tokens ────────────────────────── */
+/* ── Tailwind v4 Theme Tokens ───────────── */
+/* These auto-generate utility classes like bg-surface-card, text-text-secondary, etc. */
+@theme {
+  --color-surface-base: #070b14;
+  --color-surface-elevated: #0d1225;
+  --color-surface-card: #111827;
+  --color-surface-card-hover: #1a2237;
+  --color-surface-sidebar: #090d1a;
+  --color-surface-input: #0f1629;
+  --color-border-subtle: #1a2332;
+  --color-border-default: #243044;
+  --color-border-focus: #4b7bec;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #8899b4;
+  --color-text-tertiary: #556680;
+  --color-text-inverse: #070b14;
+  --color-accent-blue: #4b7bec;
+  --color-accent-blue-hover: #5f8bf5;
+  --color-accent-purple: #8b5cf6;
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ── Design Tokens (CSS custom properties) ── */
 :root {
   --surface-base: #070b14;
   --surface-elevated: #0d1225;
@@ -60,15 +86,6 @@
   --sidebar-width: 240px;
   --topbar-height: 56px;
 
-  /* Tailwind theme tokens */
-  --color-bg-base: var(--surface-base);
-  --color-bg-card: var(--surface-card);
-  --color-bg-sidebar: var(--surface-sidebar);
-  --color-border: var(--border-default);
-  --color-text-primary: var(--text-primary);
-  --color-text-secondary: var(--text-secondary);
-  --color-accent: var(--accent-blue);
-
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
@@ -93,23 +110,13 @@ body {
 }
 
 /* ── Scrollbar ────────────────────────────── */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
   background: var(--border-default);
   border-radius: 3px;
 }
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-tertiary);
-}
+::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
 
 /* ── Typography ───────────────────────────── */
 h1, h2, h3, h4, h5, h6 {
@@ -152,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-decoration: none;
 }
 
 .sidebar-logo-sub {
@@ -265,11 +273,66 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-tertiary);
 }
 
+/* ── Sidebar: Mobile Toggle ──────────────── */
+.sidebar-mobile-toggle {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 50;
+  width: 36px;
+  height: 36px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--surface-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar-overlay {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sidebar-mobile-toggle {
+    display: flex;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .sidebar.mobile-expanded {
+    display: flex;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .sidebar-overlay.mobile-visible {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 30;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .page-container {
+    padding: 16px;
+  }
+}
+
 /* ── Main Content ─────────────────────────── */
 .main-content {
   flex: 1;
   margin-left: var(--sidebar-width);
   min-height: 100vh;
+  transition: margin-left 0.2s ease;
 }
 
 .topbar {
@@ -356,6 +419,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   text-decoration: none;
   line-height: 1;
+  font-family: var(--font-sans);
 }
 
 .btn-primary {
@@ -418,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ── Inputs ───────────────────────────────── */
-.input {
+.input, select.input, textarea.input {
   width: 100%;
   padding: 9px 12px;
   background: var(--surface-input);
@@ -465,35 +529,12 @@ select.input {
   line-height: 1.4;
 }
 
-.badge-blue {
-  background: var(--accent-blue-subtle);
-  color: var(--accent-blue);
-}
-
-.badge-green {
-  background: var(--success-subtle);
-  color: var(--success);
-}
-
-.badge-red {
-  background: var(--error-subtle);
-  color: var(--error);
-}
-
-.badge-amber {
-  background: var(--warning-subtle);
-  color: var(--warning);
-}
-
-.badge-purple {
-  background: var(--accent-purple-subtle);
-  color: var(--accent-purple);
-}
-
-.badge-gray {
-  background: rgba(85, 102, 128, 0.15);
-  color: var(--text-tertiary);
-}
+.badge-blue { background: var(--accent-blue-subtle); color: var(--accent-blue); }
+.badge-green { background: var(--success-subtle); color: var(--success); }
+.badge-red { background: var(--error-subtle); color: var(--error); }
+.badge-amber { background: var(--warning-subtle); color: var(--warning); }
+.badge-purple { background: var(--accent-purple-subtle); color: var(--accent-purple); }
+.badge-gray { background: rgba(85, 102, 128, 0.15); color: var(--text-tertiary); }
 
 /* ── Progress Bar ─────────────────────────── */
 .progress-bar {
@@ -593,7 +634,7 @@ select.input {
   color: white;
 }
 
-/* ── Stats ────────────────────────────────── */
+/* ── Stat Cards ───────────────────────────── */
 .stat-card {
   background: var(--surface-card);
   border: 1px solid var(--border-subtle);
@@ -648,10 +689,7 @@ select.input {
   background: var(--surface-card);
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+table { width: 100%; border-collapse: collapse; }
 
 th {
   padding: 10px 16px;
@@ -672,13 +710,8 @@ td {
   border-bottom: 1px solid var(--border-subtle);
 }
 
-tr:last-child td {
-  border-bottom: none;
-}
-
-tr:hover td {
-  background: rgba(75, 123, 236, 0.03);
-}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(75, 123, 236, 0.03); }
 
 /* ── Divider ──────────────────────────────── */
 .divider {
@@ -727,6 +760,10 @@ tr:hover td {
   margin-top: 6px;
 }
 
+@media (max-width: 480px) {
+  .auth-card { padding: 24px 20px; border-radius: var(--radius-lg); }
+}
+
 /* ── Gradient text utility ────────────────── */
 .text-gradient {
   background: var(--gradient-brand);
@@ -761,19 +798,4 @@ tr:hover td {
 
 *:hover > .hover-reveal {
   opacity: 1;
-}
-
-/* ── Responsive ───────────────────────────── */
-@media (max-width: 768px) {
-  .sidebar {
-    display: none;
-  }
-
-  .main-content {
-    margin-left: 0;
-  }
-
-  .page-container {
-    padding: 16px;
-  }
 }

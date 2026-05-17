@@ -28,7 +28,9 @@ export default function LoginPage() {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-header">
-          <div className="auth-logo" style={{ fontSize: 20 }}>MRCPsychPro</div>
+          <div style={{ fontSize: 24, fontWeight: 700, background: 'var(--gradient-brand)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+            PsychStar
+          </div>
           <p className="auth-subtitle">Sign in to your account</p>
         </div>
 
