@@ -1,0 +1,80 @@
+[
+  {
+    "stem": "Which of the following dopamine pathways is most strongly implicated in the positive symptoms of schizophrenia?",
+    "options": [
+      " Mesocortical pathway",
+      " Mesolimbic pathway",
+      " Nigrostriatal pathway",
+      " Tuberoinfundibular pathway",
+      " All of the above"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The mesocortical pathway is associated with negative and cognitive symptoms, not positive symptoms.",
+      "Correct. The mesolimbic pathway (VTA → nucleus accumbens) is the primary pathway implicated in positive symptoms via D2 receptor hyperstimulation.",
+      "The nigrostriatal pathway is involved in motor function and is the pathway affected in antipsychotic-induced extrapyramidal side effects.",
+      "The tuberoinfundibular pathway regulates prolactin release and is associated with antipsychotic-induced hyperprolactinaemia.",
+      "Only the mesolimbic pathway is primarily implicated in positive symptoms, though other pathways are involved in other symptom domains."
+    ],
+    "teaching_point": "The dopamine hypothesis of schizophrenia posits that positive symptoms arise from hyperdopaminergia in the mesolimbic pathway (VTA → nucleus accumbens). Negative and cognitive symptoms are more associated with hypodopaminergia in the mesocortical pathway.",
+    "domain": "psychopharmacology",
+    "subdomain": "dopamine_pathways",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "A",
+    "tags": ["dopamine", "schizophrenia", "positive_symptoms", "mesolimbic"],
+    "source": "Stahl SM. Stahl's Essential Psychopharmacology. 5th ed."
+  },
+  {
+    "stem": "A 72-year-old man with a history of vascular dementia is brought to the ED by his daughter. He has been increasingly confused over 3 days and has been seen drinking from a toilet bowl. On examination, he is disoriented, has a fluctuating level of consciousness, and is febrile (38.9°C). Which of the following is the most likely diagnosis?",
+    "options": [
+      " Vascular dementia – worsening",
+      " Delirium superimposed on vascular dementia",
+      " Lewy body dementia",
+      " Acute psychotic episode",
+      " Frontotemporal dementia"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "While vascular dementia does fluctuate, the acute onset over days with fever, fluctuating consciousness, and behavioural change points to delirium rather than a simple worsening of the dementia.",
+      "Correct. Delirium superimposed on dementia is common in elderly patients with known cognitive impairment. Key features: acute onset, fluctuating consciousness, inattention, and an underlying medical cause (UTI, infection, electrolyte imbalance).",
+      "DLB also presents with fluctuating cognition, but the onset is more subacute, and the diagnostic criteria require core features (visual hallucinations, parkinsonism, RBD) that are not described here.",
+      "A psychotic episode would present with delusions or hallucinations without the acute cognitive decline, fluctuating consciousness, or fever.",
+      "Frontotemporal dementia typically presents with personality and behavioural changes in younger patients, with a gradual onset over years, not days."
+    ],
+    "teaching_point": "Delirium superimposed on dementia is a common and under-recognised emergency. The key distinguishing features from dementia alone are: (1) acute onset (hours to days), (2) fluctuating level of consciousness, (3) reduced ability to focus attention, and (4) evidence of an underlying medical cause (infection, electrolyte disturbance, medication toxicity). Up to 50% of hospitalised older adults with dementia have delirium.",
+    "domain": "old_age_psychiatry",
+    "subdomain": "delirium",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["delirium", "dementia", "old_age", "confusion"],
+    "source": "NICE CG103: Delirium"
+  },
+  {
+    "stem": "Which section of the Mental Health Act 1983 (as amended 2007) allows for the detention of an informal inpatient who is attempting to leave the ward and is assessed as having a mental disorder requiring urgent assessment?",
+    "options": [
+      " Section 2",
+      " Section 3",
+      " Section 4",
+      " Section 5(2)",
+      " Section 5(4)"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Section 2 is an assessment order lasting up to 28 days, but it requires two approved clinicians and an application by an AMHP – not appropriate for the urgent scenario of a patient already an inpatient attempting to leave.",
+      "Section 3 is a treatment order lasting up to 6 months and requires two clinicians – not for emergency hold of an informal patient.",
+      "Section 4 is an emergency assessment order for 72 hours used when the full s2 process is not feasible, but this is for community presentations, not holding an informal inpatient.",
+      "Correct. Section 5(2) allows the responsible clinician (or their nominated deputy) to detain an informal inpatient for up to 72 hours to allow assessment for s2 or s3. This is the 'holding power' for inpatients.",
+      "Section 5(4) is the nurses' holding power (6 hours) available when the doctor is not immediately available. The scenario implies medical staff are present."
+    ],
+    "teaching_point": "Section 5(2) MHA is the 'doctor's holding power' — used to prevent an informal inpatient from leaving while assessment for formal detention under s2 or s3 is arranged. It lasts up to 72 hours. Section 5(4) is the nurse's power (6 hours) when no doctor is available. Know the difference.",
+    "domain": "legislation_mha",
+    "subdomain": "detention_sections",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["MHA", "section_5", "holding_power", "detention"],
+    "source": "MHA 1983 Code of Practice (2015)"
+  }
+]

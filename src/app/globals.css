@@ -1,0 +1,81 @@
+/* MRCPsych Platform — Global Styles */
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --border: #e5e7eb;
+  --success: #16a34a;
+  --error: #dc2626;
+  --warning: #f59e0b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-warning: var(--warning);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --muted: #1f2937;
+    --muted-foreground: #9ca3af;
+    --border: #374151;
+    --success: #22c55e;
+    --error: #ef4444;
+    --warning: #f59e0b;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom utility classes */
+.quiz-option {
+  @apply w-full text-left p-4 rounded-lg border border-[var(--border)] 
+         transition-all duration-150 cursor-pointer
+         hover:border-[var(--primary)] hover:bg-blue-50;
+}
+
+.quiz-option-correct {
+  @apply border-[var(--success)] bg-green-50;
+}
+
+.quiz-option-wrong {
+  @apply border-[var(--error)] bg-red-50;
+}
+
+.quiz-option-disabled {
+  @apply opacity-60 cursor-not-allowed;
+}
+
+/* Loading skeleton */
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--muted) 25%, #e5e7eb 50%, var(--muted) 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}
