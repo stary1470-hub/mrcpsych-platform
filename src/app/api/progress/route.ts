@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await request.json()
-  const { question_id, selected_index } = body
+  const { question_id, selected_index, time_taken_seconds } = body
 
   if (!question_id || selected_index === undefined) {
     return NextResponse.json({ error: 'question_id and selected_index required' }, { status: 400 })
@@ -31,6 +31,7 @@ export async function POST(request: NextRequest) {
     question_id,
     selected_index,
     correct,
+    time_taken_seconds: typeof time_taken_seconds === 'number' ? time_taken_seconds : null,
   }, {
     onConflict: 'user_id, question_id',
   })

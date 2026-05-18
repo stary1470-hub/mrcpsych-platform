@@ -1,11 +1,16 @@
 'use client'
 
-import { useEffect, useState, use } from 'react'
+import { useEffect, useState, useRef, useCallback, use } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import AppLayout from '@/components/AppLayout'
 import { getOptionLabel, getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import type { Question } from '@/types'
+import {
+  EXAM_CONFIG_DEFAULT, EXAM_STORAGE_KEY,
+  calculateQuestionTime, isEmiQuestion,
+  type ExamState,
+} from '@/types'
 
 interface AdaptiveSessionStats {
   total_attempted: number
@@ -14,12 +19,143 @@ interface AdaptiveSessionStats {
   domains_total: number
 }
 
+// ── Timer display component ────────────────────────
+function TimerDisplay({
+  totalSeconds,
+  onTimeUp,
+  paused = false,
+}: {
+  totalSeconds: number
+  onTimeUp: () => void
+  paused?: boolean
+}) {
+  const [remaining, setRemaining] = useState(totalSeconds)
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  useEffect(() => {
+    if (paused) {
+      if (intervalRef.current) clearInterval(intervalRef.current)
+      return
+    }
+    intervalRef.current = setInterval(() => {
+      setRemaining(prev => {
+        if (prev <= 1) {
+          if (intervalRef.current) clearInterval(intervalRef.current)
+          onTimeUp()
+          return 0
+        }
+        return prev - 1
+      })
+    }, 1000)
+    return () => { if (intervalRef.current) clearInterval(intervalRef.current) }
+  }, [paused, onTimeUp])
+
+  const hours = Math.floor(remaining / 3600)
+  const mins = Math.floor((remaining % 3600) / 60)
+  const secs = remaining % 60
+  const pct = (remaining / totalSeconds) * 100
+  const isLow = remaining < 300 // < 5 minutes
+  const isCritical = remaining < 60 // < 1 minute
+
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', gap: 12,
+      padding: '10px 16px', borderRadius: 'var(--radius-md)',
+      background: isCritical ? 'rgba(248, 113, 113, 0.08)' : isLow ? 'rgba(251, 191, 36, 0.06)' : 'var(--surface-card)',
+      border: `1px solid ${isCritical ? 'rgba(248, 113, 113, 0.2)' : isLow ? 'rgba(251, 191, 36, 0.15)' : 'var(--border-subtle)'}`,
+      transition: 'all 0.3s',
+    }}>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+        stroke={isCritical ? 'var(--error)' : isLow ? 'var(--warning)' : 'var(--text-tertiary)'}
+        strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </svg>
+      <div style={{ flex: 1 }}>
+        <div style={{
+          fontFamily: 'var(--font-mono)', fontSize: 16, fontWeight: 600,
+          color: isCritical ? 'var(--error)' : isLow ? 'var(--warning)' : 'var(--text-primary)',
+          letterSpacing: '0.05em',
+        }}>
+          {hours > 0 ? `${hours}:` : ''}{mins.toString().padStart(2, '0')}:{secs.toString().padStart(2, '0')}
+        </div>
+      </div>
+      <div style={{
+        width: 80, height: 4, borderRadius: 2,
+        background: 'var(--surface-input)', overflow: 'hidden',
+      }}>
+        <div style={{
+          height: '100%', width: `${pct}%`, borderRadius: 2,
+          background: isCritical ? 'var(--error)' : isLow ? 'var(--warning)' : 'var(--accent-teal)',
+          transition: 'width 1s linear',
+        }} />
+      </div>
+    </div>
+  )
+}
+
+// ── Per-question timer component ───────────────────
+function QuestionTimer({
+  allocatedSeconds,
+  onTimeUp,
+}: {
+  allocatedSeconds: number
+  onTimeUp: () => void
+}) {
+  const [elapsed, setElapsed] = useState(0)
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  useEffect(() => {
+    setElapsed(0)
+    intervalRef.current = setInterval(() => {
+      setElapsed(prev => {
+        const next = prev + 1
+        if (next >= allocatedSeconds) {
+          if (intervalRef.current) clearInterval(intervalRef.current)
+          onTimeUp()
+          return next
+        }
+        return next
+      })
+    }, 1000)
+    return () => { if (intervalRef.current) clearInterval(intervalRef.current) }
+  }, [allocatedSeconds, onTimeUp])
+
+  const remaining = Math.max(0, allocatedSeconds - elapsed)
+  const pct = (elapsed / allocatedSeconds) * 100
+  const isLow = remaining < 10
+  const isCritical = remaining < 5
+
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{
+        fontFamily: 'var(--font-mono)', fontSize: 12, fontWeight: 600,
+        color: isCritical ? 'var(--error)' : isLow ? 'var(--warning)' : 'var(--text-tertiary)',
+        minWidth: 32, textAlign: 'right',
+      }}>
+        {remaining}s
+      </div>
+      <div style={{
+        flex: 1, height: 3, borderRadius: 2,
+        background: 'var(--surface-input)', overflow: 'hidden', maxWidth: 120,
+      }}>
+        <div style={{
+          height: '100%', width: `${Math.min(100, pct)}%`, borderRadius: 2,
+          background: isCritical ? 'var(--error)' : isLow ? 'var(--warning)' : 'var(--accent-teal-dim)',
+          transition: 'width 1s linear',
+        }} />
+      </div>
+    </div>
+  )
+}
+
 export default function QuizQuestionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params)
   const router = useRouter()
   const searchParams = useSearchParams()
   const supabase = createClient()
   const isAdaptive = searchParams.get('adaptive') === 'true'
+  const isExamMode = searchParams.get('exam') === 'true'
   const domain = searchParams.get('domain')
 
   const [question, setQuestion] = useState<Question | null>(null)
@@ -32,10 +168,94 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   const [allDone, setAllDone] = useState(false)
   const [nextLoading, setNextLoading] = useState(false)
 
+  // Exam mode state
+  const [examTimeRemaining, setExamTimeRemaining] = useState<number | null>(null)
+  const [questionStartTime, setQuestionStartTime] = useState(Date.now())
+  const [examAnsweredCount, setExamAnsweredCount] = useState(0)
+  const [examTotalQuestions, setExamTotalQuestions] = useState(0)
+
+  const questionTimeRef = useRef(0)
+
+  // Initialize exam state from localStorage
+  const getExamState = useCallback((): ExamState | null => {
+    if (typeof window === 'undefined') return null
+    try {
+      const stored = localStorage.getItem(EXAM_STORAGE_KEY)
+      if (!stored) return null
+      return JSON.parse(stored) as ExamState
+    } catch { return null }
+  }, [])
+
+  const saveExamState = useCallback((state: ExamState) => {
+    if (typeof window === 'undefined') return
+    localStorage.setItem(EXAM_STORAGE_KEY, JSON.stringify(state))
+  }, [])
+
+  const clearExamState = useCallback(() => {
+    if (typeof window === 'undefined') return
+    localStorage.removeItem(EXAM_STORAGE_KEY)
+  }, [])
+
+  // Calculate total exam time remaining (in seconds)
+  const getExamTimeRemaining = useCallback((): number => {
+    const state = getExamState()
+    if (!state) return EXAM_CONFIG_DEFAULT.totalMinutes * 60
+    const elapsed = Math.floor((Date.now() - state.startedAt) / 1000)
+    return Math.max(0, (EXAM_CONFIG_DEFAULT.totalMinutes * 60) - elapsed)
+  }, [getExamState])
+
+  // Handle time up (auto-submit)
+  const handleTimeUp = useCallback(() => {
+    if (!submitted && selectedIndex !== null) {
+      // Auto-submit current answer
+      handleSubmit()
+    } else if (!submitted) {
+      // No answer selected — mark as unanswered and go to results
+      setAllDone(true)
+    }
+  }, [submitted, selectedIndex])
+
+  // Handle question-level time up (auto-advance)
+  const handleQuestionTimeUp = useCallback(() => {
+    if (!submitted) {
+      // Auto-submit with whatever is selected (or skip if nothing selected)
+      if (selectedIndex !== null) {
+        handleSubmit()
+      } else {
+        // Skip this question
+        handleNext()
+      }
+    }
+  }, [submitted, selectedIndex])
+
+  // Initialize exam timer on mount
+  useEffect(() => {
+    if (!isExamMode) return
+
+    let state = getExamState()
+    if (!state) {
+      // First question — create exam state
+      state = {
+        startedAt: Date.now(),
+        answeredIds: [],
+        answers: [],
+        totalQuestions: 0, // Will be set when we know how many questions exist
+      }
+      saveExamState(state)
+    }
+
+    // Calculate remaining time
+    const elapsed = Math.floor((Date.now() - state.startedAt) / 1000)
+    const remaining = Math.max(0, (EXAM_CONFIG_DEFAULT.totalMinutes * 60) - elapsed)
+    setExamTimeRemaining(remaining)
+    setExamAnsweredCount(state.answeredIds.length)
+  }, [isExamMode, getExamState, saveExamState])
+
   useEffect(() => { loadQuestion() }, [id])
 
   const loadQuestion = async () => {
     setLoading(true); setSelectedIndex(null); setSubmitted(false); setNextLoading(false)
+    setQuestionStartTime(Date.now())
 
     if (isAdaptive && !domain) {
       const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
@@ -53,22 +273,56 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
     if (!q) { router.push('/quiz'); return }
     setQuestion(q as Question)
+
+    // In exam mode, update total questions if not set
+    if (isExamMode) {
+      const state = getExamState()
+      if (state && state.totalQuestions === 0) {
+        const { count } = await supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true)
+        state.totalQuestions = count || 200
+        saveExamState(state)
+        setExamTotalQuestions(state.totalQuestions)
+      } else if (state) {
+        setExamTotalQuestions(state.totalQuestions)
+      }
+    }
+
     setLoading(false)
   }
 
   const handleSubmit = async () => {
     if (selectedIndex === null || !question || submitted) return
     const correct = selectedIndex === question.correct_index
+    const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000)
     setIsCorrect(correct)
     setSubmitted(true)
     setSessionStats(p => ({ correct: p.correct + (correct ? 1 : 0), total: p.total + 1 }))
 
+    // Record answer
     const { data: { user } } = await supabase.auth.getUser()
     if (user) {
       await supabase.from('user_progress').upsert(
-        { user_id: user.id, question_id: question.id, selected_index: selectedIndex, correct },
+        { user_id: user.id, question_id: question.id, selected_index: selectedIndex, correct, time_taken_seconds: timeTaken },
         { onConflict: 'user_id, question_id' }
       )
+    }
+
+    // Update exam state
+    if (isExamMode) {
+      const state = getExamState()
+      if (state) {
+        if (!state.answeredIds.includes(question.id)) {
+          state.answeredIds.push(question.id)
+          state.answers.push({
+            questionId: question.id,
+            selectedIndex,
+            correct,
+            timeTakenSeconds: timeTaken,
+          })
+        }
+        saveExamState(state)
+        setExamAnsweredCount(state.answeredIds.length)
+      }
     }
   }
 
@@ -76,11 +330,25 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     if (!isAdaptive) {
       let query = supabase.from('questions').select('id').eq('is_active', true).neq('id', id).order('id')
       if (domain && domain !== 'all') query = query.eq('domain', domain)
+
+      // In exam mode, exclude already answered questions
+      if (isExamMode) {
+        const state = getExamState()
+        if (state && state.answeredIds.length > 0) {
+          query = query.not('id', 'in', `(${state.answeredIds.join(',')})`)
+        }
+      }
+
       const { data: nextQs } = await query.limit(1)
       if (nextQs && nextQs.length > 0) {
-        router.push(`/quiz/${nextQs[0].id}?domain=${domain || 'all'}`)
+        const examParam = isExamMode ? '&exam=true' : ''
+        router.push(`/quiz/${nextQs[0].id}?domain=${domain || 'all'}${examParam}`)
       } else {
-        router.push('/quiz')
+        if (isExamMode) {
+          setAllDone(true)
+        } else {
+          router.push('/quiz')
+        }
       }
       return
     }
@@ -102,7 +370,106 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     }
   }
 
-  // Completion screen
+  // Calculate per-question time allocation
+  const getQuestionAllocatedTime = useCallback((): number => {
+    if (!isExamMode || examTimeRemaining === null) return 0
+    const state = getExamState()
+    if (!state) return 0
+    const remaining = Math.max(0, state.totalQuestions - state.answeredIds.length)
+    const questionsRemaining = Math.max(1, examTotalQuestions - examAnsweredCount)
+    return calculateQuestionTime(examTimeRemaining, questionsRemaining, question ? isEmiQuestion(question.stem) : false)
+  }, [isExamMode, examTimeRemaining, examTotalQuestions, examAnsweredCount, question, getExamState])
+
+  // ── Exam results screen ───────────────────────────
+  if (allDone && isExamMode) {
+    const state = getExamState()
+    const totalAnswered = state?.answers.length || 0
+    const totalCorrect = state?.answers.filter(a => a.correct).length || 0
+    const pct = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0
+    const totalTime = state ? Math.floor((Date.now() - state.startedAt) / 1000) : 0
+    const timeMins = Math.floor(totalTime / 60)
+    const timeSecs = totalTime % 60
+    const avgTimePerQ = totalAnswered > 0 ? Math.round(totalTime / totalAnswered) : 0
+
+    clearExamState()
+
+    return (
+      <AppLayout title="Exam Complete" subtitle="Your results">
+        <div style={{ maxWidth: 560, margin: '40px auto', textAlign: 'center' }} className="animate-slide-up">
+          <div style={{
+            width: 80, height: 80, borderRadius: 20,
+            background: pct >= 60 ? 'var(--success-subtle)' : 'var(--error-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 24px',
+          }}>
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none"
+              stroke={pct >= 60 ? 'var(--success)' : 'var(--error)'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              {pct >= 60
+                ? <><path d="M22 11.08V12a10 10 0 11-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></>
+                : <><circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" /></>
+              }
+            </svg>
+          </div>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 28, fontWeight: 400, marginBottom: 8 }}>
+            {pct >= 60 ? 'Well Done!' : 'Keep Practising'}
+          </h2>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 32, lineHeight: 1.7 }}>
+            You answered {totalAnswered} questions in {timeMins}m {timeSecs}s.
+            {pct >= 60 ? ' You\'re on track for exam day.' : ' Focus on your weak domains for next time.'}
+          </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12, marginBottom: 32 }}>
+            <div className="stat-card">
+              <div className="stat-value" style={{ color: pct >= 60 ? 'var(--success)' : 'var(--error)', fontSize: 24 }}>{pct}%</div>
+              <div className="stat-label">Score</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-value" style={{ fontSize: 24 }}>{totalCorrect}/{totalAnswered}</div>
+              <div className="stat-label">Correct</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-value" style={{ fontSize: 24 }}>{timeMins}m</div>
+              <div className="stat-label">Time Used</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-value" style={{ fontSize: 24 }}>{avgTimePerQ}s</div>
+              <div className="stat-label">Avg / Q</div>
+            </div>
+          </div>
+
+          {/* Pass line indicator */}
+          <div style={{
+            padding: '16px 20px', borderRadius: 'var(--radius-md)',
+            background: pct >= 60 ? 'var(--success-subtle)' : 'var(--error-subtle)',
+            border: `1px solid ${pct >= 60 ? 'rgba(52, 211, 153, 0.2)' : 'rgba(248, 113, 113, 0.2)'}`,
+            marginBottom: 32, textAlign: 'left',
+          }}>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 8 }}>
+              Exam Threshold
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+              <div style={{ flex: 1, height: 8, borderRadius: 4, background: 'var(--surface-input)', overflow: 'hidden', position: 'relative' }}>
+                <div style={{ height: '100%', width: `${Math.min(100, pct)}%`, borderRadius: 4, background: pct >= 60 ? 'var(--gradient-success)' : 'var(--gradient-error)', transition: 'width 0.8s' }} />
+                <div style={{ position: 'absolute', left: '60%', top: -2, bottom: -2, width: 2, background: 'var(--text-tertiary)', borderRadius: 1 }} />
+              </div>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 600, color: pct >= 60 ? 'var(--success)' : 'var(--error)' }}>
+                {pct}% / 60%
+              </span>
+            </div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)', marginTop: 6 }}>
+              {pct >= 60 ? 'Above pass threshold — strong performance' : 'Below pass threshold — review weak domains'}
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
+            <button onClick={() => router.push('/dashboard')} className="btn btn-primary">View Dashboard</button>
+            <button onClick={() => router.push('/quiz')} className="btn btn-secondary">Back to Quiz Menu</button>
+          </div>
+        </div>
+      </AppLayout>
+    )
+  }
+
+  // ── Adaptive completion screen ────────────────────
   if (allDone && adaptiveStats) {
     const pct = adaptiveStats.total_attempted > 0
       ? Math.round((adaptiveStats.total_correct / adaptiveStats.total_attempted) * 100) : 0
@@ -137,10 +504,10 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     )
   }
 
-  // Loading
+  // ── Loading ────────────────────────────────────────
   if (loading) {
     return (
-      <AppLayout title="Practice">
+      <AppLayout title={isExamMode ? 'Exam' : 'Practice'}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
           <div className="skeleton" style={{ height: 28, width: 200, marginBottom: 20 }} />
           <div className="card" style={{ padding: 28 }}>
@@ -156,11 +523,28 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
 
   if (!question) return null
 
+  const isEmi = isEmiQuestion(question.stem)
+  const allocatedTime = getQuestionAllocatedTime()
+
   return (
-    <AppLayout title="Practice" subtitle={isAdaptive ? 'Adaptive session' : 'Answer the question below'}>
+    <AppLayout
+      title={isExamMode ? 'Exam Mode' : 'Practice'}
+      subtitle={isAdaptive ? 'Adaptive session' : isExamMode ? `${EXAM_CONFIG_DEFAULT.totalMinutes} min · ${examTotalQuestions} questions` : 'Answer the question below'}
+    >
       <div style={{ maxWidth: 720, margin: '0 auto' }}>
+        {/* Exam timer (sticky at top) */}
+        {isExamMode && examTimeRemaining !== null && (
+          <div style={{ marginBottom: 16 }} className="animate-fade-in">
+            <TimerDisplay
+              totalSeconds={EXAM_CONFIG_DEFAULT.totalMinutes * 60}
+              onTimeUp={handleTimeUp}
+              paused={submitted}
+            />
+          </div>
+        )}
+
         {/* Header meta */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 20, flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16, flexWrap: 'wrap' }}>
           {isAdaptive && (
             <span className="badge badge-teal" style={{ fontWeight: 700 }}>
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -169,6 +553,15 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
                 <path d="M2 12l10 5 10-5" />
               </svg>
               Adaptive
+            </span>
+          )}
+          {isExamMode && (
+            <span className="badge" style={{ background: 'rgba(251, 191, 36, 0.1)', color: 'var(--warning)', fontWeight: 700 }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Exam
             </span>
           )}
           {question.domain && (
@@ -182,17 +575,34 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
               {question.difficulty}
             </span>
           )}
+          {isEmi && <span className="badge badge-gray">EMI</span>}
           {question.bloom_taxonomy && <span className="badge badge-gray">{question.bloom_taxonomy}</span>}
           <div style={{ flex: 1 }} />
+
+          {/* Per-question timer (exam mode only) */}
+          {isExamMode && !submitted && allocatedTime > 0 && (
+            <QuestionTimer
+              key={id}
+              allocatedSeconds={allocatedTime}
+              onTimeUp={handleQuestionTimeUp}
+            />
+          )}
+
+          {/* Session stats */}
           {isAdaptive && adaptiveStats && (
             <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
               <span className="badge badge-gray">{adaptiveStats.domains_done}/{adaptiveStats.domains_total} domains</span>
               <span className="badge badge-gray">{sessionStats.total > 0 ? `${sessionStats.correct}/${sessionStats.total}` : `${adaptiveStats.total_correct}/${adaptiveStats.total_attempted}`}</span>
             </div>
           )}
-          {!isAdaptive && sessionStats.total > 0 && (
+          {!isAdaptive && !isExamMode && sessionStats.total > 0 && (
             <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', fontWeight: 600 }}>
               Session: {sessionStats.correct}/{sessionStats.total}
+            </span>
+          )}
+          {isExamMode && (
+            <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', fontWeight: 600 }}>
+              {examAnsweredCount}/{examTotalQuestions} answered
             </span>
           )}
         </div>
@@ -230,49 +640,63 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
         <div style={{ marginTop: 20 }}>
           {!submitted ? (
             <button onClick={handleSubmit} disabled={selectedIndex === null} className="btn btn-primary btn-lg" style={{ width: '100%' }}>
-              Submit Answer
+              {isExamMode ? 'Submit & Next' : 'Submit Answer'}
             </button>
           ) : (
             <button onClick={handleNext} disabled={nextLoading} className="btn btn-primary btn-lg" style={{ width: '100%' }}>
-              {nextLoading ? 'Loading next...' : isAdaptive ? 'Next Adaptive Question' : 'Next Question'}
+              {nextLoading
+                ? 'Loading next...'
+                : isExamMode
+                  ? (examAnsweredCount >= examTotalQuestions ? 'Finish Exam' : 'Next Question')
+                  : isAdaptive
+                    ? 'Next Adaptive Question'
+                    : 'Next Question'
+              }
             </button>
           )}
         </div>
 
-        {/* Feedback card */}
+        {/* Feedback card (practice mode only — exam mode shows brief feedback) */}
         {submitted && (
           <div className={`feedback-card ${isCorrect ? 'correct' : 'wrong'}`}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
               <div className={isCorrect ? 'correct-burst' : ''} style={{
-                width: 32, height: 32, borderRadius: '50%',
+                width: 28, height: 28, borderRadius: '50%',
                 background: isCorrect ? 'var(--success)' : 'var(--error)',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
               }}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--surface-base)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--surface-base)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                   {isCorrect ? <polyline points="20 6 9 17 4 12" /> : <><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></>}
                 </svg>
               </div>
-              <span style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400, color: isCorrect ? 'var(--success)' : 'var(--error)' }}>
+              <span style={{ fontFamily: 'var(--font-serif)', fontSize: 16, fontWeight: 400, color: isCorrect ? 'var(--success)' : 'var(--error)' }}>
                 {isCorrect ? 'Correct!' : 'Incorrect'}
               </span>
             </div>
 
-            {!isCorrect && question.distractors_rationale?.[selectedIndex!] && (
-              <div style={{ marginBottom: 16 }}>
+            {/* In exam mode, show condensed feedback; in practice mode, show full teaching cascade */}
+            {!isExamMode && !isCorrect && question.distractors_rationale?.[selectedIndex!] && (
+              <div style={{ marginBottom: 12 }}>
                 <div className="feedback-section-label">Why you chose wrong</div>
                 <p className="feedback-text">{question.distractors_rationale[selectedIndex!]}</p>
               </div>
             )}
 
-            {question.teaching_point && (
+            {!isExamMode && question.teaching_point && (
               <div>
                 <div className="feedback-section-label">Teaching Point</div>
                 <p className="feedback-text" style={{ lineHeight: 1.8 }}>{question.teaching_point}</p>
               </div>
             )}
 
-            {question.source && (
-              <p style={{ marginTop: 14, fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', fontStyle: 'italic' }}>
+            {isExamMode && (
+              <p style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
+                Full explanations available after exam completion.
+              </p>
+            )}
+
+            {question.source && !isExamMode && (
+              <p style={{ marginTop: 10, fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)', fontStyle: 'italic' }}>
                 Source: {question.source}
               </p>
             )}

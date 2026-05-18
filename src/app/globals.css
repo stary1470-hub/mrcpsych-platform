@@ -1049,3 +1049,86 @@ tr:hover td { background: rgba(20, 184, 166, 0.03); }
 .correct-burst {
   animation: confettiPop 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+/* ── Exam Mode ──────────────────────────────── */
+.exam-timer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  background: var(--surface-card);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.3s;
+}
+
+.exam-timer.low {
+  background: rgba(251, 191, 36, 0.06);
+  border-color: rgba(251, 191, 36, 0.15);
+}
+
+.exam-timer.critical {
+  background: rgba(248, 113, 113, 0.08);
+  border-color: rgba(248, 113, 113, 0.2);
+  animation: pulseGlow 1.5s ease-in-out infinite;
+}
+
+.exam-timer-value {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.exam-timer-value.low { color: var(--warning); }
+.exam-timer-value.critical { color: var(--error); }
+
+.question-timer-bar {
+  flex: 1;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--surface-input);
+  overflow: hidden;
+  max-width: 120px;
+}
+
+.question-timer-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 1s linear;
+}
+
+/* ── Exam progress indicator ── */
+.exam-progress {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.exam-progress-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--border-default);
+  transition: all 0.2s;
+}
+
+.exam-progress-dot.answered {
+  background: var(--accent-teal);
+}
+
+.exam-progress-dot.correct {
+  background: var(--success);
+  box-shadow: 0 0 4px rgba(52, 211, 153, 0.3);
+}
+
+.exam-progress-dot.wrong {
+  background: var(--error);
+  box-shadow: 0 0 4px rgba(248, 113, 113, 0.3);
+}
+
+/* ── @keyframes spin (for loading spinner) ── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
