@@ -15,6 +15,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. In a case-control study, participants are selected based on outcome status (cases with the disease vs controls without), and exposure is retrospectively ascertained. This design is efficient for rare outcomes and when the latency between exposure and outcome is long. The key limitation is recall bias — cases may differentially recall exposures compared with controls. Reference: BMJ 2008;337:a1022.",
       "Cross-sectional studies assess exposure and outcome simultaneously at a single time point, not retrospectively from outcome to exposure.",
       "A prospective cohort study would follow participants forward in time from exposure to outcome, not recruit based on outcome status.",
       "Retrospective cohort studies identify a historical cohort based on past exposure and follow up to outcome — this study recruits based on outcome (depression vs no depression), not exposure.",
@@ -31,7 +32,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["study designs", "case-control study", "epidemiology", "research methods"],
+    "tags": [
+      "study designs",
+      "case-control study",
+      "epidemiology",
+      "research methods"
+    ],
     "source": "SPMM EMI Research Methods; BMJ Evidence-Based Medicine"
   },
   {
@@ -50,6 +56,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. This is a parallel-group RCT — the gold standard for establishing treatment efficacy. Random allocation minimises confounding by distributing known and unknown prognostic factors evenly between groups. Key quality markers include allocation concealment, blinding (where possible), and intention-to-treat analysis. Reference: CONSORT 2010 statement, BMJ 2010;340:c332.",
       "Case-control studies select based on outcome; this study randomises to intervention groups.",
       "Cross-sectional studies measure at one time point; this study follows up over 12 weeks.",
       "Prospective cohort studies do not involve random allocation — participants are followed forward without random assignment.",
@@ -66,7 +73,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["study designs", "RCT", "randomised controlled trial", "research methods"],
+    "tags": [
+      "study designs",
+      "RCT",
+      "randomised controlled trial",
+      "research methods"
+    ],
     "source": "SPMM EMI Research Methods; CONSORT guidelines"
   },
   {
@@ -85,6 +97,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. A cross-sectional study measures exposure and outcome simultaneously at a single time point. It is useful for determining prevalence but cannot establish temporality (which came first, exposure or outcome). Surveys are commonly cross-sectional in design. Reference: BMJ 2012;344:e3677.",
       "Case-control studies compare cases with controls based on outcome status.",
       "Prospective cohort studies follow participants forward over time.",
       "Retrospective cohort studies look back at historical data from existing records.",
@@ -101,7 +114,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["study designs", "cross-sectional", "survey", "research methods"],
+    "tags": [
+      "study designs",
+      "cross-sectional",
+      "survey",
+      "research methods"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -120,6 +138,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. This is a prospective cohort study: participants are identified at baseline and followed forward in time to observe outcomes. The key strength is the ability to establish temporality and calculate incidence rates. The key limitation is attrition (loss to follow-up). Cohort studies are ideal for studying prognosis and natural history of disease. Reference: BMJ 2009;339:b2535.",
       "Retrospective cohort studies use existing records rather than following participants forward from baseline.",
       "Case-control studies select based on outcome, not exposure.",
       "Cross-sectional studies measure at one time point, not over 5 years of follow-up.",
@@ -136,7 +155,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["study designs", "prospective cohort", "observational", "prognosis"],
+    "tags": [
+      "study designs",
+      "prospective cohort",
+      "observational",
+      "prognosis"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -157,6 +181,7 @@
     "distractors_rationale": [
       "Phenomenological studies focus specifically on the lived experience of a phenomenon, not the broader service access experience.",
       "Grounded theory aims to develop theoretical explanations from data, not simply identify themes.",
+      "This is the correct answer. Thematic analysis is a widely used qualitative method that involves identifying, analysing, and reporting patterns (themes) within data. It differs from grounded theory (which aims to generate theory) and phenomenological approaches (which focus on the essence of lived experience). Qualitative studies are suited to exploring experiences, beliefs, and processes that cannot be quantified. Reference: Braun V, Clarke V. Using thematic analysis in psychology. Qual Res Psychol 2006;3(2):77-101.",
       "Cross-sectional studies measure numeric variables; this is qualitative.",
       "Case series describe clinical features of patients; this explores subjective experiences.",
       "Surveys collect structured numerical or categorical responses from larger samples.",
@@ -171,7 +196,12 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["study designs", "qualitative research", "thematic analysis", "research methods"],
+    "tags": [
+      "study designs",
+      "qualitative research",
+      "thematic analysis",
+      "research methods"
+    ],
     "source": "SPMM EMI Research Methods; Braun & Clarke 2006"
   },
   {
@@ -190,6 +220,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Snowball sampling (also called chain-referral sampling) is used when the target population is hidden or hard to reach, such as illicit drug users, sex workers, or undocumented migrants. One participant recruits others from their social network. The limitation is that the sample may be biased towards more socially connected individuals. Reference: Heckathorn DD. Respondent-driven sampling. Sociol Methodol 1997;27(1):193-239.",
       "Convenience sampling selects easily available participants but does not involve participant referrals.",
       "Purposive sampling selects participants deliberately for specific characteristics, not through chain referral.",
       "Systematic sampling uses every nth person from a sampling frame.",
@@ -206,7 +237,11 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["sampling", "snowball sampling", "research methods"],
+    "tags": [
+      "sampling",
+      "snowball sampling",
+      "research methods"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -225,6 +260,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Systematic sampling selects every nth individual from a sampling frame. It is simple and efficient but can introduce bias if there is periodicity in the list (a pattern that coincides with the sampling interval). Systematic sampling is generally considered a non-random method as not every individual has an equal probability of being selected. Reference: BMJ 2014;348:g7610.",
       "Simple random sampling requires a random number generator or lottery method, not a fixed interval.",
       "Stratified random sampling requires dividing into subgroups before random sampling.",
       "Cluster sampling randomly selects groups, not individual names from a register.",
@@ -241,7 +277,11 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["sampling", "systematic sampling", "research methods"],
+    "tags": [
+      "sampling",
+      "systematic sampling",
+      "research methods"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -260,6 +300,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Cluster sampling uses naturally occurring groups (GP practices, schools, postcode areas) as the sampling unit. All members of randomly selected clusters are included. It is efficient when the population is geographically dispersed, but the design effect (inflation of variance due to clustering) must be accounted for in analysis. If individuals were also randomly selected within clusters, this would become multistage sampling. Reference: BMJ 2013;347:f6328.",
       "Stratified random sampling would involve randomly sampling within each stratum, not including all members of selected groups.",
       "Multistage sampling would involve random sampling at two or more levels (e.g., random practices then random patients within practices).",
       "Simple random sampling selects individuals randomly from the entire population, not groups.",
@@ -276,7 +317,12 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["sampling", "cluster sampling", "research methods", "design effect"],
+    "tags": [
+      "sampling",
+      "cluster sampling",
+      "research methods",
+      "design effect"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -295,6 +341,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Performance bias arises when participants or personnel are aware of treatment allocation, leading to differential behaviours and expectations that can influence outcomes. This is why double-blinding is critical in RCTs — it minimises both performance and detection bias. When blinding is not possible (e.g., in psychotherapy trials), active control conditions or sham procedures should be used. Reference: Higgins JPT et al. Cochrane Handbook, Chapter 8: Assessing risk of bias.",
       "Detection bias refers to systematic differences in how outcomes are assessed between groups.",
       "Selection bias refers to systematic differences between groups at baseline.",
       "Attrition bias refers to systematic differences in who drops out of a study.",
@@ -311,7 +358,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["bias", "performance bias", "blinding", "RCT", "Cochrane"],
+    "tags": [
+      "bias",
+      "performance bias",
+      "blinding",
+      "RCT",
+      "Cochrane"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -330,6 +383,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Recall bias is a systematic error in which participants do not remember past events accurately or differentially report them based on their outcome status. Cases (those with the disease) may think more about potential causes and therefore recall exposures more completely than controls. This is a key limitation of retrospective case-control studies. Reference: Althubaiti A. Information bias in health research. J Multidiscip Healthc 2016;9:211.",
       "Selection bias in case-control studies relates to how cases and controls are chosen, not how exposure is recalled.",
       "Performance bias relates to differential behaviours due to knowledge of group allocation.",
       "Detection bias relates to differences in how outcomes are measured or identified.",
@@ -346,7 +400,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["bias", "recall bias", "case-control", "information bias"],
+    "tags": [
+      "bias",
+      "recall bias",
+      "case-control",
+      "information bias"
+    ],
     "source": "SPMM EMI Research Methods"
   },
   {
@@ -365,6 +424,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Publication bias (also called the 'file-drawer problem') occurs when studies with positive or statistically significant results are more likely to be published than those with null or negative results. This can seriously distort meta-analytic conclusions. Funnel plots and Egger's test are used to detect publication bias. The requirement for prospective trial registration (e.g., ClinicalTrials.gov) helps address this. Reference: Egger M et al. Bias in meta-analysis detected by a simple, graphical test. BMJ 1997;315:629.",
       "Reporting bias refers to selective reporting of outcomes within a study, not non-publication of whole studies.",
       "Selection bias relates to baseline differences between groups.",
       "Attrition bias relates to differential dropout from studies.",
@@ -381,7 +441,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["bias", "publication bias", "meta-analysis", "systematic review", "funnel plot"],
+    "tags": [
+      "bias",
+      "publication bias",
+      "meta-analysis",
+      "systematic review",
+      "funnel plot"
+    ],
     "source": "SPMM EMI Research Methods; Egger et al. 1997"
   },
   {
@@ -400,6 +466,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Anorexia nervosa restrictive type is characterised by low BMI (< 18.5, severe < 15), intense fear of weight gain, body image disturbance, and — in post-menarchal females — amenorrhoea. Physical signs include lanugo, bradycardia, hypotension, and peripheral oedema (refeeding risk). ICD-11 requires BMI < 18.5; severity is graded by BMI. Reference: NICE CG69 (2017 update); ICD-11 diagnostic criteria.",
       "Binge-eating/purging type anorexia involves binge eating or purging behaviours, not purely restrictive eating.",
       "Bulimia nervosa involves recurrent binge eating with compensatory behaviours, typically BMI ≥ 18.5.",
       "Atypical anorexia nervosa includes all features of anorexia but weight is within or above normal range.",
@@ -416,7 +483,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["eating disorders", "anorexia nervosa", "restrictive type", "ICD-11", "BMI"],
+    "tags": [
+      "eating disorders",
+      "anorexia nervosa",
+      "restrictive type",
+      "ICD-11",
+      "BMI"
+    ],
     "source": "SPMM EMI; NICE CG69; ICD-11"
   },
   {
@@ -435,6 +508,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Bulimia nervosa (ICD-11/DSM-5) requires: (1) recurrent binge eating episodes (large amount + sense of loss of control), (2) recurrent inappropriate compensatory behaviours (vomiting, laxatives, fasting, excessive exercise), (3) at least once weekly for 3 months, and (4) self-evaluation unduly influenced by body shape/weight. Unlike anorexia, BMI is typically normal or overweight. Medical complications include electrolyte disturbances, dental erosion, and parotid enlargement. Reference: NICE CG69; ICD-11; BNF 2023.",
       "Anorexia nervosa purging type requires low BMI (< 18.5); this patient has BMI 21.3.",
       "Binge eating disorder involves binge eating without compensatory behaviours.",
       "Purging disorder involves purging without binge eating.",
@@ -451,7 +525,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["eating disorders", "bulimia nervosa", "binge eating", "purging", "ICD-11"],
+    "tags": [
+      "eating disorders",
+      "bulimia nervosa",
+      "binge eating",
+      "purging",
+      "ICD-11"
+    ],
     "source": "SPMM EMI; NICE CG69"
   },
   {
@@ -470,6 +550,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. ARFID (DSM-5/ICD-11) is characterised by restricted food intake leading to significant weight loss, nutritional deficiency, or dependence on supplements/enteral feeding, WITHOUT body image disturbance or fear of weight gain. Three presentations: (1) lack of interest in eating, (2) sensory sensitivity to food textures/smells, (3) fear of aversive consequences (choking, vomiting). ARFID is more common in males and in children with neurodevelopmental disorders. Reference: DSM-5; ICD-11; Thomas JJ et al. Int J Eat Disord 2017.",
       "Anorexia nervosa requires body image disturbance and fear of weight gain, which are absent here.",
       "Bulimia nervosa involves binge eating and compensatory behaviours.",
       "Pica involves eating non-nutritive substances.",
@@ -486,7 +567,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["eating disorders", "ARFID", "avoidant restrictive food intake disorder", "ICD-11", "child"],
+    "tags": [
+      "eating disorders",
+      "ARFID",
+      "avoidant restrictive food intake disorder",
+      "ICD-11",
+      "child"
+    ],
     "source": "DSM-5; Thomas JJ et al. Int J Eat Disord 2017"
   },
   {
@@ -505,6 +592,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The unpaired (independent) Student's t-test is used to compare the means of a continuous variable between two independent groups. Assumptions: (1) data are continuous, (2) normally distributed in each group, (3) homogeneity of variances. If normality is violated, the Mann-Whitney U test should be used instead. If comparing three or more groups, one-way ANOVA is appropriate. Reference: Field A. Discovering Statistics Using IBM SPSS Statistics. 5th ed. 2018.",
       "Paired t-test is used for within-subject comparisons (same participants measured twice), not between independent groups.",
       "Mann-Whitney U test is the non-parametric alternative when data are not normally distributed — the question does not indicate a normality violation.",
       "Chi-square test compares proportions/categorical variables, not means of continuous variables.",
@@ -521,7 +609,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["statistics", "t-test", "statistical tests", "parametric tests"],
+    "tags": [
+      "statistics",
+      "t-test",
+      "statistical tests",
+      "parametric tests"
+    ],
     "source": "SPMM EMI Statistics"
   },
   {
@@ -540,6 +633,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The paired (dependent) t-test is used when the same participants are measured twice (before-after, or matched pairs). It accounts for the correlation between paired observations, making it more powerful than the independent t-test for detecting change. The non-parametric alternative is the Wilcoxon signed-rank test. Assumptions: normally distributed differences. Reference: Altman DG. Practical Statistics for Medical Research. 1991.",
       "Unpaired t-test compares independent groups, not the same participants before and after.",
       "Mann-Whitney U test is for independent groups, not paired comparisons.",
       "Wilcoxon signed-rank test is the non-parametric alternative to the paired t-test when normality is violated.",
@@ -556,7 +650,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["statistics", "paired t-test", "statistical tests", "longitudinal"],
+    "tags": [
+      "statistics",
+      "paired t-test",
+      "statistical tests",
+      "longitudinal"
+    ],
     "source": "SPMM EMI Statistics"
   },
   {
@@ -575,6 +674,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The chi-square test of association (χ²) is used to compare proportions between two or more independent groups. It tests whether there is a statistically significant association between two categorical variables. Assumptions: (1) independent observations, (2) no more than 20% of expected cell frequencies < 5 (otherwise use Fisher's exact test). For 2×2 tables, Yates' continuity correction is sometimes applied. Reference: Campbell MJ, Swinscow TDV. Statistics at Square One. 12th ed. BMJ Books.",
       "Student's t-test compares continuous means, not proportions.",
       "Mann-Whitney U test compares distributions of ordinal or non-normal continuous data.",
       "Paired t-test would be for a paired continuous comparison.",
@@ -591,7 +691,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["statistics", "chi-square", "categorical data", "proportions"],
+    "tags": [
+      "statistics",
+      "chi-square",
+      "categorical data",
+      "proportions"
+    ],
     "source": "SPMM EMI Statistics"
   },
   {
@@ -610,6 +715,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Logistic regression is used when the outcome variable is binary (e.g., remission vs no remission). It can model the probability of the outcome given one or more predictor variables, and it allows adjustment for confounding variables (age, gender). Results are expressed as odds ratios with 95% confidence intervals. Multiple logistic regression enables simultaneous adjustment for several covariates. Reference: Hosmer DW, Lemeshow S. Applied Logistic Regression. 2nd ed. 2000.",
       "Student's t-test compares means between two groups without adjusting for covariates.",
       "Chi-square tests association between two categorical variables without covariate adjustment.",
       "Pearson's correlation measures linear association between two continuous variables.",
@@ -626,7 +732,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["statistics", "logistic regression", "binary outcome", "odds ratio", "adjusted analysis"],
+    "tags": [
+      "statistics",
+      "logistic regression",
+      "binary outcome",
+      "odds ratio",
+      "adjusted analysis"
+    ],
     "source": "SPMM EMI Statistics"
   },
   {
@@ -645,6 +757,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Fragile X syndrome is the most common inherited cause of intellectual disability, caused by CGG trinucleotide repeat expansion in the FMR1 gene (X-linked). Physical features: long narrow face, large protruding ears, prominent jaw (macrognathia), and macro-orchidism (enlarged testes) post-puberty. Behavioural phenotype: ADHD, social anxiety, gaze aversion, and autistic features. It is associated with a high rate of ADHD and anxiety in childhood. Reference: Hagerman RJ et al. Fragile X syndrome. Nat Rev Dis Primers 2017;3:17015.",
       "Down syndrome features include upslanting palpebral fissures, epicanthic folds, flat nasal bridge, and a single palmar crease — not long face, large ears, or enlarged testes.",
       "Klinefelter syndrome (XXY) presents in adolescence with tall stature, hypogonadism, and gynaecomastia — not with the classic facial dysmorphism described.",
       "22q11.2 deletion syndrome involves cleft palate, cardiac abnormalities, and characteristic facial features (narrow palpebral fissures, bulbous nose) — not macrorchidism.",
@@ -661,7 +774,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["child psychiatry", "Fragile X syndrome", "intellectual disability", "neurodevelopmental", "FMR1"],
+    "tags": [
+      "child psychiatry",
+      "Fragile X syndrome",
+      "intellectual disability",
+      "neurodevelopmental",
+      "FMR1"
+    ],
     "source": "SPMM EMI Child Psychiatry"
   },
   {
@@ -680,6 +799,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Angelman syndrome is caused by deletion of the maternal 15q11-q13 region (UBE3A gene). Key features: (1) normal development until 6-12 months followed by regression, (2) severe intellectual disability, (3) ataxic gait, (4) frequent laughter/happy demeanour, (5) hand-flapping/hand-wringing stereotypies, (6) epilepsy (typically onset by age 3), (7) microcephaly by age 2. The 'Happy Puppet' phenotype is characteristic — frequent smiling, laughter, and excitability. Reference: Williams CA et al. Angelman syndrome. Nat Rev Dis Primers 2015;1:15028.",
       "Rett syndrome occurs almost exclusively in girls, with regression between 6-18 months, loss of hand skills, and hand-wringing. This boy presents with a similar picture.",
       "Childhood disintegrative disorder has regression after age 2 following a longer period of normal development.",
       "Landau-Kleffner syndrome involves regression of language with epileptiform activity, not the full neurodevelopmental regression described.",
@@ -696,7 +816,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["child psychiatry", "Angelman syndrome", "genetic disorder", "15q11", "regression"],
+    "tags": [
+      "child psychiatry",
+      "Angelman syndrome",
+      "genetic disorder",
+      "15q11",
+      "regression"
+    ],
     "source": "SPMM EMI Child Psychiatry; Williams et al. 2015"
   },
   {
@@ -715,6 +841,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Rett syndrome is an X-linked dominant neurodevelopmental disorder caused by MECP2 mutations, affecting almost exclusively girls (lethal in males). Diagnostic criteria (revised 2010): (1) regression followed by recovery/stabilisation, (2) partial/complete loss of purposeful hand skills, (3) gait abnormalities, (4) stereotypic hand movements. Supportive criteria: breathing irregularities, bruxism, scoliosis, epilepsy, microcephaly. After initial regression (typically 6-18 months), skills may partially plateau but do not progressively deteriorate. Reference: Neul JL et al. Rett syndrome: revised diagnostic criteria. Ann Neurol 2010;68(6):944-50.",
       "Angelman syndrome is distinguished by frequent laughter and happy demeanour, not primarily the hand-wringing and regression seen here.",
       "ASD with severe ID does not typically show the specific pattern of hand skill loss followed by stereotypic hand-wringing.",
       "Childhood disintegrative disorder involves regression after at least 2 years of normal development.",
@@ -731,7 +858,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["child psychiatry", "Rett syndrome", "MECP2", "regression", "hand-wringing", "stereotypies"],
+    "tags": [
+      "child psychiatry",
+      "Rett syndrome",
+      "MECP2",
+      "regression",
+      "hand-wringing",
+      "stereotypies"
+    ],
     "source": "SPMM EMI Child Psychiatry; Neul JL et al. 2010"
   },
   {
@@ -750,6 +884,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. NICE CG78 (2009) recommends DBT for women with borderline personality disorder who present with recurrent self-harm. DBT combines individual therapy, group skills training, and phone coaching, targeting: (1) mindfulness, (2) distress tolerance, (3) emotion regulation, and (4) interpersonal effectiveness. The evidence from multiple RCTs shows DBT reduces self-harm, hospitalisations, and improves global functioning. MBT is an alternative evidence-based approach, but DBT has the most robust overall evidence. Reference: NICE CG78 (2009); Linehan MM et al. Arch Gen Psychiatry 2006;63(7):757-66.",
       "CBT has evidence for BPD but has weaker evidence for reducing self-harm and suicidality compared with DBT.",
       "MBT has evidence for BPD, particularly in specialist services, but DBT has the most robust evidence base for self-harm reduction.",
       "TFP is a specialised psychodynamic approach for BPD but has less RCT evidence than DBT.",
@@ -766,7 +901,14 @@
     "difficulty": "easy",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["BPD", "borderline personality disorder", "DBT", "NICE CG78", "psychotherapy", "self-harm"],
+    "tags": [
+      "BPD",
+      "borderline personality disorder",
+      "DBT",
+      "NICE CG78",
+      "psychotherapy",
+      "self-harm"
+    ],
     "source": "NICE CG78; Linehan et al. 2006"
   },
   {
@@ -785,6 +927,8 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. ICD-11 panic disorder (episodic paroxysmal anxiety) requires recurrent unexpected panic attacks not restricted to specific situations, with persistent fear of recurrence or consequences. When this leads to avoidance of situations where escape might be difficult, agoraphobia is diagnosed concurrently. NICE CG113 recommends: (1) psychoeducation and monitoring (watchful waiting) for mild/subthreshold, (2) individual CBT-based self-help or brief CBT for mild/moderate, (3) more intensive CBT for moderate/severe, with SSRI (sertraline, citalopram, fluoxetine) as second-line or when CBT is declined. Reference: NICE CG113 (2011); ICD-11.",
+      "This is the correct answer. ICD-11 panic disorder (episodic paroxysmal anxiety) requires recurrent unexpected panic attacks not restricted to specific situations, with persistent fear of recurrence or consequences. When this leads to avoidance of situations where escape might be difficult, agoraphobia is diagnosed concurrently. NICE CG113 recommends: (1) psychoeducation and monitoring (watchful waiting) for mild/subthreshold, (2) individual CBT-based self-help or brief CBT for mild/moderate, (3) more intensive CBT for moderate/severe, with SSRI (sertraline, citalopram, fluoxetine) as second-line or when CBT is declined. Reference: NICE CG113 (2011); ICD-11.",
       "Agoraphobia without panic disorder involves fear of situations without panic attacks themselves; this patient clearly has panic attacks.",
       "GAD requires at least 6 months of persistent, generalised worry, not episodic attacks with full inter-episode recovery.",
       "Panic disorder without agoraphobia would apply if there were no avoidance/escape-behaviour, but this patient now avoids supermarkets and going out.",
@@ -800,7 +944,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["panic disorder", "agoraphobia", "ICD-11", "NICE CG113", "anxiety"],
+    "tags": [
+      "panic disorder",
+      "agoraphobia",
+      "ICD-11",
+      "NICE CG113",
+      "anxiety"
+    ],
     "source": "NICE CG113; ICD-11"
   },
   {
@@ -820,6 +970,8 @@
     "correct_index": 1,
     "distractors_rationale": [
       "SSRI plus CBT is recommended as second-line or for moderate-to-severe cases, not first-line for mild-to-moderate OCD.",
+      "This is the correct answer. NICE CG31 (2005) recommends a stepped-care approach: (1) mild impairment — individual or group CBT (ERP) with self-help materials; (2) moderate impairment — more intensive CBT (ERP), or offer SSRI if CBT is declined; (3) severe impairment — combined CBT (ERP) and SSRI. ERP involves graded exposure to feared situations (e.g., leaving gas unchecked) with response prevention (not performing the compulsion). The patient's degree of impairment (late for work, 2 hours/day) suggests moderate severity; CBT alone is still the first-line recommendation. Reference: NICE CG31 (2005); ICD-11.",
+      "This is the correct answer. NICE CG31 (2005) recommends a stepped-care approach: (1) mild impairment — individual or group CBT (ERP) with self-help materials; (2) moderate impairment — more intensive CBT (ERP), or offer SSRI if CBT is declined; (3) severe impairment — combined CBT (ERP) and SSRI. ERP involves graded exposure to feared situations (e.g., leaving gas unchecked) with response prevention (not performing the compulsion). The patient's degree of impairment (late for work, 2 hours/day) suggests moderate severity; CBT alone is still the first-line recommendation. Reference: NICE CG31 (2005); ICD-11.",
       "SSRI alone is less effective than combined treatment in moderate-to-severe OCD but is not the first step for mild-to-moderate cases.",
       "Clomipramine is an alternative second-line if SSRI fails but has more side effects (anticholinergic, cardiotoxic).",
       "Combined clomipramine and CBT is not first-line due to clomipramine's side-effect profile.",
@@ -834,7 +986,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["OCD", "obsessive compulsive disorder", "ERP", "exposure and response prevention", "CBT", "NICE CG31"],
+    "tags": [
+      "OCD",
+      "obsessive compulsive disorder",
+      "ERP",
+      "exposure and response prevention",
+      "CBT",
+      "NICE CG31"
+    ],
     "source": "NICE CG31; ICD-11"
   },
   {
@@ -853,6 +1012,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Wernicke's encephalopathy is a medical emergency caused by thiamine (vitamin B1) deficiency, most commonly in alcohol-dependent patients with poor nutrition. The classic triad (confusion, ataxia, nystagmus/ophthalmoplegia) is present in only 16% of cases. NICE CG100 recommends: (1) immediate IV Pabrinex (one pair of high potency B-complex ampoules IV, three times daily for 3-5 days), (2) do NOT give glucose before thiamine, (3) treat on clinical suspicion alone — do not wait for investigations. Untreated, Korsakoff's syndrome develops in 80% of survivors. Reference: NICE CG100 (2010); Royal College of Physicians guidelines (2020).",
       "Oral thiamine 100 mg is for prophylaxis, not treatment of established Wernicke's encephalopathy — requires IV/Pabrinex.",
       "CT head before treatment delays potentially life-saving intervention; treatment should not wait for imaging.",
       "Chlordiazepoxide is for alcohol withdrawal but is not the immediate priority — Wernicke's treatment comes first.",
@@ -869,7 +1029,14 @@
     "difficulty": "hard",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["Wernicke's encephalopathy", "thiamine", "Pabrinex", "alcohol", "Korsakoff's", "NICE CG100"],
+    "tags": [
+      "Wernicke's encephalopathy",
+      "thiamine",
+      "Pabrinex",
+      "alcohol",
+      "Korsakoff's",
+      "NICE CG100"
+    ],
     "source": "NICE CG100; RCP guidelines; SPMM EMI Addiction"
   },
   {
@@ -888,6 +1055,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. DLB is characterised clinically by the 4 core features: (1) fluctuating cognition with attentional deficits, (2) recurrent well-formed visual hallucinations, (3) spontaneous parkinsonism, (4) REM sleep behaviour disorder. DaTSCAN (FP-CIT SPECT) shows reduced dopamine transporter uptake in the basal ganglia, which distinguishes DLB from Alzheimer's disease (> 80% sensitivity, > 90% specificity). Key management: avoid neuroleptic sensitivity (up to 50% develop severe, sometimes fatal, neuroleptic malignant-like reactions). Cholinesterase inhibitors (rivastigmine) improve cognition and behavioural symptoms. Reference: McKeith IG et al. Diagnosis and management of DLB: Fourth consensus report. Neurology 2017;89(1):88-100.",
       "Generalised cortical atrophy with medial temporal predominance is characteristic of Alzheimer's disease, not DLB.",
       "Temporal lobe hypoperfusion on SPECT is more characteristic of Alzheimer's disease.",
       "Frontal/anterior temporal atrophy suggests frontotemporal dementia.",
@@ -904,7 +1072,14 @@
     "difficulty": "hard",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["dementia with Lewy bodies", "DLB", "DaTSCAN", "FP-CIT SPECT", "neuroimaging", "McKeith criteria"],
+    "tags": [
+      "dementia with Lewy bodies",
+      "DLB",
+      "DaTSCAN",
+      "FP-CIT SPECT",
+      "neuroimaging",
+      "McKeith criteria"
+    ],
     "source": "McKeith et al. 2017; NICE NG97"
   }
 ]

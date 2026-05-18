@@ -1,7 +1,13 @@
 [
   {
     "stem": "A trial randomises 200 patients with treatment-resistant depression to either augmentation (quetiapine added to SSRI) or switching (switch from SSRI to venlafaxine). At 12 weeks, the augmentation group shows 42% response vs 38% in the switch group (p = 0.58, 95% CI for difference −6% to +14%). The authors conclude the two strategies are 'EQUIVALENT'. Which statement is MOST accurate?",
-    "options": [" The two treatments are equivalent — the p-value is not significant", " The trial is UNDER POWERED to detect a difference — the CI is wide and includes clinically meaningful differences favouring either group; a non-significant p-value does NOT prove equivalence", " The augmentation strategy is clearly better based on the point estimate (42% vs 38%)", " Switching is less effective", " The confidence interval proves equivalence"],
+    "options": [
+      " The two treatments are equivalent — the p-value is not significant",
+      " The trial is UNDER POWERED to detect a difference — the CI is wide and includes clinically meaningful differences favouring either group; a non-significant p-value does NOT prove equivalence",
+      " The augmentation strategy is clearly better based on the point estimate (42% vs 38%)",
+      " Switching is less effective",
+      " The confidence interval proves equivalence"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "A non-significant p-value does NOT prove 'no difference' — it only means the study failed to find a difference (absence of evidence ≠ evidence of absence).",
@@ -17,11 +23,23 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "Piaggio G et al. (2006) Reporting of noninferiority and equivalence trials. JAMA; CONSORT extension for non-inferiority",
-    "tags": ["equivalence", "non-inferiority", "superiority", "confidence_interval", "p-value"]
+    "tags": [
+      "equivalence",
+      "non-inferiority",
+      "superiority",
+      "confidence_interval",
+      "p-value"
+    ]
   },
   {
     "stem": "A 66-year-old man with vascular dementia (MMSE 18), hypertension, and type 2 diabetes develops aggressive behaviour towards his wife. Non-pharmacological strategies have failed. QTc is 455ms. Current medications: amlodipine 5mg, metformin 1g BD, aspirin 75mg. According to NICE NG97, which of the following is the MOST appropriate pharmacological management?",
-    "options": [" Olanzapine 10mg nocte — effective for aggression with minimal QTc effect", " Risperidone 0.25-0.5mg daily — for a MAXIMUM of 12 WEEKS, after discussion of CVA risk with the family", " Haloperidol 2mg nocte — low risk of metabolic effects", " Citalopram 20mg daily — SSRI for agitation in dementia", " Diazepam 2.5mg TDS PRN — short-term sedation"],
+    "options": [
+      " Olanzapine 10mg nocte — effective for aggression with minimal QTc effect",
+      " Risperidone 0.25-0.5mg daily — for a MAXIMUM of 12 WEEKS, after discussion of CVA risk with the family",
+      " Haloperidol 2mg nocte — low risk of metabolic effects",
+      " Citalopram 20mg daily — SSRI for agitation in dementia",
+      " Diazepam 2.5mg TDS PRN — short-term sedation"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Olanzapine has moderate metabolic risk (weight gain, diabetes worsening). This patient already has type 2 diabetes, making olanzapine a poor choice despite its efficacy. Risperidone is the most studied agent for BPSD.",
@@ -37,11 +55,24 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE NG97: Dementia; Ballard C et al. (2009) Antipsychotics in dementia; BNF",
-    "tags": ["BPSD", "risperidone", "agitation", "dementia", "NICE_guidelines", "old_age"]
+    "tags": [
+      "BPSD",
+      "risperidone",
+      "agitation",
+      "dementia",
+      "NICE_guidelines",
+      "old_age"
+    ]
   },
   {
     "stem": "An 80-year-old woman is admitted to hospital from a care home with pneumonia. She has moderate Alzheimer's disease (MMSE 14). On day 3 of admission, she becomes acutely confused, agitated, and is pulling out her IV cannula. She is trying to climb out of bed. Observations: HR 105, BP 140/85, Temp 37.6°C, SpO2 94% on 2L O2, GCS 14. Urinalysis shows leucocytes. QTc 470ms. Verbal de-escalation has failed. Which is the MOST appropriate management for her agitation?",
-    "options": [" Haloperidol 0.5mg ORALLY — low dose as recommended by NICE CG103 for delirium with severe distress", " Lorazepam 2mg IM — rapid sedation", " Haloperidol 5mg IM — rapid tranquillisation", " Diazepam 10mg PR — for sedation", " Olanzapine 10mg IM — rapid tranquillisation"],
+    "options": [
+      " Haloperidol 0.5mg ORALLY — low dose as recommended by NICE CG103 for delirium with severe distress",
+      " Lorazepam 2mg IM — rapid sedation",
+      " Haloperidol 5mg IM — rapid tranquillisation",
+      " Diazepam 10mg PR — for sedation",
+      " Olanzapine 10mg IM — rapid tranquillisation"
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "CORRECT. NICE CG103 (Delirium) recommends: For patients with delirium who are SEVERELY DISTRESSED or at risk of harming themselves/others and de-escalation has failed: offer HALOPERIDOL 0.5-1mg ORALLY (or olanzapine 2.5-5mg). KEY POINTS: (1) Use the LOWEST POSSIBLE DOSE; (2) Use ORAL route if possible (IM if absolutely necessary but carries higher QTc and dystonia risk); (3) Haloperidol 0.5-1mg is the correct starting dose for an elderly patient with delirium; (4) Monitor QTc (already borderline at 470 — use caution with further doses); (5) Treat the underlying CAUSE (pneumonia + possible UTI); (6) Environmental measures (reorientation, familiar staff, family presence, adequate lighting, sensory aids).",
@@ -52,16 +83,27 @@
     ],
     "teaching_point": "Delirium management in the elderly (NICE CG103): TREAT THE CAUSE: infection, electrolyte, medication, hypoxia, constipation, retention, pain. ENVIRONMENTAL: reorientation (clock, calendar, familiar objects, family photos), sensory aids (glasses, hearing aids), adequate lighting, sleep hygiene, avoidance of room changes, early mobilisation, adequate hydration and nutrition. PHARMACOLOGICAL: ONLY if severe distress/risk after non-pharmacological failure. Haloperidol 0.5-1mg orally (lowest dose). Alternative: olanzapine 2.5-5mg orally. AVOID: benzodiazepines (except withdrawal), high doses, combination antipsychotics, long-term use. MONITOR: QTc, EPS (especially in elderly), sedation, blood pressure (postural). The 4AT screening tool is validated for delirium detection. DELIRIUM SUPERIMPOSED ON DEMENTIA (DSD) is particularly common (up to 50% of hospitalised dementia patients). The same management principles apply.",
     "domain": "old_age",
-    "subcategory": "delirium_management",
     "difficulty": "hard",
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG103: Delirium; NICE NG97: Dementia; BNF (prescribing in elderly)",
-    "tags": ["delirium", "haloperidol", "elderly", "agitation", "dementia"]
+    "tags": [
+      "delirium",
+      "haloperidol",
+      "elderly",
+      "agitation",
+      "dementia"
+    ],
+    "subdomain": "delirium_management"
   },
   {
     "stem": "Theme: Organic Causes of Psychiatric Presentations\n\nFor each clinical scenario, select the MOST LIKELY DIAGNOSIS:\n\nA. Wilson's disease\nB. Huntington's disease\nC. Neuroleptic malignant syndrome\nD. Anti-NMDA receptor encephalitis\nE. Parkinson's disease psychosis\nF. Creutzfeldt-Jakob disease\nG. Autoimmune thyroiditis (Hashimoto's encephalopathy)\nH. Neurosyphilis\nI. Wernicke's encephalopathy\nJ. Carbon monoxide poisoning\nK. Normal pressure hydrocephalus\nL. Systemic lupus erythematosus (CNS involvement)",
-    "options": [" A 55-year-old man presents with a 3-month history of progressive cognitive decline, ataxia, myoclonus, and EEG shows periodic sharp wave complexes", " A 22-year-old woman presents with acute psychosis (paranoid delusions, auditory hallucinations), then develops generalised seizures, orofacial dyskinesia, and autonomic instability. MRI brain is normal. CSF anti-NMDA receptor antibodies positive.", " A 52-year-old man presents with choreiform movements, behavioural changes (irritability, impulsivity), and a family history of similar problems. MRI shows caudate atrophy.", " A 68-year-old man with gait apraxia (feet 'stuck to the floor'), urinary incontinence, and cognitive decline. MRI shows enlarged ventricles out of proportion to sulcal widening."],
+    "options": [
+      " A 55-year-old man presents with a 3-month history of progressive cognitive decline, ataxia, myoclonus, and EEG shows periodic sharp wave complexes",
+      " A 22-year-old woman presents with acute psychosis (paranoid delusions, auditory hallucinations), then develops generalised seizures, orofacial dyskinesia, and autonomic instability. MRI brain is normal. CSF anti-NMDA receptor antibodies positive.",
+      " A 52-year-old man presents with choreiform movements, behavioural changes (irritability, impulsivity), and a family history of similar problems. MRI shows caudate atrophy.",
+      " A 68-year-old man with gait apraxia (feet 'stuck to the floor'), urinary incontinence, and cognitive decline. MRI shows enlarged ventricles out of proportion to sulcal widening."
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "CREUTZFELDT-JAKOB DISEASE (F). Sporadic CJD: rapidly progressive dementia (weeks to months), MYOCLONUS (startle-sensitive), ATAXIA, pyramidal/extrapyramidal signs, visual disturbances. EEG: PERIODIC SHARP WAVE COMPLEXES (PSWC) — triphasic waves at 1-2 Hz. MRI: high signal in basal ganglia (caudate, putamen) and cortical ribboning on DWI. CSF: 14-3-3 protein (non-specific but supportive). PRNP gene analysis for familial CJD. Mean survival: 4-6 months. Variant CJD (vCJD, linked to BSE): younger onset, psychiatric prodrome, longer duration.",
@@ -76,11 +118,23 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "DSM-5-TR; NICE NG97; Graus F et al. (2016) Clinical approach to autoimmune encephalitis",
-    "tags": ["organic_psychiatry", "differential_diagnosis", "NPH", "Huntington", "CJD", "EMI"]
+    "tags": [
+      "organic_psychiatry",
+      "differential_diagnosis",
+      "NPH",
+      "Huntington",
+      "CJD",
+      "EMI"
+    ]
   },
   {
     "stem": "Theme: Psychotherapy Models — Key Concepts\n\nFor each description, select the CORRECT psychotherapy model:\n\nA. Mentalisation-based treatment (MBT)\nB. Cognitive analytic therapy (CAT)\nC. Dialectical behaviour therapy (DBT)\nD. Interpersonal psychotherapy (IPT)\nE. Cognitive behavioural therapy (CBT)\nF. Schema therapy\nG. Systemic family therapy\nH. Psychodynamic psychotherapy\nI. Supportive therapy\nJ. Acceptance and commitment therapy (ACT)\nK. Eye movement desensitisation and reprocessing (EMDR)\nL. Behavioural activation (BA)",
-    "options": [" Focuses on four problem areas: grief, role dispute, role transition, interpersonal deficits. Uses communication analysis and role-play.", " Uses mindfulness skills as a CORE MODULE alongside interpersonal effectiveness, emotion regulation, and distress tolerance. Employs phone coaching between sessions.", " Uses the concept of 'reciprocal roles' and the '3 Rs': Reformulation, Recognition, Revision. Aims to help the patient recognise maladaptive relational patterns.", " Aims to improve the capacity to understand one's own and others' mental states (thoughts, feelings, intentions). Developed for BPD by Bateman and Fonagy."],
+    "options": [
+      " Focuses on four problem areas: grief, role dispute, role transition, interpersonal deficits. Uses communication analysis and role-play.",
+      " Uses mindfulness skills as a CORE MODULE alongside interpersonal effectiveness, emotion regulation, and distress tolerance. Employs phone coaching between sessions.",
+      " Uses the concept of 'reciprocal roles' and the '3 Rs': Reformulation, Recognition, Revision. Aims to help the patient recognise maladaptive relational patterns.",
+      " Aims to improve the capacity to understand one's own and others' mental states (thoughts, feelings, intentions). Developed for BPD by Bateman and Fonagy."
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "INTERPERSONAL PSYCHOTHERAPY (D). IPT (Klerman, Weissman) is a time-limited (12-16 sessions) psychodynamic therapy that links MOOD SYMPTOMS to INTERPERSONAL EVENTS. Four problem areas: (1) GRIEF — complicated bereavement; (2) ROLE DISPUTE — conflicts with significant others; (3) ROLE TRANSITION — adjusting to life changes; (4) INTERPERSONAL DEFICITS — social isolation. Techniques: communication analysis, clarification of feelings, role-play, exploration of options. Evidence: Level 1 evidence for depression (NICE CG90). Also effective for bulimia, postpartum depression, and PTSD. IPT was the first psychological therapy to be empirically validated. The INTERPERSONAL INVENTORY — a systematic review of a patient's important relationships — is a core assessment tool.",
@@ -95,6 +149,14 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "NICE CG78: BPD; Bateman A & Fonagy P (1999) MBT; Linehan MM (1993) DBT; Ryle A & Kerr I (2002) CAT",
-    "tags": ["psychotherapy", "models", "MBT", "DBT", "CAT", "IPT", "EMI"]
+    "tags": [
+      "psychotherapy",
+      "models",
+      "MBT",
+      "DBT",
+      "CAT",
+      "IPT",
+      "EMI"
+    ]
   }
 ]

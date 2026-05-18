@@ -1,7 +1,13 @@
 [
   {
     "stem": "A 32-year-old woman with borderline personality disorder presents to the emergency department after cutting her wrists following an argument with her therapist. She has been in dialectical behaviour therapy (DBT) for 6 months. According to the DBT hierarchy of treatment targets, what should the therapist prioritise?",
-    "options": [" Working on emotional dysregulation skills", " Addressing the therapeutic relationship rupture", " Life-threatening behaviour (self-harm)", " Therapy-interfering behaviour (the argument)", " Quality-of-life interfering behaviour (relationship difficulties)"],
+    "options": [
+      " Working on emotional dysregulation skills",
+      " Addressing the therapeutic relationship rupture",
+      " Life-threatening behaviour (self-harm)",
+      " Therapy-interfering behaviour (the argument)",
+      " Quality-of-life interfering behaviour (relationship difficulties)"
+    ],
     "correct_index": 2,
     "distractors_rationale": [
       "Emotional dysregulation is a core underlying problem in BPD but DBT has a strict hierarchy — life-threatening behaviour ALWAYS comes first.",
@@ -17,11 +23,23 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Linehan MM (1993) DBT for BPD; NICE CG78: Borderline personality disorder",
-    "tags": ["DBT", "self-harm", "hierarchy", "treatment_targets", "borderline_personality_disorder"]
+    "tags": [
+      "DBT",
+      "self-harm",
+      "hierarchy",
+      "treatment_targets",
+      "borderline_personality_disorder"
+    ]
   },
   {
     "stem": "A 38-year-old woman is in cognitive behavioural therapy (CBT) for social anxiety disorder. She has been set an assignment by her therapist to deliberately make eye contact with strangers and say 'hello' without expecting a response. The therapist explained that this would test her prediction that people will think she is 'weird and pathetic'. Which CBT technique is being used?",
-    "options": [" Cognitive restructuring", " Behavioural experiment", " Exposure hierarchy", " Socratic questioning", " Thought record"],
+    "options": [
+      " Cognitive restructuring",
+      " Behavioural experiment",
+      " Exposure hierarchy",
+      " Socratic questioning",
+      " Thought record"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Cognitive restructuring involves identifying and challenging maladaptive thoughts using logical analysis and evidence. While this may follow a behavioural experiment, the described technique is specifically a behavioural experiment — testing a prediction through action.",
@@ -37,11 +55,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "Beck JS (2011) Cognitive Behavior Therapy: Basics and Beyond; Padesky CA (1994) Socratic questioning; NICE",
-    "tags": ["CBT", "behavioural_experiment", "social_anxiety", "homework", "cognitive_restructuring"]
+    "tags": [
+      "CBT",
+      "behavioural_experiment",
+      "social_anxiety",
+      "homework",
+      "cognitive_restructuring"
+    ]
   },
   {
     "stem": "A 45-year-old woman in psychodynamic psychotherapy has been attending sessions regularly for 3 months. The therapist notices that the patient has started coming late to sessions, being silent for long periods, and expressing that the therapy 'isn't helping'. When the therapist explores this, the patient says it reminds her of how her emotionally distant father never had time for her. This phenomenon is best described as:",
-    "options": [" Projection", " Transference", " Acting out", " Resistance", " Negative therapeutic reaction"],
+    "options": [
+      " Projection",
+      " Transference",
+      " Acting out",
+      " Resistance",
+      " Negative therapeutic reaction"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Projection is attributing one's own unacceptable thoughts/feelings to another person. The patient is not attributing her own feelings to the therapist — she is recreating a relationship pattern.",
@@ -57,11 +87,22 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "Malan D (1979) Individual Psychotherapy and the Science of Psychodynamics; Freud S (1912) The dynamics of transference",
-    "tags": ["transference", "psychodynamic", "countertransference", "therapeutic_relationship"]
+    "tags": [
+      "transference",
+      "psychodynamic",
+      "countertransference",
+      "therapeutic_relationship"
+    ]
   },
   {
     "stem": "A 28-year-old man with avoidant personality disorder is in cognitive analytic therapy (CAT). The therapist has worked with him to identify a recurring pattern in relationships: he expects rejection → withdraws socially → feels lonely and depressed → becomes more sensitive to rejection → avoids more. This type of repetitive relational pattern is known in CAT as:",
-    "options": [" A reciprocal role pattern", " A target problem procedure (TPP)", " A core conflictual relationship theme (CCRT)", " A schema", " A dysfunctional assumption"],
+    "options": [
+      " A reciprocal role pattern",
+      " A target problem procedure (TPP)",
+      " A core conflictual relationship theme (CCRT)",
+      " A schema",
+      " A dysfunctional assumption"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "A reciprocal role pattern in CAT refers to the internalised roles learned from early relationships (e.g., 'controlling parent - compliant child' or 'critical parent - inadequate child'). The description given is a RECIPROCAL ROLE PROCEDURE (a sequence of actions and responses), not a single role. Actually, in CAT, a reciprocal role is a pair of complementary positions (e.g., criticising - being criticised). The described pattern is a sequential procedure.",
@@ -77,11 +118,23 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Ryle A & Kerr I (2002) Introducing CAT; NICE guidelines on PD",
-    "tags": ["CAT", "cognitive_analytic_therapy", "reciprocal_role", "TPP", "psychotherapy"]
+    "tags": [
+      "CAT",
+      "cognitive_analytic_therapy",
+      "reciprocal_role",
+      "TPP",
+      "psychotherapy"
+    ]
   },
   {
     "stem": "A 29-year-old woman with recurrent major depression is offered interpersonal therapy (IPT). The therapist identifies that her depressive symptoms began around the time she had a significant argument with her sister, after which they stopped speaking. They had been very close before this. The focus of IPT in this case would be on which problem area?",
-    "options": [" Interpersonal dispute (role dispute)", " Role transition", " Grief (complicated bereavement)", " Interpersonal deficits", " Conflict avoidance"],
+    "options": [
+      " Interpersonal dispute (role dispute)",
+      " Role transition",
+      " Grief (complicated bereavement)",
+      " Interpersonal deficits",
+      " Conflict avoidance"
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "CORRECT. IPT (Klerman & Weissman, 1984) identifies four problem areas: INTERPERSONAL DISPUTES — conflicts with significant others that involve non-reciprocal role expectations (e.g., differences between what partners/spouses expect from each other). This patient had an argument with her sister and stopped speaking — a clear interpersonal dispute. The goal of IPT for this problem area: (1) Clarify the nature of the dispute; (2) Develop a plan to resolve the dispute; (3) Modify expectations and communication. IPT is time-limited (12-16 sessions) and focuses on the LINK between mood symptoms and interpersonal events.",
@@ -97,11 +150,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "Weissman MM, Markowitz JC, Klerman GL (2000) IPT; NICE CG90: Depression",
-    "tags": ["IPT", "interpersonal_therapy", "role_dispute", "depression", "problem_areas"]
+    "tags": [
+      "IPT",
+      "interpersonal_therapy",
+      "role_dispute",
+      "depression",
+      "problem_areas"
+    ]
   },
   {
     "stem": "A 35-year-old man with a diagnosis of emotionally unstable personality disorder (borderline type) is referred for psychotherapy. He has a history of childhood abuse, multiple hospital admissions for self-harm, and unstable relationships. Which of the following psychotherapies has the strongest evidence base for reducing self-harm and improving global functioning in this patient group?",
-    "options": [" Cognitive behavioural therapy (CBT)", " Mentalisation-based treatment (MBT)", " Psychodynamic psychotherapy (twice weekly)", " Schema therapy", " Cognitive analytic therapy (CAT)"],
+    "options": [
+      " Cognitive behavioural therapy (CBT)",
+      " Mentalisation-based treatment (MBT)",
+      " Psychodynamic psychotherapy (twice weekly)",
+      " Schema therapy",
+      " Cognitive analytic therapy (CAT)"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "CBT has evidence for depression and anxiety but limited evidence for BPD specifically (except for specific symptoms). NICE does not recommend CBT for BPD as first-line treatment.",
@@ -117,11 +182,24 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Bateman A & Fonagy P (1999, 2009) MBT; NICE CG78; Paris J (2019) BPD prognosis",
-    "tags": ["MBT", "mentalisation", "BPD", "evidence_based", "psychotherapy", "self-harm"]
+    "tags": [
+      "MBT",
+      "mentalisation",
+      "BPD",
+      "evidence_based",
+      "psychotherapy",
+      "self-harm"
+    ]
   },
   {
     "stem": "According to Yalom's therapeutic factors in group therapy, the experience of learning that other group members have similar problems, feelings, and thoughts is known as:",
-    "options": [" Altruism", " Catharsis", " Universality", " Group cohesiveness", " Interpersonal learning"],
+    "options": [
+      " Altruism",
+      " Catharsis",
+      " Universality",
+      " Group cohesiveness",
+      " Interpersonal learning"
+    ],
     "correct_index": 2,
     "distractors_rationale": [
       "Altruism is the experience of helping and being helped by others — gaining from giving to others.",
@@ -132,16 +210,28 @@
     ],
     "teaching_point": "Yalom's 11 therapeutic factors — all high-yield for MRCPsych: Memorise by grouping: (1) Hope + Universality + Altruism (installing hope, normalising, helping); (2) Group cohesiveness + Socialising + Imitative behaviour (belonging and learning); (3) Interpersonal learning + Corrective family + Self-understanding (insight and change); (4) Catharsis + Existential (emotional and philosophical). Group therapy indications: interpersonal difficulties, social anxiety, personality disorders, addictions. Contraindications: acute psychosis, severe depression, active suicidality, severe antisocial PD (can be disruptive). Group therapy is cost-effective and is commonly used in NHS psychotherapy services.",
     "domain": "psychotherapy",
-    "subcategory": "group_therapy",
     "difficulty": "easy",
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Yalom ID & Leszcz M (2005) The Theory and Practice of Group Psychotherapy",
-    "tags": ["Yalom", "group_therapy", "universality", "therapeutic_factors", "curative_factors"]
+    "tags": [
+      "Yalom",
+      "group_therapy",
+      "universality",
+      "therapeutic_factors",
+      "curative_factors"
+    ],
+    "subdomain": "group_therapy"
   },
   {
     "stem": "A 42-year-old man with obsessive-compulsive disorder is offered family therapy. The therapist observes that the patient's mother helps him with his rituals by checking doors for him and providing reassurance hundreds of times a day. While this reduces his anxiety temporarily, it reinforces and maintains the OCD cycle. The therapist's approach is to help the family STOP this accommodating behaviour. Which model of family therapy is being used?",
-    "options": [" Structural family therapy", " Strategic family therapy", " Systemic family therapy", " Behavioural family therapy", " Psychodynamic family therapy"],
+    "options": [
+      " Structural family therapy",
+      " Strategic family therapy",
+      " Systemic family therapy",
+      " Behavioural family therapy",
+      " Psychodynamic family therapy"
+    ],
     "correct_index": 3,
     "distractors_rationale": [
       "Structural family therapy (Minuchin) focuses on family boundaries, hierarchies, and subsystems. Key concepts: enmeshment, disengagement, triangulation. While family accommodation in OCD involves blurred boundaries, the specific intervention described (stopping accommodation) is behavioural.",
@@ -157,11 +247,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG31: OCD and BDD; Calvocoressi L et al. (1995) Family accommodation in OCD; Minuchin S; Haley J",
-    "tags": ["family_therapy", "OCD", "accommodation", "behavioural", "ERP"]
+    "tags": [
+      "family_therapy",
+      "OCD",
+      "accommodation",
+      "behavioural",
+      "ERP"
+    ]
   },
   {
     "stem": "A 26-year-old man who has been in psychodynamic psychotherapy for 8 months suddenly decides to end therapy, telling his therapist 'I don't want to talk about my feelings anymore — it's too painful'. Despite exploring the reasons, the patient is firm in his decision. He starts missing sessions. According to psychodynamic theory, this is an example of which concept?",
-    "options": [" Acting out", " Resistance", " Transference", " Negative therapeutic reaction", " Therapeutic rupture"],
+    "options": [
+      " Acting out",
+      " Resistance",
+      " Transference",
+      " Negative therapeutic reaction",
+      " Therapeutic rupture"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Acting out is the expression of unconscious impulses through action rather than words (e.g., impulsive spending, risky sex, drinking). While stopping therapy could be seen as acting out, in psychodynamic theory it is classified as resistance.",
@@ -172,16 +274,28 @@
     ],
     "teaching_point": "Defence mechanisms vs resistance: DEFENCE MECHANISMS (Vaillant) — unconscious psychological strategies to protect the ego from anxiety. Hierarchical classification: MATURE (sublimation, altruism, humour, suppression) — NEUROTIC (repression, displacement, intellectualisation, rationalisation, reaction formation) — IMMATURE (projection, splitting, denial, acting out, idealisation, devaluation) — PSYCHOTIC (delusional projection, psychotic denial, distortion). RESISTANCE — specific to the therapeutic setting; it is the manifestation of defences in therapy. The task of psychodynamic therapy is to (1) IDENTIFY resistance, (2) INTERPRET its meaning, (3) HELP the patient overcome it to access the underlying conflict. Freud said: 'Where id was, there ego shall be.'",
     "domain": "psychotherapy",
-    "subcategory": "psychodynamic_concepts",
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Freud S (1912) The dynamics of transference; Vaillant GE (1992) Ego mechanisms of defense",
-    "tags": ["resistance", "psychodynamic", "defence_mechanisms", "termination", "premature"]
+    "tags": [
+      "resistance",
+      "psychodynamic",
+      "defence_mechanisms",
+      "termination",
+      "premature"
+    ],
+    "subdomain": "psychodynamic_concepts"
   },
   {
     "stem": "A 34-year-old woman with panic disorder has been in CBT for 6 weeks. She has learned to identify her catastrophic misinterpretation of bodily sensations ('This racing heart means I'm having a heart attack') and has tested this prediction through behavioural experiments (exercising to increase heart rate and noticing nothing bad happens). She is now able to manage panic attacks without avoidance. According to the CBT model of panic disorder (Clark, 1986), what is the primary maintaining factor?",
-    "options": [" Traumatic childhood experiences", " Dysfunctional family relationships", " Catastrophic misinterpretation of bodily sensations", " Low self-esteem", " Poor distress tolerance"],
+    "options": [
+      " Traumatic childhood experiences",
+      " Dysfunctional family relationships",
+      " Catastrophic misinterpretation of bodily sensations",
+      " Low self-esteem",
+      " Poor distress tolerance"
+    ],
     "correct_index": 2,
     "distractors_rationale": [
       "Childhood experiences are a predisposing factor but not the primary maintaining factor in Clark's model.",
@@ -197,11 +311,23 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Clark DM (1986) A cognitive approach to panic. Behav Res Ther; NICE CG113",
-    "tags": ["panic_disorder", "CBT", "catastrophic_misinterpretation", "Clark", "cognitive_model"]
+    "tags": [
+      "panic_disorder",
+      "CBT",
+      "catastrophic_misinterpretation",
+      "Clark",
+      "cognitive_model"
+    ]
   },
   {
     "stem": "A 52-year-old man with alcohol dependence is in the contemplation stage of change according to the Prochaska and DiClemente transtheoretical model. Which of the following would be the most appropriate therapeutic approach for a patient in this stage?",
-    "options": [" Provide direct advice that he MUST stop drinking immediately", " Use a non-directive approach, providing information about risks and benefits of change, and exploring his ambivalence", " Develop a concrete action plan and set a quit date", " Refer to a detoxification programme", " Challenge his denial and insist he needs treatment"],
+    "options": [
+      " Provide direct advice that he MUST stop drinking immediately",
+      " Use a non-directive approach, providing information about risks and benefits of change, and exploring his ambivalence",
+      " Develop a concrete action plan and set a quit date",
+      " Refer to a detoxification programme",
+      " Challenge his denial and insist he needs treatment"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Direct advice and confrontation would likely elicit resistance. In contemplation, the patient is aware of the problem but is ambivalent about change. A confrontational approach is counter-productive.",
@@ -217,11 +343,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "Prochaska JO & DiClemente CC (1982) Transtheoretical therapy; Miller WR & Rollnick S (1991) MI",
-    "tags": ["stages_of_change", "contemplation", "motivational_interviewing", "alcohol", "Prochaska"]
+    "tags": [
+      "stages_of_change",
+      "contemplation",
+      "motivational_interviewing",
+      "alcohol",
+      "Prochaska"
+    ]
   },
   {
     "stem": "A 48-year-old woman with treatment-resistant depression is referred for psychotherapy. She describes pervasive beliefs that she is a 'failure', that 'nothing will ever work out', and that she is 'fundamentally flawed'. These beliefs have been present since childhood, are deeply held, and are resistant to change. A 12-session course of standard CBT was ineffective. Which psychological therapy would be most appropriate for her?",
-    "options": [" Standard CBT focusing on current negative automatic thoughts", " Schema therapy", " Psychodynamic psychotherapy focusing on infantile trauma", " Dialectical behaviour therapy", " Mindfulness-based cognitive therapy (MBCT)"],
+    "options": [
+      " Standard CBT focusing on current negative automatic thoughts",
+      " Schema therapy",
+      " Psychodynamic psychotherapy focusing on infantile trauma",
+      " Dialectical behaviour therapy",
+      " Mindfulness-based cognitive therapy (MBCT)"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Standard CBT targets current negative automatic thoughts and behaviours. It may be insufficient when the problem is at the SCHEMA level (deep, enduring patterns from childhood). This patient has failed a trial of CBT.",
@@ -237,6 +375,12 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "Young JE (1990) Schema Therapy; Young J E, Klosko JS, Weishaar ME (2003) Schema Therapy: A Practitioner's Guide; NICE",
-    "tags": ["schema_therapy", "early_maladaptive_schemas", "CBT_resistant", "chronic_depression", "Young"]
+    "tags": [
+      "schema_therapy",
+      "early_maladaptive_schemas",
+      "CBT_resistant",
+      "chronic_depression",
+      "Young"
+    ]
   }
 ]

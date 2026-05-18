@@ -15,6 +15,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. BASDEC (Brief Assessment Schedule Depression Cards) was designed initially for liaison psychiatry and is particularly useful with older, hearing-impaired subjects. It consists of 21 statements written in large print on cards, which are shown to the patient one at a time. The patient answers 'true' or 'false'. It is simple, requires no auditory comprehension, and can be completed in 5-7 minutes. Reference: Adshead F et al. BASDEC: a novel screening instrument for depression in elderly medical inpatients. BMJ 1992;305(6850):397.",
       "GDS-15 is designed for older adults and avoids somatic items but is not specifically designed for hearing-impaired subjects.",
       "Cornell Scale is for detecting depression in people with dementia, not specifically for hearing impairment.",
       "HAM-D has many somatic items making it less appropriate for older adults, and is not adapted for hearing impairment.",
@@ -31,7 +32,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["old age psychiatry", "rating scales", "BASDEC", "depression screening", "hearing impairment"],
+    "tags": [
+      "old age psychiatry",
+      "rating scales",
+      "BASDEC",
+      "depression screening",
+      "hearing impairment"
+    ],
     "source": "SPMM EMI Old Age; Adshead et al. BMJ 1992"
   },
   {
@@ -50,6 +57,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The Cornell Scale for Depression in Dementia is an interviewer-administered 19-item scale that incorporates information from both the patient AND an informant (carer or nurse). It was specifically designed and validated for assessing depression in patients with dementia. Items cover mood, physical symptoms, cyclic functions, and ideational disturbances. It has good inter-rater reliability and validity. GDS is preferred for cognitively intact older adults but cannot be used reliably once MMSE falls below 15. Reference: Alexopoulos GS et al. Cornell Scale for Depression in Dementia. Biol Psychiatry 1988;23(3):271-84.",
       "GDS, although designed for older adults, relies on self-report and is difficult to use in patients with moderate-to-severe dementia.",
       "BASDEC is for hearing-impaired older adults but is self-report; not the best validated for dementia.",
       "HAM-D has somatic items and is not validated for use in dementia.",
@@ -66,7 +74,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["old age psychiatry", "rating scales", "Cornell scale", "depression", "dementia"],
+    "tags": [
+      "old age psychiatry",
+      "rating scales",
+      "Cornell scale",
+      "depression",
+      "dementia"
+    ],
     "source": "SPMM EMI Old Age; Alexopoulos et al. 1988"
   },
   {
@@ -85,6 +99,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The Geriatric Depression Scale (GDS), originally a 30-item and now commonly a 15-item short form, was specifically designed for older adults. It avoids somatic questions, making it the best choice when physical illness might confound depression scores. A GDS-15 score of ≥ 5 suggests possible depression. It takes 4-5 minutes to administer and has good sensitivity and specificity in older populations. It relies on self-report and requires only mild cognitive function to complete reliably. Reference: Yesavage JA et al. Development and validation of a geriatric depression screening scale. J Psychiatr Res 1983;17(1):37-49.",
       "HAM-D has a number of somatic items (insomnia, somatic symptoms, weight loss), making it less appropriate for older adults where physical comorbidity is common — may inflate scores.",
       "Cornell scale is designed for depression in dementia, not for cognitively intact older adults.",
       "BASDEC is for hearing-impaired older adults, not the general older population.",
@@ -101,7 +116,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["old age psychiatry", "rating scales", "GDS", "geriatric depression scale", "screening"],
+    "tags": [
+      "old age psychiatry",
+      "rating scales",
+      "GDS",
+      "geriatric depression scale",
+      "screening"
+    ],
     "source": "SPMM EMI Old Age; Yesavage et al. 1983"
   },
   {
@@ -120,6 +141,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Insomnia is a predictable side effect of cholinesterase inhibitors due to excessive central cholinergic stimulation. This is why donepezil is often given in the morning rather than at bedtime if insomnia occurs. Other predictable cholinergic effects include nausea, vomiting, diarrhoea, bradycardia, and muscle cramps. Most side effects are dose-dependent and improve with gradual dose titration. Reference: BNF 2023; NICE TA217.",
       "Bradycardia is a cardiovascular effect of cholinergic stimulation but is not the most predictable side effect — insomnia is more directly linked to central cholinergic activation.",
       "Nausea is the most common GI side effect, not the 'predictable side effect due to excessive cholinergic stimulation' specifically.",
       "Weight loss occurs with long-term treatment but is not the most predictable effect.",
@@ -136,7 +158,14 @@
     "difficulty": "easy",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["old age", "antidementia drugs", "donepezil", "rivastigmine", "side effects", "cholinergic"],
+    "tags": [
+      "old age",
+      "antidementia drugs",
+      "donepezil",
+      "rivastigmine",
+      "side effects",
+      "cholinergic"
+    ],
     "source": "SPMM EMI Old Age; BNF 2023"
   },
   {
@@ -155,6 +184,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Cholinesterase inhibitors have a vagotonic effect on the sinoatrial and atrioventricular nodes, causing bradycardia. This effect is dose-dependent and is of particular concern in patients with sick sinus syndrome, other supraventricular conduction disturbances, or those taking beta-blockers or calcium-channel blockers that slow heart rate. Baseline ECG and pulse monitoring are recommended before and during titration. Reference: BNF 2023; Maudsley Prescribing Guidelines in Psychiatry, 14th ed.",
       "Hypertension is not a known side effect of cholinesterase inhibitors.",
       "Tachycardia is the opposite of the vagotonic (cholinergic) effect.",
       "Atrial fibrillation is not a documented common side effect of these drugs.",
@@ -171,7 +201,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["old age", "antidementia drugs", "bradycardia", "cardiac side effects", "cholinesterase inhibitors"],
+    "tags": [
+      "old age",
+      "antidementia drugs",
+      "bradycardia",
+      "cardiac side effects",
+      "cholinesterase inhibitors"
+    ],
     "source": "SPMM EMI Old Age; BNF 2023; Maudsley 14th ed"
   },
   {
@@ -190,6 +226,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Nausea is the most common gastrointestinal side effect reported with all three cholinesterase inhibitors (donepezil, rivastigmine, galantamine), occurring in approximately 20-30% of patients during titration. Other frequent GI effects include vomiting, diarrhoea, anorexia, and abdominal pain. These side effects are dose-dependent and often improve with continued use. The key management strategy is slow dose titration and taking medication with food. Reference: BNF 2023; NICE TA217.",
       "Vomiting is also common but nausea is more frequent and occurs in 20-30% of patients.",
       "Diarrhoea is common but less frequent than nausea.",
       "Constipation is not a characteristic side effect of cholinesterase inhibitors (they increase peristalsis).",
@@ -206,7 +243,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["old age", "antidementia drugs", "nausea", "GI side effects", "cholinesterase inhibitors"],
+    "tags": [
+      "old age",
+      "antidementia drugs",
+      "nausea",
+      "GI side effects",
+      "cholinesterase inhibitors"
+    ],
     "source": "SPMM EMI Old Age; BNF 2023"
   },
   {
@@ -225,6 +268,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. NICE CG103 (2010) for delirium management emphasises: (1) identify and treat the underlying cause as the priority (infection, electrolyte imbalance, medication effect, organ failure, etc.), (2) provide reassurance and orientation (non-pharmacological), (3) involve family/carers, (4) only use short-term antipsychotics (haloperidol 0.5mg PRN, max 5mg/24h) if the patient is distressed or at risk. The 4AT is the recommended screening tool. Reference: NICE CG103 (2010).",
       "Haloperidol should only be used if the patient is severely agitated or at risk, after non-pharmacological measures have failed and underlying causes are being addressed.",
       "Lorazepam is not first-line (except in alcohol withdrawal or certain seizure-related deliria), as benzodiazepines can worsen confusion.",
       "Physical restraints are to be avoided unless absolutely necessary (immediate danger to self/others) — they increase agitation and injury risk.",
@@ -241,7 +285,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["delirium", "acute confusional state", "NICE CG103", "management", "4AT"],
+    "tags": [
+      "delirium",
+      "acute confusional state",
+      "NICE CG103",
+      "management",
+      "4AT"
+    ],
     "source": "NICE CG103"
   },
   {
@@ -260,6 +310,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. CT scan in Alzheimer's disease classically shows cortical atrophy, most prominent in the medial temporal (including hippocampus), parietal, and temporal lobes, with associated dilatation of the third ventricle and temporal horns. The degree of atrophy correlates with cognitive impairment. In advanced disease, frontal lobe involvement is also visible. CT is less sensitive than MRI for detecting hippocampal atrophy. Reference: Scheltens P et al. Atrophy of medial temporal lobes on MRI in 'probable' Alzheimer's disease and normal ageing. J Neurol Neurosurg Psychiatry 1992;55(10):967-72.",
       "Reduced cerebral blood flow in temporal and parietal regions is seen on SPECT, not CT.",
       "Reduced glucose metabolism in temporal and posterior parietal lobes is seen on PET, not CT.",
       "Reduced NAA is seen on MR spectroscopy, not CT.",
@@ -276,7 +327,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["Alzheimer's disease", "CT", "neuroimaging", "cortical atrophy", "dementia"],
+    "tags": [
+      "Alzheimer's disease",
+      "CT",
+      "neuroimaging",
+      "cortical atrophy",
+      "dementia"
+    ],
     "source": "SPMM EMI Old Age"
   },
   {
@@ -295,6 +352,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. SPECT (Single Photon Emission Computed Tomography) measures regional cerebral blood flow (rCBF). In Alzheimer's disease, a characteristic pattern of reduced blood flow is seen in the temporal and posterior parietal regions, often bilaterally. This pattern can help distinguish Alzheimer's disease from frontotemporal dementia (which shows frontal hypoperfusion) and DLB (occipital hypoperfusion). SPECT is not routinely recommended by NICE for dementia diagnosis but can be useful in diagnostically challenging cases. Reference: NICE NG97; Dougall NJ et al. Systematic review of the diagnostic accuracy of 99mTc-HMPAO-SPECT in dementia. Am J Geriatr Psychiatry 2004;12(6):554-70.",
       "Cortical atrophy is seen on CT/MRI structural imaging, not on SPECT (which measures blood flow).",
       "Reduced glucose metabolism is seen on PET (FDG-PET), not SPECT.",
       "Reduced NAA on MR spectroscopy is an MRS finding.",
@@ -311,7 +369,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["Alzheimer's disease", "SPECT", "neuroimaging", "rCBF", "dementia diagnosis"],
+    "tags": [
+      "Alzheimer's disease",
+      "SPECT",
+      "neuroimaging",
+      "rCBF",
+      "dementia diagnosis"
+    ],
     "source": "SPMM EMI Old Age"
   },
   {
@@ -330,6 +394,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Parkinson's disease dementia (PDD) and dementia with Lewy bodies (DLB) share identical pathology — Lewy body deposition, with a-synuclein aggregates. The diagnostic distinction (the '1-year rule') is temporal: DLB is diagnosed when dementia develops before or within 1 year of the onset of parkinsonism; PDD is diagnosed when dementia develops more than 1 year after well-established Parkinson's disease. From a practical clinical standpoint, they are the same disease entity on a continuum. The 2017 McKeith consensus criteria removed this strict distinction and now define DLB as the overarching term for the Lewy body dementia spectrum. Reference: McKeith IG et al. Diagnosis and management of DLB: Fourth consensus report. Neurology 2017;89(1):88-100.",
       "Hippocampal atrophy is more characteristic of Alzheimer's disease.",
       "Occipital hypoperfusion is seen in both PDD and DLB and does not differentiate them.",
       "Frontal lobe atrophy is more characteristic of FTD.",
@@ -346,7 +411,15 @@
     "difficulty": "hard",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["DLB", "PDD", "Lewy bodies", "parkinsonism", "dementia", "1-year rule", "McKeith criteria"],
+    "tags": [
+      "DLB",
+      "PDD",
+      "Lewy bodies",
+      "parkinsonism",
+      "dementia",
+      "1-year rule",
+      "McKeith criteria"
+    ],
     "source": "McKeith et al. 2017"
   },
   {
@@ -365,6 +438,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Projection is an ego defence mechanism in which an individual unconsciously attributes their own unacceptable thoughts, feelings, or impulses onto another person. It is a primitive defence commonly seen in paranoid personality disorder and paranoia in psychotic disorders. The patient cannot tolerate his own distrustfulness, so he attributes it to the psychiatrist instead. This is a classic SPMM EMI pattern. Reference: Freud S. (1896). Further remarks on the neuro-psychoses of defence. Standard Edition, Vol 3.",
       "Denial would involve refusing to acknowledge the paranoid feelings exist at all.",
       "Rationalisation involves creating logical excuses for behaviour.",
       "Splitting involves seeing people as all-good or all-bad, not attributing one's own traits to others.",
@@ -381,7 +455,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["defence mechanisms", "projection", "psychodynamic", "personality disorders"],
+    "tags": [
+      "defence mechanisms",
+      "projection",
+      "psychodynamic",
+      "personality disorders"
+    ],
     "source": "SPMM EMI Psychotherapy"
   },
   {
@@ -400,6 +479,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Displacement is a defence mechanism in which an emotional impulse (particularly aggression) is redirected from a threatening or forbidden target (e.g., mother) to a safer, less threatening target (e.g., another child, a pet, an object). It is considered a 'neurotic' defence — more mature than primitive defences (projection, denial, splitting) but less mature than mature defences (sublimation, humour, altruism). Reference: Vaillant GE. Ego Mechanisms of Defense. American Psychiatric Press, 1992.",
       "Projection involves attributing one's own feelings to others, not redirecting them.",
       "Acting out involves direct behavioural expression of an impulse without redirection to a different target.",
       "Sublimation is channeling impulses into constructive activities.",
@@ -416,7 +496,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["defence mechanisms", "displacement", "psychodynamic", "child development"],
+    "tags": [
+      "defence mechanisms",
+      "displacement",
+      "psychodynamic",
+      "child development"
+    ],
     "source": "SPMM EMI Psychotherapy"
   },
   {
@@ -435,6 +520,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Reaction formation is a defence mechanism in which unacceptable or anxiety-provoking impulses are mastered by exaggerated adoption of the opposite stance or behaviour. It is a classic obsessive-compulsive defence. The unacceptable impulse (sexual thoughts towards a colleague) is transformed into its polar opposite (championing workplace conduct). The person is unaware of the true motive — the behaviour is unconsciously driven. Reference: Freud A. The Ego and the Mechanisms of Defence. 1936.",
       "Sublimation would channel the sexual impulse into a genuinely valued creative or social activity, not an opposite-behaviour pattern.",
       "Projection would attribute the sexual thoughts to the colleague instead.",
       "Isolation of affect would separate the idea from the associated feeling, not produce the opposite behaviour.",
@@ -451,7 +537,12 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["defence mechanisms", "reaction formation", "obsessive-compulsive", "psychodynamic"],
+    "tags": [
+      "defence mechanisms",
+      "reaction formation",
+      "obsessive-compulsive",
+      "psychodynamic"
+    ],
     "source": "SPMM EMI Psychotherapy"
   },
   {
@@ -471,6 +562,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "Intellectualisation involves excessive abstract thinking, but the key defence here is separating the idea (dissection) from the emotion (fear/disgust).",
+      "This is the correct answer. Isolation of affect (sometimes called isolation of affect from idea) is a defence mechanism in which an unacceptable or threatening idea is separated from the emotional response it would normally trigger. The idea enters consciousness, but the associated feeling is suppressed unconsciously. It is common in obsessive-compulsive and some phobic individuals. Intellectualisation is closely related and often co-occurs — the person focuses on abstract intellectual aspects to further distance themselves emotionally. Reference: Freud S. (1926). Inhibitions, Symptoms and Anxiety.",
       "Rationalisation would involve finding logical justifications for avoidance, not changing the way the information is processed.",
       "Sublimation would channel the fear into a socially valued activity.",
       "Denial would involve refusing to acknowledge the emotional experience at all.",
@@ -486,7 +578,12 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["defence mechanisms", "isolation of affect", "psychodynamic", "phobia"],
+    "tags": [
+      "defence mechanisms",
+      "isolation of affect",
+      "psychodynamic",
+      "phobia"
+    ],
     "source": "SPMM EMI Psychotherapy"
   },
   {
@@ -505,6 +602,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Shaping (also called 'successive approximation') is an operant conditioning technique in which behaviours that are progressively closer to the target behaviour are reinforced. Initially, any behaviour that remotely resembles the target is reinforced. The criteria for reinforcement are gradually raised until only the exact target behaviour is reinforced. It is particularly useful for teaching complex behaviours or working with patients with severe developmental disabilities. Reference: Skinner BF. Science and Human Behavior. 1953.",
       "Premack principle uses high-frequency behaviour to reinforce low-frequency behaviour (e.g., 'finish homework then play'), not successive approximation.",
       "Classical conditioning involves pairing a neutral stimulus with an unconditioned stimulus to produce a conditioned response.",
       "Operant conditioning (positive reinforcement) is the broader principle but shaping is the specific technique of reinforcing successive approximations.",
@@ -521,7 +619,12 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["behavioural therapy", "shaping", "operant conditioning", "learning theory"],
+    "tags": [
+      "behavioural therapy",
+      "shaping",
+      "operant conditioning",
+      "learning theory"
+    ],
     "source": "SPMM EMI Psychotherapy"
   },
   {
@@ -540,6 +643,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. This illustrates classical (Pavlovian) conditioning with stimulus generalisation. A previously neutral stimulus (dog — CS) associated with an aversive event (bite — UCS) produces a conditioned fear response (CR). Generalisation occurs when similar stimuli (all dogs) also elicit the fear response. This is the basis for systematic desensitisation and exposure therapy — the phobic patient learns to discriminate that not all dogs are dangerous (stimulus discrimination training). Reference: Pavlov IP. Conditioned Reflexes. 1927.",
       "Acquisition is the initial learning phase, but the specific process here is generalisation to all dogs.",
       "Punishment in operant conditioning refers to a consequence that decreases a behaviour, not the Pavlovian pairing described.",
       "Observational learning involves learning through watching others, not through direct experience.",
@@ -556,7 +660,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["classical conditioning", "stimulus generalisation", "phobia", "behavioural therapy", "Pavlov"],
+    "tags": [
+      "classical conditioning",
+      "stimulus generalisation",
+      "phobia",
+      "behavioural therapy",
+      "Pavlov"
+    ],
     "source": "SPMM EMI Psychotherapy"
   },
   {
@@ -575,6 +685,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Amphetamine intoxication presents with: (1) sympathomimetic features — tachycardia, hypertension, mydriasis, hyperthermia, (2) mental state changes — euphoria, grandiosity, hypervigilance, psychomotor agitation, (3) prolonged insomnia lasting days. Amphetamines increase synaptic dopamine and noradrenaline. Complications include amphetamine-induced psychosis (often indistinguishable from acute paranoid schizophrenia), acute coronary syndrome, and hyperthermia. Management: benzodiazepines for agitation, cooling for hyperthermia, and cautious use of antipsychotics if psychosis is severe (risk of QT prolongation). Reference: Maudsley Prescribing Guidelines 14th ed, Chapter 15; BNF 2023.",
       "Cocaine intoxication presents with similar sympathomimetic features but is shorter-acting (30-60 min), with euphoria, paranoia, and chest pain, rather than the prolonged 3-day hyposomnia and grandiosity described.",
       "Cannabis intoxication typically causes tachycardia and red eyes but with relaxation, perceptual distortions, and time distortion — not hypervigilance and 3-day insomnia.",
       "MDMA causes euphoria, increased empathy, and mild sympathomimetic effects — not typically the severe insomnia and grandiosity described.",
@@ -591,7 +702,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["substance misuse", "amphetamine", "stimulant intoxication", "sympathomimetic", "EMI"],
+    "tags": [
+      "substance misuse",
+      "amphetamine",
+      "stimulant intoxication",
+      "sympathomimetic",
+      "EMI"
+    ],
     "source": "SPMM EMI Addiction; Maudsley 14th ed"
   },
   {
@@ -610,6 +727,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Opioid (diamorphine/heroin) intoxication presents with the classic triad: (1) pinpoint (miotic) pupils — due to stimulation of the Edinger-Westphal nucleus, (2) respiratory depression — the most dangerous effect, mediated by μ2-receptor activation in the brainstem, (3) reduced level of consciousness. Naloxone (0.4-2 mg IV repeated as needed) is the specific antidote. Caution: naloxone's half-life (30-81 minutes) is shorter than many opioids, particularly methadone (24-36 hours), so repeat dosing or an infusion may be needed to prevent recurrence of respiratory depression. Reference: BNF 2023; Maudsley 14th ed, p. 729.",
       "Benzodiazepine overdose causes sedation and respiratory depression but typically with normal or small pupils, not pinpoint.",
       "Alcohol intoxication causes sedation, ataxia, and slurred speech, but not typically pinpoint pupils.",
       "GHB causes sedation and respiratory depression but not pinpoint pupils.",
@@ -626,7 +744,14 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["substance misuse", "opioid overdose", "heroin", "naloxone", "respiratory depression", "EMI"],
+    "tags": [
+      "substance misuse",
+      "opioid overdose",
+      "heroin",
+      "naloxone",
+      "respiratory depression",
+      "EMI"
+    ],
     "source": "SPMM EMI Addiction; BNF 2023"
   },
   {
@@ -645,6 +770,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Cannabis (Δ9-tetrahydrocannabinol) intoxication produces: (1) cardiovascular effects — tachycardia, conjunctival injection (red eyes), postural hypotension, (2) neurological effects — incoordination, ataxia, (3) psychological effects — time distortion ('everything is in slow motion'), heightened sensory perception, euphoria, relaxation at low doses, anxiety/paranoia at high doses. The physical signs are mediated via CB1 receptors in the brain and peripheral tissues. Chronic cannabis use is associated with amotivational syndrome, cannabis-induced psychosis, and cognitive impairment. Reference: BNF 2023; Maudsley 14th ed, p. 746.",
       "LSD intoxication causes perceptual distortions and synaesthesia but without the specific constellation of red eyes, postural hypotension, and ataxia described here.",
       "MDMA causes euphoria, empathy, and mild sympathomimetic effects — not red eyes and postural hypotension.",
       "Amphetamine causes mydriasis, hypertension, and hyperarousal — not red eyes and ataxia.",
@@ -661,7 +787,14 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["substance misuse", "cannabis", "intoxication", "conjunctival injection", "time distortion", "EMI"],
+    "tags": [
+      "substance misuse",
+      "cannabis",
+      "intoxication",
+      "conjunctival injection",
+      "time distortion",
+      "EMI"
+    ],
     "source": "SPMM EMI Addiction"
   },
   {
@@ -680,6 +813,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Cocaine intoxication presents with: (1) cardiovascular — tachycardia, hypertension, chest pain (risk of acute coronary syndrome even in young patients due to coronary vasospasm), (2) neurological — dilated pupils, hyperthermia, seizures at high doses, (3) psychological — euphoria followed by dysphoria, paranoia, anxiety, hypervigilance. Cocaine blocks the reuptake of dopamine, noradrenaline, and serotonin. The half-life is approximately 0.5-1.5 hours, leading to the 'crash' as the drug wears off. Management is supportive: benzodiazepines for agitation, aspirin and GTN for chest pain, cooling for hyperthermia. Beta-blockers are CONTRAINDICATED (unopposed alpha-adrenergic stimulation worsens coronary vasospasm). Reference: McCord J et al. Management of cocaine-associated chest pain and MI. Circulation 2008;117:1897-907.",
       "Amphetamine intoxication causes similar sympathomimetic features but the onset after snorting (30 min) and the prominence of chest pain is more characteristic of cocaine, as is the shorter, more intense high.",
       "MDMA causes euphoria and mild sympathomimetic effects with hyperthermia but not typically the intense chest pain and paranoia seen here.",
       "Cannabis causes red eyes, ataxia, and time distortion — not chest pain and hypertension.",
@@ -696,7 +830,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["substance misuse", "cocaine", "intoxication", "chest pain", "sympathomimetic", "EMI"],
+    "tags": [
+      "substance misuse",
+      "cocaine",
+      "intoxication",
+      "chest pain",
+      "sympathomimetic",
+      "EMI"
+    ],
     "source": "SPMM EMI Addiction"
   },
   {
@@ -715,6 +856,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. HCR-20 (Webster et al.) is a structured professional judgment tool for violence risk assessment, comprising: (1) 10 Historical items (previous violence, PCL-R score, employment problems, substance use, etc.), (2) 5 Clinical items (lack of insight, negative attitudes, active symptoms, impulsivity, treatment response), (3) 5 Risk Management items (feasibility of plans, exposure to destabilisers, lack of personal support, non-compliance with remediation, stress). Each item is rated 0-2, and the overall risk rating is presented as low/moderate/high. Reference: Webster CD et al. HCR-20: Assessing Risk for Violence. 1997.",
       "PCL-R is a 20-item scale for diagnosing psychopathy (Hare), not specifically for violence risk with H/C/R domains.",
       "SVR-20 is for sexual violence risk, has 20 items but does not have the H/C/R structure.",
       "SARA is a 20-item set for spousal assault risk assessment.",
@@ -731,7 +873,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["forensic psychiatry", "HCR-20", "risk assessment", "violence", "SPJ"],
+    "tags": [
+      "forensic psychiatry",
+      "HCR-20",
+      "risk assessment",
+      "violence",
+      "SPJ"
+    ],
     "source": "SPMM EMI Forensic; SPMM EMI Statistics"
   },
   {
@@ -750,6 +898,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The Psychopathy Checklist — Revised (Hare PCL-R) is a 20-item clinical rating scale scored 0-2 for each item (range 0-40). Its 2-factor structure comprises: Factor 1 — interpersonal/affective features (glibness, grandiosity, lack of empathy, shallow affect), Factor 2 — antisocial/lifestyle features (impulsivity, poor behavioural control, juvenile delinquency, criminal versatility). The UK cut-off for psychopathy is 25; the North American cut-off is 30. PCL-R scores predict violent recidivism and treatment engagement in forensic populations. Reference: Hare RD. The Hare Psychopathy Checklist — Revised. 2nd ed. 2003.",
       "HCR-20 is a violence risk assessment tool, not a diagnostic instrument for psychopathy.",
       "SVR-20 is a 20-item guide for assessing violence risk in sex offenders, not for diagnosing psychopathy.",
       "SARA is for spousal assault risk assessment.",
@@ -766,7 +915,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["forensic psychiatry", "PCL-R", "psychopathy", "Hare", "risk assessment"],
+    "tags": [
+      "forensic psychiatry",
+      "PCL-R",
+      "psychopathy",
+      "Hare",
+      "risk assessment"
+    ],
     "source": "SPMM EMI Forensic"
   },
   {
@@ -785,6 +940,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Static-99 (Hanson & Thornton, 2000) is a 10-item actuarial risk assessment instrument for adult male sexual offenders. Items include: (1) prior sexual offences, (2) prior sentencing dates, (3) convictions for non-contact sexual offences, (4) any non-sexual violence index, (5) prior non-sexual violence, (6) unrelated victims, (7) stranger victims, (8) male victims, (9) young (under 18) victims, (10) single (never married). Scores range 0-12, corresponding to low, moderate, high, and very high risk categories for sexual recidivism. Reference: Hanson RK, Thornton D. Static-99: Improving actuarial risk assessments for sex offenders. Law Hum Behav 2000;24(3):357-71.",
       "SVR-20 is a 20-item SPJ tool for sexual violence, not a 10-item actuarial instrument.",
       "SARA is for spousal assault, not sexual offending.",
       "PCL-R is for psychopathy diagnosis, not specifically for sexual offence recidivism.",
@@ -801,7 +957,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "recall",
     "paper": "B",
-    "tags": ["forensic psychiatry", "Static-99", "sexual offending", "actuarial risk assessment", "recidivism"],
+    "tags": [
+      "forensic psychiatry",
+      "Static-99",
+      "sexual offending",
+      "actuarial risk assessment",
+      "recidivism"
+    ],
     "source": "SPMM EMI Forensic"
   },
   {
@@ -820,6 +982,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Fragile X syndrome is the most common inherited cause of intellectual disability (CGG trinucleotide repeat expansion in the FMR1 gene at Xq27.3). Key physical features: long narrow face, large protruding ears, prominent jaw, macro-orchidism (post-pubertal). Behavioural phenotype: ADHD, gaze aversion, social anxiety, hand-flapping, autistic features. X-linked inheritance explains maternal family history. Repeat expansion > 200 CGG repeats = full mutation; 55-200 = premutation (risk of FXTAS and POI in carriers). Reference: Hagerman RJ et al. Fragile X syndrome. Nat Rev Dis Primers 2017;3:17015.",
       "Down syndrome (Trisomy 21) presents with upslanting palpebral fissures, flat facial profile, single palmar crease, and intellectual disability — not large ears, long face, or macro-orchidism.",
       "Williams syndrome involves elfin facies, cardiovascular disease (supravalvular aortic stenosis), and a friendly social phenotype — not macro-orchidism.",
       "Prader-Willi syndrome features neonatal hypotonia, hyperphagia, obesity, and small hands/feet — not the dysmorphic features described.",
@@ -836,7 +999,13 @@
     "difficulty": "medium",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["learning disability", "intellectual disability", "Fragile X", "FMR1", "dysmorphic features"],
+    "tags": [
+      "learning disability",
+      "intellectual disability",
+      "Fragile X",
+      "FMR1",
+      "dysmorphic features"
+    ],
     "source": "SPMM EMI LD"
   },
   {
@@ -855,6 +1024,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Down syndrome (Trisomy 21) is the most common chromosomal cause of intellectual disability, with an incidence of approximately 1 in 700-1000 live births. Risk increases with maternal age. Key features: (1) dysmorphic — upslanting palpebral fissures, epicanthic folds, flat nasal bridge, protruding tongue, single palmar crease (simian crease), sandal gap, (2) congenital — AVSD (most common cardiac anomaly), duodenal atresia, Hirschsprung's disease, (3) increased risk of early-onset Alzheimer's disease (amyloid precursor protein gene on chromosome 21). Reference: NICE guidance; ICD-11; DSM-5.",
       "Fragile X has a long narrow face, large ears, and macro-orchidism — not the described features.",
       "Williams syndrome has elfin facies, hoarse voice, and cardiovascular disease (supravalvular aortic stenosis), not AVSD.",
       "Prader-Willi syndrome has hypotonia, small hands/feet, and obesity.",
@@ -871,7 +1041,13 @@
     "difficulty": "easy",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["learning disability", "intellectual disability", "Down syndrome", "Trisomy 21", "congenital heart disease"],
+    "tags": [
+      "learning disability",
+      "intellectual disability",
+      "Down syndrome",
+      "Trisomy 21",
+      "congenital heart disease"
+    ],
     "source": "SPMM EMI LD"
   },
   {
@@ -890,6 +1066,9 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The M'Naghten Rules (1843) provide the legal test for insanity in criminal law: (1) at the time of the offence, the defendant must have been suffering from a defect of reason from disease of the mind, and (2) as a result, he either did not know the nature and quality of his act, OR he did not know it was wrong. Under English law, a person found not guilty by reason of insanity receives a disposal ranging from a hospital order (with/without restrictions) to an absolute discharge — the court has discretion since the 1991 amendment. The use of the M'Naghten Rules in England and Wales has declined significantly since diminished responsibility was introduced (Homicide Act 1957) — insanity is rarely pleaded because it carries a potentially indeterminate disposal. Reference: Criminal Procedure (Insanity and Unfitness to Plead) Act 1991; Homicide Act 1957.",
+      "This is the correct answer. The M'Naghten Rules (1843) provide the legal test for insanity in criminal law: (1) at the time of the offence, the defendant must have been suffering from a defect of reason from disease of the mind, and (2) as a result, he either did not know the nature and quality of his act, OR he did not know it was wrong. Under English law, a person found not guilty by reason of insanity receives a disposal ranging from a hospital order (with/without restrictions) to an absolute discharge — the court has discretion since the 1991 amendment. The use of the M'Naghten Rules in England and Wales has declined significantly since diminished responsibility was introduced (Homicide Act 1957) — insanity is rarely pleaded because it carries a potentially indeterminate disposal. Reference: Criminal Procedure (Insanity and Unfitness to Plead) Act 1991; Homicide Act 1957.",
+      "This is the correct answer. The M'Naghten Rules (1843) provide the legal test for insanity in criminal law: (1) at the time of the offence, the defendant must have been suffering from a defect of reason from disease of the mind, and (2) as a result, he either did not know the nature and quality of his act, OR he did not know it was wrong. Under English law, a person found not guilty by reason of insanity receives a disposal ranging from a hospital order (with/without restrictions) to an absolute discharge — the court has discretion since the 1991 amendment. The use of the M'Naghten Rules in England and Wales has declined significantly since diminished responsibility was introduced (Homicide Act 1957) — insanity is rarely pleaded because it carries a potentially indeterminate disposal. Reference: Criminal Procedure (Insanity and Unfitness to Plead) Act 1991; Homicide Act 1957.",
       "Diminished responsibility is a partial defence to murder under Section 2 Homicide Act 1957, requiring that the defendant's mental functioning was substantially impaired at the time of the killing — but the question specifically asks about 'knowing right from wrong', which is the M'Naghten test.",
       "Unfitness to plead (Section 4 Criminal Procedure (Insanity) Act 1964) relates to the defendant's ability to participate in the trial at the time of the hearing, not his mental state at the time of the offence.",
       "Automatism requires a complete loss of voluntary control, not the presence of psychotic symptoms.",
@@ -904,7 +1083,13 @@
     "difficulty": "hard",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["forensic psychiatry", "M'Naghten Rules", "insanity", "diminished responsibility", "legal psychiatry"],
+    "tags": [
+      "forensic psychiatry",
+      "M'Naghten Rules",
+      "insanity",
+      "diminished responsibility",
+      "legal psychiatry"
+    ],
     "source": "SPMM EMI Forensic"
   },
   {
@@ -923,6 +1108,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Mullen et al. (1999, 2000) classified five stalking typologies: (1) Rejected stalker — pursues ex-intimate, motivated by reconciliation or revenge, (2) Intimacy seeker — seeks a relationship with someone they believe loves them (often delusional), (3) Incompetent suitor — lacks social skills, seeks a brief relationship, (4) Resentful stalker — motivated by grievance and vengeance, (5) Predatory stalker — gathers information as prelude to sexual assault. The intimacy seeker believes the target loves them (may have erotomanic delusions); the rejected stalker cannot accept the relationship has ended but knows it existed. Reference: Mullen PE et al. Stalking: A review and classification. Aust N Z J Psychiatry 1999;33(6):835-43.",
       "The rejected stalker pursues an ex-intimate to achieve reconciliation OR to exact revenge — this man is not seeking vengeance but reconciliation.",
       "The resentful stalker pursues victims to exact revenge for a perceived injury or grievance — not the case here.",
       "The incompetent suitor pursues a stranger or acquaintance for a brief sexual encounter or date, not a former partner.",
@@ -939,7 +1125,13 @@
     "difficulty": "hard",
     "bloom_taxonomy": "analysis",
     "paper": "B",
-    "tags": ["forensic", "stalking", "Mullen typology", "intimacy seeker", "classification"],
+    "tags": [
+      "forensic",
+      "stalking",
+      "Mullen typology",
+      "intimacy seeker",
+      "classification"
+    ],
     "source": "SPMM EMI Forensic; Mullen et al. 1999"
   },
   {
@@ -958,6 +1150,8 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Under the M'Naghten Rules, a brain tumour causing disinhibition can constitute a 'disease of the mind'. If the defence can establish that the tumour caused a defect of reason such that the defendant did not know the nature and quality of his act (or did not know it was wrong), the insanity defence may succeed. In R v Kemp (1957), a defendant with arteriosclerosis (not a tumour) causing diminished consciousness during a violent act was found to have a disease of the mind for legal purposes. The Court held that a 'disease of the mind' includes any organic condition affecting the brain, even if physical in origin. Reference: R v Kemp [1957] 1 QB 399; R v Byrne [1960] 2 QB 396 — volitional impairment.",
+      "This is the correct answer. Under the M'Naghten Rules, a brain tumour causing disinhibition can constitute a 'disease of the mind'. If the defence can establish that the tumour caused a defect of reason such that the defendant did not know the nature and quality of his act (or did not know it was wrong), the insanity defence may succeed. In R v Kemp (1957), a defendant with arteriosclerosis (not a tumour) causing diminished consciousness during a violent act was found to have a disease of the mind for legal purposes. The Court held that a 'disease of the mind' includes any organic condition affecting the brain, even if physical in origin. Reference: R v Kemp [1957] 1 QB 399; R v Byrne [1960] 2 QB 396 — volitional impairment.",
       "Diminished responsibility is a partial defence to murder only, not to sexual offences.",
       "Automatism requires a complete loss of conscious control — here there is partial awareness but inability to control.",
       "Doli incapax applies to children under 10-14, not adults.",
@@ -973,7 +1167,14 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["forensic", "M'Naghten", "insanity", "organic brain disease", "frontal lobe tumour", "R v Kemp"],
+    "tags": [
+      "forensic",
+      "M'Naghten",
+      "insanity",
+      "organic brain disease",
+      "frontal lobe tumour",
+      "R v Kemp"
+    ],
     "source": "R v Kemp [1957]; SPMM EMI Forensic"
   },
   {
@@ -1009,7 +1210,14 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["DoLS", "Cheshire West", "MCA 2005", "deprivation of liberty", "LPS", "capacity"],
+    "tags": [
+      "DoLS",
+      "Cheshire West",
+      "MCA 2005",
+      "deprivation of liberty",
+      "LPS",
+      "capacity"
+    ],
     "source": "MCA 2005; Cheshire West [2014] UKSC 19"
   },
   {
@@ -1028,6 +1236,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Nasogastric feeding of a patient with severe anorexia nervosa can be lawful under the MHA 1983 as treatment for the mental disorder. Section 145 MHA defines medical treatment as including 'nursing, care, habilitation and rehabilitation under medical supervision'. The Court of Appeal in Re KB (Adult) (Mental Patient: Medical Treatment) [1994] confirmed that feeding a patient with anorexia against her will can be treatment for the mental disorder. In practice, a combination of MHA + MCA + Court of Protection may be used depending on the specific circumstances. The key principle: the MHA takes precedence over the MCA when the person needs treatment for a mental disorder AND meets MHA criteria for detention. Reference: MHA 1983 s.145; MCA 2005 s.29; Re KB [1994]; R v Collins and Ashworth Hospital [1998] — also confirming nasogastric feeding under MHA is lawful.",
       "The MCA 2005 can be used for some patients with anorexia, but when a deprivation of liberty is needed to provide care, and treatment for the mental disorder is refused, the MHA is the more appropriate framework. However, the MCA specifically states it cannot be used to detain someone who meets MHA criteria (Section 29 MCA).",
       "Deprivation of liberty in hospital is not limited to MHA — DoLS/MCA can also authorise it, but the MHA provides additional safeguards (tribunal, SOAD, nearest relative) and is often preferred.",
       "Nasogastric feeding CAN be provided under the MHA (as treatment for the mental disorder) — case law (R v Collins; Re KB) confirms feeding can be treatment for anorexia.",
@@ -1044,7 +1253,15 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["forensic", "MHA 1983", "MCA 2005", "anorexia nervosa", "nasogastric feeding", "Re KB", "mental health law"],
+    "tags": [
+      "forensic",
+      "MHA 1983",
+      "MCA 2005",
+      "anorexia nervosa",
+      "nasogastric feeding",
+      "Re KB",
+      "mental health law"
+    ],
     "source": "MHA 1983; MCA 2005; Re KB [1994]; R v Collins [1998]"
   },
   {
@@ -1065,6 +1282,7 @@
     "distractors_rationale": [
       "Sertraline is effective for depression in LD, but fluoxetine has the best evidence base for people with intellectual disability.",
       "Citalopram is an option, but there is less specific evidence in LD populations and dose-dependent QT prolongation risk.",
+      "This is the correct answer. Depression in people with intellectual disability is under-recognised and often presents with behavioural changes, withdrawal, and somatic symptoms rather than subjective low mood. The Royal College of Psychiatrists guidelines (CR233, 2020) recommend: (1) psychological therapies (adapted CBT) as first-line for mild-to-moderate depression, (2) SSRIs — particularly fluoxetine — as first-line pharmacological treatment due to the best evidence base in LD populations. Fluoxetine has a long half-life (which protects against missed doses — a practical advantage in LD) and a favourable side-effect profile. Dosing: start at 10 mg daily (half of adult starting dose) due to possible increased sensitivity. Reference: RCPsych CR233 (2020) — Management of mental health problems in people with intellectual disability.",
       "Mirtazapine is a second-line choice due to less evidence in LD and risk of sedation and weight gain.",
       "Amitriptyline is contraindicated as first line due to anticholinergic side effects and cardiotoxicity in overdose.",
       "Venlafaxine has a higher side-effect burden and is not first-line.",
@@ -1079,7 +1297,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["learning disability", "intellectual disability", "depression", "fluoxetine", "SSRI", "CR233"],
+    "tags": [
+      "learning disability",
+      "intellectual disability",
+      "depression",
+      "fluoxetine",
+      "SSRI",
+      "CR233"
+    ],
     "source": "RCPsych CR233 (2020)"
   },
   {
@@ -1098,6 +1323,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. People with intellectual disability are at higher risk of unrecognised physical illness due to diagnostic overshadowing — the tendency to attribute new behaviours or distress to the underlying intellectual disability rather than to a physical cause. This patient presents with a physical sign (RIF tenderness) suggesting appendicitis. NICE guideline NG11 (2015) emphasises: (1) always consider physical causes first when behaviour changes, (2) involve the person's family/carers who know them best, (3) use pain assessment tools (like the DISDAT — Disability Distress Assessment Tool) if the person cannot self-report. The highest priority is surgical review given the acute abdomen signs. Reference: NICE NG11 (2015) — Challenging behaviour and learning disabilities: prevention and interventions.",
       "Laxatives are for constipation but the focal tenderness and vitals suggest possible appendicitis — laxatives might worsen the situation.",
       "Starting an SSRI for depression is premature when there is a clear physical sign (right iliac fossa tenderness) needing investigation.",
       "Starting an antipsychotic for challenging behaviour without first ruling out a physical cause would be poor practice.",
@@ -1114,7 +1340,14 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["learning disability", "diagnostic overshadowing", "physical health", "challenging behaviour", "NICE NG11", "appendicitis"],
+    "tags": [
+      "learning disability",
+      "diagnostic overshadowing",
+      "physical health",
+      "challenging behaviour",
+      "NICE NG11",
+      "appendicitis"
+    ],
     "source": "NICE NG11 (2015)"
   }
 ]

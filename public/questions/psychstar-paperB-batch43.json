@@ -146,7 +146,6 @@
     ],
     "teaching_point": "Restricted patient rehabilitation pathway: High security (HSU) → Medium secure unit (MSU) → Low secure unit (LSU) → Locked rehabilitation → Community (conditional discharge). Conditional discharge: must be agreed by MoJ or Tribunal. Conditions: residence, treatment adherence, team supervision, travel restrictions. Breach: the patient can be recalled to hospital by the MoJ. s117 aftercare applies upon absolute discharge. The Bradley Report (2009) and the Five Year Forward View for Mental Health emphasise the need for clear forensic rehabilitation pathways. MRCPsych: the step-down pathway from secure care is a key forensic psychiatry concept.",
     "domain": "forensic",
-    "subcategory": "Rehabilitation Pathway — Restricted Patients",
     "difficulty": "medium",
     "bloom_taxonomy": "comprehension",
     "paper": "B",
@@ -157,7 +156,8 @@
       "rehabilitation",
       "secure care"
     ],
-    "source": "MHA 1983/2007; Bradley Report 2009"
+    "source": "MHA 1983/2007; Bradley Report 2009",
+    "subdomain": "Rehabilitation Pathway — Restricted Patients"
   },
   {
     "stem": "A 29-year-old woman with borderline personality disorder has been in Dialectical Behaviour Therapy (DBT) for 10 months. She has had frequent emotional crises, self-harm (cutting), and one near-lethal overdose during the therapy. She frequently calls her therapist between sessions. According to the DBT model, which of the following best describes how the therapist should respond to the near-lethal overdose?",

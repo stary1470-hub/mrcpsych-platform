@@ -1,7 +1,13 @@
 [
   {
     "stem": "A 68-year-old man with Parkinson's disease (on levodopa/carbidopa 100/25mg TDS) develops gradually worsening visual hallucinations over 4 weeks — seeing small animals in his peripheral vision and people standing in doorways. He finds them distressing. His cognition is intact (MoCA 27/30). He has no delusions, no mood disturbance, and is sleeping poorly. Which is the MOST appropriate FIRST step?",
-    "options": [" Start quetiapine 12.5mg nocte", " Start clozapine 12.5mg BD", " Reduce levodopa dose by 50% and refer to neurology", " Check for infection, electrolyte disturbance, constipation, and consider if medications can be REDUCED (first reduce anticholinergics, then dopamine agonists, then COMT inhibitors) before adding an antipsychotic", " Start risperidone 0.5mg daily"],
+    "options": [
+      " Start quetiapine 12.5mg nocte",
+      " Start clozapine 12.5mg BD",
+      " Reduce levodopa dose by 50% and refer to neurology",
+      " Check for infection, electrolyte disturbance, constipation, and consider if medications can be REDUCED (first reduce anticholinergics, then dopamine agonists, then COMT inhibitors) before adding an antipsychotic",
+      " Start risperidone 0.5mg daily"
+    ],
     "correct_index": 3,
     "distractors_rationale": [
       "Quetiapine is FIRST-LINE antipsychotic for PDP (lowest EPS risk) but should NOT be the FIRST step. Medication optimisation should precede antipsychotic initiation. NICE NG71: 'Offer antipsychotics only after other measures have failed.'",
@@ -17,11 +23,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE NG71: Parkinson's disease; Maudsley Prescribing Guidelines; BNF",
-    "tags": ["Parkinson", "psychosis", "hallucinations", "quetiapine", "dopamine_agonist"]
+    "tags": [
+      "Parkinson",
+      "psychosis",
+      "hallucinations",
+      "quetiapine",
+      "dopamine_agonist"
+    ]
   },
   {
     "stem": "Theme: Alcohol Withdrawal Syndromes\n\nFor each clinical scenario, select the CORRECT SYNDROME:\n\nA. Alcohol withdrawal seizure (rum fits)\nB. Alcoholic hallucinosis\nC. Delirium tremens\nD. Wernicke's encephalopathy\nE. Korsakoff's syndrome\nF. Pathological intoxication\nG. Idiosyncratic alcohol intoxication\nH. Alcohol amnestic disorder\nI. Alcohol-induced psychotic disorder\nJ. Alcohol-induced dementia",
-    "options": [" A 45-year-old man develops auditory hallucinations overnight voices threatening him 36 hours after his last drink. He is oriented, has a clear consciousness, and has no tremor or autonomic instability.", " A 52-year-old man on day 3 of alcohol detoxification becomes acutely confused, agitated, with visual hallucinations (seeing spiders on the walls), tachycardia 120bpm, hypertension 160/95, and fever 37.8°C. He is disoriented to time and place.", " A 38-year-old man who stopped drinking 12 hours ago has a GENERALISED TONIC-CLONIC SEIZURE lasting 2 minutes. He has no history of epilepsy.", " A 50-year-old man with chronic alcohol dependence and poor nutrition presents with acute confusion, ataxia, and bilateral horizontal nystagmus. He is disoriented and has difficulty walking.", " A 55-year-old man who has been alcohol-free for 3 years continues to have severe ANTEROGRADE AMNESIA — he cannot remember new information for more than a few minutes. He confabulates to fill in the gaps. His cognition is otherwise relatively intact."],
+    "options": [
+      " A 45-year-old man develops auditory hallucinations overnight voices threatening him 36 hours after his last drink. He is oriented, has a clear consciousness, and has no tremor or autonomic instability.",
+      " A 52-year-old man on day 3 of alcohol detoxification becomes acutely confused, agitated, with visual hallucinations (seeing spiders on the walls), tachycardia 120bpm, hypertension 160/95, and fever 37.8°C. He is disoriented to time and place.",
+      " A 38-year-old man who stopped drinking 12 hours ago has a GENERALISED TONIC-CLONIC SEIZURE lasting 2 minutes. He has no history of epilepsy.",
+      " A 50-year-old man with chronic alcohol dependence and poor nutrition presents with acute confusion, ataxia, and bilateral horizontal nystagmus. He is disoriented and has difficulty walking.",
+      " A 55-year-old man who has been alcohol-free for 3 years continues to have severe ANTEROGRADE AMNESIA — he cannot remember new information for more than a few minutes. He confabulates to fill in the gaps. His cognition is otherwise relatively intact."
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "ALCOHOLIC HALLUCINOSIS (B). Key features: (1) AUDITORY HALLUCINATIONS (usually threatening, persecutory voices); (2) CLEAR CONSCIOUSNESS (intact orientation, alert) — this DISTINGUISHES it from delirium tremens; (3) Onset: 12-24 hours after last drink (sometimes up to 48 hours); (4) Duration: days to weeks (can become chronic in some cases — 'chronic alcoholic hallucinosis'); (5) No significant autonomic instability (unlike DTs). Management: benzodiazepines (chlordiazepoxide reducing regimen) + antipsychotic (low-dose risperidone/olanzapine) if symptoms severe. The key differential is DTs (delirium) — in DTs, the patient is CONFUSED and has AUTONOMIC HYPERACTIVITY.",
@@ -37,11 +55,24 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "NICE CG115: Alcohol dependence; BNF; Ewusie JE et al. (2023) Cochrane review",
-    "tags": ["alcohol_withdrawal", "DTs", "hallucinosis", "seizures", "Wernicke_Korsakoff", "EMI"]
+    "tags": [
+      "alcohol_withdrawal",
+      "DTs",
+      "hallucinosis",
+      "seizures",
+      "Wernicke_Korsakoff",
+      "EMI"
+    ]
   },
   {
     "stem": "A 56-year-old man with no history of epilepsy develops his FIRST generalised tonic-clonic seizure on day 2 of an inpatient alcohol detoxification. He has been drinking >20 units/day for 20 years. His SADQ score is 38. He was started on chlordiazepoxide 20mg QDS yesterday. Observations: HR 88, BP 128/78, Temp 36.8°C. The seizure lasted 90 seconds and resolved spontaneously. What is the MOST appropriate immediate management?",
-    "options": [" Start phenytoin 300mg daily for seizure prophylaxis", " Increase the chlordiazepoxide dose (this is a breakthrough withdrawal seizure — insufficient benzodiazepine cover) and ensure IV thiamine is given", " Transfer to ICU for status epilepticus monitoring", " Perform an urgent CT head and refer to neurology", " Start levetiracetam 500mg BD"],
+    "options": [
+      " Start phenytoin 300mg daily for seizure prophylaxis",
+      " Increase the chlordiazepoxide dose (this is a breakthrough withdrawal seizure — insufficient benzodiazepine cover) and ensure IV thiamine is given",
+      " Transfer to ICU for status epilepticus monitoring",
+      " Perform an urgent CT head and refer to neurology",
+      " Start levetiracetam 500mg BD"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Phenytoin is NOT effective for alcohol withdrawal seizures. Benzodiazepines (which work via GABA potentiation) are the appropriate treatment. Chronic antiepileptics are only indicated if the patient has a SEPARATE epilepsy diagnosis (not alcohol-withdrawal seizures alone).",
@@ -57,11 +88,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG115; BNF; Schuckit MA (2014) Alcohol withdrawal seizures",
-    "tags": ["alcohol_withdrawal", "seizure", "chlordiazepoxide", "thiamine", "SADQ"]
+    "tags": [
+      "alcohol_withdrawal",
+      "seizure",
+      "chlordiazepoxide",
+      "thiamine",
+      "SADQ"
+    ]
   },
   {
     "stem": "A 32-year-old woman with borderline personality disorder and treatment-resistant depression has been on sertraline 150mg daily, quetiapine 150mg nocte, and PRN lorazepam. She presents with severe agitation, confusion, tachycardia (120bpm), hyperreflexia, and inducible ankle clonus. Temp 37.5°C. BP 155/90. She is on no other serotonergic medications. What is the MOST likely diagnosis and immediate management?",
-    "options": [" NMS — stop quetiapine, start dantrolene", " SEROTONIN SYNDROME — stop sertraline (and consider if she has taken additional serotonergic agents), supportive care, consider cyproheptadine", " Anticholinergic delirium — stop lorazepam", " Malignant catatonia — start lorazepam challenge", " BPD crisis with dissociation — reassurance and PRN lorazepam"],
+    "options": [
+      " NMS — stop quetiapine, start dantrolene",
+      " SEROTONIN SYNDROME — stop sertraline (and consider if she has taken additional serotonergic agents), supportive care, consider cyproheptadine",
+      " Anticholinergic delirium — stop lorazepam",
+      " Malignant catatonia — start lorazepam challenge",
+      " BPD crisis with dissociation — reassurance and PRN lorazepam"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "NMS presents with LEAD-PIPE RIGIDITY (not clonus), bradyreflexia (not hyperreflexia), and extremely elevated CK. Clonus is the HALLMARK of serotonin syndrome. The presence of clonus + hyperreflexia + agitation + autonomic instability strongly favours serotonin syndrome.",
@@ -72,11 +115,17 @@
     ],
     "teaching_point": "Serotonin syndrome vs NMS vs malignant catatonia — THE MRCPsych DIFFERENTIAL: SEROTONIN SYNDROME — CLONUS (spontaneous/inducible/ocular) is PATHOGNOMONIC. Hyperreflexia, tremour, myoclonus, autonomic instability, hyperthermia. Rapid onset (hours). Cyproheptadine (5-HT2A antagonist). NMS — LEAD-PIPE RIGIDITY without clonus. Bradykinesia/Bradyreflexia. Extremely high CK (>10,000). Autonomic instability. Gradual onset (1-3 days). Dantrolene/bromocriptine. MALIGNANT CATATONIA — Rigidity + mutism/posturing/stupor + autonomic instability. Can be indistinguishable from NMS. Lorazepam challenge is diagnostic (and therapeutic). ECT is most effective. The HUNTER CRITERIA (2003) are more sensitive and specific for serotonin syndrome than the original Sternbach criteria. CLONUS IS THE KEY — if clonus is present, it is serotonin syndrome until proven otherwise. The incidence of serotonin syndrome is increasing due to polypharmacy (SSRI + SNRI + MAOI + lithium + tramadol + linezolid + St John's Wort + MDMA). The STERNNBACH criteria: (1) Recent serotonergic drug; (2) ≥3 of: mental state changes, agitation, myoclonus, hyperreflexia, diaphoresis, shivering, tremour, diarrhoea, incordination, fever.",
     "domain": "general_adult",
-    "subdomains": "serotonin_syndrome",
     "difficulty": "hard",
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "Hunter Serotonin Toxicity Criteria; Sternbach H (1991) J Clin Psychopharmacol; Maudsley PG",
-    "tags": ["serotonin_syndrome", "clonus", "NMS", "cyproheptadine", "differential"]
+    "tags": [
+      "serotonin_syndrome",
+      "clonus",
+      "NMS",
+      "cyproheptadine",
+      "differential"
+    ],
+    "subdomain": "serotonin_syndrome"
   }
 ]

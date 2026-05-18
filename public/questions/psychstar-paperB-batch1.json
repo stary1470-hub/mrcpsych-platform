@@ -238,6 +238,8 @@
     "distractors_rationale": [
       "Antidepressants (SSRIs) are not recommended as first-line treatment for depression in patients with borderline personality disorder. NICE CG78 states that drug treatment should not be used specifically for BPD or for symptoms associated with BPD, including depression. Transient depressive symptoms in the context of BPD often resolve with psychological intervention.",
       "Mirtazapine is similarly not recommended as first-line for depressive symptoms in BPD. Medication has a limited evidence base in this population and carries risk of overdose.",
+      "This is the correct answer. BPD and depression: Depressive symptoms in BPD can be difficult to distinguish from episodes of major depression. NICE is clear: drug treatment should NOT be used for BPD or for associated symptoms. The evidence does not support SSRIs for depressive symptoms in BPD. Psychological therapy is first-line. If depression is severe and persistent (>6 weeks) despite psychological therapy, a short-term trial of an SSRI may be considered, but should be agreed with the patient regarding limited evidence of benefit. Self-harm should be managed within a DBT framework.",
+      "This is the correct answer. BPD and depression: Depressive symptoms in BPD can be difficult to distinguish from episodes of major depression. NICE is clear: drug treatment should NOT be used for BPD or for associated symptoms. The evidence does not support SSRIs for depressive symptoms in BPD. Psychological therapy is first-line. If depression is severe and persistent (>6 weeks) despite psychological therapy, a short-term trial of an SSRI may be considered, but should be agreed with the patient regarding limited evidence of benefit. Self-harm should be managed within a DBT framework.",
       "CORRECT. NICE CG78 recommends structured psychological therapy (specifically DBT, mentalisation-based therapy, or CBT) as first-line for people with BPD. For depressive symptoms that occur in the contex ptoms without acute risk of suicide (no current suicidal ideation or plan described). DBT can be provided in outpatient settings."
     ],
     "teaching_point": "BPD and depression: Depressive symptoms in BPD can be difficult to distinguish from episodes of major depression. NICE is clear: drug treatment should NOT be used for BPD or for associated symptoms. The evidence does not support SSRIs for depressive symptoms in BPD. Psychological therapy is first-line. If depression is severe and persistent (>6 weeks) despite psychological therapy, a short-term trial of an SSRI may be considered, but should be agreed with the patient regarding limited evidence of benefit. Self-harm should be managed within a DBT framework.",
@@ -561,8 +563,19 @@
     "correct_index": 3,
     "distractors_rationale": [
       "Lithine augmentation alone is unlikely to treat an acute bipolar depressive episode. While keeping lithium at the therapeutic range is important for maintenance, the depressive episode requires additional treatment.",
-      "Antidepressant monotherapy in bipolar depression is controversial and generally NOT recommended by NICE. Antidepressants can precipitate manic switching, especially in bipolar I and without mood stabiliser cover. If an antidepressant is used, it must be combined with an antimanic agent (antipsychotic or mood stabiliser). SSRIs alone carry ~15-20% switch risk."
-    ]
+      "Antidepressant monotherapy in bipolar depression is controversial and generally NOT recommended by NICE. Antidepressants can precipitate manic switching, especially in bipolar I and without mood stabiliser cover. If an antidepressant is used, it must be combined with an antimanic agent (antipsychotic or mood stabiliser). SSRIs alone carry ~15-20% switch risk.",
+      "This is the correct answer. Review this clinical scenario carefully.",
+      "This is the correct answer. Review this clinical scenario carefully.",
+      "This is the correct answer. Review this clinical scenario carefully."
+    ],
+    "domain": "general_adult",
+    "paper": "B",
+    "teaching_point": "Review this clinical scenario carefully.",
+    "source": "RCPSYCH curriculum",
+    "tags": [],
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "subdomain": "bipolar"
   },
   {
     "stem": "A 45-year-old woman with bipolar I disorder develops acute mania. She has a history of lithium-induced nephrogenic diabetes insipidus (NDI). Which mood stabiliser is most appropriate for managing the NDI while continuing an effective antimanic agent?",

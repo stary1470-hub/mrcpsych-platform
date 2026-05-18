@@ -1,9 +1,16 @@
 [
   {
     "stem": "Theme: Risk Assessment Tools in Forensic Psychiatry\n\nFor each description, select the CORRECT RISK ASSESSMENT TOOL:\n\nA. HCR-20\nB. PCL-R\nC. VRAG\nD. SORAG\nE. RSVP\nF. START\nG. Static-99\nH. H10\nI. S5\nJ. The Dundrum Toolkit\nK. Risk Matrix 2000\nL. SARA\n\nStem 1: A 30-item structured professional judgement tool assessing GENERAL VIOLENCE risk, with sections on Historical, Clinical, and Risk Management factors. The most widely used SPJ tool.",
-    "options": [" Item for Stem 1", " A 20-item SCALE (not a risk assessment tool) measuring PSYCHOPATHY using Factor 1 (interpersonal/affective) and Factor 2 (antisocial lifestyle) scores. Scores range 0-40; cut-off for psychopathy in the UK is usually 25 or 30.", " An ACTUARIAL tool for SEXUAL violence recidivism using 10 static items (all historical). Provides a numerical probability of reoffending. Used for sex offender risk assessment.", " A risk formulation and MANAGEMENT planning tool designed for SEXUAL VIOLENCE that includes 22 items across 5 domains. It is a STRUCTURED PROFESSIONAL JUDGEMENT tool.\n\nFor each statement below, select the correct tool from the list above\n\nA) For item A", " A 22-item SPJ tool for SEXUAL VIOLENCE risk assessment, formulation, and scenario planning. The preferred tool for sexual violence risk."],
+    "options": [
+      " Item for Stem 1",
+      " A 20-item SCALE (not a risk assessment tool) measuring PSYCHOPATHY using Factor 1 (interpersonal/affective) and Factor 2 (antisocial lifestyle) scores. Scores range 0-40; cut-off for psychopathy in the UK is usually 25 or 30.",
+      " An ACTUARIAL tool for SEXUAL violence recidivism using 10 static items (all historical). Provides a numerical probability of reoffending. Used for sex offender risk assessment.",
+      " A risk formulation and MANAGEMENT planning tool designed for SEXUAL VIOLENCE that includes 22 items across 5 domains. It is a STRUCTURED PROFESSIONAL JUDGEMENT tool.\n\nFor each statement below, select the correct tool from the list above\n\nA) For item A",
+      " A 22-item SPJ tool for SEXUAL VIOLENCE risk assessment, formulation, and scenario planning. The preferred tool for sexual violence risk."
+    ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Forensic risk assessment tools — HIGH-YIELD: GENERAL VIOLENCE: HCR-20 (SPJ) — most important. VRAG (actuarial). SEXUAL VIOLENCE: RSVP (SPJ — preferred). Static-99, Risk Matrix 2000 (actuarial). PSYCHOPATHY: PCL-R (semi-structured interview + file review). STALKING: Stalking Risk Profile. FIRESETTING: Firesetting Risk Assessment Tool. VIOLENCE in psychiatric patients: HCR-20. DUNDRUM TOOLKIT: for assessing readiness for movement through forensic services (from high secure to community). START (Short Term Assessment of Risk and Treatability): a 20-item SPJ tool for short-term risk assessment in mental health settings (violence, self-harm, suicide, absconding, self-neglect). SPJ tools are preferred OVER actuarial because they: (1) Can incorporate case-specific dynamic risk factors; (2) Guide risk MANAGEMENT (not just prediction); (3) Are more defensible in court; (4) Are more acceptable to clinicians. BPS (Best Practice in Risk Assessment and Management): the Department of Health guidance recommends structured risk assessment using SPJ tools.",
       "HCR-20 (Webster et al., 1997). The HCR-20 is the most widely used STRUCTURED PROFESSIONAL JUDGEMENT (SPJ) tool for GENERAL VIOLENCE risk assessment. 20 items across 3 scales: H (HISTORICAL — 10 items: past violence, young age at first violence, relationship instability, employment, substance use, major mental illness, psychopathy, early maladjustment, personality disorder, prior supervision failure); C (CLINICAL — 5 items: insight, negative attitudes, active symptoms, impulsivity, treatment non-response); R (RISK MANAGEMENT — 5 future-oriented items: plans, exposure to destabilisers, lack of personal support, non-compliance with remediation, stress). Each item rated 0-2 (No, Maybe, Yes). The HCR-20 does NOT produce a numerical probability — it guides clinical judgement about the nature, severity, imminence, and likelihood of violence. It is updated as Version 3 (2013). The HCR-20 is recommended by NICE for assessing violence risk in psychiatric patients.",
       "The PCL-R (Hare, 1991, 2003) is a 20-item CLINICIAN-RATED SCALE that measures PSYCHOPATHY, not risk per se. It is a risk FACTOR (one item in the HCR-20). Factor 1: Interpersonal/Affective (glibness/superficial charm, grandiose sense of self-worth, pathological lying, lack of remorse, shallow affect, callous/lack of empathy, failure to accept responsibility). Factor 2: Antisocial Lifestyle (need for stimulation, parasitic lifestyle, poor behavioural control, early behavioural problems, lack of realistic goals, impulsivity, irresponsibility, many short-term marital relationships, juvenile delinquency, revocation of conditional release). The PCL-R is the gold standard for assessing psychopathy. Cut-off: UK 25/40 (North America 30/40). The PCL-R is NOT a risk assessment tool — it assesses a trait that is associated with risk.",
       "STATIC-99 (G) or RISK MATRIX 2000 (K) — both are ACTUARIAL tools for sexual recidivism. STATIC-99: 10 items (male sex, prior sexual offences, prior non-sexual violence, non-related victims, male victims, never married, stranger victims, unrelated victims, age under 25, ever lived with a partner for 2+ years). RISK MATRIX 2000: three scales (criminal history, sexual offence history, victim type). STATIC-99R is the updated version. The SORAG (Sex Offender Risk Appraisal Guide) is another actuarial tool. However, the RSVP is the STRUCTURED PROFESSIONAL JUDGEMENT tool preferred by the Royal College of Psychiatrists for sexual violence risk.",
@@ -16,11 +23,24 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "Webster CD et al. (1997) HCR-20; Hare RD (2003) PCL-R; Hart SD et al. (2003) RSVP; NICE guidance on violence",
-    "tags": ["HCR-20", "PCL-R", "RSVP", "Static-99", "risk_assessment", "forensic_EMI"]
+    "tags": [
+      "HCR-20",
+      "PCL-R",
+      "RSVP",
+      "Static-99",
+      "risk_assessment",
+      "forensic_EMI"
+    ]
   },
   {
     "stem": "A 27-year-old man with Asperger's syndrome (mild autism, average IQ) is charged with possessing indecent images of children. He has no previous convictions. He lives alone, is socially isolated, and spends most of his time on the internet. Psychiatric assessment reveals: (1) No paraphilic disorder (he is not sexually attracted to children — images were part of a 'collection' behaviour); (2) No evidence of contact offending; (3) Limited understanding of the social and legal implications of his actions. What is the MOST important factor in formulating risk and recommending disposal?",
-    "options": [" He should receive a prison sentence of significant length to protect the public", " The formulation should consider his AUTISM-RELATED VULNERABILITIES (social naivety, repetitive interests, literal interpretation, lack of understanding of consequences) alongside risk-specific factors — he may benefit from a HOSPITAL ORDER (Section 37) or community order with specialist supervision rather than prison", " He should be sectioned under the MHA for treatment of autism", " He should be found not guilty by reason of insanity", " He should be placed on the Sex Offenders Register indefinitely"],
+    "options": [
+      " He should receive a prison sentence of significant length to protect the public",
+      " The formulation should consider his AUTISM-RELATED VULNERABILITIES (social naivety, repetitive interests, literal interpretation, lack of understanding of consequences) alongside risk-specific factors — he may benefit from a HOSPITAL ORDER (Section 37) or community order with specialist supervision rather than prison",
+      " He should be sectioned under the MHA for treatment of autism",
+      " He should be found not guilty by reason of insanity",
+      " He should be placed on the Sex Offenders Register indefinitely"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "A prison sentence without addressing the underlying formulation may not be appropriate. The court must consider whether there is a mental disorder that warrants treatment.",
@@ -36,11 +56,24 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "Howlin P (2004) Autism and offending; Allen D et al. (2008) Offending in ASD; NICE CG170; Autism Act 2009",
-    "tags": ["ASD", "forensic", "indecent_images", "fitness_to_plead", "MAPPA", "autism"]
+    "tags": [
+      "ASD",
+      "forensic",
+      "indecent_images",
+      "fitness_to_plead",
+      "MAPPA",
+      "autism"
+    ]
   },
   {
     "stem": "A 34-year-old woman with moderate learning disability and epilepsy is referred due to worsening agitation, aggression, and insomnia over 6 weeks. She cannot explain why she feels this way. Her support workers report she has been hitting staff and biting herself. She is on carbamazepine 400mg BD. Physical examination and routine bloods (FBC, U&Es, LFTs, TFTs, glucose) are NORMAL. Which of the following should be done NEXT?",
-    "options": [" Start risperidone 0.5mg daily for challenging behaviour", " Increase carbamazepine — she may be having complex partial seizures", " Arrange a COMPREHENSIVE PAIN ASSESSMENT and dental review — dental pain/abscess is a very common cause of behavioural change in LD and is often missed", " Admit to a psychiatric intensive care unit", " Start lorazepam 2mg TDS for sedation"],
+    "options": [
+      " Start risperidone 0.5mg daily for challenging behaviour",
+      " Increase carbamazepine — she may be having complex partial seizures",
+      " Arrange a COMPREHENSIVE PAIN ASSESSMENT and dental review — dental pain/abscess is a very common cause of behavioural change in LD and is often missed",
+      " Admit to a psychiatric intensive care unit",
+      " Start lorazepam 2mg TDS for sedation"
+    ],
     "correct_index": 2,
     "distractors_rationale": [
       "Starting antipsychotic without understanding the cause is not first-line. NICE NG11: 'Do not use antipsychotics for challenging behaviour unless there is evidence of a mental disorder or the behaviour is clearly related to it.' Behaviour is COMMUNICATION in LD — the first step is to find out what the person is trying to communicate.",
@@ -56,6 +89,13 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE NG11: Challenging behaviour and LD; NICE guideline on LD; STOMP campaign (NHS England)",
-    "tags": ["learning_disability", "pain", "behaviour", "dental", "communication", "STOMP"]
+    "tags": [
+      "learning_disability",
+      "pain",
+      "behaviour",
+      "dental",
+      "communication",
+      "STOMP"
+    ]
   }
 ]

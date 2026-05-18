@@ -1,7 +1,13 @@
 [
   {
     "stem": "A 36-year-old man with opioid dependence is being started on methadone maintenance. He reports using 1g of street heroin daily for the past 5 years, injected intravenously. Urine drug screen is positive for opiates. He has no other substance use, no medical comorbidities, and his ECG shows QTc 435ms. What is the CORRECT starting dose range for methadone?",
-    "options": [" 5-10mg daily", " 10-30mg daily", " 60-80mg daily", " 100-120mg daily", " 150mg daily"],
+    "options": [
+      " 5-10mg daily",
+      " 10-30mg daily",
+      " 60-80mg daily",
+      " 100-120mg daily",
+      " 150mg daily"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "5-10mg is too low for a daily 1g heroin habit — this would precipitate withdrawal and lead to early treatment dropout.",
@@ -17,11 +23,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG52: Opioid dependence; BNF; Maudsley Prescribing Guidelines",
-    "tags": ["methadone", "opioid_dependence", "dosing", "monitoring", "QTc"]
+    "tags": [
+      "methadone",
+      "opioid_dependence",
+      "dosing",
+      "monitoring",
+      "QTc"
+    ]
   },
   {
     "stem": "A 48-year-old man with alcohol dependence (SADQ 35) is being started on relapse prevention medication after completing detoxification 5 days ago. He has a history of epilepsy (well-controlled on lamotrigine) and stage 3 chronic kidney disease (eGFR 42 mL/min). He is keen to take medication to prevent relapse. Which is the MOST appropriate first-line pharmacological option?",
-    "options": [" Acamprosate 666mg TDS", " Naltrexone 50mg daily", " Disulfiram 200mg daily", " Naltrexone 25mg daily — starting at a lower dose due to renal impairment", " Acamprosate 333mg TDS — dose reduction for renal impairment"],
+    "options": [
+      " Acamprosate 666mg TDS",
+      " Naltrexone 50mg daily",
+      " Disulfiram 200mg daily",
+      " Naltrexone 25mg daily — starting at a lower dose due to renal impairment",
+      " Acamprosate 333mg TDS — dose reduction for renal impairment"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Acamprosate is EXCRETED RENALLY and is CONTRAINDICATED if eGFR <30 (severe renal impairment). For eGFR 30-50 (moderate impairment — stage 3), the BNF advises CAUTION and dose reduction (333mg TDS). However, acamprosate is also ABSOLUTELY CONTRAINDICATED in epilepsy because it LOWERS THE SEIZURE THRESHOLD. This patient has epilepsy, so acamprosate is contraindicated.",
@@ -37,11 +55,25 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG115: Alcohol dependence; BNF; Maudsley Prescribing Guidelines",
-    "tags": ["acamprosate", "naltrexone", "alcohol", "epilepsy", "renal", "CKD", "relapse_prevention"]
+    "tags": [
+      "acamprosate",
+      "naltrexone",
+      "alcohol",
+      "epilepsy",
+      "renal",
+      "CKD",
+      "relapse_prevention"
+    ]
   },
   {
     "stem": "A 12-year-old boy with Tourette's disorder (significant motor and vocal tics causing functional impairment at school) and comorbid OCD (severe, Y-BOCS = 32, involving contamination fears and washing rituals) has not responded to habbit reversal therapy. Which of the following is the MOST appropriate pharmacological treatment for BOTH conditions?",
-    "options": [" Methylphenidate MR 18mg daily", " Clonidine 50mcg BD", " Fluoxetine 20mg daily", " Aripiprazole 5mg daily", " Clomipramine 25mg nocte"],
+    "options": [
+      " Methylphenidate MR 18mg daily",
+      " Clonidine 50mcg BD",
+      " Fluoxetine 20mg daily",
+      " Aripiprazole 5mg daily",
+      " Clomipramine 25mg nocte"
+    ],
     "correct_index": 3,
     "distractors_rationale": [
       "Methylphenidate treats ADHD but does NOT treat Tourette's tics (it can worsen tics in some cases) or OCD.",
@@ -57,11 +89,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG31: OCD and BDD; NICE guideline on tics (2024); BNFc; Scahill L et al. (2006) Tourette's treatment",
-    "tags": ["Tourette", "OCD", "aripiprazole", "comorbidity", "child"]
+    "tags": [
+      "Tourette",
+      "OCD",
+      "aripiprazole",
+      "comorbidity",
+      "child"
+    ]
   },
   {
     "stem": "A 12-year-old girl is referred with a 5-month history of increasingly disruptive behaviour at home and school. She frequently argues with adults, actively defies rules, deliberately annoys people, and blames others for her mistakes. She is irritable most days. She does NOT: steal, destroy property, or physically harm others. Her academic performance is average. What is the MOST likely diagnosis and first-line treatment?",
-    "options": [" Conduct disorder — parent-training programme", " Oppositional defiant disorder (ODD) — offer a parent-training programme (Incredible Years, Triple P) as first-line", " Attention deficit hyperactivity disorder — start methylphenidate", " Intermittent explosive disorder — refer for CBT", " Disruptive mood dysregulation disorder — start fluoxetine"],
+    "options": [
+      " Conduct disorder — parent-training programme",
+      " Oppositional defiant disorder (ODD) — offer a parent-training programme (Incredible Years, Triple P) as first-line",
+      " Attention deficit hyperactivity disorder — start methylphenidate",
+      " Intermittent explosive disorder — refer for CBT",
+      " Disruptive mood dysregulation disorder — start fluoxetine"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Conduct disorder (CD) requires more severe behaviours (aggression to people/animals, destruction of property, deceitfulness/theft, serious violations of rules). This patient has argumentative/defiant behaviour without the severe features of CD. ODD often PRECEDES CD developmentally.",
@@ -72,16 +116,28 @@
     ],
     "teaching_point": "ODD vs CD vs DMDD — essential child psychiatry differential: ODD: argumentative, defiant, angry, irritable, but does NOT involve serious rule violations or aggression (described). CD: MORE SEVERE — aggression, theft, vandalism, cruelty, serious rule violations. DMDD: SEVERE TEMPER OUTBURSTS (not just defiance) with chronically irritable mood. Prevalence: ODD ~3-8% of children; CD ~2-10% (male > female). Comorbidity: ADHD (50-60% in ODD), depression, anxiety, learning difficulties. RISK FACTORS: harsh/inconsistent parenting, parental conflict, socioeconomic deprivation, difficult temperament, prenatal smoking. PROGNOSIS: childhood-onset CD → ASPD in 40-50%. Adolescent-onset CD → better prognosis. EARLY INTERVENTION is critical. TREATMENT: Parent-training (3-11 years) — Incredible Years, Triple P. For older children: individual CBT, family therapy, social skills training. TREAT COMORBIDITIES first (especially ADHD). Medication is NOT recommended for ODD/CD alone (NICE CG158).",
     "domain": "child_adolescent",
-    "subdomaain": "ODD",
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG158: Conduct disorders; DSM-5-TR",
-    "tags": ["ODD", "conduct_disorder", "parent_training", "child", "Incredible_Years"]
+    "tags": [
+      "ODD",
+      "conduct_disorder",
+      "parent_training",
+      "child",
+      "Incredible_Years"
+    ],
+    "subdomain": "ODD"
   },
   {
     "stem": "A 15-year-old girl is brought to A&E by her mother after taking a paracetamol overdose (approximately 10g, 4 hours ago). She has a history of recurrent self-harm (cutting) and a diagnosis of emotionally unstable personality disorder. She is under CAMHS. She states she 'just wanted to feel something else'. Paracetamol level is 180 mg/L at 4 hours (treatment line: 100 mg/L at 4 hours). She refuses to stay in hospital. Which is the MOST appropriate management?",
-    "options": [" Discharge with crisis plan — she has capacity to refuse", " Detain under MHA Section 2 — she has a mental disorder, is at significant risk (toxic paracetamol level, needs medical treatment + psychiatric assessment), and is refusing", " Start N-acetylcysteine and discharge her home with a safety plan", " Transfer to paediatric ward, start NAC, and assess capacity — if she lacks capacity to refuse, treat under MCA; if she has capacity but is still at risk, consider MHA", " Start NAC and refer to CAMHS for outpatient follow-up"],
+    "options": [
+      " Discharge with crisis plan — she has capacity to refuse",
+      " Detain under MHA Section 2 — she has a mental disorder, is at significant risk (toxic paracetamol level, needs medical treatment + psychiatric assessment), and is refusing",
+      " Start N-acetylcysteine and discharge her home with a safety plan",
+      " Transfer to paediatric ward, start NAC, and assess capacity — if she lacks capacity to refuse, treat under MCA; if she has capacity but is still at risk, consider MHA",
+      " Start NAC and refer to CAMHS for outpatient follow-up"
+    ],
     "correct_index": 3,
     "distractors_rationale": [
       "Discharging a patient with a toxic paracetamol level who has attempted suicide would be negligent. She requires immediate MEDICAL treatment (NAC) AND MENTAL HEALTH assessment.",
@@ -97,11 +153,25 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE NG225: Self-harm; MHA 1983; MCA 2005; BNF (paracetamol poisoning treatment guidelines)",
-    "tags": ["paracetamol", "overdose", "NAC", "MCA", "MHA", "self-harm", "capacity"]
+    "tags": [
+      "paracetamol",
+      "overdose",
+      "NAC",
+      "MCA",
+      "MHA",
+      "self-harm",
+      "capacity"
+    ]
   },
   {
     "stem": "A 22-year-old woman who is 14 weeks pregnant (primigravida) presents with a 3-week history of depressed mood, anhedonia, poor sleep, poor appetite, and overwhelming anxiety about the pregnancy. PHQ-9 = 17. She has a past history of major depressive episode at age 19 that responded to sertraline. She has been off medication for 2 years. She is worried about taking medication in pregnancy. Which is the MOST appropriate management?",
-    "options": [" Advise against medication — refer for CBT only; antidepressants are not safe in pregnancy", " Start sertraline 50mg daily — the risk of untreated depression in pregnancy outweighs the small risks of SSRI therapy; sertraline has the best safety profile", " Start fluoxetine 20mg daily — it has the longest safety record in pregnancy", " Start nortriptyline 25mg TDS — TCAs are safer than SSRIs in pregnancy", " Start quetiapine 50mg daily — antipsychotics are safer than antidepressants in pregnancy"],
+    "options": [
+      " Advise against medication — refer for CBT only; antidepressants are not safe in pregnancy",
+      " Start sertraline 50mg daily — the risk of untreated depression in pregnancy outweighs the small risks of SSRI therapy; sertraline has the best safety profile",
+      " Start fluoxetine 20mg daily — it has the longest safety record in pregnancy",
+      " Start nortriptyline 25mg TDS — TCAs are safer than SSRIs in pregnancy",
+      " Start quetiapine 50mg daily — antipsychotics are safer than antidepressants in pregnancy"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "SSRIs are NOT major teratogens. The absolute risk of major congenital malformations with SSRIs is approximately 2-3% (vs 1-2% background). The risk of UNTREATED depression in pregnancy is significant: poor obstetric outcomes (preterm birth, low birth weight), poor engagement with antenatal care, substance use, self-harm, suicide. For MODERATE-SEVERE depression (PHQ-9 17), medication + psychological therapy is recommended (NICE CG192).",
@@ -117,11 +187,24 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG192: Antenatal and postnatal mental health; BNF; Maudsley Prescribing Guidelines",
-    "tags": ["pregnancy", "SSRI", "sertraline", "perinatal", "depression", "PPHN"]
+    "tags": [
+      "pregnancy",
+      "SSRI",
+      "sertraline",
+      "perinatal",
+      "depression",
+      "PPHN"
+    ]
   },
   {
     "stem": "A 38-year-old woman with a 12-year history of recurrent binge eating disorder (BED) has tried guided self-help CBT and 8 sessions of group CBT with limited benefit. She binges on large amounts of food 3-4 times per week, with a sense of loss of control. Her BMI is 34. She has no purging behaviour. What is the MOST appropriate next-step treatment?",
-    "options": [" Admit to a specialist eating disorders unit", " Start lisdexamfetamine 30mg daily (titrated up to 70mg)", " Start topiramate 50mg BD", " Start orlistat 120mg TDS", " Start fluoxetine 60mg daily"],
+    "options": [
+      " Admit to a specialist eating disorders unit",
+      " Start lisdexamfetamine 30mg daily (titrated up to 70mg)",
+      " Start topiramate 50mg BD",
+      " Start orlistat 120mg TDS",
+      " Start fluoxetine 60mg daily"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Admission is rarely indicated for BED unless there is severe medical instability or high suicide risk — this patient is medically stable.",
@@ -137,6 +220,12 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE NG69: Eating disorders; BNF; MHRA approval for lisdexamfetamine in BED",
-    "tags": ["BED", "binge_eating", "lisdexamfetamine", "CBT", "pharmacotherapy"]
+    "tags": [
+      "BED",
+      "binge_eating",
+      "lisdexamfetamine",
+      "CBT",
+      "pharmacotherapy"
+    ]
   }
 ]

@@ -1,7 +1,13 @@
 [
   {
     "stem": "A 38-year-old man with a history of alcohol dependence (abstinent for 5 years) presents with a 3-week history of progressive cognitive decline, memory loss, and ataxia. He is a known heavy drinker until age 33. MRI brain shows marked atrophy of the mammillary bodies and thalamus. He has a normal EEG. What is the MOST likely diagnosis and management?",
-    "options": [" Alzheimer's disease — start donepezil", " Korsakoff's syndrome — high-dose IV thiamine (Pabrinex) may prevent further progression, but the cognitive deficits are likely IRREVERSIBLE; manage with cognitive support and supervision", " Frontotemporal dementia — start sertraline", " Wernicke's encephalopathy — give IV thiamine immediately", " Dementa with Lewy bodies — start rivastigmine"],
+    "options": [
+      " Alzheimer's disease — start donepezil",
+      " Korsakoff's syndrome — high-dose IV thiamine (Pabrinex) may prevent further progression, but the cognitive deficits are likely IRREVERSIBLE; manage with cognitive support and supervision",
+      " Frontotemporal dementia — start sertraline",
+      " Wernicke's encephalopathy — give IV thiamine immediately",
+      " Dementa with Lewy bodies — start rivastigmine"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Alzheimer's typically has a different MRI pattern (hippocampal, posterior temporoparietal atrophy) and a more gradual course. The combination of mammillary body atrophy, history of alcohol dependence, and ataxia strongly suggests Korsakoff's syndrome.",
@@ -17,11 +23,23 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "NICE CG115: Alcohol dependence; Thomson AD et al. (2008) Wernicke-Korsakoff; BNF (Pabrinex)",
-    "tags": ["Korsakoff", "Wernicke", "thiamine", "amnesia", "alcohol"]
+    "tags": [
+      "Korsakoff",
+      "Wernicke",
+      "thiamine",
+      "amnesia",
+      "alcohol"
+    ]
   },
   {
     "stem": "A 62-year-old woman with a 6-year history of progressive cognitive decline, 60-year smoking history (40/day), and hypertension presents to the memory clinic. Her daughter reports a STEPWISE decline over 2 years following a transient ischaemic attack (TIA). The patient has difficulty with planning and organisation, slowness of thinking, and urinary urgency. MMSE 24/30 (deficits in attention and clock-drawing). MRI shows extensive periventricular white matter changes and multiple lacunar infarcts. What is the MOST likely diagnosis and recommended management?",
-    "options": [" Alzheimer's disease — start donepezil 5mg", " VASCULAR DEMENTIA — OPTIMISE CARDIOVASCULAR RISK FACTORS (BP, smoking cessation, antiplatelet, statin) and offer donepezil (limited evidence)", " Dementa with Lewy bodies — start rivastigmine", " Frontotemporal dementia — start sertraline", " Normal pressure hydrocephalus — consider lumbar puncture and VP shunt"],
+    "options": [
+      " Alzheimer's disease — start donepezil 5mg",
+      " VASCULAR DEMENTIA — OPTIMISE CARDIOVASCULAR RISK FACTORS (BP, smoking cessation, antiplatelet, statin) and offer donepezil (limited evidence)",
+      " Dementa with Lewy bodies — start rivastigmine",
+      " Frontotemporal dementia — start sertraline",
+      " Normal pressure hydrocephalus — consider lumbar puncture and VP shunt"
+    ],
     "correct_index": 1,
     "distractors_rationale": [
       "Alzheimer's typically presents with insidious-onset, progressive short-term memory loss, not stepwise decline after TIA, and not the extensive white matter changes/small vessel ischaemia seen on MRI.",
@@ -37,18 +55,28 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "NICE NG97: Dementia; Roman GC et al. (2002) Subcortical ischaemic vascular dementia; BNF",
-    "tags": ["vascular_dementia", "Binswanger", "white_matter", "hypertension", "smoking"]
+    "tags": [
+      "vascular_dementia",
+      "Binswanger",
+      "white_matter",
+      "hypertension",
+      "smoking"
+    ]
   },
   {
     "stem": "Theme: Suicide Epidemiology and Risk Factors\n\nFor each statement, select the CORRECT STATISTICAL FACT:\n\nA. 1% (lifetime risk in the UK general population)\nB. 5-10% (lifetime risk in people with schizophrenia)\nC. 10-15% (lifetime risk in people with bipolar disorder)\nD. 10% (lifetime risk in people with borderline personality disorder)\nE. 15-20% (lifetime risk in people with severe depression)\nF. 3-4× (increased risk in men vs women in the UK)\nG. 5-6× (increased risk in people with mental illness in prison)\nH. 40% (proportion of inquests of patients who died by suicide who had contact with mental health services in the past week)\nI. 25% (proportion who had contact in the past month)\nJ. 70-80% (proportion who had NO contact with mental health services in the past year)",
-    "options": [" What is the approximate LIFETIME RISK of suicide in people with MAJOR DEPRESSIVE DISORDER requiring hospitalisation?", " What is the approximate LIFETIME RISK of suicide in people with BIPOLAR DISORDER?", " What is the approximate lifetime risk of suicide in people with SCHIZOPHRENIA?", " What proportion of people who die by suicide have had NO CONTACT with specialist mental health services in the year before death?"],
+    "options": [
+      " What is the approximate LIFETIME RISK of suicide in people with MAJOR DEPRESSIVE DISORDER requiring hospitalisation?",
+      " What is the approximate LIFETIME RISK of suicide in people with BIPOLAR DISORDER?",
+      " What is the approximate lifetime risk of suicide in people with SCHIZOPHRENIA?",
+      " What proportion of people who die by suicide have had NO CONTACT with specialist mental health services in the year before death?"
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "E — 15-20%. The lifetime suicide risk for patients with MAJOR DEPRESSIVE DISORDER who have been HOSPITALISED for depression is approximately 15-20% (some studies suggest 10-15%). For ALL patients with depression (including outpatient), the risk is around 5-10%. The key MRCPsych fact: the lifetime suicide risk in DEPRESSION is 15% (held to be the highest across the major mental illnesses). HOWEVER: recent meta-analyses suggest the risk may be lower (around 5-10%) due to better treatment. The figure of 15-20% comes from older studies of hospitalised patients with severe depression (before modern antidepressants). The current BMA/GP literature: about 1 in 10 patients with severe depression dies by suicide.",
       "C — 10-15%. The lifetime risk in BIPOLAR DISORDER is estimated at 10-15%. Bipolar disorder carries the HIGHEST RISK of suicide of all psychiatric conditions after depression. The risk is HIGHEST DURING DEPRESSIVE EPISODES and MIXED STATES (not during mania — though irritability can increase risk). Risk factors: early onset, comorbid substance misuse, family history of suicide, previous attempts, hopelessness. Lithium is the only medication with evidence for SUICIDE PREVENTION across mood disorders (reduces risk by ~60% — Cipriani et al., 2013). The key difference: bipolar has slightly lower suicide risk than severe depression (15-20% > 10-15%) but higher than schizophrenia.",
       "B — 5-10%. The lifetime suicide risk in SCHIZOPHRENIA is estimated at 5-10%. THAT IS HIGHER THAN THE GENERAL POPULATION (1%) BUT LOWER THAN MOOD DISORDERS (10-20%). Risk factors: younger males, early illness stage (first 5 years), high premorbid functioning (the 'insight paradox' — those with MORE insight and higher functioning appear to be at HIGHER risk), depressive symptoms, post-psychotic depression, previous attempts, substance misuse. Clozapine is the ONLY antipsychotic with FDA-approved indication for reducing suicidality in schizophrenia (the InterSePT trial, 2003 — clozapine reduced suicidal behaviour by ~25% vs olanzapine). KEY: The highest risk period is the FIRST YEAR after diagnosis and in the immediate Post-discharge period from hospital.",
-      "J — 70-80% of people who die by suicide have had NO CONTACT with specialist mental health services in the year before death (The National Confidential Inquiry into Suicide and Homicide by People with Mental Illness, University of Manchester — annual reports). This is a critical public health finding: the majority of suicides occur in people NOT under specialist mental health care. Among those who ARE under mental health care, about 40% had contact in the PAST WEEK and about 25% in the PAST MONTH. KEY FINDINGS from the NCISH: (1) Most patients who die by suicide are NOT under mental health care; (2) Among those who ARE under care, the majority are not assessed as high risk (most suicides occur in LOW or MEDIUM risk categories — risk predictability is poor); (3) Risk factors: alcohol/substance misuse, adverse life events, social isolation, recent discharge from psychiatric hospital (first 2 weeks is highest risk — ensure timely follow-up); (4) Prevention strategies: reduce access to means, improve crisis services, follow up within 48 hours of discharge, family involvement. The overall suicide rate in the UK is ~10-12 per 100,000 population. The rate in psychiatric inpatients is ~100 per 100,000.",
-      "QUESTION A about general population risk: 1% (A) — the lifetime risk of suicide in the general UK population is approximately 1% (1 in 100). That means for every 100 people you meet, one will die by suicide. The rate is about 3-4× higher in men than women (F)."
+      "J — 70-80% of people who die by suicide have had NO CONTACT with specialist mental health services in the year before death (The National Confidential Inquiry into Suicide and Homicide by People with Mental Illness, University of Manchester — annual reports). This is a critical public health finding: the majority of suicides occur in people NOT under specialist mental health care. Among those who ARE under mental health care, about 40% had contact in the PAST WEEK and about 25% in the PAST MONTH. KEY FINDINGS from the NCISH: (1) Most patients who die by suicide are NOT under mental health care; (2) Among those who ARE under care, the majority are not assessed as high risk (most suicides occur in LOW or MEDIUM risk categories — risk predictability is poor); (3) Risk factors: alcohol/substance misuse, adverse life events, social isolation, recent discharge from psychiatric hospital (first 2 weeks is highest risk — ensure timely follow-up); (4) Prevention strategies: reduce access to means, improve crisis services, follow up within 48 hours of discharge, family involvement. The overall suicide rate in the UK is ~10-12 per 100,000 population. The rate in psychiatric inpatients is ~100 per 100,000."
     ],
     "teaching_point": "Suicide epidemiology — ESSENTIAL MRCPsych facts: (1) Lifetime risk: General population ~1%, BIPD ~10-15%, Schizophrenia 5-10%, Depression (severe) 15-20%, BPD 10%, Alcohol dependence ~10%, Anorexia ~5%. (2) The 1% lifetime risk in the general population is a crucial baseline ('1 in 100 people will die by suicide'). (3) Men are 3-4× more likely to die by suicide in the UK (the 'gender paradox': women attempt more, men complete more — they use more lethal means, e.g., hanging, firearms, jumping). (4) 70-80% of suicides occur in people NOT under mental health services — so targeting high-risk groups alone will not prevent most suicides (the 'Rose prevention paradox'). (5) The first 2 WEEKS after DISCHARGE from psychiatric hospital is the highest risk period (relative risk ~100× compared to the general population). (6) CLozapine is the only antipsychotic with FDA indication for suicide prevention. (7) Lithium is the only mood stabiliser with evidence for suicide prevention (in both bipolar and unipolar depression). Cipriani A et al. (2013, BMJ): lithium reduced risk of suicide by ~60%. The NUMBER NEEDED TO TREAT (NNT) for lithium to prevent one suicide is ~30 over 2 years.",
     "domain": "critical_review",
@@ -57,6 +85,13 @@
     "bloom_taxonomy": "recall",
     "paper": "B",
     "source": "NCISH Reports (University of Manchester); Cipriani A et al. (2013) Lithium and suicide; NICE CG90; NICE CG185",
-    "tags": ["suicide", "epidemiology", "lifetime_risk", "lithium", "InterSePT", "EMI"]
+    "tags": [
+      "suicide",
+      "epidemiology",
+      "lifetime_risk",
+      "lithium",
+      "InterSePT",
+      "EMI"
+    ]
   }
 ]

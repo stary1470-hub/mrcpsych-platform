@@ -6,7 +6,7 @@ import { createClient } from '@/lib/supabase/client'
 import AppLayout from '@/components/AppLayout'
 import { getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import type { PaperType } from '@/types'
-import { DOMAINS_PAPER_A, DOMAINS_PAPER_B } from '@/types'
+import { DOMAINS_PAPER_A, DOMAINS_PAPER_B, PRACTICE_STORAGE_KEY, type PracticeState } from '@/types'
 
 interface DomainOption {
   domain: string; count: number; attempted: number; percentage: number | null
@@ -64,13 +64,33 @@ export default function QuizMenuPage() {
     let query = supabase.from('questions').select('id').eq('is_active', true)
     if (domain) query = query.eq('domain', domain)
     if (paperParam) query = query.eq('paper', paperParam)
-    const { data: questions } = await query.limit(50)
+    const { data: questions } = await query.limit(5000)
     if (questions && questions.length > 0) {
+      // Shuffle the question IDs (Fisher-Yates)
+      const ids = questions.map(q => q.id)
+      for (let i = ids.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [ids[i], ids[j]] = [ids[j], ids[i]]
+      }
+
+      if (!examMode) {
+        // Store shuffled practice session in localStorage
+        const practiceState: PracticeState = {
+          questionIds: ids,
+          currentIndex: 0,
+          answeredIds: [],
+          startedAt: Date.now(),
+          domain: domain || null,
+          paper: paperParam || null,
+        }
+        localStorage.setItem(PRACTICE_STORAGE_KEY, JSON.stringify(practiceState))
+      }
+
       const params = new URLSearchParams()
       if (domain) params.set('domain', domain)
       if (activePaper !== 'all') params.set('paper', activePaper)
       if (examMode) params.set('exam', 'true')
-      router.push(`/quiz/${questions[0].id}?${params.toString()}`)
+      router.push(`/quiz/${ids[0]}?${params.toString()}`)
     }
   }
 

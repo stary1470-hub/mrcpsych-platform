@@ -15,6 +15,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. ARR (Absolute Risk Reduction) = CER − EER (Control Event Rate − Experimental Event Rate) = 40% − 30% = 10%. NNT (Number Needed to Treat) = 1/ARR = 1/0.10 = 10. This means you need to treat 10 patients with the new drug to prevent one relapse. Relative Risk Reduction (RRR) = (CER − EER)/CER = 10/40 = 25%. MRCPsych candidates frequently confuse ARR with RRR. Remember: NNT is always 1/ARR (not 1/RRR). RRR can be misleadingly large when baseline risk is low. Reference: Altman DG. Practical Statistics for Medical Research. Chapman & Hall, 1991.",
       "33 would be NNT if ARR were 3% — dividing 100 by 10 gives NNT of 10.",
       "25% is the Relative Risk Reduction (RRR = 40-30/40 = 25%). NNT = 1/ARR = 1/0.10 = 10.",
       "30% is the control event rate, not the ARR.",
@@ -31,7 +32,14 @@
     "difficulty": "easy",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["critical review", "statistics", "ARR", "NNT", "absolute risk reduction", "number needed to treat"],
+    "tags": [
+      "critical review",
+      "statistics",
+      "ARR",
+      "NNT",
+      "absolute risk reduction",
+      "number needed to treat"
+    ],
     "source": "Altman DG 1991; MRCPsych Paper B statistics"
   },
   {
@@ -50,6 +58,9 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Forest plot interpretation is a high-yield MRCPsych Paper B topic. Key elements: (1) Each study's point estimate (square) — size reflects weight in pooled analysis. Larger samples have larger squares. (2) Horizontal line through each square = 95% confidence interval (CI). (3) Vertical line at x=1 (OR/RR) or x=0 (mean diff) = line of no effect. CI crossing this = non-significant. (4) Diamond at bottom = pooled/summary effect estimate. Width = CI of the pooled effect. (5) I²: 0-40% = may not be important, 30-60% = moderate heterogeneity, 50-90% = substantial, 75-100% = considerable. Remember: a small study with wide CI contributes less weight and has a smaller square. Reference: Higgins JPT, Green S. Cochrane Handbook for Systematic Reviews of Interventions. Version 5.1.0, 2011.",
+      "This is the correct answer. Forest plot interpretation is a high-yield MRCPsych Paper B topic. Key elements: (1) Each study's point estimate (square) — size reflects weight in pooled analysis. Larger samples have larger squares. (2) Horizontal line through each square = 95% confidence interval (CI). (3) Vertical line at x=1 (OR/RR) or x=0 (mean diff) = line of no effect. CI crossing this = non-significant. (4) Diamond at bottom = pooled/summary effect estimate. Width = CI of the pooled effect. (5) I²: 0-40% = may not be important, 30-60% = moderate heterogeneity, 50-90% = substantial, 75-100% = considerable. Remember: a small study with wide CI contributes less weight and has a smaller square. Reference: Higgins JPT, Green S. Cochrane Handbook for Systematic Reviews of Interventions. Version 5.1.0, 2011.",
+      "This is the correct answer. Forest plot interpretation is a high-yield MRCPsych Paper B topic. Key elements: (1) Each study's point estimate (square) — size reflects weight in pooled analysis. Larger samples have larger squares. (2) Horizontal line through each square = 95% confidence interval (CI). (3) Vertical line at x=1 (OR/RR) or x=0 (mean diff) = line of no effect. CI crossing this = non-significant. (4) Diamond at bottom = pooled/summary effect estimate. Width = CI of the pooled effect. (5) I²: 0-40% = may not be important, 30-60% = moderate heterogeneity, 50-90% = substantial, 75-100% = considerable. Remember: a small study with wide CI contributes less weight and has a smaller square. Reference: Higgins JPT, Green S. Cochrane Handbook for Systematic Reviews of Interventions. Version 5.1.0, 2011.",
       "If you assigned A-1, that would be the line of no effect (the vertical line), not the horizontal CI line from each study.",
       "A-2 would be the pooled estimate (diamond), not the horizontal CI line.",
       "A-4 or A-5 would assign weight or I² to the CI line — incorrect.",
@@ -64,7 +75,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "comprehension",
     "paper": "B",
-    "tags": ["critical review", "meta-analysis", "forest plot", "heterogeneity", "I-squared", "Cochrane"],
+    "tags": [
+      "critical review",
+      "meta-analysis",
+      "forest plot",
+      "heterogeneity",
+      "I-squared",
+      "Cochrane"
+    ],
     "source": "Cochrane Handbook 2011; MRCPsych Paper B statistics"
   },
   {
@@ -85,6 +103,7 @@
     "distractors_rationale": [
       "Section 37 requires a mental disorder 'of a nature or degree' warranting detention in hospital. The offence is relatively minor (bladed article, no violence or injury).",
       "Section 41 adds restrictions on discharge — reserved for serious offences posing significant risk of serious harm. Not proportionate here.",
+      "This is the correct answer. A Mental Health Treatment Requirement (MHTR) is part of a Community Order (s177 Criminal Justice Act 2003) and allows the court to mandate treatment for a mental disorder as a condition of a community sentence. It requires: (1) evidence that the condition is treatable and susceptible to treatment, (2) willingness of the offender to comply, (3) arrangements for treatment to be made (usually by a psychiatrist or psychologist). The MHTR is appropriate for offenders with mental disorder where the offence is not serious enough to warrant hospital detention. It is a key disposal for liaison and diversion services. Reference: Bradley Report (2009); Sentencing Council guidelines (2016).",
       "Section 38 is a 12-week order for assessment — more commonly used when there is uncertainty about whether s37 is appropriate.",
       "Absolute discharge is unlikely given the public order offence and the need for some public protection.",
       "Conditional discharge by court alone (without MHA involvement) is more common for non-mentally disordered offenders.",
@@ -99,7 +118,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["forensic", "MHTR", "community order", "court disposal", "sentencing", "section 37"],
+    "tags": [
+      "forensic",
+      "MHTR",
+      "community order",
+      "court disposal",
+      "sentencing",
+      "section 37"
+    ],
     "source": "Bradley Report 2009; Criminal Justice Act 2003 s177"
   },
   {
@@ -122,6 +148,7 @@
       "An acute general adult ward would not have the security or staffing to manage her risk.",
       "Conditional discharge would be premature given the ongoing need for 24-hour nursing care.",
       "High Secure is for patients who pose a grave and immediate danger — inappropriate given her offence was ABH.",
+      "This is the correct answer. The NHS England (2013) defines levels of security: HIGH SECURITY — for patients who pose a 'grave and immediate danger' requiring a perimeter wall and specialised escort. MEDIUM SECURITY — for patients who pose a 'serious danger' requiring physical security (perimeter fence, locked doors, low staff-to-patient ratio). LOW SECURITY — for patients who pose a 'significant danger' requiring a locked environment. LOCKED REHABILITATION UNITS — for patients who need a locked environment but not the full multi-disciplinary team of an LSU. For patients with EUPD who no longer meet MSU criteria but still need 24-hour nursing, an independent sector locked rehabilitation unit is often the most appropriate step-down. The Nsce pathway for women with EUPD emphasises moving from forensic to community settings with step-down units. Reference: NHS Commissioning Board. Standards for Medium Secure Services (2013); Department of Health. Offender Personality Disorder Pathway (2011).",
       "Remaining in MSU is not appropriate as she no longer meets MSU criteria (need for medium security).",
       "Hostel with floating support cannot provide 24-hour nursing care.",
       "Forensic outreach teams provide community management but cannot meet 24-hour nursing needs.",
@@ -134,7 +161,15 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["forensic", "medium secure", "low secure", "locked rehab", "EUPD", "step-down", "NHS England"],
+    "tags": [
+      "forensic",
+      "medium secure",
+      "low secure",
+      "locked rehab",
+      "EUPD",
+      "step-down",
+      "NHS England"
+    ],
     "source": "NHS Commissioning Board 2013; OPD Pathway 2011"
   },
   {
@@ -159,7 +194,10 @@
       "Acamprosate is a relapse-prevention medication started after detox, not for acute withdrawal.",
       "Haloperidol for hallucinations in alcohol withdrawal increases the risk of seizures.",
       "Oral thiamine alone is inadequate in severe alcohol withdrawal — IV Pabrinex is indicated.",
-      "One pair of Pabrinex is insufficient — three pairs daily for 3-5 days is recommended in severe withdrawal."
+      "One pair of Pabrinex is insufficient — three pairs daily for 3-5 days is recommended in severe withdrawal.",
+      "This is the correct answer. This patient has alcohol withdrawal syndrome with visual hallucinations consistent with impending delirium tremens (DTs). NICE CG115 (2011) recommends: (1) Chlordiazepoxide as first-line benzodiazepine for alcohol withdrawal — use a REDUCING REGIMEN over 5-7 days, typically 30-40 mg QDS reducing to zero. Higher doses needed for severe dependence. (2) IV Pabrinex (thiamine) for 'at-risk' groups: three pairs daily for 3-5 days. Oral thiamine is inadequate for prevention of Wernicke's encephalopathy in severe withdrawal. (3) Carbamazepine is NOT recommended by NICE. (4) Antipsychotics should be avoided for hallucinations in alcohol withdrawal as they lower the seizure threshold. (5) CIWA-Ar is a symptom-triggered approach, but fixed-dose regimens remain standard UK practice. DTs typically start 48-72 hours after last drink and peak at day 4-5. Mortality of DTs is 5-10% if untreated. Reference: NICE CG115 (2011) — Alcohol-use disorders: diagnosis and management of physical complications.",
+      "This is the correct answer. This patient has alcohol withdrawal syndrome with visual hallucinations consistent with impending delirium tremens (DTs). NICE CG115 (2011) recommends: (1) Chlordiazepoxide as first-line benzodiazepine for alcohol withdrawal — use a REDUCING REGIMEN over 5-7 days, typically 30-40 mg QDS reducing to zero. Higher doses needed for severe dependence. (2) IV Pabrinex (thiamine) for 'at-risk' groups: three pairs daily for 3-5 days. Oral thiamine is inadequate for prevention of Wernicke's encephalopathy in severe withdrawal. (3) Carbamazepine is NOT recommended by NICE. (4) Antipsychotics should be avoided for hallucinations in alcohol withdrawal as they lower the seizure threshold. (5) CIWA-Ar is a symptom-triggered approach, but fixed-dose regimens remain standard UK practice. DTs typically start 48-72 hours after last drink and peak at day 4-5. Mortality of DTs is 5-10% if untreated. Reference: NICE CG115 (2011) — Alcohol-use disorders: diagnosis and management of physical complications.",
+      "This is the correct answer. This patient has alcohol withdrawal syndrome with visual hallucinations consistent with impending delirium tremens (DTs). NICE CG115 (2011) recommends: (1) Chlordiazepoxide as first-line benzodiazepine for alcohol withdrawal — use a REDUCING REGIMEN over 5-7 days, typically 30-40 mg QDS reducing to zero. Higher doses needed for severe dependence. (2) IV Pabrinex (thiamine) for 'at-risk' groups: three pairs daily for 3-5 days. Oral thiamine is inadequate for prevention of Wernicke's encephalopathy in severe withdrawal. (3) Carbamazepine is NOT recommended by NICE. (4) Antipsychotics should be avoided for hallucinations in alcohol withdrawal as they lower the seizure threshold. (5) CIWA-Ar is a symptom-triggered approach, but fixed-dose regimens remain standard UK practice. DTs typically start 48-72 hours after last drink and peak at day 4-5. Mortality of DTs is 5-10% if untreated. Reference: NICE CG115 (2011) — Alcohol-use disorders: diagnosis and management of physical complications."
     ],
     "teaching_point": "This patient has alcohol withdrawal syndrome with visual hallucinations consistent with impending delirium tremens (DTs). NICE CG115 (2011) recommends: (1) Chlordiazepoxide as first-line benzodiazepine for alcohol withdrawal — use a REDUCING REGIMEN over 5-7 days, typically 30-40 mg QDS reducing to zero. Higher doses needed for severe dependence. (2) IV Pabrinex (thiamine) for 'at-risk' groups: three pairs daily for 3-5 days. Oral thiamine is inadequate for prevention of Wernicke's encephalopathy in severe withdrawal. (3) Carbamazepine is NOT recommended by NICE. (4) Antipsychotics should be avoided for hallucinations in alcohol withdrawal as they lower the seizure threshold. (5) CIWA-Ar is a symptom-triggered approach, but fixed-dose regimens remain standard UK practice. DTs typically start 48-72 hours after last drink and peak at day 4-5. Mortality of DTs is 5-10% if untreated. Reference: NICE CG115 (2011) — Alcohol-use disorders: diagnosis and management of physical complications.",
     "domain": "substance_misuse",
@@ -167,7 +205,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["substance misuse", "alcohol withdrawal", "delirium tremens", "chlordiazepoxide", "Pabrinex", "NICE CG115"],
+    "tags": [
+      "substance misuse",
+      "alcohol withdrawal",
+      "delirium tremens",
+      "chlordiazepoxide",
+      "Pabrinex",
+      "NICE CG115"
+    ],
     "source": "NICE CG115 (2011)"
   },
   {
@@ -195,9 +240,7 @@
       "B-6: Rapid detox with chlordiazepoxide over 7-10 days is for ALCOHOL withdrawal, not benzodiazepine withdrawal.",
       "B-1: Methadone is for opioid detox, not benzodiazepine withdrawal.",
       "B-2/3: Buprenorphine and lofexidine are opioid detox agents.",
-      "C-6: Chlordiazepoxide is for alcohol detox — not indicated for cannabis withdrawal.",
-      "C-1/2/3/4: Opioid agents have no role in cannabis withdrawal.",
-      "C-8: Olanzapine is not indicated — the symptoms are self-limiting and do not require antipsychotics."
+      "C-6: Chlordiazepoxide is for alcohol detox — not indicated for cannabis withdrawal."
     ],
     "teaching_point": "This EMI tests three key treatment principles: (1) OPIOID DETOXIFICATION: Buprenorphine (sublingual 4-24 mg daily) is first-line (NICE CG52). Methadone is an alternative with higher risk of respiratory depression. Lofexidine is a non-opioid alpha-2 agonist for detox. Naltrexone is for relapse prevention only after detox. (2) BENZODIAZEPINE WITHDRAWAL: Must be a SLOW TAPER over months to years, not a rapid detox — abrupt cessation can cause seizures. Convert to diazepam equivalent for standardisation. British National Formulary recommends reducing by 1 mg diazepam equivalent per fortnight or slower. (3) CANNABIS WITHDRAWAL: Syndrome is well-described (irritability, anxiety, sleep disturbance, appetite changes, depressed mood, physical discomfort) but NICE CG120 recommends NO pharmacological treatment — psychological interventions and sleep hygiene first-line. Cannabis withdrawal is self-limiting (1-2 weeks for acute phase). Reference: NICE CG52 (2007) — Methadone and buprenorphine for detoxification; NICE CG120 (2011) — Cannabis use.",
     "domain": "substance_misuse",
@@ -205,7 +248,15 @@
     "difficulty": "hard",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["substance misuse", "opioid detox", "buprenorphine", "benzodiazepine taper", "cannabis withdrawal", "NICE CG52", "NICE CG120"],
+    "tags": [
+      "substance misuse",
+      "opioid detox",
+      "buprenorphine",
+      "benzodiazepine taper",
+      "cannabis withdrawal",
+      "NICE CG52",
+      "NICE CG120"
+    ],
     "source": "NICE CG52 (2007); NICE CG120 (2011)"
   },
   {
@@ -224,6 +275,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. MBCT is an 8-week group programme combining mindfulness practices with cognitive therapy techniques. It is specifically designed for RELAPSE PREVENTION in recurrent major depressive disorder (patients with 3+ episodes). The TADS study (2004) and subsequent meta-analyses confirm MBCT reduces relapse rates by approximately 43% compared to treatment as usual in recurrent depression. NICE NG222 (2022) recommends: (1) CBT for acute depression (individual 16-20 sessions); (2) MBCT for RELAPSE PREVENTION in patients who have had 3+ episodes. The mechanism involves developing meta-cognitive awareness — learning to relate to depressive thoughts as 'mental events' rather than facts. Key trial: Teasdale et al. (2000) — MBCT reduced relapse from 66% to 37% in patients with 3+ episodes. Reference: NICE NG222 (2022) — Depression in adults: treatment and management.",
       "Psychodynamic psychotherapy would be an option for longer-term work but is not specifically indicated for relapse prevention in recurrent depression.",
       "DBT is specifically for emotion dysregulation in EUPD — not indicated for residual depressive symptoms.",
       "IPT focuses on interpersonal issues linked to depression — this patient's residual symptoms are cognitive schema-related, not primarily interpersonal.",
@@ -240,7 +292,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["psychotherapy", "MBCT", "mindfulness", "relapse prevention", "recurrent depression", "CBT", "NICE NG222"],
+    "tags": [
+      "psychotherapy",
+      "MBCT",
+      "mindfulness",
+      "relapse prevention",
+      "recurrent depression",
+      "CBT",
+      "NICE NG222"
+    ],
     "source": "NICE NG222 (2022); Teasdale et al. 2000; TADS 2004"
   },
   {
@@ -268,8 +328,7 @@
       "B-2/8/9: ACT, CAT, and psychodynamic are not recommended by NICE for treatment-resistant depression.",
       "C-2: ACT is not first-line for social anxiety disorder.",
       "C-7: Social skills training alone is less effective than CBT with exposure for social anxiety.",
-      "C-8/9/10: CAT, psychodynamic, cCBT are not first-line for social anxiety disorder.",
-      "C-3: Restructuring without exposure for social anxiety is less effective."
+      "C-8/9/10: CAT, psychodynamic, cCBT are not first-line for social anxiety disorder."
     ],
     "teaching_point": "This EMI tests NICE stepped-care recommendations across three anxiety/depression domains: (A) PANIC DISORDER WITH AGORAPHOBIA: NICE CG113 recommends: if no response to medication after 12 weeks, offer CBT with IN VIVO EXPOSURE (therapist-assisted sessions). Exposure is the key active mechanism. (B) TREATMENT-RESISTANT DEPRESSION: NICE NG222 recommends: after failure of one adequate trial of psychological therapy and one medication trial, offer: switch to an alternative antidepressant (e.g., venlafaxine) OR augment with quetiapine or aripiprazole OR combine CBT with medication change. (C) SOCIAL ANXIETY DISORDER: NICE CG159 recommends: manualised individual CBT-based intervention (including exposure focused on social situations) as first-line psychological therapy. Structured CBT with exposure has the strongest evidence base. Reference: NICE CG113 (2011) — Panic disorder; NICE NG222 (2022) — Depression; NICE CG159 (2013) — Social anxiety disorder.",
     "domain": "psychotherapy",
@@ -277,7 +336,18 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["psychotherapy", "stepped care", "CBT", "exposure therapy", "panic disorder", "treatment-resistant depression", "social anxiety", "NICE CG113", "NICE NG222", "NICE CG159"],
+    "tags": [
+      "psychotherapy",
+      "stepped care",
+      "CBT",
+      "exposure therapy",
+      "panic disorder",
+      "treatment-resistant depression",
+      "social anxiety",
+      "NICE CG113",
+      "NICE NG222",
+      "NICE CG159"
+    ],
     "source": "NICE CG113 (2011); NICE NG222 (2022); NICE CG159 (2013)"
   },
   {
@@ -298,6 +368,7 @@
     "distractors_rationale": [
       "GAD would involve worry across multiple domains (not just school) without such marked mood and social withdrawal.",
       "School refusal/ separation anxiety — she attends but with distress, and the social withdrawal and anhedonia are better explained by depression.",
+      "This is the correct answer. Major depressive disorder (MDD) in adolescents presents differently than in adults. Key differences: (1) IRITABILITY may be more prominent than subjective low mood in children; however, in older adolescents (14+) low mood is more commonly expressed. (2) Somatic complaints (stomach aches, headaches) are common. (3) Social withdrawal and academic decline are typical. (4) Brightening with pleasurable activities (e.g., art) is consistent with reactive mood — depression in young people can have marked diurnal variation. (5) Core DSM-5-TR criteria require one cardinal symptom (depressed mood or anhedonia) plus 4 of 7 other symptoms for 2+ weeks. NICE NG134 (2019) recommends: first-line psychological therapy (CBT or IPT) for moderate-severe depression in children/young people, with fluoxetine as first-line medication only if combined with psychological therapy. Reference: NICE NG134 (2019) — Depression in children and young people; TADS (2004).",
       "Social anxiety disorder is fear of scrutiny in social situations — her symptoms include low mood, tearfulness, and anhedonia, not just social fear.",
       "Panic disorder requires spontaneous panic attacks with fear of future attacks — not described.",
       "Adjustment disorder requires an identifiable stressor with symptoms remitting within 6 months — this has been going on 3 months but the severity suggests MDD.",
@@ -312,7 +383,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "comprehension",
     "paper": "B",
-    "tags": ["child and adolescent", "depression", "MDD", "school refusal", "adolescent depression", "NICE NG134", "TADS"],
+    "tags": [
+      "child and adolescent",
+      "depression",
+      "MDD",
+      "school refusal",
+      "adolescent depression",
+      "NICE NG134",
+      "TADS"
+    ],
     "source": "NICE NG134 (2019); DSM-5-TR; TADS (2004)"
   },
   {
@@ -332,6 +411,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "GAD involves worry across multiple domains (academic, health, family) — this child's anxiety is specifically about separation from the attachment figure.",
+      "This is the correct answer. Separation anxiety disorder (DSM-5-TR) requires: (1) Developmentally inappropriate and excessive distress when separated from attachment figures; (2) Persistent worry about losing the attachment figure; (3) Reluctance to go to school or elsewhere because of fear of separation; (4) Physical symptoms when separation occurs or is anticipated; (5) Symptoms for ≥4 weeks in children (≥6 months in adults). It is the most common anxiety disorder in children under 12 (prevalence ~4-5%). It must be distinguished from SCHOOL REFUSAL (which can have multiple causes including separation anxiety, social anxiety, depression, or bullying). NICE CG155 (2013) recommends: (1) Psychoeducation and parent training; (2) CBT-based intervention for the child including graded exposure to separation; (3) Address school attendance proactively with the school. The key clinical feature that distinguishes it from other anxiety disorders is the FOCUS ON SEPARATION from the attachment figure. Reference: NICE CG155 (2013) — Social anxiety disorder, panic disorder, agoraphobia, and generalised anxiety disorder.",
       "MDD would have anhedonia, low mood, and/or irritability as core features — this child's distress is situationally triggered by separation.",
       "Panic disorder requires spontaneous panic attacks — his symptoms are anticipatory anxiety about separation, not unexpected panic.",
       "Social anxiety would involve fear of peer scrutiny/social situations — he is described as 'attentive' at school when present.",
@@ -347,7 +427,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "comprehension",
     "paper": "B",
-    "tags": ["child and adolescent", "separation anxiety", "school refusal", "anxiety", "NICE CG155", "DSM-5-TR"],
+    "tags": [
+      "child and adolescent",
+      "separation anxiety",
+      "school refusal",
+      "anxiety",
+      "NICE CG155",
+      "DSM-5-TR"
+    ],
     "source": "DSM-5-TR; NICE CG155 (2013)"
   },
   {
@@ -367,6 +454,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "Starting risperidone for BPSD is reasonable but a physical cause must be excluded first — NICE guidance on BPSD emphasises this hierarchy.",
+      "This is the correct answer. NICE NG97 (2018) outlines a STEPPED-CARE approach to Behavioural and Psychological Symptoms of Dementia (BPSD): STEP 1 — Assess and investigate physical causes: pain, infection (UTI, chest), constipation, dehydration, medication side effects, NEW PHYSICAL INJURY (subdural haematoma after a fall is a classic cause). The fall 2 weeks ago raises the possibility of a CHRONIC SUBDURAL HAEMATOMA (SDH) — which classically presents with confusion, gait disturbance, and fluctuation 2-8 weeks after a minor head injury in older adults. CT head is mandatory before pharmacological intervention. STEP 2 — Psychosocial interventions: personalised activities, environmental modifications, staff training. STEP 3 — Pharmacological: risperidone is first-line antipsychotic for BPSD only if: symptoms are severe/distressing OR pose risk of harm. Start at 0.25-0.5 mg daily. Maximum 2 mg daily. Review after 6-12 weeks. Reference: NICE NG97 (2018) — Dementia: assessment, management and support for people living with dementia and their carers.",
       "Donepezil is not licensed for doses above 10 mg daily in Alzheimer's disease — increasing would not be appropriate.",
       "Citalopram for depression is premature without excluding a physical cause first.",
       "Lorazepam PRN may be needed for acute management but does not address the underlying cause.",
@@ -382,7 +470,16 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["old age psychiatry", "BPSD", "subdural haematoma", "NICE NG97", "dementia", "Alzheimer's disease", "agitation", "falls"],
+    "tags": [
+      "old age psychiatry",
+      "BPSD",
+      "subdural haematoma",
+      "NICE NG97",
+      "dementia",
+      "Alzheimer's disease",
+      "agitation",
+      "falls"
+    ],
     "source": "NICE NG97 (2018)"
   },
   {
@@ -402,6 +499,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "Alzheimer's disease typically presents with prominent early memory loss and does not classically include parkinsonism, autonomic dysfunction, or formed visual hallucinations.",
+      "This is the correct answer. This presentation has the THREE CORE FEATURES OF DEMENTIA WITH LEWY BODIES (DLB): (1) Visual hallucinations — well-formed, detailed, often of people/animals, typically early in the course; (2) Parkinsonism — bradykinesia, resting tremor, rigidity; (3) FLUCTUATING COGNITION — variable attention and alertness, which can be mistaken for delirium. SUPPORTIVE FEATURES: REM sleep behaviour disorder (RBD), autonomic dysfunction (orthostatic hypotension: a 28 mmHg drop in SBP), falls, and neuroleptic sensitivity. The orthostatic hypotension (standing BP 110/70 from 138/80 supine) is a key autonomic sign. The 1-YEAR RULE distinguishes DLB from Parkinson's disease dementia (PDD): if dementia develops within 1 year of parkinsonism onset = DLB; if dementia develops after 1 year of established Parkinson's disease = PDD. Reference: McKeith IG et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. Neurology 2017;89(1):88-100.",
       "Vascular dementia would have a stepwise pattern with focal neurological signs — more vascular risk factors expected.",
       "FTD presents with personality change and language difficulties, not the combination of memory loss, visual hallucinations, and parkinsonism.",
       "Normal pressure hydrocephalus classically has the triad of gait apraxia, urinary incontinence, and dementia — no hallucinations.",
@@ -417,7 +515,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["old age psychiatry", "dementia with Lewy bodies", "DLB", "visual hallucinations", "parkinsonism", "orthostatic hypotension", "McKeith criteria"],
+    "tags": [
+      "old age psychiatry",
+      "dementia with Lewy bodies",
+      "DLB",
+      "visual hallucinations",
+      "parkinsonism",
+      "orthostatic hypotension",
+      "McKeith criteria"
+    ],
     "source": "McKeith et al. Neurology 2017; DLB Consortium"
   },
   {
@@ -436,6 +542,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The NHS Long Term Plan (2019) and NICE guidance on service organisation recommend a STEPPED-CARE MODEL with a SINGLE POINT OF ACCESS (SPA) as the key intervention for improving CMHT performance. Components: (1) SPA triages all referrals within 48 hours and directs them to the right service level (low-intensity, high-intensity, specialist). (2) Stepped care ensures that patients receive the LEAST INTENSIVE intervention appropriate before escalating. (3) Low-intensity workers (psychological wellbeing practitioners) manage mild-moderate cases. (4) Care coordinator caseloads should be <25-30 maximum. The NHS Mental Health Implementation Plan (2023/24) sets a target of: 75% of people starting treatment within 4 weeks of referral and 95% within 18 weeks by 2023/24. Outcome measurement (HoNOS, PHQ-9, GAD-7) is a core component of quality improvement. The IAPT model (stepped care + routine outcome measurement + SPA) is the evidence-based approach the NHS has rolled out nationally. Reference: NHS Long Term Plan (2019); NHS Mental Health Implementation Plan 2023/24; NICE CG123 (2011) — Common mental health problems: identification and pathways to care.",
       "Increasing consultant psychiatrist sessions would not address the systemic bottleneck of access or care coordination caseloads.",
       "More bed capacity does not address community waiting times or care coordination.",
       "CPA training alone does not address the structural problems of access and capacity.",
@@ -452,7 +559,16 @@
     "difficulty": "hard",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["organisation and delivery", "CMHT", "stepped care", "SPA", "CQC", "NHS Long Term Plan", "waiting times", "care coordination"],
+    "tags": [
+      "organisation and delivery",
+      "CMHT",
+      "stepped care",
+      "SPA",
+      "CQC",
+      "NHS Long Term Plan",
+      "waiting times",
+      "care coordination"
+    ],
     "source": "NHS Long Term Plan 2019; NHS Mental Health Implementation Plan 2023/24"
   },
   {
@@ -471,6 +587,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. The HIERARCHY OF STUDY DESIGNS is critical for MRCPsych Paper B. A CROSS-SECTIONAL STUDY measures exposure and outcome at the same point in time — it establishes CORRELATION but not CAUSATION because TEMPORAL SEQUENCE cannot be determined (did cannabis use precede psychotic symptoms or vice versa?). The Bradford Hill criteria for causation include: temporality, strength of association, dose-response, consistency, biological plausibility, specificity, coherence, experiment, and analogy. TEMPORALITY is the most important — the cause must precede the effect. While other limitations (selection bias, measurement error, generalisability) are valid, the cross-sectional design's inability to establish temporality is the most fundamental. A cohort study (prospective) or a case-control study (retrospective) with clear temporal ascertainment would be superior designs for establishing causation. Reference: Bradford Hill A. The Environment and Disease: Association or Causation? Proc R Soc Med 1965;58(5):295-300.",
       "Representativeness is a limitation but cross-sectional design cannot establish causation — this is the strongest methodological limitation.",
       "Self-report reliability is a concern but the CAPE is a validated scale and the cross-sectional design limitation is more fundamental.",
       "CAPE measures subclinical experiences — but even if it measured clinical disorders, the cross-sectional design could not establish temporality.",
@@ -487,7 +604,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "evaluation",
     "paper": "B",
-    "tags": ["critical review", "cross-sectional study", "causation", "temporality", "Bradford Hill", "study design", "correlation"],
+    "tags": [
+      "critical review",
+      "cross-sectional study",
+      "causation",
+      "temporality",
+      "Bradford Hill",
+      "study design",
+      "correlation"
+    ],
     "source": "Bradford Hill 1965"
   },
   {
@@ -510,6 +635,9 @@
       "A-3/4/5: Reporting, detection, and performance bias do not describe differential dropout.",
       "B-1: Attrition bias relates to dropout, not to the allocation process. This is SELECTION bias.",
       "B-3/4: Reporting and detection bias do not describe an inadequate randomisation procedure.",
+      "This is the correct answer. The Cochrane Risk of Bias tool (RoB 2) assesses FIVE domains: (1) BIAS ARISING FROM THE RANDOMISATION PROCESS (Selection bias) — prevented by adequate random sequence generation + ALLOCATION CONCEALMENT (SNOSE: sequentially numbered opaque sealed envelopes). (2) BIAS DUE TO DEVIATIONS FROM INTENDED INTERVENTIONS (Performance bias) — prevented by BLINDING of participants and clinicians. (3) BIAS DUE TO MISSING OUTCOME DATA (Attrition bias) — prevented by minimising dropouts and using INTENTION-TO-TREAT analysis. (4) BIAS IN MEASUREMENT OF OUTCOME (Detection bias) — prevented by BLINDING of outcome assessors. In trials where blinding is not possible (e.g., psychological therapies), use independent assessors who are blind to allocation. (5) BIAS IN SELECTION OF REPORTED RESULT (Reporting bias) — prevented by PRE-REGISTRATION of trial protocol (ClinicalTrials.gov, ISRCTN) and publication of analysis plan. Reference: Higgins JPT et al. The Cochrane Collaboration's tool for assessing risk of bias in randomised trials. BMJ 2011;343:d5928.",
+      "This is the correct answer. The Cochrane Risk of Bias tool (RoB 2) assesses FIVE domains: (1) BIAS ARISING FROM THE RANDOMISATION PROCESS (Selection bias) — prevented by adequate random sequence generation + ALLOCATION CONCEALMENT (SNOSE: sequentially numbered opaque sealed envelopes). (2) BIAS DUE TO DEVIATIONS FROM INTENDED INTERVENTIONS (Performance bias) — prevented by BLINDING of participants and clinicians. (3) BIAS DUE TO MISSING OUTCOME DATA (Attrition bias) — prevented by minimising dropouts and using INTENTION-TO-TREAT analysis. (4) BIAS IN MEASUREMENT OF OUTCOME (Detection bias) — prevented by BLINDING of outcome assessors. In trials where blinding is not possible (e.g., psychological therapies), use independent assessors who are blind to allocation. (5) BIAS IN SELECTION OF REPORTED RESULT (Reporting bias) — prevented by PRE-REGISTRATION of trial protocol (ClinicalTrials.gov, ISRCTN) and publication of analysis plan. Reference: Higgins JPT et al. The Cochrane Collaboration's tool for assessing risk of bias in randomised trials. BMJ 2011;343:d5928.",
+      "This is the correct answer. The Cochrane Risk of Bias tool (RoB 2) assesses FIVE domains: (1) BIAS ARISING FROM THE RANDOMISATION PROCESS (Selection bias) — prevented by adequate random sequence generation + ALLOCATION CONCEALMENT (SNOSE: sequentially numbered opaque sealed envelopes). (2) BIAS DUE TO DEVIATIONS FROM INTENDED INTERVENTIONS (Performance bias) — prevented by BLINDING of participants and clinicians. (3) BIAS DUE TO MISSING OUTCOME DATA (Attrition bias) — prevented by minimising dropouts and using INTENTION-TO-TREAT analysis. (4) BIAS IN MEASUREMENT OF OUTCOME (Detection bias) — prevented by BLINDING of outcome assessors. In trials where blinding is not possible (e.g., psychological therapies), use independent assessors who are blind to allocation. (5) BIAS IN SELECTION OF REPORTED RESULT (Reporting bias) — prevented by PRE-REGISTRATION of trial protocol (ClinicalTrials.gov, ISRCTN) and publication of analysis plan. Reference: Higgins JPT et al. The Cochrane Collaboration's tool for assessing risk of bias in randomised trials. BMJ 2011;343:d5928.",
       "C-1/2/4/5: Only selective outcome reporting is REPORTING bias. Trial registration prevents this.",
       "D-1/2/3: The issue is that the OUTCOME ASSESSOR (patient) is not blinded, making this DETECTION bias due to self-report. Prevention = blinding of outcome assessors.",
       "D-5: Performance bias relates to differences in care received, not to how outcomes are measured."
@@ -520,7 +648,16 @@
     "difficulty": "hard",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["critical review", "bias", "attrition bias", "selection bias", "reporting bias", "detection bias", "RoB 2", "Cochrane"],
+    "tags": [
+      "critical review",
+      "bias",
+      "attrition bias",
+      "selection bias",
+      "reporting bias",
+      "detection bias",
+      "RoB 2",
+      "Cochrane"
+    ],
     "source": "Higgins et al. BMJ 2011;343"
   },
   {
@@ -540,6 +677,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "CPA Standard Level is for patients needing multi-agency support but not at risk of crisis — someone on clozapine with TRS requires Enhanced CPA.",
+      "This is the correct answer. The CARE PROGRAMME APPROACH (CPA) has TWO LEVELS (since 2008): STANDARD CPA — for patients who need multi-agency coordination but have a lower risk of relapse and are able to self-manage. ENHANCED CPA — for patients who: (1) require multi-agency care coordination; (2) are at risk of relapse or have complex needs; (3) have difficulties engaging; (4) are on treatments requiring close monitoring (like clozapine); (5) are subject to S117 aftercare; (6) have been detained under the MHA. Patients on clozapine automatically require Enhanced CPA due to the need for: regular blood monitoring (FBC weekly for 18 weeks, then 2-weekly, then monthly), management of potential serious adverse effects (agranulocytosis, myocarditis, seizures, constipation), and high risk of relapse if medication is interrupted. CPA TRANSFER: when a patient moves area, the current care coordinator must COMPLETE A HANDOVER to the receiving team, including: care plan, risk assessment, crisis plan, medication history, and current CPA review date. The receiving team must then review the care plan within 6 weeks (standard timescale). Reference: Refocusing the Care Programme Approach (DoH, 2008); CPA Policy Guidance (NHS England, 2022).",
       "Discharge from CPA is not appropriate for a patient on clozapine for treatment-resistant schizophrenia.",
       "EIP is for first-episode psychosis (typically 14-35 years, for up to 3 years) — not for established TRS.",
       "Section 117 aftercare applies to patients detained under s3/s37/s47/s48 — it runs alongside CPA, not replacing Enhanced CPA.",
@@ -555,7 +693,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["organisation and delivery", "CPA", "enhanced CPA", "care programme approach", "clozapine", "care coordination", "transfer"],
+    "tags": [
+      "organisation and delivery",
+      "CPA",
+      "enhanced CPA",
+      "care programme approach",
+      "clozapine",
+      "care coordination",
+      "transfer"
+    ],
     "source": "DoH Refocusing CPA 2008; NHS England CPA Policy 2022"
   },
   {
@@ -574,6 +720,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Persistent depressive disorder (DSM-5-TR) is a consolidation of DSM-IV chronic major depression and dysthymic disorder. ICD-11 retains 'Dysthymic disorder'. Criteria: depressed mood for most of the day, for more days than not, for ≥2 YEARS in adults (≥1 year in children/adolescents). During this period, no symptom-free period >2 months. Plus 2+ of: poor appetite/overeating, insomnia/hypersomnia, low energy/fatigue, low self-esteem, poor concentration/difficulty making decisions, feelings of hopelessness. Key distinction from MDD: symptoms are CHRONIC and LESS SEVERE than MDD. If a patient has had a major depressive episode during the 2-year period, they still qualify if they had persistent depressive symptoms without a 2-month break before and after. This is called 'double depression' (dysthymia with superimposed MDD episodes). Prevalence: ~3-6% of the population. Treatment: NICE NG222 (2022) recommends CBT, IPT, or an antidepressant (SSRI). Treatment response rates are generally LOWER than for acute MDD. Reference: DSM-5-TR; NICE NG222 (2022).",
       "MDD requires discrete episodes meeting full criteria — this patient has persistent but less severe symptoms without discrete episodes.",
       "Cyclothymia requires numerous periods of hypomanic and depressive symptoms that do NOT meet full criteria for either — no suggestion of hypomanic symptoms here.",
       "GAD involves worry across multiple domains with muscle tension, restlessness, etc. — her primary symptoms are low mood and anergia.",
@@ -590,7 +737,14 @@
     "difficulty": "medium",
     "bloom_taxonomy": "comprehension",
     "paper": "B",
-    "tags": ["general adult", "persistent depressive disorder", "dysthymia", "chronic depression", "ICD-11", "DSM-5-TR"],
+    "tags": [
+      "general adult",
+      "persistent depressive disorder",
+      "dysthymia",
+      "chronic depression",
+      "ICD-11",
+      "DSM-5-TR"
+    ],
     "source": "DSM-5-TR; ICD-11"
   },
   {
@@ -610,6 +764,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "IM naloxone is effective but the key issue is that methadone's half-life (24-36h) far exceeds naloxone's duration (20-90 min), causing RESEDATION risk — an infusion is indicated.",
+      "This is the correct answer. Methadone OVERDOSE management is a critical MRCPsych topic because of the unique pharmacokinetic mismatch: METHADONE's half-life (24-36 HOURS) far exceeds NALOXONE's duration of action (20-90 MINUTES). Management algorithm for methadone overdose: (1) ABC assessment — support airway, breathing, circulation. (2) NALOXONE 0.4-2 mg IV (or IM if no IV access). (3) If response is inadequate, repeat every 2-3 minutes up to 10 mg. (4) If the patient responds to naloxone but was on methadone (long half-life), START A NALOXONE INFUSION using two-thirds of the initial effective dose per hour (e.g., if 0.4 mg worked, start infusion at 0.24-0.4 mg/hour). (5) The patient MUST be admitted for at least 12-24 hours of observation due to RESEDATION RISK. Pregabalin potentiates opioid-induced respiratory depression by enhancing GABA-ergic inhibition. NB: acute withdrawal (precipitated by naloxone) is unpleasant but NOT life-threatening — respiratory depression IS life-threatening. In the exam, when a question mentions methadone and signs of opioid overdose, the answer will involve NALOXONE INFUSION or PROLONGED OBSERVATION. Reference: Clinical Guidelines on Drug Misuse and Dependence (2017) — Orange Book; British National Formulary.",
       "4 mg is a high dose — the standard initial dose is 0.4-2 mg IV/IM. Titrated approach preferred.",
       "Flumazenil is for benzodiazepine overdose — not indicated here and can precipitate seizures.",
       "Intubation with ventilation would be appropriate if naloxone fails but one should always attempt reversal first.",
@@ -625,7 +780,16 @@
     "difficulty": "hard",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["substance misuse", "methadone", "overdose", "naloxone infusion", "respiratory depression", "resedation", "pregabalin", "orange book"],
+    "tags": [
+      "substance misuse",
+      "methadone",
+      "overdose",
+      "naloxone infusion",
+      "respiratory depression",
+      "resedation",
+      "pregabalin",
+      "orange book"
+    ],
     "source": "Orange Book 2017; BNF"
   },
   {
@@ -645,6 +809,7 @@
     "correct_index": 1,
     "distractors_rationale": [
       "Lithium has the strongest evidence for long-term maintenance but a slow onset of action (7-14 days) and requires therapeutic monitoring — not ideal as monotherapy for acute severe mania.",
+      "This is the correct answer. NICE CG185 (2014) recommends an ANTIPSYCHOTIC as first-line for ACUTE MANIA due to faster onset of action. OLANZAPINE is the preferred first-line antipsychotic for acute mania because it has the strongest evidence for rapid symptom control (typically starting at 10-15 mg daily). Alternative antipsychotics: quetiapine, risperidone, haloperidol (but higher EPS risk). Lithium is first-line for MAINTENANCE but has a slow onset (7-14 days to reach therapeutic levels) — not suitable as monotherapy for acute management. In women of CHILDBEARING AGE, valproate is relatively CONTRAINDICATED (NICE CG185) due to teratogenicity (neural tube defects) and increased risk of PCOS. Lamotrigine has NO efficacy in acute mania — it is only effective for preventing bipolar DEPRESSION episodes. Key clinical point: always use an antipsychotic FIRST for acute mania, and consider adding lithium or valproate for maintenance. Reference: NICE CG185 (2014) — Bipolar disorder: assessment and management.",
       "Valproate is effective but relatively contraindicated in women of childbearing age (NICE CG185) due to teratogenicity and PCOS risk.",
       "Carbamazepine is second- or third-line with significant enzyme-inducing drug interactions.",
       "Aripiprazole is effective for acute mania but can be activating — olanzapine or haloperidol have more evidence for rapid symptom control.",
@@ -660,7 +825,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["general adult", "bipolar", "acute mania", "olanzapine", "antipsychotic", "NICE CG185", "lithium"],
+    "tags": [
+      "general adult",
+      "bipolar",
+      "acute mania",
+      "olanzapine",
+      "antipsychotic",
+      "NICE CG185",
+      "lithium"
+    ],
     "source": "NICE CG185 (2014)"
   },
   {
@@ -679,6 +852,9 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. Statistical test selection is a high-yield MRCPsych Paper B topic. The DECISION TREE: (1) What type of outcome variable? Continuous → compare means/medians. Categorical → compare proportions. (2) How many groups? Two groups: t-test (parametric) or Mann-Whitney (non-parametric). Three+ groups: ANOVA (parametric) or Kruskal-Wallis (non-parametric). (3) Are data normally distributed? Check with Shapiro-Wilk or Kolmogorov-Smirnov. Use parametric tests if normally distributed (more powerful). Use non-parametric if skewed or ordinal. (4) Paired vs independent? Paired data (before/after, matched pairs) require paired t-test (parametric) or Wilcoxon signed-rank (non-parametric). Matched multi-group requires repeated-measures ANOVA or Friedman. (5) Categorical data: 2×2 table → Chi-square (χ²) for expected counts ≥5; Fisher's exact test for expected <5. Larger tables → Chi-square. Paired categorical → McNemar's. (6) Correlation: Pearson (both normally distributed), Spearman (non-normal or ordinal). Key memory aid for MRCPsych: 'Three groups, continuous, normal = ANOVA'. 'Two categorical variables = Chi-square'. 'Non-normal correlation = Spearman'. Reference: Altman DG. Practical Statistics for Medical Research. Chapman & Hall, 1991.",
+      "This is the correct answer. Statistical test selection is a high-yield MRCPsych Paper B topic. The DECISION TREE: (1) What type of outcome variable? Continuous → compare means/medians. Categorical → compare proportions. (2) How many groups? Two groups: t-test (parametric) or Mann-Whitney (non-parametric). Three+ groups: ANOVA (parametric) or Kruskal-Wallis (non-parametric). (3) Are data normally distributed? Check with Shapiro-Wilk or Kolmogorov-Smirnov. Use parametric tests if normally distributed (more powerful). Use non-parametric if skewed or ordinal. (4) Paired vs independent? Paired data (before/after, matched pairs) require paired t-test (parametric) or Wilcoxon signed-rank (non-parametric). Matched multi-group requires repeated-measures ANOVA or Friedman. (5) Categorical data: 2×2 table → Chi-square (χ²) for expected counts ≥5; Fisher's exact test for expected <5. Larger tables → Chi-square. Paired categorical → McNemar's. (6) Correlation: Pearson (both normally distributed), Spearman (non-normal or ordinal). Key memory aid for MRCPsych: 'Three groups, continuous, normal = ANOVA'. 'Two categorical variables = Chi-square'. 'Non-normal correlation = Spearman'. Reference: Altman DG. Practical Statistics for Medical Research. Chapman & Hall, 1991.",
+      "This is the correct answer. Statistical test selection is a high-yield MRCPsych Paper B topic. The DECISION TREE: (1) What type of outcome variable? Continuous → compare means/medians. Categorical → compare proportions. (2) How many groups? Two groups: t-test (parametric) or Mann-Whitney (non-parametric). Three+ groups: ANOVA (parametric) or Kruskal-Wallis (non-parametric). (3) Are data normally distributed? Check with Shapiro-Wilk or Kolmogorov-Smirnov. Use parametric tests if normally distributed (more powerful). Use non-parametric if skewed or ordinal. (4) Paired vs independent? Paired data (before/after, matched pairs) require paired t-test (parametric) or Wilcoxon signed-rank (non-parametric). Matched multi-group requires repeated-measures ANOVA or Friedman. (5) Categorical data: 2×2 table → Chi-square (χ²) for expected counts ≥5; Fisher's exact test for expected <5. Larger tables → Chi-square. Paired categorical → McNemar's. (6) Correlation: Pearson (both normally distributed), Spearman (non-normal or ordinal). Key memory aid for MRCPsych: 'Three groups, continuous, normal = ANOVA'. 'Two categorical variables = Chi-square'. 'Non-normal correlation = Spearman'. Reference: Altman DG. Practical Statistics for Medical Research. Chapman & Hall, 1991.",
       "A-1: t-test only compares TWO groups, not three.",
       "A-4: Mann-Whitney is for two-group comparison of non-parametric data.",
       "A-5: Kruskal-Wallis is a non-parametric alternative to ANOVA — HAM-D is normally distributed, so ANOVA is more powerful.",
@@ -693,7 +869,16 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["critical review", "statistics", "statistical test selection", "ANOVA", "chi-square", "Spearman", "parametric", "non-parametric"],
+    "tags": [
+      "critical review",
+      "statistics",
+      "statistical test selection",
+      "ANOVA",
+      "chi-square",
+      "Spearman",
+      "parametric",
+      "non-parametric"
+    ],
     "source": "Altman DG 1991; MRCPsych Paper B statistics"
   },
   {
@@ -712,6 +897,7 @@
     ],
     "correct_index": 0,
     "distractors_rationale": [
+      "This is the correct answer. NICE CG178 (2014) defines TREATMENT-RESISTANT SCHIZOPHRENIA as: lack of improvement despite ≥2 antipsychotics (at least one second-generation) at adequate doses for ≥6-8 weeks each. Persistent NEGATIVE SYMPTOMS (alogia, avolition, anhedonia, blunted affect, social withdrawal) that do not fully respond to antipsychotic treatment are a key indication for CLOZAPINE. Clozapine is the ONLY antipsychotic with evidence for improving negative symptoms independent of positive symptom improvement (it is the gold standard for treatment-resistant schizophrenia, including persistent negative symptoms). NICE CG178 states: 'Offer clozapine to people with schizophrenia whose illness has not responded adequately to treatment despite the sequential use of adequate doses of at least two different antipsychotic drugs.' Key exclusion criteria: neutropenia (FBC monitoring mandatory), uncontrolled epilepsy, myocarditis history. Physical health monitoring: FBC (weekly ×18 weeks, then fortnightly × 1 year, then monthly), weight, BP, ECG, glucose, lipids. Reference: NICE CG178 (2014) — Psychosis and schizophrenia in adults: prevention and management.",
       "Adding an SSRI for negative symptoms has limited evidence and is not first-line.",
       "Aripiprazole augmentation is not established for negative symptoms.",
       "Cognitive remediation therapy is helpful but not the most appropriate NEXT step before optimising medication.",
@@ -728,7 +914,15 @@
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
-    "tags": ["general adult", "schizophrenia", "negative symptoms", "clozapine", "treatment-resistant", "NICE CG178", "paliperidone"],
+    "tags": [
+      "general adult",
+      "schizophrenia",
+      "negative symptoms",
+      "clozapine",
+      "treatment-resistant",
+      "NICE CG178",
+      "paliperidone"
+    ],
     "source": "NICE CG178 (2014)"
   }
 ]

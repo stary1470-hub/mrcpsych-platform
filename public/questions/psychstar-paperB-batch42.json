@@ -244,7 +244,6 @@
     ],
     "teaching_point": "Tourette syndrome and tic management (NICE NG170 2019): Step 1 — Psychoeducation, monitor. Step 2 — HRT/CBIT (first-line for moderate-severe tics). Step 3 — Clonidine or guanfacine (first-line pharmacological). Step 4 — Antipsychotics (risperidone, aripiprazole, haloperidol). Habit Reversal Therapy: awareness training, competing response training, motivation, relaxation, generalisation. CBIT meta-analyses show large effect sizes (d = 0.6-0.8). MRCPsych: the shift from antipsychotics to clonidine/behavioural therapy as first-line is a recent change.",
     "domain": "child_adolescent",
-    "subcategory": "Tourette Syndrome — Treatment",
     "difficulty": "hard",
     "bloom_taxonomy": "application",
     "paper": "B",
@@ -256,7 +255,8 @@
       "clonidine",
       "NICE NG170"
     ],
-    "source": "NICE NG170 (2019); Piacentini et al 2010 (JAMA)"
+    "source": "NICE NG170 (2019); Piacentini et al 2010 (JAMA)",
+    "subdomain": "Tourette Syndrome — Treatment"
   },
   {
     "stem": "A 12-year-old girl with moderate learning disability and global developmental delay presents with new-onset repetitive hand-washing and reassurance-seeking behaviour that has developed over the past 3 months. She has no prior psychiatric history. Her parents report she seems distressed by 'bad thoughts'. Which of the following is the most appropriate first step?",
@@ -375,7 +375,6 @@
     ],
     "teaching_point": "Alcohol withdrawal management (NICE CG100): Fixed-dose regime (chlordiazepoxide 30mg QDS reducing over 5-7 days) is standard for moderate-severe withdrawal. Symptom-triggered (CIWA-Ar > 15 → dose) is an alternative but requires high staffing. Risk factors for severe withdrawal/DT: previous DT, previous withdrawal seizures, multiple detoxifications, high alcohol consumption, older age, concurrent medical illness. CIWA-Ar: assesses nausea/vomiting, tremor, sweating, anxiety, agitation, tactile/auditory/visual disturbances, headache, orientation. Score > 15 indicates severe withdrawal; > 20 indicates risk of DT. MRCPsych: CIWA-Ar and fixed-dose vs symptom-triggered regimes are tested.",
     "domain": "substance_misuse",
-    "subdomian": "Alcohol — Withdrawal Management",
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
@@ -386,7 +385,8 @@
       "chlordiazepoxide",
       "detoxification"
     ],
-    "source": "NICE CG100 (2011); Drug misuse and dependence: UK guidelines (2017)"
+    "source": "NICE CG100 (2011); Drug misuse and dependence: UK guidelines (2017)",
+    "subdomain": "Alcohol — Withdrawal Management"
   },
   {
     "stem": "A 28-year-old man is brought to the emergency department by ambulance after taking an unknown quantity of 'mephedrone' (4-MMC) at a party. He is agitated, confused, tachycardic (HR 140), hypertensive (BP 175/95), hyperthermic (38.8°C), and has a rigid posture. He appears to be responding to internal stimuli. What is the most appropriate immediate management?",

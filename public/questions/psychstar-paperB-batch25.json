@@ -1,7 +1,13 @@
 [
   {
     "stem": "A 40-year-old woman with a 10-year history of bipolar I disorder (well-controlled on lithium, level 0.7, and quetiapine 200mg) has been stable for 2 years. She has a BMI of 28. She is a non-smoker. She is referred for a routine pre-conception counselling appointment. Her partner has no psychiatric history. She has had one previous pregnancy 8 years ago (before her bipolar diagnosis) which ended in a first-trimester miscarriage. What is the SINGLE most important intervention before she conceives?",
-    "options": [" Stop lithium due to teratogenicity and switch to lamotrigine", " Stop quetiapine and switch to haloperidol (longest pregnancy safety record)", " Arrange a detailed discussion about RISKS vs BENEFITS of medication continuation, optimise to the lowest effective doses, start folic acid 5mg daily, and refer to specialist perinatal psychiatry", " Continue all current medications unchanged", " Advise against pregnancy due to the high risk of postpartum psychosis"],
+    "options": [
+      " Stop lithium due to teratogenicity and switch to lamotrigine",
+      " Stop quetiapine and switch to haloperidol (longest pregnancy safety record)",
+      " Arrange a detailed discussion about RISKS vs BENEFITS of medication continuation, optimise to the lowest effective doses, start folic acid 5mg daily, and refer to specialist perinatal psychiatry",
+      " Continue all current medications unchanged",
+      " Advise against pregnancy due to the high risk of postpartum psychosis"
+    ],
     "correct_index": 2,
     "distractors_rationale": [
       "Lithium can be continued in pregnancy with monitoring. The risk of Ebstein's anomaly with first-trimester lithium exposure is 1-2/1000 (lower than previously thought). Abruptly stopping lithium carries a 50-90% risk of relapse in bipolar I. NICE CG192 does NOT recommend automatically stopping lithium pre-conception.",
@@ -17,11 +23,23 @@
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG192: Antenatal and postnatal mental health; NICE CG185: Bipolar; Maudsley Prescribing Guidelines",
-    "tags": ["pre_conception", "bipolar", "pregnancy", "lithium", "folic_acid", "perinatal"]
+    "tags": [
+      "pre_conception",
+      "bipolar",
+      "pregnancy",
+      "lithium",
+      "folic_acid",
+      "perinatal"
+    ]
   },
   {
     "stem": "Theme: Psychiatric Complications of Medical Conditions\n\nFor each clinical scenario, select the MOST LIKELY UNDERLYING MEDICAL CAUSE:\n\nA. Hypothyroidism\nB. Hyperthyroidism\nC. Cushing's disease\nD. Systemic lupus erythematosus (CNS involvement)\nE. Neurosyphilis\nF. HIV-associated neurocognitive disorder\nG. Vitamin B12 deficiency\nH. Porphyria\nI. Wilson's disease\nJ. Sleep apnoea\nK. Multiple sclerosis\nL. Hepatic encephalopathy\nM. Uraemic encephalopathy\nN. Hyperparathyroidism",
-    "options": [" A 32-year-old woman presents with a 4-week history of anxiety, palpitations, heat intolerance, weight loss, fine tremor, and insomnia. She has had two panic attacks in the past week. Thyroid function tests confirm suppressed TSH with elevated T4 and T3.", " A 45-year-old man with chronic kidney disease (Stage 5, on haemodialysis) presents with progressive cognitive slowing, poor concentration, apathy, and myoclonus. He has been non-adherent with dialysis sessions.", " A 28-year-old woman presents with a 2-week history of confusion, psychosis, and catatonia. She is known to have SLE (antinuclear antibody positive, double-stranded DNA positive). Over the past 3 days, she has developed generalised tonic-clonic seizures.", " A 55-year-old man with a 30-year history of schizophrenia (well-controlled on risperidone 4mg) is found to have a serum calcium of 2.9 mmol/L (normal 2.2-2.6). He has been complaining of fatigue, thirst, and polyuria for 3 months. His lithium (never taken) was discontinued years ago."],
+    "options": [
+      " A 32-year-old woman presents with a 4-week history of anxiety, palpitations, heat intolerance, weight loss, fine tremor, and insomnia. She has had two panic attacks in the past week. Thyroid function tests confirm suppressed TSH with elevated T4 and T3.",
+      " A 45-year-old man with chronic kidney disease (Stage 5, on haemodialysis) presents with progressive cognitive slowing, poor concentration, apathy, and myoclonus. He has been non-adherent with dialysis sessions.",
+      " A 28-year-old woman presents with a 2-week history of confusion, psychosis, and catatonia. She is known to have SLE (antinuclear antibody positive, double-stranded DNA positive). Over the past 3 days, she has developed generalised tonic-clonic seizures.",
+      " A 55-year-old man with a 30-year history of schizophrenia (well-controlled on risperidone 4mg) is found to have a serum calcium of 2.9 mmol/L (normal 2.2-2.6). He has been complaining of fatigue, thirst, and polyuria for 3 months. His lithium (never taken) was discontinued years ago."
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "HYPERTHYROIDISM (B). Hyperthyroidism (excess thyroid hormone) can present with: (1) PSYCHIATRIC SYMPTOMS: anxiety, panic attacks, restlessness, irritability, insomnia (the most common presentation — 'my thyroid made me anxious'); (2) DEPRESSION (less common — 'apathetic hyperthyroidism' in elderly — can present as depression); (3) MANIA/HYPOMANIA (in susceptible individuals — 'thyrotoxic mania'); (4) PSYCHOSIS (rare — 'thyrotoxic psychosis' — can occur in severe cases). (5) SOMATIC: weight loss (despite increased appetite), palpitations, tachycardia, heat intolerance, tremor, goitre, exophthalmos (Graves' disease). INVESTIGATION: TSH suppressed, free T4/T3 elevated. MANAGEMENT: Antithyroid medications (carbimazole, propylthiouracil), beta-blockers (propranolol) for symptoms, radioiodine or surgery. Psychiatric symptoms resolve when the euthyroid state is restored. Key point: ALWAYS CHECK TFTs in new-onset anxiety, panic disorder, mania, or psychosis — hyperthyroidism is a common reversible cause.",
@@ -36,11 +54,24 @@
     "bloom_taxonomy": "analysis",
     "paper": "B",
     "source": "DSM-5-TR; Lishman WA (2006) Organic Psychiatry; NICE guidelines on physical health in SMI",
-    "tags": ["hyperthyroidism", "uraemia", "CNS_lupus", "hypercalcaemia", "organic", "EMI"]
+    "tags": [
+      "hyperthyroidism",
+      "uraemia",
+      "CNS_lupus",
+      "hypercalcaemia",
+      "organic",
+      "EMI"
+    ]
   },
   {
     "stem": "A 22-year-old female medical student presents with a 4-week history of episodic chest tightness, palpitations, dizziness, a feeling of impending doom, and a sense that she is 'going to die'. These episodes last about 10 minutes, occur 3-4 times per week, and are triggered by crowded places (lecture halls, busy supermarkets). She has started avoiding these situations. She has no medical history and her physical examination, ECG, and routine bloods are all NORMAL. What is the MOST appropriate first-line treatment?",
-    "options": [" Start sertraline 50mg daily and refer for CBT for panic disorder", " Start propranolol 40mg BD PRN for situational anxiety", " Start lorazepam 1mg PRN for panic attacks", " Reassure her that these are stress-related and they will resolve on their own", " Refer for CBT alone without medication"],
+    "options": [
+      " Start sertraline 50mg daily and refer for CBT for panic disorder",
+      " Start propranolol 40mg BD PRN for situational anxiety",
+      " Start lorazepam 1mg PRN for panic attacks",
+      " Reassure her that these are stress-related and they will resolve on their own",
+      " Refer for CBT alone without medication"
+    ],
     "correct_index": 0,
     "distractors_rationale": [
       "CORRECT. This patient has PANIC DISORDER WITH AGORAPHOBIA (panic attacks in crowds → avoidance). NICE CG113 (Generalised anxiety disorder and panic disorder in adults). ALSO the wording 'first-line treatment' — For panic disorder, NICE recommends: CBT OR an SSRI (sertraline, citalopram, fluoxetine). The choice depends on patient preference. CBT is equally effective to SSRIs. However, the question asks 'first-line treatment' — both are first-line. But this patient has MODERATE-SEVERE symptoms (3-4 attacks per week, marked avoidance) — medication may be offered initially with or without CBT. Sertraline 50mg is the recommended first-line SSRI for panic (it is well tolerated, safe in overdose, and has a low side-effect profile). START LOW (25mg for 1 week, then 50mg) to avoid initial activation/jitteriness (which can be mistaken for a panic attack). Duration: continue for at least 6 months after response, then consider gradual withdrawal. CBT for panic disorder focuses on: (1) Psychoeducation about the anxiety cycle; (2) Cognitive restructuring of catastrophic misinterpretation (see Clark's model); (3) Behavioural experiments to test predictions; (4) Graded exposure to feared situations; (5) Reducing safety behaviours.",
@@ -51,11 +82,17 @@
     ],
     "teaching_point": "Panic disorder treatment (NICE CG113): STEP 1: Diagnosis (recurrent unexpected panic attacks + worry about future attacks + avoidance). STEP 2: OFFER CBT for panic disorder (7-14 hours total) OR an SSRI (sertraline, citalopram, fluoxetine). Patient preference is key. STEP 3: If SSRI: start LOW (sertraline 25mg for 1 week, then 50mg). Warn about INITIAL ACTIVATION in the first 1-2 weeks (can feel like panic). Continue for 6-12 months after remission. STEP 4: If no response to SSRI: try a DIFFERENT SSRI. If no response to a second SSRI: consider SNRI (venlafaxine) or TCA (clomipramine). STEP 5: IF NO RESPONSE to all the above: consider specialist input. IMPORTANT: Benzodiazepines are NOT recommended for panic disorder. Comorbidity: agoraphobia, depression, GAD, alcohol misuse. Clark's cognitive model: the key to panic is CATASTROPHIC MISINTERPRETATION of bodily sensations (palpitations → 'I'm having a heart attack'). Treatment targets this misinterpretation.",
     "domain": "general_adult",
-    "subcategory": "anxiety_disorders",
     "difficulty": "medium",
     "bloom_taxonomy": "application",
     "paper": "B",
     "source": "NICE CG113: Generalised anxiety disorder and panic disorder; Clark DM (1986) A cognitive approach to panic",
-    "tags": ["panic_disorder", "agoraphobia", "CBT", "SSRI", "sertraline"]
+    "tags": [
+      "panic_disorder",
+      "agoraphobia",
+      "CBT",
+      "SSRI",
+      "sertraline"
+    ],
+    "subdomain": "anxiety_disorders"
   }
 ]

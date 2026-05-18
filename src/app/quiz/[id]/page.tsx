@@ -7,9 +7,9 @@ import AppLayout from '@/components/AppLayout'
 import { getOptionLabel, getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import type { Question } from '@/types'
 import {
-  EXAM_CONFIG_DEFAULT, EXAM_STORAGE_KEY,
+  EXAM_CONFIG_DEFAULT, EXAM_STORAGE_KEY, PRACTICE_STORAGE_KEY,
   calculateQuestionTime, isEmiQuestion,
-  type ExamState,
+  type ExamState, type PracticeState,
 } from '@/types'
 
 interface AdaptiveSessionStats {
@@ -197,6 +197,25 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     localStorage.removeItem(EXAM_STORAGE_KEY)
   }, [])
 
+  // ── Practice session state helpers ──────────────
+  const getPracticeState = useCallback((): PracticeState | null => {
+    if (typeof window === 'undefined') return null
+    try {
+      const stored = localStorage.getItem(PRACTICE_STORAGE_KEY)
+      if (!stored) return null
+      return JSON.parse(stored) as PracticeState
+    } catch { return null }
+  }, [])
+
+  const savePracticeState = useCallback((state: PracticeState) => {
+    if (typeof window === 'undefined') return
+    localStorage.setItem(PRACTICE_STORAGE_KEY, JSON.stringify(state))
+  }, [])
+
+  // Practice session stats for display
+  const [practiceTotal, setPracticeTotal] = useState(0)
+  const [practiceAnswered, setPracticeAnswered] = useState(0)
+
   // Calculate total exam time remaining (in seconds)
   const getExamTimeRemaining = useCallback((): number => {
     const state = getExamState()
@@ -292,6 +311,15 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
       }
     }
 
+    // In practice mode, load practice session stats
+    if (!isExamMode && !isAdaptive) {
+      const practiceState = getPracticeState()
+      if (practiceState) {
+        setPracticeTotal(practiceState.questionIds.length)
+        setPracticeAnswered(practiceState.answeredIds.length)
+      }
+    }
+
     setLoading(false)
   }
 
@@ -329,15 +357,48 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
         setExamAnsweredCount(state.answeredIds.length)
       }
     }
+
+    // Update practice state
+    if (!isExamMode && !isAdaptive) {
+      const practiceState = getPracticeState()
+      if (practiceState && !practiceState.answeredIds.includes(question.id)) {
+        practiceState.answeredIds.push(question.id)
+        savePracticeState(practiceState)
+        setPracticeAnswered(practiceState.answeredIds.length)
+      }
+    }
   }
 
   const handleNext = async () => {
     if (!isAdaptive) {
+      // ── Practice mode: use shuffled practice session from localStorage ──
+      if (!isExamMode) {
+        const practiceState = getPracticeState()
+        if (practiceState) {
+          // Advance to next question in the shuffled list
+          const nextIndex = practiceState.currentIndex + 1
+          if (nextIndex < practiceState.questionIds.length) {
+            practiceState.currentIndex = nextIndex
+            savePracticeState(practiceState)
+            const nextId = practiceState.questionIds[nextIndex]
+            const params = new URLSearchParams()
+            params.set('domain', domain || 'all')
+            if (paper) params.set('paper', paper)
+            router.push(`/quiz/${nextId}?${params.toString()}`)
+            return
+          }
+          // All questions exhausted — session complete
+          setAllDone(true)
+          return
+        }
+        // Fallback: no practice state (direct URL access) — use DB query
+      }
+
+      // ── Exam mode: use DB query excluding answered IDs ──
       let query = supabase.from('questions').select('id').eq('is_active', true).neq('id', id).order('id')
       if (domain && domain !== 'all') query = query.eq('domain', domain)
       if (paper) query = query.eq('paper', paper)
 
-      // In exam mode, exclude already answered questions
       if (isExamMode) {
         const state = getExamState()
         if (state && state.answeredIds.length > 0) {
@@ -353,11 +414,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
         if (isExamMode) params.set('exam', 'true')
         router.push(`/quiz/${nextQs[0].id}?${params.toString()}`)
       } else {
-        if (isExamMode) {
-          setAllDone(true)
-        } else {
-          router.push('/quiz')
-        }
+        setAllDone(true)
       }
       return
     }
@@ -513,6 +570,52 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     )
   }
 
+  // ── Practice completion screen ──────────────────
+  if (allDone && !isExamMode && !isAdaptive) {
+    const ps = getPracticeState()
+    const totalAnswered = ps?.answeredIds.length || sessionStats.total
+    const totalCorrect = sessionStats.correct
+    const pct = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0
+    const totalQs = ps?.questionIds.length || totalAnswered
+
+    // Clear practice state
+    if (typeof window !== 'undefined') localStorage.removeItem(PRACTICE_STORAGE_KEY)
+
+    return (
+      <AppLayout title="Practice Complete" subtitle={`You answered all ${totalQs} questions`}>
+        <div style={{ maxWidth: 520, margin: '60px auto', textAlign: 'center' }} className="animate-slide-up">
+          <div style={{
+            width: 80, height: 80, borderRadius: 20,
+            background: pct >= 60 ? 'var(--success-subtle)' : 'var(--warning-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 24px',
+          }}>
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none"
+              stroke={pct >= 60 ? 'var(--success)' : 'var(--warning)'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+          </div>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 28, fontWeight: 400, marginBottom: 8 }}>
+            {pct >= 70 ? 'Excellent Work!' : pct >= 50 ? 'Good Progress!' : 'Keep Practising!'}
+          </h2>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 32, lineHeight: 1.7 }}>
+            You answered {totalAnswered} questions with a {pct}% accuracy.
+            {pct >= 70 ? ' You\'re well prepared.' : ' Review your weak domains on the dashboard.'}
+          </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16, marginBottom: 32 }}>
+            <div className="stat-card"><div className="stat-value" style={{ color: 'var(--accent-teal)', fontSize: 28 }}>{pct}%</div><div className="stat-label">Score</div></div>
+            <div className="stat-card"><div className="stat-value" style={{ color: 'var(--success)', fontSize: 28 }}>{totalCorrect}/{totalAnswered}</div><div className="stat-label">Correct</div></div>
+            <div className="stat-card"><div className="stat-value" style={{ fontSize: 28 }}>{totalQs}</div><div className="stat-label">Questions</div></div>
+          </div>
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
+            <button onClick={() => router.push('/dashboard')} className="btn btn-primary">View Dashboard</button>
+            <button onClick={() => router.push(paper ? `/quiz?paper=${paper}` : '/quiz')} className="btn btn-secondary">Back to Quiz Menu</button>
+          </div>
+        </div>
+      </AppLayout>
+    )
+  }
+
   // ── Loading ────────────────────────────────────────
   if (loading) {
     return (
@@ -586,6 +689,11 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
           )}
           {isEmi && <span className="badge badge-gray">EMI</span>}
           {question.bloom_taxonomy && <span className="badge badge-gray">{question.bloom_taxonomy}</span>}
+          {!isExamMode && !isAdaptive && practiceTotal > 0 && (
+            <span className="badge" style={{ background: 'var(--accent-teal-subtle)', color: 'var(--accent-teal)', fontWeight: 600, marginLeft: 'auto' }}>
+              {practiceAnswered + 1} of {practiceTotal}
+            </span>
+          )}
           <div style={{ flex: 1 }} />
 
           {/* Per-question timer (exam mode only) */}

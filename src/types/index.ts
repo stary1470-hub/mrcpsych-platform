@@ -79,6 +79,16 @@ export const EXAM_CONFIG_DEFAULT: ExamConfig = {
 
 // localStorage key for exam state persistence across navigations
 export const EXAM_STORAGE_KEY = 'psychstar_exam_state'
+export const PRACTICE_STORAGE_KEY = 'psychstar_practice_state'
+
+export interface PracticeState {
+  questionIds: string[]  // Shuffled list of all question IDs for this session
+  currentIndex: number   // Index into questionIds for the current question
+  answeredIds: string[]  // Questions already answered this session
+  startedAt: number      // epoch ms when practice started
+  domain: string | null
+  paper: string | null
+}
 
 export interface ExamState {
   startedAt: number       // epoch ms when exam started
