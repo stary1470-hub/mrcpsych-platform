@@ -1,0 +1,366 @@
+[
+  {
+    "stem": "A 34-year-old woman presents with a 6-month history of excessive worry about multiple domains including work performance, family health, and finances. She reports muscle tension, fatigue, and poor concentration. She finds it difficult to control the worry. These symptoms are not better explained by another mental disorder. Which is the most appropriate first-line pharmacological treatment according to NICE guidelines?",
+    "options": [
+      "Diazepam as required",
+      "Sertraline",
+      "Propranolol",
+      "Pregabalin",
+      "Buspirone"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Benzodiazepines (diazepam) are not recommended as first-line treatment for GAD due to risk of dependence, tolerance, and sedation. NICE CG113 recommends against routine use.",
+      "Correct. NICE CG113 (2011, updated 2019) recommends sertraline (an SSRI) as first-line pharmacological treatment for GAD. SSRIs are the first-line pharmacological agents due to favourable evidence base for efficacy, tolerability, and safety. Alternatively, another SSRI or SNRI (duloxetine, venlafaxine) may be offered. Pregabalin is a second-line option.",
+      "Propranolol is not recommended for GAD. Beta-blockers are sometimes used for performance anxiety (situational) but have no evidence for generalised anxiety.",
+      "Pregabalin is a second-line option for GAD (licensed but not first-line). NICE recommends it only if SSRIs/SNRIs are contraindicated or ineffective.",
+      "Buspirone has limited evidence compared to SSRIs and is not routinely recommended by NICE for GAD."
+    ],
+    "teaching_point": "NICE CG113 treatment algorithm for GAD: Step 1 — psychoeducation, monitoring; Step 2 — low-intensity psychological (CBT-based self-help, psychoeducational groups); Step 3 — high-intensity psychological (CBT, applied relaxation) OR pharmacological (SSRI — sertraline first-line). Note: SSRIs may initially worsen anxiety — start at low dose and titrate slowly. Pregabalin is a second-line option. Benzodiazepines are NOT recommended except short-term crisis management.",
+    "domain": "general_adult",
+    "subdomain": "Anxiety Disorders — GAD Pharmacological Management",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": ["general adult", "GAD", "SSRI", "sertraline", "NICE guideline"],
+    "source": "NICE CG113 (2011, updated 2019)"
+  },
+  {
+    "stem": "A 22-year-old woman with a history of childhood sexual abuse presents with recurrent intrusive memories of the abuse, nightmares, hypervigilance, and avoidance of any situation that reminds her of the trauma. Symptoms have been present for 8 months. Which psychological therapy has the strongest evidence base and is recommended by NICE as first-line for PTSD?",
+    "options": [
+      "Eye Movement Desensitisation and Reprocessing (EMDR)",
+      "Psychodynamic psychotherapy",
+      "Person-centred counselling",
+      "Cognitive Behavioural Therapy (CBT) specifically Trauma-Focused CBT or EMDR — both are equally recommended",
+      "Cognitive Analytic Therapy (CAT)"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "EMDR is recommended by NICE NG116 as a first-line option for PTSD, but the strongest recommendation is for trauma-focused psychological treatments — both EMDR and TF-CBT are equally recommended.",
+      "Psychodynamic psychotherapy does not have sufficient evidence for PTSD to be recommended by NICE as first-line treatment.",
+      "Person-centred counselling does not have sufficient evidence for PTSD and is not recommended by NICE.",
+      "Correct. NICE NG116 (2018) recommends trauma-focused psychological treatments for PTSD: either Trauma-Focused CBT (TF-CBT) or Eye Movement Desensitisation and Reprocessing (EMDR) for adults with PTSD. Both are considered equally effective first-line options. For children, TF-CBT is first-line. The guidelines emphasise that non-trauma-focused interventions (counselling, psychodynamic therapy) should NOT be routinely offered.",
+      "CAT is not recommended for PTSD by NICE guidelines."
+    ],
+    "teaching_point": "NICE NG116 (2018) PTSD guideline: First-line treatment for adults is trauma-focused psychological therapy (TF-CBT or EMDR). If the person declines these, consider supported trauma-focused self-help. Pharmacological treatment (SSRIs — paroxetine, sertraline, venlafaxine) are second-line if psychological therapy is declined or ineffective. Key change from earlier guidelines: no longer recommends a choice between psychological and pharmacological as equal first-line — psychological therapy is clearly first-line. For complex PTSD, a phased approach (stabilisation, trauma processing, reintegration) is recommended.",
+    "domain": "general_adult",
+    "subdomain": "PTSD — Psychological Treatment",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": ["general adult", "PTSD", "TF-CBT", "EMDR", "trauma-focused", "NICE guideline"],
+    "source": "NICE NG116 (2018)"
+  },
+  {
+    "stem": "A 28-year-old man presents with repetitive intrusive thoughts that his hands are contaminated with bacteria. He feels compelled to wash his hands for 20-30 minutes at a time, several times daily. These rituals are time-consuming and cause distress. Symptoms began 3 years ago. Which of the following is the most appropriate first-line treatment according to NICE?",
+    "options": [
+      "High-dose sertraline (up to 200mg) plus CBT (including exposure and response prevention)",
+      "Low-dose antipsychotic augmentation",
+      "Clomipramine as monotherapy",
+      "Psychoeducation only — the condition is lifelong",
+      "Deep brain stimulation"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG31 (2005, updated) recommends SSRI (sertraline, fluoxetine, paroxetine, citalopram) as first-line pharmacological treatment for OCD, usually at higher doses than for depression (e.g., sertraline up to 200mg). Combined with CBT including exposure and response prevention (ERP), this is the gold standard first-line approach. SSRIs are preferred over clomipramine due to better side effect profile. ERP involves graded exposure to feared stimuli while preventing compulsive responses.",
+      "Antipsychotic augmentation (risperidone, aripiprazole, haloperidol) is a third-line strategy for treatment-resistant OCD, not first-line.",
+      "Clomipramine (a tricyclic) is effective for OCD but has a less favourable side effect profile (anticholinergic, cardiac) and is generally reserved for SSRI non-responders.",
+      "Psychoeducation is important but insufficient as sole treatment. OCD is treatable with evidence-based interventions.",
+      "Deep brain stimulation is reserved for severe, treatment-refractory OCD (usually after failing multiple medication trials and CBT) and is not first-line."
+    ],
+    "teaching_point": "OCD treatment algorithm (NICE CG31): Step 1 — mild impairment: low-intensity CBT (including ERP). Step 2 — moderate/severe: SSRI (up to max licensed dose, noting OCD often requires higher doses) or high-intensity CBT (including ERP). Step 3 — combined SSRI + CBT. Treatment-resistant: consider clomipramine, antipsychotic augmentation. ERP is the core psychological component — therapist-assisted exposure with response prevention, typically 20+ sessions. SSRI dose escalation: sertraline up to 200mg, fluoxetine up to 60mg, citalopram up to 40mg. Note: NICE is currently updating this guideline (CG31 → NGxx).",
+    "domain": "general_adult",
+    "subdomain": "OCD — First-Line Treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["general adult", "OCD", "SSRI", "sertraline", "ERP", "NICE guideline"],
+    "source": "NICE CG31 (2005)"
+  },
+  {
+    "stem": "A 45-year-old woman with a 10-year history of panic disorder has been well-controlled on sertraline 150mg daily. She becomes pregnant. Which of the following is the most appropriate management?",
+    "options": [
+      "Immediately discontinue sertraline due to risk of congenital malformations",
+      "Switch to paroxetine which has the best safety profile in pregnancy",
+      "Discuss risks and benefits; consider continuing sertraline if the risk of relapse without medication is high, as untreated panic disorder also carries risks for the mother and baby",
+      "Reduce sertraline to 50mg for the duration of pregnancy",
+      "Switch to a benzodiazepine which is safer in pregnancy"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Abrupt discontinuation of SSRI risks relapse of panic disorder, which itself carries risks during pregnancy (poor obstetric outcomes, substance use, poor engagement with antenatal care). Shared decision-making is essential.",
+      "Paroxetine has the HIGHEST risk among SSRIs for congenital cardiac malformations (particularly first trimester) and is relatively contraindicated in pregnancy.",
+      "Correct. The decision to continue or discontinue SSRIs in pregnancy requires careful risk-benefit analysis. Risks of untreated maternal psychiatric illness: preterm birth, low birth weight, postnatal depression, impaired mother-infant bonding. Risks of SSRI use: small increased risk of neonatal adaptation syndrome (<10%, mild and self-limiting), persistent pulmonary hypertension (PPHN, absolute risk increase ~0.1%). Paroxetine is associated with cardiac malformations and should be avoided. NICE and the Maudsley Guidelines recommend: (1) SSRIs are relatively safe in pregnancy; (2) sertraline and fluoxetine are preferred; (3) avoid paroxetine; (4) monotherapy at the lowest effective dose.",
+      "Arbitrary dose reduction risks relapse. Maintain the effective dose.",
+      "Benzodiazepines are NOT safer in pregnancy — associated with cleft palate (first trimester), neonatal withdrawal and floppy infant syndrome (third trimester), and poor neonatal adaptation."
+    ],
+    "teaching_point": "SSRIs in pregnancy: Sertraline and fluoxetine are preferred (best safety data). Avoid paroxetine (cardiac malformation risk). Risks of untreated maternal depression/anxiety: poor self-care, substance use, prematurity, low birth weight, PND. SSRI risks: (1) Congenital malformations — no consistent evidence for most SSRIs (except paroxetine); (2) Neonatal adaptation syndrome — jitteriness, poor feeding, respiratory distress (resolves in days); (3) PPHN — absolute risk increase from 0.1% to 0.2-0.3%. Decision-making framework: shared with obstetric psychiatrist. MRCPsych exam: be prepared to discuss risk-benefit of psychotropics in pregnancy.",
+    "domain": "general_adult",
+    "subdomain": "Perinatal Psychiatry — SSRIs in Pregnancy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["general adult", "perinatal", "SSRI", "pregnancy", "panic disorder"],
+    "source": "Maundley Prescribing Guidelines 14th ed; NICE pregnancy and complex social factors"
+  },
+  {
+    "stem": "A 55-year-old man with alcohol dependence presents with acute confusion, ataxia, and horizontal nystagmus. He is admitted to the acute medical unit. Which of the following is the most appropriate immediate management?",
+    "options": [
+      "IV diazepam 10mg stat for sedation",
+      "IV Pabrinex (high-dose parenteral thiamine) urgently before any glucose administration",
+      "Oral thiamine 100mg TDS",
+      "CT head to rule out intracranial pathology first",
+      "Start a chlordiazepoxide reducing regime"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Diazepam addresses alcohol withdrawal but does NOT treat Wernicke's encephalopathy (WE), which this presentation suggests (confusion, ataxia, nystagmus).",
+      "Correct. This presentation (confusion, ataxia, nystagmus) is the classic triad of Wernicke's encephalopathy, though all three are present in only ~16% of cases. Immediate management: IV Pabrinex (high-dose thiamine 250mg IV BD for 3-5 days) BEFORE any glucose. Glucose administration without thiamine can precipitate or worsen Wernicke's encephalopathy by increasing thiamine demand in the Krebs cycle. If WE is suspected, treatment should not be delayed for investigations. NICE CG100 recommends Pabrinex IV for WE.",
+      "Oral thiamine is insufficient for treating suspected WE due to poor absorption in alcohol-dependent patients (reduced absorption from GI tract, liver damage affecting thiamine utilisation).",
+      "While a CT head may be appropriate in some cases to exclude other causes, treatment for WE should NOT be delayed pending imaging. Pabrinex should be administered urgently.",
+      "A chlordiazepoxide reducing regime is for alcohol withdrawal syndrome, not for Wernicke's encephalopathy. The patient likely has both conditions, but the priority is treating WE first."
+    ],
+    "teaching_point": "Wernicke's encephalopathy: acute neuropsychiatric emergency due to thiamine (B1) deficiency. Classic triad (confusion, ataxia, nystagmus/ophthalmoplegia) — present in minority. Treatment: IV Pabrinex (thiamine 250mg IV BD plus vitamin B co) for 3-5 days. Prevent Korsakoff syndrome (irreversible amnestic syndrome) by treating WE promptly. Untreated WE → ~80% develop Korsakoff's. MRCPsych: Pabrinex BEFORE glucose, IV not oral for treatment, prophylaxis with oral thiamine for at-risk drinkers (NICE CG100 for alcohol dependence, PH24 for prevention).",
+    "domain": "general_adult",
+    "subdomain": "Emergency Psychiatry — Wernicke's Encephalopathy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["general adult", "Wernicke's", "thiamine", "Pabrinex", "alcohol", "emergency"],
+    "source": "NICE CG100 (2011); Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 24-year-old female medical student presents with a BMI of 16.2 kg/m², intense fear of gaining weight, and restrictive eating patterns. She has amenorrhea. Medical examination reveals bradycardia (48 bpm), hypotension (85/55 mmHg), and prolonged QTc interval (470ms) on ECG. Which of the following is the next most appropriate management?",
+    "options": [
+      "Outpatient CBT-ED with weekly monitoring",
+      "Admit to a medical ward for medical stabilisation given the high-risk physical parameters",
+      "Start olanzapine for weight restoration",
+      "Refer to a dietitian as an outpatient",
+      "Prescribe oral contraceptive pill to address amenorrhea"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Outpatient management is inappropriate given the severity of medical compromise (BMI < 17, bradycardia, hypotension, prolonged QTc). The MARSIPAN guidelines specify thresholds for medical admission.",
+      "Correct. MARSIPAN (Management of Really Sick Patients with Anorexia Nervosa) guidelines (RCPsych, 2014) recommend medical admission for adults with: (1) BMI < 13 (severe) OR (2) significant electrolyte abnormalities OR (3) cardiac complications (bradycardia < 50 bpm, hypotension, prolonged QTc > 450ms) OR (4) acute medical complications. This patient has multiple high-risk indicators: BMI 16.2 (severe), bradycardia, hypotension, and prolonged QTc. Medical stabilisation on a medical ward (or specialist eating disorder unit with medical support) is required before psychological treatment.",
+      "Olanzapine is used off-license for weight restoration in AN, but it is an adjunctive treatment, not the immediate priority given the medical instability.",
+      "Outpatient dietetic input is insufficient — this patient requires medical admission for stabilisation.",
+      "The amenorrhea is a consequence of low weight and will resolve with nutritional rehabilitation. OCP does not treat the underlying bone density concern and may give false reassurance about bone health."
+    ],
+    "teaching_point": "MARSIPAN guidelines: Medical admission criteria for anorexia nervosa — (1) BMI < 13, (2) rapid weight loss, (3) heart rate < 40 bpm (or < 50 with other risk factors), (4) orthostatic hypotension (BP drop > 20 mmHg), (5) prolonged QTc (> 450ms adults, > 460ms children), (6) electrolyte abnormalities (K, Na, PO4, Mg), (7) acute physical complications. Refeeding syndrome risk: monitor phosphate, K, Mg closely during refeeding (start at 5-10 kcal/kg/day, advance slowly). Cardiac monitoring essential. MRCPsych: know the medical emergency thresholds for AN.",
+    "domain": "general_adult",
+    "subdomain": "Eating Disorders — Anorexia Nervosa Medical Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["general adult", "anorexia nervosa", "MARSIPAN", "refeeding", "QT prolongation"],
+    "source": "MARSIPAN guidelines (RCPsych 2014); NICE NG69 (2017)"
+  },
+  {
+    "stem": "A 42-year-old man with a diagnosis of borderline personality disorder (BPD) presents with recurrent self-harm (cutting) and chronic feelings of emptiness. He has been in DBT for 6 months. Which of the following medication strategies is most supported by the evidence base?",
+    "options": [
+      "SSRI for the depressive symptoms often seen in BPD",
+      "Low-dose antipsychotic for emotional instability",
+      "No medication is recommended as first-line for BPD itself — NICE recommends psychological therapy as the primary treatment and medication only for comorbid conditions",
+      "Mood stabiliser (lamotrigine) for affective instability",
+      "Benzodiazepines as required for acute distress"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "While SSRIs are commonly prescribed in BPD for depressive symptoms, the evidence base for SSRIs in BPD specifically is weak (negative RCTs). NICE CG78 recommends against routine use of medication for BPD.",
+      "Antipsychotics (olanzapine, aripiprazole) have some evidence for reducing emotional instability in BPD, but are second/third-line and should not be first-line treatment.",
+      "Correct. NICE CG78 (2009, updated) for BPD: (1) Medication should NOT be used specifically for BPD or its core symptoms; (2) Psychological therapy (DBT, MBT, STEPPS, CAT depending on presentation) is the primary treatment; (3) Medication should be reserved for comorbid conditions (e.g., major depression, bipolar disorder); (4) Short-term sedative medication may be considered for crisis management but avoid benzodiazepines. This is one of the most commonly tested NICE recommendations in MRCPsych — BPD is primarily treated with structured psychological therapy, not medication.",
+      "Lamotrigine has some evidence for affective instability in BPD but is not recommended by NICE as first-line.",
+      "Benzodiazepines are specifically cautioned against in BPD due to risk of disinhibition, dependence, and misuse."
+    ],
+    "teaching_point": "NICE CG78 (2009, updated): BPD treatment. Medications are NOT recommended for BPD itself. Psychological therapy: DBT (for self-harm, emotional dysregulation), MBT (for mentalisation difficulties), CAT (for interpersonal problems), STEPPS (systems training). Antipsychotics and mood stabilisers may be used short-term in crisis but NOT long-term for BPD. This is one of the most frequently tested MRCPsych prescribing topics — do NOT prescribe medication for BPD per se.",
+    "domain": "general_adult",
+    "subdomain": "Personality Disorders — BPD Pharmacological Management",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": ["general adult", "BPD", "borderline personality", "NICE CG78", "medication"],
+    "source": "NICE CG78 (2009, updated 2018)"
+  },
+  {
+    "stem": "A 30-year-old woman presents with alternating episodes of elevated mood (lasting 5-7 days), increased energy, reduced need for sleep, excessive spending, and grandiose ideas alternating with episodes of low mood, anhedonia, and suicidal ideation. She has had 4 episodes in the past 2 years. Which medication is considered the most effective long-term prophylactic treatment for bipolar disorder?",
+    "options": [
+      "Lithium",
+      "Sodium valproate",
+      "Olanzapine",
+      "Carbamazepine",
+      "Venlafaxine"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Lithium is the most established mood stabiliser for bipolar disorder, with the strongest evidence for prophylaxis against manic episodes and a modest effect on depressive episodes. The BALANCE trial (2009) demonstrated superiority of lithium over valproate for bipolar maintenance. Lithium also has the strongest evidence for suicide risk reduction (Cipriani et al 2013, BMJ — lithium reduces risk of suicide/attempted suicide by ~80% compared to placebo). NICE CG185 recommends lithium as first-line long-term prophylaxis.",
+      "Valproate is effective for bipolar prophylaxis, particularly for mixed episodes and rapid cycling, but is NOT first-line in women of childbearing age (teratogenicity — neural tube defects). It has weaker evidence than lithium for suicide prevention.",
+      "Olanzapine is effective for acute mania and maintenance but metabolic side effects (weight gain, diabetes) limit long-term use. Not first-line for prophylaxis over lithium.",
+      "Carbamazepine is a third-line option, particularly for patients who do not respond to lithium or valproate. It induces its own metabolism and has drug interactions.",
+      "Venlafaxine is an antidepressant with HIGH risk of switching to mania/hypomania in bipolar disorder. It is relatively contraindicated as monotherapy in bipolar — may destabilise mood."
+    ],
+    "teaching_point": "Lithium in bipolar disorder: First-line for prophylaxis. NICE CG185 and BAP guidelines: Lithium as first-line long-term treatment. Key trials: BALANCE (lithium > valproate for maintenance), the Li+ trials. Monitoring: FBC, U&Es, TFTs, Ca, eGFR before starting; 3-6 monthly lithium levels (target 0.4-1.0 mmol/L for prophylaxis, 0.6-1.0 for acute); 6-12 monthly eGFR and TFTs. Side effects: thirst, polyuria, weight gain, tremor, hypothyroidism, renal impairment. Toxicity signs: vomiting, diarrhoea, coarse tremor, ataxia, impaired consciousness. MRCPsych: lithium is the single most important drug in bipolar prophylaxis.",
+    "domain": "general_adult",
+    "subdomain": "Bipolar Disorder — Lithium Prophylaxis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": ["general adult", "bipolar", "lithium", "prophylaxis", "BALANCE trial"],
+    "source": "BALANCE trial 2009 (Lancet); NICE CG185 (2014); Cipriani et al 2013 (BMJ)"
+  },
+  {
+    "stem": "A 25-year-old woman with no prior psychiatric history presents for routine postnatal check at 8 weeks postpartum. She reports persistent low mood, loss of interest, poor sleep (despite the baby sleeping), excessive guilt about being a bad mother, and intrusive thoughts about harming the baby that she finds ego-dystonic and distressing. She denies any psychotic features. What is the most likely diagnosis?",
+    "options": [
+      "Postpartum psychosis",
+      "Baby blues",
+      "Postnatal depression",
+      "Adjustment disorder",
+      "OCD with perinatal onset"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Postpartum psychosis typically presents within the first 2 weeks with florid psychotic symptoms (delusions, hallucinations, confusion, mood swings). This patient has no psychotic features.",
+      "Baby blues affect 50-80% of women, peak at day 3-5 postpartum, and resolve spontaneously within 2 weeks. Symptoms include mood lability, tearfulness, and irritability, but NOT persistent low mood, guilt, or harm-related intrusive thoughts at 8 weeks.",
+      "Correct. This presentation is classic for postnatal depression (PND): onset within 4-6 weeks postpartum (up to 12 months), persistent low mood, anhedonia, sleep disturbance, excessive guilt, and ego-dystonic intrusive thoughts. The thoughts about harming the baby are ego-dystonic (unwanted, distressing) — this distinguishes them from psychotic phenomena. The EPDS (Edinburgh Postnatal Depression Scale) is the recommended screening tool. Prevalence ~10-15%. Risk factors: prior PND, depression history, poor social support, life stress, unplanned pregnancy.",
+      "Adjustment disorder would require a clear stressor with milder symptoms that are not meeting the full criteria for major depression. This presentation meets MDD criteria.",
+      "Perinatal OCD presents with obsessions (often harm-related) and compulsions. However, this patient's core symptoms (low mood, anhedonia, guilt, sleep disturbance) are more consistent with depression. Perinatal OCD can occur comorbidly with PND."
+    ],
+    "teaching_point": "Postnatal depression (PND): Affects 10-15% of women. Onset: typically within first 6-12 weeks postpartum. Key features: depressed mood, anhedonia, sleep/appetite disturbance, poor concentration, guilt about mothering, sometimes ego-dystonic thoughts about harming the baby (must be distinguished from psychotic beliefs — in PND these are distressing and inconsistent with the mother's values). EPDS screening at 6-8 weeks postpartum. Treatment: same as for non-perinatal depression — psychological therapy (CBT, IPT) or SSRIs (sertraline preferred in breastfeeding). Differentiate from: baby blues (self-limiting, onset day 3-5, affects 50-80%), postpartum psychosis (rare, 1-2/1000, psychiatric emergency).",
+    "domain": "general_adult",
+    "subdomain": "Perinatal Psychiatry — Postnatal Depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": ["general adult", "postnatal depression", "perinatal", "EPDS", "baby blues"],
+    "source": "NICE CG192 (2014); Howard et al 2014 (Lancet)"
+  },
+  {
+    "stem": "A 19-year-old university student presents with a 3-week history of euphoric mood, increased energy, decreased need for sleep (3 hours/night but feels rested), rapid speech, flight of ideas, grandiosity (believes he can solve world peace), and excessive spending (maxed out credit cards on unnecessary items). No previous psychiatric history. No substance misuse. No psychotic features. What is the most likely diagnosis?",
+    "options": [
+      "Bipolar I disorder — current episode manic",
+      "Bipolar II disorder — hypomanic episode",
+      "Cyclothymia",
+      "Schizophrenia",
+      "ADHD"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. This meets DSM-5 criteria for a manic episode: elevated mood + increased goal-directed activity lasting > 1 week (3 weeks here) with ≥ 3 of: grandiosity, decreased need for sleep, pressured speech, flight of ideas, increased pleasurable activities with negative consequences (excessive spending). The episode causes marked functional impairment (maxed out credit cards, university functioning impaired). This is a first episode of mania, establishing a diagnosis of Bipolar I disorder.",
+      "Bipolar II requires hypomanic (not manic) episodes. Hypomania is shorter (≥ 4 days), less severe, and does NOT cause marked functional impairment. This episode causes significant impairment (financial consequences, likely academic disruption).",
+      "Cyclothymia requires ≥ 2 years of subsyndromal mood fluctuations without meeting full criteria for hypomania or depression. This meets full manic criteria.",
+      "Schizophrenia requires psychotic symptoms (delusions, hallucinations, disorganised speech) for ≥ 1 month. This patient has no psychotic features. Grandiosity in mania is a mood-congruent belief, not a psychotic delusion necessarily, unless firmly fixed despite evidence.",
+      "Adult ADHD onset is before age 12 and symptoms relate to inattention, hyperactivity, and impulsivity — not cyclical episodes of elevated mood, grandiosity, and decreased need for sleep."
+    ],
+    "teaching_point": "DSM-5 criteria for manic episode: (A) Distinct period of abnormally elevated/expansive/irritable mood + increased goal-directed activity/energy lasting ≥ 1 week (or hospitalisation). (B) ≥ 3 of: grandiosity, decreased need for sleep, pressured speech, flight of ideas, distractibility, increased goal-directed activity, risky behaviour. (C) Causes marked functional impairment or psychosis or hospitalisation. Differential: bipolar II (hypomania — ≥ 4 days, not severe), substance-induced (steroids, cocaine, amphetamines), secondary mania (hyperthyroidism, MS, brain tumour). MRCPsych: mania vs hypomania distinction is frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Bipolar Disorder — Mania vs Hypomania",
+    "difficulty": "easy",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": ["general adult", "bipolar I", "mania", "hypomania", "DSM-5"],
+    "source": "DSM-5; Ghaemi 2008 (Clinician's Guide to Bipolar)"
+  },
+  {
+    "stem": "A 67-year-old man presents with a 3-month history of depressed mood, anhedonia, poor sleep, weight loss, psychomotor retardation, and hopelessness. He has a history of ischaemic heart disease, type 2 diabetes, and hypertension. His medication includes bisoprolol, metformin, and simvastatin. He scores 22/30 on the MMSE. Which investigation is MOST important before starting antidepressant treatment?",
+    "options": [
+      "CT head scan",
+      "Thyroid function tests",
+      "Chest X-ray",
+      "Brain MRI",
+      "Lumbar puncture"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "CT head is indicated if there are focal neurological signs, new confusion, or suspicion of space-occupying lesion. This patient has cognitive impairment (MMSE 22) which could be due to depression (pseudodementia) or an organic cause, but TFTs are a more essential first step for the depression itself.",
+      "Correct. Thyroid dysfunction (especially hypothyroidism) is a critical differential for depression in older adults. Hypothyroidism can present with depression, cognitive slowing, fatigue, and weight changes — all present here. Older adults have higher rates of thyroid dysfunction. Before starting antidepressants, TFTs should be checked to: (1) exclude organic cause, (2) identify untreated hypothyroidism which would require replacement therapy and may improve mood itself, (3) ensure safe prescribing (lithium monitoring later if needed). NICE depression guidelines recommend ruling out physical causes before diagnosis.",
+      "Chest X-ray is not routinely indicated unless respiratory symptoms or suspected malignancy.",
+      "MRI is not first-line for depression without focal signs, though it may be considered in first-episode late-life depression to exclude vascular depression (white matter hyperintensities). TFTs take priority.",
+      "Lumbar puncture is not indicated unless encephalitis or CNS infection is suspected (fever, seizures, acute confusion)."
+    ],
+    "teaching_point": "Late-life depression: essential investigations before treatment — FBC, U&E, TFTs (most important for differential), LFTs, B12/folate, vitamin D, calcium. Hypothyroidism is a common and treatable cause of depressive symptoms in older adults. Also consider: vascular depression (white matter hyperintensities on MRI), medication-induced (beta-blockers, steroids, calcium channel blockers), B12 deficiency. The MRCPsych exam frequently tests the organic differential of late-life depression.",
+    "domain": "general_adult",
+    "subdomain": "Depression — Investigations in Late-Life",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["general adult", "late-life depression", "TFT", "hypothyroidism", "differential diagnosis"],
+    "source": "Baldwin & Wild 2004 (Oxford Textbook); NICE NG222 (2022)"
+  },
+  {
+    "stem": "A 38-year-old woman with a diagnosis of dissociative identity disorder (DID) reports switching between three different personality states during clinic appointments. The 'child' alter is distressed and crying, the 'protector' alter is angry and threatening, and the 'host' alter is apologetic. Which of the following is the most evidence-based therapeutic approach?",
+    "options": [
+      "Trauma-focused CBT to address the underlying traumatic memories",
+      "A phased, integrated approach emphasising stabilisation, processing of traumatic memories, and identity integration, following the ESTD/ISSTD guidelines",
+      "Psychodynamic psychotherapy focusing on defence mechanisms",
+      "Hypnotherapy to directly access alters and facilitate fusion",
+      "Family therapy to address systemic factors maintaining dissociation"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "TF-CBT is not recommended as a standalone treatment for DID without thorough stabilisation first. Direct trauma processing without stabilisation can destabilise patients severely (increased dissociation, self-harm, hospitalisation).",
+      "Correct. The ISSTD (International Society for the Study of Trauma and Dissociation) treatment guidelines for DID recommend a three-phase approach: Phase 1 — Safety, stabilisation, symptom reduction, skill building (grounding, affect regulation, relational safety). Phase 2 — Processing of traumatic memories (once patient is sufficiently stable). Phase 3 — Identity integration and rehabilitation. This is the most evidence-supported framework for DID treatment. Direct trauma processing before stabilisation is contraindicated.",
+      "Psychodynamic therapy may be helpful but the three-phase trauma-informed approach is the evidence-based standard. Pure psychodynamic work without phase 1 stabilisation is insufficient.",
+      "Hypnotherapy has a role as an adjunct (for ego strengthening, stabilisation) but is NOT a standalone treatment. Direct fusion of alters through hypnosis is not recommended and may be destabilising.",
+      "Family therapy may be adjunctive but is not the primary evidence-based treatment for DID."
+    ],
+    "teaching_point": "DID treatment guidelines (ISSTD 2011): Three-phase approach is evidence-based standard. Phase 1 — Stabilisation: safety, symptom management, grounding techniques, affect regulation, relationship building, psychoeducation. Phase 2 — Trauma processing: gradual exposure to traumatic memories using TF-CBT or EMDR components adapted for DID. Phase 3 — Integration: reducing dissociative barriers between alters, facilitating identity fusion/co-consciousness, rehabilitation. Key principle: GO SLOW — premature trauma processing leads to destabilisation. The guideline emphasises that the therapeutic relationship is the most important factor in phase 1. MRCPsych: know the three-phase approach and the danger of premature trauma processing.",
+    "domain": "general_adult",
+    "subdomain": "Dissociative Disorders — DID Treatment",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["general adult", "DID", "dissociative identity", "trauma", "stabilisation"],
+    "source": "ISSTD Treatment Guidelines 2011; Brand et al 2009 (Psychol Trauma)"
+  },
+  {
+    "stem": "A 29-year-old man with schizophrenia maintained on olanzapine 15mg daily for 6 months presents with 4kg weight gain. His baseline weight was 75kg. BMI increased from 24 to 26. Fasting glucose is 6.1 mmol/L. Which of the following is the most appropriate next step?",
+    "options": [
+      "Continue olanzapine and start metformin",
+      "Switch to clozapine",
+      "Switch to aripiprazole or lurasidone to minimise metabolic side effects",
+      "Stop all antipsychotics and monitor",
+      "Add orlistat for weight management"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Metformin may be used for antipsychotic-induced weight gain/metabolic changes but switching to a metabolically favourable antipsychotic is the more appropriate first step for significant weight gain and pre-diabetic glucose (6.1 mmol/L is impaired fasting glucose).",
+      "Clozapine has the highest metabolic risk of all antipsychotics (significant weight gain, diabetes, metabolic syndrome) and would be an inappropriate switch here.",
+      "Correct. Aripiprazole and lurasidone have the most favourable metabolic profiles among antipsychotics. This patient has significant weight gain (4kg in 6 months) and impaired fasting glucose (6.1 mmol/L — pre-diabetic range, normal < 5.6, IFG 5.6-6.9). The Maudsley Prescribing Guidelines recommend switching to a low-metabolic-risk antipsychotic (aripiprazole, lurasidone, amisulpride, haloperidol) when significant metabolic side effects occur. Olanzapine has one of the highest risks of weight gain and metabolic syndrome. NICE CG178 recommends offering switching to an antipsychotic with lower metabolic risk if the patient develops metabolic side effects.",
+      "Stopping all antipsychotics risks relapse of schizophrenia. Antipsychotic discontinuation has a high relapse rate (~80% at 2 years).",
+      "Orlistat may help with weight loss but does not address the impaired fasting glucose and does not treat the underlying metabolic risk associated with olanzapine."
+    ],
+    "teaching_point": "Antipsychotic metabolic risk hierarchy (highest → lowest): Clozapine, Olanzapine > Quetiapine, Risperidone, Paliperidone > Haloperidol, Amisulpride > Aripiprazole, Lurasidone, Ziprasidone, Asenapine. Monitoring: baseline weight, BMI, waist circumference, BP, FPG (or HbA1c), lipids; repeated at 12 weeks, then annually. Weight gain ≥ 7% of baseline or new metabolic abnormalities → consider switching. Maudsley Guidelines: switching to aripiprazole is a well-studied strategy for olanzapine-induced weight gain. Metformin is a second-line adjunct for weight/metabolic management.",
+    "domain": "general_adult",
+    "subdomain": "Schizophrenia — Antipsychotic Metabolic Side Effects",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["general adult", "antipsychotic", "metabolic", "olanzapine", "aripiprazole", "weight gain"],
+    "source": "Maudsley Prescribing Guidelines 14th ed; NICE CG178 (2014)"
+  },
+  {
+    "stem": "A 40-year-old woman with fibromyalgia, chronic fatigue syndrome, and somatoform disorder has been extensively investigated by multiple specialists with no organic findings. She presents frequently to the emergency department with various somatic complaints. Which of the following is the most effective management strategy?",
+    "options": [
+      "Reassure her that nothing is wrong and refer back to her GP",
+      "Set up regular scheduled appointments with a consistent healthcare provider and avoid unnecessary investigations, using a graded activity programme and CBT",
+      "Prescribe high-dose benzodiazepines to reduce anxiety about symptoms",
+      "Admit her for full investigation of each new symptom",
+      "Confront her with the diagnosis of somatisation and refer for psychoanalysis"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Minimising the patient's experience ('nothing is wrong') is dismissive and damages the therapeutic relationship. She IS experiencing symptoms — the goal is to manage them without unnecessary medical intervention.",
+      "Correct. NICE guidance for medically unexplained symptoms (CG53, replaced by NG12 but principles remain) recommends: (1) A consistent, regular healthcare provider; (2) Avoiding repeated investigations once organic pathology has been reasonably excluded; (3) Acknowledging symptoms as real while shifting focus from 'cure' to management; (4) CBT specifically tailored for medically unexplained symptoms; (5) Graded activity/exercise programmes; (6) Antidepressants may help associated pain/sleep. The key is consistency, avoiding iatrogenic harm, and providing a coherent explanation that links stress and physical symptoms.",
+      "Benzodiazepines are not recommended — risk of dependence, misuse, and they do not address the underlying somatoform process.",
+      "Admission and repeated investigations reinforce illness behaviour, are costly, and expose the patient to iatrogenic risks.",
+      "Confrontation is not therapeutic and damages rapport. Psychoanalysis is not first-line. CBT has the strongest evidence base for somatoform disorders."
+    ],
+    "teaching_point": "Somatoform disorders: NICE recommends a stepped care approach. Avoid 'doctor shopping' by designating a single consistent clinician. Use the 'reassurance plus explanation' model: validate symptoms, explain the mind-body connection (e.g., 'anxiety amplifies pain signals'), shift goal from cure to functioning. CBT for somatoform disorders has the strongest evidence (improves functioning, reduces healthcare utilisation). Antidepressants may help comorbid pain. MRCPsych: know that unnecessary investigations reinforce illness behaviour. The key is to stop the investigation cascade.",
+    "domain": "general_adult",
+    "subdomain": "Somatoform Disorders — Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["general adult", "somatoform", "medically unexplained symptoms", "CBT", "NICE"],
+    "source": "NICE guidelines; Sharpe et al 2011 (Lancet)"
+  }
+]

@@ -1,0 +1,489 @@
+[
+  {
+    "stem": "An 80-year-old woman in a care home develops acute confusion over 24 hours. She is disoriented, drowsy, and has fluctuating attention. She has a urinary tract infection. Which screening tool is most appropriate for initial assessment?",
+    "options": [
+      "MMSE",
+      "CAM (Confusion Assessment Method) or 4AT",
+      "ACE-III",
+      "MOCA",
+      "CDR"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "MMSE is a cognitive screening test but not specifically designed for delirium; it may not capture the fluctuating attention and consciousness characteristics of delirium.",
+      "Correct. The Confusion Assessment Method (CAM) or the 4AT (4 A's Test) are the recommended screening tools for delirium. CAM has 4 features: (1) acute onset/fluctuating course, (2) inattention, (3) disorganised thinking, (4) altered consciousness. The 4AT (Bellelli et al 2014) includes: Alertness, AMT4, Attention, Acute change. NICE CG103 recommends CAM or 4AT for delirium screening. This patient's symptoms are classic for delirium: acute onset, fluctuating cognition, and a predisposing factor (UTI in an older care home resident).",
+      "ACE-III assesses cognition (domains of attention, memory, fluency, language, visuospatial) and is not a delirium-specific screening tool.",
+      "MOCA is one of the most sensitive tools for detecting MCI and dementia, but is not specific for delirium.",
+      "CDR (Clinical Dementia Rating) is a staging tool for dementia severity, not for acute delirium detection."
+    ],
+    "teaching_point": "Delirium screening: NICE CG103 recommends CAM (sensitivity 94%, specificity 89%) or 4AT (sensitivity 89%, specific 84%) for initial assessment. Delirium is common in older hospitalised patients (up to 30% on medical wards) and is associated with increased mortality, length of stay, and cognitive decline. Key features: acute onset, fluctuating, inattention, altered consciousness (hyperactive, hypoactive, or mixed). The mnemonic: PINCH ME (Pain, Infection, Nutrition, Constipation, Hydration, Medication, Environment). MRCPsych: delirium screening tools and the hypoactive vs hyperactive distinction are frequently tested.",
+    "domain": "old_age",
+    "subdomain": "Delirium — Screening Tools",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "delirium",
+      "CAM",
+      "4AT",
+      "screening"
+    ],
+    "source": "NICE CG103 (2010); Bellelli et al 2014 (Age Ageing)"
+  },
+  {
+    "stem": "A 72-year-old man with a 5-year history of cognitive decline and a diagnosis of Alzheimer's disease (MMSE 18) has been on donepezil 10mg for 3 years. His MMSE has declined from 22 to 18 over the past year. His family ask if the medication is still working. What is the most appropriate advice?",
+    "options": [
+      "Stop donepezil — it is no longer effective",
+      "Increase donepezil to 15mg daily",
+      "Switch to memantine",
+      "Explain that donepezil provides modest symptomatic benefit and the rate of decline may be slower than without treatment; NICE recommends continuing treatment as long as there is evidence of benefit (consider stopping if the person or carer feels there is no benefit, or if MMSE has declined below 10-12 points)",
+      "Add rivastigmine patch"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Stopping donepezil may cause accelerated cognitive decline. Some decline is expected in progressive Alzheimer's disease even with treatment. The DOMINO-AD trial (Howard et al 2012, Lancet) showed that discontinuation of donepezil in moderate Alzheimer's (MMSE 5-13) was associated with worse cognitive and functional outcomes over 12 months compared to continuation.",
+      "Donepezil 10mg is the maximum licensed dose. Increasing further is not recommended.",
+      "Memantine is an option for moderate-severe Alzheimer's (NICE TA217 recommends it as an option for those who cannot take AChEIs or as combination therapy). Switching directly from donepezil without discussion with specialist is not standard.",
+      "Correct. NICE TA217 (2018) recommends donepezil as first-line for mild-moderate Alzheimer's. It should be continued as long as the person is deriving benefit. The DOMINO-AD trial demonstrated that discontinuation leads to worse outcomes. NICE advises reviewing at 6-12 months: continue if there is evidence of benefit. Discontinuation should be considered only when MMSE falls below 10-12 or if there is no perceived benefit. The rate of decline in treated patients may still be slower than untreated decline.",
+      "Rivastigmine is an alternative AChEI (licensed for Alzheimer's and Parkinson's dementia). Adding it to donepezil is not recommended due to cholinergic excess."
+    ],
+    "teaching_point": "AChEI discontinuation dilemma: The DOMINO-AD trial (Howard et al 2012, Lancet n=295) randomised patients with moderate Alzheimer's (MMSE 5-13) to: (1) continue donepezil, (2) discontinue donepezil, (3) start memantine, (4) combine donepezil+memantine. KEY FINDING: Continuing donepezil provided significant cognitive and functional benefits over 12 months compared to discontinuation. Adding memantine to donepezil provided additional benefit. Conclusion: AChEIs should generally be continued even in moderate disease. MRCPsych: the DOMINO-AD trial is a landmark study that appears in critical appraisal questions.",
+    "domain": "old_age",
+    "subdomain": "Dementia — AChEI Continuation (DOMINO-AD)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "Alzheimer's",
+      "donepezil",
+      "DOMINO-AD",
+      "discontinuation"
+    ],
+    "source": "Howard et al 2012 (DOMINO-AD, Lancet); NICE TA217 (2018)"
+  },
+  {
+    "stem": "A 68-year-old woman with a history of recurrent severe depression (5 episodes) presents with depressed mood, anhedonia, psychomotor retardation, guilt, and weight loss for 8 weeks. She failed sertraline and citalopram in adequate doses. She is now on venlafaxine 225mg with minimal response after 10 weeks. MMSE 28/30. Which is the next most appropriate step?",
+    "options": [
+      "Switch to mirtazapine",
+      "Augment venlafaxine with lithium",
+      "Refer for ECT",
+      "Augment with aripiprazole or consider ECT — she meets criteria for treatment-resistant depression in an older adult with high relapse risk",
+      "Add phenelzine"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Mirtazapine is an alternative but this patient has already failed 3 antidepressants. Augmentation or ECT is more appropriate for treatment resistance.",
+      "Lithium augmentation is evidence-based for TRD but in older adults, renal function must be checked. Lithium augmentation has good evidence in older adults but carries renal risk.",
+      "ECT is effective for late-life TRD, especially with psychomotor retardation and guilt (as here). However, augmentation with antipsychotic is also evidence-based and less invasive.",
+      "Correct. This patient has treatment-resistant late-life depression (failed 3 adequate trials). Options: (1) Augment with aripiprazole (2.5-10mg) or quetiapine (50-150mg) — has evidence in older adults. (2) Lithium augmentation (requires renal and TFT monitoring). (3) ECT is highly effective for late-life depression (response rate 70-80%) and is underutilised. Given the severity (psychomotor retardation, guilt, weight loss) and history of multiple episodes, ECT should be actively considered. NICE NG222 recommends ECT for severe, life-threatening depression and when other treatments have failed.",
+      "MAOIs are third/fourth-line — more risk in older adults."
+    ],
+    "teaching_point": "Late-life treatment-resistant depression: Evidence-based options: (1) Antipsychotic augmentation (aripiprazole, quetiapine) — both have RCT evidence. (2) Lithium augmentation — meta-analyses show efficacy but requires monitoring. (3) ECT — particularly effective in late-life depression with psychotic features or psychomotor retardation. Response rates 70-80% in older adults. NICE NG222 recommends ECT for severe depression requiring rapid response or when other treatments have failed. MRCPsych: ECT in older adults is underrecognised as a highly effective treatment.",
+    "domain": "old_age",
+    "subdomain": "Depression — Treatment-Resistant in Older Adults",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "depression",
+      "treatment-resistant",
+      "ECT",
+      "augmentation",
+      "late-life"
+    ],
+    "source": "NICE NG222 (2022); UK ECT Review Group 2003 (Lancet)"
+  },
+  {
+    "stem": "A 70-year-old man with Parkinson's disease develops visual hallucinations of small animals (mice, rabbits) running across the floor. He has preserved insight and is not distressed. He is on levodopa/carbidopa 100/25mg TDS. He has no cognitive impairment (MMSE 28). What is the most appropriate management?",
+    "options": [
+      "Start risperidone 0.5mg daily",
+      "Reassure the patient and carer, monitor — if hallucinations are non-distressing with preserved insight, no treatment is needed. Only consider reduction of dopaminergic medication (in consultation with neurology) if they become distressing.",
+      "Immediately stop levodopa",
+      "Start olanzapine 2.5mg daily",
+      "Start clozapine 12.5mg daily"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Risperidone can worsen Parkinsonism due to D2 blockade and should be avoided in Parkinson's disease.",
+      "Correct. Benign hallucinations with preserved insight in Parkinson's disease do NOT require treatment. They are common (up to 40% of patients) and may be a side effect of dopaminergic medication. Management: (1) Reassure patient and family — explain these are medication-related, not signs of 'going mad'. (2) Check for infection, metabolic disturbance, sleep deprivation. (3) If hallucinations become distressing or accompanied by loss of insight: reduce dopaminergic medication (gradually, in consultation with neurology). (4) If antipsychotic is needed: clozapine (first-line, no motor side effects) or quetiapine (second-line).",
+      "Stopping levodopa abruptly can cause neuroleptic malignant-like syndrome (parkinsonism-hyperpyrexia syndrome) — life-threatening. Any reduction must be gradual.",
+      "Olanzapine has significant D2 blockade and can worsen Parkinsonism — avoid.",
+      "Clozapine is the antipsychotic of choice for Parkinson's disease psychosis but only if treatment is needed and the hallucinations are distressing. Starting prophylactically for mild, non-distressing hallucinations is inappropriate given the monitoring requirements (FBC weekly for 18 weeks)."
+    ],
+    "teaching_point": "Parkinson's disease psychosis (PDP): Hallucinations are common and often benign initially. Management algorithm: Step 1 — Exclude medical causes. Step 2 — If mild and non-distressing: observe. Step 3 — Reduce dopaminergic medication (coordinate with neurology). Step 4 — If treatment needed: clozapine (first-line, requires FBC monitoring) or pimavanserin (USA, not NICE approved). Do NOT use: risperidone, olanzapine, haloperidol, aripiprazole (worsen motor symptoms). MRCPsych: the 'no treatment needed for benign hallucinations' rule is commonly tested.",
+    "domain": "old_age",
+    "subdomain": "Parkinson's Disease — Benign Hallucinations",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "Parkinson's",
+      "hallucinations",
+      "psychosis",
+      "levodopa",
+      "clozapine"
+    ],
+    "source": "Maundley Prescribing Guidelines 14th ed; Weintraub et al 2016 (Nat Rev Neurol)"
+  },
+  {
+    "stem": "A 75-year-old woman with a history of hypertension and ischaemic heart disease presents with 12-month history of progressive cognitive decline. The pattern is notable: she has significant frontal lobe deficits (disinhibition, apathy, poor insight) with relative sparing of memory. She has a history of stepwise deterioration. CT head shows extensive white matter changes and lacunar infarcts. Which is the most likely diagnosis?",
+    "options": [
+      "Alzheimer's disease",
+      "Vascular dementia (subcortical ischaemic)",
+      "Frontotemporal dementia",
+      "Dementia with Lewy bodies",
+      "Normal pressure hydrocephalus"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Alzheimer's typically presents with early and prominent episodic memory impairment, not the frontal/executive pattern seen here. Vascular dementia typically has executive dysfunction with relative memory sparing.",
+      "Correct. Subcortical ischaemic vascular dementia (SIVD): risk factors (hypertension, IHD), stepwise deterioration, frontal/executive deficits (apathy, disinhibition, poor insight) more prominent than memory, CT/MRI showing extensive white matter changes and lacunar infarcts. The Hachinski Ischaemic Score helps differentiate from Alzheimer's: features include abrupt onset, stepwise deterioration, fluctuating course, history of strokes, focal neurological symptoms. NICE NG97 distinguishes VaD from Alzheimer's by the pattern — executive dysfunction > memory loss, plus vascular risk factors and imaging findings.",
+      "FTD typically presents earlier (<65), with prominent behavioural change (disinhibition, apathy, loss of empathy, stereotypical behaviour) and language deficits. Memory is relatively preserved. However, the stepwise deterioration, vascular risk factors, and CT findings point to vascular dementia.",
+      "DLB has core features: visual hallucinations, fluctuating cognition, Parkinsonism, REM sleep behaviour disorder. This patient has none of these.",
+      "NPH presents with the triad: gait apraxia, urinary incontinence, dementia. Not described here."
+    ],
+    "teaching_point": "Vascular dementia subtypes: (1) Multi-infarct (cortical) — multiple strokes, stepwise decline. (2) Strategic infarct dementia — single infarct in a critical location (thalamus, angular gyrus). (3) Subcortical ischaemic (SIVD) — white matter ischaemia and lacunar infarcts, executive dysfunction more prominent than memory. (4) Mixed dementia (VaD + Alzheimer's) — most common. The Hachinski Ischaemic Score (≥7 = likely VaD) includes: abrupt onset, stepwise deterioration, fluctuating course, nocturnal confusion, relative preservation of personality, depression, somatic complaints, emotional incontinence, history of hypertension/stroke, focal neurological symptoms/signs. MRCPsych: the Hachinski score and VaD subtypes are tested.",
+    "domain": "old_age",
+    "subdomain": "Dementia — Vascular Dementia Subtypes",
+    "difficulty": "medium",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "vascular dementia",
+      "subcortical",
+      "Hachinski",
+      "white matter changes"
+    ],
+    "source": "NICE NG97 (2018); Roman et al 2002 (Lancet Neurol)"
+  },
+  {
+    "stem": "A 65-year-old woman with no prior psychiatric history presents with a 3-month history of low mood, poor sleep, loss of appetite, and concentration difficulties following the death of her husband 6 months ago. She reports intense yearning, preoccupation with thoughts of her husband, and feels a part of herself has died. Her symptoms cause marked distress and functional impairment. She avoids reminders of her husband but also feels guilty when she does not think of him. What is the most appropriate diagnosis?",
+    "options": [
+      "Major depressive disorder",
+      "Prolonged grief disorder (complicated grief)",
+      "Adjustment disorder",
+      "Post-traumatic stress disorder",
+      "Normal bereavement"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "MDD in bereavement is characterised by pervasive depressed mood, anhedonia, guilt about things other than the deceased, and worthlessness. This patient's symptoms centre specifically on grief — yearning, preoccupation with the deceased, identity disruption ('part of me has died'), and avoidance with guilt about not thinking of the deceased. These are more characteristic of PGD.",
+      "Correct. DSM-5-TR and ICD-11 both recognise Prolonged Grief Disorder (PGD). Criteria (ICD-11): (1) Persistent and pervasive grief response (yearning, preoccupation with the deceased), (2) Accompanied by symptoms such as identity disruption, marked disbelief, avoidance of reminders, intense emotional pain, difficulty reintegrating, emotional numbness, feeling life is meaningless, intense loneliness, (3) Persisting ≥ 6 months (12 months in DSM-5-TR), (4) Causing functional impairment. This patient passes the time threshold (6 months post-loss), has the core features of yearning and preoccupation, avoidance, and functional impairment. Treatment: grief-focused CBT or IPT. Complicated grief treatment (CGT, Shear et al) has the strongest evidence.",
+      "Adjustment disorder symptoms are milder and time-limited (within 6 months of stressor). This patient's symptoms are severe and persistent beyond typical adjustment.",
+      "PTSD requires a traumatic event involving actual/threatened death/serious injury. Bereavement from natural causes is not typically a Criterion A trauma.",
+      "Normal bereavement includes waves of sadness, preoccupation with the deceased, and some functional impairment — but these gradually improve over 6-12 months. This patient's symptoms are severe, persistent, and causing marked functional impairment at 6 months."
+    ],
+    "teaching_point": "Prolonged Grief Disorder: DSM-5-TR criteria require persistent grief ≥ 12 months; ICD-11 requires ≥ 6 months. Core features: yearning/longing, preoccupation with the deceased, identity disruption, disbelief, avoidance, emotional pain. Differentiate from: MDD (guilt not grief-focused, anhedonia broader), PTSD (traumatic event required), normal grief (gradual improvement). Treatment: CGT (12-16 sessions) combines CBT and IPT elements — meta-analyses show large effects. In the MRCPsych exam, the key differentiator is the nature of the emotional focus: on the loss itself vs general mood disturbance.",
+    "domain": "general_adult",
+    "subdomain": "Prolonged Grief Disorder",
+    "difficulty": "medium",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "prolonged grief",
+      "complicated grief",
+      "bereavement",
+      "ICD-11"
+    ],
+    "source": "DSM-5-TR; ICD-11; Shear et al 2014 (JAMA)"
+  },
+  {
+    "stem": "An 8-year-old girl with a diagnosis of autism spectrum disorder (ASD) presents with severe irritability, aggressive outbursts, and self-injurious behaviour (head banging). Non-pharmacological interventions (behavioural support, environmental adaptations) have been insufficient. Which medication has the strongest evidence for this clinical presentation?",
+    "options": [
+      "Methylphenidate",
+      "Risperidone",
+      "Fluoxetine",
+      "Melatonin",
+      "Carbamazepine"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Methylphenidate is for ADHD symptoms, not for irritability/aggression in ASD.",
+      "Correct. NICE CG128 (2013, updated 2021) recommends risperidone as the first-line pharmacological treatment for severe irritability and challenging behaviour in ASD when non-pharmacological interventions have failed. Aripiprazole is an alternative second-line option. Both are licensed in the UK for this indication in children and adolescents. Risperidone (0.5-3mg daily) has shown efficacy in reducing irritability, aggression, and self-injurious behaviour in several RCTs (e.g., RUPP Autism Network 2002). Monitoring: weight, metabolic parameters, EPS. Duration: review after 6-12 weeks; if effective, continue with regular monitoring.",
+      "Fluoxetine (SSRI) is used for co-morbid anxiety, depression, or OCD in ASD, not for irritability/aggression.",
+      "Melatonin is for sleep disturbance, not for challenging behaviour.",
+      "Carbamazepine is not indicated for ASD-related irritability. Antiepileptics have limited evidence for agitation in ASD."
+    ],
+    "teaching_point": "Medication for challenging behaviour in ASD (NICE CG128): First-line: risperidone (0.5-3mg daily). Second-line: aripiprazole. Both have RCT evidence for reducing irritability, aggression, and self-injury. Duration: start low, go slow, review at 6-12 weeks. If effective, continue (with 3-6 monthly review). If ineffective, taper and discontinue. Monitoring: weight, height, BMI, waist circumference (every 3 months for first year), fasting glucose and lipids (baseline, 12 weeks, then annually), EPS (AIMS scale). MRCPsych: risperidone is the first-line medication for irritability/aggression in ASD — this is tested regularly.",
+    "domain": "child_adolescent",
+    "subdomain": "ASD — Challenging Behaviour Pharmacotherapy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "autism",
+      "challenging behaviour",
+      "risperidone",
+      "irritability"
+    ],
+    "source": "NICE CG128 (2013, updated 2021); RUPP Autism Network 2002 (NEJM)"
+  },
+  {
+    "stem": "A 10-year-old boy is referred with a 2-month history of sudden-onset motor tics (eye blinking, head jerking) and vocal tics (throat clearing, grunting). He also exhibits echolalia and coprolalia. Symptoms have been present for 8 weeks and are causing significant distress and peer problems. He has no ADHD symptoms or OCD. What is the most appropriate first-line treatment?",
+    "options": [
+      "Haloperidol",
+      "Clonidine — as first-line if tics are moderate-severe and causing functional impairment",
+      "Risperidone",
+      "Behavioural therapy (Habit Reversal Therapy, Comprehensive Behavioural Intervention for Tics — CBIT) with clonidine as pharmacological adjunct if needed",
+      "No treatment — tics always resolve spontaneously"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Haloperidol is effective for tics but has high side effect burden (EPS, sedation, TD). NICE NG170 (2019) recommends it only if other options fail.",
+      "Clonidine is effective for tics and is the recommended first-line pharmacological option. However, NICE NG170 recommends psychological therapy FIRST.",
+      "Risperidone is effective but is a second-line pharmacological option after clonidine or guanfacine.",
+      "Correct. NICE NG170 (2019) Tics/Tourette syndrome treatment algorithm: (1) Pscyhoeducation and monitoring (mild tics). (2) If moderate-severe and causing functional impairment: offer a behavioural therapy — Habit Reversal Therapy (HRT) and Comprehensive Behavioural Intervention for Tics (CBIT) are the recommended first-line psychological treatments. CBIT combines HRT with relaxation training and functional intervention. (3) If behavioural therapy is unavailable, declined, or ineffective: clonidine (first-line pharmacological) or guanfacine. (4) Second-line: risperidone, aripiprazole. (5) Third-line: haloperidol.",
+      "Tics DO NOT always resolve spontaneously. While many improve by late adolescence, some persist. Treatment is indicated when tics cause functional impairment."
+    ],
+    "teaching_point": "Tourette syndrome and tic management (NICE NG170 2019): Step 1 — Psychoeducation, monitor. Step 2 — HRT/CBIT (first-line for moderate-severe tics). Step 3 — Clonidine or guanfacine (first-line pharmacological). Step 4 — Antipsychotics (risperidone, aripiprazole, haloperidol). Habit Reversal Therapy: awareness training, competing response training, motivation, relaxation, generalisation. CBIT meta-analyses show large effect sizes (d = 0.6-0.8). MRCPsych: the shift from antipsychotics to clonidine/behavioural therapy as first-line is a recent change.",
+    "domain": "child_adolescent",
+    "subcategory": "Tourette Syndrome — Treatment",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "Tourette",
+      "tics",
+      "CBIT",
+      "clonidine",
+      "NICE NG170"
+    ],
+    "source": "NICE NG170 (2019); Piacentini et al 2010 (JAMA)"
+  },
+  {
+    "stem": "A 12-year-old girl with moderate learning disability and global developmental delay presents with new-onset repetitive hand-washing and reassurance-seeking behaviour that has developed over the past 3 months. She has no prior psychiatric history. Her parents report she seems distressed by 'bad thoughts'. Which of the following is the most appropriate first step?",
+    "options": [
+      "Start fluoxetine 10mg daily for presumed OCD",
+      "Refer for CBT adapted for her developmental level",
+      "Arrange comprehensive assessment to differentiate OCD, ASD-related rigidity, and LD-related behavioural phenotype — and consider whether the symptoms meet diagnostic criteria for OCD in the context of LD",
+      "Start risperidone for behavioural symptoms",
+      "Prescribe melatonin for sleep and review in 4 weeks"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Starting SSRI without thorough diagnostic assessment is premature. In LD, differentiating OCD from ASD-related rigidity, stereotypies, and other repetitive behaviours requires specialist assessment.",
+      "CBT may be appropriate after diagnosis but is not the first step — diagnostic clarification is needed first.",
+      "Correct. In children with LD, differentiating OCD from other repetitive behaviours (ASD stereotypies, rigidity, tics, LD-specific behavioural phenotypes) requires specialist assessment. Key considerations: (1) OCD requires the presence of obsessions and/or compulsions that are time-consuming and cause distress. In LD, the child may not be able to articulate obsessions. (2) ASD-related rigidity and rituals are typically ego-syntonic (not resisted), whereas OCD behaviours are ego-dystonic (resisted). (3) Rely on observable distress when the behaviour is interrupted and the function of the behaviour. (4) The NICE guideline for OCD (CG31) states: consider the developmental level when diagnosing OCD in children and young people. The assessment should involve parents/carers and school, and may need adapted communication methods.",
+      "Risperidone may reduce behavioural symptoms but does not treat the underlying condition and is not first-line without a clear diagnosis.",
+      "Sleep management is secondary to diagnostic assessment."
+    ],
+    "teaching_point": "Diagnosing OCD in children with LD: Key challenges — (1) Children with LD may not have the language to describe obsessions. (2) Repetitive behaviours may be ASD-related (stereotypies, routines) rather than compulsive. (3) Distress when routines are interrupted can occur in both ASD and OCD. (4) The assessment should include: collateral history (parents, school, carers), observation in multiple settings, Age-appropriate and developmentally-adapted communication. NICE CG31 recommends: 'When assessing OCD in children and young people with LD, consider the developmental level and use developmentally appropriate assessment methods.' The differential includes: ASD, tic disorders, LD-related behavioural phenotypes (e.g., Prader-Willi, Smith-Magenis), and generalised anxiety.",
+    "domain": "child_adolescent",
+    "subdomain": "OCD in Learning Disability — Diagnostic Challenges",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "OCD",
+      "learning disability",
+      "ASD",
+      "differential diagnosis"
+    ],
+    "source": "NICE CG31 (2005); Russell et al 2013 (J Intellect Disabil Res)"
+  },
+  {
+    "stem": "A 15-year-old girl presents with a 6-week history of depressed mood, anhedonia, social withdrawal, poor concentration, and new-onset self-harm (cutting). She has lost 3kg, and her sleep is poor. She has expressed hopelessness and said 'my family would be better off without me'. She denies current suicidal intent. What is the most appropriate immediate management?",
+    "options": [
+      "Start fluoxetine 10mg daily",
+      "Offer CBT for depression as an outpatient",
+      "Comprehensive risk assessment, develop a safety plan, refer to CAMHS for urgent assessment including consideration of psychological therapy and/or fluoxetine, and involve parents/carers",
+      "Admit to paediatric ward under Section 2",
+      "Start sertraline 25mg"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Starting fluoxetine is an option but requires comprehensive assessment first. Medication alone without psychosocial management is insufficient.",
+      "CBT is recommended for moderate-severe adolescent depression but requires a comprehensive risk assessment first, given the suicidal ideation and self-harm.",
+      "Correct. NICE NG134 (2019) for adolescent depression with moderate-severe symptoms and self-harm: (1) Comprehensive psychosocial and risk assessment (including suicide risk assessment — intent, plan, means, protective factors). (2) Safety plan (co-produced coping strategies, support network, emergency contacts). (3) Involve parents/carers. (4) Treatment: CBT or IPT first-line psychological therapy; if unavailable or declined, fluoxetine (the only SSRI recommended for under-18s). (5) Fluoxetine should never be prescribed without concurrent psychological therapy. (6) If significant risk, consider crisis/home treatment team involvement.",
+      "Section 2 requires evidence that admission is necessary for assessment/treatment AND the patient is at risk of harm to self. This patient denies current suicidal intent. MHA detention is only if she refuses medically indicated admission and meets criteria.",
+      "Sertraline is NOT recommended for under-18s due to increased risk of suicidal ideation (FDA black box warning). Only fluoxetine is recommended."
+    ],
+    "teaching_point": "NICE NG134 (2019) adolescent depression: Step 1 — Assessment (risk, family, school, social). Step 2 — Psychoeducation and active monitoring (mild). Step 3 — Moderate-severe: high-intensity psychological therapy (CBT, IPT) OR fluoxetine + concurrent psychological therapy. Fluoxetine is the ONLY SSRI recommended for under-18s. Other SSRIs (sertraline, citalopram, paroxetine, venlafaxine) are associated with increased suicidal ideation/behaviour in adolescents and should NOT be prescribed. Duration: fluoxetine treatment should continue for 6 months after remission to prevent relapse.",
+    "domain": "child_adolescent",
+    "subdomain": "Depression — Adolescent Assessment and Treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "depression",
+      "fluoxetine",
+      "self-harm",
+      "safety plan",
+      "NICE NG134"
+    ],
+    "source": "NICE NG134 (2019); March et al 2004 (TADS study, JAMA)"
+  },
+  {
+    "stem": "A 35-year-old man on methadone maintenance therapy (60mg daily) reports persistent opioid cravings and continues to use heroin approximately 2 times per week. Urine drug screen is positive for opiates. What is the most appropriate next step?",
+    "options": [
+      "Discharge from the clinic due to continued use",
+      "Increase methadone dose gradually — optimal methadone doses for maintenance are typically 60-120mg daily, and inadequate dosing is the most common reason for continued illicit use",
+      "Switch to buprenorphine",
+      "Add naltrexone to reduce craving",
+      "Refer for inpatient detoxification"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Discharge is inappropriate — continued use indicates the treatment needs optimisation, not that the patient should be excluded. Harm reduction principles guide OAT.",
+      "Correct. Methadone maintenance: NICE guidance and the 'Orange Book' (Drug misuse and dependence: UK guidelines on clinical management) recommend: (1) Methadone 60-120mg daily is the effective maintenance range for most patients. (2) Doses < 60mg are associated with higher rates of continued illicit opioid use. (3) If the patient is still using, the first step is to gradually increase the dose (by 5-10mg every few days) after ensuring cardiac safety (ECG for QTc prolongation with doses > 100mg). (4) Effective methadone doses block opioid cravings and the euphoric effects of additional heroin. (5) If dose is optimised (80-120mg) and the patient still uses, consider supervised consumption, increased psychosocial support, or switching to buprenorphine.",
+      "Switching to buprenorphine is an option but the first step is to optimise the current methadone dose. Buprenorphine has a ceiling effect at higher doses.",
+      "Naltrexone is for relapse prevention after detoxification, not for maintenance alongside ongoing use.",
+      "Inpatient detox may be appropriate if the patient is engaged in treatment and wants abstinence, but the patient is currently on maintenance — their treatment plan should be reviewed and optimised first."
+    ],
+    "teaching_point": "Opioid Agonist Treatment (OAT) optimisation: The 'Orange Book' (2017) and NICE CG52 recommend: Methadone 60-120mg is the effective range. Inadequate dosing is the most common reason for continued illicit use. Factors to check: (1) Is the dose adequate? (2) Is the patient using other substances (benzodiazepines, cocaine)? (3) Are there psychosocial factors? (4) Is there diversion of takeaways? Adjustment: increase gradually (5-10mg every 3-7 days) with cardiac monitoring (QTc) at doses > 100mg. MRCPsych: adequate methadone dosing is a commonly tested topic.",
+    "domain": "substance_misuse",
+    "subdomain": "Opioid Maintenance — Methadone Dose Optimisation",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "methadone",
+      "OAT",
+      "maintenance",
+      "dose",
+      "orange book"
+    ],
+    "source": "NICE CG52 (2007); Drug misuse and dependence: UK guidelines (2017)"
+  },
+  {
+    "stem": "A 24-year-old man presents with confusion, agitation, sweating, and tremor 12 hours after his last drink of alcohol. He has a history of daily heavy drinking (40 units/day) with previous detoxifications. Observations: HR 110, BP 155/95, temperature 37.5°C. He is orientated in person but not in time or place. His CIWA-Ar score is 22. Which management strategy has the strongest evidence in this scenario?",
+    "options": [
+      "Chlordiazepoxide PRN (10-20mg hourly based on symptom triggers)",
+      "Fixed-dose chlordiazepoxide reducing regime (e.g., 30mg QDS reducing over 7 days), thiamine IV, and monitoring using CIWA-Ar",
+      "Haloperidol 5mg IM for agitation",
+      "Diazepam 10mg IV and refer to medical take",
+      "Carbamazepine 200mg TDS"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "PRN benzodiazepines are less effective than fixed-dose regimes for preventing seizures and delirium tremens. Fixed-dose regimes provide more consistent cover.",
+      "Correct. For moderate-severe alcohol withdrawal (CIWA-Ar > 15), NICE CG100 recommends: (1) Fixed-dose chlordiazepoxide reducing regime (30mg QDS day 1, reducing by 5-10mg daily over 5-7 days). (2) IV Pabrinex (high-dose thiamine) for prevention/treatment of Wernicke's encephalopathy. (3) Regular monitoring (CIWA-Ar every 4 hours initially). A fixed-dose regime is superior to symptom-triggered (PRN) in patients with previous complicated withdrawal (this patient has previous detoxifications, so risk of seizure/DT is higher). The monitoring should detect escalating symptoms early.",
+      "Antipsychotics should be avoided in alcohol withdrawal — lower seizure threshold and do not treat the GABA-deficiency pathophysiology.",
+      "IV diazepam and medical referral is for severe DT or if oral chlordiazepoxide cannot be administered.",
+      "Carbamazepine is not first-line in UK practice for alcohol withdrawal."
+    ],
+    "teaching_point": "Alcohol withdrawal management (NICE CG100): Fixed-dose regime (chlordiazepoxide 30mg QDS reducing over 5-7 days) is standard for moderate-severe withdrawal. Symptom-triggered (CIWA-Ar > 15 → dose) is an alternative but requires high staffing. Risk factors for severe withdrawal/DT: previous DT, previous withdrawal seizures, multiple detoxifications, high alcohol consumption, older age, concurrent medical illness. CIWA-Ar: assesses nausea/vomiting, tremor, sweating, anxiety, agitation, tactile/auditory/visual disturbances, headache, orientation. Score > 15 indicates severe withdrawal; > 20 indicates risk of DT. MRCPsych: CIWA-Ar and fixed-dose vs symptom-triggered regimes are tested.",
+    "domain": "substance_misuse",
+    "subdomian": "Alcohol — Withdrawal Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "alcohol withdrawal",
+      "CIWA-Ar",
+      "chlordiazepoxide",
+      "detoxification"
+    ],
+    "source": "NICE CG100 (2011); Drug misuse and dependence: UK guidelines (2017)"
+  },
+  {
+    "stem": "A 28-year-old man is brought to the emergency department by ambulance after taking an unknown quantity of 'mephedrone' (4-MMC) at a party. He is agitated, confused, tachycardic (HR 140), hypertensive (BP 175/95), hyperthermic (38.8°C), and has a rigid posture. He appears to be responding to internal stimuli. What is the most appropriate immediate management?",
+    "options": [
+      "Haloperidol 5mg IM",
+      "Cooling, IV fluids, benzodiazepines (IV lorazepam/diazepam) for agitation and hyperthermia — avoid antipsychotics due to increased risk of seizures and QTc prolongation with stimulant toxicity",
+      "Activated charcoal and flumazenil",
+      "Propranolol for tachycardia",
+      "Urgent haemodialysis"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Antipsychotics (haloperidol) can lower seizure threshold, prolong QTc, and impair thermoregulation in stimulant toxicity. They should be AVOIDED in acute stimulant toxicity.",
+      "Correct. Synthetic cathinones (mephedrone/4-MMC) and other stimulant drugs produce a toxidrome of: agitation, tachycardia, hypertension, hyperthermia, rigidity, and psychosis. Management: (1) Cooling for hyperthermia (cold IV fluids, ice packs, fans). (2) IV fluids for dehydration. (3) Benzodiazepines (IV lorazepam 2-4mg or diazepem 10-20mg) as first-line for agitation and to reduce autonomic hyperactivity and prevent seizures. (4) Monitor for: rhabdomyolysis (CK), renal failure, DIC, electrolyte imbalances. (5) AVOID antipsychotics (especially haloperidol) due to increased risk of seizures, QTc prolongation, and hyperthermia worsening.",
+      "Activated charcoal is not indicated if > 1 hour post-ingestion or with uncontrolled agitation/confusion. Flumazenil is for benzodiazepine overdose, not stimulants.",
+      "Beta-blockers (propranolol) are contraindicated in stimulant toxicity due to unopposed alpha-adrenergic activity leading to paradoxical worsening of hypertension.",
+      "Haemodialysis is not effective for synthetic cathinones."
+    ],
+    "teaching_point": "Synthetic cathinone (Mephedrone/NPS) toxicity: Serotonergic and adrenergic stimulant effects. Management algorithm: (1) ABC, (2) Cooling and IV fluids, (3) Benzodiazepines for agitation, (4) Avoid antipsychotics (especially typicals). For severe hyperthermia (> 40°C) with rigidity, consider dantrolene (as in serotonin syndrome/NMS). Risk of hyponatraemia (from MDMA-like ADH release) — check Na+. MRCPsych: NPS management is increasingly tested. The key point: benzodiazepines, not antipsychotics, are first-line for stimulant-induced agitation.",
+    "domain": "substance_misuse",
+    "subdomain": "NPS/Stimulant Toxicity — Management",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "NPS",
+      "mephedrone",
+      "stimulant",
+      "toxicity",
+      "benzodiazepine"
+    ],
+    "source": "TOXBASE; National Poisons Information Service; Maskell et al 2011 (QJM)"
+  },
+  {
+    "stem": "A 32-year-old woman who is 16 weeks pregnant presents to the substance misuse service. She has a history of opioid dependence and is currently using street heroin daily (approximately 0.5g/day IV). She has had two previous miscarriages. She wants to stop using for the pregnancy. What is the most appropriate management?",
+    "options": [
+      "Advise her to stop immediately — withdrawal is safer than maintenance in pregnancy",
+      "Prescribe methadone (starting 10-20mg daily with gradual titration) with daily supervised consumption, multidisciplinary care (obstetric, addiction, social services), and monitoring for neonatal abstinence syndrome",
+      "Prescribe buprenorphine 2mg stat and discharge",
+      "Refer for urgent inpatient detoxification",
+      "Start naltrexone for relapse prevention"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Abrupt withdrawal in pregnancy can cause fetal distress, uterine contractions, and miscarriage/stillbirth. Gradual detoxification or maintenance is preferred.",
+      "Correct. Management of opioid dependence in pregnancy (NICE CG110, 2010; 'Orange Book' 2017): (1) Methadone or buprenorphine maintenance is recommended. (2) Methadone is the first-line option — start low (10-20mg), titrate gradually to a stable dose (typically 40-60mg for pregnancy). (3) Daily supervised consumption is recommended. (4) Multidisciplinary care: obstetrician, addiction psychiatrist, midwife, social worker (safeguarding assessment). (5) The aim is to stabilise the mother's drug use, improve obstetric outcomes, and engage with antenatal care. (6) Plan for neonatal abstinence syndrome (NAS) monitoring after delivery — methadone-exposed infants require observation for 5-7 days.",
+      "Buprenorphine is an alternative (with evidence of less NAS) but starting dose should be > 2mg. Discharge without multidisciplinary follow-up is inappropriate.",
+      "Inpatient detox is not recommended in pregnancy unless there are compelling obstetric indications and the risk of continued use outweighs the risk of withdrawal. The environment of addiction services is not suitable for routine detox.",
+      "Naltrexone is contraindicated in pregnancy (animal data suggests fetal harm) and requires full detoxification before starting — not appropriate in this scenario."
+    ],
+    "teaching_point": "Opioid use disorder in pregnancy (NICE CG110, 'Orange Book'): Methadone is first-line for maintenance in pregnancy. Starting doses: 10-20mg daily, titrated by 5-10mg every 2-3 days. Monitoring: twice-weekly urine drug screens. Buprenorphine is an alternative (associated with milder but still significant NAS). Delivery: methadone-exposed infants should have NAS monitoring using Finnegan or ESCAPE scores. NAS presentation: tremors, irritability, high-pitched cry, poor feeding, vomiting/diarrhoea, temperature instability. Treatment: morphine or methadone for NAS. MRCPsych: methadone in pregnancy is a common exam topic.",
+    "domain": "substance_misuse",
+    "subdomain": "Opioid Use in Pregnancy — Maintenance",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "pregnancy",
+      "methadone",
+      "opioid",
+      "NAS",
+      "breastfeeding"
+    ],
+    "source": "NICE CG110 (2010); Drug misuse and dependence: UK guidelines (2017)"
+  },
+  {
+    "stem": "A 42-year-old man with a 20-year history of cannabis use reports daily use (3-4 joints/day) for relaxation and sleep. He wants to stop because he feels 'foggy' during the day. He reports irritability, poor sleep, and intense cannabis cravings. He has no other substance misuse. Which intervention has the strongest evidence for cannabis cessation?",
+    "options": [
+      "CB1 receptor antagonist in development",
+      "CBT and motivational interviewing as a combination psychosocial intervention — no pharmacotherapy has proven efficacy for cannabis dependence",
+      "Dronabinol or nabilone substitution",
+      "Acamprosate",
+      "Varenicline"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "CB1 antagonists (rimonabant) were withdrawn due to psychiatric side effects and none are currently available.",
+      "Correct. Treatment for cannabis dependence (NICE CG51): (1) The mainstay is psychosocial interventions: CBT combined with motivational interviewing (MET + CBT) and contingency management. (2) No pharmacotherapy has sufficient evidence for cannabis use disorder. (3) Withdrawal symptoms (irritability, sleep disturbance, cravings, anxiety, depressed mood) peak at 2-6 days and last 1-3 weeks. (4) Supportive psychosocial interventions during this period are recommended. (5) Sleep hygiene advice. Poor outcome predictors: early age of onset, daily use, comorbid mental health problems, high severity of dependence.",
+      "Cannabinoid replacement therapy (nabilone) has been studied in small trials with mixed results and is not approved or recommended for cannabis dependence.",
+      "Acamprosate is for alcohol dependence, not cannabis.",
+      "Varenicline is for tobacco smoking cessation, not cannabis."
+    ],
+    "teaching_point": "Cannabis dependence treatment: No approved pharmacotherapy. Psychosocial interventions are the mainstay: MET + CBT shows modest effects (Marijuana Treatment Project — MTP, Copeland et al 2001). Contingency management (vouchers for negative UDS) has evidence for improving abstinence but limited durability. Withdrawal: support, sleep hygiene, manage cravings. The rate of cannabis dependence among users is ~9% (younger onset ~17%). Severe cannabis withdrawal is now recognised in DSM-5 (Cannabis Withdrawal Disorder). MRCPsych: the absence of evidence-based pharmacotherapy for cannabis dependence is tested.",
+    "domain": "substance_misuse",
+    "subdomain": "Cannabis Dependence — Treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "cannabis",
+      "dependence",
+      "CBT",
+      "motivational interviewing"
+    ],
+    "source": "NICE CG51 (2007); Copeland et al 2001 (MTP study)"
+  }
+]

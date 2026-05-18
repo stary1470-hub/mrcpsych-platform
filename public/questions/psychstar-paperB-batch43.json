@@ -1,0 +1,419 @@
+[
+  {
+    "stem": "A 30-year-old man with a diagnosis of paranoid schizophrenia is charged with assault occasioning actual bodily harm (ABH) after attacking a neighbour whom he believed was a government agent plotting to kill him. At the time of the offence, he was acutely psychotic with persecutory delusions and had not taken his antipsychotic medication for 3 months. Which legal defence is most likely to be relevant?",
+    "options": [
+      "Automatism",
+      "Insanity (M'Naghten Rules)",
+      "Diminished responsibility",
+      "Unfitness to plead",
+      "Duress"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Automatism requires a total loss of voluntary control due to an external cause (e.g., head injury, hypoglycaemia). Psychosis does not constitute automatism.",
+      "Correct. The M'Naghten Rules (1843) provide the legal test for insanity: '...that at the time of committing the act, the party accused was labouring under such a defect of reason, from disease of the mind, as not to know the nature and quality of the act he was doing, or if he did know it, that he did not know he was doing what was wrong.' This patient: (1) Has a disease of the mind (schizophrenia), (2) Was acutely psychotic (defect of reason), (3) Believed he was defending himself (did not know the act was legally wrong). Under the M'Naghten Rules, he would likely be found not guilty by reason of insanity.",
+      "Diminished responsibility (s2 Homicide Act 1957) applies only to murder charges, not ABH.",
+      "Unfitness to plead (Criminal Procedure (Insanity) Act 1964) concerns the defendant's ability to understand the proceedings at the time of trial, not their mental state at the time of the offence.",
+      "Duress is a defence of compulsion (threats to self or others), not relevant here."
+    ],
+    "teaching_point": "M'Naghten Rules (1843): The 3-part test — (1) Disease of the mind (any mental disorder), (2) Defect of reason (impaired cognition/intellect), (3) Either: (a) didn't know the nature/quality of the act, OR (b) didn't know it was wrong. The burden of proof is on the defence (balance of probabilities). Outcome: 'special verdict' — not guilty by reason of insanity → hospital order (s37/41). MRCPsych: the M'Naghten Rules and the distinction from unfitness to plead and diminished responsibility are frequently tested.",
+    "domain": "forensic",
+    "subdomain": "Insanity Defence — M'Naghten Rules",
+    "difficulty": "hard",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "forensic",
+      "M'Naghten",
+      "insanity",
+      "criminal responsibility",
+      "schizophrenia"
+    ],
+    "source": "M'Naghten Rules 1843; R v M'Naghten"
+  },
+  {
+    "stem": "A 25-year-old man detained under Section 37 (Hospital Order) with Section 41 (Restriction Order) following a conviction for arson during a psychotic episode is approaching his first tribunal hearing. The Ministry of Justice (MoJ) must give consent for which of the following?",
+    "options": [
+      "Transfer to another ward within the same hospital",
+      "Ground leave within the hospital grounds",
+      "Transfer to a different secure unit and granting community leave beyond the hospital boundary",
+      "Taking prescribed medication",
+      "Receiving visitors"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Internal transfers within the same hospital do not require MoJ approval.",
+      "Ground leave within the hospital grounds is a clinical decision — MHA Code of Practice gives the RC responsibility for leave decisions, but for restricted patients, MoJ consent is needed for leave outside the hospital.",
+      "Correct. Section 41 (Restriction Order) places the patient under the supervision of the Ministry of Justice. MoJ consent is required for: (1) Transfer to another hospital, (2) Leave of absence from the hospital (including Section 17 leave beyond the boundary), (3) Discharge. The RC can manage internal leave (within the grounds) without MoJ consent. But any leave beyond the hospital perimeter requires MoJ approval. The tribunal can also direct conditions of discharge. The MoJ delegates operational decisions to the Mental Health Casework Section.",
+      "Medication decisions are clinical — MoJ does not control treatment.",
+      "Visitors are a clinical management decision."
+    ],
+    "teaching_point": "Section 41 Restriction Order: Imposed by the Crown Court (or higher) to protect the public from serious harm. MoJ consent required for: transfer, S17 leave outside hospital, discharge. Does NOT require consent for: internal transfers, ward transfers, medication decisions, internal leave within grounds. First-tier Tribunal (Mental Health) can hear restricted patients' appeals. The patient must be referred to the tribunal if they have not been heard in the first 6 months (automatic referral). MRCPsych: knowing MoJ restricted patient rules is a common forensic exam item.",
+    "domain": "forensic",
+    "subdomain": "Restricted Patients — Section 41",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "forensic",
+      "Section 41",
+      "restricted patient",
+      "Ministry of Justice",
+      "MHA"
+    ],
+    "source": "MHA 1983/2007; MHA Code of Practice 2015"
+  },
+  {
+    "stem": "A risk assessment for a 40-year-old man with schizophrenia and a history of violence uses the HCR-20 V3. Which of the following best describes what the HCR-20 assesses and how it should be used?",
+    "options": [
+      "A static actuarial tool that predicts the probability of violent recidivism over 5 years",
+      "A structured professional judgement (SPJ) tool assessing 20 items across Historical, Clinical, and Risk Management domains to formulate violence risk and develop management strategies",
+      "A self-report questionnaire measuring anger and hostility",
+      "An unstructured clinical judgement framework",
+      "A tool exclusively for sexual violence risk"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Static actuarial tools (like VRAG, Static-99) produce numerical probability estimates. HCR-20 is SPJ — it guides formulation but does NOT produce a numerical probability.",
+      "Correct. The HCR-20 V3 (Douglas et al 2013) is the most widely used SPJ tool for violence risk assessment. It has 20 items: 10 Historical (past), 5 Clinical (present), 5 Risk Management (future). The SPJ approach: (1) Rate each item on a 3-point scale (No/Partly/Yes). (2) Develop a case formulation (how do these factors interact for THIS individual?). (3) Develop scenario planning (what could happen, when, and under what circumstances?). (4) Articulate risk management strategies. KEY: HCR-20 does NOT produce a numeric prediction — it structures clinical judgement. NICE CG178 recommends SPJ approaches for violence risk assessment.",
+      "The HCR-20 is a clinician-rated tool, not self-report.",
+      "Unstructured clinical judgement has poor predictive validity compared to SPJ.",
+      "HCR-20 is for violence risk (not specifically sexual). Static-99 is for sexual recidivism."
+    ],
+    "teaching_point": "Risk assessment tools: Actuarial (VRAG, Static-99, OGRS) — produce statistical probabilities; Structured Professional Judgement (HCR-20, START, RSVP) — guide formulation and management without numeric probabilities. HCR-20 V3: Historical (violence, other antisocial, relationships, employment, substance use, major mental disoder, personality disorder, traumatic experiences, violent attitudes, treatment/supervision response); Clinical (insight, violent ideation/intent, instability of mental state, instability of treatment response); Risk Management (professional services/plans, living situation, personal support, treatment/supervision response, stress/coping). MRCPsych: the distinction between actuarial and SPJ tools is tested.",
+    "domain": "forensic",
+    "subdomain": "Risk Assessment — HCR-20 SPJ",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "forensic",
+      "HCR-20",
+      "risk assessment",
+      "SPJ",
+      "violence"
+    ],
+    "source": "Douglas et al 2013 (HCR-20 V3); NICE CG178 (2014)"
+  },
+  {
+    "stem": "A prison inmate with a history of self-harm and borderline personality disorder is referred following an act of ligaturing. He is on an Assessment, Care in Custody, and Teamwork (ACCT) plan. He remains at risk of further self-harm. Which of the following is the most appropriate management?",
+    "options": [
+      "Transfer to the segregation unit as a punishment",
+      "Continue ACCT plan with enhanced observations, multidisciplinary reviews every 24-72 hours, mental health input, and consider transfer to a healthcare wing if he cannot be safely managed",
+      "Start antipsychotics for emotional dysregulation",
+      "Discharge from prison mental health team as his presentation is behavioural",
+      "Use a no-suicide contract"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Segregation is not a therapeutic intervention and can increase suicide risk. The MHT must review patients in segregation daily.",
+      "Correct. ACCT (Assessment, Care in Custody, and Teamwork) is the prison service's self-harm/suicide prevention policy. Key features: (1) Initiated when a prisoner is identified as at risk. (2) A case manager coordinates the plan. (3) Prison observations (general observations, intermittent, or constant) depending on risk level. (4) MDT reviews (ACCT reviews) at set intervals (every 24-72 hours initially). (5) Mental health team involvement for assessment and treatment of underlying conditions. (6) If risk cannot be managed in the normal location, consider transfer to the healthcare wing or hospital (section 47/49). (7) Seclusion/special accommodation should only be used as a last resort.",
+      "Antipsychotics are not first-line for BPD and should not be used solely for emotional dysregulation.",
+      "The prison mental health team has a responsibility to see all prisoners at risk of self-harm regardless of diagnosis.",
+      "No-suicide contracts are NOT recommended — they have no evidence base and may provide false reassurance."
+    ],
+    "teaching_point": "Prison mental health and self-harm: ACCT (Assessment, Care in Custody, and Teamwork) — open when a prisoner is identified as at risk of self-harm/suicide. Process: (1) Trigger — staff member raises concern. (2) Case manager assigned. (3) ACCT plan developed. (4) Reviews at 24h, 72h, then weekly. (5) Termination only when risk has reduced. Mental health assessment: all prisoners on ACCT should have a mental health review. Transfers: if a prisoner requires hospital treatment, use s47/49 (transfer direction, Sentenced) or s48/49 (unsentenced). MRCPsych: the ACCT process and prison transfers are tested.",
+    "domain": "forensic",
+    "subdomain": "Prison Mental Health — ACCT Self-Harm",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "forensic",
+      "prison",
+      "ACCT",
+      "self-harm",
+      "suicide"
+    ],
+    "source": "ACCT policy (HM Prison Service); Bradley Report 2009"
+  },
+  {
+    "stem": "A 35-year-old woman with a diagnosis of paranoid schizophrenia is convicted of the manslaughter of her mother during a psychotic episode. She is sentenced to a Hospital Order with Restriction Order (Section 37/41). She has been stable in medium security for 3 years. What is the most appropriate step in her care pathway?",
+    "options": [
+      "Immediate discharge into the community",
+      "Referral to the First-tier Tribunal (Mental Health) to consider conditions of discharge, with a gradual rehabilitation pathway through conditions of medium security → low security → locked rehabilitation → community",
+      "Transfer back to prison to complete a sentence",
+      "Remain in medium security indefinitely",
+      "Discharge under Section 117 aftercare"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Even if clinically stable, restrictive patients cannot be discharged without MoJ consent or a Tribunal decision. A gradual step-down pathway is needed.",
+      "Correct. For restricted patients under s37/41, the care pathway follows a structured rehabilitation model: (1) Medium secure unit (MSU) → gatekeeping assessment. (2) Step down to Low Secure Unit (LSU) when risk reduces. (3) Further step down to locked rehabilitation or open rehabilitation in the community. (4) Conditional discharge by First-tier Tribunal (Mental Health) or MoJ. Conditions typically include: residence, compliance with medication, mental health team supervision, restrictions on travel/contact. The rehabilitation pathway is patient-centred, may take years, and is determined by risk formulation rather than time alone. Conditional discharge: the patient lives in the community under conditions — recallable by MoJ if conditions are breached or risk increases.",
+      "s37/41 replaces imprisonment — the patient is NOT transferred back to prison for the index offence.",
+      "Indefinite MSU care is not appropriate — patients should be stepped down in line with recovery.",
+      "s117 aftercare applies AFTER detention ends, not while the patient is still detained."
+    ],
+    "teaching_point": "Restricted patient rehabilitation pathway: High security (HSU) → Medium secure unit (MSU) → Low secure unit (LSU) → Locked rehabilitation → Community (conditional discharge). Conditional discharge: must be agreed by MoJ or Tribunal. Conditions: residence, treatment adherence, team supervision, travel restrictions. Breach: the patient can be recalled to hospital by the MoJ. s117 aftercare applies upon absolute discharge. The Bradley Report (2009) and the Five Year Forward View for Mental Health emphasise the need for clear forensic rehabilitation pathways. MRCPsych: the step-down pathway from secure care is a key forensic psychiatry concept.",
+    "domain": "forensic",
+    "subcategory": "Rehabilitation Pathway — Restricted Patients",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "forensic",
+      "Section 37/41",
+      "conditional discharge",
+      "rehabilitation",
+      "secure care"
+    ],
+    "source": "MHA 1983/2007; Bradley Report 2009"
+  },
+  {
+    "stem": "A 29-year-old woman with borderline personality disorder has been in Dialectical Behaviour Therapy (DBT) for 10 months. She has had frequent emotional crises, self-harm (cutting), and one near-lethal overdose during the therapy. She frequently calls her therapist between sessions. According to the DBT model, which of the following best describes how the therapist should respond to the near-lethal overdose?",
+    "options": [
+      "Terminate therapy — she is not ready for DBT",
+      "Analyse the overdose as therapy-interfering behaviour and conduct a behavioural chain analysis to understand what led to it, while maintaining the therapeutic frame",
+      "Increase medication to reduce impulsivity",
+      "Refer her to a higher level of care immediately",
+      "Ignore the overdose to avoid reinforcing the behaviour"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Termination is not recommended — DBT explicitly treats high-risk patients and expects crises. The therapy stance is to maintain the therapeutic relationship while addressing the behaviour.",
+      "Correct. In DBT (Linehan 1993), all behaviours (including self-harm) are analysed using behavioural chain analysis: (1) Identify the prompting event, (2) Identify vulnerabilities (emotional, physical, environmental), (3) Map the chain of thoughts, feelings, and behaviours leading to the act, (4) Identify consequences (short-term and long-term). Near-lethal overdose is addressed as: (a) Life-threatening behaviour (highest priority target), (b) Also a therapy-interfering behaviour. The therapist maintains the therapeutic frame, does not punish or withdraw, but also does not rescue. Additional sessions may be offered as part of the DBT 'crisis protocol'. The key: validate the emotion, analyse the behaviour, reinforce coping skills use.",
+      "Medication is not first-line for BPD and should only be used for comorbid conditions, not for crisis management within therapy.",
+      "Admission may be needed if risk is imminent and unmanageable but should be short and structured. DBT treats high-risk patients in the community whenever possible.",
+      "Ignoring self-harm is not a DBT strategy. DBT explicitly prioritises decreasing life-threatening behaviours first."
+    ],
+    "teaching_point": "DBT targets hierarchy: (1) Life-threatening behaviours (suicide, self-harm), (2) Therapy-interfering behaviours, (3) Quality-of-life interfering behaviours. Dialectical stance: acceptance (validation of the client's struggle) AND change (behavioural chain analysis, skill use). DBT has crisis protocols: patients can call between sessions for skills coaching (with limits). The near-lethal overdose is the TOP priority target. MRCPsych: DBT targets hierarchy and chain analysis are core psychotherapy knowledge.",
+    "domain": "psychotherapy",
+    "subdomain": "DBT — Targets Hierarchy and Chain Analysis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "psychotherapy",
+      "DBT",
+      "self-harm",
+      "chain analysis",
+      "target hierarchy"
+    ],
+    "source": "Linehan 1993 (Cognitive-Behavioral Treatment of BPD); NICE CG78 (2009)"
+  },
+  {
+    "stem": "A 45-year-old man with long-standing relationship difficulties, low self-esteem, and a tendency to idealise then devalue his partners presents for psychotherapy. He has no history of self-harm or psychosis. He struggles to engage in regular sessions, frequently arrives late, and has made critical comments about the therapist's competence. Which psychological therapy would be most appropriate?",
+    "options": [
+      "Trauma-focused CBT",
+      "Mentalisation-Based Treatment (MBT) or Transference-Focused Psychotherapy (TFP)",
+      "Supportive psychotherapy",
+      "Behavioural activation",
+      "Eye movement desensitisation and reprocessing (EMDR)"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "TF-CBT is for PTSD, not for personality-based relationship difficulties and pattern of idealisation/devaluation.",
+      "Correct. This patient presents with features of borderline personality organisation (BPD — idealisation/devaluation, identity disturbance, relationship instability). The two evidence-based psychotherapies with strongest evidence for BPD are: (1) Mentalisation-Based Treatment (MBT, Bateman & Fonagy) — focuses on improving the capacity to mentalise (understand one's own and others' mental states). (2) Transference-Focused Psychotherapy (TFP, Kernberg, Yeomans) — focuses on interpreting the splitting/non-integrated object relations that manifest in the transference relationship. MBT has the strongest evidence base (Day hospital RCT, RCTs in outpatient settings). TFP has shown efficacy comparable to DBT in some trials. The patient's criticism of the therapist and lateness can be understood as enactments of internal object relations (TFP) or failures of mentalisation (MBT).",
+      "Supportive psychotherapy is an option but has weaker evidence than MBT/TFP for BPD.",
+      "Behavioural activation is for depression, not BPD.",
+      "EMDR is for PTSD, not BPD."
+    ],
+    "teaching_point": "Evidence-based psychotherapies for BPD: (1) DBT (Linehan) — for self-harm/emotional dysregulation. (2) MBT (Bateman & Fonagy) — improves mentalisation; strongest evidence from systematic reviews. (3) TFP (Kernberg) — focuses on integration of split representations. (4) Schema therapy (Young) — evidence from ESTEEM trial. (5) CAT (Ryle) — limited evidence. NICE CG78 endorses DBT and MBT. MRCPsych: matching therapy type to patient presentation is a core psychotherapy exam skill.",
+    "domain": "psychotherapy",
+    "subdomain": "Personality Disorders — Matching Therapy",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "psychotherapy",
+      "BPD",
+      "MBT",
+      "TFP",
+      "DBT",
+      "mentalisation"
+    ],
+    "source": "Bateman & Fonagy 2010 (Am J Psychiatry); NICE CG78 (2009)"
+  },
+  {
+    "stem": "A 28-year-old woman with a history of childhood abuse presents with chronic low self-esteem, difficulty trusting others, and a pattern of entering abusive relationships. She feels 'empty' and has a 'vague sense of being lost'. She is interested in understanding how her past affects her present. Which of the following therapies is most specifically designed to focus on the integration of childhood attachment patterns with current relational functioning?",
+    "options": [
+      "Cognitive Behavioural Therapy (CBT)",
+      "Cognitive Analytic Therapy (CAT)",
+      "Dialectical Behaviour Therapy (DBT)",
+      "Mentalisation-Based Treatment (MBT)",
+      "Psychoanalytic psychotherapy"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "CBT focuses on current thoughts and behaviours — it does not specifically focus on integrating childhood patterns with present relationships.",
+      "Correct. Cognitive Analytic Therapy (CAT, Ryle 1990) is specifically designed to: (1) Identify 'reciprocal roles' — patterns of relating learned in childhood (e.g., the patient learned a 'victim-abuser' role pattern from childhood abuse). (2) Map these patterns as they play out in current relationships (including towards the therapist). (3) Use 'reformulation' — a written shared understanding of these patterns. (4) Develop 'exits' — alternative ways of responding to break the pattern. CAT is time-limited (typically 16-24 sessions) and uses a 'reformulation letter' and 'goodbye letter'. It integrates cognitive (patterns, procedures) with relational (reciprocal roles, transference) elements.",
+      "DBT focuses on emotional regulation and self-harm reduction through skill-building — not specifically on childhood attachment pattern integration. However, DBT addresses invalidating environments.",
+      "MBT focuses on improving mentalisation capacity rather than specific pattern reformulation.",
+      "Psychoanalytic therapy focuses on unconscious conflicts and transference but is less structured than CAT. CAT is specifically integrative."
+    ],
+    "teaching_point": "CAT (Ryle 1990): Integrates cognitive and psychodynamic approaches. Key features: (1) Reciprocal roles (internalised patterns of relating from early relationships). (2) Procedural sequences (Sequence of mental processes: how I see things → how I act → what happens). (3) Reformulation — a shared written narrative and diagram of patterns. (4) 'Exits' — identified alternative actions. (5) Termination focus — goodbye letter. Evidence: CAT has shown effectiveness for BPD, eating disorders, and complex trauma. MRCPsych: CAT's focus on reciprocal role patterns and reformulation is the unique feature.",
+    "domain": "psychotherapy",
+    "subdomain": "CAT — Reciprocal Roles and Reformulation",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehsion",
+    "paper": "B",
+    "tags": [
+      "psychotherapy",
+      "CAT",
+      "cognitive analytic therapy",
+      "reciprocal roles",
+      "reformulation"
+    ],
+    "source": "Ryle 1990 (CAT); Ryle & Kerr 2002 (Introducing CAT)"
+  },
+  {
+    "stem": "A 24-year-old woman with first-episode psychosis has been under a Care Programme Approach (CPA) following discharge from an early intervention in psychosis (EIP) team. She is now stable, in full-time employment, and has had no psychotic symptoms for 18 months. The EIP team is due to discharge her to primary care. Which of the following best describes the CPA requirements at discharge?",
+    "options": [
+      "No further follow-up is required if she is stable",
+      "A transfer of care meeting with the GP, sharing of the CPA care plan, and 3-month transition period with the EIP team — the CPA care plan must be reviewed and the patient held under S117 aftercare",
+      "Refer to social services only",
+      "Cancel the CPA immediately upon discharge",
+      "The patient moves to standard CPA without any further action"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Discharge from secondary care without a transition plan is inappropriate. The CPA requires a structured discharge process.",
+      "Correct. The CPA (Department of Health 2008, updated in mental health policy 2018) is the framework for mental health aftercare in England. When discharging a patient on CPA: (1) A transfer of care meeting must be arranged involving the patient, GP, and receiving services. (2) The CPA care plan should be shared with the GP. (3) A transition period of a few months allows gradual reduction of contact. (4) If the patient is under Section 117 aftercare, this continues even after discharge from the team and cannot be ended until the patient no longer needs it. (5) The CPA coordinator should identify a single point of access in primary care for urgent concerns. NICE CG178 on psychosis recommends EIP teams provide 3 years of follow-up, and transition to primary care should be gradual.",
+      "Social services alone is insufficient — the patient requires a coordinated transfer to primary care.",
+      "The CPA can be ended (stepped down) but through a structured review process, not abruptly.",
+      "Standard vs enhanced CPA: from 2008, the distinction was abolished — all CPA should be at an appropriate level, but the discharge process requires the same steps regardless."
+    ],
+    "teaching_point": "Care Programme Approach (CPA): Framework for mental health aftercare. Key components: (1) Systematic assessment, (2) Care plan, (3) Named CPA coordinator (key worker), (4) Regular reviews. s117 aftercare: legal duty on CCGs and Local Authorities to provide aftercare free of charge for patients detained under s3, s37, s47, s48. Aftercare cannot be terminated simply because the patient is stable — it continues until both the patient and the clinical team agree it is no longer needed (R v Manchester CC). MRCPsych: CPA and s117 aftercare are essential organisational knowledge.",
+    "domain": "organisation_delivery",
+    "subdomain": "CPA and S117 Aftercare",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "organisation",
+      "CPA",
+      "Section 117",
+      "aftercare",
+      "discharge"
+    ],
+    "source": "CPA policy (DH 2008); MHA Code of Practice 2015; NICE CG178 (2014)"
+  },
+  {
+    "stem": "A 38-year-old man with moderate depression is referred to IAPT (Improving Access to Psychological Therapies). He scores 14 on PHQ-9 and 12 on GAD-7. He has had symptoms for 6 months. He has not tried any treatment. Which IAPT stepped care step is most appropriate?",
+    "options": [
+      "Step 1 — watchful waiting",
+      "Step 2 — low-intensity psychological intervention (guided self-help, computerised CBT, or structured group programme)",
+      "Step 3 — high-intensity psychological therapy (CBT, IPT) or antidepressant medication",
+      "Step 4 — specialist mental health team (Crisis team or CMHT)",
+      "Step 0 — no treatment needed"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Watchful waiting is for mild depression (PHQ-9 ≤ 10) with symptoms present < 2-4 weeks. This patient has moderate scores (PHQ-14, GAD-12) and a 6-month history.",
+      "Correct. IAPT stepped care model: Step 1 — Assessment (already done), Step 2 — Low-intensity interventions for mild-moderate depression/anxiety: (a) Guided self-help (CBT-based self-help book with support from a Psychological Wellbeing Practitioner — PWP), (b) Computerised CBT (e.g., Beating the Blues, Silvercloud), (c) Structured group psychoeducation. (d) Brief behavioural activation. This patient has moderate symptoms (PHQ-14, GAD-12) with no prior treatment — Step 2 is appropriate. If he fails Step 2 or has more severe symptoms (PHQ > 19), he would move to Step 3 (high-intensity CBT/IPT).",
+      "Step 3 (± medication) is for patients who fail Step 2, or those with more severe symptoms. This patient has moderate, not severe, symptoms.",
+      "Step 4 is for patients at risk of harm to self/others or with complex needs — not appropriate here.",
+      "The patient is impaired (PHQ-14, GAD-12) and wants treatment."
+    ],
+    "teaching_point": "IAPT stepped care model: Step 1 — Assessment and signposting. Step 2 — Low-intensity (PWP-led): guided self-help, cCBT, group P-E (psychoeducation), behavioural activation — for mild-moderate depression/anxiety. Step 3 — High-intensity (therapist-led): CBT, IPT, counselling, EMDR, couples therapy — for moderate-severe or Step 2 failures. Step 4 — Specialist services: CMHT, crisis team, EIP — for complex/severe with risk. The IAPT programme aims to treat 50% of referrals within 6 weeks and 75% within 18 weeks. Recovery target: 50% of patients who complete treatment (PHQ-9 < 10 and GAD-7 < 8). MRCPsych: IAPT stepped care model is tested regularly.",
+    "domain": "organisation_delivery",
+    "subdomain": "IAPT Stepped Care Model",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "organisation",
+      "IAPT",
+      "stepped care",
+      "low-intensity",
+      "PWP"
+    ],
+    "source": "NICE depression guidelines; IAPT Manual (NHS England)"
+  },
+  {
+    "stem": "A 28-year-old man with moderate learning disability and autism lives in a supported living placement. He has developed severe challenging behaviour (aggression towards staff, property destruction) following a change in his support worker 2 weeks ago. He is not known to have any physical health problems. A functional assessment of the behaviour suggests it is maintained by escape from demands (negative reinforcement). What is the most appropriate first-line management approach?",
+    "options": [
+      "Start risperidone 0.5mg daily for aggression",
+      "Positive Behaviour Support (PBS) — develop a behaviour support plan based on the functional assessment, including environmental modifications, teaching alternative communication, and reactive strategies",
+      "Transfer him to an inpatient assessment and treatment unit",
+      "Increase staffing to physically restrain him as needed",
+      "Prescribe lorazepam PRN for agitation"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Medication is NOT first-line for challenging behaviour in LD. NICE NG11 (2015) recommends PBS as first-line. Antipsychotics should only be used if PBS fails AND there is severe aggression or risk.",
+      "Correct. Positive Behaviour Support (PBS) is the recommended first-line approach for challenging behaviour in LD (NICE NG11, 2015). PBS framework: (1) Functional assessment to understand the behaviour's purpose (here: escape from demands — negative reinforcement). (2) Proactive strategies: environmental modifications (reduce demand/change timing), teach alternative communication ('break' card), skill development. (3) Reactive strategies: de-escalation, 'low arousal' approaches. (4) Organisational/restorative: post-incident review, staff debrief. PBS evidence: multi-element PBS plans reduce challenging behaviour by 50-80% in controlled studies.",
+      "Inpatient admission should only be considered if the behaviour is severe, persistent, and cannot be managed in the community despite PBS implementation. The Building the Right Support (2015) policy aims to reduce inpatient admissions for people with LD.",
+      "Physical restraint is a reactive strategy, not a management plan. It should only be used as a last resort for immediate safety. The primary approach is proactive.",
+      "PRN medication for behaviour without a formulation is poor practice. It should only be used after PBS strategies and within a clear protocol."
+    ],
+    "teaching_point": "Positive Behaviour Support (PBS): NICE NG11 (2015) recommends PBS as the first-line approach for challenging behaviour in adults with LD. PBS is NOT just behaviour modification — it is a person-centred, values-based approach. Key components: (1) Functional assessment (ABC charts, structured interviews, observation), (2) Proactive strategies (antecedent modifications, skill teaching, environmental enrichment), (3) Reactive strategies (de-escalation, low arousal, post-incident support). Medication (risperidone) is only recommended if: (a) Challenging behaviour is severe and PBS has failed or is insufficient, (b) There is risk to self/others. MRCPsych: PBS is the first-line treatment for challenging behaviour in LD.",
+    "domain": "learning_disability",
+    "subdomain": "Challenging Behaviour — Positive Behaviour Support",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "learning disability",
+      "challenging behaviour",
+      "PBS",
+      "functional assessment",
+      "NICE NG11"
+    ],
+    "source": "NICE NG11 (2015); Gore et al 2013 (IJPN)"
+  },
+  {
+    "stem": "A 32-year-old woman with moderate learning disability presents with a 6-week history of social withdrawal, reduced appetite, tearfulness, and self-injurious behaviour. She is unable to verbally describe her mood. She lives with her parents who report she 'doesn't seem herself'. She has no known physical health problems. Which of the following is the most appropriate first step in assessment?",
+    "options": [
+      "Start an SSRI for presumed depression",
+      "Arrange a physical health review including blood tests (FBC, TFTs, B12, folate, vitamin D, U&Es) and an assessment using a validated mood screening tool adapted for LD (e.g., Glasgow Depression Scale for LD or the Mood, Interest and Pleasure Questionnaire)",
+      "Refer to behavioural support team for functional analysis",
+      "Refer for psychological therapy (CBT)",
+      "Admit to psychiatric assessment unit"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Starting medication without diagnostic assessment is not appropriate. In LD, diagnosing depression requires a systematic assessment approach.",
+      "Correct. Assessment of depression in people with LD: (1) Physical health review FIRST — people with LD have higher rates of physical health problems (epilepsy, thyroid, sensory impairment, pain) that can present with behavioural change. (2) Use a validated LD-specific mood screening tool: Glasgow Depression Scale for LD (GDS-LD), Mood Interest and Pleasure Questionnaire (MIPQ), or the Anxiety Depression and Mood Scale (ADAMS). (3) Collateral history from carers (using diagnostic criteria such as the DC-LD — Diagnostic Criteria for Psychiatric Disorders for LD). (4) Consider atypical presentations: behavioural change, aggression, agitation may substitute for verbal complaints of low mood. The rates of depression in LD are 3-4%, similar to the general population, but often under-diagnosed due to diagnostic overshadowing.",
+      "Behavioural support (PBS) is for challenging behaviour as a primary problem, not for mood disorder.",
+      "CBT may be helpful but a proper diagnostic assessment comes first.",
+      "Admission is not needed for a first assessment without immediate risk."
+    ],
+    "teaching_point": "Diagnosing depression in LD: DC-LD and the diagnostic manual for LD. Modified diagnostic criteria: (1) Core symptoms (may not be verbalised): irritability, tearfulness, social withdrawal, loss of interests, psychomotor change. (2) Diagnostic overshadowing: attributing behavioural changes to the LD itself rather than diagnosing a mental disorder. (3) Screening tools: GDS-LD (self-rating and carer-rated versions), MIPQ. (4) Physical health: MUST be done first — hypothyroidism, epilepsy, pain, sensory impairment can all cause behavioural change. MRCPsych: the approach to diagnosing depression in LD (including diagnostic overshadowing) is a common exam topic.",
+    "domain": "learning_disability",
+    "subdomain": "Diagnosing Depression in LD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "learning disability",
+      "depression",
+      "diagnostic overshadowing",
+      "DC-LD",
+      "GDS-LD"
+    ],
+    "source": "DC-LD (RCPsych 2001); NICE NG11 (2015)"
+  },
+  {
+    "stem": "A 55-year-old man with severe learning disability and epilepsy is referred for assessment of 'staring spells' that have been interpreted by carers as seizures. The spells occur during specific activities (mealtimes) and are not accompanied by convulsive movements. EEG (done when not during a spell) was normal. Which of the following is the most appropriate next step?",
+    "options": [
+      "Increase his antiepileptic medication",
+      "Arrange ambulatory EEG and video monitoring to differentiate epileptic seizures from non-epileptic events, and conduct functional assessment of the behaviour",
+      "Refer to emergency department immediately",
+      "Diagnose non-epileptic attack disorder and start psychotherapy",
+      "Prescribe benzodiazepines to abort the events"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Increasing antiepileptics without confirming epileptic origin risks medication side effects without benefit.",
+      "Correct. Staring spells in a person with LD and epilepsy could be: (1) Absence seizures (atypical presentations common in LD), (2) Complex partial seizures, (3) Non-epileptic events (behavioural, self-stimulatory, or dissociative). The assessment should: (a) Video monitoring/ambulatory EEG to capture the events (routine EEG may miss interictal abnormalities). (b) Functional assessment — what is the context? Are there reinforcers? For LD patients, challenging behaviour or stereotypies may mimic seizures. (c) Consider differentials: reflux pain, boredom, sensory seizures, behavioural stereotypies. (d) A joint neurology-LD psychiatry approach is optimal. NB: LD patients have high rates of epilepsy (20-40%) AND high rates of non-epileptic events — both can co-exist.",
+      "ED referral is not needed for stable staring spells without acute change.",
+      "Diagnosing NEAD (non-epileptic attack disorder) requires positive diagnostic criteria, not just exclusion of epilepsy. AND if confirmed, specialist psychological therapy (CBT for NEAD) is indicated, not standard psychotherapy.",
+      "PRN benzodiazepines are not indicated without a clear diagnosis."
+    ],
+    "teaching_point": "Differentiating epileptic from non-epileptic events in LD: Overlap — LD patients have both high seizure prevalence AND high rates of behavioural stereotypies, self-stimulatory behaviour, and challenging behaviour that may mimic seizures. Assessment: (1) Video telemetry/ambulatory EEG, (2) Functional analysis (ABC of the spells), (3) Collateral description from multiple informants. Epileptic: stereotyped, unrelated to environment, post-ictal confusion/ sleep. Non-epileptic: related to environment, emotionally triggered, suggestible, can be interrupted. MRCPsych: the diagnostic challenge of epilepsy vs non-epileptic events in LD patients is a classic exam item.",
+    "domain": "learning_disability",
+    "subdomain": "Epilepsy vs Non-Epileptic Events in LD",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "learning disability",
+      "epilepsy",
+      "NEAD",
+      "seizures",
+      "staring spells"
+    ],
+    "source": "Brandt et al 2015 (Dev Med Child Neurol)"
+  }
+]

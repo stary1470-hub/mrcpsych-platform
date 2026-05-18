@@ -1,0 +1,981 @@
+[
+  {
+    "stem": "A systematic review presents a forest plot comparing odds ratios (OR) for relapse in patients with schizophrenia receiving antipsychotic maintenance therapy versus placebo. The plot shows individual study ORs with 95% confidence intervals (CIs) and a pooled diamond at the bottom. Which statement best describes the interpretation of this forest plot?",
+    "options": [
+      "If the diamond lies entirely to the right of the line of no effect (OR=1), antipsychotic therapy significantly increases relapse risk",
+      "If the diamond lies entirely to the left of OR=1, the pooled effect is statistically significant at p<0.05",
+      "The width of the diamond represents the range of individual study ORs",
+      "The area of each square is proportional to the number of participants in that study",
+      "Horizontal lines crossing OR=1 always indicate a Type I error"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — if the diamond is to the right of OR=1, the intervention is associated with higher odds of the outcome (i.e. increased relapse). The question states 'antipsychotic maintenance therapy' — the correct direction would be reduced relapse (OR<1).",
+      "Correct. In a forest plot, the line of no effect (OR=1, or RR=1, or MD=0) represents no difference. If the pooled diamond does not cross this line, the result is statistically significant at the conventional alpha=0.05 level. The diamond shows the meta-analytic pooled estimate and its CI.",
+      "Incorrect — the diamond represents the pooled estimate (combined effect) and its confidence interval, not the range of individual study ORs.",
+      "Incorrect — the area of each square is proportional to the study's weight in the meta-analysis (inverse of variance), not simply number of participants.",
+      "Incorrect — CIs crossing the line of no effect indicate the result is not statistically significant, but this does not automatically imply a Type I error; it may reflect insufficient power or a true null effect."
+    ],
+    "teaching_point": "Forest plot interpretation: Each row = one study with OR/RR/MD and 95% CI. The size of the square reflects weight (inverse variance). The diamond at the bottom is the pooled estimate. If the diamond does not cross the line of no effect (vertical line at 1 for OR/RR, 0 for MD), the result is statistically significant (p<0.05). Heterogeneity is separately assessed (I², Q statistic). MRCPsych Paper B often presents a forest plot and asks candidates to interpret the pooled result, heterogeneity, or which study contributed most weight.",
+    "domain": "critical_review",
+    "subdomain": "Forest Plot Interpretation",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "forest plot",
+      "meta-analysis",
+      "odds ratio",
+      "systematic review"
+    ],
+    "source": "Higgins JPT, Cochrane Handbook; MRCPsych curriculum — Critical Review"
+  },
+  {
+    "stem": "The EQ-5D is a generic quality of life measure. Which statement about the EQ-5D is most accurate?",
+    "options": [
+      "It is a disease-specific instrument designed only for chronic pain conditions",
+      "It generates a single index value (utility score) that can be used to calculate Quality-Adjusted Life Years (QALYs)",
+      "It contains 5 domains each rated on a 10-point Likert scale",
+      "It is not suitable for health economic evaluations",
+      "The EQ-5D has no validated youth version"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — EQ-5D is a generic (not disease-specific) instrument applicable across all health conditions.",
+      "Correct. The EQ-5D has (a) a descriptive system: 5 dimensions (mobility, self-care, usual activities, pain/discomfort, anxiety/depression), each with 3 or 5 levels, and (b) a visual analogue scale (EQ-VAS). The responses generate a single utility index (e.g. 0=death, 1=perfect health) using country-specific value sets. These utilities are used to calculate QALYs for cost-utility analyses (NICE reference case).",
+      "Incorrect — the EQ-5D-3L uses a 3-level scale, and the EQ-5D-5L uses a 5-level scale for each domain, not a 10-point Likert scale.",
+      "Incorrect — EQ-5D is specifically designed for and widely used in health economic evaluations, including by NICE.",
+      "Incorrect — the EQ-5D-Y is a validated youth (adolescent) version."
+    ],
+    "teaching_point": "EQ-5D (EuroQol Group): Generic preference-based HRQoL measure. 5 dimensions: Mobility, Self-Care, Usual Activities, Pain/Discomfort, Anxiety/Depression. EQ-5D-3L (3 levels: no/some/extreme problems) and EQ-5D-5L (5 levels) versions. Utility weights derived from time trade-off (TTO) valuation studies. Used to generate QALYs for cost-utility analysis. NICE prefers EQ-5D as the measure of choice for health technology appraisal. Also: EQ-5D-Y for adolescents. MRCPsych candidates should know it's a generic, preference-based measure producing a single utility index.",
+    "domain": "critical_review",
+    "subdomain": "Quality of Life Measures — EQ-5D",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "EQ-5D",
+      "quality of life",
+      "QALY",
+      "health economics",
+      "outcome measures"
+    ],
+    "source": "EuroQol Group 1990; NICE Guide to the Methods of Technology Appraisal 2013; Devlin & Brooks 2017"
+  },
+  {
+    "stem": "In a test-retest reliability study of a new depression rating scale administered to 50 patients on two occasions 2 weeks apart, the intraclass correlation coefficient (ICC) is reported as 0.62. Which statement best interprets this ICC value?",
+    "options": [
+      "The scale has excellent test-retest reliability, as the ICC exceeds 0.5",
+      "There is 62% agreement between the two time points after accounting for chance agreement",
+      "The ICC of 0.62 indicates moderate reliability; 95% of the total variance is due to true differences between patients and 38% is due to measurement error",
+      "The ICC of 0.62 indicates that 62% of the observed variance is attributable to true between-subject differences, which is considered moderate reliability",
+      "The scale should be discarded because ICC values below 0.70 are unacceptable for any clinical use"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Incorrect — ICC < 0.5 indicates poor, 0.5–0.75 moderate, 0.75–0.9 good, >0.9 excellent. 0.62 is moderate, not excellent.",
+      "Incorrect — this describes Cohen's kappa (chance-corrected agreement), not ICC. ICC is based on variance components, not chance-agreement correction.",
+      "Incorrect — ICC is the ratio of between-subject variance to total variance. An ICC of 0.62 means 62% of total variance is true between-subject variance, NOT '95%'.",
+      "Correct. ICC = (between-subject variance) / (total variance = between-subject + within-subject error). ICC 0.62 means 62% of total variance = true between-subject differences; 38% = measurement error/within-subject variation. Interpretation: 0.5–0.75 = moderate reliability (Koo & Li 2016 guidelines).",
+      "Incorrect — while ICC ≥ 0.70 is often considered the minimum for group comparisons, scales with moderate reliability (0.5–0.75) may still be useful in clinical research depending on context, particularly for exploratory purposes."
+    ],
+    "teaching_point": "Intraclass Correlation Coefficient (ICC): measures test-retest or inter-rater reliability. ICC = (between-subject variance) / (total variance). Range 0–1. Interpretation guidelines (Koo & Li 2016): <0.50 = poor, 0.50–0.75 = moderate, 0.75–0.90 = good, >0.90 = excellent. ICC is sensitive to: (a) between-subject variability — larger between-subject variance inflates ICC even if absolute agreement is poor, (b) time interval — longer intervals reduce ICC (true change + measurement error), (c) ICC model choices: ICC(1,1), ICC(2,1), ICC(3,1) — consistency vs absolute agreement. MRCPsych candidate: distinguish ICC from kappa and Pearson's r.",
+    "domain": "critical_review",
+    "subdomain": "Test-Retest Reliability — ICC",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "ICC",
+      "test-retest reliability",
+      "measurement",
+      "statistics"
+    ],
+    "source": "Koo & Li 2016 (J Chiropr Med); Shrout & Fleiss 1979; McGraw & Wong 1996"
+  },
+  {
+    "stem": "A meta-analysis reports an odds ratio (OR) of 2.4 for the association between antidepressant use and a specific adverse outcome. The baseline risk in the unexposed group is 10%. Which of the following is the most accurate interpretation regarding conversion to risk ratio (RR)?",
+    "options": [
+      "The risk ratio will be smaller than the odds ratio when the outcome is common (>10% baseline risk)",
+      "The odds ratio and risk ratio are equivalent regardless of baseline risk",
+      "The risk ratio can be approximated as 2.4 ÷ (1 − 0.1) = 2.67",
+      "The risk ratio is always larger than the odds ratio when OR > 1",
+      "The odds ratio approximates the risk ratio only when the baseline risk is > 50%"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. When the outcome is common (e.g. >10% baseline risk), the odds ratio overestimates the risk ratio. The OR amplifies the apparent effect when events are frequent. Conversion: RR = OR / [(1 − P0) + (P0 × OR)], where P0 = baseline risk in unexposed. For P0 = 0.10, OR = 2.4: RR = 2.4 / [0.9 + (0.1 × 2.4)] = 2.4 / 1.14 = 2.11. So RR (2.11) < OR (2.4).",
+      "Incorrect — OR and RR are equivalent only when the outcome is rare (<5-10%). For common outcomes, OR diverges from RR.",
+      "Incorrect — the correct formula is RR = OR / [(1 − P0) + (P0 × OR)]. 2.4 ÷ (1 − 0.1) = 2.67 is not the correct conversion.",
+      "Incorrect — when OR > 1, the RR is actually SMALLER than the OR if the outcome is common. The OR 'inflates' the effect for common events.",
+      "Incorrect — the OR approximates the RR only when the outcome is RARE (<5-10%), not common (>50%)."
+    ],
+    "teaching_point": "Odds Ratio vs Risk Ratio: OR = (odds exposed)/(odds unexposed); RR = (risk exposed)/(risk unexposed). OR approximates RR when outcome is rare (<5-10%). For common outcomes (>10%), OR > RR (when OR > 1) or OR < RR (when OR < 1). Conversion formula: RR = OR / [(1 − P0) + (P0 × OR)]. Clinical relevance: meta-analyses of common outcomes (e.g. depression prevalence, treatment response >20%) should use RR or report both. MRCPsych candidates should know not to interpret OR as RR in common outcomes.",
+    "domain": "critical_review",
+    "subdomain": "Odds Ratio to Risk Ratio Conversion",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "odds ratio",
+      "risk ratio",
+      "meta-analysis",
+      "effect size",
+      "epidemiology"
+    ],
+    "source": "Zhang & Yu 1998 (JAMA); Cummings 2009; Schmidt & Kohlmann 2008"
+  },
+  {
+    "stem": "A critical appraisal of a randomised controlled trial (RCT) on cognitive behavioural therapy (CBT) for insomnia shows that 40% of patients in the CBT group and 35% in the control group dropped out before the 6-month follow-up. Which type of bias does this attrition pattern most likely introduce?",
+    "options": [
+      "Selection bias from inadequate randomisation",
+      "Performance bias due to lack of blinding of participants",
+      "Attrition bias, as differential dropout may distort the treatment effect estimate",
+      "Detection bias due to unblinded outcome assessment",
+      "Publication bias due to non-publication of negative trials"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — selection bias relates to how participants were allocated to groups. The question provides no information about adequacy of randomisation.",
+      "Incorrect — performance bias relates to differences in care provided apart from the intervention (e.g. due to lack of blinding). The issue here is differential dropout, not co-interventions.",
+      "Correct. Attrition bias arises when participants drop out differentially between groups (40% vs 35%) and when dropout is related to the outcome. Even small differential dropout can bias results. Intention-to-treat (ITT) analysis mitigates this but cannot fully correct for missing data mechanisms (MCAR, MAR, MNAR). The Cochrane Risk of Bias tool assesses attrition bias under 'incomplete outcome data'.",
+      "Incorrect — detection bias relates to how outcomes are measured (e.g. unblinded assessors). The described issue is about missing data from dropout.",
+      "Incorrect — publication bias is a reporting issue across studies (positive results published more than negative), not within a single RCT."
+    ],
+    "teaching_point": "Cochrane Risk of Bias domains: (1) Selection bias — random sequence generation, allocation concealment; (2) Performance bias — blinding of participants/personnel; (3) Detection bias — blinding of outcome assessment; (4) Attrition bias — incomplete outcome data; (5) Reporting bias — selective outcome reporting; (6) Other bias. Attrition bias: differential dropout >20% overall or >10% difference between groups is concerning. ITT analysis preserves randomisation but may dilute effect. MRCPsych critical appraisal: always check the CONSORT flow diagram for attrition.",
+    "domain": "critical_review",
+    "subdomain": "Risk of Bias — Attrition Bias",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "attrition bias",
+      "Cochrane RoB",
+      "RCT",
+      "dropout"
+    ],
+    "source": "Cochrane Handbook for Systematic Reviews of Interventions; CONSORT 2010; MRCPsych curriculum"
+  },
+  {
+    "stem": "Which statement about Cronbach's alpha is most accurate when evaluating internal consistency of a psychiatric rating scale?",
+    "options": [
+      "A Cronbach's alpha of 0.95 always indicates excellent internal consistency",
+      "Cronbach's alpha is a measure of test-retest reliability",
+      "Cronbach's alpha is the mean of all possible split-half reliability coefficients, corrected for test length",
+      "Cronbach's alpha should be interpreted independently of the number of items in the scale",
+      "A Cronbach's alpha below 0.70 automatically invalidates a scale for clinical use"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — very high alpha (>0.90) may indicate item redundancy (items measuring the same narrow content), not necessarily excellent internal consistency in a meaningful sense.",
+      "Incorrect — Cronbach's alpha measures internal consistency (inter-item correlation), not test-retest reliability (which uses ICC).",
+      "Correct. Cronbach's alpha = (k/(k-1)) × (1 - Σσ²_i / σ²_total), where k = number of items. It is mathematically equivalent to the average of all possible split-half coefficients (Spearman-Brown corrected). It reflects the degree to which items co-vary (interrelatedness).",
+      "Incorrect — alpha is sensitive to the number of items: scales with more items tend to have higher alpha, even if inter-item correlation is modest (a 'length effect').",
+      "Incorrect — while α ≥ 0.70 is a common threshold for group-level comparison, the acceptable alpha depends on the scale's purpose (research vs clinical decision-making) and number of items. Shorter scales may have lower alpha but still be useful."
+    ],
+    "teaching_point": "Cronbach's alpha: measures internal consistency (inter-item reliability). Range 0–1. Interpretation: α ≥ 0.9 = excellent, 0.8–0.9 = good, 0.7–0.8 = acceptable, 0.6–0.7 = questionable, <0.6 = poor (George & Mallery). Caveats: (a) alpha assumes tau-equivalence (equal factor loadings) — violation can underestimate reliability; (b) alpha is inflated by many items; (c) reporting inter-item correlations and omega coefficient is preferred for multidimensional scales. MRCPsych: distinguish internal consistency (Cronbach's alpha) from test-retest reliability (ICC) and inter-rater reliability (Cohen's kappa, ICC).",
+    "domain": "critical_review",
+    "subdomain": "Internal Consistency — Cronbach's Alpha",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "Cronbach's alpha",
+      "internal consistency",
+      "reliability",
+      "psychometrics"
+    ],
+    "source": "Cronbach 1951; Tavakol & Dennick 2011; George & Mallery 2016"
+  },
+  {
+    "stem": "A 34-year-old man with a diagnosis of catatonia is assessed. He exhibits waxy flexibility (catalepsy), posturing, and mutism. Which rating scale is most appropriate to assess the severity and monitor treatment response in this condition?",
+    "options": [
+      "PANSS (Positive and Negative Syndrome Scale)",
+      "Bush-Francis Catatonia Rating Scale (BFCRS)",
+      "Y-BOCS (Yale-Brown Obsessive Compulsive Scale)",
+      "MMSE (Mini-Mental State Examination)",
+      "AIMS (Abnormal Involuntary Movement Scale)"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — PANSS measures psychotic symptoms in schizophrenia, not specifically designed for catatonia.",
+      "Correct. The Bush-Francis Catatonia Rating Scale (BFCRS) is the most widely used standardised scale for catatonia. It includes 23 items (abbreviated 14-item version, BFCARS) covering motor signs (catalepsy, posturing, waxy flexibility, gegenhalten, mitgehen), behavioural signs (mutism, stupor, excitement, grimacing), and autonomic instability. The first 14 items can be used as a screening tool. A score of ≥ 2 on the screening items suggests catatonia.",
+      "Incorrect — Y-BOCS measures OCD symptom severity, not catatonia.",
+      "Incorrect — MMSE is a cognitive screening test for dementia/delirium.",
+      "Incorrect — AIMS is used to monitor tardive dyskinesia, not catatonia."
+    ],
+    "teaching_point": "Bush-Francis Catatonia Rating Scale (BFCRS): 23-item scale, each item rated 0–3 (absent/severe). The first 14 items form the Bush-Francis Catatonia Screening Instrument (BFCSI). Key signs: catalepsy/waxy flexibility (examined by examiner positioning the patient's limb), posturing, grimacing, mutism, negativism, gegenhalten, mitgehen, echopraxia/echolalia, stereotypy, excitement, stupor. DSM-5 catatonia diagnosis requires ≥ 3 of 12 features. First-line treatment: lorazepam (1–2 mg IV/IM/PO) ± ECT. MRCPsych: BFCRS is a key scale candidates should know.",
+    "domain": "general_adult",
+    "subdomain": "Catatonia — Bush-Francis Scale",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "catatonia",
+      "Bush-Francis scale",
+      "rating scale",
+      "catalepsy"
+    ],
+    "source": "Bush et al 1996 (Acta Psychiatr Scand); DSM-5; NICE CG178"
+  },
+  {
+    "stem": "A 22-year-old woman presents with intense fear of social situations, including speaking in meetings, eating in public, and attending parties. She avoids these situations entirely, causing marked distress and impairment in her work as a teacher. Symptoms have been present for 3 years. There is no history of panic attacks or agoraphobia. Which is the most appropriate first-line psychological therapy according to NICE?",
+    "options": [
+      "Psychodynamic psychotherapy",
+      "Cognitive behavioural therapy (CBT) based on the Clark and Wells model",
+      "Eye Movement Desensitisation and Reprocessing (EMDR)",
+      "Supportive counselling",
+      "Mindfulness-based stress reduction (MBSR)"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — there is insufficient evidence for psychodynamic therapy as first-line treatment for social phobia in NICE guidelines.",
+      "Correct. NICE CG159 (Social Anxiety Disorder) recommends: (a) For all adults with social anxiety disorder — offer individual CBT based on the Clark and Wells model (or Heimberg model). This is the first-line psychological treatment. (b) CBT typically includes: psychoeducation, cognitive restructuring (safety behaviours, self-focused attention, negative social beliefs), behavioural experiments, video feedback, and social skills training. Therapy duration: 14–16 sessions over 4 months. If CBT is declined or unavailable, offer group CBT or a supported self-help programme.",
+      "Incorrect — EMDR is indicated for PTSD, not social phobia.",
+      "Incorrect — supportive counselling is not recommended as first-line treatment for social anxiety disorder by NICE.",
+      "Incorrect — MBSR is not a NICE-recommended first-line treatment for social phobia (though it may help comorbid anxiety)."
+    ],
+    "teaching_point": "NICE CG159 (2013, updated 2020) — Social Anxiety Disorder treatment algorithm: Step 1: Recognition and assessment (using mini-SPIN or social phobia inventory). Step 2: Offer individual CBT (Clark & Wells or Heimberg model). Step 3: If CBT ineffective or declined — offer a group CBT or supported self-help (with CBT principles) or serotonergic antidepressants (sertraline or escitalopram first-line). Step 4: If no response to CBT + medication — offer specialist multidisciplinary review. Key: Clark & Wells model focuses on (a) shifting attention from internal to external, (b) dropping safety behaviours, (c) video feedback to correct distorted self-imagery. MRCPsych: the specific CBT model (Clark & Wells) is frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Social Phobia — Psychological Treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "social phobia",
+      "social anxiety",
+      "CBT",
+      "Clark & Wells",
+      "NICE"
+    ],
+    "source": "NICE CG159 (2013, updated 2020); Clark & Wells 1995; Heimberg et al 2010"
+  },
+  {
+    "stem": "A 38-year-old man presents with recurrent episodes of major depression with a seasonal pattern (onset in October, remission in March) for the past 5 years. He has not responded adequately to two trials of antidepressant medication. Which treatment is specifically recommended as first-line for seasonal affective disorder (SAD)?",
+    "options": [
+      "High-dose fluoxetine (60 mg daily)",
+      "Light therapy using a 10,000 lux white fluorescent light box for 30 minutes daily, ideally on waking",
+      "Transcranial magnetic stimulation (TMS)",
+      "Agomelatine 25 mg nocte",
+      "Modafinil 200 mg daily"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — while antidepressants (fluoxetine, sertraline) are used for SAD, they are not the specific first-line recommendation for seasonal depression.",
+      "Correct. NICE (not specifically covering SAD) and the British Association for Psychopharmacology (BAP) recommend: (a) Light therapy (10,000 lux box, 30 min daily, typically on waking) as first-line treatment for mild-to-moderate SAD. (b) Response typically occurs within 1–2 weeks. (c) For more severe SAD, CBT or antidepressants are alternatives. The mechanism is thought to involve circadian rhythm phase-shifting (melatonin suppression) and serotonin modulation. Light therapy is not always superior to placebo in blinded trials (placebo response is high).",
+      "Incorrect — TMS is not a specific first-line treatment for SAD (it is used in treatment-resistant depression).",
+      "Incorrect — agomelatine (melatonergic antidepressant) may be used in depression but is not the specific first-line for SAD.",
+      "Incorrect — modafinil is a wakefulness-promoting agent used in narcolepsy, not first-line for SAD."
+    ],
+    "teaching_point": "Seasonal Affective Disorder (SAD) — specifier in DSM-5 for recurrent depressive episodes with seasonal pattern (typically autumn/winter onset, spring/summer remission). Management: (1) Mild-moderate SAD — light therapy (10,000 lux, 30 min, early morning). (2) Severe SAD — CBT (specific SAD-CBT protocol) or antidepressants (fluoxetine, sertraline, bupropion). (3) Dawn simulation (gradual light increase) may be used. Light therapy mechanism: suppression of melatonin, serotonin modulation, circadian phase advance. NB: light therapy not fully covered by NICE — BAP 2020 guidelines are the key reference. Side effects: headache, eye strain, nausea. MRCPsych: know the light therapy parameters (10,000 lux, 30 min).",
+    "domain": "general_adult",
+    "subdomain": "Seasonal Affective Disorder — Light Therapy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "SAD",
+      "seasonal affective disorder",
+      "light therapy",
+      "depression",
+      "BAP"
+    ],
+    "source": "BAP Guidelines 2020 (J Psychopharmacol); NICE CG90; Murray et al 2005 (Lancet); Terman & Terman 2005"
+  },
+  {
+    "stem": "A 29-year-old woman, 4 days postpartum, develops confusion, delusions that her baby is possessed by the devil, command auditory hallucinations telling her to harm the baby, and agitation. She has been sleeping very little. There is no significant past psychiatric history. What is the most likely diagnosis?",
+    "options": [
+      "Postpartum blues",
+      "Postpartum psychosis",
+      "Major depressive disorder with postpartum onset",
+      "Delirium due to infection",
+      "Brief psychotic disorder"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — postpartum blues (baby blues) affects 40–80% of women, occurs days 2–4, is mild and self-limiting (crying, mood lability, anxiety) — not associated with delusions, hallucinations, or risk to baby.",
+      "Correct. Postpartum psychosis (puerperal psychosis) affects 1–2 per 1000 deliveries, typically within 1–2 weeks postpartum (often within first week). Presentation: rapid onset of mania, depression, or mixed features, with delusions (often bizarre or about the baby), hallucinations (command to harm baby), confusion, agitation, and severe insomnia. It is a psychiatric emergency — risk of infanticide and suicide. Requires urgent admission, typically to a mother-and-baby unit. Risk factors: personal/family history of bipolar disorder (especially postpartum), primiparity.",
+      "Incorrect — postpartum depression has onset within 4 weeks, but lacks psychotic features (delusions, hallucinations) and the acute confusional/agitated state described here.",
+      "Incorrect — delirium should be excluded (consider infection, electrolyte disturbance, preeclampsia), but the prominent psychotic features (delusions about baby, command hallucinations) with postpartum timing strongly suggest postpartum psychosis.",
+      "Incorrect — brief psychotic disorder (1–30 days) could be considered, but postpartum timing and specific content (delusions about baby, command to harm) make postpartum psychosis the most specific diagnosis."
+    ],
+    "teaching_point": "Postpartum (puerperal) psychosis: Prevalence 1–2/1000 deliveries. Onset: rapid, within 1–2 weeks postpartum. DSM-5: specifier 'with peripartum onset' if during pregnancy or within 4 weeks postpartum. ICD-11: postpartum psychosis classified under acute and transient psychotic disorders or mood disorders with postpartum onset. Clinical features: (1) Manic features (elation, disinhibition, reduced need for sleep) or depressive features (despair, nihilistic delusions). (2) Delusions often involve the baby (e.g. baby is deformed, possessed, special mission). (3) Command hallucinations to harm the baby. (4) Bizarre, disorganised behaviour. (5) Cognitive disorganisation/confusion. Management: (1) Urgent admission (mother-and-baby unit). (2) Acute: antipsychotics (e.g. olanzapine, haloperidol) + benzodiazepines. (3) Mood stabilisers (lithium — careful with breastfeeding). (4) ECT if severe. Prognosis: 60–70% fully recover; risk of recurrence in future pregnancies ~50%. MRCPsych: high-yield topic.",
+    "domain": "general_adult",
+    "subdomain": "Postpartum Psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "postpartum psychosis",
+      "puerperal psychosis",
+      "perinatal",
+      "psychiatric emergency"
+    ],
+    "source": "NICE CG192 (Antenatal & Postnatal Mental Health); Jones et al 2014; Bergink et al 2015"
+  },
+  {
+    "stem": "A 45-year-old woman with bipolar I disorder presents with a moderate depressive episode (HAM-D 22). She is currently not on any mood stabiliser. She has had 4 manic episodes requiring hospitalisation in the past. Which medication has the strongest evidence base for treatment of acute bipolar depression?",
+    "options": [
+      "Fluoxetine monotherapy",
+      "Quetiapine monotherapy (300 mg daily)",
+      "Lamotrigine 100 mg daily as monotherapy",
+      "Aripiprazole monotherapy",
+      "Venlafaxine 150 mg daily"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — antidepressant monotherapy is NOT recommended for bipolar depression due to risk of manic switching (especially in bipolar I). Fluoxetine is only used in combination with olanzapine (Symbyax).",
+      "Correct. Quetiapine (monotherapy) has the strongest evidence base for acute bipolar depression (level A evidence, BAP 2016). Meta-analyses show quetiapine 300–600 mg/day is significantly superior to placebo for response and remission. Quetiapine is also effective in preventing depressive relapse. Key RCT: BOLDER I & II trials. Number needed to treat (NNT) for response = 5–7. Other first-line options: olanzapine + fluoxetine (OFC), lamotrigine (more effective for prophylaxis than acute), lurasidone.",
+      "Incorrect — lamotrigine is more effective for prophylaxis of depressive episodes than for acute treatment. Its acute efficacy in bipolar depression is modest (NNT ~13). It is considered second-line for acute treatment; first-line for maintenance (depressive relapse prevention).",
+      "Incorrect — aripiprazole is not effective for bipolar depression (failed in RCTs). It is effective for acute mania and maintenance.",
+      "Incorrect — venlafaxine poses a higher risk of manic switch than SSRIs and is not recommended as first-line in bipolar depression."
+    ],
+    "teaching_point": "BAP 2016/BAP 2020 guidelines for acute bipolar depression: First-line options: (1) Quetiapine 300–600 mg (strongest evidence). (2) Olanzapine + fluoxetine (OFC) — combination. (3) Lurasidone 20–120 mg (used in US/Europe). (4) Lamotrigine — second-line for acute, first-line for maintenance. (5) Antidepressant monotherapy NOT recommended (risk of switching). (6) ECT for severe, treatment-resistant, or psychotic bipolar depression. CANMAT 2018 guidelines: first-line = quetiapine, lurasidone, OFC, lamotrigine. MRCPsych: quetiapine is the single best evidence-based drug for acute bipolar depression.",
+    "domain": "general_adult",
+    "subdomain": "Bipolar Depression — Quetiapine",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "bipolar depression",
+      "quetiapine",
+      "bipolar disorder",
+      "mood stabiliser"
+    ],
+    "source": "BAP Guidelines 2016/2020 (J Psychopharmacol); Calabrese et al 2005 (BOLDER I & II); NICE CG185"
+  },
+  {
+    "stem": "A 38-year-old woman with bipolar II disorder has been stable on lamotrigine 200 mg daily for 2 years. She asks about the role of lamotrigine in bipolar depression. Which statement about lamotrigine in bipolar disorder is most accurate?",
+    "options": [
+      "Lamotrigine is most effective for acute mania but not for depression",
+      "Lamotrigine is more effective for preventing depressive relapse than for treating acute bipolar depression",
+      "Lamotrigine should not be used in bipolar II disorder as it only works in bipolar I",
+      "Lamotrigine is contraindicated in women of childbearing age",
+      "Lamotrigine causes significant weight gain comparable to olanzapine"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — lamotrigine has no efficacy in acute mania (negative RCTs). Its primary benefit is in prevention of depressive episodes.",
+      "Correct. Lamotrigine's evidence base: (1) Acute bipolar depression — modest effect (NNT ~13 for response), statistically significant but less effective than quetiapine or OFC. (2) Maintenance/prophylaxis — strong evidence for prevention of depressive relapse (NNT ~6 for depressive relapse prevention), but not for manic relapse. (3) It is particularly useful in bipolar II disorder where depressive episodes dominate. KEY RCTs: Bowden et al 2003, Calabrese et al 2003 (maintenance).",
+      "Incorrect — lamotrigine is equally effective in bipolar I and II, and may be particularly useful in bipolar II due to the predominantly depressive course.",
+      "Incorrect — lamotrigine is not contraindicated in women of childbearing age, but there is a risk of cleft palate (first trimester). Folic acid (5 mg) should be given. Risk vs benefit discussion is essential.",
+      "Incorrect — lamotrigine is weight-neutral (one of its advantages). Olanzapine causes significant weight gain and metabolic syndrome."
+    ],
+    "teaching_point": "Lamotrigine in bipolar disorder: (1) MOA: sodium channel stabiliser, inhibits glutamate release. (2) Acute depression: modest efficacy (BAP second-line, NNT ~13). (3) Maintenance: effective for depressive relapse prevention (NNT ~6), NOT for manic relapse. (4) Titration: 25 mg daily → 50 mg → 100 mg → 200 mg (target), over 6 weeks to reduce risk of Stevens-Johnson syndrome (SJS; risk 0.08–0.3%, higher if rapid titration or concurrent valproate). (5) Side effects: dizziness, headache, ataxia, blurred vision. Stevens-Johnson syndrome is a serious risk — warn patients to report rash, and stop immediately if rash develops. (6) No weight gain, no metabolic effects. MRCPsych: lamotrigine's role in depressive relapse prevention is frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Bipolar Depression — Lamotrigine",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "lamotrigine",
+      "bipolar depression",
+      "bipolar disorder",
+      "maintenance"
+    ],
+    "source": "BAP 2016/2020; Goodwin et al 2004 (Lancet); Calabrese et al 2003"
+  },
+  {
+    "stem": "A 55-year-old woman presents with a 2-month history of depressed mood, anhedonia, early morning wakening, poor appetite, and weight loss. She reports hearing a voice telling her she is 'rotten inside' and that she will be 'burned alive'. She believes she has terminal bowel cancer despite normal investigations. She has no previous psychiatric history. What is the most likely diagnosis?",
+    "options": [
+      "Major depressive disorder with mood-congruent psychotic features",
+      "Schizophrenia",
+      "Delusional disorder, somatic type",
+      "Major depressive disorder with mood-incongruent psychotic features",
+      "Anorexia nervosa"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Major depressive disorder with psychotic features (psychotic depression): (1) Meets criteria for a major depressive episode. (2) Psychotic features are mood-congruent — delusions (nihilistic, guilt, persecution, somatic) and hallucinations (derogatory voices) are consistent with depressive themes. (3) No previous manic/hypomanic episodes. The delusion of having terminal cancer despite negative tests is a somatic/nihilistic delusion. The voice telling her she is 'rotten' and will be 'burned alive' is a mood-congruent auditory hallucination.",
+      "Incorrect — the psychotic symptoms are mood-congruent and occur only in the context of a full depressive syndrome. Schizophrenia requires characteristic symptoms of ≥1 month without a concurrent major mood episode (or mood episodes brief relative to psychotic symptoms).",
+      "Incorrect — delusional disorder involves non-bizarre delusions for ≥1 month without prominent mood symptoms. This patient has a full depressive syndrome.",
+      "Incorrect — mood-incongruent psychotic features (e.g. delusions of control, thought broadcasting) are not typical of depressive themes. Here the delusions are clearly mood-congruent.",
+      "Incorrect — while the patient has weight loss and poor appetite, the core features are depressed mood, anhedonia, and psychotic symptoms. There is no body image distortion or fear of weight gain as in anorexia."
+    ],
+    "teaching_point": "Psychotic (delusional) depression: DSM-5 specifier 'with psychotic features' — can be mood-congruent (delusions/hallucinations consistent with depressive themes: guilt, nihilism, somatic, persecution, derogatory voices) or mood-incongruent. Prevalence: ~15–25% of major depressive episodes in inpatients. Key features: (1) Psychomotor disturbance (retardation or agitation). (2) Higher severity and longer episodes. (3) Higher relapse risk. (4) Neurobiology: HPA axis dysregulation, higher cortisol. Treatment: (1) Antidepressant + antipsychotic combination (first-line). (2) ECT is highly effective (response rate 80–85%) — especially when rapid response needed or if medication fails. (3) NICE: consider combination therapy (olanzapine + fluoxetine, amitriptyline + haloperidol, or other combinations). MRCPsych: psychotic depression is a high-yield topic.",
+    "domain": "general_adult",
+    "subdomain": "Psychotic Depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "psychotic depression",
+      "delusional depression",
+      "mood-congruent",
+      "depression"
+    ],
+    "source": "DSM-5; NICE CG90; Rothschild 2009 (Lancet); Schatzberg 2003"
+  },
+  {
+    "stem": "A 62-year-old woman presents 8 months after the sudden death of her husband. She experiences intense yearning, preoccupation with thoughts of her husband, disbelief about his death, identity confusion, and difficulty moving on. She avoids visiting his grave and cannot look at photos. These symptoms cause marked functional impairment. She has no history of depression or anxiety. What is the most likely diagnosis?",
+    "options": [
+      "Major depressive disorder",
+      "Post-traumatic stress disorder",
+      "Prolonged grief disorder (complicated grief)",
+      "Adjustment disorder",
+      "Panic disorder"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — while there is overlap with major depression (sadness, anhedonia), the core features here are grief-specific: yearning, preoccupation with the deceased, disbelief, identity confusion, and difficulty accepting the loss. In MDD, mood is the central disturbance, not yearning/separation distress.",
+      "Incorrect — PTSD involves hyperarousal, re-experiencing (intrusive memories, nightmares, flashbacks) and avoidance of trauma reminders. While avoidance is present, the core grief symptoms (yearning, preoccupation, identity confusion) are more specific to grief.",
+      "Correct. Prolonged grief disorder (PGD) — DSM-5-TR (2022) and ICD-11 criteria: (1) Death of someone close ≥12 months ago (DSM-5-TR) or ≥6 months ago (ICD-11). (2) A grief syndrome including: yearning/longing, preoccupation, disbelief, identity disruption, avoidance, emotional numbness, difficulty reintegrating. (3) Clinically significant distress/impairment. (4) Not better explained by depression, PTSD, or other disorder. ICD-11 uses a shorter duration of 6 months. This patient at 8 months meets ICD-11 criteria and is approaching DSM-5-TR threshold. Prevalence: ~10% of bereaved individuals.",
+      "Incorrect — adjustment disorder involves emotional/behavioural symptoms in response to an identifiable stressor, but the duration exceeds 6 months and the specific grief syndrome is better captured by PGD.",
+      "Incorrect — there is no history of panic attacks or anticipatory anxiety about further attacks."
+    ],
+    "teaching_point": "Prolonged Grief Disorder (PGD, also called complicated grief): (1) ICD-11: disorder of grief where core symptoms (yearning, preoccupation) persist >6 months. (2) DSM-5-TR: persistent complex bereavement disorder, ≥12 months in adults. (3) Key features: intense emotional pain, yearning, preoccupation with deceased, disbelief, identity disruption, avoidance, anger, difficulty moving on, emotional numbness. (4) Risk factors: sudden/violent death, dependent relationship, childhood adversity, lack of social support. (5) Treatment: specific complicated grief therapy (CGT — Shear et al) — combines CBT, interpersonal therapy, exposure, and motivational interviewing. Antidepressants may help comorbid depression but do not treat core grief. MRCPsych: PGD is a relatively new diagnosis — high yield for exam.",
+    "domain": "general_adult",
+    "subdomain": "Complicated Grief / Prolonged Grief Disorder",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "complicated grief",
+      "prolonged grief disorder",
+      "bereavement",
+      "PGD",
+      "DSM-5-TR"
+    ],
+    "source": "DSM-5-TR (2022); ICD-11; Shear et al 2005 (JAMA); Shear 2015 (NEJM)"
+  },
+  {
+    "stem": "A 24-year-old man presents with lifelong difficulties with inattention, forgetfulness, difficulty completing tasks at university, and fidgeting. He has been late to every lecture this term due to poor time management. His university tutor suggested he might have ADHD. Regarding the diagnosis of adult ADHD, which statement is most accurate?",
+    "options": [
+      "ADHD cannot be diagnosed for the first time in adulthood; symptoms must have been present in childhood",
+      "Adult ADHD does not require functional impairment for diagnosis",
+      "The DSM-5 requires 5 or more symptoms of inattention and/or hyperactivity-impulsivity, with some symptoms present before age 12, and evidence of cross-situational impairment",
+      "Diagnosis requires exclusion of all other psychiatric disorders before ADHD can be considered",
+      "Hyperactivity is the most prominent symptom in adult ADHD"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — ADHD can be diagnosed in adulthood if symptoms were present in childhood (by age 12 in DSM-5; by age 7 in DSM-IV). Some individuals may not have been diagnosed until adulthood due to missed diagnosis in childhood.",
+      "Incorrect — DSM-5 requires clear evidence that symptoms interfere with, or reduce the quality of, social, academic, or occupational functioning.",
+      "Correct. DSM-5 criteria for adult ADHD: (a) A: 5+ symptoms of inattention (for predominantly inattentive presentation) and/or 5+ symptoms of hyperactivity-impulsivity (for hyperactive-impulsive presentation) for ≥6 months. (b) B: Some symptoms present before age 12. (c) C: Some impairment from symptoms in ≥2 settings. (d) D: Clear evidence of interference with functioning. (e) E: Not better explained by another disorder. Note the lower symptom threshold (≥5 instead of ≥6 for children) reflects the developmental change in symptom expression.",
+      "Incorrect — while other disorders (anxiety, depression, bipolar, substance use) should be considered, ADHD can be diagnosed concurrently with other conditions. Comorbidity is common (50–70% of adult ADHD have ≥1 other psychiatric disorder).",
+      "Incorrect — hyperactivity tends to diminish with age. In adult ADHD, inattention, executive dysfunction (disorganisation, poor time management, forgetfulness), and emotional dysregulation are often more prominent than overt hyperactivity."
+    ],
+    "teaching_point": "Adult ADHD: DSM-5 criteria — A. Symptoms: ≥5 inattention and/or ≥5 hyperactivity-impulsivity. B. Onset: some symptoms before age 12. C. Cross-situational: impairment in ≥2 settings. D. Functional impairment. E. Exclusion of other disorders. Key points: (1) Symptom threshold lower for adults (≥5 vs ≥6 for children). (2) Hyperactivity decreases with age; inattention and executive dysfunction persist. (3) Emotional dysregulation is increasingly recognised as a core feature. (4) Comorbidity: depression, anxiety, substance use, bipolar disorder, and personality disorders are common. (5) Assessment: DIVA-5 (Diagnostic Interview for ADHD in Adults) or CAARS (Conners' Adult ADHD Rating Scale). NICE NG87: specialist assessment by trained professional. MRCPsych: adult ADHD diagnostic criteria are frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Adult ADHD — Diagnostic Criteria (DSM-5)",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "ADHD",
+      "adult ADHD",
+      "DSM-5",
+      "diagnosis"
+    ],
+    "source": "DSM-5; NICE NG87 (2018); Kooij et al 2019 (BAP/World Federation of ADHD)"
+  },
+  {
+    "stem": "A 78-year-old man presents with a 6-month history of progressive cognitive decline. His wife reports he has become apathetic, has difficulty with planning (e.g., managing finances), and tends to fall when turning corners. He also has urinary incontinence. His BP is 150/85 lying and 120/70 standing. MRI shows periventricular white matter hyperintensities and lacunar infarcts. What is the most likely diagnosis?",
+    "options": [
+      "Alzheimer's disease",
+      "Dementia with Lewy bodies",
+      "Vascular dementia",
+      "Normal pressure hydrocephalus",
+      "Frontotemporal dementia"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — Alzheimer's typically presents with early episodic memory impairment, progressive language and visuospatial deficits. While vascular pathology can co-exist (mixed dementia), the presentation with falls, incontinence, apathy and executive dysfunction with lacunar infarcts and white matter changes is more characteristic of vascular dementia.",
+      "Incorrect — DLB presents with a triad of cognitive fluctuations, visual hallucinations, and parkinsonism. This patient has no hallucinations or parkinsonism, and the MRI findings suggest vascular pathology.",
+      "Correct. Vascular dementia (VaD): (1) Cognitive deficits primarily in attention/executive function (slowing of processing, difficulty with planning/organising), rather than early episodic memory. (2) Gait disturbance (gait apraxia), falls, and urinary symptoms are common. (3) Vascular risk factors (hypertension here with orthostatic drop). (4) Neuroimaging: periventricular white matter hyperintensities, lacunar infarcts, often involving frontal-subcortical circuits. Hachinski Ischaemic Score > 7 is supportive (this patient would score: abrupt onset 0? but stepwise 1, fluctuating course 1, somatic complaints 1, emotional incontinence 1, hypertension 1, history of stroke 0, focal neurological symptoms 1, focal neurological signs 1 = likely >7).",
+      "Incorrect — NPH presents with the classic triad of gait apraxia (magnetic gait), urinary incontinence, and cognitive decline (subcortical pattern). MRI shows ventricular enlargement disproportionate to cortical atrophy. While this patient has falls, incontinence, and subcortical cognitive features, the MRI shows white matter hyperintensities and lacunar infarcts rather than hydrocephalus.",
+      "Incorrect — FTD presents with prominent behavioural changes (disinhibition, apathy, loss of empathy) or progressive language impairment (non-fluent aphasia, semantic dementia). Early memory is relatively preserved. MRI shows frontal and/or temporal atrophy, not vascular lesions."
+    ],
+    "teaching_point": "Vascular dementia (VaD): DSM-5 — Major vascular neurocognitive disorder. Key features: (1) Cognitive impairment temporally related to cerebrovascular events (stepwise course) or evident decline in processing speed, executive function, and attention. (2) Presence of cerebrovascular disease on imaging (white matter changes, lacunar infarcts, strategic infarcts). (3) Hachinski Ischaemic Scale: >7 vascular dementia, 4–7 mixed, <4 Alzheimer's. Items: abrupt onset, stepwise deterioration, fluctuating course, nocturnal confusion, relative preservation of personality, depression, somatic complaints, emotional incontinence, hypertension, history of stroke, atherosclerosis, focal neurological symptoms, focal neurological signs. (4) Subtypes: multi-infarct dementia, strategic single-infarct dementia, small-vessel disease (subcortical ischaemic), mixed (VaD + AD). MRCPsych: Hachinski score is a classic exam topic.",
+    "domain": "old_age",
+    "subdomain": "Vascular Dementia — Hachinski Ischaemic Score",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "vascular dementia",
+      "Hachinski",
+      "executive dysfunction",
+      "white matter hyperintensities"
+    ],
+    "source": "Hachinski et al 1975 (Arch Neurol); NICE NG97; O'Brien & Thomas 2015"
+  },
+  {
+    "stem": "According to the McKeith criteria (2017) for dementia with Lewy bodies (DLB), which three features constitute the 'core clinical features' required for a probable diagnosis?",
+    "options": [
+      "Early episodic memory impairment, apraxia, and agnosia",
+      "Symmetric bradykinesia, resting tremor, and rigidity",
+      "Cognitive fluctuations, recurrent visual hallucinations, and REM sleep behaviour disorder (RBD)",
+      "Dyscalculia, dysgraphia, and constructional apraxia",
+      "Apathy, disinhibition, and loss of empathy"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — these are typical features of Alzheimer's disease (cortical cognitive deficits).",
+      "Incorrect — these are the core motor features of Parkinson's disease. In DLB, parkinsonism is a 'supportive feature' but not a core clinical feature for diagnosis.",
+      "Correct. McKeith criteria (2017) — 4th consensus report of the DLB Consortium: Essential feature: dementia (progressive cognitive decline). Core clinical features (two required for probable DLB; one for possible DLB): (1) Fluctuating cognition with pronounced variations in attention and alertness. (2) Recurrent, well-formed, detailed visual hallucinations. (3) REM sleep behaviour disorder (RBD) — added as a core feature in 2017 (previously a suggestive feature). Supportive features: severe neuroleptic sensitivity, parkinsonism, autonomic dysfunction, delusions (misidentification), depression.",
+      "Incorrect — these are typically associated with parietal lobe dysfunction (Gerstmann syndrome).",
+      "Incorrect — these are behavioural features of frontotemporal dementia (bvFTD)."
+    ],
+    "teaching_point": "McKeith Criteria for DLB (2017 4th Consensus Report): Essential: dementia (attention, executive, visuospatial deficits prominent; memory relatively preserved early). Core clinical (≥2 = probable DLB): (1) Fluctuating cognition (attention/alertness). (2) Recurrent, well-formed, detailed visual hallucinations (including misidentification syndromes like Capgras). (3) REM sleep behaviour disorder (RBD) — vivid, acting out dreams. Suggestive (≥1 with 1 core = probable; ≥2 alone = probable): (a) Parkinsonism (bradykinesia, rigidity, gait disorder — tremor less common than PD). (b) Neuroleptic sensitivity. (c) Low DAT uptake on SPECT/PET (DaTSCAN). Supportive: autonomic dysfunction, orthostatic hypotension, falls, depression, delusions, Tc-99m HMPAO SPECT showing occipital hypoperfusion. MRCPsych: McKeith 2017 criteria are essential knowledge — especially that RBD was upgraded to a core feature.",
+    "domain": "old_age",
+    "subdomain": "Dementia with Lewy Bodies — McKeith Criteria",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "DLB",
+      "McKeith criteria",
+      "Lewy body dementia",
+      "RBD",
+      "visual hallucinations"
+    ],
+    "source": "McKeith et al 2017 (Neurology) — 4th Consensus Report; NICE NG97"
+  },
+  {
+    "stem": "A 65-year-old woman presents with a 2-year history of progressive behavioural changes. Her husband reports she has become disinhibited (making inappropriate jokes with strangers), apathetic, and has lost empathy for her family. She has developed a sweet tooth and eats excessively. Her memory for day-to-day events seems relatively preserved. MRI brain shows prominent bilateral frontal lobe atrophy. What is the most likely subtype of frontotemporal dementia?",
+    "options": [
+      "Semantic variant primary progressive aphasia (svPPA)",
+      "Non-fluent variant primary progressive aphasia (nfvPPA)",
+      "Behavioural variant frontotemporal dementia (bvFTD)",
+      "Corticobasal syndrome (CBS)",
+      "Progressive supranuclear palsy (PSP)"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — semantic variant PPA presents with loss of word meaning (comprehension deficits), fluent but empty speech, and loss of object knowledge. Behavioural changes can occur later but language is the initial and predominant feature.",
+      "Incorrect — non-fluent variant PPA presents with effortful, agrammatic speech, apraxia of speech. Language is the core deficit, not disinhibition/apathy.",
+      "Correct. bvFTD (behavioural variant frontotemporal dementia) — Rascovsky criteria (2011): requires progressive deterioration, and ≥3 of the following: (1) Disinhibition (socially inappropriate behaviour, loss of manners/impulse control). (2) Apathy/inertia (loss of interest, initiative). (3) Loss of empathy/sympathy (diminished response to others' needs). (4) Hyperorality/dietary changes (sweet tooth, binge eating, pica, alcohol/carbohydrate craving). (5) Executive dysfunction (relative sparing of memory and visuospatial functions). (6) Compulsive/perseverative behaviours (simple repetitive movements or complex rituals). Imaging: frontal/anterior temporal atrophy (MRI) or hypometabolism (FDG-PET).",
+      "Incorrect — CBS is an atypical parkinsonian syndrome with asymmetric apraxia, dystonia, alien limb phenomenon, cortical sensory loss, and myoclonus.",
+      "Incorrect — PSP presents with early postural instability/falls, vertical supranuclear gaze palsy, axial rigidity, and frontal-subcortical cognitive changes."
+    ],
+    "teaching_point": "Frontotemporal dementia (FTD) subtypes: (1) Behavioural variant (bvFTD) — most common (60%). Six core features (Rascovsky 2011). (2) Semantic variant PPA (svPPA) — anterior temporal lobe (usually left) atrophy; loss of word and object meaning; asks 'what is that called?'. (3) Non-fluent variant PPA (nfvPPA) — left inferior frontal gyrus atrophy; effortful speech, agrammatism. (4) FTD + MND (FTD-ALS) — overlaps with ALS (C9orf72 expansion). (5) Progressive supranuclear palsy (PSP) and corticobasal syndrome (CBS) — both can have frontal behavioural presentations. Genetics: ~30–50% have family history; MAPT (tau), GRN (progranulin), C9orf72 (hexanucleotide expansion) are the main genes. MRCPsych: the three FTD subtypes and their distinguishing features are frequently tested.",
+    "domain": "old_age",
+    "subdomain": "Frontotemporal Dementia — bvFTD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "FTD",
+      "bvFTD",
+      "frontotemporal dementia",
+      "Rascovsky criteria",
+      "disinhibition"
+    ],
+    "source": "Rascovsky et al 2011 (Brain); NICE NG97; Hodges & Miller 2011 (Lancet)"
+  },
+  {
+    "stem": "Which statement best differentiates dementia with Lewy bodies (DLB) from Parkinson's disease dementia (PDD)?",
+    "options": [
+      "DLB and PDD are identical in pathology, treatment, and prognosis; the distinction is arbitrary",
+      "In DLB, dementia precedes parkinsonism by at least 1 year; in PDD, dementia develops in the context of established Parkinson's disease",
+      "PDD is associated with early, prominent visual hallucinations; DLB is not",
+      "DLB shows better response to levodopa than PDD",
+      "DLB does not involve REM sleep behaviour disorder, which is specific to PDD"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — while both share α-synuclein pathology (Lewy bodies), there are clinical differences that affect diagnosis and management.",
+      "Correct. The '1-year rule': (1) DLB — dementia develops BEFORE or concurrently with parkinsonism (<1 year of motor symptoms). (2) PDD — dementia develops at least 1 year AFTER the onset of Parkinson's disease motor symptoms. This is the primary distinguishing criterion according to the McKeith consensus criteria. Both conditions show α-synuclein pathology, but the temporal sequence differs. Neuropathologically, they are considered part of the same spectrum (Lewy body disease).",
+      "Incorrect — visual hallucinations are more characteristic of DLB than PDD, not the other way around. DLB typically has more prominent and earlier visual hallucinations.",
+      "Incorrect — DLB typically shows a poorer and more inconsistent response to levodopa compared to PDD. DLB patients are also more susceptible to neuroleptic sensitivity (severe adverse reactions to antipsychotics).",
+      "Incorrect — REM sleep behaviour disorder (RBD) is common in both DLB (now a CORE feature for DLB) and PDD (a supportive feature)."
+    ],
+    "teaching_point": "DLB vs PDD ('1-year rule'): Both are α-synucleinopathies. If dementia occurs before or within 12 months of parkinsonism = DLB. If dementia occurs ≥1 year after Parkinson's disease motor onset = PDD. Similarities: (a) Cognitive profile — attention, executive, visuospatial deficits; memory relatively spared early. (b) Core features: visual hallucinations, fluctuations, RBD, parkinsonism, neuroleptic sensitivity. (c) Pathology: Lewy bodies (α-synuclein), often with Alzheimer's co-pathology. Management: (1) Cholinesterase inhibitors (rivastigmine) — effective in both DLB and PDD (EXCEL trial). (2) Avoid typical antipsychotics (severe neuroleptic sensitivity). (3) Levodopa cautiously for parkinsonism. MRCPsych: the 1-year rule is a classic exam distinction.",
+    "domain": "old_age",
+    "subdomain": "DLB vs Parkinson's Disease Dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "DLB",
+      "PDD",
+      "Lewy body",
+      "1-year rule",
+      "parkinsonism",
+      "dementia"
+    ],
+    "source": "McKeith et al 2017; Emre et al 2007; NICE NG97"
+  },
+  {
+    "stem": "A 74-year-old woman presents with depressed mood, poor sleep, low energy, and difficulty concentrating. She scores 22/30 on the MMSE with deficits in attention and delayed recall. Her son reports she has been forgetful for about 3 months. On detailed history, there is a clear temporal relationship between the onset of depressive symptoms and cognitive decline. She has experienced recurrent depressive episodes in the past. What is the most likely diagnosis?",
+    "options": [
+      "Major depressive disorder with pseudodementia",
+      "Alzheimer's disease",
+      "Vascular dementia",
+      "Delirium",
+      "Frontotemporal dementia"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Pseudodementia (dementia syndrome of depression) refers to cognitive impairment occurring secondary to depression, which is potentially reversible with treatment of the underlying mood disorder. Key features: (1) Clear temporal link between depression and cognitive decline. (2) Onset relatively acute/subacute (weeks to months). (3) Subjective cognitive complaints may exceed objective deficits ('I can't remember anything'). (4) Attention/concentration and delayed recall are affected, but orientation is usually preserved. (5) Personal/family history of depression is common. (6) Many patients will eventually develop irreversible dementia on long-term follow-up (30–50% within 3–5 years), so pseudodementia is now considered a risk state (Dementia Risk Syndrome).",
+      "Incorrect — Alzheimer's has a more insidious onset (months to years), with progressive memory loss as the earliest prominent deficit. The clear temporal link with depression in this case makes pseudodementia more likely.",
+      "Incorrect — VaD is associated with vascular risk factors and stepwise decline with focal neurology or executive dysfunction. This case lacks vascular features.",
+      "Incorrect — delirium has acute onset (hours to days), fluctuating level of consciousness, and is usually caused by acute medical illness/medication. This has a subacute course over months with no features of impaired consciousness.",
+      "Incorrect — FTD presents with prominent behavioural changes (disinhibition, apathy, loss of empathy), not a depressive syndrome. Memory and orientation are relatively preserved early."
+    ],
+    "teaching_point": "Pseudodementia (dementia syndrome of depression): (1) Prevalence: 5–10% of older adults presenting with cognitive impairment have underlying depression. (2) Clinical features: subacute onset; low motivation/effort on testing; disproportionate distress about failures; 'don't know' answers; memory (retrieval deficit) may improve with prompting. (3) Neuropsychological profile: frontal-executive dysfunction more than memory; variable effort. (4) Management: treat depression (SSRI first-line). Cognitive improvement lags behind mood improvement by 2–4 weeks. (5) Long-term risk: 30–50% develop dementia within 3–5 years (late-life depression is a risk factor/prodrome for dementia). MRCPsych: the concept of pseudodementia and its relationship to late-life depression and dementia risk is a classic topic.",
+    "domain": "old_age",
+    "subdomain": "Pseudodementia — Dementia Syndrome of Depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "pseudodementia",
+      "late-life depression",
+      "differential diagnosis",
+      "cognitive impairment"
+    ],
+    "source": "Kiosses & Alexopoulos 2005; Brodaty & Connors 2020; NICE CG90 and NG97"
+  },
+  {
+    "stem": "A 82-year-old man in hospital following a hip replacement becomes acutely confused, with fluctuating consciousness, disorganised thinking, and visual hallucinations. He is inattentive and agitated. His CAM (Confusion Assessment Method) assessment is positive. Which is the correct first step in management according to NICE?",
+    "options": [
+      "Haloperidol 0.5 mg intramuscularly immediately",
+      "Administer lorazepam 1 mg for sedation",
+      "Identify and treat the underlying cause(s), including medical review for infection, electrolyte imbalance, and medication review",
+      "Transfer to a psychiatric ward for further assessment",
+      "Start donepezil 5 mg daily"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — antipsychotics should only be used if the patient is severely agitated or distressed, or if there is a risk of harm to self/others. They are not first-line management. Haloperidol should be started at lowest possible dose (0.25–0.5 mg) with ECG monitoring (QTc prolongation risk).",
+      "Incorrect — benzodiazepines are not first-line for delirium unless the delirium is due to alcohol or benzodiazepine withdrawal. They can worsen confusion and cause paradoxical disinhibition in older adults.",
+      "Correct. NICE CG103 (Delirium) — first step: (1) Ensure immediate medical assessment to identify and treat the underlying cause(s). Common causes: infection (UTI, chest), electrolyte disturbance, dehydration, hypoxia, medications (anticholinergics, opioids, steroids), alcohol withdrawal, constipation, pain, urinary retention. (2) Provide supportive care: reorientation, communication strategies, involve family, maintain sleep-wake cycle, ensure glasses/hearing aids. (3) Only then consider pharmacological management for severe distress/agitation. The CAM is the recommended screening tool.",
+      "Incorrect — delirium is a medical emergency that should be managed in the general hospital setting with medical review. Psychiatry input may be needed for complex cases but is not the first step.",
+      "Incorrect — donepezil (cholinesterase inhibitor) has no role in acute delirium management. It is used in dementia."
+    ],
+    "teaching_point": "Delirium management (NICE CG103): Step 1: Screen using CAM (Confusion Assessment Method) or 4AT (4 A's Test). Step 2: Identify underlying cause(s) — PINCHME mnemonic: Pain, Infection, Nutrition, Constipation, Hydration, Medications, Environment. Step 3: Non-pharmacological — reorientation, familiar objects, family involvement, normalise sleep-wake cycle, avoid sensory deprivation, early mobilisation. Step 4: Pharmacological — ONLY if severe distress/agitation/risk: short-term low-dose antipsychotic (haloperidol 0.25–0.5 mg PO/IM, or olanzapine 2.5–5 mg). Avoid benzodiazepines unless alcohol/sedative withdrawal. 4AT: Alertness (0–4), AMT4 (0–4), Attention (0–2), Acute change/fluctuating course (0–4) — total ≥4 suggests delirium. MRCPsych: CAM and 4AT screening are frequently tested in old age.",
+    "domain": "old_age",
+    "subdomain": "Delirium — CAM and 4AT Screening, Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "delirium",
+      "CAM",
+      "4AT",
+      "NICE CG103",
+      "confusion assessment method"
+    ],
+    "source": "NICE CG103 (2010, updated 2019); Inouye et al 1990 (CAM); Bellelli et al 2014 (4AT)"
+  },
+  {
+    "stem": "An 80-year-old woman is brought to the ED from her care home with acute onset of confusion and fluctuating consciousness over 24 hours. She has a urinary tract infection. The 4AT is administered and yields a score of 6. Which of the following is the most appropriate interpretation of this score?",
+    "options": [
+      "Score of 6 indicates probable dementia and does not suggest delirium",
+      "A score ≥ 4 is strongly suggestive of delirium and requires urgent medical assessment",
+      "A score of 6 indicates the patient is severely depressed",
+      "The 4AT is only validated in patients under 65 years of age",
+      "A score of 6 is inconsistent with delirium and suggests psychosis"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — while the 4AT may be elevated in dementia (especially if the patient has pre-existing cognitive impairment with acute change), a score ≥ 4 is suggestive of delirium. The combination of acute infection and fluctuating consciousness should raise suspicion for delirium regardless of dementia status.",
+      "Correct. The 4AT (4 A's Test) is a validated screening tool for delirium: (1) Alertness (0–4): normal = 0; mildly sleepy but responds to voice = 1; definitely abnormal = 4. (2) AMT4 (Abbreviated Mental Test 4 items — age, date of birth, place, year) — 0 correct = 4, 1 = 3, 2–3 = 2, 4 = 0. (3) Attention (months backwards) — ≥7 months = 0, <7 or doesn't start = 1, can't do = 2. (4) Acute change/fluctuating course — 0 (no) or 4 (yes). Total: 0 = normal, 1–3 = possible cognitive impairment (consider delirium/dementia), ≥4 = strongly suggestive of delirium ± dementia. Score 6: could be alertness 0 + AMT4 2 + attention 0 + fluctuation 4 = 6; or other combinations — but ≥4 = delirium probable.",
+      "Incorrect — the 4AT does not assess depressive symptoms.",
+      "Incorrect — the 4AT is validated in adults ≥70 in general hospital settings and is well-studied in older populations.",
+      "Incorrect — a score ≥4 on the 4AT is suggestive of delirium, not psychosis. While delirium and psychosis can co-occur, the 4AT detects delirium."
+    ],
+    "teaching_point": "4AT (4 A's Test) — validation in >500 patients, sensitivity 89–96%, specificity 84–87% for delirium. Components: (1) Alertness — observe patient's level of consciousness. (2) AMT4 — 4 questions from AMT (age, date of birth, place, current year) — rapid cognitive test. (3) Attention — 'can you tell me the months of the year backwards, starting from December?' — also tests concentration. (4) Acute change/fluctuating course — history from collateral: is there evidence of acute change from baseline? Does cognitive/behavioural state fluctuate? Scoring: 0 = no delirium/dementia; 1–3 = possible cognitive impairment; ≥4 = probable delirium ± dementia. Advantages of 4AT: no special training needed, 1–2 min, includes collateral history, works in dementia patients. MRCPsych: 4AT is increasingly replacing CAM in UK clinical practice.",
+    "domain": "old_age",
+    "subdomain": "Delirium — 4AT Screening Tool",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "delirium",
+      "4AT",
+      "screening tool",
+      "CAM",
+      "NICE CG103",
+      "cognitive assessment"
+    ],
+    "source": "Bellelli et al 2014 (Age & Ageing); NICE CG103; Shenkin et al 2019"
+  },
+  {
+    "stem": "A 6-year-old girl has never spoken at school despite fluent speech at home with her parents. She actively avoids social interactions with peers and teachers, and appears frozen when asked a direct question. She has normal language development and no history of trauma. What is the most likely diagnosis?",
+    "options": [
+      "Autism spectrum disorder",
+      "Social anxiety disorder (social phobia)",
+      "Selective mutism",
+      "Reactive attachment disorder",
+      "Expressive language disorder"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — while selective mutism can overlap with ASD, the key distinguishing feature is that speech is normal in some contexts (at home) but absent in others (school). ASD would show social-communication deficits and restricted/repetitive behaviours across all settings.",
+      "Incorrect — social anxiety disorder involves fear of social situations more broadly, but the core feature of speaking in one setting but not another is pathognomonic for selective mutism. Social anxiety and selective mutism are closely related (most children with SM also have social anxiety).",
+      "Correct. Selective mutism (DSM-5): (1) Consistent failure to speak in specific social situations (e.g. school) where speaking is expected, despite speaking in other situations (e.g. home). (2) The disturbance interferes with educational/occupational achievement or social communication. (3) Duration ≥1 month (not just the first month of school). (4) Not better explained by a communication disorder, ASD, psychosis, or language barrier. Prevalence: 0.03–1%. Onset: typically preschool/early school age. Comorbidity: social anxiety disorder (80–100%), separation anxiety, language disorders.",
+      "Incorrect — reactive attachment disorder results from severe social neglect and shows rarely or minimally seeking/responding to comfort when distressed. This child speaks normally at home (indicating attachment to family), and there is no history of neglect.",
+      "Incorrect — language disorder would show deficits in language development across all settings. This child speaks fluently at home."
+    ],
+    "teaching_point": "Selective mutism (DSM-5): F94.0. Key features: (1) Child speaks in at least one setting (typically home) but consistently fails to speak in specific other settings (typically school). (2) The 'freeze' response is characteristic — child appears paralysed, cannot initiate speech. (3) Management: (a) First-line: behavioural interventions — stimulus fading, shaping, desensitisation, contingency management. (b) Classroom strategies: low pressure, non-verbal communication initially, peer-mediated approaches. (c) If behavioural therapy fails: SSRI (fluoxetine). NICE does not have a specific guideline for SM — management follows anxiety disorder principles (NICE CG159). (4) Prognosis: often improves with treatment, but may persist into adolescence. MRCPsych: the key diagnostic criterion is the context-dependent nature of speech.",
+    "domain": "child_adolescent",
+    "subdomain": "Selective Mutism — DSM-5 Criteria",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "selective mutism",
+      "anxiety",
+      "DSM-5",
+      "childhood"
+    ],
+    "source": "DSM-5; NICE CG159 (Social Anxiety Disorder); Bergman et al 2008 (J Am Acad Child Adolesc Psychiatry)"
+  },
+  {
+    "stem": "A 4-year-old boy who was severely neglected in an orphanage before being adopted at age 3 now shows indiscriminate social behaviour — he approaches strangers with ease, hugs unfamiliar adults, and shows little preference for his adoptive parents over strangers. Which diagnosis is most likely?",
+    "options": [
+      "Autism spectrum disorder",
+      "Disinhibited social engagement disorder (DSED)",
+      "Reactive attachment disorder (RAD)",
+      "Separation anxiety disorder",
+      "Attention deficit hyperactivity disorder"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — ASD involves deficits in social-emotional reciprocity, not indiscriminate sociability. This child approaches strangers readily (overly social) rather than showing social avoidance.",
+      "Correct. Disinhibited social engagement disorder (DSED) — DSM-5: (1) Pattern of behaviour involving culturally inappropriate, overly familiar behaviour with unfamiliar adults (reduced reticence, violating social boundaries). (2) The child is willing to go off with an unfamiliar adult with minimal hesitation. (3) Results from social neglect/deprivation (e.g. institutional care, multiple foster placements). (4) Symptoms persist even after adequate care is provided. Different from RAD: RAD involves withdrawn, emotionally inhibited behaviour; DSED involves disinhibited, overly social behaviour. Both require a history of pathogenic care (neglect, deprivation).",
+      "Incorrect — RAD (reactive attachment disorder) presents with withdrawn, inhibited, and emotionally detached behaviour. The child rarely seeks comfort and responds minimally to comfort when distressed — the opposite of the child described.",
+      "Incorrect — separation anxiety involves excessive distress when separated from attachment figures, not indiscriminate social behaviour.",
+      "Incorrect — ADHD involves inattention, hyperactivity, and impulsivity across settings, not specifically indiscriminate social behaviour resulting from neglect."
+    ],
+    "teaching_point": "Reactive attachment disorders (DSM-5): TWO distinct disorders arising from insufficient care (social neglect/deprivation). (1) Reactive Attachment Disorder (RAD) — emotionally withdrawn/inhibited: child rarely/does not seek comfort when distressed, minimal social-emotional responsiveness, positive affect rare. (2) Disinhibited Social Engagement Disorder (DSED) — overly familiar/uninhibited: reduced or absent reticence with unfamiliar adults, overly familiar verbal/physical behaviour, willing to go off with strangers with little hesitation. Both require: (a) History of severe social neglect/deprivation. (b) Symptoms begin before age 5. (c) Child is developmentally at least 9 months. Management: (1) Ensure stable, nurturing caregiving environment. (2) Psychological interventions (attachment-focused therapy, parent training). (3) Prognosis: DSED may persist longer than RAD even after placement in good care. MRCPsych: the distinction between RAD and DSED is a classic exam question.",
+    "domain": "child_adolescent",
+    "subdomain": "Reactive Attachment — DSED vs RAD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "DSED",
+      "RAD",
+      "attachment",
+      "neglect",
+      "institutional care"
+    ],
+    "source": "DSM-5; Zeanah & Gleason 2015 (J Child Psychol Psychiatry); NICE CG26"
+  },
+  {
+    "stem": "A 15-year-old boy has a 3-year history of persistent antisocial behaviour including repeatedly stealing from shops, breaking into houses, fighting, and setting fire to a shed. He shows no remorse for his actions and blames others. He has been excluded from school. His parents describe him as 'always having been difficult' since early childhood. Which intervention has the strongest evidence base for treating this condition?",
+    "options": [
+      "Individual psychodynamic psychotherapy",
+      "Multisystemic therapy (MST)",
+      "Cognitive behavioural therapy (CBT) targeting anger alone",
+      "Inpatient admission to a psychiatric unit",
+      "Selective serotonin reuptake inhibitor (SSRI)"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — there is insufficient evidence for individual psychodynamic therapy in conduct disorder.",
+      "Correct. Multisystemic Therapy (MST) has the strongest evidence base for conduct disorder in adolescents (NICE CG158). MST is an intensive, home- and community-based intervention targeting multiple systems: (1) Individual — behavioural therapy, skill-building. (2) Family — improving parenting skills, discipline, monitoring, family communication. (3) School — academic support, liaison with teachers. (4) Peer — reducing antisocial peer association, promoting prosocial activities. (5) Community — involvement in community activities. NICE also recommends: Functional Family Therapy (FFT) and Multidimensional Treatment Foster Care (MTFC). Key: interventions should be delivered in the community, not in custodial/restrictive settings.",
+      "Incorrect — CBT for anger management may help but does not address the multiple systemic factors (family, school, peer) that maintain conduct disorder. MST is superior.",
+      "Incorrect — inpatient admission is reserved for crisis management (acute risk of harm to self/others, severe comorbid mental illness). Community-based intensive interventions (MST, FFT) are preferred.",
+      "Incorrect — no medication is specifically licensed for conduct disorder. Pharmacotherapy may treat comorbid conditions (ADHD, depression) but does not treat the core conduct disorder. NICE recommends psychosocial interventions as first-line."
+    ],
+    "teaching_point": "Conduct disorder (DSM-5: 312.8x) — persistent pattern of violating others' basic rights or age-appropriate norms. NICE CG158 (Antisocial Behaviour and Conduct Disorders in Children and Young People): (1) First-line — group-based parent training programmes (for children ≤12 years). (2) For adolescents — multisystemic therapy (MST), functional family therapy (FFT), multidimensional treatment foster care (MTFC). (3) CBT for anger management/social problem-solving as adjunct. (4) Pharmacotherapy ONLY for comorbid conditions (ADHD, depression, anxiety). (5) Intervention intensity depends on severity and persistence. Risk factors: family dysfunction, harsh/inconsistent discipline, parental criminality, peer rejection, neighbourhood deprivation. MRCPsych: MST is the most evidence-based intervention for adolescent conduct disorder.",
+    "domain": "child_adolescent",
+    "subdomain": "Conduct Disorder — Multisystemic Therapy (MST)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "conduct disorder",
+      "MST",
+      "multisystemic therapy",
+      "NICE CG158",
+      "antisocial behaviour"
+    ],
+    "source": "NICE CG158 (2013, updated 2017); Henggeler et al 2009 (MST); Woolfenden et al 2003 (Cochrane)"
+  },
+  {
+    "stem": "A 13-year-old girl presents with repetitive blinking, shoulder shrugging, throat clearing, and grunting sounds. These movements and sounds have been present for 18 months. The symptoms wax and wane in severity. She has no other medical problems. Which of the following is the most appropriate first-line treatment according to NICE?",
+    "options": [
+      "Clonidine 50 mcg daily",
+      "Aripiprazole 5 mg daily",
+      "CBT-based behavioural interventions (habit reversal training or exposure with response prevention)",
+      "Haloperidol 0.5 mg daily",
+      "Botulinum toxin injections"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — clonidine (alpha-2 agonist) is a second-line medication for tics if behavioural therapy is ineffective, not first-line.",
+      "Incorrect — aripiprazole is an antipsychotic used second-line for tics, not first-line. NICE suggests it may be considered if behavioural therapy is insufficient.",
+      "Correct. NICE NG170 (Tourette Syndrome 2022) recommends: (1) FIRST-LINE: Behavioural interventions — Habit Reversal Training (HRT) or Exposure with Response Prevention (ERP). These are CBT-based approaches. (2) SECOND-LINE: Medication if tics cause significant impairment and behavioural therapy is ineffective/declined. First-line medications: clonidine or guanfacine (alpha-2 agonists). (3) THIRD-LINE: Antipsychotics (aripiprazole, risperidone, haloperidol) — reserved for severe tics unresponsive to first- and second-line. Haloperidol was traditionally used but has higher side-effect burden.",
+      "Incorrect — haloperidol was the first FDA-approved drug for Tourette's but is now considered third-line due to side effects (extrapyramidal, tardive dyskinesia, weight gain, sedation).",
+      "Incorrect — botulinum toxin is used for focal simple motor tics (e.g. eye blinking, cervical tics) or vocal tics (e.g. coprolalia), but is not first-line general treatment."
+    ],
+    "teaching_point": "Tourette syndrome (TS) — DSM-5: multiple motor + one or more vocal tics, duration ≥12 months, onset before 18 years. NICE NG170 (2022) treatment algorithm: Step 1: Psychoeducation, watchful waiting (if mild). Step 2: CBT-based behavioural interventions — HRT (replacing tic with less noticeable competing response) or ERP (habituation by suppressing tic). Step 3: Medication — clonidine or guanfacine first-line; if no response → try the other alpha-2 agonist. Step 4: Antipsychotics (aripiprazole first, then risperidone, haloperidol). Step 5: Consider botulinum toxin for specific tics, or DBS (deep brain stimulation) for severe refractory cases. Comorbidities: ADHD (60%), OCD (50%), anxiety, anger dysregulation. MRCPsych: the shift to behavioural first-line (HRT/ERP) is a key recent guideline change.",
+    "domain": "child_adolescent",
+    "subdomain": "Tourette Syndrome — Treatment Algorithm (NICE NG170)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "Tourette",
+      "tics",
+      "habit reversal training",
+      "HRT",
+      "NICE NG170",
+      "clonidine"
+    ],
+    "source": "NICE NG170 (2022); Piacentini et al 2010 (JAMA); Roessner et al 2011 (ESSTS guidelines)"
+  },
+  {
+    "stem": "A 6-year-old boy has daytime wetting (enuresis) every day. He has never had any prolonged period of dryness. There is no history of painful urination, polydipsia, or abdominal mass. Urinalysis is normal. What is the most appropriate first-line management according to NICE?",
+    "options": [
+      "Immediately start desmopressin 200 mcg orally at bedtime",
+      "Refer to paediatric urology for surgical evaluation",
+      "Advise simple behavioural interventions: adequate fluid intake during the day, regular toileting schedule, and avoiding caffeine-based drinks. Enuresis alarm if these initial measures are insufficient",
+      "Start amitriptyline 25 mg at bedtime",
+      "Prescribe oxybutynin 2.5 mg twice daily"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — desmopressin (synthetic ADH) is a second-line option for nocturnal enuresis if alarm therapy is unsuccessful or inappropriate. It is not first-line, and especially not without trying behavioural measures first. Also, this is daytime wetting — desmopressin is primarily for nocturnal enuresis.",
+      "Incorrect — surgical referral is reserved for suspected structural abnormalities (which have been excluded by normal urinalysis and absence of other features).",
+      "Correct. NICE CG111 (Bedwetting/Enuresis in Children and Young People): Assessment — rule out organic causes (UTI, diabetes, neurological, constipation). First-line for all children: (1) Adequate fluid intake across the day (not fluid restriction). (2) Regular toileting schedule (every 2–3 hours). (3) Avoid caffeinated drinks and excessive evening fluids. (4) Enuresis alarm: first-line specific intervention for nocturnal enuresis — especially for children ≥7 years. (5) Desmopressin: first-line if alarm is inappropriate/declined, or for short-term use (e.g. sleepovers). For daytime wetting: (a) Treat constipation if present (very important — constipation is a major cause). (b) Address voiding dysfunction (timed voiding, adequate hydration, avoid holding manoeuvres). (c) Consider referral to paediatric continence service if no improvement.",
+      "Incorrect — tricyclic antidepressants (amitriptyline, imipramine) are NOT recommended first-line for enuresis due to side effect profile and risk of overdose. They were previously used but are now third-line.",
+      "Incorrect — oxybutynin (anticholinergic) is used for overactive bladder/detrusor overactivity, not as first-line for primary enuresis without evidence of voiding dysfunction."
+    ],
+    "teaching_point": "NICE CG111 (2010, updated 2025) — Enuresis/Bedwetting: (1) Primary nocturnal enuresis: alarm therapy first-line (effect size: ~70% become dry; relapse rate ~10–20%). Desmopressin if alarm unsuitable/declined or for short-term use. (2) Daytime wetting: treat constipation first, then address behavioural factors (timed voiding, adequate hydration). (3) Secondary enuresis (after ≥6 months dry): consider emotional/behavioural stressors, UTI, diabetes, constipation. (4) Combination therapy (alarm + desmopressin) for refractory cases. (5) Medication not recommended <5 years. Key NICE advice: 'Do not punish or blame the child.' Prevalence: nocturnal enuresis ~15–20% at age 5, decreasing with age. MRCPsych: aetiology (maturational delay, genetic, ADH deficiency, sleep arousal, constipation) and management algorithm are tested.",
+    "domain": "child_adolescent",
+    "subdomain": "Enuresis — NICE Management Guidelines",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "enuresis",
+      "bedwetting",
+      "alarm therapy",
+      "desmopressin",
+      "NICE CG111"
+    ],
+    "source": "NICE CG111 (2010, updated 2025); Brown et al 2009 (J Fam Pract); Nevéus et al 2010 (ICC recommendations)"
+  },
+  {
+    "stem": "A 9-year-old boy is referred for persistent refusal to go to school. He complains of stomach aches and headaches on school mornings, which resolve on weekends and holidays. He has been absent from school for 6 weeks. His parents are distressed and have tried reassurance and rewards. He has no other psychiatric symptoms. What is the most appropriate initial management step?",
+    "options": [
+      "Assess for underlying anxiety disorders (separation anxiety, social phobia) and develop a planned, graded return to school with multi-agency involvement",
+      "Immediately switch to home schooling to reduce distress",
+      "Prescribe fluoxetine 10 mg daily for presumed anxiety",
+      "Refer to social care for possible child protection concerns",
+      "Advise parents to ignore the protests and physically take him to school"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. School refusal (emotionally based school avoidance): (1) Assessment: identify underlying anxiety (separation anxiety, social phobia, generalised anxiety, specific phobia) or depression. (2) Management (NICE CG28, CG159; DfE guidance): (a) Multi-agency approach — school, parents, CAMHS, educational psychologist. (b) Graded return-to-school plan (systematic desensitisation) — starting with short, manageable periods at school, gradually increasing. (c) Address anxiety with CBT. (d) Parent training — reducing reassurance-seeking, managing protest behaviours calmly. (e) Treat underlying anxiety disorder if present. (f) Avoid long-term absence — early return is crucial. (g) Home schooling is NOT recommended as it reinforces avoidance.",
+      "Incorrect — home schooling reinforces the avoidance cycle and is associated with poorer outcomes. The goal is graded reintegration into the school environment.",
+      "Incorrect — medication is not first-line for school refusal. Psychological/behavioural interventions are first-line. Medication (SSRI) may be considered if there is a diagnosed anxiety disorder that has not responded to CBT.",
+      "Incorrect — school refusal is typically an anxiety-related difficulty, not a safeguarding concern. Social care referral would only be appropriate if there is evidence of abuse, neglect, or if parents are unable/unwilling to support the child's education.",
+      "Incorrect — physically forcing a child to school can increase anxiety, damage the parent-child relationship, and is not recommended. A planned, gradual approach is more effective and less traumatic."
+    ],
+    "teaching_point": "School refusal (emotionally based school avoidance): Prevalence ~1–5% of school-age children. Peak ages: 5–6 years (starting school) and 11–14 years (transition to secondary school). Differential: truancy (where child conceals absence, lacks anxiety, often with antisocial behaviour) vs school refusal (child is anxious, parents aware, child wants to avoid school-related distress). Management principles: (1) Early identification and intervention. (2) Multi-agency planning (school, family, CAMHS). (3) Graded exposure/return with reinforcement. (4) Treat underlying anxiety disorder (CBT ± SSRI). (5) Address school factors (bullying, academic pressure, peer relationships). (6) Contraindicated: ignoring protests, prolonged avoidance, punitive approaches. NICE CG28 (Depression in Children) and CG159 (Social Anxiety) are relevant for comorbid conditions. MRCPsych: distinguish school refusal from truancy; know management principles.",
+    "domain": "child_adolescent",
+    "subdomain": "School Refusal — Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "school refusal",
+      "anxiety",
+      "CAMHS",
+      "graded return",
+      "emotionally based school avoidance"
+    ],
+    "source": "NICE CG28; NICE CG159; DfE guidance (2022); Maynard et al 2018 (Cochrane); Elliott & Place 2019"
+  },
+  {
+    "stem": "A 14-year-old girl has been restricting her food intake for 8 months, with significant weight loss (BMI down to 14.8 kg/m²). She has intense fear of gaining weight and sees herself as 'fat' despite being obviously underweight. She exercises excessively. Which of the following is a criterion for urgent medical admission according to the Junior MARSIPAN guidelines?",
+    "options": [
+      "BMI of 15.5 kg/m²",
+      "Heart rate of 55 bpm sleeping",
+      "Serum potassium of 3.2 mmol/L (mild hypokalaemia)",
+      "Frequent daily exercise of 1 hour",
+      "Parents report she has lost 10% of her body weight over 6 months"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Incorrect — BMI < 15 kg/m² (or <0.7th centile for age) is a criterion for high medical risk. BMI 15.5 falls below the threshold for urgent physical monitoring but not necessarily emergency admission.",
+      "Incorrect — bradycardia (sleeping heart rate <45–50 bpm in adolescents, or <40 bpm in adults) is a criterion for admission. HR 55 bpm sleeping is not dangerously low.",
+      "Correct. Junior MARSIPAN (Management of Really Sick Patients with Anorexia Nervosa, 2012, updated 2020) criteria for urgent medical admission: ANY of the following — (1) BMI <15 kg/m² (or <0.7th centile). (2) Rapid weight loss (>1 kg/week). (3) Heart rate <45–50 bpm awake, <40 bpm sleeping. (4) Hypotension (systolic <90 mmHg), postural drop >10 mmHg. (5) Hypothermia (<35°C). (6) Abnormal ECG (QTc >450 ms, arrhythmias). (7) Electrolyte abnormalities — LOW potassium (<3.2 mmol/L is moderate hypokalaemia requiring admission), sodium, phosphate, magnesium. (8) Refeeding risk. Potassium <3.2 mmol/L in anorexia is a medical emergency due to risk of cardiac arrhythmia.",
+      "Incorrect — excessive exercise is a behavioural symptom requiring monitoring but is not in itself a criterion for urgent medical admission.",
+      "Incorrect — rapid weight loss (>1 kg/week) is a criterion for admission. 10% over 6 months does not meet the urgency threshold unless other criteria are met."
+    ],
+    "teaching_point": "Junior MARSIPAN guidelines (2020): Assessment of medical risk in adolescents with anorexia nervosa. HIGH RISK requiring urgent medical admission: (1) BMI <15 kg/m² (<0.7th centile). (2) Rapid weight loss >1 kg/week. (3) HR <45–50 bpm, systolic BP <90 mmHg, postural drop >10 mmHg, hypothermia <35°C. (4) ECG: QTc >450 ms. (5) Electrolyte disturbance (K <3.2, Na <130, PO4 <0.5). (6) Refeeding syndrome risk (starved >7 days with minimal intake). (7) Acute medical complications (seizure, arrhythmia, pancreatitis). Refeeding syndrome: occurs within 3–5 days of refeeding — characterised by hypophosphataemia, hypomagnesaemia, hypokalaemia, oedema, cardiac failure. Prevention: start refeeding slowly (5–10 kcal/kg/day initially), supplement phosphate/potassium/magnesium, monitor ECG and electrolytes daily. MRCPsych: MARSIPAN guidelines are essential for exam and clinical practice.",
+    "domain": "child_adolescent",
+    "subdomain": "Junior MARSIPAN — Medical Admission Criteria",
+    "difficulty": "hard",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "anorexia nervosa",
+      "MARSIPAN",
+      "refeeding syndrome",
+      "medical admission"
+    ],
+    "source": "Junior MARSIPAN 2020 (RCPsych); NICE NG69 (Eating Disorders); Royal College of Psychiatrists"
+  },
+  {
+    "stem": "A 16-year-old boy presents with a 3-month history of depressed mood, anhedonia, fatigue, poor concentration, and suicidal ideation. He has no previous psychiatric history and there is no family history of bipolar disorder. PHQ-9 score is 18 (moderate-severe). He has no psychotic symptoms and no substance misuse. What is the most appropriate first-line management according to NICE?",
+    "options": [
+      "Start fluoxetine 10 mg daily immediately without psychological therapy",
+      "Refer for a specific psychological therapy (CBT, IPT) as first-line, combined with fluoxetine if moderate to severe depression",
+      "Hospital admission due to suicidal ideation",
+      "Start sertraline 50 mg daily",
+      "Start venlafaxine 75 mg daily"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Incorrect — NICE NG134 (Depression in Children and Young People): For moderate-severe depression, offer psychological therapy FIRST (CBT or IPT). Antidepressants (fluoxetine) are offered COMBINED with psychological therapy, not alone as first-line. Fluoxetine alone is only if psychological therapy is declined or unavailable.",
+      "Correct. NICE NG134 (2019, updated 2022) treatment algorithm for moderate-severe depression in children (12–18 years): (1) Offer a specific psychological therapy (CBT, IPT, or short-term psychoanalytic therapy) — 3 months duration. (2) If no response after 4–6 sessions, OR if depression is severe with significant functional impairment, combine psychological therapy with fluoxetine. (3) FLUOXETINE is the ONLY antidepressant licensed for adolescents in the UK (and recommended by NICE). Starting dose: 10 mg daily → increase to 20 mg after 1 week if tolerated. (4) Contraindicated: SSRIs other than fluoxetine (sertraline, citalopram, escitalopram are NOT recommended for first-line in adolescents due to lack of evidence and possible increased suicidal ideation). Venlafaxine is contraindicated.",
+      "Incorrect — admission is not automatically indicated for suicidal ideation. Assess risk: intent, plan, means, protective factors. Most adolescents with suicidal ideation can be managed in the community with intensive support (CAMHS, family, school) and a safety plan. Admission is indicated if there is high risk (clear intent, lethal means, inadequate supervision).",
+      "Incorrect — sertraline is NOT recommended as first-line for adolescents. NICE recommends FLUOXETINE as the ONLY first-line antidepressant in this age group (after psychological therapy).",
+      "Incorrect — venlafaxine is CONTRAINDICATED in children and adolescents due to increased risk of suicidal thoughts/behaviour and hostility (FDA black box warning)."
+    ],
+    "teaching_point": "NICE NG134 (2019) — Depression in Children and Young People: (1) Mild depression: watchful waiting and/or psychological therapy (CBT, IPT). No antidepressants. (2) Moderate-severe depression: (a) First-line: specific psychological therapy (CBT, IPT) — 3-month course. (b) If inadequate response after 4–6 sessions or severe: fluoxetine (10–20 mg) COMBINED with psychological therapy. (c) Second-line after failed fluoxetine: try another psychological therapy, add CBT if not already done, consider sertraline or citalopram under specialist supervision. (d) Venlafaxine, paroxetine, and TCAs are NOT recommended for adolescents. Key drug safety: fluoxetine is the only antidepressant with favourable risk-benefit ratio in adolescents. Black box warning for SSRIs in under-18s for increased suicidal thoughts (number needed to harm ~100–150). MRCPsych: fluoxetine as first-line in adolescent depression is high-yield.",
+    "domain": "child_adolescent",
+    "subdomain": "Adolescent Depression — NICE Treatment Algorithm",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "depression",
+      "fluoxetine",
+      "NICE NG134",
+      "CBT",
+      "adolescent"
+    ],
+    "source": "NICE NG134 (2019, updated 2022); Cipriani et al 2016 (Lancet); March et al 2004 (TADS study)"
+  }
+]

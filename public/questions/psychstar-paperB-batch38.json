@@ -1,0 +1,391 @@
+[
+  {
+    "stem": "A 72-year-old man with Alzheimer's disease (MMSE 20) lives with his wife. He has become increasingly suspicious that his neighbours are entering the house and stealing his belongings. He has started barricading doors at night. He has no significant physical health problems. Which is the most appropriate first-line management?",
+    "options": [
+      "Risperidone 0.5mg daily",
+      "Psychological interventions including functional analysis of behaviour and environmental modification, antipsychotics only if the person is severely distressed or at risk",
+      "Increase donepezil to 15mg",
+      "Diazepam PRN for agitation",
+      "Admission to a care home"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Antipsychotics should NOT be first-line for BPSD. They are reserved for severe distress/risk after non-pharmacological interventions have been tried.",
+      "Correct. NICE NG97 (2018) clearly states: (1) Assess for underlying causes (pain, infection, sensory impairment, medication, environment). (2) Offer non-pharmacological interventions first: person-centred care, environmental adaptations, validation therapy, activity-based interventions, carer training. (3) Antipsychotics only if the person is severely distressed or there is risk of harm to self/others — and only after ECG. The key: antipsychotics should not be used as first-line for mild-moderate BPSD. NICE also recommends reviewing antipsychotic use at 3-6 months.",
+      "Donepezil 10mg is the maximum licensed dose for Alzheimer's. Increasing does not treat BPSD symptoms.",
+      "Benzodiazepines are not recommended for BPSD due to disinhibition, falls, and cognitive impairment.",
+      "Admission is premature without trying community-based non-pharmacological and, if needed, pharmacological management."
+    ],
+    "teaching_point": "NICE NG97 (2018) BPSD algorithm: Step 1 — Identify and treat physical causes (pain, constipation, infection, sensory impairment). Step 2 — Offer non-pharmacological interventions: functional analysis, person-centred care, environmental adaptation, meaningful activity, carer training (e.g., STAR programme, START intervention). Step 3 — If severe distress/risk: risperidone (0.5-2mg) or haloperidol (0.5-3mg) with ECG monitoring. Antipsychotics increase stroke risk and mortality in dementia. Review need at 3-6 months. MRCPsych: BPSD management is one of the most tested topics in Old Age.",
+    "domain": "old_age",
+    "subdomain": "Dementia — BPSD Stepwise Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "BPSD",
+      "dementia",
+      "NICE NG97",
+      "non-pharmacological"
+    ],
+    "source": "NICE NG97 (2018); Ballard et al 2018 (Lancet)"
+  },
+  {
+    "stem": "A 7-year-old boy presents with inattention, hyperactivity (constant fidgeting, leaving seat in class), impulsivity (blurting out answers, interrupting). Symptoms have been present since age 4 and occur in both school and home settings. He has no other mental health concerns and no developmental delay. What is the most appropriate first-line pharmacological treatment?",
+    "options": [
+      "Methylphenidate (immediate release)",
+      "Atomoxetine",
+      "Dexamfetamine",
+      "Methylphenidate extended release or immediate release as first-line after specialist assessment",
+      "Guanfacine"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Methylphenidate immediate release is a first-line option alongside modified-release formulations, but NICE NG87 advises tailoring choice to the child's needs regarding duration of cover, compliance, and risk of diversion.",
+      "Atomoxetine is second-line (non-stimulant) — used if methylphenidate is ineffective or poorly tolerated, or if there is risk of substance misuse/diversion.",
+      "Dexamfetamine is second-line after methylphenidate, not first-line.",
+      "Correct. NICE NG87 (2018) recommends: (1) Offer methylphenidate (either MR or IR) as first-line pharmacological treatment for ADHD. (2) If methylphenidate is ineffective or poorly tolerated after 6-week trial, offer lisdexamfetamine or dexamfetamine. (3) If two stimulant trials have failed, consider atomoxetine (non-stimulant) or guanfacine (for children/adolescents). Key point: medication should only be offered after a comprehensive specialist assessment.",
+      "Guanfacine (non-stimulant) is an option if methylphenidate and lisdexamfetamine are ineffective/not tolerated — third-line."
+    ],
+    "teaching_point": "NICE NG87 (2018) ADHD treatment algorithm: Children ≥ 6 years — first-line: methylphenidate (IR or MR). If ineffective/poorly tolerated after 6-week trial: lisdexamfetamine or dexamfetamine. If ineffective: atomoxetine or guanfacine. Note on titration: start low, titrate every 1-2 weeks to optimal dose (response and tolerability). Monitoring: height, weight, BP, pulse, appetite — at baseline and every 3-6 months. MRCPsych: the first-line recommendation (methylphenidate) for children is frequently tested.",
+    "domain": "child_adolescent",
+    "subdomain": "ADHD — Pharmacological Treatment",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "ADHD",
+      "methylphenidate",
+      "NICE NG87",
+      "stimulant"
+    ],
+    "source": "NICE NG87 (2018)"
+  },
+  {
+    "stem": "A 34-year-old man with chronic schizophrenia maintained on aripiprazole depot (400mg monthly) for 2 years presents with new-onset orofacial dyskinesia, choreiform movements of the fingers, and a rocking movement of the trunk. Which of the following best describes this condition and its management?",
+    "options": [
+      "It is acute dystonia — treat with procyclidine",
+      "It is tardive dyskinesia — the first step is to review the need for antipsychotic; consider switching to clozapine if psychosis is stable",
+      "It is akathisia — treat with propranolol",
+      "It is Parkinsonism — treat with anticholinergic",
+      "It is neuroleptic malignant syndrome — admit for urgent medical management"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Acute dystonia occurs within hours to days of starting/increasing antipsychotic, presents with sustained muscle spasms (torticollis, oculogyric crisis) — not the orofacial dyskinesia/chorea seen here.",
+      "Correct. Tardive dyskinesia (TD) is a late-onset extrapyramidal side effect of antipsychotics, typically occurring after months-years of treatment. Features: orofacial dyskinesia (tongue protrusion, lip smacking, grimacing), choreiform movements of limbs/trunk, rocking/pelvic thrusting. Risk factors: older age, female, longer treatment duration, higher antipsychotic dose, mood disorders. Management: (1) Reduce or stop antipsychotic if possible; (2) Switch from typical to atypical (especially aripiprazole or clozapine — clozapine has lowest TD risk); (3) Consider clozapine for treatment-resistant TD; (4) VMAT2 inhibitors (valbenazine, deutetrabenazine) are approved in USA but not widely used in UK.",
+      "Akathisia is subjective restlessness with objective pacing/fidgeting — not choreiform movements.",
+      "Parkinsonism includes rigidity, bradykinesia, tremor (pill-rolling) — not choreiform movements or orofacial dyskinesia.",
+      "NMS presents with rigidity, hyperthermia, autonomic instability, and elevated CK — not with chronic choreiform movements."
+    ],
+    "teaching_point": "Tardive dyskinesia: Prevalence ~20-30% with typical antipsychotics, ~10-15% with atypicals. Highest risk: clozapine (lowest), olanzapine, quetiapine, risperidone, haloperidol (highest). AIMS (Abnormal Involuntary Movement Scale) for monitoring. Management algorithm: (1) Antipsychotic reduction if possible; (2) Switch to quetiapine or clozapine (lowest TD risk); (3) VMAT2 inhibitors (valbenazine, deutetrabenazine) — new evidence-based options; (4) Clozapine is also effective for TD itself. MRCPsych: distinguish TD from other EPS. Aripiprazole has relatively low TD risk, but no antipsychotic is risk-free.",
+    "domain": "general_adult",
+    "subdomain": "Schizophrenia — Tardive Dyskinesia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "tardive dyskinesia",
+      "antipsychotic",
+      "AIMS",
+      "EPS"
+    ],
+    "source": "Maundley Prescribing Guidelines 14th ed; Correll & Kane 2010 (World Psychiatry)"
+  },
+  {
+    "stem": "A 52-year-old woman with recurrent major depressive disorder has failed adequate trials of sertraline, citalopram, venlafaxine, and duloxetine. She is currently on mirtazapine 45mg with minimal response after 8 weeks. She has no contraindications. Which is the next most appropriate step?",
+    "options": [
+      "Combine mirtazapine with venlafaxine (California rocket fuel)",
+      "Refer for ECT",
+      "Augment with lithium or an antipsychotic (aripiprazole, quetiapine, olanzapine)",
+      "Add a benzodiazepine",
+      "Switch to phenelzine (MAOI)"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "The mirtazapine + venlafaxine combination ('California rocket fuel') is a strategy for treatment-resistant depression but augmentation with lithium or antipsychotic has stronger evidence as the next step.",
+      "ECT is reserved for severe, life-threatening depression (high suicide risk, catatonia, food refusal) or when multiple medication strategies have failed. Augmentation should be tried first.",
+      "Correct. For treatment-resistant depression (failed ≥ 2 antidepressants), NICE NG222 recommends: (1) Augmentation with lithium (first-line augmentation) OR an antipsychotic (aripiprazole, quetiapine, olanzapine). (2) Lithium augmentation has the best evidence base (START-D and large-scale trials) and also reduces suicide risk. (3) Alternatively, augmentation with a second-generation antipsychotic (aripiprazole 2.5-15mg, quetiapine 150-300mg, olanzapine 5-15mg). (4) Combination antidepressants (e.g., adding mirtazapine to SSRI/SNRI) is another option but evidence is weaker. This patient has failed 4 antidepressants — augmentation is the recommended next step.",
+      "Benzodiazepines are not recommended for depression treatment and do not have antidepressant effects.",
+      "MAOIs are an option for treatment-resistant depression but are third/fourth-line due to dietary restrictions and interaction profile. Augmentation with lithium/antipsychotic is preferred."
+    ],
+    "teaching_point": "Treatment-resistant depression algorithm (NICE NG222, 2022; BAP guidelines): Step 1 — Optimise dose and duration (6-8 weeks at therapeutic dose). Step 2 — Switch to alternative class (SSRI → SNRI → NaSSA). Step 3 — Augmentation: lithium (first-line, 600-1200mg, 0.4-1.0 mmol/L) or antipsychotic (aripiprazole, quetiapine, olanzapine). Step 4 — Combination: add mirtazapine to SSRI/SNRI ('California rocket fuel' has ~40-50% response). Step 5 — ECT for severe/refractory. Step 6 — MAOI (phenelzine, tranylcypromine). MRCPsych: the augmentation step (lithium or antipsychotic) after 2 failed antidepressants is a core knowledge point.",
+    "domain": "general_adult",
+    "subdomain": "Depression — Treatment-Resistant Algorithm",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "TRD",
+      "treatment-resistant",
+      "augmentation",
+      "lithium",
+      "aripiprazole"
+    ],
+    "source": "NICE NG222 (2022); Maudsley Prescribing Guidelines 14th ed; BAP depression guidelines"
+  },
+  {
+    "stem": "A 65-year-old woman with Parkinson's disease presents with visual hallucinations of people and animals in her home. She has no insight into these experiences. She is on levodopa/carbidopa. MMSE is 26/30. She is not distressed by the hallucinations. What is the most appropriate management?",
+    "options": [
+      "Start risperidone 1mg daily",
+      "Reduce levodopa dose gradually",
+      "Start donepezil",
+      "Reassure, consider reducing dopaminergic medication in conjunction with neurology, and if treatment is needed for psychosis, consider quetiapine or clozapine (not risperidone/olanzapine which can worsen parkinsonism)",
+      "Start olanzapine 5mg daily"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Risperidone can worsen Parkinson's motor symptoms due to D2 blockade — avoid in Parkinson's disease psychosis (PDP).",
+      "Reducing levodopa may worsen motor symptoms and is a specialist decision coordinated with neurology. Only done if hallucinations are distressing.",
+      "Donepezil is not first-line for PDP. Its evidence is limited.",
+      "Correct. Management of Parkinson's disease psychosis (PDP): (1) Assess for physical causes (infection, metabolic). (2) If hallucinations are not distressing, no treatment needed — explain to the patient/carer. (3) If treatment needed: reduce dopaminergic medication (in conjunction with neurology). (4) If further treatment needed: clozapine (lowest risk of motor worsening; requires FBC monitoring) or quetiapine (weak D2 blocker, less motor worsening but less evidence). Pimavanserin (5-HT2A inverse agonist) is licensed in USA but not UK. KEY: risperidone, olanzapine, haloperidol are relatively contraindicated in PDP because they worsen motor symptoms.",
+      "Olanzapine can worsen Parkinsonism. The first-line options in PDP are clozapine or quetiapine which have minimal motor side effects."
+    ],
+    "teaching_point": "Parkinson's disease psychosis (PDP): Hallucinations (typically visual, formed, benign initially) are common in Parkinson's (~40-50%). Treatment algorithm: (1) Exclude medical causes. (2) If mild and non-distressing: observe, modify sensory deficits (glasses, hearing aids). (3) Reduce parkinsonian medication (if possible, coordinate with neurology). (4) Antipsychotic: clozapine (first-line — most evidence, no motor worsening, but mandatory monitoring) or quetiapine (second-line, less evidence, no monitoring required). Do NOT use: risperidone, olanzapine, haloperidol, aripiprazole — all worsen Parkinsonism. MRCPsych: clozapine is the antipsychotic of choice in Parkinson's psychosis.",
+    "domain": "old_age",
+    "subdomain": "Parkinson's Disease Psychosis — Management",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "Parkinson's",
+      "psychosis",
+      "clozapine",
+      "quetiapine",
+      "hallucinations"
+    ],
+    "source": "Cummings et al 2014 (Neurology); Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 15-year-old boy is referred after his parents found self-harm cuts on his forearms. He reports low mood, anhedonia, poor sleep, and difficulty concentrating at school. He denies suicidal intent but admits to self-harming as a way to cope with emotional distress. He has no psychotic features. What is the most appropriate first-line psychological therapy according to NICE?",
+    "options": [
+      "Cognitive Behavioural Therapy (CBT)",
+      "Digital CBT (computerised)",
+      "Interpersonal Therapy (IPT)",
+      "Cognitive Behavioural Therapy (CBT) or Interpersonal Therapy (IPT) for the depression AND assessment for self-harm management per NICE NG134",
+      "Family therapy"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "CBT alone is a first-line option for adolescent depression BUT management of self-harm requires separate consideration per NICE guidance.",
+      "Digital CBT is not recommended as first-line for moderate-severe adolescent depression with self-harm.",
+      "IPT alone is first-line but the self-harm requires specific assessment and management.",
+      "Correct. NICE NG134 (2019) for depression in children/young people: (1) For moderate-severe depression: offer CBT or IPT (specifically adapted for adolescents) as first-line psychological therapy. (2) If CBT/IPT ineffective or decline, consider fluoxetine (the only SSRI recommended for adolescents). (3) For self-harm (NICE NG225, 2022): comprehensive psychosocial assessment, risk management plan, and offer therapeutic intervention (DBT for self-harm is recommended for adolescents). Both guidelines apply simultaneously — treat depression AND manage self-harm. Family-based interventions (FBT) have developing evidence but are not first-line over CBT/IPT.",
+      "Family therapy has some evidence for adolescent depression but CBT/IPT are the recommended first-line psychological therapies."
+    ],
+    "teaching_point": "NICE NG134 (2019) adolescent depression: Mild depression — active monitoring for 2 weeks, then low-intensity CBT. Moderate-severe — high-intensity psychological therapy (CBT, IPT) as first-line; if unavailable/ineffective, fluoxetine (20mg, max 60mg). Fluoxetine is the ONLY SSRI recommended for under-18s — other SSRIs have increased risk of suicidal ideation. NICE NG225 (2022) self-harm: comprehensive biopsychosocial assessment, risk formulation, offer DBT (for adolescents with recurrent self-harm). MRCPsych: the combination of fluoxetine and CBT is the gold standard for adolescent depression.",
+    "domain": "child_adolescent",
+    "subdomain": "Adolescent Depression — Treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "depression",
+      "CBT",
+      "IPT",
+      "fluoxetine",
+      "self-harm"
+    ],
+    "source": "NICE NG134 (2019); NICE NG225 (2022)"
+  },
+  {
+    "stem": "A 30-year-old woman with a diagnosis of emotionally unstable personality disorder (EUPD/BPD) has been engaging in DBT for 6 months. She presents with acute suicidal crisis after an argument with her partner. She has a history of 3 previous overdose presentations. On assessment, she is tearful but engages well, accepts support, and considers a safety plan. What is the most appropriate emergency management?",
+    "options": [
+      "Offer admission to psychiatric ward",
+      "Brief crisis intervention, collaborative safety planning, and same-day crisis team follow-up — admission is generally not helpful in BPD and may reinforce crisis behaviour",
+      "Intramuscular olanzapine for agitation",
+      "Admit under Section 2 if she refuses to stay voluntarily",
+      "Increase DBT sessions to daily"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Admission for BPD crisis is generally NOT recommended. NICE CG78 advises avoiding admission unless there is an immediate risk that cannot be managed in the community. Admission may reinforce crisis-driven help-seeking and disrupt therapeutic progress.",
+      "Correct. NICE CG78 (2009, updated) for BPD crisis: (1) Community-based crisis resolution is preferred. (2) Collaborative crisis planning with the patient. (3) Safety planning — not a 'no suicide contract' but a practical plan for coping and accessing support. (4) Avoid admission unless there is clear, serious, imminent risk that community services cannot manage. (5) If admission is required, it should be short, planned, and with a clear discharge plan. The evidence shows that admission for BPD can lead to dependency, regression, and increased self-harm in some patients.",
+      "Medication should not be used routinely for crisis in BPD. Short-term sedative medication may be considered if distress is extreme but benzodiazepines and antipsychotics should be avoided as routine.",
+      "Section 2 may be indicated if there is imminent, serious risk that the patient refuses to cooperate with. But this patient is engaging, accepting support, and agrees to a safety plan — no grounds for detention.",
+      "Increasing DBT sessions is a medium-term decision, not an emergency intervention."
+    ],
+    "teaching_point": "BPD crisis management (NICE CG78): Principles — (1) Manage in community whenever possible. (2) Crisis plans should be co-produced. (3) Avoid admission unless risk is imminent and serious AND cannot be managed in the community. (4) If admission needed: short, planned, structured, with discharge plan from day 1. (5) Do not use medication as first-line or sole intervention. (6) The 'admission paradox' — BPD patients often deteriorate in hospital due to regression, ward-induced dependency, and unhelpful peer dynamics. MRCPsych: the recommendation to AVOID admission in BPD is frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Personality Disorders — BPD Crisis Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "BPD",
+      "crisis",
+      "self-harm",
+      "admission",
+      "NICE CG78"
+    ],
+    "source": "NICE CG78 (2009, updated 2018)"
+  },
+  {
+    "stem": "A 22-year-old man with a first episode of psychosis is started on olanzapine 10mg daily. After 4 weeks, his PANSS score has reduced by 30%. He has gained 3kg and reports excessive sleepiness during the day. What is the most appropriate next step?",
+    "options": [
+      "Switch to clozapine",
+      "Continue olanzapine and add metformin for weight",
+      "Given 30% improvement, continue olanzapine for another 4 weeks and manage side effects — full response may take 8-12 weeks",
+      "Switch to aripiprazole due to poor tolerability, despite partial response",
+      "Reduce olanzapine to 5mg"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Clozapine is indicated for treatment-resistant schizophrenia after ≥ 2 adequate antipsychotic trials. This patient has responded (> 20% PANSS reduction) — clozapine would be premature.",
+      "Metformin may help weight gain but daytime sleepiness is a dose-related side effect of olanzapine. The patient has had only 4 weeks of treatment — the current plan should be optimised first.",
+      "Correct. A 30% PANSS reduction at 4 weeks is a partial but meaningful response. The NICE CG178 guideline recommends continuing antipsychotic for 8-12 weeks to assess full response. Side effects (weight gain 3kg, sedation) are common with olanzapine. Management should include: (1) Continue olanzapine at 10mg, (2) Monitor weight and metabolic parameters, (3) Psychoeducation about diet and physical activity, (4) If sedation persists, consider evening dosing or dose reduction (to 7.5mg or 5mg). Switching at 4 weeks is premature given the positive trajectory.",
+      "Switching is one option for intolerable side effects, but aripiprazole is less sedating and can be considered. However, at 4 weeks with a 30% improvement, continuing with optimisation is standard. The switch decision should be discussed with the patient weighing efficacy vs. tolerability.",
+      "Reducing to 5mg may be appropriate if side effects are problematic, but the 30% improvement at 10mg suggests the dose is effective. Dose reduction risks losing therapeutic benefit."
+    ],
+    "teaching_point": "Antipsychotic trial duration: 8-12 weeks at therapeutic dose before declaring lack of response. NICE CG178: assess response by 4 weeks — if > 20-25% PANSS improvement, continue to 8-12 weeks. If minimal improvement by 2-4 weeks, consider clozapine earlier (the '2-week rule': if no improvement at 2 weeks, poor response at 12 weeks is likely). Side effect management: weight gain — dietetic input, switching to lower-risk antipsychotic (aripiprazole, amisulpride). Sedation — dose in the evening, dose reduction, or switch. MRCPsych: the 8-12 week trial duration and the 2-week response prediction rule are important.",
+    "domain": "general_adult",
+    "subdomain": "Schizophrenia — Antipsychotic Trial Duration",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "antipsychotic",
+      "olanzapine",
+      "response",
+      "treatment duration"
+    ],
+    "source": "NICE CG178 (2014); Leucht et al 2005 (Arch Gen Psychiatry)"
+  },
+  {
+    "stem": "A 48-year-old woman presents with episodes of intense anxiety, a sense of unreality (depersonalisation), and fear that she might be going crazy. These episodes occur suddenly, peak within 10 minutes, and include palpitations, sweating, trembling, choking sensation, chest pain, and fear of dying. She has had 5 such episodes in the past 3 weeks. She has started avoiding going to the supermarket and using public transport. What is the most likely diagnosis?",
+    "options": [
+      "Panic disorder with agoraphobia",
+      "Generalised anxiety disorder",
+      "Agoraphobia without panic",
+      "Specific phobia (situational type)",
+      "Health anxiety (illness anxiety disorder)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. DSM-5 criteria for panic disorder: (1) Recurrent unexpected panic attacks, (2) ≥ 1 month of persistent worry about additional attacks or maladaptive behavioural change (avoidance), (3) Not better explained by substances/medical condition. This patient has clear panic attacks (abrupt onset, crescendo in 10 min, multiple physical + cognitive symptoms). She now avoids situations where escape might be difficult (supermarket, public transport) — this is agoraphobia. Panic disorder with agoraphobia is the most common presentation in clinical settings.",
+      "GAD is chronic worry about multiple domains, not characterised by acute panic episodes with marked physical symptoms.",
+      "Agoraphobia is the fear/avoidance of situations from which escape might be difficult; it can occur with or without panic disorder. Here, the panic attacks preceded the avoidance, making panic disorder primary.",
+      "Specific phobia is fear of a specific object or situation, does not involve recurrent unexpected panic attacks.",
+      "Health anxiety (illness anxiety disorder) involves preoccupation with having a serious illness despite medical reassurance — this patient's fear is of having more panic attacks, not of having a specific disease."
+    ],
+    "teaching_point": "Panic disorder (DSM-5): Unexpected panic attacks + worry about recurrence/impact + maladaptive avoidance or behavioural change. Agoraphobia: fear/avoidance of ≥ 2 of: public transport, open spaces, enclosed spaces, crowds, being outside the home alone. Treatment: NICE CG113 — (1) Psychoeducation about panic (explain the physiological basis), (2) CBT for panic disorder (including interoceptive exposure), (3) SSRI (sertraline first-line) if CBT unavailable/declined. Benzodiazepines are NOT recommended. MRCPsych: the distinction between panic disorder with and without agoraphobia is tested.",
+    "domain": "general_adult",
+    "subdomain": "Anxiety Disorders — Panic Disorder & Agoraphobia",
+    "difficulty": "easy",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "panic disorder",
+      "agoraphobia",
+      "DSM-5",
+      "diagnosis"
+    ],
+    "source": "DSM-5; NICE CG113 (2011)"
+  },
+  {
+    "stem": "A 42-year-old woman with a history of childhood sexual abuse presents with multiple physical complaints over 5 years. These include chronic pelvic pain, functional seizures (non-epileptic attack disorder — NEAD), fatigue, and irritable bowel syndrome. She has seen multiple specialists, had numerous normal investigations, and is frustrated that 'no one can find what's wrong'. What is the most appropriate approach to her care?",
+    "options": [
+      "Refer to a tertiary centre for further investigations",
+      "Explain firmly that there is no organic pathology and refer for psychiatric treatment",
+      "Acknowledge her symptoms as real, provide a positive diagnosis of functional neurological disorder/somatic symptom disorder, assign a consistent key worker, and offer CBT adapted for functional disorders",
+      "Start olanzapine for her multiple symptoms",
+      "Suggest she may benefit from alternative medicine approaches"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Further investigations without clear clinical indications will reinforce illness behaviour and confirm her belief that something is being missed. This approach is harmful.",
+      "Confrontational negation of the experience ('there's nothing wrong') is not therapeutic and damages the doctor-patient relationship.",
+      "Correct. Management of functional/somatoform disorders: (1) Acknowledge symptoms as REAL and validate the patient's experience (the symptoms are genuinely experienced, just not explained by structural pathology). (2) Offer a positive diagnosis (explain the mind-body connection — e.g., stress, emotion, past trauma can influence physical sensations). (3) Assign a consistent key worker (GP or specialist) — avoid doctor shopping. (4) CBT adapted for functional disorders has the strongest evidence base. (5) Graded activity/exercise programmes. (6) Antidepressants (SSRI/SNRI) may help with pain and associated anxiety/depression.",
+      "Antipsychotics are not indicated for somatic symptom disorder.",
+      "Alternative medicine has limited evidence and may delay evidence-based treatment."
+    ],
+    "teaching_point": "Functional neurological disorder (FND)/Somatic symptom disorder: Management principles (NICE guidelines, Stone et al 2010). (1) Make a POSITIVE diagnosis — don't just exclude organic disease. (2) Communicate the diagnosis using a biopsychosocial framework: 'These symptoms are real and caused by a problem with how your brain is processing signals, not by structural damage.' (3) Consistent key clinician. (4) CBT is first-line psychological treatment. (5) Physiotherapy/occupational therapy for functional motor symptoms. (6) Antidepressants for co-morbid depression/anxiety. Avoid: repeated investigations, confrontation, multiple specialists without coordination. MRCPsych: FND/NEAD management is a common exam topic.",
+    "domain": "general_adult",
+    "subdomain": "Functional Neurological Disorder — Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "FND",
+      "NEAD",
+      "functional",
+      "somatisation",
+      "CBT"
+    ],
+    "source": "Stone et al 2010 (Pract Neurol); NICE guidelines"
+  },
+  {
+    "stem": "A 35-year-old man is referred from the gastroenterology clinic. He has been investigated extensively for chronic diarrhoea and abdominal pain. All tests normal. He also reports burning mouth pain for which dental/oral medicine found no cause. He believes he has a 'rare autoimmune disease that doctors keep missing'. His GP records show multiple ED attendances and private specialist consultations. He feels angry and dismissed by doctors. What is the most likely diagnosis?",
+    "options": [
+      "Somatic symptom disorder",
+      "Illness anxiety disorder (hypochondriasis)",
+      "Factitious disorder",
+      "Malingering",
+      "Delusional disorder — somatic type"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Somatic symptom disorder requires prominent somatic symptoms that are distressing AND excessive thoughts/feelings/behaviours related to them. This patient's primary issue is the preoccupation with having an UNDIAGNOSED DISEASE, not the somatic symptoms themselves (though present).",
+      "Correct. DSM-5 illness anxiety disorder: (1) Preoccupation with having or acquiring a serious illness. (2) Somatic symptoms are absent or mild. (3) High health anxiety, easily alarmed about health. (4) Excessive health-related behaviours (checking, seeking reassurance, internet search). (5) Illness preoccupation for ≥ 6 months. This patient's core feature is the conviction of having a rare undiagnosed disease despite negative tests. He 'doctor shops' and is angry about being dismissed — typical of illness anxiety disorder.",
+      "Factitious disorder involves intentional feigning of physical/psychological symptoms motivated by assuming the sick role (external incentives absent). This patient is not feigning symptoms — he genuinely believes he is ill.",
+      "Malingering involves intentional feigning/exaggeration for external benefit (financial compensation, avoiding work). No evidence of this here.",
+      "Somatic delusional disorder involves a fixed, false belief about having a disease that is held with delusional intensity. This patient's belief may be overvalued rather than delusional — he may partially accept that tests are normal but remains unconvinced. The key: does he hold the belief with absolute conviction despite all evidence? If yes, consider delusional disorder."
+    ],
+    "teaching_point": "Illness anxiety disorder (DSM-5): Previously called hypochondriasis. Key features: (1) Preoccupation with having a serious illness. (2) Somatic symptoms are mild/absent (distinguish from somatic symptom disorder where somatic symptoms are prominent). (3) High health-related anxiety. (4) Reassurance-seeking but transiently reassured (distinguish from somatic delusion where belief is fixed). Treatment: CBT for health anxiety (NICE recommends), SSRIs may help (fluoxetine, paroxetine, sertraline). MRCPsych: the key distinction is illness anxiety (fear of getting/having a disease) vs somatic symptom disorder (distress about actual physical symptoms) vs delusional disorder (fixed false belief with delusional intensity).",
+    "domain": "general_adult",
+    "subdomain": "Somatoform — Illness Anxiety Disorder",
+    "difficulty": "hard",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "illness anxiety",
+      "hypochondriasis",
+      "DSM-5",
+      "health anxiety"
+    ],
+    "source": "DSM-5; NICE guidelines for health anxiety; Tyrer et al 2014 (Lancet)"
+  },
+  {
+    "stem": "A 60-year-old man with a 30-year history of schizophrenia, maintained on risperidone 6mg daily, has persistent negative symptoms (social withdrawal, apathy, poor motivation) and cognitive difficulties. His positive symptoms (delusions, hallucinations) are well-controlled. His negative symptoms have been stable for 3 years. He scores 30/30 on PANSS positive subscale and 35/30 on negative subscale. What is the most appropriate management?",
+    "options": [
+      "Start clozapine for negative symptoms",
+      "Offer cognitive remediation therapy and consider add-on therapy with antidepressants if indicated; clozapine is not indicated for primary negative symptoms without treatment resistance",
+      "Increase risperidone to 8mg",
+      "Start donepezil for cognitive symptoms",
+      "Refer for ECT"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Clozapine is indicated for treatment-resistant schizophrenia (≥ 2 failed antipsychotic trials). This patient has stable positive symptoms on risperidone — he does NOT have treatment-resistant schizophrenia. Clozapine should not be used for negative symptoms alone.",
+      "Correct. Management of negative symptoms in schizophrenia: (1) Distinguish primary negative symptoms (part of the illness) from secondary negative symptoms (due to positive symptoms, depression, medication side effects, or social deprivation). (2) If secondary, treat the cause (e.g., adjust medication for EPS, treat depression). (3) If primary, evidence-based approaches include: cognitive remediation therapy (CRT), cognitive behavioural therapy for psychosis (CBTp), and social skills training. (4) Augmentation with antidepressants (SSRI, mirtazapine) has modest evidence. (5) NICE CG178 recommends: consider augmenting antipsychotic with psychological therapy (CBTp, CRT) for persistent negative symptoms.",
+      "Increasing risperidone may worsen negative symptoms (D2-blockade can cause secondary negative symptoms due to EPS and emotional blunting).",
+      "Donepezil has no evidence for cognitive symptoms in schizophrenia (as opposed to Alzheimer's disease).",
+      "ECT is for treatment-resistant positive symptoms or catatonia, not for negative symptoms."
+    ],
+    "teaching_point": "Negative symptoms in schizophrenia: Primary (enduring deficit state) vs secondary (due to positive symptoms, depression, medication side effects, institutionalisation). Treatment of primary negative symptoms: (1) Psychological: CBTp, CRT (computer-based or therapist-led cognitive remediation — has meta-analytic evidence). (2) Pharmacological: antidepressants (fluoxetine, mirtazapine) as augmentation — modest effect. (3) No antipsychotic is specifically effective for negative symptoms; some atypicals (amisulpride, clozapine) may have less negative symptom burden. MRCPsych: the distinction between primary and secondary negative symptoms and the role of CRT/CBTp are important.",
+    "domain": "general_adult",
+    "subdomain": "Schizophrenia — Negative Symptoms",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "schizophrenia",
+      "negative symptoms",
+      "cognitive remediation",
+      "CBTp"
+    ],
+    "source": "NICE CG178 (2014); Roberts & Pans 2013 (Schizophr Res) meta-analysis"
+  }
+]

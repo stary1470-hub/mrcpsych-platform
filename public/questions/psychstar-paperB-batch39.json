@@ -1,0 +1,1408 @@
+[
+  {
+    "stem": "A 34-year-old woman with a 12-year history of OCD has failed trials of two SSRIs (fluoxetine 60 mg and sertraline 200 mg) each for at least 12 weeks, augmentation with aripiprazole 10 mg for 8 weeks, and 20 sessions of CBT with ERP. Her Y-BOCS score remains 28. Which of the following is the MOST appropriate next step in her management?",
+    "options": [
+      "Switch to clomipramine and consider deep brain stimulation referral",
+      "Add pregabalin 75 mg twice daily",
+      "Refer for transcranial magnetic stimulation only",
+      "Increase aripiprazole to 20 mg and wait another 8 weeks",
+      "Discontinue all medication and refer for psychosurgery"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Clomipramine (a tricyclic with potent SRI action) is the first-line pharmacological option for treatment-resistant OCD. DBS is a recognised intervention for severe refractory OCD. NICE CG31 recommends considering clomipramine after failed SSRIs and augmentation.",
+      "Incorrect. Pregabalin has no established evidence in treatment-resistant OCD. While it may have anxiolytic properties, it does not specifically target obsessive-compulsive symptoms.",
+      "Incorrect. TMS has limited evidence in OCD and is not recommended as a standalone option after failed pharmacotherapy and CBT. It may be considered in research settings but is not first-line.",
+      "Incorrect. Aripiprazole at 10 mg is already an adequate augmentation dose. Waiting longer without changing strategy is not appropriate given failure of standard augmentation.",
+      "Incorrect. Psychosurgery (ablative neurosurgery) is rarely used and only considered after DBS has been tried. It is not an appropriate next step without considering less invasive options first."
+    ],
+    "teaching_point": "NICE CG31 (OCD and BDD) recommends a stepwise approach: step 1 — SSRI or CBT (ERP); step 2 — alternative SSRI or full CBT course; step 3 — clomipramine or SSRI + antipsychotic augmentation; step 4 — consider DBS referral in specialist centres. Clomipramine is a non-selective SRI that acts on both serotonin and noradrenaline reuptake. DBS targets the ventral capsule/ventral striatum and has shown 40-60% response rates in severe refractory OCD. The Y-BOCS score of 28 indicates severe OCD (cut-off >24).",
+    "domain": "general_adult",
+    "subdomain": "treatment-resistant OCD",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "OCD",
+      "treatment-resistant",
+      "clomipramine",
+      "DBS",
+      "NICE CG31"
+    ],
+    "source": "NICE CG31 (2022); Fineberg NA et al. (2015) 'Pharmacotherapy of obsessive-compulsive disorder' - World J Biol Psychiatry."
+  },
+  {
+    "stem": "A 22-year-old university student presents with excessive fear of social situations, particularly public speaking and eating in front of others. She avoids lectures and has not attended classes for 3 weeks. She has no history of panic attacks. Her symptoms have been present for 18 months. Which treatment is MOST likely to be offered as first-line according to NICE guidelines?",
+    "options": [
+      "Individual CBT specifically for social anxiety disorder",
+      "Sertraline 50 mg daily",
+      "Group CBT + sertraline combination",
+      "Mirtazapine 30 mg at night",
+      "Short-term psychodynamic psychotherapy"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE CG159 (Social Anxiety Disorder) recommends individual CBT tailored to social anxiety as the first-line psychological treatment. It has the strongest evidence base for both short- and long-term outcomes.",
+      "Incorrect. SSRIs (sertraline) are recommended but only if the patient declines CBT. NICE recommends CBT first-line before pharmacological intervention.",
+      "Incorrect. There is no strong evidence for combination therapy as first-line. Group CBT may be offered but individual CBT is preferred first-line.",
+      "Incorrect. Mirtazapine is not recommended for social anxiety disorder. Evidence base is weak and it is not mentioned in NICE guidelines for this condition.",
+      "Incorrect. Psychodynamic psychotherapy has a limited evidence base for social anxiety disorder and is not recommended by NICE as a first-line treatment."
+    ],
+    "teaching_point": "NICE CG159 (2013) on Social Anxiety Disorder recommends a stepped-care approach. Step 3 for persistent subthreshold social anxiety or with marked functional impairment recommends individual CBT focused on social anxiety (16-20 sessions over 4 months). If CBT is declined, offer an SSRI (escitalopram or sertraline). Group CBT is an alternative if individual CBT is unavailable. Social anxiety disorder has a lifetime prevalence of ~12% and typically onset in adolescence. The key distinction from panic disorder is that fear is centred on social situations and scrutiny by others, not on the panic attacks themselves.",
+    "domain": "general_adult",
+    "subdomain": "social anxiety disorder",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "social anxiety",
+      "CBT",
+      "NICE CG159",
+      "first-line treatment"
+    ],
+    "source": "NICE CG159 (2013) 'Social anxiety disorder: recognition, assessment and treatment'."
+  },
+  {
+    "stem": "A 45-year-old man who was involved in a severe road traffic accident 4 months ago presents with intrusive memories, nightmares, avoidance of driving, hypervigilance, and difficulty sleeping. He has not responded to a 10-week course of trauma-focused CBT. What is the MOST appropriate next-line pharmacological treatment according to NICE guidelines?",
+    "options": [
+      "Venlafaxine 75 mg daily or a selective serotonin reuptake inhibitor",
+      "Olanzapine 10 mg at night",
+      "Prazosin 5 mg at night",
+      "Lithium augmentation of antidepressant therapy",
+      "Benzodiazepine such as clonazepam 0.5 mg twice daily"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE NG116 (PTSD) recommends venlafaxine or an SSRI (sertraline or paroxetine) as second-line pharmacological treatment after trauma-focused CBT has failed or is declined. Venlafaxine is a SNRI with evidence for PTSD treatment.",
+      "Incorrect. Olanzapine is not recommended for PTSD in NICE guidelines. Antipsychotics may be used for comorbid psychosis but not as first-line or second-line for core PTSD symptoms.",
+      "Incorrect. Prazosin has shown some evidence for trauma-related nightmares but is not recommended by NICE guidelines as a standard treatment for PTSD. It is not licensed for this indication in the UK.",
+      "Incorrect. Lithium has no evidence in PTSD and is not recommended. Its use is primarily in mood disorders.",
+      "Incorrect. Benzodiazepines are explicitly NOT recommended in PTSD due to risk of dependence and lack of efficacy for core symptoms. They may worsen outcomes."
+    ],
+    "teaching_point": "NICE NG116 (2018) PTSD guideline: First-line treatment is trauma-focused CBT or EMDR. If these are declined or ineffective, offer venlafaxine or an SSRI (sertraline or paroxetine). Note that paroxetine is the only medication licensed for PTSD in the UK. Treatment should continue for at least 12 months. Benzodiazepines should not be offered because they do not treat core PTSD symptoms and carry dependence risk. Antipsychotics are not recommended. The stepped-care model includes watchful waiting for mild symptoms lasting <4 weeks.",
+    "domain": "general_adult",
+    "subdomain": "PTSD pharmacological treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "PTSD",
+      "pharmacotherapy",
+      "venlafaxine",
+      "SSRI",
+      "NICE NG116"
+    ],
+    "source": "NICE NG116 (2018) 'Post-traumatic stress disorder'."
+  },
+  {
+    "stem": "A 32-year-old woman with schizophrenia is brought to the emergency department with stupor, mutism, negativism, and rigid posturing. She has a temperature of 37.1°C, heart rate 95 bpm, and BP 125/80 mmHg. Serum CK is 180 U/L. What is the MOST appropriate diagnostic and initial management step?",
+    "options": [
+      "Administer 1-2 mg of intravenous lorazepam and observe for response",
+      "Start electroconvulsive therapy immediately",
+      "Increase her antipsychotic dose to treat catatonic symptoms",
+      "Start dantrolene and bromocriptine for neuroleptic malignant syndrome",
+      "Administer flumazenil to reverse benzodiazepine effect"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: A lorazepam challenge test (1-2 mg IV/IM) is the first-line diagnostic and therapeutic intervention for catatonia. Response to lorazepam confirms the diagnosis and provides rapid symptom relief. The Bush-Francis Catatonia Rating Scale can be used to monitor response.",
+      "Incorrect. ECT is reserved for catatonia that does not respond to benzodiazepines. It is not first-line and requires anaesthetic assessment. It is highly effective but not initial management.",
+      "Incorrect. Increasing antipsychotics can worsen catatonia, particularly with high-potency agents, and may precipitate neuroleptic malignant syndrome. Antipsychotics should be reduced or withheld during acute catatonia.",
+      "Incorrect. The normal temperature, normal CK, and absence of autonomic instability make NMS unlikely. Dantrolene and bromocriptine are treatments for NMS, not catatonia.",
+      "Incorrect. Flumazenil is a benzodiazepine antagonist and would be used to reverse benzodiazepine overdose. It would worsen catatonia and has no therapeutic role here."
+    ],
+    "teaching_point": "Catatonia is a neuropsychiatric syndrome characterised by motor, behavioural and affective changes. The lorazepam challenge test is both diagnostic and therapeutic — 70-80% of patients respond. The Bush-Francis Catatonia Rating Scale (BFCRS) is the gold-standard assessment tool. First-line treatment is lorazepam (1-2 mg IV/IM/PO, up to 8-16 mg daily). ECT is second-line for lorazepam-resistant catatonia. Malignant catatonia (with autonomic instability) is a medical emergency requiring intensive care. Antipsychotics should be used cautiously as they can precipitate NMS or worsen catatonia. NICE CG178 (Psychosis and Schizophrenia) covers catatonia management.",
+    "domain": "general_adult",
+    "subdomain": "catatonia management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "catatonia",
+      "lorazepam",
+      "Bush-Francis scale",
+      "schizophrenia",
+      "benzodiazepine challenge"
+    ],
+    "source": "NICE CG178 (2014); Fink M, Taylor MA (2003) 'Catatonia: A Clinician's Guide to Diagnosis and Treatment'."
+  },
+  {
+    "stem": "A 28-year-old woman presents in December with a 6-week history of low mood, anergia, hypersomnia, increased appetite with carbohydrate craving, and weight gain of 3 kg. She feels completely well during spring and summer. Which of the following is the MOST appropriate first-line treatment?",
+    "options": [
+      "Light therapy (10,000 lux white fluorescent light) for 30 minutes upon waking",
+      "Fluoxetine 20 mg daily",
+      "Vitamin D supplementation 2000 IU daily",
+      "Agomelatine 25 mg at night",
+      "Referral for interpersonal psychotherapy"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Light therapy (10,000 lux for 30 minutes upon waking) is first-line for seasonal affective disorder (SAD). Response rates are 60-80% within 1-2 weeks. The mechanism involves phase-advance of circadian rhythms and suppression of melatonin.",
+      "Incorrect. Antidepressants (fluoxetine) are recommended if light therapy is ineffective or declined (NICE). However, light therapy is first-line given the seasonal pattern and typical symptoms.",
+      "Incorrect. Vitamin D deficiency may be associated but supplementation has not been shown to be effective for SAD in controlled trials. It is not a treatment.",
+      "Incorrect. Agomelatine (melatonergic antidepressant) has some evidence but is not first-line. It may be useful if light therapy and SSRIs fail but is not initial treatment.",
+      "Incorrect. IPT is not specifically indicated for SAD. CBT adapted for SAD has some evidence but is not first-line compared to light therapy."
+    ],
+    "teaching_point": "Seasonal Affective Disorder (SAD) is characterised by recurrent depressive episodes in autumn/winter with full remission in spring/summer. Typical symptoms include hypersomnia, hyperphagia (carbohydrate craving), and weight gain. The pathophysiology relates to shortened photoperiod, circadian phase delay, and altered melatonin/serotonin regulation. NICE CG91 (Depression) recommends light therapy as first-line for SAD. A typical device provides 10,000 lux at 12-24 inches for 30-45 minutes. The SPAQ (Seasonal Pattern Assessment Questionnaire) is a screening tool. Light therapy is generally safe; side effects include eye strain and headache.",
+    "domain": "general_adult",
+    "subdomain": "seasonal affective disorder",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "seasonal affective disorder",
+      "light therapy",
+      "SAD",
+      "circadian rhythm",
+      "NICE CG91"
+    ],
+    "source": "NICE CG91 (2022) 'Depression in adults'; Lam RW, Levitt AJ (2020) 'Canadian Network for Mood and Anxiety Treatments guidelines for SAD'."
+  },
+  {
+    "stem": "A 38-year-old woman with bipolar I disorder presents with a 4-week episode of depressed mood, anhedonia, poor concentration, early morning wakening, and suicidal ideation. She takes lithium 800 mg daily (level 0.7 mmol/L). She is not currently on any antidepressant. What is the MOST appropriate management strategy according to current guidelines?",
+    "options": [
+      "Optimise lithium (aim for level 0.8-1.0 mmol/L) and add lamotrigine or quetiapine",
+      "Start fluoxetine 20 mg monotherapy",
+      "Start venlafaxine 75 mg daily",
+      "Switch lithium to valproate and start mirtazapine",
+      "Electroconvulsive therapy as first-line treatment"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: In bipolar depression, first-line options include optimising mood stabiliser and/or adding lamotrigine or quetiapine. Lamotrigine is effective for bipolar depression, and quetiapine (300 mg) has the strongest evidence as monotherapy. Lithium optimisation is also appropriate.",
+      "Incorrect. Antidepressant monotherapy is contraindicated in bipolar disorder due to risk of switching to mania. If used, it must be combined with a mood stabiliser.",
+      "Incorrect. Venlafaxine has a higher risk of mood switching compared to other antidepressants and is not recommended in bipolar depression. It should be avoided due to switch risk.",
+      "Incorrect. Switching lithium to valproate is not necessary. Adding an antidepressant alone or changing mood stabilisers without evidence of non-response is not optimal.",
+      "Incorrect. ECT is reserved for treatment-resistant bipolar depression, catatonic features, or high suicide risk where rapid response is needed. Not first-line."
+    ],
+    "teaching_point": "Bipolar depression management differs significantly from unipolar depression. NICE CG185 (Bipolar Disorder) recommends: (1) if already on lithium, check levels and optimise; (2) add lamotrigine (titrated slowly to avoid Stevens-Johnson syndrome) or quetiapine; (3) consider adding olanzapine + SSRI (fluoxetine) — the only FDA-approved combination; (4) olanzapine monotherapy. Antidepressant monotherapy should be avoided. The switch rate to mania with venlafaxine is ~15%. ECT is highly effective (~80% response) but reserved for severe cases. Bipolar depression accounts for the majority of time spent ill in bipolar disorder.",
+    "domain": "general_adult",
+    "subdomain": "bipolar depression management",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "bipolar depression",
+      "lamotrigine",
+      "quetiapine",
+      "lithium",
+      "NICE CG185"
+    ],
+    "source": "NICE CG185 (2023) 'Bipolar disorder: assessment and management'; Goodwin GM et al. (2016) 'BAP guidelines for bipolar disorder'."
+  },
+  {
+    "stem": "A 55-year-old woman with no psychiatric history presents with a 6-week history of low mood, tearfulness, poor appetite, weight loss, early morning wakening, and anhedonia. In the past week, she has become convinced that her neighbours are poisoning her food and that the television is sending messages specifically to her. She has stopped eating and drinking. What is the MOST appropriate initial management?",
+    "options": [
+      "Admit under the Mental Health Act and start olanzapine 10 mg daily with an SSRI",
+      "Start sertraline 50 mg alone as an outpatient and review in 2 weeks",
+      "Start citalopram 20 mg and risperidone 0.5 mg as an outpatient with CMHT follow-up",
+      "Refer for interpersonal psychotherapy for depression with psychotic features",
+      "Start lithium augmentation of antidepressant therapy"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Depression with psychotic features (delusions/hallucinations congruent with mood) requires hospital admission and combination treatment with an antipsychotic and an antidepressant. Olanzapine plus an SSRI is an appropriate combination; ECT is also highly effective.",
+      "Incorrect. Antidepressant monotherapy is insufficient for psychotic depression. The delusions are likely to persist and the patient is at risk due to not eating/drinking. Hospitalisation is indicated.",
+      "Incorrect. Outpatient management is not appropriate given the severity, lack of eating/drinking, and psychotic features. Hospital admission is required for safety.",
+      "Incorrect. IPT is not indicated for psychotic depression. This patient requires pharmacotherapy and potentially ECT, not psychotherapy as first-line.",
+      "Incorrect. Lithium augmentation is not first-line in psychotic depression. The priority is antipsychotic + antidepressant combination or ECT."
+    ],
+    "teaching_point": "Psychotic (delusional) depression is a severe form of major depressive disorder with mood-congruent psychotic features. NICE NG222 (2022) recommends: (1) hospital admission for severe cases; (2) combination of an antidepressant (SSRI or SNRI) plus an antipsychotic (olanzapine, quetiapine, or aripiprazole); (3) ECT if rapid response needed or if patient is refusing food/drink — ECT has 80-90% response rate in psychotic depression. The combination is more effective than either alone. Relapse rates are high without maintenance treatment. Risk factors include older age, family history, and previous episodes.",
+    "domain": "general_adult",
+    "subdomain": "depression with psychotic features",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "psychotic depression",
+      "delusions",
+      "antipsychotic",
+      "ECT",
+      "MHA admission",
+      "NICE NG222"
+    ],
+    "source": "NICE NG222 (2022) 'Depression in adults: treatment and management'; Rothschild AJ (2009) 'Clinical Manual for Diagnosis and Treatment of Psychotic Depression'."
+  },
+  {
+    "stem": "A 78-year-old man presents with a 6-month history of fluctuating cognitive impairment, recurrent visual hallucinations of small people and animals, REM sleep behaviour disorder, and marked sensitivity to antipsychotic medication. His MMSE score is 22/30. Which of the following features is MOST characteristic of his likely diagnosis compared to Alzheimer's disease?",
+    "options": [
+      "Fluctuating cognition with pronounced attentional and visuospatial deficits",
+      "Progressive and predictable decline in episodic memory",
+      "Preservation of visuospatial function until late stages",
+      "Early and prominent word-finding difficulties",
+      "Relative sparing of executive function throughout the illness"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Fluctuating cognition (spontaneous variations in alertness and attention) combined with visuospatial deficits is a core feature of DLB. The fluctuations are a key differentiating feature from Alzheimer's disease. The patient's presentation with visual hallucinations, REM sleep behaviour disorder, and neuroleptic sensitivity is classic for DLB.",
+      "Incorrect. Episodic memory impairment is the hallmark of Alzheimer's disease. In DLB, memory may be relatively preserved early on, with attentional and visuospatial deficits being more prominent.",
+      "Incorrect. Visuospatial function is characteristically impaired in DLB, often early in the course. This contrasts with Alzheimer's where visuospatial deficits occur later.",
+      "Incorrect. Word-finding difficulties (anomia) are more characteristic of Alzheimer's disease and primary progressive aphasia. Language is relatively preserved in DLB.",
+      "Incorrect. Executive function is typically impaired early in DLB due to subcortical involvement. Alzheimer's disease often shows relative preservation of executive function early on."
+    ],
+    "teaching_point": "Dementia with Lewy bodies (DLB) is diagnosed using revised McKeith criteria (2017). Core features: (1) fluctuating cognition with variations in attention/alertness; (2) recurrent visual hallucinations (typically well-formed, detailed, of people/animals); (3) REM sleep behaviour disorder (dream enactment). Suggestive features: neuroleptic sensitivity, low dopamine transporter uptake on SPECT/PET (DaTSCAN), and abnormal MIBG myocardial scintigraphy. Alpha-synuclein pathology distinguishes DLB from Alzheimer's (tau/amyloid). NICE NG97 recommends: avoid antipsychotics (severe sensitivity reactions can be fatal); rivastigmine is first-line for cognitive symptoms. Donepezil is also used but only rivastigmine is licensed for DLB in some countries.",
+    "domain": "old_age",
+    "subdomain": "Lewy body dementia features",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "DLB",
+      "Lewy body dementia",
+      "McKeith criteria",
+      "visual hallucinations",
+      "fluctuating cognition",
+      "REM sleep behaviour disorder"
+    ],
+    "source": "McKeith IG et al. (2017) 'Diagnosis and management of dementia with Lewy bodies' - Neurology; NICE NG97 (2018) 'Dementia: assessment, management and support'."
+  },
+  {
+    "stem": "A 64-year-old man is referred with a 2-year history of progressive personality change, disinhibition, loss of social graces, reduced empathy, and compulsive hoarding of household items. His cognitive testing shows preserved memory but poor executive function. His younger brother had similar symptoms before dying at age 58. Which of the following pathological findings is MOST likely to be found on further investigation?",
+    "options": [
+      "Frontal and temporal lobar atrophy with tau-positive or TDP-43 positive inclusions",
+      "Hippocampal atrophy with amyloid plaques and neurofibrillary tangles",
+      "Lewy bodies in brainstem and cortical regions",
+      "Multiple lacunar infarcts in the basal ganglia and white matter",
+      "Pick bodies in the frontal cortex only"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Frontotemporal dementia (FTD) is characterised by focal atrophy of frontal and anterior temporal lobes. The underlying pathology is heterogeneous: ~45% have tau-positive inclusions (Pick bodies/Pick disease), ~45% have TDP-43 inclusions, and ~10% have FUS pathology. Family history is present in 30-50% of cases.",
+      "Incorrect. This describes Alzheimer's disease pathology (amyloid plaques + neurofibrillary tangles). Alzheimer's typically presents with amnestic symptoms, not early personality change and disinhibition.",
+      "Incorrect. Lewy body pathology defines DLB, which presents with hallucinations, fluctuations, and parkinsonism, not primarily personality change and disinhibition.",
+      "Incorrect. This describes vascular dementia pathology. While it can cause frontal lobe symptoms, the progressive course and family history are more consistent with FTD.",
+      "Incorrect. Pick bodies (tau-positive spherical inclusions) are found in Pick disease (a subtype of FTD). However, this is an incomplete answer as many FTD cases have TDP-43 or other pathology, and Pick bodies are not limited to frontal cortex."
+    ],
+    "teaching_point": "Frontotemporal dementia (FTD) encompasses behavioural variant (bvFTD), semantic variant PPA, and nonfluent variant PPA. Behavioural variant FTD (most common) presents with the Rascovsky criteria: early behavioural disinhibition, apathy/inertia, loss of sympathy/empathy, perseverative/compulsive behaviours, and executive dysfunction with relative memory sparing. About 40% have a family history, with mutations in MAPT (tau), GRN (progranulin), and C9orf72 genes. Structural MRI shows frontal/temporal atrophy; FDG-PET shows hypometabolism. Management is symptomatic (SSRIs for behavioural symptoms) as no disease-modifying treatment exists. NICE NG97 covers dementia care.",
+    "domain": "old_age",
+    "subdomain": "frontotemporal dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "frontotemporal dementia",
+      "Pick disease",
+      "TDP-43",
+      "tau",
+      "bvFTD",
+      "personality change"
+    ],
+    "source": "Rascovsky K et al. (2011) 'Sensitivity of revised diagnostic criteria for bvFTD'; NICE NG97 (2018); Warren JD et al. (2013) 'Frontotemporal dementia' - Lancet."
+  },
+  {
+    "stem": "A 76-year-old woman with a 2-year history of Alzheimer's disease (MMSE 18/30) is being considered for cholinesterase inhibitor therapy. She has a history of sick sinus syndrome and is currently in sinus rhythm with no syncopal episodes. Which of the following statements about donepezil versus rivastigmine is MOST accurate?",
+    "options": [
+      "Donepezil is a once-daily dosing option but rivastigmine has the advantage of being available as a transdermal patch which may reduce gastrointestinal side effects",
+      "Rivastigmine is superior to donepezil in efficacy for Alzheimer's disease based on head-to-head trials",
+      "Donepezil cannot be used in patients with cardiac conduction defects due to absolute contraindication",
+      "Rivastigmine has no gastrointestinal side effects in patch formulation",
+      "Both medications require continuous ECG monitoring throughout treatment"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Donepezil is given once daily (5-10 mg) while rivastigmine is twice daily oral (6-12 mg) or once-daily transdermal patch (4.6-13.3 mg/24h). The patch formulation bypasses first-pass metabolism, providing steady plasma levels and significantly fewer GI side effects (nausea, vomiting).",
+      "Incorrect. Head-to-head trials have not demonstrated superiority of one cholinesterase inhibitor over another for Alzheimer's disease. All three (donepezil, rivastigmine, galantamine) show similar efficacy.",
+      "Incorrect. Donepezil can be used in cardiac conduction defects with caution. Sick sinus syndrome is a relative caution, not an absolute contraindication. Baseline ECG is recommended but not an absolute bar.",
+      "Incorrect. The rivastigmine patch reduces GI side effects compared to oral formulation but does not eliminate them. Skin reactions (erythema, pruritus) are the most common patch-specific side effects.",
+      "Incorrect. A baseline ECG is recommended before starting donepezil in patients with cardiac risk factors (including sick sinus syndrome). However, continuous ECG monitoring throughout treatment is not required for all patients."
+    ],
+    "teaching_point": "NICE NG97 (2018) recommends donepezil, rivastigmine, or galantamine as first-line options for mild-to-moderate Alzheimer's disease (MMSE 10-20). All three are acetylcholinesterase inhibitors (rivastigmine also inhibits butyrylcholinesterase). Donepezil (once daily) has the simplest dosing. Rivastigmine patch (4.6/9.5/13.3 mg/24h) offers better tolerability with comparable efficacy. Key differences: donepezil has the longest half-life (~70h), rivastigmine is the only one licensed for DLB and Parkinson's dementia, and all three require dose titration. Memantine is second-line for moderate-to-severe disease.",
+    "domain": "old_age",
+    "subdomain": "donepezil vs rivastigmine efficacy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "Alzheimer's disease",
+      "donepezil",
+      "rivastigmine",
+      "cholinesterase inhibitors",
+      "NICE NG97",
+      "transdermal patch"
+    ],
+    "source": "NICE NG97 (2018) 'Dementia: assessment, management and support'; Birks J (2006) 'Cholinesterase inhibitors for Alzheimer's disease' - Cochrane Review."
+  },
+  {
+    "stem": "A 74-year-old woman with moderate Alzheimer's disease (MMSE 16/30) is refusing to have a bath, stating 'I don't need a bath, I had one yesterday.' Her daughter, who is her main carer, is concerned about hygiene. The daughter wants to 'make her' have a bath. Which of the following statements BEST reflects the legal position under the Mental Capacity Act 2005 concerning bathing this patient?",
+    "options": [
+      "The patient can be bathed if it is assessed to be in her best interests using the MCA best interests checklist, incorporating her past and present wishes, the family's views, and less restrictive options",
+      "The daughter can insist on bathing her mother because she has lasting power of attorney for health and welfare",
+      "The patient cannot be bathed against her will under any circumstances as it would constitute battery",
+      "The GP can authorise forced bathing under Section 5 of the MCA 2005 without a best interests meeting",
+      "The patient must be assessed by an Approved Mental Health Professional under the Mental Health Act if she refuses bathing"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Section 4 of the MCA 2005 requires a best interests decision for any act done for a person lacking capacity. The checklist includes: past/present wishes, beliefs/values, views of family and carers, and the least restrictive option. Reasonable force may be used if it is proportionate and in the person's best interests but only after a proper best interests process.",
+      "Incorrect. Even with LPA for health and welfare, the attorney must make decisions in the person's best interests. They cannot simply insist. However, if no LPA exists, this is irrelevant here.",
+      "Incorrect. The MCA allows for acts in best interests including necessary care, provided the person lacks capacity for that decision. This does not constitute battery if done lawfully under the MCA.",
+      "Incorrect. The decision to provide care against a person's will requires a best interests assessment. No single professional can unilaterally authorise forced care. Section 5 provides protection from liability for carers but does not give a GP the authority to force care.",
+      "Incorrect. The MHA is not appropriate here. The patient lacks capacity but is not objecting due to mental disorder that would warrant detention. MCA is the correct framework. DoLS/ LPS may apply if deprivation of liberty is necessary."
+    ],
+    "teaching_point": "The MCA 2005 has five statutory principles: (1) presumption of capacity; (2) all practicable steps to help decide; (3) unwise decisions do not mean incapacity; (4) best interests; (5) least restrictive option. The best interests checklist (Section 4) requires consideration of past/present wishes, beliefs/values, views of family, and all relevant circumstances. For care decisions in dementia, capacity should be assessed for the specific decision. The MCA provides a legal framework for proportionate care, but any restraint must be necessary to prevent harm and proportionate to risk. Deprivation of Liberty Safeguards (DoLS) or Liberty Protection Safeguards (LPS) may apply if restrictions amount to a deprivation of liberty.",
+    "domain": "old_age",
+    "subdomain": "assessing capacity (MCA 2005)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "Mental Capacity Act",
+      "best interests",
+      "capacity assessment",
+      "MCA 2005",
+      "dementia"
+    ],
+    "source": "Mental Capacity Act 2005, Code of Practice (2007); NICE NG108 (2018) 'Decision-making and mental capacity'."
+  },
+  {
+    "stem": "A 72-year-old woman is referred to memory clinic with a 3-month history of low mood, poor sleep, reduced appetite, weight loss, and cognitive complaints including poor concentration and forgetfulness. Her GP noted an MMSE of 24/30. Her husband died 8 months ago. She lives alone and has stopped cooking meals or answering the phone. Which single feature would MOST strongly favour a diagnosis of major depressive disorder with cognitive impairment ('pseudodementia') over Alzheimer's disease?",
+    "options": [
+      "The patient complains excessively about her poor memory and magnifies her cognitive difficulties",
+      "She has difficulty recalling recent events and is disoriented to date",
+      "The MMSE is 24/30 suggesting borderline impairment",
+      "She has word-finding difficulties and uses vague language",
+      "She shows impaired performance on clock-drawing test"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Patients with depressive pseudodementia typically complain loudly and in detail about their memory problems, exaggerate their deficits, and become distressed by them. In contrast, Alzheimer's patients often minimise or confabulate about their deficits ('lack of insight'). The discrepancy between subjective complaint and objective performance can be a key clue.",
+      "Incorrect. Both depression and Alzheimer's can cause memory recall difficulties and disorientation. This feature does not differentiate the two conditions.",
+      "Incorrect. An MMSE of 24 is within the borderline range and could be seen in either depression or early dementia. It does not differentiate.",
+      "Incorrect. Word-finding difficulties (anomia) with circumlocution (vague language) are characteristic of Alzheimer's disease (language dysfunction), not pseudodementia.",
+      "Incorrect. Clock-drawing test impairment reflects visuospatial/executive dysfunction and can be abnormal in both depression (due to poor concentration) and Alzheimer's disease. It is not a differentiating feature."
+    ],
+    "teaching_point": "Pseudodementia refers to cognitive impairment secondary to depression that mimics dementia. Differentiating features: Depression with cognitive impairment typically has subacute onset (weeks to months), rapid progression, detailed subjective complaints, 'don't know' answers to cognitive testing (vs 'near miss' in dementia), and performance variability. Alzheimer's has insidious onset, slow progression, lack of insight, and consistent deficits. The key diagnostic tool is clinical assessment and trial of antidepressant treatment — cognition often improves with treatment of depression in pseudodementia. Neuropsychological testing may show effort-related deficits in depression vs true encoding/storage deficits in Alzheimer's. NICE NG222 covers depression in older adults.",
+    "domain": "old_age",
+    "subdomain": "depression in dementia / pseudodementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "pseudodementia",
+      "depression",
+      "differential diagnosis",
+      "Alzheimer's disease",
+      "cognitive impairment"
+    ],
+    "source": "Baldwin RC (2002) 'Pseudodementia in older people'; NICE NG222 (2022) 'Depression in adults'."
+  },
+  {
+    "stem": "A 76-year-old woman with moderate Alzheimer's disease lives with her 78-year-old husband who is her main carer. The husband reports that his wife has become increasingly restless at night, wakes up multiple times, tries to 'go to work' at 2 AM, and has fallen twice in the past week while wandering. He is exhausted and feels he cannot continue. Which of the following is the MOST appropriate initial management approach for the sleep disturbance?",
+    "options": [
+      "Implement non-pharmacological strategies including a structured daily routine, daytime activity, reduced caffeine, and a calm bedtime environment before considering medication",
+      "Start zopiclone 7.5 mg at night for immediate sleep improvement",
+      "Start quetiapine 25 mg at night for its sedative properties",
+      "Admit the patient to hospital for sleep monitoring and medication adjustment",
+      "Increase her donepezil to 10 mg to improve cognitive function and reduce night-time behaviours"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE NG97 emphasises non-pharmacological approaches as first-line for sleep disturbances in dementia. This includes: addressing physical/environmental causes, structured daytime activity, reducing daytime napping, avoiding caffeine/alcohol, ensuring adequate light exposure, and maintaining a consistent bedtime routine. Pharmacological interventions should only be considered if non-pharmacological measures fail and risks are significant.",
+      "Incorrect. Zopiclone is not recommended in dementia due to risk of falls, dependence, tolerance, paradoxical disinhibition, and worsening cognitive function. The NICE guideline advises avoidance of benzodiazepines and Z-drugs unless absolutely necessary.",
+      "Incorrect. Antipsychotics (quetiapine) should only be used for severe symptoms that pose risk to self or others, and only after non-pharmacological measures have failed. They carry increased risk of stroke and mortality in dementia (black box warning).",
+      "Incorrect. Hospital admission is not indicated for sleep disturbance alone. It may increase confusion and distress. Community-based management with carer support is preferred.",
+      "Incorrect. Donepezil should already be at optimal dose (10 mg is standard maintenance dose for moderate AD). Increasing beyond this is not indicated. Cholinesterase inhibitors may modestly improve neuropsychiatric symptoms but are not specifically for sleep."
+    ],
+    "teaching_point": "Sleep disturbances affect 25-50% of people with dementia. NICE NG97 recommends a thorough assessment (pain, environment, hunger, thirst, need to use toilet) before considering medication. Non-pharmacological interventions include: bright light therapy in the morning, structured activities during the day, consistent sleep-wake schedule, reducing evening stimuli, and addressing carer stress. Melatonin may be considered but evidence is modest. Antipsychotics carry a 1.6-1.7 fold increased risk of stroke and increased mortality, and should only be prescribed for severe symptoms under specialist advice (NICE NG97). The carer's stress and need for respite should also be addressed separately.",
+    "domain": "old_age",
+    "subdomain": "sleep disorders in dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "sleep disorders",
+      "dementia",
+      "non-pharmacological",
+      "wandering",
+      "carer stress",
+      "NICE NG97"
+    ],
+    "source": "NICE NG97 (2018) 'Dementia: assessment, management and support'; BAP Guidelines (2018) 'Management of behavioural and psychological symptoms of dementia'."
+  },
+  {
+    "stem": "A 68-year-old woman is the sole carer for her 72-year-old husband who has advanced Alzheimer's disease. He requires help with all activities of daily living, has urinary incontinence, and frequently becomes agitated and aggressive. She has been his carer for 4 years. She presents to her GP with fatigue, poor sleep, irritability, and says 'I can't go on like this.' She has no prior psychiatric history. Which intervention is MOST likely to benefit her psychological wellbeing?",
+    "options": [
+      "A multicomponent intervention including carer education, skills training, tailored support, and respite care",
+      "Prescribe an antidepressant for the carer's depressive symptoms",
+      "Refer the husband to a care home immediately",
+      "Recommend a single session of psychoeducation about dementia",
+      "Advise the carer to take a short holiday while the husband stays with a neighbour"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Carer stress in dementia is best managed with multicomponent, tailored interventions. The START (STrAtegies for RelaTives) programme and REACH (Resources for Enhancing Alzheimer's Caregiver Health) trials show that structured, multifaceted support packages — including education about dementia, skills training for managing difficult behaviours, stress management techniques, emotional support, and planned respite — significantly reduce carer depression and improve wellbeing.",
+      "Incorrect. While antidepressants may be indicated if the carer has a depressive disorder, addressing carer burden through psychosocial support is first-line. The carer's symptoms appear more related to carer strain than a primary depressive episode.",
+      "Incorrect. Abrupt care home placement is a significant decision that should involve the husband's views and a best interests decision. It is not the first-line intervention for carer stress, though it may become necessary.",
+      "Incorrect. Single-session psychoeducation is insufficient. The evidence base supports multicomponent, sustained interventions rather than brief single sessions.",
+      "Incorrect. An unstructured break without formal respite or support is unlikely to address the underlying carer burden. The husband's needs must be properly assessed and arranged."
+    ],
+    "teaching_point": "Carer stress/burden is a major public health issue — up to 50% of carers of people with dementia develop clinical depression. NICE NG97 recommends: (1) offer a needs assessment for carers; (2) provide multicomponent interventions including education, skills training, and psychological support; (3) offer respite care. The START trial (Livingston et al., 2013) showed that an 8-session manual-based coping skills programme reduced depression and anxiety in carers at 2-year follow-up. The NHS Carer's Assessment helps identify carer needs. The Carer's Allowance and local authority care packages may provide financial and practical support. Respite care may be in-home, day care, or short-term residential (Dementia UK).",
+    "domain": "old_age",
+    "subdomain": "carer stress interventions",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "carer stress",
+      "dementia",
+      "psychosocial intervention",
+      "START",
+      "respite",
+      "NICE NG97"
+    ],
+    "source": "NICE NG97 (2018) 'Dementia: assessment, management and support'; Livingston G et al. (2013) 'START programme' - BMJ."
+  },
+  {
+    "stem": "A 9-year-old boy is referred with a 2-year history of motor tics (blinking, head jerking, shoulder shrugging) and vocal tics (throat clearing, sniffing). He also has symptoms of inattention, hyperactivity, and impulsivity that meet diagnostic criteria for ADHD. The tics are causing social difficulties at school. Which of the following is the MOST appropriate pharmacological treatment strategy?",
+    "options": [
+      "Start a methylphenidate preparation with careful monitoring to manage both ADHD and tic symptoms",
+      "Start clonidine as monotherapy for both tics and ADHD",
+      "Start haloperidol as first-line treatment for tics",
+      "Start guanfacine alone and avoid any stimulant medication due to risk of tic exacerbation",
+      "Start aripiprazole to treat tics and refer separately for ADHD behavioural management"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE guidelines (CG155 on Tourette syndrome) recommend that first-line treatment for ADHD in children with Tourette syndrome is the same as for ADHD alone. Methylphenidate is effective and does not routinely worsen tics (evidence shows tics improve or remain unchanged in most cases). The benefits for ADHD symptoms outweigh the small risk of tic exacerbation.",
+      "Incorrect. Clonidine (alpha-2 agonist) is effective for tics and ADHD but is second-line after stimulants because methylphenidate has a stronger evidence base for ADHD and is generally better tolerated.",
+      "Incorrect. Haloperidol (typical antipsychotic) is no longer first-line for tics due to risk of extrapyramidal side effects and tardive dyskinesia. Atypical antipsychotics (e.g., aripiprazole) are preferred if pharmacological treatment for tics is needed.",
+      "Incorrect. Guanfacine (alpha-2 agonist) is an option for ADHD in children but is second-line. The blanket avoidance of stimulants is outdated — methylphenidate can be safely used in most children with tics.",
+      "Incorrect. Treating tics and ADHD separately is not optimal. A single medication approach (stimulant) that addresses both should be tried first. Aripiprazole may be an option but is not first-line for ADHD."
+    ],
+    "teaching_point": "Tourette syndrome (TS) affects ~1% of children. About 60-80% of children with TS have comorbid ADHD. NICE CG155 recommends: (1) psychoeducation first; (2) for tics causing functional impairment — offer a psychological intervention (CBT with habit reversal training/ERP) or medication if psychological treatment is ineffective/declined; (3) first-line medications for tics: aripiprazole or clonidine (in children). For ADHD in TS: stimulants are not contraindicated. The CATS trial demonstrated that methylphenidate is effective for ADHD and does not worsen tics. Alpha-2 agonists (clonidine, guanfacine) are alternatives. Habit reversal training is the first-choice behavioural intervention for tics.",
+    "domain": "child_adolescent",
+    "subdomain": "Tourette syndrome treatment",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "Tourette syndrome",
+      "tics",
+      "ADHD",
+      "methylphenidate",
+      "clonidine",
+      "NICE CG155"
+    ],
+    "source": "NICE CG155 (2021) 'Tourette syndrome: management'."
+  },
+  {
+    "stem": "A 7-year-old girl has refused to attend school for the past 6 weeks. She complains of stomach aches and headaches on school mornings but is well at weekends and holidays. She is described as an anxious child who worries about her mother's health. Her parents are separated, and she lives with her mother. She has been assessed by her GP and paediatrician with no organic cause found. What is the MOST appropriate initial management step?",
+    "options": [
+      "Coordinate a phased return to school with the school, parents, and a CAMHS professional using an anxiety management approach",
+      "Force the child to attend school immediately to prevent the behaviour becoming entrenched",
+      "Refer to social services for possible school refusal due to home environment issues",
+      "Start sertraline 25 mg daily for anxiety",
+      "Arrange for home tuition to remove school-related stress"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: School refusal (emotionally-based school avoidance, EBSA) requires a coordinated multi-agency approach. NICE CG28 (Depression in Children) and local EBSA guidance recommend: (1) identify and treat underlying anxiety; (2) graded/planned return to school; (3) collaboration between health, education, and family. CBT-based anxiety management is a core component.",
+      "Incorrect. Forcing immediate return without addressing underlying anxiety may exacerbate the problem and increase distress. A graded, phased approach is more effective.",
+      "Incorrect. School refusal is typically an anxiety-driven condition, not a safeguarding issue unless there are other concerns. Social services referral is not first-line without other indicators of abuse/neglect.",
+      "Incorrect. Psychological interventions are first-line in children of this age. Pharmacological treatment (SSRIs) is reserved for moderate-severe anxiety that has not responded to psychological therapy (NICE CG28).",
+      "Incorrect. Home tuition is a last resort and should be avoided. It may reinforce avoidance behaviour and prevent addressing the underlying anxiety. The goal is reintegration into mainstream school."
+    ],
+    "teaching_point": "School refusal affects 1-5% of children. Distinguish from truancy: school refusal is driven by anxiety (child wants to attend but cannot), while truancy involves conduct issues and lack of parental awareness. Anxiety disorders (separation anxiety, social anxiety, GAD) underlie most cases. Management involves: (1) assessment of anxiety and comorbid conditions; (2) liaison with school for a flexible return plan; (3) CBT with exposure therapy; (4) parental guidance on consistency and limiting reinforcement of avoidant behaviour. NICE NG223 (Anxiety Disorders in Children) recommends CBT first-line. SSRIs are second-line (fluoxetine is first choice in children). EBSA (Emotionally Based School Avoidance) is the current recommended terminology.",
+    "domain": "child_adolescent",
+    "subdomain": "school refusal management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "school refusal",
+      "EBSA",
+      "anxiety",
+      "CBT",
+      "CAMHS",
+      "phased return"
+    ],
+    "source": "NICE NG223 (2025) 'Anxiety disorders in children and young people'; Kearney CA (2008) 'School absenteeism and school refusal behavior' - Clin Psychol Rev."
+  },
+  {
+    "stem": "A 14-year-old boy with a history of oppositional defiant disorder is now referred for persistent aggression towards peers, stealing, lying, vandalism, and cruelty to animals over the past 18 months. He has been excluded from school. His parents report that he shows no remorse and has a 'don't care' attitude. Which intervention has the STRONGEST evidence base for improving outcomes in childhood-onset conduct disorder?",
+    "options": [
+      "Parent management training (e.g., Incredible Years, Triple P) combined with multisystemic therapy (MST)",
+      "Cognitive behavioural therapy delivered to the adolescent alone",
+      "Residential treatment in a secure children's home",
+      "Pharmacological treatment with risperidone for aggression",
+      "Individual psychodynamic psychotherapy"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: For childhood-onset conduct disorder, parent management training (PMT) programs (Incredible Years, Triple P, PCIT) combined with multisystemic therapy (MST) have the strongest evidence base for reducing antisocial behaviour and improving long-term outcomes. NICE NG76 recommends parent-training programmes as first-line.",
+      "Incorrect. Individual CBT for the adolescent alone has limited evidence in conduct disorder, particularly in those with callous-unemotional traits. CBT may have a role for comorbid anxiety but is not first-line.",
+      "Incorrect. Residential treatment has limited evidence of effectiveness compared to community-based intensive interventions. It is more restrictive and expensive, and should be reserved for high-risk cases where community management has failed.",
+      "Incorrect. Risperidone may be used for severe aggression but only short-term, when psychosocial interventions have failed, and under specialist advice. It does not address the underlying conduct problems and carries metabolic risks.",
+      "Incorrect. Psychodynamic psychotherapy has insufficient evidence for conduct disorder. NICE does not recommend it for this condition."
+    ],
+    "teaching_point": "Conduct disorder (CD) is a persistent pattern of behaviour violating others' rights or age-appropriate norms. Prevalence ~5-10% in children/adolescents. NICE NG76 (Conduct Disorder in Children) recommends: (1) parent training programmes for ages 3-11 (Incredible Years, Triple P); (2) foster care/FTI for adolescents if family placement unstable; (3) social skills training to reduce antisocial behaviour; (4) MST for severe cases with multiple risk factors. Callous-unemotional (CU) traits predict poorer response. Comorbid ADHD should be treated. Pharmacological interventions (risperidone) should only be used for severe aggression with cardiac and metabolic monitoring.",
+    "domain": "child_adolescent",
+    "subdomain": "conduct disorder interventions",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "conduct disorder",
+      "parent training",
+      "MST",
+      "Incredible Years",
+      "NICE NG76",
+      "antisocial behaviour"
+    ],
+    "source": "NICE NG76 (2017) 'Conduct disorders in children and young people'."
+  },
+  {
+    "stem": "A 4-year-old boy is brought to CAMHS by his foster carers. He was removed from his biological mother at age 18 months due to severe neglect and emotional abuse. He is described as indiscriminately friendly with strangers, frequently walking off with unfamiliar adults, rarely checking back with his carers in new environments, and having difficulty forming close relationships. He has no language delay. Which diagnosis BEST describes this presentation?",
+    "options": [
+      "Disinhibited social engagement disorder (DSED)",
+      "Reactive attachment disorder (RAD)",
+      "Autism spectrum disorder",
+      "Generalised anxiety disorder",
+      "Oppositional defiant disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Disinhibited social engagement disorder (DSED) is characterised by a pattern of overly familiar behaviour with unfamiliar adults, reduced reticence in approaching strangers, and lack of checking back with caregivers in unfamiliar settings. It arises from social neglect/deprivation in early childhood and can persist even after placement in good care.",
+      "Incorrect. Reactive attachment disorder (RAD) is characterised by withdrawn, emotionally inhibited behaviour towards caregivers — the child rarely seeks or responds to comfort. This is the opposite presentation to the disinhibited, overly familiar behaviour described.",
+      "Incorrect. While autism can present with social difficulties, ASD involves: (1) impairments in social communication and reciprocity; (2) restricted/repetitive behaviours; (3) language delay (often present). This child's indiscriminate sociability and history of neglect are more consistent with DSED.",
+      "Incorrect. GAD in a 4-year-old would present with excessive worry about multiple domains, not indiscriminate friendliness and lack of stranger wariness.",
+      "Incorrect. ODD is characterised by angry/irritable mood, argumentative/defiant behaviour, and vindictiveness. This presentation is not consistent with ODD."
+    ],
+    "teaching_point": "Attachment disorders are classified in DSM-5 and ICD-11. Both require a history of 'insufficient care' (social neglect/deprivation, repeated changes of caregiver, or rearing in unusual settings). DSED (ICD-11 equivalent: Disinhibited attachment disorder) involves: reduced or absent reticence in approaching strangers, overly familiar behaviour, willingness to go off with unfamiliar adults, and reduced checking back with caregiver. RAD involves: persistent failure to initiate or respond to social interactions, limited positive affect, and emotional withdrawal. DSED may persist after placement in good foster care while RAD usually improves. Management focuses on promoting stable, nurturing caregiving. The VIPP-SD (Video-feedback Intervention to Promote Positive Parenting and Sensitive Discipline) has evidence for improving attachment. NICE NG26 covers children's attachment.",
+    "domain": "child_adolescent",
+    "subdomain": "attachment disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "attachment disorder",
+      "DSED",
+      "RAD",
+      "neglect",
+      "foster care",
+      "indiscriminate friendliness"
+    ],
+    "source": "DSM-5-TR (2022); Zeanah CH, Gleason MM (2015) 'Annual Research Review: Attachment disorders' - J Child Psychol Psychiatry."
+  },
+  {
+    "stem": "A 6-year-old girl has never spoken at school in 2 years, although she speaks normally at home with her parents. She is well-behaved and does not speak to any teachers or peers, communicating through pointing and nodding. She has normal language development, no social communication deficits outside school, and no restricted interests. Academic progress is appropriate. What is the FIRST-LINE treatment approach?",
+    "options": [
+      "Behavioural interventions including stimulus fading and shaping techniques to encourage speech in the school setting",
+      "Start fluoxetine 10 mg daily for presumed anxiety",
+      "Refer for speech and language therapy for intensive language intervention",
+      "Use a systematic desensitisation programme with gradual exposure to speaking situations",
+      "Refer for assessment of possible childhood apraxia of speech"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Selective mutism (SM) is an anxiety disorder where speech is absent in specific social settings despite speaking in others. First-line treatment is behavioural intervention — stimulus fading (gradually introducing the feared situation with a supportive person), shaping (reinforcing successive approximations to speech), and contingency management (reinforcing brave behaviours). CBT adaptations for young children are also effective.",
+      "Incorrect. Pharmacotherapy (SSRIs) is second-line, reserved for cases not responding to behavioural/psychological interventions. Fluoxetine has the best evidence in SM but is not first-line.",
+      "Incorrect. Speech and language therapy is not indicated as the primary treatment — the child has normal language development. The issue is anxiety-driven failure to speak, not a language impairment.",
+      "Incorrect. Systematic desensitisation is a component of treatment, but the comprehensive behavioural approach (including stimulus fading and shaping) is the recommended first-line package, not desensitisation alone.",
+      "Incorrect. The child speaks normally at home, ruling out apraxia of speech or any organic speech disorder. The selective nature of the mutism confirms the diagnosis of SM."
+    ],
+    "teaching_point": "Selective mutism affects 0.7-2% of children, with onset typically between 3-5 years. It is classified as an anxiety disorder in DSM-5 and ICD-11. Essential feature: consistent failure to speak in specific social situations despite speaking in others, causing functional impairment, lasting >1 month (not first month of school). Co-morbid social anxiety disorder is common (~80%). Management: (1) psychoeducation; (2) behavioural interventions (stimulus fading, shaping, contingency management) within school/home settings; (3) CBT adaptations for older children; (4) SSRI (fluoxetine) if behavioural treatment insufficient. The 'sliding-in' technique (fading-in of new person while child speaks with trusted person) is a key stimulus fading technique. NICE do not have a specific SM guideline but NG223 covers anxiety in children.",
+    "domain": "child_adolescent",
+    "subdomain": "selective mutism",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "selective mutism",
+      "behavioural intervention",
+      "stimulus fading",
+      "anxiety",
+      "CAMHS"
+    ],
+    "source": "DSM-5-TR (2022); Bergman RL (2012) 'Treatment for Children with Selective Mutism' - Oxford University Press."
+  },
+  {
+    "stem": "A 7-year-old boy presents with a 3-week history of acute onset of severe anxiety, emotional lability, obsessive-compulsive behaviours (hand washing, checking), motor tics, and urinary frequency. He had a confirmed group A streptococcal throat infection 4 weeks ago. His symptoms appeared suddenly over 24-48 hours. What is the MOST likely diagnosis?",
+    "options": [
+      "Paediatric acute-onset neuropsychiatric syndrome (PANS) — likely PANDAS subtype",
+      "Generalised anxiety disorder with new-onset OCD",
+      "Tourette syndrome",
+      "Acute stress reaction to a streptococcal infection",
+      "Encephalitis of unknown aetiology"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: PANS (Paediatric Acute-onset Neuropsychiatric Syndrome) describes sudden onset of OCD/restrictive eating and neuropsychiatric symptoms. PANDAS (Paediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcal infection) is a subtype associated with GAS infection. Diagnostic criteria: acute onset (<72 hours) of OCD or eating restriction, plus ≥2 of: anxiety, emotional lability, tics, motor abnormalities, somatic complaints (including urinary symptoms/sleep disturbance), and deterioration in handwriting/school performance.",
+      "Incorrect. GAD and typical OCD have insidious onset over weeks to months, not the dramatic 24-48 hour onset seen here. The temporal relationship with streptococcal infection is also key.",
+      "Incorrect. Tourette syndrome has onset over years with waxing and waning course, not acute onset over days. Tics are typically the presenting feature, not OCD symptoms followed by acute anxiety.",
+      "Incorrect. An acute stress reaction would follow a traumatic event, not a streptococcal infection, and would not typically include OCD symptoms, tics, and urinary frequency.",
+      "Incorrect. While encephalitis can present with acute neuropsychiatric symptoms, typical features include fever, headache, altered consciousness, seizures, or focal neurology — none described here."
+    ],
+    "teaching_point": "PANS/PANDAS is a controversial diagnosis with diagnostic criteria including: (1) acute, dramatic onset of OCD or anorexia; (2) concurrent neuropsychiatric symptoms (anxiety, tics, emotional lability, deterioration in school performance, sensory/motor abnormalities, somatic symptoms); (3) symptoms not better explained by another disorder. PANDAS requires evidence of GAS infection. Management: (1) psychiatric symptom management (CBT for OCD, SSRIs); (2) consider antibiotics if active GAS infection; (3) NSAIDs/immunomodulation for severe cases (specialist only). The evidence base is debated — some clinicians dispute the autoimmune link. Swedo et al. (1998) first described the condition at the NIH. NICE do not have specific PANDAS guidance; management follows OCD/anxiety guidelines.",
+    "domain": "child_adolescent",
+    "subdomain": "paediatric acute-onset neuropsychiatric syndrome (PANS)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "PANS",
+      "PANDAS",
+      "streptococcus",
+      "OCD",
+      "tics",
+      "autoimmune"
+    ],
+    "source": "Swedo SE et al. (1998) 'Paediatric autoimmune neuropsychiatric disorders associated with streptococcal infections' - Am J Psychiatry; Chang K et al. (2015) 'PANS consensus statement' - J Child Adolesc Psychopharmacol."
+  },
+  {
+    "stem": "A 32-year-old man who has been using heroin for 8 years presents requesting help with detoxification. He has been on a community methadone maintenance programme (60 mg daily) for the past 6 months but continues to occasionally use street heroin. He has a stable housing situation and is employed. What is the MOST appropriate next step in his opioid substitution therapy according to NICE guidance?",
+    "options": [
+      "Optimise methadone dose and continue supervised consumption until stability is achieved",
+      "Immediately start a reducing methadone regimen over 4 weeks for detoxification",
+      "Switch to buprenorphine-naloxone combination treatment",
+      "Refer for inpatient detoxification and consider naltrexone maintenance",
+      "Discontinue methadone and start lofexidine for symptomatic detoxification"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE CG52 (Methadone and buprenorphine for opioid dependence) recommends that the goal of OST is stability. An adequate methadone dose (60-120 mg typically) reduces illicit heroin use. If a patient continues to use heroin, the dose should be optimised. Supervised consumption (daily pick-up at pharmacy) ensures adherence and reduces diversion.",
+      "Incorrect. Rapid detoxification is not appropriate while the patient is still using illicit heroin. Stability must be achieved first before considering a reduction. NICE recommends maintenance treatment of at least 12 months.",
+      "Incorrect. Switching to buprenorphine is an option but not the first step. Dose optimisation of current treatment should precede switching. Buprenorphine has a ceiling effect and may be less effective in high-dependence patients.",
+      "Incorrect. Inpatient detoxification and naltrexone maintenance are options for those who have achieved stability and wish to become abstinent. This patient is still using and needs dose optimisation first.",
+      "Incorrect. Lofexidine (alpha-2 agonist) is used for symptomatic relief of opioid withdrawal during detoxification, not as maintenance treatment. It is not a substitute for OST."
+    ],
+    "teaching_point": "NICE CG52 (2007) and Drug Misuse and Dependence UK Guidelines (2017, 'Orange Book'): Optimal OST involves: (1) adequate dose (methadone 60-120 mg, buprenorphine 12-24 mg); (2) supervised consumption for at least 3 months; (3) psychosocial interventions (contingency management, CBT); (4) regular review. Methadone is a full mu-opioid agonist with long half-life (~24-36h). Buprenorphine is a partial agonist with ceiling effect, lower overdose risk, but may precipitate withdrawal. The goal of maintenance is reduction in illicit use, improved health, reduced injecting risk, and improved social functioning. Detoxification is only appropriate when the patient is stable and motivated.",
+    "domain": "substance_misuse",
+    "subdomain": "opioid substitution therapy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "opioid substitution",
+      "methadone",
+      "buprenorphine",
+      "OST",
+      "NICE CG52",
+      "orange book"
+    ],
+    "source": "NICE CG52 (2007) 'Methadone and buprenorphine for the management of opioid dependence'; UK Clinical Guidelines on Drug Misuse (2017)."
+  },
+  {
+    "stem": "A 24-year-old man is found unresponsive with pinpoint pupils and respiratory rate of 6 breaths per minute. Paramedics administer naloxone 0.4 mg intravenously with a good response. Which of the following BEST describes the recommended approach to naloxone administration and subsequent care in suspected methadone overdose?",
+    "options": [
+      "Because methadone has a longer half-life than naloxone, repeated doses or an infusion may be needed, and the patient requires extended observation for at least 24 hours",
+      "A single dose of naloxone is sufficient because its duration of action exceeds that of methadone",
+      "Intramuscular naloxone is contraindicated in opioid overdose due to erratic absorption",
+      "Naloxone should be administered at a starting dose of 2 mg intravenously to ensure rapid reversal",
+      "Once the patient has responded to naloxone, they can be safely discharged after 2 hours of observation"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Methadone has a long half-life (24-36 hours, up to 60 hours with chronic use), while naloxone has a short half-life (~30-80 minutes). Therefore, naloxone wears off before methadone, risking recurrent respiratory depression. Repeated boluses, an IV infusion, or transfer to a high-dependency setting with prolonged observation is required.",
+      "Incorrect. Naloxone's duration is much shorter than methadone. This is a common and dangerous misconception.",
+      "Incorrect. Intramuscular naloxone is recommended as first-line in community settings (take-home naloxone programmes). It has slightly slower onset but is effective and does not require IV access.",
+      "Incorrect. The starting dose of naloxone for opioid overdose is 0.4-0.8 mg IV (or 0.8 mg IM). Higher doses risk precipitating acute withdrawal (including pulmonary oedema). In known opioid dependence, start with lower doses (0.1-0.2 mg) to avoid severe withdrawal.",
+      "Incorrect. Given the half-life mismatch, 2 hours of observation is insufficient. The MHRA and NICE recommend a minimum of 6-12 hours observation after methadone reversal, preferably 24 hours in a monitored setting."
+    ],
+    "teaching_point": "Naloxone is a competitive mu-opioid receptor antagonist. Half-life ~30-80 minutes. In methadone overdose (half-life 24-36h), naloxone requirement is prolonged. Management: (1) ABC approach; (2) IV access; (3) naloxone 0.4-0.8 mg IV (or 0.8 mg IM/0.4 mg IN), repeated every 2-3 minutes up to 10 mg if no response; (4) if recurrent respiratory depression, start naloxone infusion (two-thirds of effective dose per hour); (5) 12-24 hour observation in high-dependency setting. Take-home naloxone programmes have reduced opioid-related deaths. NICE NG211 supports community naloxone provision.",
+    "domain": "substance_misuse",
+    "subdomain": "naloxone threshold / methadone OD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "naloxone",
+      "methadone overdose",
+      "opioid",
+      "respiratory depression",
+      "NICE NG211"
+    ],
+    "source": "NICE NG211 (2022) 'Opioid dependence: treatment and management'; MHRA guidelines on naloxone."
+  },
+  {
+    "stem": "A 30-year-old man is requesting help for cannabis use. He smokes 2-3 joints daily, started at age 15, and has made three unsuccessful attempts to cut down. He reports low mood, poor motivation, and memory difficulties. He does not meet criteria for depression. Which of the following statements about cannabis dependency treatment is MOST accurate?",
+    "options": [
+      "Psychological interventions, particularly CBT and motivational interviewing, are first-line treatment for cannabis dependence",
+      "Cannabis dependency is purely psychological and pharmacological interventions have no role",
+      "Nabilone is recommended for cannabis withdrawal symptoms",
+      "Inpatient detoxification is routinely required for cannabis withdrawal",
+      "Cannabis withdrawal syndrome does not exist in DSM-5"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE NG211 (Opioid Dependence) and WHO guidelines extend to cannabis: psychological interventions (CBT, MET, contingency management) form the cornerstone of treatment for cannabis use disorder. The Marijuana Treatment Project (MTP) showed CBT/MET combined with contingency management produces sustained reductions in use.",
+      "Incorrect. Cannabis withdrawal syndrome is recognised (DSM-5, ICD-11). Symptoms include irritability, anxiety, sleep difficulty, decreased appetite, and craving. While no medication is licensed for cannabis dependence, some off-label options exist (e.g., gabapentin, N-acetylcysteine under research).",
+      "Incorrect. Nabilone (synthetic cannabinoid) and dronabinol have been studied for withdrawal but are not recommended in routine clinical practice in the UK. They have potential for abuse and are not licensed for this indication.",
+      "Incorrect. Cannabis withdrawal is not medically dangerous (unlike alcohol or benzodiazepine withdrawal) and can be managed in the community. Inpatient detoxification is rarely required.",
+      "Incorrect. Cannabis withdrawal syndrome is included in DSM-5 (with criteria: ≥3 symptoms developing within 1 week of cessation) and ICD-11."
+    ],
+    "teaching_point": "Cannabis is the most commonly used illicit drug in the UK. Cannabis use disorder affects ~10% of users overall (higher with early onset and daily use). NICE NG211 recommends: (1) identification and brief interventions; (2) structured psychological interventions (CBT + MET + contingency management) for moderate-severe dependence; (3) treatment of comorbid mental health conditions. Cannabis withdrawal is now recognised in DSM-5 with 8 symptoms (irritability, anxiety, sleep difficulty, decreased appetite, depressed mood, physical discomfort, headache, craving). No medications are licensed; psychological approaches remain first-line. The 'amotivational syndrome' associated with chronic use is debated but functional impairment in motivation and cognition is well-described.",
+    "domain": "substance_misuse",
+    "subdomain": "cannabis dependency treatment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "cannabis",
+      "dependence",
+      "CBT",
+      "motivational interviewing",
+      "withdrawal",
+      "NICE NG211"
+    ],
+    "source": "NICE NG211 (2022); WHO Guidelines; Budney AJ et al. (2004) 'Treatment of cannabis dependence' - Psychol Addict Behav."
+  },
+  {
+    "stem": "A 29-year-old man presents to the emergency department with agitation, confusion, tachycardia (120 bpm), hypertension (170/100 mmHg), tremor, and visual hallucinations. His girlfriend reports that he has been using 'G' (gamma-hydroxybutyrate) and 'liquid ecstasy' regularly for the past 3 months and ran out 12 hours ago. He has no previous psychiatric history. What is the MOST appropriate management of his withdrawal?",
+    "options": [
+      "High-dose benzodiazepines (e.g., diazepam 20-40 mg stat, titrated to sedation) with close monitoring in a medical setting for potential rapid deterioration",
+      "Chlordiazepoxide reducing regimen over 7-10 days as for alcohol withdrawal",
+      "Haloperidol 10 mg IM for agitation and hallucinations",
+      "Supportive care only — GHB withdrawal is generally mild and self-limiting",
+      "Start clonidine 0.1 mg three times daily for autonomic symptoms"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: GHB/GBL withdrawal can be severe and life-threatening, with rapid onset (1-6 hours after last dose) and potential progression to delirium, seizure, and coma. High-dose benzodiazepines (diazepam or lorazepam) are first-line treatment, often requiring much higher doses than other withdrawal states (sometimes hundreds of mg of diazepam). Intensive medical monitoring is essential.",
+      "Incorrect. While chlordiazepoxide may be used, the key issue is the need for very high doses of benzodiazepines and close monitoring. GHB/GBL withdrawal can escalate rapidly and may require ICU-level care. A fixed reducing regimen may be insufficient.",
+      "Incorrect. Antipsychotics (haloperidol) are not recommended first-line as they lower the seizure threshold and may worsen symptoms. They should be avoided in acute GHB/GBL withdrawal. Benzodiazepines are the mainstay.",
+      "Incorrect. This is dangerously incorrect. GHB/GBL withdrawal can be severe, mimicking alcohol withdrawal but often more rapid in onset. It can cause rhabdomyolysis, delirium, seizure, and death if untreated.",
+      "Incorrect. Clonidine (alpha-2 agonist) may help autonomic symptoms but is not sufficient as monotherapy. High-dose benzodiazepines are the first-line treatment."
+    ],
+    "teaching_point": "GHB (gamma-hydroxybutyrate) and its precursors GBL (gamma-butyrolactone) and 1,4-BD (butanediol) are CNS depressants acting on GABA-B and GHB receptors. Withdrawal is similar to severe alcohol/benzodiazepine withdrawal but with more rapid onset (within hours) and can progress to delirium and seizure within 12-24 hours. Management: (1) ABC; (2) high-dose benzodiazepines (diazepam 10-20 mg hourly as needed, may require >200 mg/day); (3) ICU admission for severe cases; (4) baclofen (GABA-B agonist) may be used as adjunctive treatment in specialist settings; (5) avoid antipsychotics; (6) manage electrolyte disturbances and rhabdomyolysis. BAP guidelines (2012) cover management. GHB is used recreationally (club drug) and in the gay scene ('chemsex').",
+    "domain": "substance_misuse",
+    "subdomain": "GHB/GBL withdrawal management",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "GHB",
+      "GBL",
+      "withdrawal",
+      "benzodiazepines",
+      "chemsex",
+      "ICU"
+    ],
+    "source": "BAP (2012) 'Guidelines on the management of substance misuse'; McDonough M et al. (2004) 'GHB withdrawal syndrome' - BMJ."
+  },
+  {
+    "stem": "A 19-year-old man is brought to the emergency department after taking a substance at a party. He is agitated, aggressive, tachycardic (140 bpm), hypertensive (185/105 mmHg), hyperthermic (39.1°C), and is having a generalised tonic-clonic seizure. He has taken what his friends describe as a 'bath salt' or 'plant food' powder. What is the MOST appropriate immediate management?",
+    "options": [
+      "High-dose benzodiazepines (diazepam or lorazepam IV), aggressive cooling, IV fluids, and monitoring for rhabdomyolysis and renal failure",
+      "Haloperidol 10 mg IM for severe agitation",
+      "Beta-blockers (propranolol) to control hypertension and tachycardia",
+      "Flumazenil to reverse any potential sedative effect",
+      "Naloxone 0.4 mg IV to reverse potential opioid contamination"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NPS (synthetic cathinones — 'bath salts', 'plant food', e.g., mephedrone) cause a sympathomimetic toxidrome: agitation, aggression, tachycardia, hypertension, hyperthermia, and seizures. Management: (1) high-dose benzodiazepines (diazepam 10-20 mg IV) are first-line for agitation, hypertension, tachycardia, and seizure control; (2) active cooling for hyperthermia; (3) IV fluids for rhabdomyolysis/renal protection; (4) ICU admission for severe cases.",
+      "Incorrect. Antipsychotics (haloperidol) lower seizure threshold, can worsen hyperthermia (antipsychotic malignant syndrome), and prolong QTc. They should be avoided in the acute synthetic cathinone toxidrome. Benzodiazepines are safer.",
+      "Incorrect. Beta-blockers are relatively contraindicated in sympathomimetic toxicity due to the risk of 'unopposed alpha agonism' (exacerbating hypertension from unopposed alpha-1 stimulation). The best agents are benzodiazepines.",
+      "Incorrect. Flumazenil is only indicated for benzodiazepine overdose reversal and may precipitate seizures in mixed overdoses. There is no indication here.",
+      "Incorrect. Naloxone has no role in synthetic cathinone toxicity. Opioids cause the opioid toxidrome (respiratory depression, miosis), not the sympathomimetic picture seen here."
+    ],
+    "teaching_point": "Novel psychoactive substances (NPS) include synthetic cathinones (mephedrone, MDPV, methylone), synthetic cannabinoids ('Spice', 'K2'), and others. Synthetic cathinones act as monoamine transporter inhibitors (similar to cocaine/MDMA). Toxidrome: sympathomimetic excitation, serotonin toxicity, and psychostimulation. MDPV in particular is a potent dopamine reuptake inhibitor causing severe agitation and psychosis. Management algorithm: (1) benzodiazepines first-line; (2) cooling for hyperthermia; (3) IV fluids; (4) avoid antipsychotics if possible; (5) if severe agitation persists after high-dose benzodiazepines, propofol or ketamine in ICU. NICE NG211 advises on management of substance misuse in acute settings.",
+    "domain": "substance_misuse",
+    "subdomain": "novel psychoactive substances management",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "NPS",
+      "synthetic cathinones",
+      "mephedrone",
+      "bath salts",
+      "benzodiazepines",
+      "toxidrome"
+    ],
+    "source": "NICE NG211 (2022); Schifano F et al. (2017) 'New psychoactive substances: health and social harms' - Lancet Psychiatry."
+  },
+  {
+    "stem": "A 28-year-old woman with a history of childhood emotional abuse and neglect presents with self-harm, chaotic relationships, and unstable mood. She is referred for psychotherapy. Her therapist describes a model that focuses on identifying reciprocal role procedures and 'traps, dilemmas, and snags' to understand how the patient's early relational patterns are maintained in the present. Which psychotherapeutic model is being described?",
+    "options": [
+      "Cognitive analytic therapy (CAT)",
+      "Dialectical behaviour therapy (DBT)",
+      "Mentalisation-based treatment (MBT)",
+      "Cognitive behavioural therapy (CBT)",
+      "Transference-focused psychotherapy (TFP)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: CAT (cognitive analytic therapy) integrates cognitive and psychodynamic approaches. Central concepts include reciprocal roles (patterns of relating learned from early relationships), reciprocal role procedures (how these patterns play out), and three maintenance structures: traps (self-reinforcing vicious cycles), dilemmas (false dichotomies in relationships), and snags (ways of sabotaging progress).",
+      "Incorrect. DBT focuses on dialectics, validation, mindfulness, distress tolerance and emotion regulation. While DBT is evidence-based for BPD, the concepts of reciprocal roles, traps, dilemmas, and snags are specific to CAT.",
+      "Incorrect. MBT focuses on mentalisation — the ability to understand one's own and others' mental states. Key concepts include 'psychic equivalence,' 'pretend mode,' and 'teleological mode,' not reciprocal roles and traps.",
+      "Incorrect. CBT focuses on cognitive distortions (thinking errors) and behavioural activation. While some concepts overlap, the specific terminology of reciprocal roles, traps, dilemmas, and snags belongs to CAT.",
+      "Incorrect. TFP focuses on interpretation of defences and object relations in the transference relationship. It draws on Kernberg's object relations theory, not the CAT model."
+    ],
+    "teaching_point": "Cognitive Analytic Therapy (CAT) was developed by Anthony Ryle in the 1980s as a time-limited (typically 16-24 sessions) integrative therapy for borderline personality disorder and other conditions. Key concepts: (1) Reciprocal Roles (RRs) — internalised patterns of relating originating from early caregiving; (2) Reciprocal Role Procedures (RRPs) — the patient's characteristic patterns of managing relationships based on RRs; (3) Traps — vicious cycles where negative beliefs/actions reinforce each other; (4) Dilemmas — narrow choices perceived as the only options; (5) Snags — ways of stopping positive change (often via internalised negative voices). Assessment includes the psychotherapy file, reformulation letter (given to patient), and sequential diagrammatic reformulation (SDR). CAT is NICE recommended for BPD treatment (CG78).",
+    "domain": "psychotherapy",
+    "subdomain": "CAT model",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "CAT",
+      "cognitive analytic therapy",
+      "reciprocal roles",
+      "traps dilemmas snags",
+      "reformulation"
+    ],
+    "source": "Ryle A, Kerr I (2002) 'Introducing Cognitive Analytic Therapy'; NICE CG78 (2009) 'Borderline Personality Disorder'."
+  },
+  {
+    "stem": "A 25-year-old woman with borderline personality disorder is being assessed for mentalisation-based treatment (MBT). The therapist explains that a core difficulty in BPD is maintaining mentalising during attachment-related stress. Which of the following BEST describes the 'mentalising stance' the therapist should adopt in MBT?",
+    "options": [
+      "A 'not-knowing' position characterised by genuine curiosity, active questioning about mental states, acknowledging fallibility, and stimulating the patient to think about their own mind",
+      "An interpretive stance that identifies unconscious conflicts and defences driving the patient's behaviour",
+      "A didactic stance that teaches the patient cognitive skills to recognise distorted thoughts",
+      "A validation stance that prioritises empathising with the patient's emotional experience above all else",
+      "A neutral stance where the therapist remains a blank screen to encourage transference projection"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: The MBT therapist adopts a 'not-knowing' stance (also called 'mentalising stance'): the therapist is genuinely curious about the patient's mind, actively asks about mental states ('What was going through your mind?'), acknowledges their own fallibility ('I may be wrong but...'), and stimulates the patient's curiosity about their own mental processes. The therapist actively uses 'stop, rewind, explore' moments when loss of mentalising occurs.",
+      "Incorrect. This describes a psychodynamic/psychoanalytic stance focusing on interpretation of unconscious conflicts. MBT explicitly avoids deep interpretative work as it can destabilise patients with BPD and impair mentalising further.",
+      "Incorrect. This describes a CBT stance which identifies cognitive distortions and uses didactic methods. MBT is not a cognitive restructuring therapy; it focuses on the process of thinking about minds rather than the content of thoughts.",
+      "Incorrect. While validation is an important component (following Bateman & Fonagy's work), MBT involves more than validation. The mentalising stance actively challenges and stimulates reflection, not just validates.",
+      "Incorrect. This describes a classical psychoanalytic stance (blank screen/analyst as mirror). MBT is an active, engaging, and collaborative therapy — the therapist is transparent and genuine."
+    ],
+    "teaching_point": "Mentalisation-Based Treatment (MBT) was developed by Anthony Bateman and Peter Fonagy for BPD. Core premise: BPD involves a vulnerability to loss of mentalising under interpersonal/attachment stress. Mentalising is the capacity to understand behaviour in terms of mental states (thoughts, feelings, intentions, desires). Pre-mentalising modes: (1) Psychic equivalence — internal equals external reality ('if I feel it, it must be true'); (2) Pretend mode — thoughts disconnected from reality (endless abstract talk without real change); (3) Teleological mode — feelings only validated by actions ('only physical touch proves I exist'). MBT interventions: empathic validation, clarifying, affect focus, challenging, and 'stop, rewind, explore'. Therapist stance: 'not-knowing' with active, genuine curiosity. MBT is recommended by NICE (CG78) as a treatment option for BPD.",
+    "domain": "psychotherapy",
+    "subdomain": "MBT principles",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "MBT",
+      "mentalisation",
+      "BPD",
+      "not-knowing stance",
+      "attachment",
+      "Fonagy"
+    ],
+    "source": "Bateman A, Fonagy P (2006) 'Mentalization-based Treatment for BPD'; NICE CG78 (2009) 'Borderline Personality Disorder'."
+  },
+  {
+    "stem": "A 30-year-old woman with borderline personality disorder and history of recurrent self-harm is being considered for psychodynamic psychotherapy. The proposed treatment is transference-focused psychotherapy (TFP). Which of the following BEST describes the primary mechanism of change in TFP?",
+    "options": [
+      "Systematic interpretation of the transference relationship, focusing on splitting and the integration of polarized representations of self and others",
+      "Developing a collaborative therapeutic alliance and identifying cognitive schemas related to early trauma",
+      "Maintaining a 'not-knowing' stance to stimulate the patient's curiosity about their own mind",
+      "Using Socratic questioning to challenge automatic thoughts about relationships",
+      "Providing a corrective emotional experience through unconditional positive regard"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: TFP, developed by Otto Kernberg and colleagues, focuses on the interpretation of the transference relationship as it unfolds in the therapy session. The key mechanism is interpretation of splitting (the division of self and object representations into 'all good' and 'all bad') and integration of these polarized representations into more balanced, complex views. The goal is to reduce identity diffusion and improve object relations.",
+      "Incorrect. This describes cognitive therapy (schema-focused therapy), not TFP. While schemas are important, TFP's foundational mechanism is transference interpretation and object relations integration.",
+      "Incorrect. This describes the MBT therapist stance ('not-knowing'), not TFP. TFP uses clarification, confrontation, and interpretation in the transference, not a 'not-knowing' position.",
+      "Incorrect. This describes CBT. TFP does not use Socratic questioning or challenge automatic thoughts directly.",
+      "Incorrect. While the therapeutic relationship is important, TFP is not primarily based on a 'corrective emotional experience' or Rogers' conditions (unconditional positive regard). The mechanism is interpretation, not relational provision."
+    ],
+    "teaching_point": "Transference-Focused Psychotherapy (TFP) is a manualised psychodynamic treatment for BPD based on Kernberg's object relations theory. Key concepts: (1) Identity diffusion — lack of integrated self/other representations; (2) Primitive defences — splitting, projective identification, idealisation/devaluation; (3) Object relations dyads — internalised representations of self and other linked by an affect. TFP structure: (a) Treatment contract — verbal agreement about therapy parameters and boundaries; (b) Clarification — therapist asks questions to understand unclear communications; (c) Confrontation — tactfully pointing out contradictions/discrepancies; (d) Interpretation — in the 'here and now' of the transference, linking the patient's experience of the therapist to internal object relations. NICE CG78 mentions TFP as a treatment option for BPD.",
+    "domain": "psychotherapy",
+    "subdomain": "transference-focused psychotherapy",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "TFP",
+      "transference-focused",
+      "object relations",
+      "Kernberg",
+      "splitting",
+      "BPD",
+      "interpretation"
+    ],
+    "source": "Kernberg O, Yeomans F, Clarkin J (2009) 'Transference-Focused Psychotherapy'; NICE CG78 (2009)."
+  },
+  {
+    "stem": "A 68-year-old man with advanced prostate cancer, chronic pain, and comorbid anxiety is being seen by a liaison psychiatrist. He has limited insight into his psychological difficulties and is ambivalent about most treatment approaches. He lives alone and has limited social support. Which of the following psychotherapeutic approaches is MOST appropriate as an initial intervention in this context?",
+    "options": [
+      "Supportive psychotherapy — providing emotional support, active listening, praise, practical advice, and bolstering existing coping strategies",
+      "Interpretive psychodynamic psychotherapy focusing on unconscious conflicts about death",
+      "Dialectical behaviour therapy with skills training in distress tolerance",
+      "Cognitive behavioural therapy with exposure techniques for health anxiety",
+      "Interpersonal psychotherapy focusing on role transitions"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Supportive psychotherapy is indicated when patients have limited insight, are ambivalent about treatment, have significant life stressors, reduced psychosocial supports, or high levels of distress. It focuses on: establishing rapport, emotional support, advice, ego reinforcement, normalisation, and practical problem-solving. It does not require insight or motivation for explorative work.",
+      "Incorrect. Interpretive/exploratory therapy requires capacity for insight, a level of psychological-mindedness, and motivation for self-exploration. This patient lacks these capacities and is ambivalent. Interpretive work may increase anxiety without benefit.",
+      "Incorrect. DBT is designed for BPD (and adapted for other conditions with emotional dysregulation). It requires motivation, commitment to a 1-year programme, and capacity for skills training. Not appropriate for this patient.",
+      "Incorrect. CBT requires engagement, ability to identify and challenge thoughts, and willingness to do homework. This patient has limited insight and is ambivalent, making CBT less suitable. However, CBT elements can be incorporated into supportive therapy.",
+      "Incorrect. IPT is a structured treatment for depression, focusing on grief, role disputes, role transitions, or interpersonal deficits. This patient's anxiety and limited insight make supportive therapy a better fit initially."
+    ],
+    "teaching_point": "Supportive psychotherapy is a widely-used but often under-recognised modality. It is NOT simply 'being supportive' — it is an active, skilled intervention with a specific evidence base. Key techniques: (1) Validation and normalisation; (2) Praise and encouragement; (3) Reframing (offering alternative less threatening perspective); (4) Advice and suggestion; (5) Clarification (asking questions); (6) Confrontation (gentle pointing out of discrepancies when appropriate). The supportive-expressive continuum describes how therapy moves from supportive (for less resilient patients) to expressive/exploratory (for more resilient patients). Supportive therapy is appropriate for: severe illness, low psychological-mindedness, acute crisis, significant comorbidity, older adults, and those with cognitive impairment. All psychotherapies contain supportive elements; what differs is the degree.",
+    "domain": "psychotherapy",
+    "subdomain": "supportive psychotherapy",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "supportive psychotherapy",
+      "palliative care",
+      "anxiety",
+      "psychological-mindedness",
+      "cancer"
+    ],
+    "source": "Pinsker H (1997) 'A Primer of Supportive Psychotherapy'; Winston A et al. (2011) 'Supportive Psychotherapy' - Gabbard's Treatments of Psychiatric Disorders."
+  },
+  {
+    "stem": "A 35-year-old woman with a 5-year history of bulimia nervosa (binge-eating and purging 3 times weekly) has completed a 20-session course of enhanced CBT (CBT-E) with partial response. Her binge frequency has reduced to once per week, but purging persists. She is being considered for group therapy. For which condition is group psychotherapy MOST clearly established as having evidence of efficacy equivalent to or better than individual therapy?",
+    "options": [
+      "Group CBT for bulimia nervosa and binge-eating disorder",
+      "Group psychoanalysis for obsessive-compulsive disorder",
+      "Group psychodynamic therapy for schizophrenia",
+      "Group CBT for post-traumatic stress disorder",
+      "Group interpersonal therapy for substance use disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: Group CBT has strong evidence for bulimia nervosa and binge-eating disorder, with outcomes comparable to individual CBT. The NICE guideline (NG69) for eating disorders recommends both individual and group CBT-E. Group therapy offers additional benefits: normalisation, peer support, and cost-effectiveness.",
+      "Incorrect. Group psychoanalysis is not an evidence-based treatment for OCD. NICE recommends CBT (ERP) and SSRIs. There is no evidence for group psychoanalysis in OCD.",
+      "Incorrect. While group therapies (including group CBT and family interventions) can be helpful for schizophrenia, the strongest evidence is for cognitive remediation and family intervention, not psychodynamic group therapy. NICE CG178 recommends family intervention, not group psychodynamic therapy.",
+      "Incorrect. While group CBT exists for PTSD, NICE NG116 recommends individual trauma-focused CBT or EMDR as first-line. Group therapy may be used but is not equivalent to individual therapy. Individual therapy has stronger evidence.",
+      "Incorrect. Group IPT has some evidence but is not established as equivalent to individual therapy for substance use disorders. Contingency management and CBT have stronger evidence (NICE NG211)."
+    ],
+    "teaching_point": "Group therapy has a strong evidence base across several conditions. NICE recommendations: (1) Eating disorders (NG69): group CBT-E for bulimia nervosa and binge-eating disorder has comparable efficacy to individual; (2) Social anxiety: group CBT is recommended (CG159); (3) BPD: group programmes (MBT, STEPPS) are part of treatment; (4) Psychosis: family intervention groups (CG178); (5) Substance misuse: group-based relapse prevention (NG211). Yalom's 12 therapeutic factors in group therapy include: universality (finding similarities), altruism (helping others), instillation of hope, and interpersonal learning. Not all conditions respond well to group therapy — personality disorders (particularly severe paranoia/antisocial) may be inappropriate for heterogeneous groups.",
+    "domain": "psychotherapy",
+    "subdomain": "group therapy evidence base",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": [
+      "group therapy",
+      "CBT-E",
+      "bulimia nervosa",
+      "binge-eating disorder",
+      "NICE NG69",
+      "Yalom"
+    ],
+    "source": "NICE NG69 (2017) 'Eating Disorders: recognition and treatment'; Yalom ID (2005) 'The Theory and Practice of Group Psychotherapy'."
+  },
+  {
+    "stem": "A 35-year-old man with schizophrenia is charged with assaulting a neighbour. He was delusional at the time, believing the neighbour was an alien trying to kill him. He is pleading not guilty. At trial, the court is considering whether he meets the criteria for the insanity defence under the M'Naghten Rules. Which of the following criteria MUST be satisfied?",
+    "options": [
+      "At the time of the offence, the person must have been suffering from a disease of the mind such that he did not know the nature and quality of his act OR he did not know it was legally wrong",
+      "The person must have been found to be suffering from a mental disorder under the Mental Health Act 1983 at trial",
+      "The person must have been completely unable to control their behaviour at the time of the offence",
+      "The person must have a diagnosis of schizophrenia confirmed by independent psychiatric assessment",
+      "The person must demonstrate that they did not intend to cause harm to the victim"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: The M'Naghten Rules (1843) provide the test for the insanity defence in England and Wales. The defendant must prove on the balance of probabilities that at the time of the act: (1) they were suffering from a 'defect of reason from disease of the mind'; and (2) either (a) they did not know the nature and quality of the act they were doing, OR (b) they did not know it was legally wrong.",
+      "Incorrect. The insanity defence uses the M'Naghten criteria, not the MHA 1983 definition of mental disorder. The 'disease of the mind' in M'Naghten is a legal, not medical, concept.",
+      "Incorrect. This describes 'irresistible impulse' which is NOT part of the M'Naghten Rules. Courts in England have consistently rejected irresistible impulse as a defence, though some other jurisdictions recognise it.",
+      "Incorrect. While psychiatric evidence is relevant, the decision is for the jury. The 'disease of the mind' in M'Naghten is broader than any specific diagnosis and includes conditions like epilepsy and diabetes.",
+      "Incorrect. The M'Naghten Rules focus on knowing the nature/quality/wrongness of the act, not on intent. In fact, the mens rea (intent) may still be present even if the insanity defence succeeds."
+    ],
+    "teaching_point": "The M'Naghten Rules (originating from 1843 case of Daniel M'Naghten) are the test for insanity in criminal law (England, Wales, most common law countries). Key points: (1) Presumption of sanity — every person is presumed sane unless proven otherwise; (2) Burden of proof — on the defendant, on balance of probabilities; (3) 'Disease of the mind' — a legal term, includes any condition affecting mental faculties (including epilepsy, sleepwalking, diabetes causing hypoglycaemia, but NOT psychopathy under the rules). If the insanity defence succeeds, the verdict is 'Not Guilty by Reason of Insanity' (special verdict under Criminal Procedure (Insanity and Unfitness to Plead) Act 1991). The court may make a hospital order (with/without restrictions), supervision order, or absolute discharge.",
+    "domain": "forensic",
+    "subdomain": "insanity defence / M'Naghten Rules",
+    "difficulty": "hard",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "M'Naghten Rules",
+      "insanity defence",
+      "disease of the mind",
+      "criminal responsibility",
+      "schizophrenia"
+    ],
+    "source": "M'Naghten Case (1843) 10 Cl & Fin 200; Ormerod D (2021) 'Smith, Hogan, and Ormerod's Criminal Law'."
+  },
+  {
+    "stem": "A serious incident review is being conducted after a patient under a Community Treatment Order (CTO) with a history of paranoid schizophrenia committed a homicide while non-adherent to medication. The review team is examining the role of various agencies. Which report specifically focused on the need for improved information sharing and joint working between health services and criminal justice agencies following homicides by mental health patients?",
+    "options": [
+      "The Griffiths Report on mental health services for people of no fixed abode",
+      "The Reed Report on forensic mental health services",
+      "The Bradley Report on mental health in the criminal justice system",
+      "The Clunis Inquiry following the homicide of Jonathan Zito",
+      "The Richardson Report on reforming the Mental Health Act"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: The Griffiths Report (1994) by Sir Roy Griffiths focused on the need for better inter-agency cooperation between health, social services, and housing. It emphasised the importance of shared care, joint commissioning, and improved information-sharing particularly for severely mentally ill patients in the community.",
+      "Incorrect. The Reed Report (1992) was a Department of Health review of forensic psychiatric services that recommended a comprehensive, regionally-based secure system with a range of security levels.",
+      "Incorrect. The Bradley Report (2009) focused on the over-representation of people with mental health problems in the criminal justice system and recommended alternatives to prosecution and improved liaison and diversion services.",
+      "Incorrect. The Clunis Inquiry (1993/1994) investigated the care of Christopher Clunis who killed Jonathan Zito. It identified failures in community care and led to the introduction of the Care Programme Approach (CPA) and supervision registers. However, this relates to specific individual failures rather than the broad inter-agency framework.",
+      "Incorrect. The Richardson Report (1999) was an expert committee report that proposed a new mental health act based on capacity, principle of reciprocity, and treatment without consent under certain circumstances. It influenced the 2007 MHA amendments."
+    ],
+    "teaching_point": "Several landmark reports shaped forensic/community mental health services: (1) Griffiths Report (1988, 1994) — emphasised 'care in the community' and inter-agency working; (2) Reed Report (1992) — recommended comprehensive forensic psychiatric services including high, medium, and low secure units; (3) Clunis Inquiry (1994) — highlighted CPA failures; (4) The Fallon Inquiry (1999) — investigated Ashworth Hospital; (5) Bradley Report (2009) — mental health in the criminal justice system, led to national street triage and liaison/diversion services; (6) Francis Report (2013) — Mid-Staffordshire NHS Foundation Trust inquiry, highlighted poor care standards. The current MHA Code of Practice emphasises least restrictive practice and therapeutic relationships.",
+    "domain": "forensic",
+    "subdomain": "Griffiths report",
+    "difficulty": "hard",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "Griffiths Report",
+      "inter-agency",
+      "community care",
+      "homicide reviews",
+      "mental health policy"
+    ],
+    "source": "Griffiths R (1994) 'Mental Health Services in the Community'; Department of Health publications."
+  },
+  {
+    "stem": "A 42-year-old man with paranoid schizophrenia was convicted of wounding with intent (Section 18) and received a hospital order with restrictions under Sections 37/41 of the Mental Health Act 1983. He has been in a medium secure unit for 4 years and his Responsible Clinician considers him ready for transfer to a low secure unit. Which body has the authority to direct the transfer of a restricted patient?",
+    "options": [
+      "The Ministry of Justice / Secretary of State for Justice",
+      "The Responsible Clinician (RC) alone",
+      "The First-tier Tribunal (Mental Health)",
+      "The Mental Health Act Managers (Hospital Managers)",
+      "The Care Quality Commission"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: For restricted patients (under S.37/41 or those transferred from prison), the Ministry of Justice (Secretary of State for Justice) must authorise any: (1) transfer between hospitals; (2) leave of absence >7 days or for overnight; (3) transfer for trial leave; (4) conditional discharge; (5) absolute discharge. The RC makes the recommendation but cannot action it without MoJ approval.",
+      "Incorrect. The RC assesses the patient and makes recommendations to the MoJ but does not have the authority to direct transfer of a restricted patient. They can make the case for transfer but MoJ approval is required.",
+      "Incorrect. The First-tier Tribunal can order discharge or conditional discharge for restricted patients but cannot directly order transfer between hospitals. However, the MoJ may act on tribunal recommendations for transfers as part of a care pathway.",
+      "Incorrect. Hospital Managers have limited powers for unrestricted patients but restricted patients fall under the authority of the Secretary of State. Hospital managers cannot authorise transfers of restricted patients.",
+      "Incorrect. The CQC regulates and inspects services but does not have authority over individual patient transfers. It can recommend improvements but not direct transfer decisions."
+    ],
+    "teaching_point": "Restricted patients under MHA 1983 (S.37/41 or S.47/48 transferred from prison) are subject to special controls. The Ministry of Justice (via the Mental Health Casework Section — MHCS, part of HM Prison and Probation Service) must authorise: (a) granting leave of absence (beyond first 7 days or overnight); (b) transfer to another hospital; (c) conditional discharge. The RC holds responsibility for clinical management but must apply to the MoJ for these decisions. For unrestricted (non-restricted) patients, S.19 allows hospital managers to transfer between hospitals with agreement from the receiving hospital. The MHA Code of Practice 2015 provides detailed guidance. Tribunals for restricted patients: the case must be referred to the First-tier Tribunal automatically at specific intervals and the patient can apply.",
+    "domain": "forensic",
+    "subdomain": "restricted patients / recall tribunals",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "restricted patient",
+      "MHA S.37/41",
+      "Ministry of Justice",
+      "transfer",
+      "medium secure unit"
+    ],
+    "source": "Mental Health Act 1983 (as amended); MHA Code of Practice (2015); Department of Health."
+  },
+  {
+    "stem": "A forensic clinical psychologist is conducting a risk assessment for release planning of a 38-year-old man with antisocial personality disorder and history of violent offending. She is using the HCR-20 (Version 3). Which of the following BEST describes what the HCR-20 measures and how it should be used?",
+    "options": [
+      "The HCR-20 is a structured professional judgement (SPJ) tool that guides the assessment of violence risk through 20 items covering Historical, Clinical, and Risk Management factors, producing a final judgement of low/moderate/high risk",
+      "The HCR-20 is an actuarial tool that produces a numerical probability of future violence based on statistical algorithms",
+      "The HCR-20 is a psychometric test measuring psychopathy severity based on 20 facets of interpersonal and affective traits",
+      "The HCR-20 is a static risk assessment tool used only for sex offenders requiring lifelong registration",
+      "The HCR-20 is a tool for assessing fitness to plead that evaluates 20 cognitive and legal factors"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: HCR-20 (Version 3) is the leading structured professional judgement (SPJ) tool for violence risk assessment. It has 20 items: 10 Historical (past), 5 Clinical (present), and 5 Risk Management (future). The SPJ approach means the clinician evaluates each item and makes a final structured judgement of low/moderate/high risk based on case formulation, not a numerical score.",
+      "Incorrect. This describes actuarial tools (e.g., VRAG, STATIC-99). Actuarial tools produce statistical probabilities. HCR-20 is explicitly an SPJ tool — it guides clinical judgement rather than replacing it.",
+      "Incorrect. This describes the PCL-R (Psychopathy Checklist-Revised, 20 items measuring interpersonal/affective/lifestyle/antisocial facets). The HCR-20 includes the PCL-R as part of historical items but is broader in scope.",
+      "Incorrect. HCR-20 is for general violence risk, not only sexual offending. Tools like STATIC-99/R, RSVP (Risk of Sexual Violence Protocol) are for sexual violence. HCR-20 is for any violent behaviour.",
+      "Incorrect. Fitness to plead is assessed using the Pritchard criteria (1969) or the Mounce v R (2012) approach, asking about: understanding charges, ability to instruct counsel, pleading to indictment, challenging jurors, following evidence."
+    ],
+    "teaching_point": "Violence risk assessment has evolved through three generations: (1) Unstructured clinical judgement (poor reliability); (2) Actuarial tools (STATIC-99, VRAG) — quantitative, structured, produce probabilities but limited to group-level data; (3) Structured professional judgement (SPJ) — HCR-20, RSVP, START — combines evidence-based risk factors with clinical formulation. HCR-20 V3 was developed by Webster, Douglas, Eaves, and Hart. The 10 Historical items include: violence history, other antisocial behaviour, relationships, employment, substance use, mental disorder, personality disorder, trauma, violent attitudes, treatment/supervision response. The SPJ approach is recommended by NICE for violence risk assessment, alongside a multidisciplinary team approach. Risk formulation considers: (1) nature of violence; (2) severity; (3) imminence; (4) frequency. Risk management plans must address each identified risk factor.",
+    "domain": "forensic",
+    "subdomain": "risk formulation with HCR-20",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "HCR-20",
+      "risk assessment",
+      "SPJ",
+      "violence",
+      "structured professional judgement",
+      "forensic"
+    ],
+    "source": "Douglas KS, Hart SD, Webster CD, Belfrage H (2013) 'HCR-20 Version 3: User Guide'; NICE PH50 (2014) 'Violence prevention'."
+  },
+  {
+    "stem": "A 29-year-old man with a history of schizophrenia and violent offending is being released from prison on licence. His offending history includes a serious assault on a stranger during a psychotic episode. He will be subject to Multi-Agency Public Protection Arrangements (MAPPA). Which of the following statements about MAPPA is MOST accurate?",
+    "options": [
+      "MAPPA requires the police, probation, and prison services (the 'responsible authority') to assess and manage the risk of serious harm posed by certain offenders through a structured multi-agency framework with three levels of management",
+      "MAPPA is a voluntary scheme that only applies to offenders convicted of sexual offences",
+      "MAPPA is a National Health Service programme that provides mental health treatment for offenders in the community",
+      "MAPPA replaces the Care Programme Approach (CPA) for mentally disordered offenders",
+      "MAPPA decisions can be overridden by the Responsible Clinician in the interest of patient confidentiality"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: MAPPA (Multi-Agency Public Protection Arrangements) are statutory arrangements under the Criminal Justice Act 2003. The 'Responsible Authority' comprises police, probation, and prison services. They assess and manage risk of serious harm from sexual and violent offenders. Three management levels: 1 (ordinary management), 2 (local multi-agency), 3 (MAPPA Strategic Management Board).",
+      "Incorrect. MAPPA applies to: (a) Category 1 — registered sex offenders (mandatory); (b) Category 2 — violent offenders (minimum 12 months imprisonment for violent/sexual offence); (c) Category 3 — other offenders who pose a risk of serious harm. MAPPA is statutory, not voluntary.",
+      "Incorrect. MAPPA is led by police/probation/prisons (CRIMINAL justice system). The NHS/HCS is a 'duty to cooperate' agency (along with housing, social services, JobCentre Plus). Mental health services are invited to attend relevant meetings.",
+      "Incorrect. MAPPA exists alongside the CPA. Mentally disordered offenders under MAPPA should also have CPA care coordination. MAPPA covers public protection; CPA covers healthcare coordination. They are complementary, not substitutes.",
+      "Incorrect. MAPPA information sharing is governed by legal frameworks and information-sharing protocols. Patient confidentiality is not absolute in public protection contexts. The 'duty to cooperate' means relevant risk information must be shared."
+    ],
+    "teaching_point": "MAPPA was established by the Criminal Justice Act 2003 (sections 325-327). The four key principles: (1) Public protection is the primary concern; (2) Risk assessment and management are best done by multi-agency cooperation; (3) Risk is dynamic and requires ongoing reassessment; (4) Effective risk management requires robust information sharing. Levels: Level 1 — single-agency management (low risk); Level 2 — multi-agency active management meetings coordinated by probation (higher risk); Level 3 — Multi-Agency Public Protection (MAPP) Panel meetings chaired by senior police/probation (very high risk, complex cases). 'Duty to cooperate' agencies include: Youth Offending Teams, JobCentre Plus, Home Office Immigration, local housing authorities, local health services, Health and Social Care Trusts (Wales), and electronic monitoring providers. The ViSOR database (Violent and Sexual Offenders Register) supports information sharing.",
+    "domain": "forensic",
+    "subdomain": "MAPPA",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "MAPPA",
+      "public protection",
+      "multi-agency",
+      "Criminal Justice Act",
+      "risk management",
+      "ViSOR"
+    ],
+    "source": "Criminal Justice Act 2003, sections 325-327; Ministry of Justice (2012) 'MAPPA Guidance'."
+  },
+  {
+    "stem": "A 24-year-old man with severe learning disability and autism spectrum disorder is being referred to the intensive support team due to increasing challenging behaviour including aggression towards his parents and self-injurious behaviour (head-banging). He is non-verbal. His parents are exhausted. Positive Behaviour Support (PBS) is being recommended. Which of the following is a CORE principle of PBS?",
+    "options": [
+      "Conducting a functional assessment to understand the meaning and purpose of the behaviour, then developing proactive and reactive strategies based on this understanding",
+      "Using aversive stimuli at low intensity to reduce dangerous behaviours through negative reinforcement",
+      "Providing a fixed schedule of rewards regardless of behaviour to avoid triggering distress",
+      "Focusing exclusively on pharmacological intervention to reduce agitation and aggression",
+      "Using time-out and seclusion as primary strategies to manage challenging behaviour"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: PBS is a person-centred, evidence-based approach grounded in applied behaviour analysis. The core principle is functional assessment — understanding what the behaviour communicates (the 'function' or 'message') — and then developing proactive strategies (changing environment, teaching alternative skills), reactive strategies (how to respond safely if behaviour occurs), and quality-of-life interventions.",
+      "Incorrect. PBS explicitly avoids aversive or punitive approaches. Reduction strategies in PBS are based on understanding function and teaching alternative behaviours, not using aversive stimuli.",
+      "Incorrect. Reward systems in PBS are contingent on specific behaviours (positive reinforcement for desired behaviours). A fixed schedule regardless of behaviour is not evidence-based and does not teach new skills.",
+      "Incorrect. PBS is a psychosocial approach. Medication may be considered as part of a holistic plan if psychosocial approaches are insufficient (NICE NG11), but the core of PBS is environmental and behavioural, not pharmacological.",
+      "Incorrect. Time-out and seclusion may be used in extreme circumstances for safety but are not 'primary' strategies in PBS. The emphasis is on proactive prevention through functional assessment, not reactive containment."
+    ],
+    "teaching_point": "Positive Behaviour Support (PBS) is recommended by NICE NG11 (Challenging Behaviour in Learning Disability) as first-line for challenging behaviour. The PBS framework: (1) Values — person-centred, rights-based, socially valid, evidence-based; (2) Theory — applied behaviour analysis understanding of function; (3) Process — functional assessment including ABC (Antecedent-Behaviour-Consequence) charts, structured interviews, and observation; (4) Strategies — primary (environmental modification, skill-building, communication support), secondary (teaching replacement behaviours), and tertiary (reactive strategies, crisis management). Functions of behaviour include: communication (wanting attention, escape/avoidance, tangible/reward, sensory stimulation). The PBS plan is developed collaboratively with the person, family, and team. BSP (Behaviour Support Plan) is the written document.",
+    "domain": "learning_disability",
+    "subdomain": "challenging behaviour / positive behaviour support",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "positive behaviour support",
+      "challenging behaviour",
+      "learning disability",
+      "functional assessment",
+      "PBS",
+      "NICE NG11"
+    ],
+    "source": "NICE NG11 (2015) 'Challenging behaviour and learning disabilities: prevention and interventions'; Gore N et al. (2013) 'Definition and scope of PBS' - International Journal of Positive Behavioural Support."
+  },
+  {
+    "stem": "A 17-year-old boy with autism spectrum disorder and moderate learning disability is preparing to transition from Children's CAMHS to Adult Learning Disability Services. His parents are worried about the change. He currently attends a special school and receives occupational therapy. Which of the following is the MOST important principle in managing the transition to adult services?",
+    "options": [
+      "Transition planning should begin at age 14 (Year 9) with a coordinated multi-agency approach, a named transition coordinator, and a comprehensive transition plan reviewed annually",
+      "Transition planning should begin at age 18 when the young person legally becomes an adult",
+      "The young person should be discharged from CAMHS and re-referred to adult services after their 18th birthday",
+      "The transition plan should focus primarily on housing needs and ignore educational and social care needs",
+      "Transition planning should be managed exclusively by the GP who can refer to any necessary service"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE NG213 (Transition from Children's to Adults' Services) and the Children and Families Act 2014 require transition planning to begin at Year 9 (age 13-14). Key principles: (1) Named transition coordinator; (2) Annual review of transition plan; (3) Multi-agency involvement including health, education, social care; (4) Preparation for adulthood including education/employment, housing, and community participation.",
+      "Incorrect. Transition planning starting at 18 is too late. Effective transitions require years of preparation, including Education, Health and Care Plan (EHCP) reviews from Year 9.",
+      "Incorrect. There should be a managed transition with joint working between CAMHS and adult services. 'Cliff-edge' transitions where a young person is discharged from one service before being accepted by another are poor practice (NICE NG213).",
+      "Incorrect. Transition planning must be holistic and cover all domains: health (including mental health), education/employment, social care, housing, community participation, and relationships.",
+      "Incorrect. Transition is a multi-agency responsibility (health, education, social care), not solely a GP function. The GP plays a coordinating role in health but complex transitions require specialist service involvement."
+    ],
+    "teaching_point": "Transition from children's to adult services is a vulnerable period for young people with ASD/LD. The Children and Families Act 2014 requires Education, Health and Care Plans (EHCPs) from birth to age 25. NICE NG213 (2016) guidelines recommend: (1) Start transition planning at age 13-14 (Year 9); (2) Named keyworker for transition; (3) Joint clinic/appointments between child and adult teams; (4) Comprehensive handover including clinical summary, medication, and care plan; (5) Consider cognitive capacity and mental capacity for healthcare decisions (MCA 2005). Young people with ASD often struggle with change, so gradual preparation is essential. The Care Act 2014 provides for transition assessments for young people approaching 18 to determine care needs in adulthood.",
+    "domain": "learning_disability",
+    "subdomain": "autism and LD transition to adult services",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "transition",
+      "autism",
+      "learning disability",
+      "CAMHS",
+      "adult services",
+      "EHCP",
+      "NICE NG213"
+    ],
+    "source": "NICE NG213 (2016) 'Transition from children's to adults' services for young people using health or social care services'; Children and Families Act 2014."
+  },
+  {
+    "stem": "A 42-year-old man with mild learning disability is referred to community learning disability services due to recurrent chest infections and poor oral health. He lives in supported accommodation and works part-time at a sheltered workshop. His BMI is 38 (obese). He has no known psychiatric diagnosis. Which of the following BEST describes the nature and causes of health inequalities in people with learning disabilities?",
+    "options": [
+      "People with learning disabilities experience significantly poorer health outcomes and earlier mortality (by 15-25 years) compared to the general population, due to a combination of biological factors, social determinants, communication barriers, and inequitable healthcare access",
+      "Health inequalities in learning disability are primarily due to the genetic syndromes underlying the intellectual disability rather than healthcare factors",
+      "The mortality gap between people with learning disabilities and the general population has been eliminated in the UK over the past decade due to the Learning Disability Mortality Review (LeDeR) programme",
+      "People with learning disabilities have better health outcomes for chronic conditions due to more frequent monitoring by specialist teams",
+      "Health inequalities in learning disability mainly affect those in institutional settings and not those living in the community"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: People with learning disabilities die 15-25 years earlier (20+ for men, 15+ for women). Causes include: (1) Biological — epilepsy, congenital conditions, obesity; (2) Social determinants — poverty, unemployment, poor housing; (3) Communication barriers — difficulties describing symptoms; (4) Diagnostic overshadowing — attributing symptoms to the LD; (5) Inadequate access — lower screening rates, lack of reasonable adjustments; (6) Lifestyle factors — poor diet, lack of exercise.",
+      "Incorrect. While genetic syndromes contribute, the majority of health inequalities are due to modifiable factors: inadequate healthcare, diagnostic overshadowing, poor communication, lack of reasonable adjustments, and social determinants. The LeDeR reports identify these as key contributors.",
+      "Incorrect. The mortality gap persists. The LeDeR programme (LeDer 2021 report) found continued premature mortality (median age of death 58 vs 82 for general population) and that 42% of deaths were 'likely avoidable' through good quality healthcare.",
+      "Incorrect. People with LD have LOWER rates of health screening, later diagnosis, and poorer management of chronic conditions despite higher prevalence. For example, hypertension, diabetes, and obesity are all more common but less well-managed.",
+      "Incorrect. The majority of people with LD live in the community. Health inequalities affect all settings, including supported living and family homes. Institutional settings have their own specific issues."
+    ],
+    "teaching_point": "The LeDeR (Learning Disability Mortality Review) programme was established in 2015 and found that people with LD die significantly younger. 'Annual Health Checks' for people with LD (introduced 2008) are a key intervention — they include physical examination, medication review, sensory screening, epilepsy review, and health promotion. The 'reasonable adjustments' duty under the Equality Act 2010 requires the NHS to make adjustments (easy-read information, longer appointments, quiet waiting areas, communication support). The STOMP (Stopping Over-Medication of People with Learning Disabilities) programme addresses inappropriate psychotropic prescribing. NHS England's 'Learning from Lives and Deaths' (LeDeR) continues to drive improvement. NICE guidelines on challenging behaviour (NG11) and mental health problems in LD (NG54) provide clinical guidance.",
+    "domain": "learning_disability",
+    "subdomain": "health inequalities in LD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "learning disability",
+      "health inequalities",
+      "LeDeR",
+      "mortality gap",
+      "diagnostic overshadowing",
+      "reasonable adjustments"
+    ],
+    "source": "NHS England (2021) 'LeDeR 2021 Annual Report'; NICE NG54 (2016) 'Mental health problems in people with learning disabilities'."
+  },
+  {
+    "stem": "A 45-year-old woman with severe learning disability and epilepsy requires surgery for a fractured hip following a fall. She is unable to understand the nature or purpose of the surgery, nor the risks involved. She appears distressed and is resistant to examination. She has no relevant family involved in her care. Which of the following processes MUST be followed before the surgery can proceed lawfully?",
+    "options": [
+      "An independent Mental Capacity Advocate (IMCA) must be instructed and a best interests meeting held, applying the MCA 2005 best interests checklist, with the decision documented in her best interests",
+      "A responsible clinician must give consent on her behalf as she lacks mental capacity",
+      "The court must make a declaration that the surgery is in her best interests since she is objecting",
+      "Fractured hip surgery is an emergency so the Mental Capacity Act does not apply in this scenario",
+      "The consultant orthopaedic surgeon can proceed on the basis of clinical judgement alone as the proposed treatment is clearly beneficial"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: MCA 2005 Section 4 — an IMCA must be instructed for serious medical treatment (including surgery) where the person lacks capacity and has no appropriate family/friends to consult. A best interests meeting must be held with the IMCA and relevant professionals (anaesthetist, surgeon, LD nurse, etc.), applying the Section 4 best interests checklist. The decision must be documented.",
+      "Incorrect. No one can give 'consent' on behalf of an adult lacking capacity. The legal authority is the MCA 2005 'best interests' framework (Section 4). The clinician proceeds if it is in the person's best interests, not on the basis of substituted consent.",
+      "Incorrect. Court approval is required for certain decisions (sterilisation, withdrawal of life-sustaining treatment, organ donation) and when there is serious disagreement. A hip fracture surgery, while serious, does not automatically require court approval if the best interests process is followed and there is no dispute.",
+      "Incorrect. MCA 2005 applies to ALL decisions including emergency ones. In a genuine emergency, life-saving treatment can proceed under Section 5 (protection from liability) and a best interests decision can be made after, but formal processes should be followed as soon as practicable.",
+      "Incorrect. Clinical judgement alone is insufficient. The MCA 2005 requires a formal best interests decision-making process for people who lack capacity. The orthopaedic surgeon must work within the MCA framework."
+    ],
+    "teaching_point": "The Mental Capacity Act 2005 provides the legal framework for decision-making on behalf of adults lacking capacity. For 'serious medical treatment' (defined as: treatment with significant risks/benefits/side effects, or where there is a choice of treatments), an IMCA must be appointed if there is no appropriate person to consult. The best interests checklist (S.4) includes: (1) whether the person may regain capacity; (2) their participation as far as possible; (3) past and present wishes, feelings, beliefs, values; (4) views of family, carers, attorneys, deputies (or IMCA); (5) all relevant circumstances; (6) the 'least restrictive' option. For life-sustaining treatment, decisions cannot be motivated by the desire to bring about death. The decision-maker is the clinician responsible for the treatment. In serious cases, court approval may be needed. NICE NG108 (Decision-making and Mental Capacity) provides guidance.",
+    "domain": "learning_disability",
+    "subdomain": "best interests / MCA 2005 standards",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "Mental Capacity Act",
+      "best interests",
+      "IMCA",
+      "MCA 2005",
+      "learning disability",
+      "surgery",
+      "NICE NG108"
+    ],
+    "source": "Mental Capacity Act 2005; MCA Code of Practice (2007); NICE NG108 (2018) 'Decision-making and mental capacity'."
+  },
+  {
+    "stem": "A 24-year-old woman presents to her GP with a 6-week history of low mood, reduced energy, poor concentration, and sleep disturbance. She has no suicidal ideation and is still functioning at work. She has no previous history of depression. According to the IAPT stepped-care model, what is the MOST appropriate initial management?",
+    "options": [
+      "Offer a low-intensity psychological intervention (guided self-help based on CBT) with active monitoring",
+      "Refer immediately to secondary care psychiatric services",
+      "Start fluoxetine 20 mg and refer for high-intensity psychological therapy (CBT)",
+      "Admit to a psychiatric ward for assessment",
+      "Recommend watchful waiting only with no active intervention"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: In the IAPT stepped-care model, step 2 (for persistent subthreshold or mild-moderate depression) recommends low-intensity psychological interventions: guided self-help (CBT-based, with support from a Psychological Wellbeing Practitioner — PWP), group CBT, or computerised CBT. This patient has mild-moderate symptoms without complexity (working, no suicide risk).",
+      "Incorrect. Referral to secondary care is step 4 or 5 in IAPT. This patient has mild-moderate symptoms without complexity or risk, so step 2 intervention in primary care is appropriate.",
+      "Incorrect. While NICE CG91 does recommend this for moderate-severe depression, for mild-moderate depression low-intensity psychological therapy should be offered first. Medication is step 3 (if low-intensity insufficient).",
+      "Incorrect. Hospital admission is step 5 (for severe depression with high risk or complex comorbidity). This patient has mild-moderate symptoms with no risk and good functioning.",
+      "Incorrect. Watchful waiting was recommended for subthreshold depression (step 1) but this patient's symptoms have been present for 6 weeks and are causing functional impact, so active intervention (step 2) is indicated."
+    ],
+    "teaching_point": "The IAPT (Improving Access to Psychological Therapies) stepped-care model for depression and anxiety disorders: Step 1 — recognition, assessment, active monitoring (watchful waiting for subthreshold); Step 2 — low-intensity interventions (guided self-help, C-CBT, group CBT, behavioural activation) delivered by PWPs; Step 3 — high-intensity therapy (CBT, IPT, counselling, psychodynamic therapy for depression) plus medication if indicated; Step 4 — specialist CMHT/psychiatry (complex cases, comorbid personality disorder, severe depression); Step 5 — inpatient care (severe risk, treatment resistance). The model aims to provide the least restrictive intervention that is effective. IAPT targets recovery rates of 50% (measured by PHQ-9 and GAD-7). The programme was rolled out nationally from 2008 following the Layard report on the economic case for psychological therapies.",
+    "domain": "organisation_delivery",
+    "subdomain": "IAPT stepped care model",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "IAPT",
+      "stepped care",
+      "depression",
+      "psychological therapy",
+      "PWP",
+      "guided self-help"
+    ],
+    "source": "NICE CG91 (2022) 'Depression in adults'; NICE CG159 (2013) 'Social anxiety disorder'; IAPT Manual (NHS England, 2018)."
+  },
+  {
+    "stem": "A 28-year-old man with paranoid schizophrenia who lives in supported accommodation has been discharged from hospital following his third psychotic relapse. He has poor insight and has been non-adherent with oral antipsychotics in the past. He has been started on a long-acting injectable (LAI) antipsychotic. Which of the following elements is a CORE requirement of the Care Programme Approach (CPA) for this patient?",
+    "options": [
+      "A named care coordinator, a comprehensive care plan covering health and social care, regular reviews, and documented risk assessment",
+      "Admission to a medium secure unit due to poor adherence and multiple relapses",
+      "Detention under a Community Treatment Order (CTO) to ensure medication adherence",
+      "Referral to a crisis resolution and home treatment team for daily monitoring",
+      "Appointment of a deputy under the Mental Capacity Act 2005 to manage medication decisions"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: The CPA has four core elements: (1) Named care coordinator (usually a community mental health nurse, social worker, or OT); (2) Comprehensive care plan (covering health, social care, crisis plan, relapse prevention); (3) Regular reviews (at least annually, ideally more frequent); (4) Risk assessment and management plan. CPA applies to all patients under secondary mental health services.",
+      "Incorrect. While this patient has had multiple relapses, there is no indication of risk requiring medium secure care. CPA can be delivered in the community with appropriate support.",
+      "Incorrect. CTO may be considered for this patient but is not a 'core requirement' of CPA. CPA exists separately from legal frameworks. Most CPA patients are informal.",
+      "Incorrect. CRHT may be involved during crisis periods but is not a core CPA requirement. The CPA is a long-term coordination framework, not a specific service.",
+      "Incorrect. An MCA deputy is only needed if the patient lacks capacity for specific decisions. This patient may have capacity but chooses not to take medication — that is not grounds for a deputyship."
+    ],
+    "teaching_point": "The Care Programme Approach (CPA) was introduced in 1990 following the Clunis Inquiry and is the framework for coordinating care for people in secondary mental health services. It has four main elements: (1) Systematic assessment of health and social needs; (2) A written care plan; (3) A named care coordinator; (4) Regular review and update. The CPA applies to all patients under secondary care, including those in inpatient settings, community teams, and forensic services. In 2008, the Department of Health streamlined CPA into two levels: standard CPA (lower need) and enhanced CPA (higher need, complex, risk). However, many trusts have now moved to a single CPA approach. The SMI (Severe Mental Illness) register in primary care supports CPA. NICE CG136 (Service User Experience) emphasises CPA as central to care coordination.",
+    "domain": "organisation_delivery",
+    "subdomain": "Care Programme Approach",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "CPA",
+      "care coordinator",
+      "care plan",
+      "care programme approach",
+      "schizophrenia"
+    ],
+    "source": "Department of Health (2008) 'Refocusing the Care Programme Approach'; NICE CG136 (2011) 'Service user experience in adult mental health'."
+  },
+  {
+    "stem": "A psychiatry trainee is writing a guideline development proposal on the management of treatment-resistant depression for local use. They want to understand how NICE (National Institute for Health and Care Excellence) develops its clinical guidelines. Which of the following BEST describes the NICE guideline development methodology?",
+    "options": [
+      "A systematic, evidence-based process involving a multidisciplinary Guideline Development Group (GDG), systematic literature review, GRADE quality assessment of evidence, consideration of cost-effectiveness, and formal consultation before publication",
+      "A consensus-based process where expert clinicians agree on best practice recommendations through Delphi rounds and expert panels",
+      "A process led by the Department of Health where national policy priorities determine guideline recommendations in a top-down manner",
+      "A rapid review process where NICE staff summarise key evidence from existing international guidelines",
+      "An informal process where NICE commissions individual experts to write guidelines based on their clinical experience"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: NICE guidelines are developed through a rigorous, multi-step process: (1) Scoping (defining the remit); (2) Stakeholder consultation (registration); (3) Evidence review by a contracted review team using systematic review methodology; (4) Guideline Development Group (GDG) — a multidisciplinary, independent group including clinicians, methodologists, and patient/lay representatives; (5) GRADE quality assessment (certainty of evidence); (6) Health economics analysis (cost-effectiveness); (7) Drafting recommendations; (8) Consultation (stakeholder comments); (9) Final guideline publication; (10) Regular updates. NICE follows a published manual ('Developing NICE Guidelines: The Manual').",
+      "Incorrect. NICE guidelines are evidence-based, not consensus-based. While expert opinion is used where evidence is lacking, the primary driver is systematic review of research evidence, not expert consensus.",
+      "Incorrect. NICE is an independent body (non-departmental public body), not controlled by the Department of Health. It makes independent recommendations based on evidence and cost-effectiveness, not government policy.",
+      "Incorrect. NICE conducts its own systematic reviews. It may consider existing guidelines but does not rely on rapid reviews or summaries of other guidelines. The process is comprehensive and methodologically rigorous.",
+      "Incorrect. NICE guidelines are developed by a GDG, not individual experts. The process is collaborative, multidisciplinary, and transparent, with formal consultation phases."
+    ],
+    "teaching_point": "NICE was established in 1999 (National Institute for Clinical Excellence, now National Institute for Health and Care Excellence). It produces: (1) Clinical guidelines (evidence-based recommendations); (2) Technology appraisals (drug cost-effectiveness); (3) Quality standards; (4) Public health guidelines; (5) Social care guidelines. The NICE guidelines manual (2014) describes the process: (1) Stakeholder scoping; (2) Evidence review (including RCTs, observational studies, qualitative research); (3) GDG meetings to formulate recommendations; (4) Health economics (cost-utility analysis using QALYs); (5) Consultation; (6) Publication. GRADE (Grading of Recommendations Assessment, Development and Evaluation) is used for quality assessment. Recommendations are graded: 'offer' (strong evidence), 'consider' (weaker evidence), and 'do not offer' (evidence of harm or ineffectiveness), with 'must' used where legal duties apply.",
+    "domain": "organisation_delivery",
+    "subdomain": "NICE guideline development methodology",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": [
+      "NICE",
+      "guideline development",
+      "GRADE",
+      "GDG",
+      "evidence-based",
+      "methodology"
+    ],
+    "source": "NICE (2014) 'Developing NICE Guidelines: The Manual'; NICE website (www.nice.org.uk)."
+  },
+  {
+    "stem": "A 34-year-old man with treatment-resistant schizophrenia is detained under Section 3 of the Mental Health Act 1983. He is refusing all medication and food. His Responsible Clinician is considering section 58A (certified treatment for electroconvulsive therapy — ECT). Which of the following statements BEST reflects the principles of the MHA Code of Practice that apply to this situation?",
+    "options": [
+      "The Code of Practice sets out five guiding principles: least restrictive option, respect for autonomy, patient participation, effectiveness and efficiency, and fairness/non-discrimination — all of which must be taken into account when making decisions under the Act",
+      "The Code of Practice requires that ECT be administered regardless of patient refusal when the RC considers it necessary",
+      "The Code of Practice only applies to detained patients and does not cover community patients or those under the Children Act",
+      "The Code of Practice is legally binding in the same way as the MHA statute itself and any breach is a criminal offence",
+      "The Code of Practice principles apply only to treatment decisions and not to decisions about leave of absence or discharge"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT: The MHA Code of Practice (2015) establishes five statutory guiding principles that apply to ALL decisions made under the Act: (1) Least restrictive option and maximising independence; (2) Respect for autonomy (patient's wishes and feelings); (3) Patient participation (involvement in decisions); (4) Effectiveness and efficiency (delivering quality care); (5) Fairness and non-discrimination. These must be considered throughout (S.58A decisions, leave, discharge, etc.).",
+      "Incorrect. The Code emphasises patient involvement and consideration of patient wishes. For ECT under S.58A, a Second Opinion Appointed Doctor (SOAD) from the Care Quality Commission must certify the treatment. The RC cannot override refusal without proper process. The principles require balancing clinical necessity with patient autonomy.",
+      "Incorrect. The Code of Practice applies to all persons using the MHA, including: (a) detained patients; (b) community patients (CTO, S.17 leave, guardianship); (c) patients aged 16+; (d) and it has interaction with the Children Act for under-18s.",
+      "Incorrect. The Code of Practice is statutory guidance — it must be followed unless there are compelling reasons not to. A breach is not a criminal offence but can be used as evidence in legal proceedings (e.g., judicial review, civil claims). It has legal force but is not the same as the MHA statute itself.",
+      "Incorrect. The five statutory principles apply to ALL decisions under the MHA, not just treatment. This includes: admission, leave of absence, CTO, discharge, transfer, and Section 17 leave decisions."
+    ],
+    "teaching_point": "The MHA 1983 Code of Practice (2015, currently being updated for the 2025 Act) provides statutory guidance for all professionals using the Act. The five guiding principles are: (1) Least restrictive option and maximising independence — must consider alternative to detention, and least restrictive treatment; (2) Respect for autonomy — give weight to patient's wishes, feelings, values, and beliefs; (3) Patient participation — involve patients in decisions, provide information, support decision-making; (4) Effectiveness and efficiency — services should be high quality, safe, and cost-effective; (5) Fairness and non-discrimination — apply the Act equitably regardless of protected characteristics. For S.58A (ECT certification): the SOAD must certify that: (a) the patient has capacity and consents (if applicable); or (b) for incapacitous patients, ECT is appropriate and there is no advance decision refusing it. ECT cannot be given to a capacitated patient who refuses it (except in emergency — S.62).",
+    "domain": "organisation_delivery",
+    "subdomain": "Mental Health Act Code of Practice principles",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "MHA Code of Practice",
+      "statutory principles",
+      "least restrictive",
+      "autonomy",
+      "S.58A",
+      "ECT",
+      "SOAD"
+    ],
+    "source": "Department of Health (2015) 'Mental Health Act 1983: Code of Practice'; MHA 1983 (as amended 2007)."
+  }
+]

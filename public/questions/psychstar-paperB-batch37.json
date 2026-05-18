@@ -1,0 +1,358 @@
+[
+  {
+    "stem": "A 35-year-old man presents with repetitive, ritualised hand washing lasting 2-3 hours daily due to fears of contamination. He recognises the thoughts are excessive but cannot resist the compulsion. He has tried sertraline 200mg daily for 12 weeks with ERP but has had minimal improvement. Which is the next most appropriate step?",
+    "options": [
+      "Augment sertraline with risperidone 0.5-2mg daily",
+      "Switch to clomipramine",
+      "Increase sertraline to 300mg daily",
+      "Add benzodiazepine for anxiety",
+      "Refer for neurosurgery"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. For treatment-resistant OCD, NICE CG31 recommends augmentation with an antipsychotic (risperidone 0.5-2mg or aripiprazole) as a third-line strategy. Clomipramine is an alternative if SSRIs are ineffective but antipsychotic augmentation of the SSRI is the preferred first augmentation approach.",
+      "Switching to clomipramine is an option after failed SSRI trial but antipsychotic augmentation is the preferred next step per NICE.",
+      "Sertraline 200mg is already at the maximum licensed dose. Further increase is not recommended.",
+      "Benzodiazepines are not recommended for OCD and do not address core symptoms.",
+      "Neurosurgery (DBS, capsulotomy) is reserved for severe, disabling, treatment-refractory OCD after multiple medication trials (typically 3+ years) and intensive CBT."
+    ],
+    "teaching_point": "Treatment-resistant OCD algorithm (NICE CG31): (1) Optimise SSRI dose and duration (12+ weeks at max dose). (2) If ineffective: augment with antipsychotic (risperidone 0.5-2mg, aripiprazole) OR switch to clomipramine. (3) If still ineffective: specialist referral for intensive CBT/ERP. (4) Last resort: neurosurgery/DBS. Antipsychotic augmentation is effective in ~30% of treatment-resistant OCD. Note: clomipramine requires ECG monitoring (QTc prolongation risk).",
+    "domain": "general_adult",
+    "subdomain": "OCD — Treatment-Resistant",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "OCD",
+      "treatment-resistant",
+      "risperidone",
+      "NICE"
+    ],
+    "source": "NICE CG31; Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 52-year-old man presents to the emergency department with severe agitation, autonomic instability (tachycardia 120 bpm, hypertension 170/100 mmHg), tremor, hyperreflexia, and clonus. He is on sertraline 200mg daily and was started on moclobemide by his GP one week ago for treatment-resistant depression. What is the most likely diagnosis?",
+    "options": [
+      "Neuroleptic malignant syndrome",
+      "Serotonin syndrome",
+      "Malignant hyperthermia",
+      "Anticholinergic delirium",
+      "Alcohol withdrawal"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "NMS is associated with antipsychotics, presents with rigidity, bradyreflexia, hyperthermia, and elevated CK. This patient is not on antipsychotics.",
+      "Correct. This is serotonin syndrome caused by combining sertraline (SSRI) and moclobemide (MAOI-A). The combination is contraindicated due to risk of serotonin toxicity. Features: autonomic instability (tachycardia, hypertension), neuromuscular changes (tremor, hyperreflexia, clonus), and altered mental status (agitation). Sternbach criteria: ≥ 3 of: agitation, confusion, diaphoresis, diarrhoea, fever, hyperreflexia/clonus, myoclonus, tremor, incoordination. Hunter criteria (more specific): clonus (spontaneous/inducible/ocular) + agitation/diaphoresis/tremor/hyperthermia. Treatment: stop serotonergic agents, supportive care, cyproheptadine (5-HT2A antagonist) in severe cases.",
+      "Malignant hyperthermia is associated with volatile anaesthetics/suxamethonium, not SSRIs/MAOIs.",
+      "Anticholinergic delirium presents with confusion, dry skin, dilated pupils, urinary retention — not hyperreflexia/clonus.",
+      "Alcohol withdrawal presents with tremor, autonomic instability, and confusion — but not typically hyperreflexia/clonus. The medication history clinches the diagnosis."
+    ],
+    "teaching_point": "Serotonin syndrome: life-threatening complication of serotonergic medication. MOST COMMONLY tested scenario in MRCPsych: SSRI + MAOI (especially moclobemide, a reversible MAOI-A). A 2-week washout period is required between stopping SSRI and starting MAOI (5 weeks for fluoxetine due to long half-life). Features: autonomic (tachycardia, hypertension, fever, diarrhoea), neuromuscular (clonus, hyperreflexia, tremor, rigidity), mental state (agitation, confusion, hypomania). Treatment: stop drugs, supportive care, cyproheptadine (4mg q6h), benzodiazepines (for agitation), dantrolene (if hyperthermia). The Hunter criteria (Dunkley et al 2003) are more specific than Sternbach criteria.",
+    "domain": "general_adult",
+    "subdomain": "Emergency Psychiatry — Serotonin Syndrome",
+    "difficulty": "hard",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "serotonin syndrome",
+      "SSRI",
+      "MAOI",
+      "moclobemide",
+      "emergency"
+    ],
+    "source": "Dunkley et al 2003 (J Toxicol); Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 28-year-old woman presents following a suicide attempt by paracetamol overdose. She has a history of recurrent depressive disorder. On assessment, she feels worthless, hopeless, and reports ongoing suicidal ideation but with a clear plan. She refuses voluntary admission. Which of the following is the most appropriate course of action?",
+    "options": [
+      "Respect her autonomy and discharge with crisis team follow-up",
+      "Detain under Section 2 of the Mental Health Act as she is at immediate risk of harm to herself",
+      "Offer her an outpatient appointment in 2 weeks",
+      "Prescribe benzodiazepines to help her sleep",
+      "Admit under the common law doctrine of necessity"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Her capacity is likely impaired by severe depression and ongoing suicidal ideation with a plan. Respecting autonomy is important but the risk of imminent harm outweighs this. The MHA provides legal authority for detention.",
+      "Correct. This patient has: (1) A mental disorder (depression), (2) Ongoing suicidal ideation with a plan, (3) Refused voluntary admission. Section 2 (assessment order, up to 28 days) is appropriate when there is significant risk of self-harm and the patient requires assessment in hospital. The MHA 1983 (as amended 2007) allows detention when there is a risk of harm to self/others AND detention is necessary for assessment/treatment. The patient's refusal of admission indicates she lacks insight into the severity of her condition; severe depression can impair decision-making capacity regarding treatment.",
+      "Outpatient follow-up is insufficient given the immediate risk.",
+      "Benzodiazepines do not address the underlying depressive suicidality and would not provide safety.",
+      "The common law doctrine of necessity may apply in an emergency but is a very short-term measure. The MHA provides more robust legal framework for longer-term detention. If the patient is at immediate (minutes to hours) risk and MHA paperwork cannot be completed instantly, common law may be used pending section."
+    ],
+    "teaching_point": "MHA 1983/2007: Section 2 (assessment, 28 days) vs Section 3 (treatment, 6 months). For suicidal patients refusing admission: (1) Assess capacity under MCA 2005 — severe depression often impairs capacity re: treatment decisions; (2) If the patient lacks capacity AND is at risk of imminent harm, MHA detention is required; (3) Common law 'necessity' can be used in a true emergency (immediate life-threatening risk) while MHA paperwork is completed. The MCA 2005 CANNOT be used to detain for mental disorder treatment — the MHA takes precedence when the patient requires compulsory admission. MRCPsych: this distinction is frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Emergency Psychiatry — MHA & Suicide Risk",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "Mental Health Act",
+      "suicide",
+      "Section 2",
+      "capacity"
+    ],
+    "source": "MHA 1983/2007; MCA 2005; RCPsych guidelines on suicide risk assessment"
+  },
+  {
+    "stem": "A 22-year-old woman is brought to the emergency department by her partner after taking 30 tablets of 5mg diazepam. She is sleepy but rousable. Observations: HR 70, BP 105/70, O2 sat 98% on air. She has no significant past medical history. What is the most appropriate immediate management?",
+    "options": [
+      "Activated charcoal",
+      "Flumazenil IV",
+      "Supportive care and monitoring — flumazenil is not routinely indicated and may precipitate seizures",
+      "Haemodialysis",
+      "Urgent gastric lavage"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Activated charcoal may be considered within 1 hour of overdose but efficacy for benzodiazepine overdose is limited. The patient is already drowsy — aspiration risk.",
+      "Flumazenil (benzodiazepine antagonist) is NOT recommended in routine benzodiazepine overdose due to risk of: (1) Seizures (especially in patients with epilepsy or mixed overdoses, or those on chronic benzodiazepines); (2) Cardiac arrhythmias; It is reserved for reversal of conscious sedation, not OD management.",
+      "Correct. Management of benzodiazepine overdose: (1) ABC assessment, (2) Monitoring (respiratory depression is the main risk), (3) Supportive care — airway protection if GCS drops, (4) Flumazenil is NOT routinely indicated due to seizure risk. Benzodiazepine overdose is rarely fatal as sole agent (wide therapeutic index). Admission for monitoring is appropriate if respiratory depression or reduced consciousness. 150mg diazepam is a significant overdose but this patient is maintaining her airway and oxygen saturations.",
+      "Haemodialysis is not effective for benzodiazepine overdose (highly protein-bound, large volume of distribution).",
+      "Gastric lavage is very rarely indicated and only within 1 hour of ingestion in a protected airway. This patient is drowsy — aspiration risk."
+    ],
+    "teaching_point": "Benzodiazepine overdose: Main risk is respiratory depression. Flumazenil is CONTRAINDICATED in routine overdose management because it can precipitate seizures and arrhythmias. It should only be used when: (1) There is clear evidence of sole benzodiazepine ingestion (no mixed OD), (2) The patient is not on chronic benzodiazepines (no dependence), (3) There is no seizure history. Even then, it is primarily used in iatrogenic oversedation, not self-poisoning. Supportive management is the mainstay. MRCPsych: the contraindication of flumazenil in benzodiazepine OD (especially in dependent patients who often present) is frequently tested.",
+    "domain": "general_adult",
+    "subdomain": "Emergency Psychiatry — Benzodiazepine Overdose",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "overdose",
+      "benzodiazepine",
+      "flumazenil",
+      "emergency"
+    ],
+    "source": "TOXBASE; Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 75-year-old man with vascular dementia and a history of ischaemic heart disease presents with persecutory delusions that his wife is poisoning his food. He has become agitated and is not eating. His MMSE is 18/30. He is on no current psychotropic medication. What is the most appropriate first-line treatment?",
+    "options": [
+      "Risperidone 0.5-1mg daily after an ECG to check QTc",
+      "Diazepam for agitation",
+      "Olanzapine 10mg daily",
+      "Haloperidol 5mg IM",
+      "Donepezil for delusions"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. For BPSD (Behavioural and Psychological Symptoms of Dementia) with psychosis and agitation, NICE NG97 recommends: (1) Offer non-pharmacological interventions first (ABC approach — Antecedent-Behaviour-Consequence), environmental modifications, person-centred care. (2) If severe distress/risk, risperidone or haloperidol may be offered with caution, but ONLY after ECG (QTc) and cardiovascular risk assessment. Risperidone 0.5-1mg is the recommended first-line antipsychotic for BPSD. NICE advises NOT to offer antipsychotics for mild-moderate BPSD — reserve for severe symptoms causing distress/risk.",
+      "Benzodiazepines are not recommended for BPSD due to risk of sedation, falls, and disinhibition. They may worsen cognitive function.",
+      "Olanzapine is not first-line for BPSD. Risperidone has the best evidence base. Olanzapine has higher metabolic risk and anticholinergic load which can worsen cognitive function.",
+      "Haloperidol is recommended by NICE as an option but with caution regarding QTc prolongation. IM haloperidol is unnecessarily intrusive unless IM route is clinically necessary. Oral risperidone is a better first choice.",
+      "Donepezil is for cognitive symptoms in Alzheimer's disease, not for BPSD delusions. It has no acute effect on psychosis and may increase agitation in some patients."
+    ],
+    "teaching_point": "BPSD management (NICE NG97): Step 1 — assess for causes (pain, infection, constipation, medication, environment). Step 2 — non-pharmacological: person-centred care, validation, activity, environmental adaptations. Step 3 — pharmacological ONLY if severe distress/risk: risperidone (first-line, 0.5-2mg) or haloperidol (0.5-3mg). Precautions: ECG before starting (QTc > 450ms is relative contraindication), start low-go slow, re-evaluate at 3-6 months (consider discontinuation), avoid in Lewy body dementia (severe sensitivity reactions). Black box warning: antipsychotics increase stroke risk in dementia (~3×). MRCPsych: BPSD management is one of the most tested topics.",
+    "domain": "old_age",
+    "subdomain": "Dementia — BPSD Pharmacological Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "BPSD",
+      "dementia",
+      "risperidone",
+      "NICE NG97"
+    ],
+    "source": "NICE NG97 (2018); Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 6-year-old boy is brought to CAMHS by his mother. He has significant difficulty with social communication, struggles with peer interactions, has repetitive hand-flapping, and rigid adherence to routines. He lines up his toys and becomes extremely distressed if the order is changed. Which intervention has the strongest evidence base in NICE guidelines for this condition?",
+    "options": [
+      "Applied Behaviour Analysis (ABA) — 25-40 hours per week",
+      "SSRI medication for repetitive behaviours",
+      "Antipsychotic medication for challenging behaviour",
+      "Parent-mediated early intervention programmes and social communication interventions (e.g., PACT, Lego therapy)",
+      "Gluten-free casein-free diet"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "ABA has evidence in some settings but NICE CG128 (2011, updated) does NOT specifically recommend intensive ABA as the first-line approach. The focus is on parent-mediated and child-focused communication interventions.",
+      "Medication is NOT first-line for core symptoms of ASD. SSRIs have limited evidence for repetitive behaviours and are not recommended by NICE for ASD core symptoms.",
+      "Antipsychotics (risperidone, aripiprazole) have evidence for irritability/aggression in ASD but are NOT first-line and reserved for severe challenging behaviour.",
+      "Correct. NICE CG128 (2013, updated) recommends: (1) Parent-mediated intervention programmes to support social communication (e.g., PACT — Preschool Autism Communication Trial; the PACT trial showed sustained improvement in autism symptoms at 6-year follow-up). (2) Social skills training and communication interventions. (3) Environmental modifications (visual schedules, structured routines). Medication (risperidone, melatonin for sleep) only for specific target symptoms. The PACT trial (Green et al 2010, Lancet; Pickles et al 2016, Lancet) demonstrated parent-mediated communication interventions improve core autism symptoms.",
+      "Dietary interventions (gluten-free, casein-free) have insufficient evidence for ASD symptoms and are not recommended by NICE."
+    ],
+    "teaching_point": "ASD interventions — evidence base (NICE CG128): (1) Parent-mediated communication programmes (PACT, Hanen More Than Words) — strongest evidence for core social communication. (2) Social skills groups. (3) Augmentative communication (PECS — Picture Exchange Communication System, AAC). (4) Environmental adaptations. Medication: (a) Risperidone/aripiprazole for severe irritability/aggression (NOT for core symptoms); (b) Melatonin for sleep; (c) SSRIs NOT recommended for repetitive behaviours. The PACT (Preschool Autism Communication Trial) is the landmark trial — 6-year follow-up showed parent-mediated therapy improved long-term autism severity.",
+    "domain": "child_adolescent",
+    "subdomain": "Autism Spectrum Disorder — Evidence-Based Interventions",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "autism",
+      "ASD",
+      "PACT",
+      "NICE CG128",
+      "parent-mediated"
+    ],
+    "source": "NICE CG128 (2013, updated 2021); Green et al 2010 (Lancet)"
+  },
+  {
+    "stem": "A 16-year-old girl presents with significant weight loss (BMI 14), binge-purge episodes 3 times per week, excessive exercise, and marked fear of weight gain. She has peripheral oedema, hypokalaemia (2.8 mmol/L), and prolonged QTc (480ms). Which is the most appropriate immediate management setting?",
+    "options": [
+      "Outpatient family-based therapy (FBT) with weekly weight monitoring",
+      "Admission to a paediatric medical ward for medical stabilisation and cardiac monitoring",
+      "Admission to a specialist adolescent eating disorder inpatient unit directly",
+      "Day programme with meal support",
+      "Refer to community eating disorder team for urgent assessment in 2 weeks"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Outpatient FBT is inappropriate for this severity — BMI 14 (severe), hypokalaemia (2.8), and prolonged QTc (480ms) indicate MEDICAL URGENCY requiring admission.",
+      "Correct. MARSIPAN guidelines for children/young people (RCPsych 2012) and NICE NG69 specify medical admission criteria: (1) BMI < 15 (or equivalent centile for age), (2) Rapid weight loss, (3) Electrolyte abnormalities (hypokalaemia < 3.0, hyponatraemia, hypophosphataemia), (4) Cardiac complications (bradycardia < 50, hypotension, QTc > 450ms in children, > 460ms in adolescents). This patient meets multiple criteria: BMI 14 (severe), K+ 2.8 (requiring potassium replacement), QTc 480ms (prolonged — risk of ventricular arrhythmia). Admission to paediatric medical ward for medical stabilisation and cardiac monitoring is the priority. Specialist ED or paediatric ward with medical support.",
+      "Specialist ED admission might be appropriate after medical stabilisation, but the immediate priority is medical management on a paediatric ward (not a psychiatric unit) due to the cardiac risk.",
+      "A day programme requires physical stability — this patient is medically unstable.",
+      "A 2-week wait is unacceptable given the critical electrolyte and cardiac abnormalities."
+    ],
+    "teaching_point": "Paediatric MARSIPAN (2012): Medical admission criteria for children/adolescents with anorexia nervosa. High-risk indicators: BMI < 15, rapid weight loss, HR < 50 bpm (or < 60 daytime), postural BP drop > 20 mmHg, QTc > 450ms, K+ < 3.0, Na+ < 130, PO4 < 0.6. Refeeding syndrome is a particular risk in young people — start refeeding at 5-10 kcal/kg/day (or even lower in severe cases — 'start low, go slow' under paediatric guidance). Cardiac monitoring is essential. MRCPsych: know the medical thresholds for compulsory admission in adolescent eating disorders.",
+    "domain": "child_adolescent",
+    "subdomain": "Eating Disorders — Medical Admission (Adolescent)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "child adolescent",
+      "anorexia",
+      "paediatric",
+      "MARSIPAN",
+      "hypokalaemia",
+      "refeeding"
+    ],
+    "source": "Paediatric MARSIPAN (RCPsych 2012); NICE NG69 (2017)"
+  },
+  {
+    "stem": "A 45-year-old man with alcohol dependence (consuming 30 units/day) presents with acute confusion, tremor, and visual hallucinations (small animals running across the floor) 48 hours after his last drink. Observations: HR 115, BP 160/95, temperature 37.8°C, sweaty. What is the most appropriate pharmacological management?",
+    "options": [
+      "Diazepam 10-20mg PRN as needed for agitation",
+      "Fixed-dose chlordiazepoxide reducing regime (e.g., 30mg QDS reducing over 5-7 days) with Pabrinex IV",
+      "Haloperidol 5mg IM for hallucinations",
+      "Carbamazepine for alcohol withdrawal",
+      "Disulfiram to maintain abstinence"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "PRN benzodiazepines are less effective than a fixed-dose reducing regime for managing alcohol withdrawal and preventing progression to delirium tremens.",
+      "Correct. This patient has alcohol withdrawal syndrome with likely delirium tremens (visual hallucinations — animal imagery is classic). Treatment: (1) Fixed-dose benzodiazepine (chlordiazepoxide 30mg QDS reducing regime per CIWA-Ar protocol or a fixed scheduled dose) is the standard of care. (2) IV Pabrinex (high-dose thiamine) is essential to prevent/ treat Wernicke-Korsakoff syndrome. Chlordiazepoxide has a long half-life providing smooth withdrawal cover. The reducing regime is typically over 5-7 days.",
+      "Antipsychotics (haloperidol) should be avoided as first-line in alcohol withdrawal — they lower seizure threshold (WD already predisposes to seizures), prolong QTc, and do not treat the underlying GABA-deficiency pathophysiology.",
+      "Carbamazepine is used in some countries for alcohol withdrawal but is not first-line in UK practice.",
+      "Disulfiram is for maintaining abstinence AFTER detoxification is complete — it is contraindicated during acute withdrawal."
+    ],
+    "teaching_point": "Alcohol withdrawal management (NICE CG100): (1) Fixed-dose chlordiazepoxide reducing regime (e.g., 30mg QDS Day 1, reducing by 5-10mg daily over 5-7 days). (2) Thiamine: prophylactic oral (100mg TDS) or IV Pabrinex for at-risk/symptomatic patients. (3) Monitoring: CIWA-Ar scale (severe withdrawal > 15) or symptom-triggered therapy. Delirium tremens: visual hallucinations (small animals, insects), autonomic hyperactivity, confusion. Onset 48-72h after last drink, lasts 2-5 days. Risk of death (5% untreated). Chlordiazepoxide is preferred over diazepam (less abuse potential) but diazepam IM may be used if oral route not possible.",
+    "domain": "substance_misuse",
+    "subdomain": "Alcohol — Withdrawal & Delirium Tremens",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "alcohol withdrawal",
+      "delirium tremens",
+      "chlordiazepoxide",
+      "CIWA-Ar",
+      "Pabrinex"
+    ],
+    "source": "NICE CG100 (2011); Maudsley Prescribing Guidelines 14th ed"
+  },
+  {
+    "stem": "A 32-year-old man presents with psychotic symptoms after 5 days of heavy cocaine use. He is agitated, has persecutory delusions that the police are following him, and auditory hallucinations of people insulting him. He has no prior psychiatric history. Symptoms began during the cocaine binge and have persisted for 3 days since last use. What is the most likely diagnosis?",
+    "options": [
+      "Substance-induced psychotic disorder (cocaine)",
+      "First-episode schizophrenia",
+      "Cocaine intoxication",
+      "Delirium due to cocaine toxicity",
+      "Schizoaffective disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. DSM-5 criteria for substance/medication-induced psychotic disorder: (1) Prominent hallucinations/delusions, (2) Developed during or within 1 month of substance use, (3) Not better explained by a primary psychotic disorder. This patient's psychotic symptoms are temporally linked to cocaine use, with onset during the binge and persistence into early abstinence. Cocaine-induced psychosis is well-described — typically persecutory delusions and auditory/visual hallucinations. It usually resolves within 1 week of abstinence. If symptoms persist > 1 month, consider primary psychotic disorder.",
+      "First-episode schizophrenia requires symptoms for > 1 month (including prodrome) and cannot be diagnosed if symptoms are clearly substance-induced. The temporal relationship with cocaine use makes substance-induced psychosis more likely at this stage.",
+      "Cocaine intoxication can produce agitation, paranoia, and perceptual disturbances during use but symptoms should resolve within hours, not persist for 3 days after last use.",
+      "Delirium requires fluctuating consciousness and cognitive impairment — not described here. The patient has psychotic symptoms without disorientation.",
+      "Schizoaffective disorder requires concurrent mood episodes — not described here. The temporal relationship with cocaine use also makes this diagnosis premature."
+    ],
+    "teaching_point": "Substance-induced psychotic disorder (DSM-5): Key distinguishing features from primary psychotic disorder: (1) Clear temporal relationship with substance use (onset during intoxication/withdrawal, resolution within 1 month); (2) No prior psychotic episodes unrelated to substances; (3) Typically more visual than auditory hallucinations; (4) Often more disorganised than deficit features. Cocaine psychosis is dose-dependent and more common with crack. Management: (1) Safety, (2) Short-term antipsychotics (olanzapine, haloperidol) if needed, (3) Benzodiazepines for agitation, (4) Monitoring — if psychotic symptoms persist > 1 month, consider primary psychotic disorder. MRCPsych: the 1-month cut-off is tested.",
+    "domain": "substance_misuse",
+    "subdomain": "Stimulants — Cocaine-Induced Psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "substance misuse",
+      "cocaine",
+      "psychosis",
+      "substance-induced",
+      "differential diagnosis"
+    ],
+    "source": "DSM-5; Murray et al 2012 (BJP)"
+  },
+  {
+    "stem": "A 68-year-old woman with no prior psychiatric history presents with a 4-month history of depressed mood, anhedonia, weight loss, guilt, and psychomotor retardation. She has a MMSE score of 24/30. She has been on amlodipine and atorvastatin. What is the most important initial step in management?",
+    "options": [
+      "Start sertraline 50mg daily",
+      "Arrange CT head and neuropsychological assessment",
+      "Check FBC, TFTs, U&Es, LFTs, B12/folate, calcium, vitamin D, and review medications for potential iatrogenic causes",
+      "Refer for cognitive behavioural therapy",
+      "Admit to psychiatric ward for ECT"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Starting SSRIs without investigating organic causes is premature. Reversible causes must be excluded first.",
+      "CT head and neuropsychology are indicated if there is diagnostic uncertainty after initial screening, but the first step is basic medical investigations.",
+      "Correct. First-episode depression in older adults requires exclusion of organic causes: (1) Hypothyroidism (TFTs) — can present as depression; (2) B12/folate deficiency — can cause cognitive and mood symptoms; (3) Electrolyte/calcium abnormalities (U&Es, Ca); (4) Review medications — beta-blockers, calcium channel blockers, statins, corticosteroids, opiates, L-dopa can all cause or exacerbate depression; (5) Screen for malignancy (if suspected). NICE NG222 (2022) depression guideline: in older adults, exclude physical causes and medication effects before diagnosing depression.",
+      "CBT is appropriate for mild-moderate depression but should not delay investigation of organic causes.",
+      "ECT is reserved for treatment-resistant, severe, or life-threatening depression (high suicide risk, catatonia, PND). Not first-line."
+    ],
+    "teaching_point": "Late-life depression: medical screening is ESSENTIAL in first-episode late-life depression. Organic differentials: hypothyroidism, B12/folate deficiency, hypercalcaemia, hyponatraemia, Parkinson's disease, cerebrovascular disease (vascular depression), malignancy (pancreatic Ca particularly linked with depression), medication side effects (beta-blockers, Ca channel blockers, corticosteroids, statins). Pseudodementia: depression presenting with cognitive impairment that mimics dementia (distinguish by acute onset, fluctuating course, subjective memory complaints out of proportion to objective impairment, low mood prominent). Management: treat underlying cause, SSRIs (sertraline preferred in older adults — fewer interactions).",
+    "domain": "old_age",
+    "subdomain": "Depression — Organic Differentials in Older Adults",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "depression",
+      "organic",
+      "differential",
+      "investigations"
+    ],
+    "source": "NICE NG222 (2022); Baldwin & Wild 2004"
+  },
+  {
+    "stem": "A 19-year-old man with no previous psychiatric history is brought to hospital by police under Section 136. He was found shouting at passers-by on the street, claiming he is the Messiah sent to save humanity. He is disorganised, thought-disordered, and appears to be responding to internal stimuli. Collateral history from his mother: over the past 2 months he has become increasingly withdrawn, stopped attending university, neglected self-care, and has been talking to himself. There is no substance misuse history. What is the most likely diagnosis?",
+    "options": [
+      "Bipolar I disorder — manic episode",
+      "Schizophrenia — first episode",
+      "Schizophreniform disorder",
+      "Substance-induced psychotic disorder",
+      "Brief psychotic disorder"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Mania can present with grandiose delusions and disorganisation. However, the 2-month prodrome of negative symptoms (withdrawal, self-neglect, functional decline) and the absence of elevated mood, increased energy, or reduced need for sleep make schizophrenia more likely.",
+      "Correct. DSM-5 criteria for schizophrenia: (1) ≥ 2 of: delusions, hallucinations, disorganised speech, negative symptoms — for ≥ 1 month (active phase). (2) Prodromal/residual symptoms for ≥ 6 months. (3) Social/occupational dysfunction. This patient has: grandiose delusions (Messiah), disorganised behaviour, likely hallucinations (responding to internal stimuli), AND a 2-month prodrome (withdrawal, neglect, functioning decline). The total symptom duration is at least 2+ months (prodrome + active) — meeting the 6-month criterion is likely. First-episode schizophrenia typically presents with a prodromal phase of negative symptoms.",
+      "Schizophreniform disorder is identical to schizophrenia EXCEPT duration < 6 months and no social/occupational decline required. Given the 2-month prodrome + active symptoms, the total may approach 6 months, making schizophrenia more likely.",
+      "No substance use history — rules out substance-induced psychosis.",
+      "Brief psychotic disorder requires symptom duration < 1 month with full recovery. This patient has had symptoms > 1 month."
+    ],
+    "teaching_point": "Schizophrenia diagnosis (DSM-5): Active phase ≥ 1 month (Criterion A: ≥ 2 of delusions, hallucinations, disorganised speech, grossly disorganised/catatonic behaviour, negative symptoms). Prodromal/residual phase: attenuated symptoms + negative symptoms + functioning decline. Total duration ≥ 6 months. Differential: mania (mood-first, episodic), schizophreniform (shorter), brief psychotic (< 1 month), substance-induced (temporal link). MRCPsych: the 6-month duration criterion is crucial for differentiating schizophrenia from schizophreniform disorder.",
+    "domain": "general_adult",
+    "subdomain": "Psychosis — Schizophrenia Diagnosis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "schizophrenia",
+      "first episode",
+      "psychosis",
+      "diagnosis"
+    ],
+    "source": "DSM-5; ICD-11"
+  }
+]

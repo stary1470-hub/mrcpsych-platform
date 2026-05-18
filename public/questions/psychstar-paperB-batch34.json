@@ -1,0 +1,1172 @@
+[
+  {
+    "stem": "A meta-analysis of 12 RCTs on cognitive remediation in schizophrenia reports an overall effect size of SMD = 0.45 (95% CI 0.30 to 0.60, p < 0.001) with I² = 68%. What is the most appropriate interpretation of I² = 68%?",
+    "options": [
+      "68% of the variability in effect sizes is due to chance",
+      "68% of the variability in effect sizes is due to true heterogeneity between studies",
+      "68% of patients improved with cognitive remediation",
+      "The risk of publication bias is 68%",
+      "The probability that the result is a false positive is 68%"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "I² measures heterogeneity due to real differences between studies, not chance; the complement (32%) is attributable to sampling error.",
+      "Correct. I² = 68% indicates substantial heterogeneity: 68% of the observed variance reflects true between-study differences, 32% is sampling error. According to Cochrane guidelines, I² > 50% represents substantial heterogeneity warranting exploration through subgroup or meta-regression analysis.",
+      "I² is a measure of heterogeneity, not an improvement rate. SMD = 0.45 is the overall effect.",
+      "Publication bias is assessed by funnel plot asymmetry and Egger's test, not I².",
+      "The p-value (p < 0.001) addresses false positive risk for the pooled effect, not I²."
+    ],
+    "teaching_point": "I² quantifies the percentage of variability in effect estimates that is due to heterogeneity rather than sampling error (chance). Higgins et al (2003) thresholds: 0-40% might not be important, 30-60% moderate, 50-90% substantial, 75-100% considerable. High I² mandates exploring causes via subgroup analysis or meta-regression before reporting a pooled estimate. Cochrane Handbook recommends against pooling when I² > 75%.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Heterogeneity (I²)",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "statistics", "heterogeneity", "I-squared", "meta-analysis"],
+    "source": "Higgins JPT 2003 (BMJ); Cochrane Handbook Ch.10"
+  },
+  {
+    "stem": "A study comparing CBT plus TAU versus TAU alone for panic disorder uses a crossover design. Which of the following is the most important potential methodological concern with this design in psychiatric trials?",
+    "options": [
+      "It requires a larger sample size than a parallel-group design",
+      "Carryover effects from the first treatment period to the second",
+      "It cannot be randomised",
+      "It is only suitable for acute treatment studies",
+      "It cannot be blinded"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Crossover designs typically require smaller sample sizes because each participant serves as their own control, providing greater statistical power.",
+      "Correct. The major limitation of crossover trials in psychiatry is the potential for carryover effects — the psychological treatment or medication effect from period 1 may persist into period 2. This is particularly problematic for CBT where patients acquire skills that don't 'wash out', and for psychotropic drugs with long half-lives or enduring effects on neural function. A washout period may not fully eliminate carryover in mental health interventions.",
+      "Crossover trials can and should be randomised — participants are randomised to treatment sequence (A-B or B-A).",
+      "Crossover designs are suitable for chronic, stable conditions and are often used in maintenance treatment studies.",
+      "Double-blinding is possible in crossover drug trials but challenging in psychotherapy trials (limited by the nature of the intervention)."
+    ],
+    "teaching_point": "Crossover trials: each participant receives both treatments in a random sequence with a washout period between. Major concern: carryover (period 1 treatment affects period 2 response). Also period effects (order effects). In psychiatry, carryover is especially problematic for psychotherapies (skills persist) and drugs with long half-lives (e.g., fluoxetine 2-4 week washout needed). Parallel-group designs are usually preferred in psychiatric RCTs. Crossover is more suitable for stable, chronic conditions where symptoms return to baseline after treatment cessation.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Crossover trials",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "RCT", "crossover design", "carryover", "trial methodology"],
+    "source": "Sibbald & Roland 1998 (BMJ); CONSORT extension for crossover trials"
+  },
+  {
+    "stem": "A diagnostic study for PTSD using the PCL-5 reports: AUC = 0.82, sensitivity = 0.85 at a cut-off of 33, specificity = 0.72, PPV = 0.61, NPV = 0.91. The prevalence of PTSD in the study population is 25%. If the same test is applied in a general population setting where prevalence is estimated at 5%, which of the following will change the most?",
+    "options": [
+      "Sensitivity",
+      "Specificity",
+      "Positive Predictive Value",
+      "AUC (Area Under the Curve)",
+      "Likelihood ratio"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Sensitivity is an intrinsic property of the test at a given cut-off and is independent of disease prevalence.",
+      "Specificity is an intrinsic property of the test at a given cut-off and is independent of disease prevalence.",
+      "Correct. PPV is highly dependent on disease prevalence. Using Bayes' theorem: with prevalence 5%, PPV = (0.85 × 0.05) / (0.85 × 0.05 + (1-0.72) × 0.95) = 0.0425 / (0.0425 + 0.266) = 0.0425 / 0.3085 = 0.138 (13.8%). So PPV drops from 61% to ~14%. The vast majority of positive results become false positives in low-prevalence settings.",
+      "AUC is a global measure of discriminative ability and is independent of prevalence.",
+      "Likelihood ratios (LR+ = sens/(1-spec), LR- = (1-sens)/spec) are intrinsic test properties independent of prevalence."
+    ],
+    "teaching_point": "PPV and NPV are prevalence-dependent, while sensitivity, specificity, and LRs are intrinsic test characteristics. This is why screening tests perform poorly in low-prevalence populations. The PCL-5 cut-off of 33 may be appropriate in specialist clinics (prevalence 25%) but would generate excessive false positives in general population screening (prevalence 5%). The LR+ = 0.85/0.28 = 3.04 (generates small-to-moderate shift from pre-test to post-test probability). The LR- = 0.15/0.72 = 0.21 (generates moderate shift).",
+    "domain": "critical_review",
+    "subdomain": "Diagnostic Tests — Predictive Values & Prevalence",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["critical review", "diagnostic tests", "PPV", "NPV", "prevalence", "Bayes"],
+    "source": "Altman & Bland 1994 (BMJ); Lalkhen & McCluskey 2008 (Continuing Education in Anaesthesia)"
+  },
+  {
+    "stem": "In a cluster-randomised trial of a school-based mental health intervention, which of the following best describes the primary statistical concern compared to individually randomised trials?",
+    "options": [
+      "Increased risk of Type I error due to non-independence of observations within clusters",
+      "Decreased statistical power because of contamination between arms",
+      "Inability to blind participants to treatment allocation",
+      "Higher dropout rates due to cluster allocation",
+      "Confounding by cluster size"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Participants within a cluster (e.g., same school, GP practice, hospital ward) are more similar to each other than to participants in other clusters — they share context, environment, and sometimes treatment delivery. This within-cluster correlation violates the independence assumption of standard statistical tests. The intracluster correlation coefficient (ICC) must be accounted for; failure to do so reduces standard errors spuriously and inflates the Type I error rate (false positives). Sample size must be inflated by the design effect: 1 + (m-1) × ICC, where m is average cluster size.",
+      "Contamination is actually a lesser concern in cluster trials because the entire cluster receives the same intervention — this is often the rationale for choosing cluster randomisation.",
+      "Blinding may be difficult in cluster trials but this is not the primary statistical concern.",
+      "Attrition patterns may differ but this is not the defining statistical challenge.",
+      "Confounding by cluster size can occur but is addressed through appropriate analysis (e.g., cluster-level analysis or multilevel modelling with random effects)."
+    ],
+    "teaching_point": "Cluster randomised trials randomise groups (clusters) rather than individuals. The design effect (inflation factor) = 1 + (m-1) × ICC, where m = mean cluster size and ICC = intracluster correlation coefficient. The effective sample size is reduced compared to an individually randomised trial with the same total N. Analysis must account for clustering — use multilevel modelling, generalised estimating equations (GEE), or cluster-level analysis. Common in psychiatry for school-based, community, and GP-based interventions. CONSORT extension for cluster trials requires reporting the ICC and design effect.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Cluster Randomised Trials",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "RCT", "cluster randomisation", "ICC", "design effect"],
+    "source": "Campbell et al 2004 (BMJ); CONSORT cluster extension"
+  },
+  {
+    "stem": "A Cochrane review on antipsychotics for schizophrenia reports a risk ratio (RR) of 0.86 (95% CI 0.76 to 0.97) for relapse at 12 months. Which of the following is the most accurate interpretation?",
+    "options": [
+      "Patients on antipsychotics have 86% lower risk of relapse than placebo",
+      "The number of patients needed to treat (NNT) is 86",
+      "The relative risk reduction is 14% and is statistically significant at p < 0.05",
+      "The absolute risk reduction is 14%",
+      "There is a 14% probability that the true RR equals 1.0"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "RR = 0.86 means the risk in the treatment group is 86% of that in the control group — a 14% relative reduction, not 86%.",
+      "NNT = 1 / ARR. ARR depends on baseline risk which is not given here. NNT cannot be calculated from RR alone; you need the control event rate (CER).",
+      "Correct. RR = 0.86 means the risk in the treatment group is 86% of the control group risk. Relative Risk Reduction (RRR) = 1 - RR = 1 - 0.86 = 0.14 (14%). The 95% CI (0.76 to 0.97) does not include 1.0, so the result is statistically significant at p < 0.05 (p < 0.05 if 95% CI excludes 1.0 for RR).",
+      "ARR = CER - EER. Without CER, ARR is unknown. An RR of 0.86 could represent a reduction from 50% to 43% (ARR = 7%) or from 10% to 8.6% (ARR = 1.4%).",
+      "The 95% CI excludes 1.0, meaning p < 0.05. The 'probability the null is true' interpretation is a common Bayesian concept (p-value is not that)."
+    ],
+    "teaching_point": "Key distinction: Relative Risk Reduction (RRR = 1-RR) vs Absolute Risk Reduction (ARR = CER - EER). RRR can be misleadingly large when baseline risk is low. NNT = 1/ARR and requires knowing the baseline risk (CER). A statistically significant result (95% CI excludes 1.0) tells you the effect is unlikely to be zero, but clinical significance depends on absolute measures. The 95% CI (0.76-0.97) gives a range of plausible RRRs from 3% to 24%. Always examine both relative and absolute effect measures.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Risk Ratio, RRR, ARR, NNT",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "statistics", "risk ratio", "RRR", "ARR", "NNT", "CI"],
+    "source": "Guyatt et al 2008 (JAMA); Cochrane Handbook Ch.15"
+  },
+  {
+    "stem": "EMI — Extended Matching Item: For each study design (1–5), select the most appropriate primary analysis method from the options below. Options appear only once.\n\nOptions:\nA. Logistic regression\nB. Cox proportional hazards regression\nC. Multi-level modelling (hierarchical linear model)\nD. Repeated measures ANOVA\nE. Kaplan-Meier survival analysis\nF. Principal Component Analysis\nG. Cohen's kappa\n\nStudy designs:\n1. A 12-week parallel-group RCT measuring depression scores (HAM-D) at baseline, weeks 4, 8, and 12\n2. A cohort study comparing time to first manic relapse in patients on lithium versus valproate over 2 years\n3. A cluster-randomised trial where GP practices are randomised, patients nested within practices\n4. A case-control study examining predictors of treatment-resistant schizophrenia (yes/no)\n5. A reliability study where two raters independently assess 50 videotaped diagnostic interviews",
+    "options": [
+      "1=D, 2=B, 3=C, 4=A, 5=G",
+      "1=B, 2=E, 3=D, 4=A, 5=C",
+      "1=D, 2=E, 3=A, 4=B, 5=G",
+      "1=A, 2=B, 3=C, 4=D, 5=E",
+      "1=C, 2=D, 3=B, 4=A, 5=F"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 1-D: Repeated measures ANOVA handles correlated observations across time points. 2-B: Cox regression models time-to-event data with censoring and allows adjustment for covariates. 3-C: Multi-level modelling accounts for clustering (patients within GP practices). 4-A: Logistic regression models binary outcomes (yes/no) and can adjust for confounders in case-control studies. 5-G: Cohen's kappa measures inter-rater reliability beyond chance agreement.",
+      "Incorrect pairing: Kaplan-Meier (E) is descriptive, not analytic; repeated measures ANOVA (D) is wrong for time-to-event (which has censoring).",
+      "Kaplan-Meier (E) for design 2 is descriptive only (no adjustment for confounders) and insufficient for an analytic study.",
+      "Incorrect: logistic regression (A) is for binary outcomes, not longitudinal continuous data.",
+      "Incorrect: PCA (F) is for data reduction, not inter-rater reliability; multi-level modelling (C) for design 1 would work but repeated measures ANOVA is more standard. The key error is PCA for reliability."
+    ],
+    "teaching_point": "Study design determines the appropriate analysis method. Repeated measures data with continuous outcomes: use mixed-effects models or repeated measures ANOVA; Time-to-event (survival) data with censoring: Kaplan-Meier for descriptive, Cox regression for multivariable analysis; Clustered data (patients within sites): multilevel modelling/HLM; Binary outcome: logistic regression; Inter-rater reliability: Cohen's kappa (for 2 raters) or ICC (for continuous ratings, >2 raters).",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Study Design & Analysis Method Matching",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "EMI", "study design", "statistical methods", "matching"],
+    "source": "Petrie & Sabin 2009; Kirkwood & Sterne 2003"
+  },
+  {
+    "stem": "A study reports Cronbach's alpha = 0.92 for a 30-item scale measuring insight in psychosis. Which of the following is the most important additional information needed to properly evaluate this reliability estimate?",
+    "options": [
+      "The test-retest reliability of the scale",
+      "The average inter-item correlation and whether alpha changes when each item is deleted",
+      "The intraclass correlation coefficient (ICC)",
+      "The split-half reliability coefficient",
+      "The standard error of measurement (SEM)"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Test-retest reliability (stability over time) is a different psychometric property (temporal stability), not a substitute for internal consistency evaluation.",
+      "Correct. A high Cronbach's alpha (0.92) can indicate either good internal consistency or excessive item redundancy (many items measuring virtually the same thing). It is also inflated by the number of items: a 30-item scale will have higher alpha than a 10-item scale even with identical average inter-item correlations. The average inter-item correlation should ideally be 0.2-0.4 (moderate). Examining 'alpha if item deleted' identifies items that may be redundant (alpha increases after removal suggests poor fit) or problematic (alpha drops suggests item contributes meaningfully). The optimal range for alpha is 0.70-0.90 — above 0.90 may indicate item redundancy.",
+      "ICC is used for inter-rater or test-retest reliability, not internal consistency.",
+      "Split-half reliability is an older approach; Cronbach's alpha is generally preferred as it represents the average of all possible split-half coefficients.",
+      "SEM is useful for interpreting individual scores but does not evaluate the quality of the reliability estimate itself."
+    ],
+    "teaching_point": "Cronbach's alpha: values above 0.90 may suggest item redundancy (too many items measuring the same narrow construct). Optimal alpha: 0.70-0.90 for most scales. Items should have corrected item-total correlations > 0.30. Alpha increases with number of items (Spearman-Brown prophecy). Tavakol & Dennick (2011) warn against 'alpha fetishism' — reporting alpha without examining the item-level psychometrics. A high alpha does not guarantee unidimensionality; factor analysis is needed to confirm dimensionality.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Cronbach's Alpha & Internal Consistency",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "statistics", "Cronbach's alpha", "reliability", "internal consistency"],
+    "source": "Tavakol & Dennick 2011 (Int J Med Educ); Streiner 2003 (J Pers Assess)"
+  },
+  {
+    "stem": "A systematic review on psychological interventions for PTSD includes 15 RCTs. The authors find a statistically significant pooled effect but note significant funnel plot asymmetry (Egger's test p = 0.01). Which of the following is the most likely explanation?",
+    "options": [
+      "The results are robust and publication bias is unlikely",
+      "The intervention is less effective in larger trials than smaller ones, and small negative trials may be missing from the literature",
+      "The heterogeneity is too high for meta-analysis to be valid",
+      "The studies are of uniformly high quality",
+      "The funnel plot asymmetry confirms the results are clinically significant"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Funnel plot asymmetry (p = 0.01 on Egger's test) is strong evidence of asymmetry, most commonly due to publication bias — small studies showing no effect are less likely to be published.",
+      "Correct. A significant Egger's test and funnel plot asymmetry suggest that small studies with negative/null results are missing from the meta-analysis. Small studies that are published tend to show larger effect sizes (due to less rigorous methodology or selective reporting). This can inflate the pooled effect estimate. Alternative explanations for asymmetry include: true heterogeneity (small studies may have different populations), poor methodological quality of small studies, or chance (though p = 0.01 makes this less likely). Methods to address this: trim-and-fill (Duval & Tweedie), selection models, or sensitivity analyses.",
+      "High heterogeneity is measured by I², not funnel plot asymmetry. These are separate issues.",
+      "Funnel plot asymmetry typically suggests the opposite — that smaller, likely lower-quality studies are skewing the result.",
+      "Statistical significance (p-value) does not equal clinical significance; funnel plot asymmetry concerns methodological quality of evidence synthesis, not clinical importance."
+    ],
+    "teaching_point": "Funnel plot: scatter plot of effect size vs precision (1/SE) or sample size. Asymmetry suggests publication bias or small-study effects. Egger's test: linear regression of the standard normal deviate on precision. p < 0.10 is often used as the threshold. Causes of asymmetry: publication bias, true heterogeneity (small studies in different populations), poor methodological quality in small studies, chance. Duval & Tweedie's trim-and-fill method imputes missing studies and adjusts the pooled estimate. The Cochrane Handbook recommends funnel plots only when ≥10 studies are included.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — Publication Bias & Funnel Plots",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "systematic review", "funnel plot", "publication bias", "Egger's test"],
+    "source": "Sterne & Egger 2001 (BMJ); Duval & Tweedie 2000 (Biometrics); Cochrane Handbook Ch.10"
+  },
+  {
+    "stem": "In a 2 × 2 factorial RCT of depressed patients, participants are randomised to: placebo + TAU, antidepressant + TAU, CBT + TAU, or antidepressant + CBT + TAU. The primary outcome is HAM-D at 12 weeks. This design is best suited to answer which question?",
+    "options": [
+      "Whether antidepressant is superior to placebo",
+      "Whether CBT is superior to TAU alone",
+      "Whether there is an interaction between antidepressant and CBT (additive, synergistic, or subadditive effects)",
+      "Which single treatment is most cost-effective",
+      "Whether combined treatment is superior to TAU alone"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "A standard two-arm placebo-controlled trial would be a simpler way to answer this. The factorial design is overkill for a single comparison.",
+      "Again, a simple two-arm trial (CBT vs TAU) would suffice for this question.",
+      "Correct. The 2 × 2 factorial design is uniquely suited to evaluate both main effects (drug vs no drug, CBT vs no CBT) and the interaction between them. The crucial question: Is the combined effect greater than (synergism/supra-additive), equal to (additive), or less than (sub-additive/antagonistic) the sum of the individual effects? In psychiatry, combined treatment effects are often modestly additive but rarely synergistic. The factorial design can also evaluate if the combination permits lower doses (dose-sparing effect). Sample size needs to be adequate for the interaction term, which typically requires 4× the sample size of a simple two-arm trial.",
+      "Cost-effectiveness analysis can be embedded within any RCT design and is not the primary advantage of factorial trials.",
+      "A simple three-arm trial (TAU, combined, one active) could answer this more simply. The factorial design's unique contribution is the interaction assessment."
+    ],
+    "teaching_point": "Factorial designs efficiently test two interventions simultaneously. The key analysis tests for interaction: does the effect of one intervention depend on the presence of the other? In MRCPsych exams, the factorial design is often tested for its ability to detect interaction/synergy. Important caveat: factorial trials need to be powered for the interaction term (requires larger sample size). A negative interaction (sub-additivity) may suggest that combined treatment offers little advantage — relevant for stepped-care models in psychiatry.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Factorial Trials",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "RCT", "factorial design", "interaction", "combined treatment"],
+    "source": "Montgomery et al 2003 (BMJ); CONSORT factorial extension"
+  },
+  {
+    "stem": "A validation study of a new 10-item OCD severity scale (OCD-SS) reports the following psychometric data in 200 patients with OCD. Which finding most strongly supports the scale's construct validity?",
+    "options": [
+      "Cronbach's alpha = 0.89",
+      "The scale correlates r = 0.72 with the Y-BOCS (gold standard)",
+      "The scale distinguishes between patients with OCD and healthy controls (p < 0.001)",
+      "The scale contains items covering all DSM-5 OCD symptom dimensions",
+      "Test-retest ICC = 0.91 over 2 weeks"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Cronbach's alpha = 0.89 assesses internal consistency (reliability), not validity. A scale can be reliable without being valid.",
+      "Correct. Convergent validity (a form of construct validity) is demonstrated by a strong correlation (r = 0.72) with an established gold-standard measure of the same construct (Y-BOCS). Construct validity is the degree to which a test measures the intended construct. The COSMIN framework identifies three aspects: (1) structural validity (factor analysis), (2) hypotheses testing (convergent and discriminant validity), and (3) cross-cultural validity. A high correlation with the Y-BOCS supports convergent validity, which is a key component of construct validity.",
+      "Known-groups validity (discriminative validity) is a weaker form of construct validity. Many scales can distinguish clinical from non-clinical groups — this is almost a minimum requirement.",
+      "Face/content validity (coverage of DSM-5 domains) is important during development but is the weakest form of validity — it relies on expert judgement, not empirical testing.",
+      "Test-retest ICC = 0.91 assesses reliability (temporal stability), not validity."
+    ],
+    "teaching_point": "Types of validity in psychometrics: (1) Face validity — items appear to measure the construct (subjective); (2) Content validity — items cover all relevant domains (expert judgement); (3) Criterion validity — concurrent (correlation with gold standard) or predictive (predicts future outcome); (4) Construct validity — the scale measures the theoretical construct. Construct validity is established by: convergent validity (correlation with related measures), discriminant validity (weak correlation with unrelated measures), known-groups validity (distinguishes clinical subgroups), and structural validity (factor analysis confirms expected factor structure). Reliability is necessary but not sufficient for validity.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Validity Types in Psychometrics",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "validity", "construct validity", "convergent validity", "psychometrics"],
+    "source": "COSMIN guideline (Mokkink et al 2010); Terwee et al 2007 (J Clin Epidemiol)"
+  },
+  {
+    "stem": "A non-inferiority trial compares a new once-monthly antipsychotic injection (long-acting) against daily oral antipsychotic for schizophrenia relapse prevention over 12 months. The non-inferiority margin (delta) is set at 10% absolute risk difference. Which of the following best describes the interpretation if the 95% CI for the risk difference (new minus standard) is 2% to 9% (favouring new)?",
+    "options": [
+      "The new treatment is superior to the standard treatment",
+      "Non-inferiority is not demonstrated because the CI does not include zero",
+      "Non-inferiority is demonstrated because the entire CI lies below the non-inferiority margin of 10%",
+      "The result is inconclusive because the CI is wide",
+      "The new treatment is inferior because the lower bound is above −10%"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Superiority requires that the CI excludes zero and that the direction favours the new treatment. Here, 2% to 9% favours the new treatment (lower risk with new treatment) but superiority testing was not the a priori hypothesis — non-inferiority was. A post-hoc claim of superiority requires a formal hierarchical testing strategy.",
+      "The CI not including zero suggests the new drug may be statistically significantly better, but for non-inferiority trials, the key reference is the non-inferiority margin (delta), not zero.",
+      "Correct. Non-inferiority is demonstrated when the upper bound of the 95% CI (here 9%) lies entirely below the pre-specified non-inferiority margin (10%). In this case, the entire CI (2% to 9%) is below 10%, so we can conclude the new treatment is non-inferior (and potentially superior given the CI excludes zero). The primary analysis should be 'per-protocol' (not intention-to-treat) as ITT biases toward non-inferiority. A sensitivity analysis on both ITT and PP populations is recommended by CONSORT.",
+      "The CI is relatively narrow (7% width) for a binary outcome in a 12-month trial — this suggests adequate precision.",
+      "The upper bound (9%) favours the new treatment — this is below the margin (10%), confirming non-inferiority. Note the convention: for risk difference (new minus standard), negative values favour standard, positive values favour new. Here positive values favour new."
+    ],
+    "teaching_point": "Non-inferiority trials aim to show that a new treatment is not unacceptably worse than the standard by more than a pre-specified margin (delta). The margin must be clinically justifiable (usually less than the effect size of the active control vs placebo from historical trials). CONSORT guidelines: (1) pre-specify margin, (2) primary analysis on per-protocol population, (3) sensitivity analysis on ITT, (4) report both CI and margin clearly. In MRCPsych exams, the key concept is that non-inferiority is claimed when the entire CI lies on the 'non-inferior' side of the margin. Superiority can be tested post-hoc but this inflates Type I error unless hierarchical testing is pre-specified.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Non-Inferiority Trials",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["critical review", "RCT", "non-inferiority", "margin", "CONSORT"],
+    "source": "Piaggio et al 2006 (JAMA); CONSORT non-inferiority extension"
+  },
+  {
+    "stem": "A logistic regression analysis of predictors of non-adherence to antipsychotics reports an odds ratio (OR) of 2.4 (95% CI 1.3 to 4.5) for substance misuse and OR of 1.1 (95% CI 0.8 to 1.6) for male gender. Which of the following is the most accurate interpretation?",
+    "options": [
+      "Substance misuse increases the odds of non-adherence by 2.4 times; male gender is not a statistically significant predictor",
+      "Patients with substance misuse are 140% less likely to adhere than those without; males are 10% less likely to adhere",
+      "The adjusted OR for substance misuse = 2.4 after controlling for sex, age, and illness severity",
+      "Both A and C are correct",
+      "Substance misuse increases the risk of non-adherence by 2.4%"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "A is partially correct but incomplete — it doesn't mention that these are adjusted ORs.",
+      "An OR of 2.4 means the odds are 2.4 times higher (140% increase), but B is wrong because: (1) the phrasing 'less likely to adhere' is backwards — OR > 1 means more likely to be non-adherent; (2) the OR of 1.1 for males is not significant (CI crosses 1.0).",
+      "C is also correct — the ORs are adjusted for other variables in the model. The term 'adjusted' is crucial in logistic regression interpretation.",
+      "Correct. Both A and C are accurate statements. The OR of 2.4 for substance misuse means adjusted odds of non-adherence are 2.4 times higher (or 140% higher). The male gender OR of 1.1 with CI 0.8 to 1.6 crosses 1.0, so it is not statistically significant. The term 'adjusted' is critical because these ORs control for other covariates in the model.",
+      "OR = 2.4 means odds are 2.4 times higher — a 140% increase in odds, not a 2.4% increase. Also, OR approximates risk only when the outcome is rare (<10% prevalence)."
+    ],
+    "teaching_point": "Logistic regression: OR > 1 = increased odds of the outcome; OR < 1 = decreased odds. The 95% CI indicates statistical significance if it excludes 1.0. 'Adjusted' ORs control for other covariates in the model. Important distinction: OR approximates relative risk only when the outcome is rare (prevalence < 10%). For common outcomes (common in psychiatry), OR overestimates RR. Alternative approaches: log-binomial regression or Poisson regression with robust variance for estimating RR directly. Always report the adjusted OR alongside unadjusted OR to show the effect of confounding.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Logistic Regression Interpretation",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "logistic regression", "odds ratio", "adjusted", "statistics"],
+    "source": "Kirkwood & Sterne 2003; Szumilas 2010 (J Can Acad Child Adolesc Psychiatry)"
+  },
+  {
+    "stem": "EMI — Extended Matching Item: For each scenario (1–5), identify the most appropriate measure of reliability.\n\nOptions:\nA. Cohen's kappa\nB. Weighted kappa\nC. Intraclass correlation coefficient (ICC) — absolute agreement\nD. Intraclass correlation coefficient (ICC) — consistency\nE. Cronbach's alpha\nF. Fleiss' kappa\nG. Spearman's rho\n\nScenarios:\n1. Two consultant psychiatrists independently rate 100 video-recorded interviews for the presence (yes/no) of catatonia\n2. Three nurses independently rate agitation levels (0-10 visual analogue scale) in 50 patients at the same time point\n3. Two raters assign a 5-point Clinical Global Impression (CGI-S) score to 80 patients; the cost of disagreement differs across adjacent categories (e.g., a 1-point difference vs a 4-point difference)\n4. A 20-item self-report depression scale to be used in a clinical trial; items are summed for a total score\n5. The same patient's HAM-D scores assessed at baseline, week 1, week 2, and week 6 by the same rater (stability over time)",
+    "options": [
+      "1=A, 2=C, 3=B, 4=E, 5=C",
+      "1=F, 2=D, 3=A, 4=E, 5=C",
+      "1=A, 2=C, 3=G, 4=E, 5=D",
+      "1=B, 2=C, 3=F, 4=A, 5=E",
+      "1=A, 2=D, 3=B, 4=E, 5=G"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 1-A: Binary (yes/no) ratings by 2 raters → Cohen's kappa (agreement beyond chance). 2-C: Continuous scale (0-10 VAS) by 3 raters → ICC absolute agreement for multiple raters. 3-B: Ordinal scale (CGI-S) with meaningful difference magnitudes → Weighted kappa. 4-E: Internal consistency of summed items → Cronbach's alpha. 5-C: Test-retest reliability over time → ICC absolute agreement (same rater across time points).",
+      "Fleiss' kappa (F) is for >2 raters with nominal data, not 2 raters.",
+      "Spearman's rho (G) is a correlation coefficient, not a measure of agreement — it does not account for systematic bias between raters.",
+      "Weighted kappa (B) is for ordinal data, not binary; Fleiss' kappa (F) is for >2 nominal raters, not ordinal.",
+      "Spearman's rho (G) is inappropriate for test-retest reliability — ICC is the standard."
+    ],
+    "teaching_point": "Reliability measure selection depends on: (1) scale type (binary, ordinal, continuous), (2) number of raters, and (3) purpose (agreement vs consistency). Cohen's kappa (2 raters, nominal); Weighted kappa (2 raters, ordinal — penalises disagreement magnitude); Fleiss' kappa (>2 raters, nominal); ICC absolute agreement (same scores?); ICC consistency (rank-ordered same?); Cronbach's alpha (internal consistency of summed items). Landis & Koch (1977) kappa benchmarks: < 0 poor, 0-0.20 slight, 0.21-0.40 fair, 0.41-0.60 moderate, 0.61-0.80 substantial, 0.81-1.0 almost perfect.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Reliability Measures EMI",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "EMI", "reliability", "kappa", "ICC", "Cronbach's alpha"],
+    "source": "Landis & Koch 1977 (Biometrics); Koo & Li 2016 (J Chiropr Med)"
+  },
+  {
+    "stem": "A Cochrane review of exercise for depression includes 25 trials with a total of 1,487 participants. The pooled SMD = -0.62 (95% CI -0.88 to -0.36, p < 0.001). However, after restricting the analysis to the 8 trials with adequate allocation concealment and blinded outcome assessment, the SMD = -0.18 (95% CI -0.42 to 0.06, p = 0.14). This pattern is best explained by:",
+    "options": [
+      "Confounding by indication",
+      "Reporting bias",
+      "The meta-analysis is underpowered for the subgroup analysis",
+      "Small-study effects and methodological quality bias — low-quality trials inflate the pooled effect",
+      "Regression to the mean"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Confounding by indication occurs when treatment allocation is influenced by prognosis — this applies to observational studies, not RCTs.",
+      "Reporting bias (publication bias) is a potential issue but does not specifically explain the pattern of larger effects in low-quality trials.",
+      "8 trials is a reasonable number for a subgroup analysis. The issue is not power but rather the systematic difference in effect size between high-quality and low-quality trials.",
+      "Correct. The dramatic reduction in effect size when restricting to high-quality trials (SMD -0.62 → -0.18, losing significance) is a classic signal that low-quality trials inflate the pooled estimate. This is known as the 'garbage in, garbage out' problem in meta-analysis. Inadequate allocation concealment, lack of blinding, and small sample sizes systematically bias results in favour of the experimental intervention. This pattern is so common in psychiatric meta-analyses (particularly for psychological interventions) that sensitivity analyses by trial quality are considered essential. The Cochrane Risk of Bias tool is designed to assess these domains.",
+      "Regression to the mean could operate within individual trials (extreme baseline values move toward the mean) but does not explain the systematic difference between high and low-quality trial subgroups."
+    ],
+    "teaching_point": "Sensitivity analysis by methodological quality is essential in meta-analysis. The Cochrane Risk of Bias tool (RoB 2) assesses: randomisation process, deviations from intended interventions, missing outcome data, measurement of outcome, and selection of reported results. A 'meta-regression' could also test whether trial quality (as a continuous score) predicts effect size. In MRCPsych exams, be prepared to recognise that low-quality trials in psychiatry (especially non-pharmacological RCTs) tend to overestimate treatment effects. This is why GRADE starts at 'high quality' for RCTs but can be downgraded for limitations including risk of bias.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — Risk of Bias & Sensitivity Analysis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "meta-analysis", "risk of bias", "sensitivity analysis", "GRADE"],
+    "source": "Higgins et al 2011 (BMJ); Cochrane RoB 2 tool; Sterne et al 2019 (BMJ)"
+  },
+  {
+    "stem": "A study uses Cohen's kappa to measure agreement between two diagnostic assessments for personality disorder. The obtained kappa is 0.42 (p < 0.001). Which of the following is the most accurate interpretation?",
+    "options": [
+      "The two assessments agree 42% of the time",
+      "There is moderate agreement beyond chance, but the kappa may be affected by the prevalence of personality disorder in the sample",
+      "The p-value indicates that the agreement is clinically significant",
+      "A kappa of 0.42 indicates poor agreement",
+      "The kappa value is inflated because p < 0.001"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "This confuses percentage agreement with kappa. Kappa is agreement BEYOND CHANCE, not raw agreement. Raw agreement is always higher than kappa.",
+      "Correct. According to Landis & Koch (1977), kappa 0.41-0.60 = moderate agreement. However, kappa has important limitations: (1) Prevalence paradox — when the prevalence of a condition is very high or very low, kappa can be low despite high raw agreement. For personality disorders, certain categories (e.g., schizotypal) have low prevalence, which can artificially lower kappa. (2) Bias paradox — when there is systematic disagreement between raters (one consistently says yes, the other consistently no), kappa can be paradoxically high. Therefore, always report raw agreement and prevalence alongside kappa.",
+      "A significant p-value (p < 0.001) only tells us that kappa is greater than zero (rejecting the null hypothesis of chance-only agreement). This is a low bar — any positive agreement will be significant with sufficient sample size. Clinical significance is about the magnitude of agreement.",
+      "Landis & Koch: 0.41-0.60 = moderate agreement. Poor agreement is < 0.20.",
+      "The p-value is a function of sample size and kappa magnitude. A significant p-value does not 'inflate' kappa — it simply rejects the null hypothesis of zero agreement."
+    ],
+    "teaching_point": "Cohen's kappa = (observed agreement - expected agreement) / (1 - expected agreement). The prevalence paradox: when prevalence approaches 0% or 100%, expected agreement is high, so kappa (excess beyond expected) is low even if observed agreement is 95%. Alternative: Gwet's AC1 statistic is more prevalence-resistant. In psychiatric diagnosis (where many conditions have low prevalence), kappa can be misleadingly low. Always also report: raw percentage agreement, prevalence of the condition, and confidence intervals for kappa.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Cohen's Kappa Limitations",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "kappa", "agreement", "prevalence paradox", "statistics"],
+    "source": "Landis & Koch 1977 (Biometrics); Feinstein & Cicchetti 1990 (J Clin Epidemiol)"
+  },
+  {
+    "stem": "A Cox proportional hazards model examining predictors of time to relapse in bipolar disorder reports a hazard ratio (HR) of 1.8 (95% CI 1.2 to 2.6) for medication non-adherence and HR 0.6 (95% CI 0.4 to 0.9) for family involvement in psychoeducation. Which interpretation is correct?",
+    "options": [
+      "Non-adherent patients are 80% more likely to relapse at any given follow-up time; family psychoeducation reduces hazard by 40%",
+      "The risk of relapse is 1.8 times higher in non-adherent patients; family psychoeducation doubles the time to relapse",
+      "Non-adherence increases the probability of relapse by 80%; family psychoeducation decreases it by 60%",
+      "The median survival time is 1.8 times shorter with non-adherence",
+      "Non-adherence increases the relative risk of relapse at 12 months by 80%"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. In Cox regression, HR = 1.8 means the instantaneous risk (hazard) of the event at any given time is 1.8 times higher (80% higher) in non-adherent patients at any time point. HR = 0.6 means the hazard is reduced by 40% (hazard ratio of 0.6 corresponds to a 40% reduction: (1 - 0.6) × 100%). The HR is a ratio of hazards (instantaneous event rates), assumed proportional over time (proportional hazards assumption).",
+      "HR = 0.6 corresponds to a 40% reduction in hazard, not doubling of time to relapse. Time ratios require accelerated failure time (AFT) models, not Cox models.",
+      "HR is a ratio of hazards, not probabilities. For common outcomes, HR and RR differ. The HR is a rate ratio, not a risk ratio.",
+      "Median survival time is not directly calculated from the HR. Median survival depends on the baseline survival function, which is separate from the HR.",
+      "HR approximates RR at each time point only when the event is rare. Even then, HR is a rate ratio (events per person-time), not a simple risk ratio."
+    ],
+    "teaching_point": "Cox proportional hazards: HR = exp(β) where β is the coefficient. HR > 1 = increased hazard; HR < 1 = decreased hazard. The proportional hazards assumption is crucial — the HR remains constant over time (checked via log-log plots or Schoenfeld residuals). For time-to-event data with censoring, Cox regression is preferred over logistic regression (which ignores the timing of events). Difference from RR: HR is instantaneous rate ratio; RR is cumulative risk ratio over a fixed follow-up period. When events are common, HR and RR will diverge.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Cox Regression & Hazard Ratios",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "Cox regression", "hazard ratio", "survival analysis", "statistics"],
+    "source": "Bradburn et al 2003 (BMJ); Kirkwood & Sterne 2003"
+  },
+  {
+    "stem": "A diagnostic test for depression using a cut-off of ≥10 on the PHQ-9 has a sensitivity of 88% and specificity of 85% in primary care. The positive likelihood ratio (LR+) is closest to:",
+    "options": [
+      "0.14",
+      "1.04",
+      "5.87",
+      "7.5",
+      "10.3"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "0.14 is close to (1-sensitivity)/specificity = 0.12/0.85 = 0.14, which is the negative likelihood ratio (LR-), not LR+.",
+      "1.04 would result if sensitivity ≈ specificity (no discriminative value). This is a non-informative test.",
+      "Correct. LR+ = sensitivity / (1 - specificity) = 0.88 / (1 - 0.85) = 0.88 / 0.15 = 5.87. This means a positive test is 5.87 times more likely in a depressed person than in a non-depressed person. According to Jaeschke et al (1994), LR+ > 5 generates a moderate-to-large shift from pre-test to post-test probability, while LR+ > 10 is considered conclusive.",
+      "7.5 would require sensitivity/(1-specificity) = 0.90/0.88 or similar — not matching the given values.",
+      "10.3 would require sensitivity/(1-specificity) = 0.88/0.085 = 10.3 (specificity ≈ 91.5%)."
+    ],
+    "teaching_point": "Likelihood ratios: LR+ = sensitivity / (1-specificity); LR- = (1-sensitivity) / specificity. LR+ > 1 = positive test increases probability of disease; LR- < 1 = negative test decreases probability. Jaeschke et al (1994) thresholds: LR+ > 10 (conclusive), 5-10 (moderate), 2-5 (small), 1-2 (minimal). LR- < 0.1 (conclusive), 0.1-0.2 (moderate), 0.2-0.5 (small), 0.5-1.0 (minimal). Post-test odds = pre-test odds × LR. PHQ-9 at cut-off ≥10 has moderate diagnostic utility in primary care settings.",
+    "domain": "critical_review",
+    "subdomain": "Diagnostic Tests — Likelihood Ratios",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["critical review", "diagnostic test", "LR+", "likelihood ratio", "PHQ-9"],
+    "source": "Jaeschke et al 1994 (JAMA); Kroenke et al 2001 (J Gen Intern Med)"
+  },
+  {
+    "stem": "In a meta-analysis of 10 studies on psychological debriefing after trauma, the pooled SMD for PTSD symptoms at 6 months is 0.12 (95% CI -0.05 to 0.29, p = 0.16), with I² = 12%. Which of the following is the most appropriate conclusion?",
+    "options": [
+      "Psychological debriefing significantly reduces PTSD symptoms",
+      "The evidence is consistent with no effect of psychological debriefing, and the small non-significant trend favours debriefing",
+      "Psychological debriefing is harmful and should be discontinued",
+      "The high heterogeneity precludes any conclusion",
+      "The result is inconclusive due to insufficient studies"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "p = 0.16 > 0.05, so the result is not statistically significant. A non-significant result does not mean 'no effect' but rather that we cannot reject the null hypothesis.",
+      "Correct. The 95% CI (-0.05 to 0.29) includes zero, so the result is not statistically significant. The point estimate (SMD = 0.12) is a small positive effect (favours debriefing), but the CI suggests the true effect could range from a small negative to a small positive. I² = 12% indicates minimal heterogeneity — studies are consistent. This does NOT prove debriefing is ineffective; it means the accumulated evidence does not demonstrate a statistically significant effect. This is the difference between 'absence of evidence' and 'evidence of absence'. The appropriate conclusion: current evidence does not support the routine use of psychological debriefing for PTSD prevention (consistent with Cochrane reviews on this topic).",
+      "SMD = 0.12 is a small positive effect (favours intervention), not harmful. The CI lower bound (-0.05) barely crosses zero.",
+      "I² = 12% is minimal heterogeneity — this is the opposite of high heterogeneity. Studies are remarkably consistent.",
+      "10 studies with minimal heterogeneity is a reasonable evidence base. The issue is the total sample size and the narrow CI around a very small effect, not the number of studies per se."
+    ],
+    "teaching_point": "Non-significant meta-analysis results must be interpreted carefully. Key considerations: (1) Is the CI narrow? (A narrow CI around zero provides 'evidence of absence'; a wide CI provides 'absence of evidence'). Here the CI is relatively narrow (0.34 SMD units). (2) The point estimate (0.12) — is this clinically meaningful? For PTSD symptoms, an SMD < 0.2 is generally considered a negligible effect (Cohen's benchmarks: 0.2 = small, 0.5 = medium, 0.8 = large). (3) GRADE approach: evidence does not support routine debriefing. This matches the actual Cochrane evidence: single-session psychological debriefing does not prevent PTSD and may increase symptoms.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — Interpreting Non-Significant Results",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "meta-analysis", "non-significant", "debriefing", "GRADE"],
+    "source": "Rose et al 2002 (Cochrane Review); Cochrane Handbook Ch.12"
+  },
+  {
+    "stem": "EMI — Extended Matching Item: For each research question (1–5), choose the most appropriate study design from the options below.\n\nOptions:\nA. Cross-sectional survey\nB. Prospective cohort study\nC. Case-control study\nD. Randomised controlled trial\nE. Qualitative phenomenological study\nF. Ecological study\nG. Nested case-control study\n\nResearch questions:\n1. What is the lived experience of stigma among carers of patients with early-onset dementia?\n2. What is the lifetime prevalence of psychotic experiences in the general population?\n3. Is maternal influenza infection during pregnancy associated with later development of schizophrenia in the offspring?\n4. Does a new community-based early intervention service reduce admission rates compared to standard care?\n5. Among participants of a large existing cohort study, what are the baseline inflammatory markers that predict later depression?",
+    "options": [
+      "1=E, 2=A, 3=B, 4=D, 5=G",
+      "1=E, 2=C, 3=B, 4=D, 5=A",
+      "1=G, 2=A, 3=C, 4=D, 5=B",
+      "1=E, 2=A, 3=C, 4=D, 5=G",
+      "1=A, 2=E, 3=B, 4=G, 5=D"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "B for question 3: A prospective cohort from pregnancy onward would take decades — inefficient for a rare outcome. Case-control is more appropriate.",
+      "Case-control (C) is wrong for a prevalence survey (Q2). Cross-sectional is standard for point/period prevalence.",
+      "G (nested case-control) for Q1 doesn't make sense — qualitative methods (E) are appropriate for experiential phenomena. Nested case-control (G) is for studies within existing cohorts.",
+      "Correct. 1-E: Lived experience research requires qualitative methodology (phenomenology, IPA, grounded theory). 2-A: Prevalence surveys use cross-sectional designs. 3-C: Rare disease (schizophrenia, population prevalence ~1%) with a remote exposure (pregnancy) — case-control is most efficient. 4-D: Service evaluation of an intervention requires an RCT (or cluster-RCT if by area). 5-G: Nested case-control within an existing cohort is efficient — select cases (depression) and controls from the same cohort and measure baseline stored samples.",
+      "Ecological study (E) for Q2 is wrong — ecological studies examine population-level, not individual-level prevalence. Also G (nested case-control) for Q4 is inappropriate for a service evaluation."
+    ],
+    "teaching_point": "Study design selection depends on: outcome prevalence (rare → case-control), time frame (prospective exposure → cohort), feasibility (long latency → case-control), research question type (experience/lived meaning → qualitative), and existing resources (existing cohort → nested case-control). In MRCPsych Paper B, study design questions test your ability to match the design to the question, considering efficiency, bias, and feasibility. Key rule: rare outcome → case-control (not cohort). Immediate question about prevalence → cross-sectional. Causal inference about intervention → RCT. Understanding meaning/experience → qualitative.",
+    "domain": "critical_review",
+    "subdomain": "Study Designs — Selecting by Research Question (EMI)",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "EMI", "study design", "epidemiology", "methodology"],
+    "source": "Rothman 2012 (Modern Epidemiology); Hennekens & Buring 1987"
+  },
+  {
+    "stem": "A 12-week trial of a new antipsychotic reports an effect size (Cohen's d) of 0.35 for PANSS total score reduction. The trial had 80% power at α = 0.05 to detect d = 0.35. Which of the following is the most accurate interpretation of this effect size?",
+    "options": [
+      "The drug has a moderate clinical effect on schizophrenia symptoms",
+      "35% of patients in the treatment group improved compared to controls",
+      "The mean PANSS improvement in the drug group is 0.35 standard deviations greater than in the placebo group — a small-to-medium effect",
+      "The absolute risk reduction is 35%",
+      "Cohen's d = 0.35 is a large effect size"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Cohen's d = 0.35 falls between small (0.2) and medium (0.5) by Cohen's conventional benchmarks. Whether it is clinically significant depends on the clinical context — antipsychotic treatment effects on PANSS in acute trials are typically small-to-moderate (d ≈ 0.3-0.5).",
+      "Cohen's d is not a proportion — it is the standardised mean difference. The percentage of 'improved' patients would be reported as a response rate (e.g., ≥30% PANSS reduction), which is a different outcome metric.",
+      "Correct. Cohen's d = (mean_group1 - mean_group2) / pooled_SD. It expresses the treatment effect in standard deviation units. d = 0.35 means the drug group mean is 0.35 SD higher than placebo. Cohen's benchmarks: 0.2 = small, 0.5 = medium, 0.8 = large. d = 0.35 is a small-to-medium effect. The clinical significance also depends on the measure — a small d on PANSS total may still be clinically meaningful if it translates to functional improvement. The 80% power at α = 0.05 means the trial was designed to have 80% chance of detecting d = 0.35 if it truly exists.",
+      "Absolute risk reduction (ARR) is a risk difference for binary outcomes, not applicable to Cohen's d (which is for continuous outcomes).",
+      "Cohen's d = 0.35 is small-to-medium by conventional benchmarks."
+    ],
+    "teaching_point": "Cohen's d = standardised mean difference. Key for MRCPsych: (1) d = (M1 - M2) / SD_pooled. (2) Cohen's benchmarks are conventions, not absolutes — a 'small' effect in one context (psychosocial intervention, d ≈ 0.2) may be clinically important if the outcome is important (e.g., mortality). (3) For psychiatric drug trials, typical active vs placebo effect sizes: antidepressants d ≈ 0.3-0.4 (Kirsch et al), antipsychotics d ≈ 0.3-0.5 (Leucht et al). (4) Can convert between d and NNT: d = 0.35 roughly corresponds to NNT ≈ 8-10 (using Furukawa's conversion for binary outcomes).",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Cohen's d & Effect Size Interpretation",
+    "difficulty": "easy",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "Cohen's d", "effect size", "statistics", "antipsychotic"],
+    "source": "Cohen 1988; Leucht et al 2013 (Lancet); Furukawa & Leucht 2011 (BJP)"
+  },
+  {
+    "stem": "A study reports moderate-to-strong negative confounding. Which of the following best describes what this means for the crude vs adjusted odds ratio?",
+    "options": [
+      "The crude OR will be closer to 1.0 than the adjusted OR",
+      "The adjusted OR will be closer to 1.0 than the crude OR",
+      "The crude and adjusted ORs will be identical",
+      "The confidence intervals will be narrower for the crude OR",
+      "The adjusted OR will have a different direction (crossing 1.0) compared to the crude OR"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. In 'negative confounding', the confounder is associated with both the exposure and outcome in opposite directions, making the crude association appear weaker (closer to the null) than it truly is. So the crude OR is closer to 1.0 than the adjusted OR. For example: in a study of ECT and suicide risk, if older age (confounder) is associated with higher suicide risk but also with lower likelihood of receiving ECT, the crude OR for ECT-suicide would be biased toward 1.0 (negative confounding). After adjustment, the true association becomes apparent and moves away from 1.0.",
+      "This describes 'positive confounding' where the crude OR is more extreme (further from 1.0) than the adjusted OR — the confounder exaggerates the association.",
+      "Confounding by definition causes a difference between crude and adjusted ORs. Equal ORs would mean no confounding.",
+      "Crude ORs may have narrower CIs because no adjustment variables consume degrees of freedom, but this does not define the type of confounding.",
+      "Changing direction (e.g., crude OR > 1, adjusted OR < 1) would be extreme confounding (Simpson's paradox), not just moderate-to-strong negative confounding."
+    ],
+    "teaching_point": "Negative confounding: crude estimate biased toward the null (underestimates true association). Positive confounding: crude estimate biased away from the null (overestimates true association). The direction of confounding depends on the direction of association between the confounder and exposure, and between the confounder and outcome. A confounder must: (1) be associated with the exposure, (2) be independently associated with the outcome, and (3) not be on the causal pathway (not a mediator). In MRCPsych exams, you may be asked whether adding a particular covariate would increase or decrease the OR — think through the direction of associations.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Confounding (Negative vs Positive)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "confounding", "negative confounding", "OR", "epidemiology"],
+    "source": "Rothman 2012; McNamee 2003 (Occup Environ Med)"
+  },
+  {
+    "stem": "PRISMA flowchart reporting in a systematic review shows: 847 records identified through database searching, 236 duplicates removed, 611 records screened, 498 records excluded at title/abstract, 113 full-text articles assessed, 78 excluded with reasons, leaving 35 studies included. Which of the following is the most important additional piece of information that should be reported?",
+    "options": [
+      "The names of the databases searched",
+      "The years of publication of included studies",
+      "The specific reasons for each of the 78 full-text exclusions",
+      "The gender of the study participants",
+      "The funding sources of included studies"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Databases should be reported in the Methods section, but this is separate from the PRISMA flow diagram. The PRISMA flow diagram's purpose is to document the screening process transparently.",
+      "Publication years of included studies should be reported in a study characteristics table, not primarily in the PRISMA diagram.",
+      "Correct. The PRISMA statement (Page et al 2021) requires that reasons for full-text exclusion be reported in the flow diagram. Without reporting WHY articles were excluded at full-text stage (e.g., wrong population, wrong design, insufficient data, duplicate publication), the reader cannot assess whether exclusions were appropriate or introduce bias. The PRISMA 2020 flow diagram template includes a box for 'Reports excluded with reasons'. This is a common item in MRCPsych critical appraisal questions — the flow diagram must document reasons for full-text exclusion to ensure transparency.",
+      "Participant demographics should be reported in a table of study characteristics, not in the PRISMA flow diagram.",
+      "Funding sources are important to assess risk of bias but are reported elsewhere, not in the flow diagram."
+    ],
+    "teaching_point": "PRISMA 2020 flow diagram items: (1) Records identified from databases and registers; (2) Records removed before screening (duplicates, marked as ineligible by automation tools, removed for other reasons); (3) Records screened; (4) Records excluded; (5) Reports sought for retrieval; (6) Reports not retrieved; (7) Reports assessed for eligibility; (8) Reports excluded with reasons. The reasons for full-text exclusion should be meaningful (e.g., 'wrong comparator', 'not an RCT', 'insufficient data'). The MRCPsych exam often tests this as a quality indicator: if reasons aren't given, transparency is compromised and the risk of reporting bias increases.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — PRISMA Flow Diagram",
+    "difficulty": "easy",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "PRISMA", "flow diagram", "systematic review", "transparency"],
+    "source": "Page et al 2021 (BMJ); PRISMA 2020 statement"
+  },
+  {
+    "stem": "A meta-regression analysis of 20 studies on antipsychotic dose and response finds that the slope (β) for the relationship between dose (in chlorpromazine equivalents) and effect size is -0.004 (95% CI -0.008 to 0.001, p = 0.12). Which of the following is the most appropriate interpretation?",
+    "options": [
+      "Higher antipsychotic doses are significantly associated with larger effect sizes",
+      "There is no relationship between dose and effect size because the p-value is non-significant",
+      "The meta-regression suggests a possible trend toward smaller effect sizes at higher doses, but this is not statistically significant. This may reflect the curvilinear dose-response relationship in antipsychotic treatment.",
+      "The slope is negative, confirming that lower doses are superior",
+      "The results are not interpretable because meta-regression requires at least 30 studies"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "The slope is negative (-0.004), not positive. Higher doses are associated with smaller (more negative = worse) effect sizes, not larger. Also p > 0.05.",
+      "A non-significant p-value does not prove 'no relationship' — it means we cannot reject the null hypothesis given the current data. In meta-regression, 20 studies with a wide CI (-0.008 to 0.001) suggests imprecision. The point estimate suggests a negative trend.",
+      "Correct. The meta-regression slope is -0.004 (higher dose → smaller effect size), but p = 0.12 and the 95% CI includes zero, so this is not statistically significant. In real-world data, the relationship between antipsychotic dose and efficacy often follows a curvilinear (inverted U) pattern — there is a therapeutic window, and excessively high doses may produce more side effects without additional efficacy (the 'therapeutic plateau'). The non-significant negative trend could reflect this phenomenon. Meta-regression is exploratory, not confirmatory, and its findings should generate hypotheses, not definitive conclusions.",
+      "Suggesting 'lower doses are superior' overstates a non-significant trend. The evidence does not support this definitive claim.",
+      "Meta-regression can be performed with fewer than 30 studies, though power is limited. The Cochrane Handbook recommends at least 10 studies per covariate. There is no hard rule requiring 30."
+    ],
+    "teaching_point": "Meta-regression extends meta-analysis by examining whether study-level characteristics (e.g., dose, duration, quality) moderate the treatment effect. Key points: (1) It is observational (studies are not randomised to dose levels) and subject to ecological bias — relationships at the study level may not apply to individuals. (2) Power is typically low in meta-regression. (3) The relationship between antipsychotic dose and response is curvilinear: beyond a moderate dose (400-800mg CPZ equiv), additional dose increases side effects without improving efficacy. (4) Meta-regression can explore heterogeneity but cannot prove causation.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Meta-Regression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "meta-regression", "antipsychotic dose", "heterogeneity", "statistics"],
+    "source": "Thompson & Higgins 2002 (Stat Med); Cochrane Handbook Ch.10"
+  },
+  {
+    "stem": "EMI — Extended Matching Item: Match each statistical concept (1–5) with its definition (A–G).\n\nConcepts:\n1. Type II error (β)\n2. Statistical power (1-β)\n3. Precision\n4. Effect size\n5. Validity\n\nDefinitions:\nA. The magnitude of the treatment effect, expressed in original or standardised units\nB. The degree to which a study measures what it intends to measure (absence of systematic error/bias)\nC. The narrower the confidence interval, the higher this property (related to sample size and variability)\nD. Failing to reject the null hypothesis when it is false — a false negative\nE. The probability of detecting a true effect of a given size\nF. Rejecting the null hypothesis when it is true — a false positive\nG. The degree to which results can be generalised to other populations",
+    "options": [
+      "1=D, 2=E, 3=C, 4=A, 5=B",
+      "1=F, 2=E, 3=A, 4=C, 5=B",
+      "1=D, 2=E, 3=C, 4=A, 5=G",
+      "1=D, 2=F, 3=C, 4=A, 5=B",
+      "1=E, 2=D, 3=C, 4=A, 5=B"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 1-D: Type II error (β) = failing to detect a true effect (false negative). 2-E: Power (1-β) = probability of detecting a true effect. 3-C: Precision = width of CI (narrower = more precise), inversely related to sample size. 4-A: Effect size = magnitude of effect in original or standardised units. 5-B: Validity = absence of systematic error/bias (accuracy, as opposed to precision/reliability).",
+      "F (Type I error) is not Type II error. Type I error (α) = false positive (reject true null).",
+      "G (generalisability/external validity) is a specific type of validity, but the general term 'validity' in study design usually refers to internal validity (freedom from bias) — the ability of the study to measure what it intends to measure. External validity is generalisability.",
+      "F (Type I error) assigned to power is incorrect.",
+      "E (power) assigned to Type II error is incorrect — power is 1-β, not β itself."
+    ],
+    "teaching_point": "Core statistical concepts: Type I error (α) = false positive (conventionally α = 0.05). Type II error (β) = false negative (conventionally β = 0.20). Power = 1-β (conventionally 0.80 or 80%). Precision = random error (affected by sample size) = narrower CI. Validity = systematic error (bias). A study can be precise but invalid (large sample, biased measurement) or valid but imprecise (unbiased but small sample). In MRCPsych, these concepts are often tested together. Remember: increasing sample size improves precision and power but does not fix bias/validity issues.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Core Concepts EMI (Type I/II, Power, Precision, Validity)",
+    "difficulty": "easy",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": ["critical review", "EMI", "Type I error", "Type II error", "power", "precision", "validity"],
+    "source": "Altman 1991 (Practical Statistics for Medical Research); Petrie & Sabin 2009"
+  },
+  {
+    "stem": "A study reports a 95% confidence interval for the difference in mean depression scores between CBT and TAU of -2.5 to -0.3 (negative favours CBT). Which of the following is NOT a correct interpretation?",
+    "options": [
+      "The difference is statistically significant at α = 0.05 because the CI excludes zero",
+      "The true population difference has a 95% probability of lying between -2.5 and -0.3",
+      "If we repeated the study many times, 95% of CIs constructed this way would contain the true population difference",
+      "The point estimate is approximately -1.4 in favour of CBT",
+      "The clinical significance depends on whether -0.3 is a clinically meaningful difference"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Correct interpretation: the CI does not include zero, so p < 0.05. The 'null value' of zero (no difference) lies outside the CI.",
+      "NOT CORRECT. This is the most common misinterpretation of confidence intervals. A 95% CI does NOT mean there is a 95% probability the true value lies within this specific interval. The true population parameter is fixed (unknown constant), not random. The 95% refers to the procedure: if we repeated the study many times, 95% of CIs would contain the true value. This is the difference between frequentist and Bayesian interpretations. A Bayesian credible interval (which DOES directly state probability about the parameter) requires a prior and yields a different numerical interval.",
+      "Correct frequentist interpretation: the CI's 'confidence' is in the method, not the particular interval.",
+      "Correct: the point estimate is approximately the midpoint of the CI: (-2.5 + (-0.3)) / 2 = -1.4. However, this assumes symmetry; for OR/RR, add CIs on the log scale.",
+      "Correct: statistical significance (CI excludes zero) does not guarantee clinical significance. A 0.3-point advantage on a depression scale may not be clinically meaningful. The MCID (Minimal Clinically Important Difference) must be considered."
+    ],
+    "teaching_point": "Common CI misinterpretations in MRCPsych exams: (1) 'There is a 95% chance the true value lies in this CI' — WRONG (frequentist). (2) 'Values within the CI are plausible, values outside are unlikely' — BROADLY CORRECT. (3) 'The CI tells us about precision' — narrower = more precise. (4) 'CI provides more information than p-values' — YES, gives both significance and precision. A Bayesian credible interval (e.g., 95% CrI) DOES allow probabilistic statements about parameters, but requires a prior distribution. In MRCPsych, this distinction is often tested.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Confidence Interval Interpretation",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "confidence interval", "interpretation", "statistics"],
+    "source": "Altman & Bland 1995 (BMJ); Kirkwood & Sterne 2003"
+  },
+  {
+    "stem": "A RCT of a digital CBT intervention for insomnia randomises 200 participants (100 per arm). At 8-week follow-up, 37 participants in the intervention group and 22 in the control group are lost to follow-up. The primary analysis uses complete cases (n = 163). The dropout rate is 18.5% in the intervention arm vs 11% in the control arm. Which of the following is the most significant concern?",
+    "options": [
+      "The overall dropout rate exceeds 15%, making the results unreliable",
+      "Differential attrition may bias the results in favour of the intervention if dropouts in the intervention group had worse outcomes",
+      "The study is underpowered because of the reduced sample size",
+      "Intention-to-treat analysis cannot be performed with missing data",
+      "Per-protocol analysis would give different results"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "There is no absolute threshold at which dropouts automatically invalidate results. More important is the pattern of dropouts and whether they differ between groups.",
+      "Correct. The key concern is differential attrition — more dropouts in the intervention group (18.5% vs 11%). If those who dropped out from the intervention group were those who did not improve (common in digital interventions — non-responders disengage), then the complete-case analysis will overestimate the treatment effect. This is 'attrition bias' (a domain in the Cochrane RoB 2 tool). The appropriate approaches: (1) sensitivity analysis using multiple imputation, (2) pattern-mixture models, (3) reporting best-case/worst-case scenarios. In MRCPsych critical review questions, differential attrition is always a red flag.",
+      "The study was powered for 200 participants. With 163 complete cases and NNT assumptions, the effective power may still be adequate, though slightly reduced. This is a secondary concern.",
+      "ITT analysis CAN be performed with missing data — using last observation carried forward (LOCF), multiple imputation, or mixed models for repeated measures (MMRM). ITT requires analysing participants in their randomised groups regardless of adherence, but outcomes still need to be measured or imputed.",
+      "Per-protocol analysis would exclude dropouts and non-adherent participants, which would differ from ITT. But the primary concern is that the differential attrition biases the observed results, not whether PP vs ITT are different."
+    ],
+    "teaching_point": "Attrition bias in RCTs: differential dropout between arms is more concerning than overall dropout. The direction of bias depends on why participants dropped out. In digital interventions, a common pattern: non-responders drop out of the active arm → complete-case analysis inflates the effect. Cochrane RoB 2 addresses this: 'Were missing outcome data likely to bias the result?' Recommended methods: (1) Primary ITT analysis with appropriate imputation, (2) sensitivity analysis under different assumptions about missing data (e.g., 'tipping point' analysis), (3) reporting reasons for dropout by group.",
+    "domain": "critical_review",
+    "subdomain": "RCT Methodology — Attrition Bias & Missing Data",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "RCT", "attrition bias", "missing data", "ITT"],
+    "source": "Sterne et al 2019 (BMJ — RoB 2); White et al 2011 (BMJ — CONSORT missing data)"
+  },
+  {
+    "stem": "A survey study uses a 7-point Likert scale to measure patient satisfaction with psychiatric services. The researcher calculates the mean score across all items and analyses it using a t-test. Which of the following is the most important methodological concern?",
+    "options": [
+      "Likert scale data are ordinal, not interval — calculating a mean assumes equal intervals between response categories, which may not hold",
+      "The sample size must be at least 100 for a t-test to be valid",
+      "Likert scales cannot be used for satisfaction measurement at all",
+      "A 7-point scale has too few response options for parametric analysis",
+      "The t-test requires normally distributed data, which Likert data cannot achieve"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Likert scale data produce ordinal measurements. The distance between 'strongly agree' and 'agree' is not necessarily the same as between 'agree' and 'neutral'. Calculating a mean assumes these intervals are equal (interval-level measurement). This is a well-known statistical controversy. However, many researchers treat Likert-scale totals or averages as interval data if: (1) the scale has ≥5 response options, (2) the distribution approximates normality, and (3) the total score across multiple items is used (rather than individual items). Parametric tests (t-test, ANOVA) are reasonably robust to violations when these conditions are met. The conservative approach: use non-parametric tests (Mann-Whitney U, Kruskal-Wallis).",
+      "There is no fixed minimum. Power depends on effect size, not an arbitrary cut-off.",
+      "Likert scales are widely used and validated for satisfaction measurement (e.g., CSQ-8, Verona Service Satisfaction Scale).",
+      "7 points is well within the acceptable range. Simulation studies show that 5-7 point Likert items perform adequately for parametric analysis when aggregated.",
+      "The Central Limit Theorem ensures that the sampling distribution of the mean is approximately normal for n > 30, regardless of the underlying distribution. Likert item distributions are often skewed (satisfaction tends to be negatively skewed) but the CLT still applies to the mean."
+    ],
+    "teaching_point": "The Likert scale vs parametric analysis controversy is a common MRCPsych critical review topic. Key positions: (1) Purist (Jamieson 2004): Likert is ordinal, use non-parametric tests only. (2) Pragmatic (Norman 2010): Parametric tests are robust to Likert violations with n > 30, ≥5 categories, and composite scores. Best practice: report both parametric and non-parametric results as sensitivity analysis, or use ordinal logistic regression (proportional odds model). In MRCPsych exam questions, the 'correct' answer depends on the specific question — if the question emphasises ordinal nature, the concern is valid; if the question asks about practical robustness, the pragmatic answer is acceptable.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Likert Scale Analysis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "Likert scale", "ordinal", "parametric", "statistics"],
+    "source": "Jamieson 2004 (Med Educ); Norman 2010 (Adv Health Sci Educ)"
+  },
+  {
+    "stem": "A study uses the 'last observation carried forward' (LOCF) method for handling missing data in a 12-week depression trial. Which of the following best describes the bias introduced by this approach?",
+    "options": [
+      "LOCF overestimates the treatment effect because it assumes all dropouts improved",
+      "LOCF biases results toward the null if dropouts worsen after discontinuation",
+      "LOCF biases in favour of the treatment when the outcome is expected to improve over time and dropouts have worse outcomes",
+      "LOCF has no systematic bias — it is a conservative method",
+      "LOCF is preferred over multiple imputation in psychiatric trials"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "LOCF carries forward the last observed value — it does not assume all dropouts improved. If a participant dropped out due to worsening, their last score (worse) is carried forward.",
+      "If dropouts worsen after discontinuation (which is common in depression trials — non-responders drop out), LOCF would underestimate the true deterioration (because it assumes the last score remains stable). But this would still bias in favour of treatment because the LOCF imputed endpoint is less negative than what would have been observed.",
+      "Correct. In psychiatric trials, participants who drop out typically have poorer outcomes. If the trajectory in the treatment group is improving over time, LOCF underestimates the true treatment effect if dropouts are from the non-improving subgroup. However — and this is the key — if dropouts are disproportionately from the treatment group (differential attrition) and they dropped out due to lack of efficacy, LOCF biases AGAINST treatment. But in the typical scenario where dropouts' outcomes would have worsened or not improved, LOCF systematically favours the treatment because it assumes stability when decline is more likely. This was a major criticism of LOCF in psychopharmacology trials (e.g., antidepressant trials). Modern regulators (EMA, FDA) prefer MMRM (mixed models for repeated measures).",
+      "LOCF has systematic bias that tends to favour the treatment in improving outcomes with monotone dropout. It is not conservative.",
+      "Multiple imputation (MI) and MMRM are preferred over LOCF. LOCF makes unrealistic assumptions: that the outcome remains constant after dropout, and that dropout is independent of subsequent outcome conditional on observed data (missing at random is more plausible)."
+    ],
+    "teaching_point": "LOCF was historically standard in pharma trials but is now strongly discouraged. Problems: (1) Assumes the value after dropout remains constant — implausible in psychiatric outcomes that fluctuate. (2) Underestimates variability (treats imputed values as known). (3) May introduce systematic bias depending on the dropout pattern. Modern alternatives: MMRM (assumes missing at random, uses all available data without imputation), multiple imputation (MI), pattern-mixture models (sensitivity analysis under MNAR assumptions). The EMA and FDA both recommend against LOCF as the primary analysis. In MRCPsych exams, LOCF is a red flag for biased analysis.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Missing Data Methods (LOCF vs MMRM)",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "LOCF", "missing data", "MMRM", "bias", "depression trial"],
+    "source": "Mallinckrodt et al 2003 (Pharm Stat); Molenberghs et al 2004 (Biostatistics); EMA guideline on missing data"
+  },
+  {
+    "stem": "A validation study compares a new 5-item screening tool for dementia against a full neuropsychological battery (gold standard). The AUC is 0.78. The study includes 300 patients: 150 with dementia (cases) and 150 without (controls). Which of the following is a limitation of the study design?",
+    "options": [
+      "The prevalence of dementia in the study (50%) is much higher than in the general or clinical population where the test would be used, inflating the PPV",
+      "AUC < 0.80 is unacceptable for any screening test",
+      "The sample size of 300 is too small for a validation study",
+      "The gold standard battery is subject to measurement error",
+      "Screening tools cannot be validated against neuropsychological assessment"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. The study uses a case-control design with 50% prevalence (artificially enriched). In the real-world clinical setting where this screening tool would be used (e.g., primary care), the prevalence of undiagnosed dementia is much lower (perhaps 5-15%). While sensitivity and specificity are intrinsic to the test (largely independent of prevalence), PPV is heavily prevalence-dependent. With 50% prevalence, the PPV will appear much higher than in real-world use. This is the 'spectrum bias' problem — validation in case-control samples overestimates test performance because cases are typically more severe and controls are healthier than in real-world clinical populations.",
+      "AUC 0.78 is acceptable for a screening test (convention: 0.70-0.80 = fair, 0.80-0.90 = good, >0.90 = excellent). There is no absolute cut-off for 'unacceptable' — context matters.",
+      "300 participants (150 per group) is reasonable for a diagnostic test validation study, particularly with a well-characterised gold standard.",
+      "Measurement error in the gold standard is a general concern in any validation study but does not specifically stem from the case-control design.",
+      "This is incorrect — screening tools are routinely validated against comprehensive assessment (e.g., MMSE vs neuropsychological testing, PHQ-9 vs structured clinical interview)."
+    ],
+    "teaching_point": "Spectrum bias (aka 'case-control bias') in diagnostic test studies: validation studies that compare clearly diseased (severe) cases with healthy controls overestimate test accuracy. In clinical practice, the test faces a more ambiguous spectrum — mild/atypical cases and patients with other conditions that cause false positives. STARD guidelines recommend validation in consecutive clinical populations, not case-control samples. Also relevant: verification bias (only a subset receive the gold standard), incorporation bias (the gold standard includes the index test), and review bias (blinding of raters to test result).",
+    "domain": "critical_review",
+    "subdomain": "Diagnostic Tests — Spectrum Bias & Study Design",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "diagnostic test", "spectrum bias", "AUC", "validation"],
+    "source": "Bossuyt et al 2003 (STARD); Lijmer et al 1999 (JAMA)"
+  },
+  {
+    "stem": "In a systematic review, the authors use the GRADE approach to rate the quality of evidence for an intervention as 'low'. Which of the following best describes what this GRADE rating means?",
+    "options": [
+      "The RCTs included were all of low methodological quality",
+      "Further research is very unlikely to change our confidence in the estimate",
+      "Our confidence in the effect estimate is limited: the true effect may be substantially different from the estimate of the effect",
+      "The pooled effect size was below the minimal clinically important difference",
+      "The review methodology was of low quality"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "GRADE starts at 'high' for RCTs. It rates down for study limitations (risk of bias), inconsistency, indirectness, imprecision, and publication bias. 'Low' could result from rating down on any of these, not just study quality.",
+      "This describes 'high quality' evidence in GRADE terminology. For high quality: 'Further research is very unlikely to change our confidence in the estimate.'",
+      "Correct. GRADE defines quality of evidence as 'our confidence in the estimate of the effect'. Low quality = 'Our confidence in the effect estimate is limited: the true effect may be substantially different from the estimate of the effect.' Very low quality = 'We have very little confidence in the effect estimate: the true effect is likely to be substantially different from the estimate.' GRADE has four levels: High, Moderate, Low, Very Low. RCTs start at High and can be rated down; observational studies start at Low and can be rated up (large effect, dose-response, all plausible confounding would reduce the effect).",
+      "The GRADE rating is about confidence in the estimate, not the magnitude of the effect. A large and clinically important effect could still have low quality of evidence.",
+      "GRADE rates the quality of evidence for the body of evidence on a specific outcome, not the review methodology itself."
+    ],
+    "teaching_point": "GRADE is the most widely used system for rating quality of evidence and grading strength of recommendations. Four levels: High (further research unlikely to change confidence), Moderate (further research may change confidence), Low (further research likely to change confidence), Very Low (uncertain estimate). RCTs start at High; Observational studies start at Low. Factors that reduce quality: study limitations, inconsistency (I²), indirectness (PICO differences), imprecision (wide CI), publication bias. Factors that increase quality (for observational): large effect (RR > 2 or < 0.5), dose-response gradient, all plausible confounding would reduce the effect. In MRCPsych, GRADE questions test your understanding that quality of evidence ≠ quality of individual studies.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — GRADE Quality of Evidence",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "GRADE", "quality of evidence", "systematic review", "guidelines"],
+    "source": "Guyatt et al 2008 (BMJ); GRADE Working Group"
+  },
+  {
+    "stem": "A correlation study reports r = 0.52 (p < 0.001) between daily smartphone use (hours) and depression severity (PHQ-9 score). Which of the following is the most accurate interpretation?",
+    "options": [
+      "Smartphone use causes depression — 52% of depression is attributable to phone use",
+      "There is a strong positive linear relationship, with r² = 0.27 — 27% of the variance in depression scores is shared with smartphone use",
+      "The correlation is not clinically meaningful because r < 0.70",
+      "Reducing smartphone use by 1 hour per day reduces PHQ-9 by 0.52 points",
+      "The relationship is probably non-linear because p < 0.001"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Correlation does not imply causation. The relationship could be: phone use → depression, depression → phone use (reverse causation), or a third variable (e.g., social isolation, poor sleep) causes both.",
+      "Correct. r = 0.52 is a moderate-to-strong positive correlation (Cohen: 0.1 = small, 0.3 = medium, 0.5 = large). The coefficient of determination r² = 0.52² = 0.27 means 27% of the variance in depression scores can be predicted from phone use (shared variance). This is a common MRCPsych question: interpret r while recognising it cannot imply causation. Pearson's r assumes linearity and homoscedasticity. Spearman's rho would be used if the relationship is monotonic but not linear.",
+      "r = 0.52 is a large effect size by Cohen's conventions. Clinical meaningfulness depends on context, not an arbitrary r > 0.70 threshold.",
+      "The regression coefficient (slope) would indicate the change in PHQ-9 per hour of phone use, which requires a linear regression analysis. The correlation coefficient alone does not provide this. The slope β = r × (SD_y / SD_x).",
+      "The p-value tests whether r is different from zero (null hypothesis). A significant p-value does not indicate non-linearity. Non-linearity is assessed by inspecting scatterplots or testing for curvilinear components."
+    ],
+    "teaching_point": "Pearson's r ranges from -1 to +1. r² = coefficient of determination = proportion of shared variance. Important caveats: (1) Correlation ≠ causation (confounding, reverse causation). (2) r is sensitive to outliers. (3) r measures linear relationships only — a non-linear relationship can have r close to 0 despite a strong association. (4) Spearman's rho is the rank-order (non-parametric) alternative. (5) p-value tests H₀: ρ = 0 (population correlation). A significant p-value with small r means a precise estimate of a weak correlation.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Correlation & r²",
+    "difficulty": "easy",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "correlation", "r-squared", "Pearson", "statistics"],
+    "source": "Altman 1991; Cohen 1988"
+  },
+  {
+    "stem": "A pilot RCT of a new intervention for treatment-resistant depression randomises 30 participants (15 per arm). The primary outcome shows a non-significant trend favouring the intervention (standardised mean difference = 0.45, p = 0.18). The authors conclude the intervention is promising and warrants a full trial. Which of the following is the most appropriate critical appraisal?",
+    "options": [
+      "The conclusion is reasonable — pilot studies are not designed to test efficacy, and the effect size estimate can inform the sample size calculation for a definitive trial",
+      "The conclusion is invalid because p > 0.05 means the intervention does not work",
+      "The pilot was underpowered — a full trial needs at least 200 participants",
+      "The effect size of 0.45 is too small to be clinically meaningful",
+      "The conclusion should be based on per-protocol analysis, not ITT"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Pilot/feasibility trials serve a different purpose from definitive trials. Their primary aims are: (1) estimating recruitment rates, (2) testing trial procedures, (3) providing a sample size estimate for a definitive trial (the observed effect size and its CI inform power calculations), and (4) assessing acceptability and feasibility. They are NOT designed or powered to test efficacy. The key point from MRCPsych: a pilot trial should NOT be judged by whether p < 0.05. Its value lies in estimating the likely effect size and its variability to plan a definitive trial. The CONSORT extension for pilot/feasibility trials emphasises that CIs, not p-values, should be the focus.",
+      "Pilot trials are not designed to test efficacy. A non-significant result in a pilot does not mean the intervention doesn't work — it means the study was underpowered to detect an effect, which is expected in a pilot.",
+      "The required sample size depends on the minimal clinically important difference (MCID) and the observed effect size and variability. An arbitrary '200 participants' is meaningless without these parameters.",
+      "Cohen's d = 0.45 is a small-to-medium effect and could be clinically meaningful for treatment-resistant depression (where even moderate effects are valuable). The MCID for TRD outcomes is an important consideration.",
+      "Pilot trials should generally use ITT for consistency with the planned definitive trial, though the primary analysis is usually descriptive (CIs around effect estimates) rather than hypothesis-testing."
+    ],
+    "teaching_point": "Pilot/feasibility trials: key concepts for MRCPsych: (1) Not designed to test efficacy — reporting p-values is misleading; focus on CIs and feasibility outcomes. (2) Sample size is not calculated for hypothesis testing; a minimum of 12 per arm for feasibility outcomes. (3) Should report: recruitment rates, retention, acceptability, variance estimates, and the CI around the effect estimate to inform the definitive trial power calculation. (4) CONSORT extension for pilot trials (Eldridge et al 2016). Common exam feature: recognising that a pilot's non-significant p-value should not be interpreted as evidence of no effect.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Pilot/Feasibility Trials",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "pilot trial", "feasibility", "sample size", "CONSORT"],
+    "source": "Eldridge et al 2016 (BMJ); Lancaster et al 2004 (BMJ)"
+  },
+  {
+    "stem": "A study reports a 10-year follow-up of a cohort of patients with first-episode psychosis. At 10 years, 45% are in symptomatic remission according to defined criteria. Which of the following is the most important additional information needed to properly interpret this outcome?",
+    "options": [
+      "Whether remission was assessed by the treating clinician or a blinded researcher",
+      "The percentage follow-up rate — what happened to the patients lost to follow-up",
+      "Whether patients received evidence-based treatment throughout the 10 years",
+      "The specific definition of remission used",
+      "Patients' IQ scores at baseline"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Blinding of outcome assessment is important but this is an observational cohort, not a trial. The more critical issue in long-term follow-up studies is attrition.",
+      "Correct. In long-term follow-up studies, loss to follow-up is the most significant source of bias. If patients lost to follow-up had worse outcomes (e.g., died, institutionalised, homeless), the 45% remission rate is an overestimate. This is 'attrition bias' in cohort studies. The key question: are the missing data 'missing at random' (MAR), 'missing completely at random' (MCAR), or 'missing not at random' (MNAR)? In psychosis cohorts, patients lost to follow-up typically have poorer outcomes (MNAR), meaning observed outcomes overestimate recovery rates. The best cohort studies maintain >80% follow-up and present sensitivity analyses comparing completers vs dropouts.",
+      "While interesting, this is a moderator/subgroup question, not the primary interpretative issue for the overall remission rate.",
+      "The definition of remission is important but somewhat irrelevant if the sample is highly selected by attrition.",
+      "IQ would be a predictor/confounder, but not the primary interpretative issue."
+    ],
+    "teaching_point": "Long-term follow-up studies in psychiatry (e.g., First Episode Psychosis cohorts) are particularly vulnerable to attrition bias. Those lost tend to have worse outcomes — the 'healthy survivor effect'. Key reporting standards: (1) flow diagram of follow-up, (2) comparison of completers vs dropouts on baseline characteristics, (3) sensitivity analyses (best-case/worst-case scenarios), (4) analysis of predictors of attrition. In MRCPsych exams, interpreting a long-term outcome always requires consideration of what happened to those lost. Classic example: Bleuler's 23-year follow-up of schizophrenia reported more favourable outcomes than cross-sectional studies suggested, but attrition among the most impaired patients may have biased results.",
+    "domain": "critical_review",
+    "subdomain": "Cohort Studies — Attrition in Long-Term Follow-up",
+    "difficulty": "medium",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "cohort", "attrition", "follow-up", "first episode psychosis"],
+    "source": "Fewtrell et al 2008 (BMJ); STROBE cohort reporting guidelines"
+  },
+  {
+    "stem": "EMI — Extended Matching Item: For each statistical test (1–5), select the most appropriate scenario (A–G).\n\nTests:\n1. Mann-Whitney U test\n2. Chi-squared test of association\n3. One-way ANOVA\n4. Spearman's rank correlation\n5. Paired t-test\n\nScenarios:\nA. Comparing HAM-D scores at baseline and 12 weeks in the same 30 patients receiving antidepressant treatment\nB. Comparing length of stay (days, highly skewed distribution) between two different inpatient units\nC. Testing whether gender (male/female) is associated with diagnosis of PTSD (yes/no)\nD. Examining the relationship between years of clinical experience (not normally distributed) and clinician-rated empathy scores (ordinal)\nE. Comparing mean PANSS scores across three treatment groups (drug A, drug B, placebo) with normally distributed data\nF. Comparing blood pressure between two independent groups\nG. Comparing IQ scores (normally distributed) between patients and controls",
+    "options": [
+      "1=B, 2=C, 3=E, 4=D, 5=A",
+      "1=A, 2=C, 3=E, 4=D, 5=B",
+      "1=B, 2=C, 3=G, 4=D, 5=A",
+      "1=B, 2=E, 3=C, 4=D, 5=A",
+      "1=B, 2=C, 3=A, 4=D, 5=E"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 1-B: Two independent groups, skewed continuous data → Mann-Whitney U (non-parametric independent t-test). 2-C: Two categorical variables (gender × PTSD) → Chi-squared test. 3-E: Three groups, continuous normal outcome → one-way ANOVA. 4-D: Two continuous/ordinal variables, non-parametric → Spearman's rank correlation. 5-A: Paired data (same subjects pre-post) → paired t-test.",
+      "1-A (Mann-Whitney) is wrong for paired pre-post data — that requires a paired test (paired t or Wilcoxon signed-rank).",
+      "3-G (ANOVA for 2 groups) is technically possible but overkill — an independent t-test would be more appropriate for two groups. The pairing is 1-B (Mann-Whitney for skewed data), not one-way ANOVA.",
+      "2-E (Chi-squared) for mean PANSS comparison is wrong — Chi-squared is for categorical, not continuous data.",
+      "3-A and 5-E are swapped — one-way ANOVA is for 3+ independent groups, not paired data."
+    ],
+    "teaching_point": "Statistical test selection depends on: (1) Number of groups (2 vs 3+); (2) Whether groups are independent or paired; (3) Data type (continuous normal, continuous skewed, ordinal, categorical); (4) Research question (difference, association, relationship). Framework: Normal distribution → parametric (t-test, ANOVA, Pearson); Non-normal/ordinal → non-parametric (Mann-Whitney, Kruskal-Wallis, Wilcoxon signed-rank, Spearman); Categorical → Chi-squared, Fisher's exact; Paired data → paired t-test or Wilcoxon signed-rank. In MRCPsych, test selection EMIs are common and test this decision algorithm.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Test Selection EMI",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "EMI", "statistical test", "Mann-Whitney", "ANOVA", "Chi-squared", "Spearman"],
+    "source": "Petrie & Sabin 2009; Kirkwood & Sterne 2003"
+  },
+  {
+    "stem": "A study on the relationship between childhood trauma and adult depression uses a retrospective cohort design. Which of the following is the most important source of potential bias?",
+    "options": [
+      "Confounding by age",
+      "Selection bias from non-response (healthy volunteer effect)",
+      "Recall bias — adults with depression may differentially recall childhood trauma compared to non-depressed adults",
+      "Lead time bias",
+      "Immortal time bias"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Age confounding can be adjusted for statistically. It is not the most important bias in this design.",
+      "Selection bias is a concern in any survey/cohort study but is not specific to the retrospective assessment of childhood trauma.",
+      "Correct. In retrospective studies of childhood trauma and adult depression, recall bias is the most significant threat to validity. This is a form of 'information bias'. Depressed individuals may selectively recall and report more negative childhood experiences (negative cognitive bias) compared to non-depressed individuals with the same objective history. This creates a spurious association between reported trauma and depression. State-dependent memory: current depressive state affects recall of negative events. Prospective studies (e.g., tracking children with documented maltreatment into adulthood) avoid this bias. Some studies use record linkage (social services, hospital records) to avoid recall bias.",
+      "Lead time bias is relevant to screening studies, not this design.",
+      "Immortal time bias is relevant to cohort studies where there is a time period during which the outcome cannot occur (or participants cannot die). This is not the primary concern here."
+    ],
+    "teaching_point": "Recall bias in retrospective studies: participants with the outcome (depression) recall exposures differently. This is a form of differential misclassification (the error differs between groups). Direction of bias can be in either direction but typically overestimates the association when exposure recall is influenced by current depression. Mitigation strategies: (1) Use prospective designs with documented records, (2) Blind interviewers to case/control status, (3) Use validated instruments that anchor recall with specific life events, (4) Use informant reports or objective records (e.g., childhood social services involvement). In MRCPsych, childhood trauma-depression studies are frequently used to test understanding of recall bias.",
+    "domain": "critical_review",
+    "subdomain": "Bias — Recall Bias in Retrospective Studies",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "recall bias", "retrospective", "childhood trauma", "depression"],
+    "source": "Rothman 2012; Coughlin 1990 (Ann Epidemiol)"
+  },
+  {
+    "stem": "A study reports that a new biomarker for Alzheimer's disease has an LR+ = 12 and LR- = 0.05. The pre-test probability based on age and family history is 30%. Using Fagan's nomogram, what is the approximate post-test probability if the test is positive?",
+    "options": [
+      "84%",
+      "30%",
+      "12%",
+      "95%",
+      "72%"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Using Bayes' theorem: Pre-test odds = prevalence / (1 - prevalence) = 0.30 / 0.70 = 0.429. Post-test odds = pre-test odds × LR+ = 0.429 × 12 = 5.148. Post-test probability = odds / (1 + odds) = 5.148 / 6.148 = 0.837 ≈ 84%. With LR+ > 10 (conclusive), a positive test provides strong evidence. A negative test: post-test odds = 0.429 × 0.05 = 0.02145, post-test probability = 0.02145/1.02145 ≈ 2.1% — essentially ruling out the disease.",
+      "30% is the pre-test probability, unchanged — no diagnostic information from the test.",
+      "This is the LR+ value itself, not the post-test probability.",
+      "If the test were perfectly diagnostic (LR+ = ∞), probability would approach 100%. LR+ = 12 is very good but not perfect.",
+      "This would be the post-test probability if LR+ were approximately 6 (pre-test odds × 6 = 2.574, prob ≈ 72%). LR+ = 12 moves probability from 30% to ~84%."
+    ],
+    "teaching_point": "Fagan's nomogram: a graphical tool connecting pre-test probability to post-test probability via the likelihood ratio. The formula: post-test odds = pre-test odds × LR; post-test probability = odds/(1+odds). Pre-test probability = prevalence (or clinical estimate). LR+ > 10 → conclusive shift from pre-test to post-test probability. LR- < 0.1 → conclusive shift. In this case, with LR+ = 12 and LR- = 0.05, the biomarker has excellent diagnostic properties. BUT caution: validation studies often overestimate LR due to spectrum bias; real-world performance may be more modest.",
+    "domain": "critical_review",
+    "subdomain": "Diagnostic Tests — Fagan's Nomogram & Bayes",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["critical review", "Bayes theorem", "Fagan's nomogram", "post-test probability", "diagnostic test"],
+    "source": "Fagan 1975 (NEJM); Jaeschke et al 1994 (JAMA)"
+  },
+  {
+    "stem": "In a stepped-wedge cluster randomised trial of a mental health intervention, which of the following best describes the design?",
+    "options": [
+      "All clusters receive the intervention simultaneously after a baseline period",
+      "Clusters are randomly allocated to receive the intervention at different time points in a random order, with all clusters eventually receiving the intervention",
+      "Each cluster is randomised to intervention or control, and the design is replicated across multiple time points",
+      "Clusters are randomised to sequences, with half receiving intervention and half receiving control",
+      "The intervention is delivered in stages based on clinical need"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Describing a before-after study, not a stepped-wedge design.",
+      "Correct. In a stepped-wedge cluster RCT, all clusters start in the control condition. At regular intervals (steps), one or more clusters cross over to the intervention condition. By the end of the study, all clusters have received the intervention. The order in which clusters cross over is randomised. Each cluster serves as its own control (within-cluster comparison) and comparisons can also be made between clusters at the same time point. Advantages: (1) all clusters eventually get the intervention (ethical advantage), (2) baseline data for all clusters. Disadvantages: (1) time effects can be confounded with intervention effects, (2) complex analysis requiring adjustment for time trends, (3) very large sample sizes needed. Used when there is evidence that the intervention is beneficial but implementation is resource-constrained and cannot be delivered to all sites simultaneously.",
+      "This describes a conventional cluster RCT (parallel groups), not a stepped-wedge.",
+      "Stepped-wedge has ALL clusters receiving intervention eventually — not half control.",
+      "This describes a clinical staged model or stepped-care, not a stepped-wedge trial design."
+    ],
+    "teaching_point": "Stepped-wedge cluster RCT: unique design where all clusters eventually receive the intervention, with randomised staggered rollout. Analysis must account for both time effects (secular trends) and clustering. Uses a mixed-effects model with fixed effects for time and intervention, and random effects for cluster. Power is generally lower than a parallel cluster RCT but higher than a before-after study. Ethical advantage: no cluster is denied the intervention. Common in implementation science, health services research, and health policy evaluation. In MRCPsych, this is a more advanced study design question — know the structure, rationale, and analytic challenges.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Stepped-Wedge Cluster RCT",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "stepped-wedge", "cluster RCT", "study design", "implementation"],
+    "source": "Mdege et al 2011 (BMC); Brown & Lilford 2006 (J Clin Epidemiol)"
+  },
+  {
+    "stem": "A study on the association between antidepressant use during pregnancy and autism in offspring uses a cohort design with propensity score matching. Which of the following best describes the advantage of propensity score methods over conventional multivariable regression?",
+    "options": [
+      "Propensity scores can adjust for unmeasured confounders",
+      "Propensity scores balance measured confounders between exposed and unexposed groups and allow assessment of overlap (common support)",
+      "Propensity scores eliminate the need for a comparison group",
+      "Propensity scores are only available for matched case-control studies",
+      "Propensity scores increase the sample size"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Propensity scores can only adjust for measured confounders (those included in the propensity score model). Unmeasured confounders remain a limitation. This is a common misconception.",
+      "Correct. Propensity score methods (matching, stratification, weighting) aim to create a 'quasi-randomised' comparison by balancing observed covariates between groups. Advantages over regression: (1) Explicit assessment of overlap between groups (common support); if there is insufficient overlap, treatment effects cannot be estimated reliably. (2) Does not assume linear relationship between covariates and outcome. (3) Diagnostics are more straightforward (checking balance using standardised differences). (4) More transparent identification of regions without equipoise (where treatment decisions are deterministic). Key limitation: only measured confounders can be balanced.",
+      "Propensity scores require a comparison group — without controls, there is no basis for estimating the counterfactual.",
+      "Propensity scores were developed for cohort studies but are also used in case-control and cross-sectional designs.",
+      "Propensity score matching typically REDUCES the sample size because unmatched participants are discarded. In sensitivity analyses, this can be problematic if many participants are excluded."
+    ],
+    "teaching_point": "Propensity score (Rosenbaum & Rubin 1983): the probability of receiving treatment given observed covariates, usually estimated via logistic regression. Methods: (1) Matching (1:1 or variable ratio; caliper matching), (2) Stratification (subclassification), (3) Inverse probability of treatment weighting (IPTW), (4) Covariate adjustment using the propensity score. The key advantage is the ability to assess covariate balance and common support. Standardised mean differences (SMD < 0.1 after matching) are the diagnostic. In psychiatry, propensity scores are increasingly used for pharmacoepidemiology (antidepressants in pregnancy, antipsychotics in dementia) where randomisation is unethical. MRCPsych questions: do not claim propensity scores adjust for unmeasured confounding — they do not.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Propensity Score Methods",
+    "difficulty": "hard",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "propensity score", "confounding", "observational study", "pharmacoepidemiology"],
+    "source": "Rosenbaum & Rubin 1983 (Biometrika); Austin 2011 (Stat Med)"
+  },
+  {
+    "stem": "A systematic review on mindfulness-based stress reduction (MBSR) for anxiety includes 12 RCTs. The authors report the following: SMD = -0.38 (95% CI -0.55 to -0.21, p < 0.001), I² = 58%, Egger's test p = 0.003, with a clinically meaningful difference defined as SMD ≥ 0.30. Which of the following is the most appropriate overall conclusion?",
+    "options": [
+      "MBSR is an effective treatment for anxiety with strong evidence",
+      "MBSR shows a statistically significant but potentially biased effect, with evidence of small-study effects or publication bias. The pooled effect (SMD -0.38) meets the threshold for clinical significance, but confidence is reduced by heterogeneity and publication bias.",
+      "MBSR is no better than placebo because I² = 58% indicates substantial heterogeneity",
+      "The result is not clinically significant because SMD = -0.38 is below Cohen's medium benchmark (0.50)",
+      "The evidence is inconclusive because of the significant Egger's test"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "This overstates the evidence — it ignores the significant publication bias indicator (Egger's test p = 0.003) and substantial heterogeneity (I² = 58%). GRADE would likely rate this down.",
+      "Correct. The pooled effect is statistically significant (95% CI excludes zero) and clinically meaningful (SMD -0.38 exceeds the MCID of -0.30). However: (1) I² = 58% indicates substantial heterogeneity — the true effect varies across studies. (2) Egger's test p = 0.003 signals funnel plot asymmetry (likely publication bias or small-study effects). These factors reduce confidence in the estimate, similar to GRADE rating down for 'inconsistency' and 'publication bias'. The appropriate conclusion: MBSR appears beneficial but with caveats. The GRADE certainty would be moderate or low depending on the full risk of bias assessment.",
+      "I² = 58% is substantial heterogeneity but does not invalidate the meta-analysis — it should be explored through subgroup analysis or meta-regression. The result is still interpretable.",
+      "The MCID (SMD ≥ 0.30) is a threshold determined by clinical consensus/patient-important outcomes, not Cohen's arbitrary benchmarks. If the MCID is 0.30 and the CI lower bound is -0.55, the effect is clinically important across the plausible range.",
+      "Egger's test being significant indicates likely bias, but the evidence is not 'inconconclusive' — it suggests the effect estimate may be inflated. The full picture includes both the beneficial effect and the caveats."
+    ],
+    "teaching_point": "Interpreting a meta-analysis requires integrating: statistical significance, clinical significance (MCID), heterogeneity (I²), and risk of publication bias (Egger's test). GRADE framework helps: start at 'high', rate down for each concern. In this case: -1 for inconsistency (I² > 50%), -1 for publication bias (Egger's p = 0.003) → 'low' quality evidence. The effect exists but our confidence in its magnitude is limited. In MRCPsych exams, a well-rounded critical appraisal integrates all these dimensions rather than focusing on p-values alone.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — Meta-Analysis Interpretation",
+    "difficulty": "hard",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "meta-analysis", "GRADE", "publication bias", "heterogeneity", "MBSR"],
+    "source": "Guyatt et al 2008 (GRADE); Sterne et al 2011 (BMJ)"
+  },
+  {
+    "stem": "A study tests 20 different biomarkers for their association with response to ECT. One biomarker shows a significant association (p = 0.02). Which of the following is the most appropriate statistical concern?",
+    "options": [
+      "The p-value is too small to be biologically meaningful",
+      "Multiple testing — with 20 comparisons, the expected number of false positives at α = 0.05 is 1. The p-value of 0.02 may be a Type I error.",
+      "The sample size must be too small if only one of 20 biomarkers is significant",
+      "A Bonferroni correction would require p < 0.0025 (0.05/20), making this result non-significant",
+      "Both B and D are correct"
+    ],
+    "correct_index": 4,
+    "distractors_rationale": [
+      "The p-value magnitude (0.02) is not about biological meaningfulness — it's about statistical significance.",
+      "A is correct but incomplete — doesn't mention the correction threshold.",
+      "The number of significant findings depends on the true effect size, sample size, and assay quality, not an arbitrary expectation.",
+      "B is also correct: Bonferroni-corrected α = 0.05/20 = 0.0025. The observed p = 0.02 > 0.0025, so the result is not significant after correction.",
+      "Correct. Both A and D are accurate. With 20 independent tests, the Bonferroni-adjusted threshold is 0.0025. The single significant finding at p = 0.02 does not survive correction and is plausibly a Type I error (we would expect 1 false positive by chance at α = 0.05 when testing 20 null true hypotheses). However, Bonferroni is conservative — it assumes independence between tests and reduces power. Alternative corrections: Holm-Bonferroni (less conservative), Benjamini-Hochberg (FDR control), permutation-based methods."
+    ],
+    "teaching_point": "Multiple comparison problem: testing multiple hypotheses inflates the family-wise error rate (FWER = 1 - (1-α)^k). For 20 independent tests, FWER = 1 - 0.95^20 = 0.64 — a 64% chance of at least one false positive. Corrections: Bonferroni (most conservative, controls FWER), Holm-Bonferroni (sequential, slightly more powerful), Benjamini-Hochberg (controls false discovery rate, appropriate for exploratory biomarker studies). In psychiatry, this is common in: (1) genetic association studies (millions of SNPs), (2) neuroimaging (voxel-wise analysis), (3) biomarker panels, (4) subgroup analyses in RCTs. MRCPsych expects understanding that without correction, 'significant' results in high-dimensional testing are likely false positives.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Multiple Testing & Bonferroni Correction",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "multiple testing", "Bonferroni", "Type I error", "biomarker"],
+    "source": "Rothman 1990 (Epidemiology); Perneger 1998 (BMJ)"
+  },
+  {
+    "stem": "EMI — Extended Matching Item: For each scenario (1–5), identify the most appropriate approach to handle missing data.\n\nOptions:\nA. Complete case analysis\nB. Last observation carried forward (LOCF)\nC. Multiple imputation (MI)\nD. Mixed models for repeated measures (MMRM)\nE. Sensitivity analysis using pattern-mixture models\nF. Available case analysis (using all observed data pairwise)\nG. Impute with the mean of the group\n\nScenarios:\n1. A 6-week acute depression trial with 40% dropout, where dropouts are likely to have different trajectories from completers. The assumption 'missing at random' (MAR) is plausible.\n2. A trial where only 3% of participants have missing data on a single covariate (age), with no evidence of systematic missingness\n3. A 12-week trial of an antipsychotic where the primary regulator (FDA) requires an analysis that is valid under MAR but does not require explicit imputation\n4. A long-term follow-up study where the assumption that missing data depends on unobserved outcomes (missing not at random, MNAR) is plausible\n5. A trial where participants who drop out due to lack of efficacy are imputed as having no improvement from their last observed score, following a specific protocol from the study sponsor",
+    "options": [
+      "1=C, 2=A, 3=D, 4=E, 5=B",
+      "1=D, 2=A, 3=C, 4=E, 5=B",
+      "1=C, 2=A, 3=D, 4=B, 5=E",
+      "1=C, 2=B, 3=D, 4=E, 5=A",
+      "1=E, 2=A, 3=D, 4=C, 5=B"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 1-C: MAR assumption with high dropout → Multiple imputation (MI). MI creates m imputed datasets, analyses each, and pools results using Rubin's rules. 2-A: Only 3% missing on a single covariate with no systematic pattern → complete case analysis is acceptable (minimal bias, maximum simplicity). 3-D: MMRM is widely accepted by regulators for longitudinal trials — uses all available data without explicit imputation, assuming MAR. 4-E: MNAR assumption requires pattern-mixture models or selection models as sensitivity analyses — these model the missing data mechanism explicitly. 5-B: LOCF is the traditional 'sponsor's approach' for non-inferiority trials or where a conservative assumption is needed (assuming dropouts remain stable). Though increasingly criticised, it remains specified in some older trial protocols.",
+      "Swapped MI and MMRM: MMRM is valid under MAR but MI makes the MAR assumption explicit.",
+      "Pattern-mixture (E) for scenario 4 is correct, but LOCF (B) for scenario 4 is wrong — LOCF assumes MCAR, which is implausible for long-term follow-up.",
+      "LOCF (B) for scenario 2 is overkill for 3% missing data and introduces assumptions. Complete case is simpler and appropriate.",
+      "Pattern-mixture (E) for scenario 1 is too aggressive — start with MAR-based methods (MI or MMRM) and use MNAR methods as sensitivity analyses."
+    ],
+    "teaching_point": "Missing data taxonomy (Rubin 1976): MCAR (missing completely at random — no systematic difference), MAR (missing at random — missing depends on observed data), MNAR (missing not at random — missing depends on unobserved data). Handling: (1) Complete case analysis — valid only under MCAR (rarely plausible). (2) LOCF — strongly criticised, assumes MCAR and constant outcome. (3) MI — valid under MAR, requires imputation model including outcome predictors. (4) MMRM — valid under MAR, uses all available data, no imputation. (5) Pattern-mixture/selection models — for MNAR sensitivity analyses. EMA and FDA now expect MMRM as primary analysis and MI or MNAR methods for sensitivity analyses.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Missing Data Methods EMI",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": ["critical review", "EMI", "missing data", "MAR", "MNAR", "MMRM", "multiple imputation"],
+    "source": "Rubin 1976; White et al 2011 (BMJ); Mallinckrodt et al 2003"
+  },
+  {
+    "stem": "A study reports that the number needed to treat (NNT) for a new Alzheimer's medication for cognitive improvement is 8 (95% CI 5 to 25). Which of the following is the correct interpretation?",
+    "options": [
+      "8 patients out of 100 will show cognitive improvement",
+      "You need to treat 8 patients for one additional patient to benefit compared to placebo; the CI indicates we can be 95% confident the true NNT is between 5 and 25",
+      "The medication is effective because NNT < 10 is always clinically useful",
+      "25% of patients show improvement (from the NNT upper bound)",
+      "NNT = 8 means that 8 patients must be treated before any benefit is seen — the onset of effect is at 8 weeks"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "NNT is the number of patients needed to treat to get ONE additional benefit — not the number out of 100 who benefit.",
+      "Correct. NNT = 1 / ARR (absolute risk reduction). Here, ARR = 1/8 = 12.5% — meaning the drug reduces the risk of no cognitive improvement by 12.5 percentage points. For every 8 patients treated, one more achieves cognitive improvement than would have with placebo. The 95% CI (5 to 25) means the true NNT could be as low as 5 (ARR = 20%) or as high as 25 (ARR = 4%). NNT should always be interpreted alongside: (1) the baseline risk, (2) the time frame, (3) the outcome definition (what counts as 'cognitive improvement'), and (4) potential harms (NNH).",
+      "NNT = 8 is generally considered good (NNT ≤ 10 is often considered 'useful'), but this is not absolute. Context matters: NNT = 8 for a well-tolerated drug with no serious side effects differs from NNT = 8 for a drug with severe adverse effects (where NNH might be 10).",
+      "The NNT upper bound (25) corresponds to ARR = 4% (1/25), not improvement in 25% of patients.",
+      "NNT is a number of patients, not a time unit. The time frame for the NNT should be reported (e.g., NNT at 6 months) but is not inherent in the value itself."
+    ],
+    "teaching_point": "Number Needed to Treat (NNT) = 1 / ARR. NNT = 8 means treat 8 patients for 1 to benefit. NNH (Number Needed to Harm) = 1 / attributable risk for side effects. Key MRCPsych concepts: (1) NNT is time-dependent — always report the time window. (2) NNT cannot be calculated for continuous outcomes without dichotomising. (3) NNT from meta-analyses can be misleading if baseline risk varies. (4) The 'bandolier' approach: NNT < 5 = very effective, 5-10 = moderately effective, 10-25 = somewhat effective, >25 = less effective — but this must be weighed against NNH. (5) NNT for psychotherapies and medications can differ substantially for the same condition.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — Number Needed to Treat (NNT)",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "NNT", "number needed to treat", "ARR", "Alzheimer's"],
+    "source": "Altman 1998 (BMJ); Cook & Sackett 1995 (BMJ)"
+  },
+  {
+    "stem": "A study uses a 'minimisation' algorithm for randomisation. Which of the following best describes this method?",
+    "options": [
+      "Participants are allocated to minimise the sample size needed for the trial",
+      "A deterministic allocation method that minimises the number of participants receiving placebo for ethical reasons",
+      "A dynamic allocation method that balances prognostic factors across treatment groups by adjusting the probability of assignment for each new participant based on the current distribution of factors",
+      "A method to minimise the cost of the trial",
+      "A post-hoc matching method to adjust for baseline imbalances"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Minimisation does not minimise sample size — it balances prognostic factors.",
+      "Minimisation is not primarily about minimising placebo allocation; it's about balancing covariates.",
+      "Correct. Minimisation (also called 'balanced covariate adaptive randomisation') is a dynamic allocation method. For each new participant, the allocation probability is adjusted based on the current distribution of key prognostic factors (e.g., age, gender, baseline severity) across treatment groups. If the groups are already balanced, allocation is truly random (50:50). If imbalanced, the allocation is skewed toward the group that would improve balance (e.g., 70:30). It ensures excellent balance on small numbers of participants where simple randomisation might produce chance imbalance. Advantages: better covariate balance than simple randomisation, especially in small trials. Disadvantage: increased predictability (selection bias if allocation sequence is known). STRICTA guidelines recommend stratification or minimisation for small acupuncture/psychological therapy RCTs.",
+      "Sample size/cost minimisation is not the purpose.",
+      "Minimisation is part of the ALLOCATION process, not a post-hoc adjustment. Post-hoc adjustments are done through regression or propensity scores."
+    ],
+    "teaching_point": "Minimisation is an alternative to simple/stratified randomisation for ensuring balance on key prognostic factors in smaller trials. It is not strictly 'random' but uses a random component (e.g., a 20% random element in allocation) to reduce predictability. CONSORT 2010 requires reporting whether minimisation (or stratification) was used and which factors were balanced. In MRCPsych: minimisation is commonly used in psychotherapy trials and small feasibility studies where simple randomisation might yield imbalanced groups. Key limitation: the allocation algorithm must be concealed from recruiting clinicians to prevent selection bias. Allocation concealment is still required.",
+    "domain": "critical_review",
+    "subdomain": "RCT Designs — Minimisation (Dynamic Allocation)",
+    "difficulty": "medium",
+    "bloom_taxonomy": "comprehension",
+    "paper": "B",
+    "tags": ["critical review", "minimisation", "randomisation", "allocation", "RCT"],
+    "source": "Altman & Bland 2005 (BMJ); Treasure & MacRae 1998 (BMJ)"
+  },
+  {
+    "stem": "A diagnostic meta-analysis of the Montreal Cognitive Assessment (MoCA) for dementia screening reports a pooled sensitivity of 0.85 (95% CI 0.78 to 0.90) and specificity of 0.82 (95% CI 0.75 to 0.88). The positive LR is approximately:",
+    "options": [
+      "1.04",
+      "4.7",
+      "7.8",
+      "0.18",
+      "5.2"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "1.04 would result from sensitivity ≈ specificity (non-informative test).",
+      "Correct. LR+ = sensitivity / (1 - specificity) = 0.85 / (1 - 0.82) = 0.85 / 0.18 = 4.72 ≈ 4.7. This means a positive MoCA test (below threshold) is 4.7 times more likely in a patient with dementia than without. According to Jaeschke et al, LR+ = 4.7 generates a 'small to moderate' shift from pre-test to post-test probability. The MoCA has moderate diagnostic accuracy — good sensitivity but limited by false positives at standard cut-offs.",
+      "7.8 would require sensitivity/(1-specificity) = 0.85/0.11 (specificity 89%), not matching the data.",
+      "0.18 is (1-specificity) = 0.18, not the LR+.",
+      "5.2 would require 0.85/0.163 (specificity 83.7%) — close but not matching the reported specificity of 82%."
+    ],
+    "teaching_point": "Diagnostic test meta-analysis: Uses bivariate random-effects models (Reitsma) or hierarchical SROC models (Rutter & Gatsonis) to account for the correlation between sensitivity and specificity across studies. The summary ROC (SROC) curve plots sensitivity vs 1-specificity. QUADAS-2 is used for quality assessment. Key metrics: pooled sensitivity, pooled specificity, LR+, LR-, diagnostic odds ratio (DOR = LR+/LR-). The MoCA: sensitivity 0.85 (good at detecting dementia), specificity 0.82 (acceptable false positive rate ~18%). LR+ = 4.7 is moderate; LR- = (1-0.85)/0.82 = 0.18 is reasonably low (a negative test moderately reduces dementia probability).",
+    "domain": "critical_review",
+    "subdomain": "Diagnostic Tests — Diagnostic Meta-Analysis & LR+",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": ["critical review", "diagnostic meta-analysis", "MoCA", "LR+", "sensitivity", "specificity"],
+    "source": "Reitsma et al 2005 (J Clin Epidemiol); QUADAS-2 (Whiting et al 2011)"
+  },
+  {
+    "stem": "A study on the effectiveness of CBT for insomnia (CBT-I) in 50 patients reports pre-treatment mean ISI score = 19.2 (SD = 4.1) and post-treatment mean ISI = 10.4 (SD = 4.8), with a paired t-test giving t = 8.2, df = 49, p < 0.001. Which of the following is the most important limitation in interpreting this as evidence of treatment effectiveness?",
+    "options": [
+      "The t-value is too high to be plausible",
+      "The study lacks a control group — the observed improvement could be due to spontaneous remission, regression to the mean, or placebo effects",
+      "ISI score reduction of 8.8 points is not clinically meaningful",
+      "The standard deviations are too large relative to the mean change",
+      "A paired t-test is the wrong analysis for pre-post data"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "t = 8.2 is plausible with 50 participants and a large pre-post effect (Cohen's d ≈ 2.0). The effect is very large within-group. This is not a statistical anomaly.",
+      "Correct. The most fundamental limitation is the lack of a control group. In an uncontrolled pre-post study, we cannot attribute the improvement to the intervention. Alternative explanations: (1) Spontaneous remission — insomnia can improve naturally over time. (2) Regression to the mean — patients seek treatment when symptoms are worst; natural fluctuation moves them toward the mean. (3) Placebo effect — expectation of improvement. (4) Non-specific treatment effects (therapeutic alliance, attention). A within-group pre-post effect is almost always larger than the between-group effect relative to a control group. This is the key critical appraisal point for uncontrolled studies.",
+      "An 8.8-point reduction on the ISI (7-item, 0-28) from 19.2 (moderate-severe) to 10.4 (subthreshold) is clinically significant. The MCID for ISI is approximately 6-7 points. This concern is not valid.",
+      "SDs of 4.1 and 4.8 are typical for ISI in clinical samples. The paired t-test accounts for the correlation between pre and post scores, making the paired SD smaller.",
+      "A paired t-test is the correct analysis for two time points of continuous normally distributed data from the same participants. No error here."
+    ],
+    "teaching_point": "Uncontrolled pre-post studies are among the weakest designs for establishing treatment effectiveness. In psychotherapy research, pre-post effect sizes are commonly d = 0.8-1.5+ (large), but between-group effects (treatment vs control) are typically d = 0.3-0.7. The ratio of uncontrolled to controlled effect sizes can be 2:1 or higher. This is why RCTs with appropriate control conditions are the gold standard for treatment evaluation. For CBT-I specifically, waitlist-controlled RCTs show d ≈ 0.8-1.0 (still good, but smaller than the uncontrolled effect). The MRCPsych exam frequently tests the distinction between within-group and between-group comparisons.",
+    "domain": "critical_review",
+    "subdomain": "RCT Methodology — Uncontrolled Studies & Control Groups",
+    "difficulty": "easy",
+    "bloom_taxonomy": "evaluation",
+    "paper": "B",
+    "tags": ["critical review", "uncontrolled study", "pre-post", "control group", "regression to mean"],
+    "source": "Bland & Altman 1994 (BMJ); Button et al 2015 (Nat Rev Neurosci)"
+  }
+]

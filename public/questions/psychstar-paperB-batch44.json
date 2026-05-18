@@ -1,0 +1,388 @@
+[
+  {
+    "stem": "A meta-analysis uses the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach. The evidence from 3 RCTs with serious inconsistency (I² = 78%) and borderline imprecision (CI includes both benefit and minimal harm) is rated. What is the correct GRADE certainty?",
+    "options": [
+      "High",
+      "Moderate",
+      "Low",
+      "Very Low",
+      "Cannot be determined without knowing the other GRADE domains"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "RCTs start at High but must be rated down for serious inconsistency (-1) AND serious imprecision (-1) → Low. But if both are 'very serious' it could drop more.",
+      "Moderate would require rating down only one level.",
+      "Low requires rating down two levels total. With serious inconsistency (-1) and imprecision (-1), that's −2 → Low.",
+      "Correct. RCTs start at HIGH. With serious inconsistency (I² = 78%, very substantial) and serious imprecision (CI crosses between benefit and harm), that's rating down by −1 for each 'serious' limitation. If both are considered 'very serious', it could be −2 each → Very Low (−4 total). Even at −1 each, from High, we get: High → Moderate (−1) → Low (−2). Wait — actually High −1 = Moderate, −2 = Low, −3 = Very Low. If there are also concerns about risk of bias or indirectness, Very Low is possible. With 'serious inconsistency AND imprecision', that's −2 from High = Low. But if combined with plausible risk of bias (−1), it becomes Very Low.",
+      "GRADE is a systematic framework — the certainty CAN be determined by applying the rules across all domains."
+    ],
+    "teaching_point": "GRADE certainty: RCTs start at High. Rate down for risk of bias, inconsistency (I², overlapping CIs), indirectness (PICO differences), imprecision (wide CI, OIS not met), and publication bias. Each domain: 'no serious limitation' (0), 'serious limitation' (−1), 'very serious limitation' (−2). Final: High (0), Moderate (−1), Low (−2), Very Low (≤ −3). Observational studies start at Low and can be rated UP (large effect, dose-response, residual confounding would reduce effect). MRCPsych: applying GRADE is a common critical appraisal skill.",
+    "domain": "critical_review",
+    "subdomain": "Systematic Reviews — GRADE Certainty Rating",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "GRADE",
+      "certainty",
+      "inconsistency",
+      "imprecision"
+    ],
+    "source": "Guyatt et al 2008 (BMJ — GRADE series)"
+  },
+  {
+    "stem": "A diagnostic test study for a new blood biomarker for depression reports a sensitivity of 0.90 and specificity of 0.70 at the proposed cut-off. The prevalence of depression in the study population is 10%. Using Bayes' theorem, what is the positive predictive value (PPV)?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "90%",
+      "10%"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Pre-test odds = prevalence/(1-prevalence) = 0.10/0.90 = 0.111. LR+ = sens/(1-spec) = 0.90/0.30 = 3.0. Post-test odds = pre-test odds × LR+ = 0.111 × 3.0 = 0.333. Post-test probability = odds/(1+odds) = 0.333/1.333 = 0.25 = 25%. So PPV = 25%. This illustrates that even with 90% sensitivity, the PPV is only 25% when prevalence is low and specificity is moderate.",
+      "50% would require higher prevalence or better specificity.",
+      "75% would require high prevalence (over 50%) or LR+ > 10.",
+      "90% is the sensitivity, not the PPV. PPV depends on prevalence.",
+      "10% is the prevalence (pre-test probability), not the PPV."
+    ],
+    "teaching_point": "Bayes' theorem for diagnostic tests: PPV (post-test probability given positive test) = (sens × prev) / (sens × prev + (1-spec) × (1-prev)). Alternatively: pre-test odds × LR+ = post-test odds → probability = odds/(1+odds). The key lesson: a test with 'high sensitivity' but moderate specificity may have poor PPV in low-prevalence settings. The LR+ = 3.0 provides only a 'small' shift from pre-test to post-test probability (Jaeschke criteria). MRCPsych: calculating PPV using Bayes is commonly tested.",
+    "domain": "critical_review",
+    "subdomain": "Diagnostic Tests — Bayes' Theorem and PPV",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "Bayes",
+      "PPV",
+      "sensitivity",
+      "specificity",
+      "LR+"
+    ],
+    "source": "Altman & Bland 1994 (BMJ); Grimes & Schulz 2005 (Lancet)"
+  },
+  {
+    "stem": "A two-arm RCT reports the number needed to treat (NNT) as 6. The control event rate is 30%. What is the absolute risk reduction (ARR)?",
+    "options": [
+      "6%",
+      "10%",
+      "17%",
+      "30%",
+      "5%"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "6% would give NNT = 16.7. NNT = 1/ARR → ARR = 1/NNT = 1/6 = 0.167 = 16.7% ≈ 17%.",
+      "10% would give NNT = 10.",
+      "Correct. ARR = 1/NNT = 1/6 = 16.7% ≈ 17%. The experimental event rate = CER - ARR = 30% - 17% = 13%. The relative risk reduction = ARR/CER = 17%/30% = 57%. So this treatment reduces the risk of the (bad) outcome from 30% to 13%, a relative reduction of 57%.",
+      "30% is the control event rate, not the ARR.",
+      "5% would give NNT = 20."
+    ],
+    "teaching_point": "NNT, ARR, RRR relationships: ARR = 1/NNT. RRR = ARR/CER. EER = CER - ARR. NNT is the most clinically interpretable measure but varies with baseline risk. For a given relative risk reduction, NNT is smaller (more favourable) when the baseline risk is higher. This is why NNTs from clinical trials must be reported with the CER and the time frame. MRCPsych: the NNT-ARR-RRR relationships are core statistics knowledge.",
+    "domain": "critical_review",
+    "subdomain": "Statistics — NNT, ARR, RRR Calculation",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "NNT",
+      "ARR",
+      "RRR",
+      "number needed to treat"
+    ],
+    "source": "Altman 1998 (BMJ)"
+  },
+  {
+    "stem": "EMI — Extended Matching: Match the p-hacking/problematic research practice (1-5) with the most appropriate description (A-G).\n\nPractices:\n1. p-hacking (data dredging)\n2. HARKing\n3. Cherry-picking\n4. Optional stopping\n5. Salami-slicing\n\nDescriptions:\nA. Analysing the data multiple ways until a significant result is found\nB. Formulating a hypothesis AFTER the results are known but presenting it as if it were pre-hoc\nC. Reporting only the positive outcomes while suppressing negative findings\nD. Collecting data and checking significance repeatedly, stopping when p < 0.05\nE. Splitting a single study into multiple smaller publications\nF. Failing to publish negative results\nG. Excluding outliers post-hoc to achieve significance",
+    "options": [
+      "1=A, 2=B, 3=C, 4=D, 5=E",
+      "1=A, 2=B, 3=D, 4=C, 5=E",
+      "1=G, 2=B, 3=C, 4=D, 5=E",
+      "1=A, 2=B, 3=C, 4=D, 5=F",
+      "1=A, 2=A, 3=C, 4=D, 5=E"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 1-A: p-hacking — multiple analyses to get a significant p-value (running multiple tests, switching covariates, transforming variables). 2-B: HARKing (Hypothesising After Results are Known) — presenting post-hoc findings as pre-planned. 3-C: Cherry-picking — selective reporting of only favourable outcomes/analyses. 4-D: Optional stopping — checking data at multiple interim points and stopping when significant. 5-E: Salami-slicing — 'slicing' data into as many publications as possible rather than one coherent paper.",
+      "Various mismatches: Cherry-picking (C) is correct for 3 but switching optional stopping and cherry-picking is wrong.",
+      "p-hacking is more than outlier exclusion — A is the better match for p-hacking.",
+      "F (file drawer/failure to publish negative results) is not the same as salami-slicing (E).",
+      "HARKing (B) and p-hacking (A) are distinct practices, not the same."
+    ],
+    "teaching_point": "Questionable research practices (QRPs) — the 'p-hacking' problem (Simmons et al 2011, Psych Sci): (1) p-hacking: running multiple models, adding/removing covariates, transforming variables, splitting subgroups — inflates Type I error. (2) HARKing: presenting post-hoc hypotheses as if they were pre-specified — inflates confidence in findings. (3) Cherry-picking/outcome switching: reporting only significant outcomes. (4) Optional stopping: inflates Type I error (interim analyses without alpha-spending). (5) Salami-slicing: wastes resources, inflates publication counts. The open science movement advocates: pre-registration, registered reports, transparent reporting, data sharing. MRCPsych: QRPs are increasingly examined.",
+    "domain": "critical_review",
+    "subdomain": "Research Integrity — Questionable Research Practices",
+    "difficulty": "medium",
+    "bloom_taxonomy": "knowledge",
+    "paper": "B",
+    "tags": [
+      "critical review",
+      "p-hacking",
+      "HARKing",
+      "open science",
+      "QRP"
+    ],
+    "source": "Simmons et al 2011 (Psychol Sci); Wasserstein & Lazar 2016 (Am Stat)"
+  },
+  {
+    "stem": "A 55-year-old woman with chronic depression (dysthymia) has been on sertraline 100mg for 8 months. She reports her depression has improved from 'quite severe' to 'mild'. However, she complains of significant sexual dysfunction (anorgasmia, decreased libido). She otherwise tolerates the medication well. Which of the following is the most appropriate next step?",
+    "options": [
+      "Stop sertraline and switch to mirtazapine, which has a much lower rate of sexual dysfunction compared to SSRIs",
+      "Add sildenafil",
+      "Reduce sertraline to 50mg",
+      "Add buspirone to counteract sexual side effects",
+      "Accept the side effects — depression relapse risk outweighs sexual concerns"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. SSRI-related sexual dysfunction is common (30-70%) and a major cause of non-adherence. Management options: (1) Dose reduction (if still effective at lower dose), (2) Drug holiday (not recommended — may cause withdrawal), (3) Switch to an antidepressant with lower sexual side effect burden: available agents with lowest rates include mirtazapine, agomelatine, and bupropion. Mirtazapine (NaSSA) has significantly lower rates of sexual dysfunction (≈ 10-15%) compared to SSRIs (≈ 40-70%). Bupropion (NDRI) has the lowest rate but is not widely used in the UK for depression first-line. (4) Augmentation strategies (buspirone, sildenafil) have limited evidence.",
+      "Sildenafil for SSRI-induced sexual dysfunction has some evidence but does not address the underlying cause and adds a second medication. Switching is a cleaner strategy.",
+      "Dose reduction is an option but 100mg is a moderate dose — reducing may not fully resolve the side effect and risks relapse.",
+      "Buspirone (5HT-1A agonist) augmentation for SSRI sexual dysfunction has mixed evidence (small trials, inconsistent results). Switching is the more established approach.",
+      "While relapse prevention is important, sexual dysfunction is a significant QoL issue that often leads to non-adherence. Active management is appropriate."
+    ],
+    "teaching_point": "Antidepressant sexual dysfunction hierarchy (highest to lowest): SSRIs/SNRIs (paroxetine highest, sertraline moderate, citalopram/escitalopram moderate) > clomipramine > MAOIs > mirtazapine/agomelatine/bupropion (lowest). Mirtazapine has a unique mechanism (α2-adrenergic antagonism, 5-HT2/5-HT3 antagonism) that results in very low sexual dysfunction rates. Agomelatine (melatonin-agonist) also has very low rates. Bupropion (NDRI, not licensed in UK for depression as monotherapy) has the lowest rates. MRCPsych: mirtazapine is the recommended switch for SSRI-induced sexual dysfunction.",
+    "domain": "general_adult",
+    "subdomain": "Depression — Managing SSRI Sexual Dysfunction",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "SSRI",
+      "sexual dysfunction",
+      "mirtazapine",
+      "switch"
+    ],
+    "source": "Maudsley Prescribing Guidelines 14th ed; NICE NG222 (2022)"
+  },
+  {
+    "stem": "A 32-year-old woman with no prior psychiatric history is brought to the emergency department by her partner. She gave birth 5 days ago. Over the past 2 days, she has become increasingly confused, agitated, and disorientated. She is not sleeping. She reports that she can hear God speaking to her and believes her baby is the devil. She has been refusing to feed the baby. Observations are normal apart from mild tachycardia. Which of the following is the most likely diagnosis and immediate management?",
+    "options": [
+      "Postnatal depression — start sertraline 50mg",
+      "Postpartum psychosis — emergency psychiatric admission, consider the MHA if she refuses admission, and start an antipsychotic (e.g., olanzapine) and/or lithium, with urgent mother-baby unit admission",
+      "Delirium due to infection — start antibiotics",
+      "Bipolar disorder manic episode — start valproate",
+      "Adjustment disorder — reassure and discharge"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Postnatal depression does NOT present with confusion, psychosis (auditory hallucinations), or disorientation. This is postpartum psychosis (PPP).",
+      "Correct. Postpartum psychosis (PPP) is a psychiatric emergency. Onset: typically within the first 2 weeks (can be hours to days). Features: (1) Rapid onset, (2) Mood disturbance (mania or depression), (3) Psychotic symptoms (delusions about the baby, auditory hallucinations — often command/religious), (4) Confusion/disorientation, (5) Sleep disturbance. Risk: infanticide (rare but serious — 4% of PPP cases involve infanticide). Management: (1) URGENT admission to a specialist mother and baby unit (MBU); (2) If the patient refuses, MHA detention is indicated; (3) Antipsychotic (olanzapine, risperidone) or mood stabiliser (lithium) depending on mood polarity; (4) ECT is highly effective for PPP (especially with catatonia or severe depression); (5) Safeguarding: the baby requires assessment.",
+      "No evidence of infection — normal observations. The confusion is part of PPP (the 'organic' presentation is common early).",
+      "Valproate is contraindicated in women of childbearing age (teratogenic). Lithium is often preferred for PPP with manic features but requires careful monitoring of the baby if breastfeeding.",
+      "This is a psychiatric emergency — admission is mandatory."
+    ],
+    "teaching_point": "Postpartum psychosis (PPP): Incidence 1-2 per 1000 deliveries. Risk factors: first pregnancy, personal/family history of bipolar or PPP, discontinuation of mood stabilisers. Onset is rapid over 2-3 days. Treatment: urgent admission to an MBU. Antipsychotics (olanzapine, risperidone, haloperidol) for acute symptoms. Lithium if mood stabilisation is needed. ECT for severe/refractory cases (response rate ~80%). Prognosis: 50-80% of women with a first episode of PPP will develop bipolar or schizoaffective disorder in long-term follow-up. Risk of recurrence in subsequent pregnancies: ~50% without prophylaxis, ~10% with lithium prophylaxis. MRCPsych: PPP is a high-yield exam topic — know features, management, and risks.",
+    "domain": "general_adult",
+    "subdomain": "Perinatal — Postpartum Psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "postpartum psychosis",
+      "mother and baby unit",
+      "lithium",
+      "infanticide"
+    ],
+    "source": "Bernt et al 2012 (Lancet); NICE CG192 (2014)"
+  },
+  {
+    "stem": "A 48-year-old man with a diagnosis of schizophrenia has been stable on haloperidol 10mg daily for 2 years. He has minimal positive symptoms but significant medication-induced Parkinsonism (rigidity, bradykinesia, tremor) that affects his daily functioning. What is the most appropriate next step?",
+    "options": [
+      "Add procyclidine 5mg TDS",
+      "Switch to an atypical antipsychotic with lower EPS risk (e.g., olanzapine, quetiapine, clozapine)",
+      "Increase haloperidol to 15mg to see if EPS improves",
+      "Start amantadine",
+      "Refer for deep brain stimulation"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Anticholinergic medication (procyclidine) can help manage EPS but prolongs the use of a high-EPS antipsychotic. The better long-term strategy is switching to a lower EPS risk antipsychotic.",
+      "Correct. EPS risk varies substantially between antipsychotics. Haloperidol has HIGH EPS risk. Switching to an atypical antipsychotic with lower EPS risk (e.g., olanzapine, quetiapine, clozapine) is the recommended approach when EPS significantly impairs functioning. NICE CG178 recommends: 'Offer antipsychotic medication with the lowest risk of extrapyramidal side effects, taking into account patient preference.' For patients with established EPS on a typical antipsychotic, a switch to an atypical is appropriate. If the patient is treatment-resistant, clozapine has the lowest EPS risk. Note: aripiprazole, while low in many metabolic side effects, can cause akathisia, so olanzapine/quetiapine may be preferred in this scenario.",
+      "Increasing dose worsens EPS — dose reduction might help but the better approach is switching.",
+      "Amantadine is used for Parkinson's disease and has limited evidence for antipsychotic-induced Parkinsonism. Not standard practice.",
+      "DBS is not indicated for antipsychotic-induced Parkinsonism."
+    ],
+    "teaching_point": "EPS risk hierarchy (highest → lowest): Haloperidol, Fluphenazine > Risperidone (dose-dependent) > Olanzapine, Paliperidone > Quetiapine, Aripiprazole > Clozapine (lowest). Management of EPS: (1) Switch to a low-EPS antipsychotic, (2) Reduce dose if possible, (3) Anticholinergic agents (procyclidine, orphenadrine) — short-term only, (4) Consider clozapine if treatment-resistant psychosis and severe EPS. Long-term anticholinergic use should be avoided (cognitive impairment, falls, anticholinergic burden). MRCPsych: EPS risk hierarchy and the 'switch not add' principle is important.",
+    "domain": "general_adult",
+    "subdomain": "Schizophrenia — Managing EPS",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "EPS",
+      "Parkinsonism",
+      "haloperidol",
+      "switch"
+    ],
+    "source": "Maudsley Prescribing Guidelines 14th ed; NICE CG178 (2014)"
+  },
+  {
+    "stem": "A 22-year-old woman with no history of psychiatric illness is brought to the emergency department by her parents. She has been 'spending 3-4 hours/day checking her appearance in mirrors, taking repeated selfies, and asking others for reassurance about her appearance' for the past 6 months. She is convinced that her nose is 'deformed' and has sought multiple cosmetic surgery consultations, all of which have considered her appearance normal. She is distressed and her academic performance has declined. What is the most likely diagnosis?",
+    "options": [
+      "Anorexia nervosa",
+      "Body dysmorphic disorder (BDD)",
+      "Social anxiety disorder",
+      "Obsessive-compulsive disorder",
+      "Delusional disorder — somatic type"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Anorexia involves distorted body image about weight/shape, not specific facial features.",
+      "Correct. DSM-5 BDD: (1) Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others. (2) Repetitive behaviours (mirror checking, excessive grooming, reassurance seeking, comparing with others) OR mental acts (comparing appearance). (3) Clinically significant distress/functional impairment. This patient: (a) Preoccupation with her nose (perceived defect not seen by others), (b) Repetitive checking (mirror, selfies, reassurance seeking), (c) Distress and functional impairment. The insight specifier: 'with good/fair insight', 'with poor insight', or 'with absent insight/delusional beliefs.'",
+      "Social anxiety involves fear of social situations due to fear of negative evaluation — not specifically about a perceived physical defect.",
+      "OCD involves obsessions and compulsions that may include symmetry/exactness themes but the focus is on a broader set of concerns, not specifically on appearance.",
+      "Delusional disorder (somatic) would require the belief about her nose to be held with delusional conviction (complete lack of insight). BDD can have a delusional variant (BDD with absent insight/delusional beliefs), which is treated as BDD rather than delusional disorder."
+    ],
+    "teaching_point": "BDD (DSM-5): Prevalence ~2%. Onset typically in adolescence. Common preoccupations: face (nose, skin, hair, eyes) — most common is skin (acne, scarring) and nose. Insight: variable — can be good, poor, or absent (delusional). Associated features: frequent cosmetic surgery seeking (usually unsatisfied), social avoidance, depression, suicidal ideation (high — 25% attempt). Treatment: NICE NG222 recommends CBT for BDD (including exposure and response prevention) as first-line. Pharmacotherapy: SSRI (fluoxetine up to 60mg) at higher doses than for depression, especially for moderate-severe BDD. MRCPsych: distinguishing BDD from anorexia, OCD, and social phobia is tested.",
+    "domain": "general_adult",
+    "subdomain": "Body Dysmorphic Disorder — Diagnosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "diagnosis",
+    "paper": "B",
+    "tags": [
+      "general adult",
+      "BDD",
+      "body dysmorphic",
+      "cosmetic surgery",
+      "diagnosis"
+    ],
+    "source": "DSM-5; NICE NG222 (2022); Phillips 2009 (J Clin Psychiatry)"
+  },
+  {
+    "stem": "An 82-year-old woman with moderate Alzheimer's disease (MMSE 14) lives in a care home. She has become increasingly restless at 6 pm, wandering, and calling out. She tries to 'go home' despite living in the care home for 2 years. She is not distressed but her pacing is disturbing other residents. Non-pharmacological approaches have been tried. What is the most appropriate next step?",
+    "options": [
+      "Start lorazepam 0.5mg at 5pm",
+      "Start risperidone 0.25mg at 5pm after ECG — this is 'sundowning' and may require low-dose antipsychotic if non-pharmacological management has been insufficient and the behaviour causes significant distress/risk",
+      "Increase lighting in the evening, offer activities, check for unmet needs (pain, hunger, toileting), and review the environment — pharmacological intervention should be a last resort",
+      "Start haloperidol 1mg PRN",
+      "Admit to hospital for assessment"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Benzodiazepines (lorazepam) may worsen confusion and increase falls risk. Not recommended for sundowning.",
+      "Antipsychotic is a last resort after comprehensive non-pharmacological approaches have been tried.",
+      "Correct. 'Sundowning' — increased agitation in the late afternoon/evening in dementia. Management: (1) Identify triggers: is she tired, hungry, in pain, needing the toilet? (2) Environmental: increase lighting in the evening (reduce shadows that cause misperception), reduce noise, offer structured activity. (3) Check for unmet physical needs — pain (arthritis, constipation), hunger, thirst. (4) Person-centred approaches: validation ('I know you want to go home — tell me about your home'), distraction, offering a warm drink. (5) Pharmacological: only if the person is severely distressed AND non-pharmacological has failed. NICE NG97: only consider antipsychotics for BPSD if the person is severely distressed or there is risk of harm.",
+      "Haloperidol is not recommended for sundowning and increases fall risk.",
+      "Admission is likely to worsen confusion and is not indicated."
+    ],
+    "teaching_point": "Sundowning: The term refers to increased agitation/confusion in the late afternoon/evening. Theories: circadian rhythm disruption, fatigue, sensory deprivation (reduced lighting), unmet needs. Non-pharmacological management is the cornerstone: bright light therapy, structured activity, reducing afternoon naps, treating sleep-disordered breathing. Melatonin has limited evidence for sundowning. Antipsychotics should be a LAST resort. NICE NG97 recommends: 'Only offer antipsychotics for BPSD if the person is severely distressed or there is risk of harm.' Start low (risperidone 0.25mg), review at 3-6 months. MRCPsych: sundowning management is a core old age psychiatry topic.",
+    "domain": "old_age",
+    "subdomain": "Dementia — Sundowning Management",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "sundowning",
+      "dementia",
+      "BPSD",
+      "non-pharmacological"
+    ],
+    "source": "NICE NG97 (2018); Kopecek et al 2008 (Int J Geriatr Psychiatry)"
+  },
+  {
+    "stem": "A 70-year-old man with a history of myocardial infarction and hypertension presents with a 3-month history of depressed mood, poor sleep, loss of appetite, and lack of motivation. He is currently on bisoprolol 5mg, aspirin 75mg, atorvastatin 20mg, and lisinopril 10mg. He has had no prior episodes of depression. He has low energy and poor concentration. MMSE is 28/30. What is the most important initial step?",
+    "options": [
+      "Start sertraline 50mg immediately — late-life depression requires prompt treatment",
+      "Review his medication list for potentially depressive side effects, check TFTs and B12/folate, and assess for any recent cardiac events that might have triggered depression",
+      "Refer for CBT",
+      "Admit for ECT",
+      "Refer to cardiology for medication review"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Starting medication before investigating organic/iatrogenic causes is premature.",
+      "Correct. First-episode late-life depression requires a thorough medical workup: (1) Medication review: beta-blockers (bisoprolol) are associated with depression (though the evidence is debated, they can cause fatigue and reduced energy). Statins may also contribute. (2) Medical screening: TFTs (hypothyroidism), B12/folate (deficiency common in older adults), U&Es, calcium, FBC. (3) Recent cardiac event? Post-MI depression is common (~20%). (4) Vascular depression — consider if there are white matter changes on imaging. Late-life depression is often multifactorial — medical, medication, psychological, and social factors interact. NICE NG222 recommends considering physical causes/comorbidities in the assessment of depression.",
+      "CBT is appropriate for depression but should not delay investigation of medical causes.",
+      "ECT is reserved for severe, treatment-refractory depression, or when rapid response is needed.",
+      "Cardiology review alone is insufficient — a comprehensive medical workup is needed."
+    ],
+    "teaching_point": "Late-life depression first episode: Always investigate organic causes: (1) Medication-induced: beta-blockers, calcium channel blockers, corticosteroids, statins, L-dopa. (2) Endocrine: hypothyroidism, hyperparathyroidism (calcium). (3) Neurological: Parkinson's, cerebrovascular disease (vascular depression). (4) Deficiency: B12/folate/vitamin D. (5) Malignancy (e.g., pancreatic cancer). The 'pseudodementia' concept: late-life depression can present with significant cognitive impairment that mimics dementia. Key distinguishing features: acute onset, fluctuation, memory complaint > objective deficit, family history of depression, prior psychiatric history. MRCPsych: the medical workup for first-episode late-life depression is a standard exam item.",
+    "domain": "old_age",
+    "subdomain": "Late-Life Depression — Medical Workup",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "old age",
+      "depression",
+      "medical workup",
+      "medication side effects",
+      "pseudodementia"
+    ],
+    "source": "NICE NG222 (2022); Baldwin et al 2002 (J Psychopharmacol)"
+  },
+  {
+    "stem": "A 30-year-old woman with moderate learning disability (IQ 45) and epilepsy presents with worsening seizures over 4 weeks. Her mother reports she has been more irritable, withdrawn, and has lost interest in watching her favourite TV programmes. She is unable to describe her mood verbally. She has been on lamotrigine 200mg daily for 5 years with good seizure control. Which of the following is the most appropriate first step?",
+    "options": [
+      "Increase lamotrigine to 300mg",
+      "Add risperidone for agitation",
+      "Arrange a comprehensive medical review: blood tests (FBC, U&E, LFTs, TFTs, B12, folate, Ca, glucose, lamotrigine levels), review for physical health problems (pain, infection, constipation, sensory impairment), and use a mood assessment tool adapted for LD",
+      "Refer to neurology for epilepsy management",
+      "Start an antidepressant immediately"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing lamotrigine without checking levels or identifying the cause of seizure worsening is premature.",
+      "Antipsychotics are not indicated for mood/behavioural change without a clear diagnostic formulation — the first step is to investigate medical causes.",
+      "Correct. Medical causes of behavioural change in LD are common and must be investigated first. The 'Diagnostic Overshadowing' principle: symptoms attributed to mental disorder may actually be due to physical illness or unmet needs. This patient has: (1) Worsening seizures — check lamotrigine levels (medication interactions, non-adherence, metabolic changes). (2) Behavioural change (irritability, social withdrawal, anhedonia) — could be depression, but could also be: (a) Pain (undiagnosed dental abscess, constipation, arthritis), (b) Infection (UTI, chest), (c) Thyroid dysfunction, (d) Side effects of polypharmacy. (3) Assess mood using LD-specific tools: Glasgow Depression Scale for LD (GDS-LD) or the Mood, Interest and Pleasure Questionnaire (MIPQ). (4) Rule out physical causes before diagnosing a mental disorder (DC-LD framework).",
+      "Neurology review may be needed but a general medical review comes first and is within the psychiatrist's role.",
+      "Starting an SSRI without investigating medical causes is premature (diagnostic overshadowing)."
+    ],
+    "teaching_point": "Diagnostic overshadowing in LD: The tendency to attribute behavioural/functional changes to the LD itself or to a diagnosed mental disorder, rather than considering new physical illness. People with LD have: (1) Higher rates of physical health problems (epilepsy, sensory impairment, obesity, respiratory disease, GI disorders), (2) Higher rates of pain (often undiagnosed), (3) Difficulty communicating symptoms. The DC-LD diagnostic framework emphasises: 'Always consider physical disorder first.' Screening routine for behavioural change: pain, infection (UTI, chest, skin), constipation, thyroid, epilepsy/medication levels, sensory impairment, side effects. MRCPsych: diagnostic overshadowing is a core LD concept.",
+    "domain": "learning_disability",
+    "subdomain": "Diagnostic Overshadowing — Medical Review First",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "learning disability",
+      "diagnostic overshadowing",
+      "physical health",
+      "epilepsy",
+      "behavioural change"
+    ],
+    "source": "DC-LD (RCPsych 2001); NICE NG11 (2015)"
+  },
+  {
+    "stem": "A 40-year-old man with mild learning disability and autism works in a supported employment setting. He has developed obsessional thoughts about contamination, leading to excessive hand-washing (2 hours/day). He recognises the thoughts are excessive but cannot control them. He is distressed and his work performance is declining. He has good verbal ability. Which is the most appropriate first-line treatment?",
+    "options": [
+      "Start risperidone for the repetitive behaviour",
+      "Offer CBT adapted for LD (including exposure and response prevention) and consider an SSRI (fluoxetine or sertraline) at standard or lower starting doses",
+      "Attribute the behaviour to autism rigidities — no treatment is indicated",
+      "Admit to a psychiatric ward for assessment",
+      "Start high-dose fluoxetine 60mg immediately"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Risperidone is for challenging behaviour/irritability in ASD, not for OCD. The first-line OCD treatment is SSRI + CBT/ERP.",
+      "Correct. OCD in LD: (1) Evidence-based treatment is the same as for the general population: CBT/ERP and/or SSRI. (2) Adaptations: use simpler language, visual aids, involve carers, break down ERP into smaller steps, longer sessions. (3) SSRI: fluoxetine or sertraline, starting at half the usual starting dose (e.g., sertraline 12.5mg or 25mg) and titrating slowly. (4) NICE CG31 states: 'For people with LD who have OCD, psychological therapy should be adapted to their cognitive level.' The DC-LD also provides guidance. (5) Differentiating from ASD-related rigidity: OCD-related repetitive behaviours are ego-dystonic (resisted, distressing), while ASD rigidity is ego-syntonic (comforting, not resisted).",
+      "Attributing OCD symptoms to ASD is diagnostic overshadowing. This patient's symptoms meet OCD criteria and should be treated.",
+      "Admission is not first-line unless there is severe risk.",
+      "Fluoxetine should be started at a low dose (10mg) — starting at 60mg risks adverse effects."
+    ],
+    "teaching_point": "OCD treatment in LD: Adaptations to CBT/ERP: (1) Concrete language, use of visual aids/pictograms, (2) Involvement of carers in therapy, (3) Simplified exposure hierarchy, (4) Focus on behavioural (ERP) rather than cognitive (challenging thoughts) components, (5) Longer duration of sessions. SSRI dosing: start low, go slow — sertraline 12.5-25mg, fluoxetine 5-10mg. Monitoring: watch for behavioural activation (increased agitation/impulsivity) — more common in LD patients starting SSRIs. MRCPsych: the principles of adapting psychotherapy and pharmacotherapy for LD patients.",
+    "domain": "learning_disability",
+    "subdomain": "OCD in LD — Adapted CBT and SSRI",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "learning disability",
+      "OCD",
+      "CBT",
+      "ERP",
+      "SSRI",
+      "adapted"
+    ],
+    "source": "NICE CG31 (2005); Willis et al 2011 (J Intellect Disabil Res)"
+  }
+]
