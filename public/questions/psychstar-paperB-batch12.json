@@ -1,0 +1,162 @@
+[
+  {
+    "stem": "A researcher wants to identify all published and unpublished RCTs examining the efficacy of CBT for insomnia. Which database would be MOST appropriate to search for unpublished trials?",
+    "options": [" PubMed/MEDLINE", " EMBASE", " PsycINFO", " Cochrane Central Register of Controlled Trials (CENTRAL)", " ClinicalTrials.gov"],
+    "correct_index": 4,
+    "distractors_rationale": [
+      "MEDLINE indexes peer-reviewed journal articles only — it does not reliably capture unpublished trials.",
+      "EMBASE also indexes primarily published journal articles (more European and pharmaceutical content than MEDLINE).",
+      "PsycINFO indexes psychology and psychiatry literature (journals, books, dissertations) — includes some grey literature but is not the primary source for trial registries.",
+      "CENTRAL is a comprehensive database of controlled trials, including those identified through systematic searching of other databases and trial registries. It includes some unpublished trials but relies on sources like ClinicalTrials.gov.",
+      "CORRECT. ClinicalTrials.gov is a registry of CLINICAL TRIALS maintained by the US National Library of Medicine. It includes BOTH published and UNPUBLISHED trials. All trials must be registered before enrolling participants (FDA requirement). Trial registries are essential for identifying UNPUBLISHED studies to address PUBLICATION BIAS. Other key registries: (1) ISRCTN (International Standard Randomised Controlled Trial Number) — European registry; (2) WHO International Clinical Trials Registry Platform (ICTRP); (3) EU Clinical Trials Register. A comprehensive systematic search should include: MEDLINE, EMBASE, PsycINFO, CENTRAL, and at least one trial registry (ClinicalTrials.gov or ISRCTN). The Cochrane Handbook recommends searching multiple databases and trial registries."
+    ],
+    "teaching_point": "Systematic review search strategy: A comprehensive search should include: (1) ELECTRONIC DATABASES: MEDLINE (PubMed/Ovid), EMBASE, PsycINFO, CINAHL (nursing and allied health), CENTRAL (Cochrane). (2) TRIAL REGISTRIES: ClinicalTrials.gov, ISRCTN, WHO ICTRP. (3) GREY LITERATURE: conference abstracts, dissertations, OpenGrey, SIGLE. (4) HAND SEARCHING: key journals, reference lists of included studies (citation tracking). (5) CONTACTING EXPERTS. The search strategy should be: SENSITIVE (captures most relevant studies) but SPECIFIC (not too many irrelevant hits). The PRISMA flow diagram documents the search process: number of records identified → duplicates removed → records screened → full text assessed → included. Sensitivity vs Specificity in searching: Broad search = high sensitivity (few missed studies) but low precision (many irrelevant). Narrow search = higher precision but may miss relevant studies. The Cochrane Handbook recommends using BOTH MeSH terms and free-text terms.",
+    "domain": "critical_review",
+    "subdomain": "systematic_review",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Cochrane Handbook for Systematic Reviews of Interventions; PRISMA statement (2009/2020); Higgins JPT et al. (2019)",
+    "tags": ["trial_registry", "ClinicalTrials", "publication_bias", "systematic_review", "search_strategy"]
+  },
+  {
+    "stem": "According to the GRADE system for assessing quality of evidence, which study design starts as 'HIGH' quality evidence?",
+    "options": [" Well-conducted cohort study", " Randomised controlled trial", " Case-control study", " Case series", " Cross-sectional study"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "In GRADE, observational studies start as LOW quality evidence.",
+      "CORRECT. The GRADE (Grading of Recommendations, Assessment, Development, and Evaluations) system classifies evidence quality into four levels: HIGH, MODERATE, LOW, and VERY LOW. RANDOMISED CONTROLLED TRIALS start as HIGH quality evidence. Observational studies (cohort, case-control, cross-sectional) start as LOW quality evidence. The quality can be: (1) DOWNGRADED for: risk of bias (limitations in study design), inconsistency (unexplained heterogeneity, I² high), indirectness (population, intervention, comparator, outcome — PICO — not directly relevant), imprecision (wide CI, small sample, few events), publication bias; or (2) UPGRADED for: large effect size (RR > 2 or < 0.5), dose-response gradient, plausible confounding that would reduce the observed effect (the 'confounding would underestimate the effect' argument).",
+      "Case-control studies start as LOW quality (observational).",
+      "Case series start as VERY LOW quality.",
+      "Cross-sectional studies start as LOW quality."
+    ],
+    "teaching_point": "GRADE quality of evidence — key for MRCPsych Paper B: Four levels: (1) HIGH — further research is very unlikely to change our confidence in the estimate of effect. (2) MODERATE — further research is likely to have an important impact and may change the estimate. (3) LOW — further research is very likely to have an important impact and is likely to change the estimate. (4) VERY LOW — any estimate of effect is very uncertain. FACTORS THAT DECREASE quality (downgrade): Risk of bias (limitations), Inconsistency (heterogeneity), Indirectness (PICO), Imprecision (wide CI), Publication bias. FACTORS THAT INCREASE quality (upgrade): Large effect (RR > 2 or < 0.5), Dose-response, Plausible confounding. GRADE is used by: NICE, SIGN, WHO, Cochrane. STRENGTH OF RECOMMENDATION: STRONG (most patients should receive the intervention) vs WEAK/CONDITIONAL (different choices may be appropriate for different patients, based on their values and preferences). A strong recommendation uses the word 'offer'; a weak recommendation uses 'consider'. GRADE is preferred over older evidence hierarchies because it is TRANSPARENT about the quality assessment process.",
+    "domain": "critical_review",
+    "subdomain": "GRADE",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Guyatt GH et al. (2008) GRADE: an emerging consensus on rating quality of evidence. BMJ; NICE guidelines manual",
+    "tags": ["GRADE", "evidence_quality", "RCT", "downgrade", "NICE"]
+  },
+  {
+    "stem": "A study reports the following results for a new treatment for PTSD: the mean improvement on the CAPS-5 (Clinician-Administered PTSD Scale) was 18 points in the treatment group and 10 points in the placebo group (mean difference 8 points, 95% CI 2 to 14, p = 0.01). The MINIMUM CLINICALLY IMPORTANT DIFFERENCE (MCID) for the CAPS-5 is established as 10 points. What is the most accurate interpretation?",
+    "options": [" The treatment is both statistically significant and clinically important", " The treatment is statistically significant but the 95% CI suggests it MAY NOT reach clinical importance (the benefit could be as low as 2 points — well below the MCID of 10)", " The treatment is NOT statistically significant", " The confidence interval is too wide to draw any conclusions", " The p-value of 0.01 proves the treatment works"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The mean difference of 8 points is BELOW the MCID of 10 points, so the AVERAGE patient does not achieve a clinically important improvement. This is a statistically significant but NOT clinically important difference.",
+      "CORRECT. This question highlights the critical distinction between STATISTICAL SIGNIFICANCE and CLINICAL SIGNIFICANCE. The result is statistically significant (p = 0.01, 95% CI excludes 0). However: (1) The POINT ESTIMATE (8 points) is BELOW the MCID (10 points) — meaning the average treatment effect does not reach the threshold for clinically important improvement; (2) The LOWER END of the 95% CI (2 points) is far below the MCID; (3) Only the UPPER end of the CI (14 points) exceeds the MCID. Therefore, we can say: 'The treatment produces a statistically significant improvement, but the magnitude of the benefit may not be clinically meaningful for the average patient.' The MCID is the smallest change that patients perceive as beneficial and that would justify a change in clinical management.",
+      "p = 0.01 is statistically significant.",
+      "The CI (2 to 14) is somewhat wide but does not cross 0 (which is why p < 0.05). The real issue is the POSITION of the CI relative to the MCID.",
+      "p-values do not prove a treatment works — they tell you the probability of the data given the null hypothesis. They do not tell you about the SIZE of the effect or its clinical relevance."
+    ],
+    "teaching_point": "Statistical vs clinical significance — classic MRCPsych distinction: STATISTICAL SIGNIFICANCE: does the 95% CI exclude the null value (0 for mean difference, 1 for RR/OR)? If yes, p < 0.05. CLINICAL SIGNIFICANCE: is the effect size large enough to MATTER to patients (above the MCID)? MCID can be determined by: (1) Anchor-based methods (comparing change scores to a patient global impression of change — 'has your depression improved — a little, moderately, very much?'); (2) Distribution-based methods (0.5 SD of baseline scores). Examples of MCIDs in psychiatry: (1) HAM-D (depression): MCID ~3-5 points; (2) PANSS (schizophrenia): MCID ~10-15 points; (3) CAPS-5 (PTSD): MCID ~10 points; (4) Y-BOCS (OCD): MCID ~5 points. A treatment can be statistically significant but NOT clinically important if the effect is small. Conversely, a treatment can be CLINICALLY important but not STATISTICALLY significant if the study is underpowered (Type II error). This is why CIs are more informative than p-values — they show the RANGE of plausible effect sizes compatible with the data.",
+    "domain": "critical_review",
+    "subdomain": "MCID",
+    "difficulty": "hard",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Jaeschke R et al. (1989) MCID. J Clin Epidemiol; Cook RJ & Sackett DL (1995) NNT; BMJ statistical notes",
+    "tags": ["MCID", "clinical_significance", "statistical_significance", "CAPS-5", "PTSD"]
+  },
+  {
+    "stem": "A systematic review of 12 trials of antipsychotics for acute mania produces a pooled standardised mean difference (SMD) of −0.45 (95% CI −0.60 to −0.30) favouring antipsychotics over placebo. A GALBRAITH plot reveals that two studies fall outside the 2-unit regression line. What does this indicate?",
+    "options": [" That the pooled SMD is not statistically significant", " That there may be publication bias", " The presence of OUTLIER studies contributing to HETEROGENEITY", " That the fixed effects model should be used", " That the funnel plot is symmetrical"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "The CI excludes 0, so the result is significant.",
+      "Funnel plot asymmetry suggests publication bias, not a Galbraith plot.",
+      "CORRECT. A GALBRAITH PLOT (also called a radial plot or Galbraith radial plot) is a scatter plot of: y-axis = the INDIVIDUAL STUDY'S EFFECT divided by its STANDARD ERROR (the z-score) and x-axis = 1/SE (precision). Each study's point should fall within the REGRESSION LINES (typically ±2 units from the regression line). Studies falling OUTSIDE these lines are STATISTICAL OUTLIERS — they have an effect that is SIGNIFICANTLY DIFFERENT from the overall trend. This indicates that these individual studies contribute DISPROPORTIONATELY to heterogeneity in the meta-analysis. The Galbraith plot helps identify WHICH studies (not just the presence of) contribute to heterogeneity. Once identified, the investigator should: (1) Examine the characteristics of the outlier studies; (2) Consider subgroup analysis or sensitivity analysis (removing the outliers); (3) Consider whether the outiers differ from the others in terms of population, intervention, dose, study quality, or other factors.",
+      "High heterogeneity suggests random effects may be more appropriate.",
+      "Galbraith plots are not used to assess publication bias."
+    ],
+    "teaching_point": "Meta-analysis plots — identification questions are common: (1) FOREST PLOT: main display showing individual study effect sizes and pooled estimate. (2) FUNNEL PLOT: effect size vs SE — asymmetry = possible publication bias. (3) GALBRAITH PLOT (radial plot): z-score vs precision — identifies outliers contributing to heterogeneity. (4) L'ABBÉ PLOT: event rate in treatment vs control group — for binary outcomes. (5) LEAVAGE: each study omitted one-at-a-time — sensitivity analysis (does the result depend on one study?). Fixed effects vs random effects: FIXED = assumes ONE true effect across all studies; RANDOM = assumes TRUE EFFECTS VARY across studies (weighted by between-study variance Tau²). The DerSimonian and Laird method is the most common random effects method. PREDICTIVE INTERVAL: the range within which the true effect in a new study would fall (wider than the CI for random effects). Publication bias assessment: Egger's test (regression), Begg's test (rank correlation), Trim and fill method (imputes missing studies).",
+    "domain": "critical_review",
+    "subdomain": "meta-analysis_plots",
+    "difficulty": "hard",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Galbraith RF (1988) A note on graphical presentation of estimated odds ratios. Stat Med; Cochrane Handbook",
+    "tags": ["Galbraith_plot", "heterogeneity", "meta-analysis", "outliers", "forest_plot"]
+  },
+  {
+    "stem": "A cohort study examining the association between childhood adversity and adult depression reports an adjusted odds ratio of 1.8 (95% CI 1.3 to 2.5, p = 0.001) after controlling for gender, socioeconomic status, and family history of depression. The UNADJUSTED odds ratio was 2.1 (95% CI 1.5 to 2.9). Which statement BEST describes this finding?",
+    "options": [" The association is no longer significant after adjustment — confounding explains the entire effect", " The association remains significant but is WEAKENED after adjustment — suggesting that part of the crude association is explained by the confounding variables", " The adjustment was unnecessary — the confounders are not associated with the outcome", " The unadjusted result was confounded by case mix", " The study is underpowered after adjustment"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The association remains statistically significant (CI excludes 1.0, p = 0.001). Confounding explains PART, not ALL, of the effect.",
+      "CORRECT. This is a textbook example of CONFOUNDING. The crude (unadjusted) OR was 2.1. After adjusting for confounders (gender, SES, family history), the adjusted OR dropped to 1.8 but remained statistically significant. INTERPRETATION: (1) There IS an independent association between childhood adversity and adult depression (OR 1.8, p < 0.05). (2) PART of the crude association was due to CONFOUNDING — some of the apparent effect of childhood adversity was actually due to the confounders (e.g., lower SES increases both childhood adversity risk and depression risk). (3) A 15% reduction in OR after adjustment (from 2.1 to 1.8) indicates modest confounding. Methods to control for confounding: (1) STUDY DESIGN: randomisation (RCT), restriction (limit the study to one level of the confounder), matching (case-control). (2) DATA ANALYSIS: stratification (Mantel-Haenszel), multivariable regression (logistic, linear, Cox), propensity scores, instrumental variables.",
+      "The adjustment was necessary and useful — it changed the effect estimate, confirming that the confounders were indeed associated with the exposure and outcome.",
+      "The unadjusted result was confounded, but the statement is vague.",
+      "No evidence of being underpowered — both CI and p-value indicate statistical significance."
+    ],
+    "teaching_point": "Confounding — classic MRCPsych concept: DEFINITION: A confounder is a variable that is associated with BOTH the EXPOSURE (childhood adversity) AND the OUTCOME (depression), and is NOT on the causal pathway. EXAMPLE: Low SES → increases risk of childhood adversity AND increases risk of depression. If not controlled for, SES 'confounds' the relationship. CRITERIA for a confounder: (1) Associated with the exposure; (2) Associated with the outcome (independently of the exposure); (3) Not an intermediate step in the causal pathway. OTHER CONFOUNDERS in this example: family history of depression (genetic and environmental risk), parental mental illness (affects parenting and genetic risk), childhood trauma type, gender. EFFECT MODIFICATION (INTERACTION): when the exposure-outcome relationship DIFFERS across strata of a third variable (e.g., the effect of childhood adversity on depression may differ for men vs women). This is different from confounding — effect modification tells you something about the BIOLOGY, not bias. Key distinction: CONFOUNDING = BIAS (distorts the effect). EFFECT MODIFICATION = INFORMATIVE (describes a difference in effect). Both should be examined in well-designed observational studies.",
+    "domain": "critical_review",
+    "subdomain": "confounding",
+    "difficulty": "hard",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Greenhalgh T (2019) How to Read a Paper; BMJ statistical notes; Altman DG (1991)",
+    "tags": ["confounding", "adjusted_OR", "childhood_adversity", "regression", "bias"]
+  },
+  {
+    "stem": "A new study examines the relationship between serum vitamin D levels and depression in 5,000 adults. The researchers find a strong negative correlation (r = −0.35, p < 0.001), suggesting that lower vitamin D is associated with higher depression scores. However, after adjusting for physical activity, seasonal variation, and socioeconomic status, the association becomes non-significant (p = 0.12). Which of the following is the MOST likely explanation?",
+    "options": [" Vitamin D supplementation would treat depression", " The confounding variables EXPLAIN the apparent association — the relationship is likely due to reverse causation or residual confounding", " The sample size was too small", " The researchers over-adjusted", " Vitamin D is a direct cause of depression"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The adjusted analysis suggests NO independent effect — vitamin D supplementation would NOT be expected to improve depression based on this data.",
+      "CORRECT. This is a classic example of CONFOUNDING or REVERSE CAUSATION explaining a spurious association. Vitamin D deficiency is associated with depression in unadjusted analyses, but after controlling for confounders, the association disappears. Possible explanations: (1) REVERSE CAUSATION: people with depression stay indoors, exercise less, and have poorer diets → leading to LOW vitamin D (depression causes low vitamin D, not the reverse). (2) CONFOUNDING: low physical activity causes both low vitamin D (less sun exposure) and depression. (3) RESIDUAL CONFOUNDING: other unmeasured variables (obesity, chronic illness, medications, diet) may explain the association. Observational studies cannot prove causation — they can only demonstrate associations. This is why RCTs are needed to test whether vitamin D supplementation actually prevents or treats depression. Large RCTs (e.g., VITAL study, 2020) have found NO evidence that vitamin D supplementation prevents depression — supporting the interpretation that the observational association was due to confounding/reverse causation.",
+      "5,000 is a large sample size — the non-significant adjusted result is not due to lack of power.",
+      "Over-adjustment would occur if you controlled for a variable on the causal pathway (e.g., adjusting for 'depression treatment' when examining vitamin D → depression). The confounders described (physical activity, season, SES) are appropriate.",
+      "The data do not support a causal relationship — the adjusted analysis shows no independent association."
+    ],
+    "teaching_point": "Correlation vs causation — Bradford Hill criteria: A statistical association does not prove causation. The BRADFORD HILL CRITERIA (Hill, 1965) help assess whether an association is likely to be causal: (1) STRENGTH: larger effect = stronger evidence (OR > 2 or < 0.5). (2) CONSISTENCY: replicated across different studies, populations, settings. (3) SPECIFICITY: one cause → one effect (not always present). (4) TEMPORALITY: cause precedes effect (essential). (5) BIOLOGICAL GRADIENT (dose-response): more exposure = more effect. (6) PLAUSIBILITY: biologically plausible mechanism. (7) COHERENCE: consistent with existing knowledge. (8) EXPERIMENT: RCT or natural experiment. (9) ANALOGY: similar known causal relationships. Additional concepts: REVERSE CAUSATION — the outcome causes the exposure (e.g., depression reduces physical activity). MEASUREMENT ERROR — vitamin D measured at one time point may not reflect long-term status. PROTECTIVE EFFECTS — apparent benefit of vitamin D may be due to healthier lifestyle overall. Key MRCPsych examples: the early observation that oestrogen therapy reduced dementia risk (observational studies) was NOT confirmed by RCTs (Women's Health Initiative Memory Study — actually increased dementia). Similarly, hormone replacement therapy for CHD was found ineffective in RCTs. The lesson: observational associations should be interpreted cautiously.",
+    "domain": "critical_review",
+    "subdomain": "causality",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Hill AB (1965) The environment and disease; BMJ; VITAL study (2020) NEJM — vitamin D and depression",
+    "tags": ["causality", "Bradford_Hill", "confounding", "vitamin_D", "reverse_causation"]
+  },
+  {
+    "stem": "In a cluster-randomised trial of a school-based mental health intervention, 20 schools were randomly allocated to receive the intervention (10 schools, 2,000 students) or treatment as usual (10 schools, 2,000 students). Depression scores were compared between groups. What is the PRIMARY statistical concern with this design?",
+    "options": [" Selection bias is increased", " The study is underpowered", " Students within the same school are NOT INDEPENDENT — cluster randomisation requires adjustment (e.g., multilevel modelling, robust standard errors) to avoid inflated Type I error", " The schools should have been matched before randomisation", " Blinding is not possible in cluster trials"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Selection bias is not increased by cluster randomisation (though fewer clusters increase baseline imbalance risk).",
+      "Power is a concern in cluster trials (the 'design effect' reduces effective sample size) but it is SECONDARY to the independence issue.",
+      "CORRECT. The PRIMARY concern is the LACK OF INDEPENDENCE of observations within clusters. Students in the SAME SCHOOL are more similar to each other than to students in different schools (shared environment, teaching, peer effects, geographic area). Analysing this as if 4,000 independent individuals (ignoring clustering) would produce NARROWER CONFIDENCE INTERVALS and INFLATED TYPE I ERROR (false positives). The 'DESIGN EFFECT' — the factor by which the sample size for an individually randomised trial must be multiplied to have the same power in a cluster trial. Design effect = 1 + (m − 1) × ICC, where m = average cluster size and ICC = intracluster correlation coefficient (typically 0.01-0.05 for schools). If ICC = 0.05 and m = 200: Design effect = 1 + (199 × 0.05) = 10.95. The effective sample size = 4000/10.95 = 365. The study is significantly LESS POWERFUL than the cluster size suggests. Analysis must account for clustering using: (1) MULTILEVEL MODELLING (random effects — students within schools); (2) GENERALISED ESTIMATING EQUATIONS (GEE) with robust standard errors; (3) Analysis at the cluster level (school means).",
+      "Stratification or minimisation by school characteristics can reduce baseline imbalance but does not address the primary issue of non-independence.",
+      "Blinding may be challenging but is not the PRIMARY statistical concern."
+    ],
+    "teaching_point": "Cluster RCTs — key methodological issues: (1) UNIT OF RANDOMISATION vs UNIT OF ANALYSIS: groups (schools) are randomised, but individuals (students) are analysed. The analysis MUST account for clustering. (2) SAMPLE SIZE: requires adjustment for the DESIGN EFFECT (higher sample size needed than for individual randomisation). (3) BASELINE IMBALANCE: with few clusters, characteristics may differ between groups despite randomisation. (4) ASCERTAINMENT BIAS: outcome assessment may be affected by cluster allocation. (5) CONTAMINATION: less likely than individual RCTs (schools are separated), but may occur if students interact. (6) ATTRITION: at both cluster and individual levels. (7) INTRA-CLUSTER CORRELATION COEFFICIENT (ICC): measures the proportion of variance attributable to between-cluster differences. ICC values: 0.01-0.05 (small — schools, GP practices), 0.05-0.15 (moderate — families), 0.15+ (large — sibling designs). CONSORT extension for cluster RCTs (2010): reports should state how clustering was accounted for in sample size calculation and analysis. Common errors: (1) Analysing at individual level ignoring clustering (inflated Type I error); (2) Not accounting for clustering in sample size (underpowered trial); (3) Small number of clusters (statistical methods may perform poorly with <10 clusters per arm).",
+    "domain": "critical_review",
+    "subdomain": "cluster_RCT",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Campbell MK et al. (2012) CONSORT extension for cluster RCTs; BMJ; Cochrane Handbook",
+    "tags": ["cluster_RCT", "ICC", "design_effect", "multilevel_modelling", "non-independence"]
+  },
+  {
+    "stem": "A researcher uses Beck's Depression Inventory (BDI-II) to measure depression in a study. The BDI-II has a Cronbach's alpha of 0.91. One of the 21 items ('loss of libido') has a corrected item-total correlation of 0.12. What does the LOW item-total correlation suggest?",
+    "options": [" The item is a strong discriminator between depressed and non-depressed individuals", " The item is NOT highly correlated with the overall depression score — it may be measuring a different construct or have poor discrimination", " The BDI-II has poor reliability overall", " The item should definitely be removed from the scale", " The Cronbach's alpha is artificially inflated"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "A low item-total correlation suggests the item is a WEAK discriminator — it does not correlate well with the overall construct being measured.",
+      "CORRECT. The item-total correlation measures the CORRELATION between a single item and the TOTAL SCORE on the remaining items (excluding that item). A LOW item-total correlation (typically <0.3) indicates that the item is NOT STRONGLY ASSOCIATED with the overall construct measured by the scale. In this case, the 'loss of libido' item on the BDI-II may not be a good indicator of depression severity because: (1) Loss of libido is not specific to depression (can be due to medication side effects, relationship problems, medical illness, age). (2) It may be less affected by depression severity than other items (e.g., 'sadness'). (3) Some depressed individuals may report low libido regardless of severity. Implications: the item could be considered for REVISION or REMOVAL in future versions of the scale. However, removal also depends on CONTENT VALIDITY — does the item cover an important aspect of the construct? Loss of libido is part of the DSM/ICD criteria for depression, so it may be retained for content coverage even with a low item-total correlation.",
+      "The overall Cronbach's alpha of 0.91 is EXCELLENT — the scale has good internal consistency. One item with low item-total correlation does not mean the scale has poor reliability.",
+      "The item MAY be considered for removal, but it is not 'definitely required'. Clinical judgement and content validity must be considered.",
+      "The alpha is high (0.91) — the item-total correlation is low but not inflating the alpha. If the item were removed, alpha would increase slightly (a low item-total correlation slightly reduces alpha)."
+    ],
+    "teaching_point": "Item analysis in psychometrics — key concepts: ITEM-TOTAL CORRELATION: correlation of a single item with the sum of all other items. Acceptable threshold: >0.3 (items below this may not be contributing well to the scale). Cronbach's alpha IF ITEM DELETED: if this value is HIGHER than the overall alpha, the item is reducing internal consistency and could be removed. ITEM DIFFICULTY (for dichotomous items): proportion of respondents endorsing the item. Very high (item too easy to endorse) or very low (item almost never endorsed) items may have poor discrimination. ITEM DISCRIMINATION: the ability of an item to differentiate between high and low scorers on the overall measure. The BDI-II: 21 items, each rated 0-3 (total 0-63). Cut-offs: 0-13 minimal, 14-19 mild, 20-28 moderate, 29-63 severe. Alpha of 0.91 = excellent internal consistency in this sample. However, psychometric properties are SAMPLE-DEPENDENT — alpha may differ in different populations (e.g., medical patients, elderly). The HAM-D (Hamilton Depression Rating Scale) is clinician-administered (different from BDI which is self-report). The MADRS (Montgomery-Asberg Depression Rating Scale) is another clinician-rated scale that is more sensitive to change than the HAM-D.",
+    "domain": "critical_review",
+    "subdomain": "psychometrics",
+    "difficulty": "hard",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Nunnally JC & Bernstein IH (1994) Psychometric Theory; Streiner DL & Norman GR (2008) Health Measurement Scales",
+    "tags": ["item-total", "BDI-II", "Cronbach_alpha", "psychometrics", "reliability"]
+  }
+]

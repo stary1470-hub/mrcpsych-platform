@@ -1,0 +1,120 @@
+[
+  {
+    "stem": "A study examines the association between antidepressant use in pregnancy and postpartum haemorrhage. The crude odds ratio is 1.8 (95% CI 1.4 to 2.3). After adjusting for maternal age, smoking, obesity, and mode of delivery, the adjusted OR is 1.3 (95% CI 0.95 to 1.8). Which statement BEST interprets this finding?",
+    "options": [" Antidepressants in pregnancy double the risk of postpartum haemorrhage", " The crude association is entirely due to CONFOUNDING — after adjustment there is no statistically significant independent effect, as the CI crosses 1.0", " Antidepressants are safe in pregnancy regarding bleeding risk", " The adjusted analysis is underpowered", " The confounders were poorly measured"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "OR 1.8 is not quite 'double' and the adjusted OR tells a different story.",
+      "CORRECT. This is CONFOUNDING BY INDICATION combined with CONFOUNDING by risk factors. The adjusted OR of 1.3 with CI 0.95 to 1.8 INCLUDES 1.0 (not statistically significant at p<0.05). The crude association (OR 1.8, significant) was largely driven by confounders: women who take antidepressants are more likely to be older, smoke, have higher BMI, and have operative deliveries — all of which independently increase PPH risk. The unadjusted analysis fails to account for these. After adjustment, the remaining independent effect of antidepressants is small (OR 1.3) and not statistically significant. This is a classic example of WHY observational studies cannot establish causation without rigorous control for confounding.",
+      "The conclusion 'safe' is too strong — the adjusted OR of 1.3 still suggests a possible small effect (the point estimate is above 1.0), but the evidence is not conclusive. More research is needed (larger studies).",
+      "The adjusted analysis may not be 'underpowered' — the CI includes 1.0, meaning the result is consistent with both a small harmful effect and no effect. The sample size was sufficient to detect the crude association.",
+      "The confounders were appropriately measured and adjusted for — the change from OR 1.8 to 1.3 is substantial and clinically meaningful."
+    ],
+    "teaching_point": "E-value — a sensitivity analysis for unmeasured confounding: The E-value is the MINIMUM strength of association that an unmeasured confounder would need to have with BOTH the exposure AND the outcome to fully explain away the observed association. For the adjusted OR of 1.3 (CI 0.95-1.8), since the CI includes 1.0, the E-value is not computed (the result is not significant). An E-value of 2.0 would mean: an unmeasured confounder would need to be associated with both antidepressant use and PPH by an OR of 2.0 each (above and beyond the measured confounders) to shift the OR to 1.0. Large E-values = more robust to unmeasured confounding. This method should be known for MRCPsych Paper B.",
+    "domain": "critical_review",
+    "subdomain": "confounding_advanced",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "VanderWeele TJ & Ding P (2017) Sensitivity analysis in observational research. Ann Intern Med; BMJ",
+    "tags": ["confounding", "E-value", "antidepressants", "pregnancy", "adjusted_OR"]
+  },
+  {
+    "stem": "A study of 500 patients with treatment-resistant depression reports the following regression equation predicting PHQ-9 score at 12 weeks: PHQ-9 = 8.2 + 0.15(Age) + 0.30(CTQ) − 2.1(Treatment) + 0.4(Baseline PHQ). Here, Treatment is coded as 0 = placebo, 1 = active. R² = 0.32, p < 0.001. Unstandardised beta coefficients. What is the INTERPRETATION of the coefficient for Treatment (−2.1)?",
+    "options": [" The placebo group had 2.1 points higher PHQ-9 than the treatment group on average", " The treatment group had 2.1 points LOWER PHQ-9 at 12 weeks than the placebo group, HOLDING CONSTANT age, childhood trauma, and baseline depression — this is the adjusted treatment effect", " The treatment reduced depression by 2.1 standard deviations", " The treatment effect is clinically insignificant", " The odds of response in the treatment group are 2.1 times higher than placebo"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The sign is correct but the wording should clarify 'holding other variables constant'.",
+      "CORRECT. In multiple regression, the unstandardised coefficient (β) for a binary predictor (treatment vs placebo) represents the ADJUSTED MEAN DIFFERENCE in the outcome between the two groups, CONTROLLING FOR the other variables in the model. Here, β(Treatment) = −2.1 means: patients who received the active treatment had PHQ-9 scores on average 2.1 points LOWER than patients on placebo at 12 weeks, AFTER adjusting for age, childhood trauma, and baseline depression severity. This is the INDEPENDENT EFFECT of treatment. The 95% CI for this coefficient would tell us if it is statistically significant. Multiple regression 'holds constant' the other variables by including them in the equation — it estimates the effect of treatment for patients with the SAME age, SAME CTQ score, and SAME baseline PHQ.",
+      "This would be true for a STANDARDISED beta coefficient (β = −0.5 would mean 0.5 SD lower). The reported coefficient is UNSTANDARDISED (B = −2.1), meaning 2.1 PHQ-9 points (not standard deviations).",
+      "The MCID for PHQ-9 is ~3-5 points. A difference of 2.1 points may be statistically significant but is BELOW the threshold for minimal clinically important difference. However, clinical significance cannot be judged from the coefficient alone — it needs the CI.",
+      "This would be the interpretation of an ODDS RATIO (OR) from logistic regression, not a linear regression coefficient."
+    ],
+    "teaching_point": "Interpreting regression coefficients — essential MRCPsych skill: UNSTANDARDISED COEFFICIENT (B): change in the outcome in ORIGINAL UNITS per 1-unit change in the predictor. STANDARDISED COEFFICIENT (β): change in the outcome in STANDARD DEVIATION UNITS per 1 SD change in predictor. Binary predictor (0/1): B = adjusted mean difference between groups. Continuous predictor: B = change in outcome per 1-unit increase. CONFIDENCE INTERVAL for B: if the 95% CI excludes 0, the coefficient is statistically significant at p < 0.05. For the treatment coefficient: 95% CI might be −3.8 to −0.4 (significant, excludes 0) or −4.2 to 0.2 (not significant, includes 0). R² = 0.32 means 32% of the variance in PHQ-9 at 12 weeks is explained by the model. Adjusted R² accounts for the number of predictors and is always slightly lower. INTERACTIONS: if an interaction term is significant (e.g., Treatment × CTQ), it means the treatment effect DIFFERS by level of childhood trauma.",
+    "domain": "critical_review",
+    "subdomain": "regression_interpretation",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Altman DG (1991) Practical Statistics; Field A (2018) Discovering Statistics; BMJ statistical notes",
+    "tags": ["regression", "beta_coefficient", "linear_regression", "adjusted_effect", "statistics"]
+  },
+  {
+    "stem": "Theme: Data Presentation and Graphical Interpretation\n\nMatch each description to the CORRECT type of plot or graph:\n\nA. Forest plot\nB. Funnel plot\nC. Galbraith (radial) plot\nD. L'Abbé plot\nE. Bland-Altman plot\nF. ROC curve\nG. Kaplan-Meier curve\nH. CEAC curve\nI. Fagan nomogram\nJ. L'Abbe plot",
+    "options": [" Diagnostic test comparing sensitivity vs 1-specificity at multiple cut-off values", " Shows the agreement between two measurement methods; y-axis = difference between methods, x-axis = mean of both methods", " Scatter plot of each study's effect size against its SE; asymmetry suggests publication bias", " Graph of effect size on x-axis and precision on y-axis, used to identify outliers contributing to heterogeneity in a meta-analysis"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "ROC CURVE (F). Receiver Operating Characteristic curve plots TRUE POSITIVE RATE (sensitivity) on the y-axis against FALSE POSITIVE RATE (1 − specificity) on the x-axis at various cut-off points. The diagonal line (AUC = 0.5) represents a test with NO discriminatory ability. AUC = area under the curve: 0.9-1.0 = excellent, 0.8-0.9 = good, 0.7-0.8 = fair, 0.6-0.7 = poor. The optimal cut-off is the point CLOSEST TO THE TOP LEFT CORNER (maximises sensitivity + specificity). ROC curves are used to: (1) Determine the best cut-off value; (2) Compare the performance of two tests (the one with the larger AUC is better).",
+      "BLAND-ALTMAN PLOT (E). Developed by Bland and Altman (1986) in a landmark Lancet paper. It is the STANDARD METHOD for assessing AGREEMENT between two measurement methods (or between two raters). The plot shows: y-axis = DIFFERENCE between the two measurements (Method A − Method B), x-axis = MEAN of the two measurements. The limits of agreement = mean difference ± 1.96 SD of the differences. If the limits are within clinically acceptable boundaries, the two methods can be used interchangeably. IMPORTANT: Correlation (Pearson's r) is NOT appropriate for assessing agreement — two methods can be highly correlated but systematically disagree (e.g., one always gives readings 10 units higher). Bland-Altman replaces the use of correlation for agreement studies.",
+      "FUNNEL PLOT (B). Effect size on x-axis (OR, RR, SMD), SE (or precision = 1/SE) on y-axis (INVERTED — larger studies at the top). Symmetry = no obvious publication bias. Asymmetry with a gap in the LOWER LEFT = small negative studies missing = publication bias. Egger's regression test provides a statistical test for asymmetry.",
+      "GALBRAITH (RADIAL) PLOT (C). z-score (effect/SE) on y-axis vs 1/SE on x-axis. The regression line should pass through the origin. Points OUTSIDE THE 95% CONFIDENCE BANDS (±2 units) are outliers contributing to HETEROGENEITY. The Galbraith plot is especially useful in meta-analyses with many studies to identify which specific studies contribute to heterogeneity. Points ABOVE the line = studies with larger than average effects; BELOW = smaller effects. L'ABBE PLOT (D) is for binary outcomes: event rate in treatment vs control group. If studies cluster around the diagonal, there is little treatment effect."
+    ],
+    "teaching_point": "Plot identification — MRCPsych Paper B EMI classic: ROC CURVE: sensitivity vs 1−specificity. FUNNEL PLOT: effect vs SE (publication bias). FOREST PLOT: individual study effects with CI. KAPLAN-MEIER: time-to-event (staircase). BLAND-ALTMAN: difference vs mean (agreement). GALBRAITH: z-score vs precision (heterogeneity). L'ABBÉ: treatment vs control event rates. CEAC (Cost-Effectiveness Acceptability Curve): probability cost-effective vs willingness-to-pay threshold. FAGAN NOMOGRAM: pre- to post-test probability using LR. The MRCPsych exam often includes a figure with no label and asks 'What type of plot is this?' — you must IDENTIFY the plot type AND interpret it.",
+    "domain": "critical_review",
+    "subdomain": "plot_identification",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Bland JM & Altman DG (1986) Statistical methods for assessing agreement between two methods of clinical measurement. Lancet",
+    "tags": ["ROC", "Bland-Altman", "funnel_plot", "Galbraith", "forest_plot", "EMI"]
+  },
+  {
+    "stem": "Theme: Health Economics\n\nFor each concept, match it to the correct definition:\n\nA. QALY (Quality-Adjusted Life Year)\nB. ICER (Incremental Cost-Effectiveness Ratio)\nC. CEAC (Cost-Effectiveness Acceptability Curve)\nD. Cost-utility analysis\nE. Cost-benefit analysis\nF. Cost-minimisation analysis\nG. Cost-effectiveness analysis\nH. Direct costs\nI. Indirect costs\nJ. Discounting",
+    "options": [" A curve showing the probability that an intervention is cost-effective at different willingness-to-pay thresholds", " A measure that combines years of life gained with quality of life; one year in perfect health = 1.0", " Costs expressed in monetary terms for both inputs and outcomes; outcomes measured in £", " An analysis that compares only the costs of two interventions assuming OUTCOMES ARE EQUIVALENT"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CEAC (C). The Cost-Effectiveness Acceptability Curve is produced from BOOTSTRAPPED estimates of incremental costs and effects. For each WTP threshold (x-axis: £ per QALY), it shows the PROPORTION of bootstrap replications in which the intervention is cost-effective (y-axis: 0-100%). NICE typically uses thresholds of £20,000-£30,000 per QALY. If the CEAC shows >80% probability at £30,000/QALY, the intervention is likely to be considered cost-effective.",
+      "QALY (A). One QALY = one year in PERFECT HEALTH. A year with utility 0.6 (moderate health) = 0.6 QALYs. Utility weights are derived from preference-based instruments (EQ-5D-5L, SF-6D, HUI-3). EQ-5D-5L measures 5 dimensions: mobility, self-care, usual activities, pain/discomfort, anxiety/depression. A QALY is the product of YEARS OF LIFE × UTILITY. QALYs allow comparison across different health conditions.",
+      "COST-BENEFIT ANALYSIS (CBA) (E). Both costs AND outcomes are expressed in MONETARY TERMS (£). Allows comparisons between health and non-health interventions (e.g., building a hospital vs a road). Difficulties: how to put a monetary value on health? Methods: willingness-to-pay (WTP), human capital approach, revealed preferences. Less commonly used in healthcare than cost-effectiveness.",
+      "COST-MINIMISATION ANALYSIS (F). The simplest economic evaluation. It assumes the two interventions have EQUIVALENT OUTCOMES and only compares COSTS. The cheapest option is preferred. Rarely appropriate in practice because outcomes are rarely truly equivalent. NICE prefers cost-utility analysis (CUA) which uses QALYs. Cost-effectiveness analysis (CEA) uses NATURAL units (e.g., cost per case of depression averted). Cost-utility analysis (CUA) uses QALYs. All four types of economic evaluation require both costs AND outcomes to be compared. Costs can be: DIRECT (healthcare resources), INDIRECT (productivity losses, informal care), INTANGIBLE (pain, suffering). Discounting = future costs and benefits are worth less than present ones (UK rate = 3.5% per year)."
+    ],
+    "teaching_point": "Health economics — practice for MRCPsych: (1) COST-MINIMISATION: outcomes equal, compare costs only. (2) COST-EFFECTIVENESS: outcomes in NATURAL UNITS (cost per depression-free day). (3) COST-UTILITY: outcomes in QALYs (cost per QALY gained) — preferred by NICE. (4) COST-BENEFIT: outcomes in MONETARY UNITS (cost per £ of benefit). NICE threshold: £20,000-30,000/QALY. ICER = (Cost_new − Cost_old) / (QALY_new − QALY_old). Sensitivity analysis: one-way (vary one parameter), probabilistic (vary all parameters with distributions), scenario (different assumptions). DISCOUNTING: applies to costs AND health effects occurring in the future at 3.5% per year (NICE). CEAC is increasingly common in Paper B questions — it requires interpretation of the curve at different thresholds.",
+    "domain": "critical_review",
+    "subdomain": "health_economics_EMI",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Drummond MF et al. (2015) Methods for the Economic Evaluation of Health Care Programmes; NICE Methods Guide (2022)",
+    "tags": ["CEAC", "QALY", "ICER", "cost-effectiveness", "economic_evaluation", "EMI"]
+  },
+  {
+    "stem": "A researcher unexpectedly finds that among 20 pre-specified subgroup analyses in an RCT of an antidepressant, one subgroup (females aged 18-25) shows a statistically significant benefit (p = 0.02) while the overall trial is negative (p = 0.12). The other 19 subgroups are not significant. The CORRECT conclusion is:",
+    "options": [" The antidepressant is effective in young women — this subgroup should be prescribed it", " This is ALMOST CERTAINLY A TYPE I ERROR due to multiple testing — the overall trial is negative, and the significant subgroup finding should be considered HYPOTHESIS-GENERATING only, pending replication", " The sample size was too small in other subgroups", " The researcher should publish this finding as it is clinically important", " A Bonferroni correction would make the finding more robust"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Not justified — the overall trial was negative. Subgroup findings cannot override the primary analysis.",
+      "CORRECT. This is a CLASSIC example of SUBGROUP FRAUD (or 'data dredging'). The RULES: (1) The OVERALL TRIAL RESULT is the primary analysis — if the overall result is not significant, subgroup findings are EXPLORATORY. (2) When 20 subgroups are tested, by chance alone ONE is expected to be 'significant' at p < 0.05 (5% of 20 = 1). (3) Subgroup analyses should be PRE-SPECIFIED and accounted for in the statistical analysis plan (with interaction tests). (4) The correct approach is to test the INTERACTION TERM (Treatment × Subgroup) — if the interaction is not significant (p > 0.05), the treatment effect does NOT differ significantly between subgroups. (5) Subgroup findings can GENUINE HYPOTHESES for future research. The CONSORT statement requires subgroup analyses to be pre-specified. Post-hoc subgroup analyses should be labelled as such. Clinicians should NOT change practice based on subgroup findings from a negative overall trial.",
+      "Sample size is not the primary issue — the problem is multiple testing.",
+      "Publishing this as a definitive finding would be irresponsible without acknowledging it as a post-hoc exploratory analysis from a negative trial.",
+      "Bonferroni correction (0.05/20 = 0.0025) would make p = 0.02 NOT significant. However, correction for multiple testing in subgroups is controversial because subgroups are CORRELATED (not independent). The interaction test is the CORRECT approach."
+    ],
+    "teaching_point": "Subgroup analyses — rules for interpretation (SUNSHINE PROTOCOL): S — Should be PRE-SPECIFIED (not post-hoc). U — Utilise interaction tests (Treatment × Subgroup interaction term). N — Number of subgroups should be limited. S — Supportive biological rationale. H — Hypothesis-generating only if overall trial negative. I — Interpret with caution. N — NOT change clinical practice based on subgroups alone from a single negative trial. E — Effect size should be examined (not just p-value). FURTHER KEY POINTS: (1) 'If you torture the data long enough, it will confess to anything' — R. Coase. (2) The more subgroups you test, the more likely you are to find a false positive. (3) Subgroup analyses are most credible when: they test a pre-specified hypothesis, show a large effect size, have a biologic rationale, demonstrate a dose-response gradient, and replicate in independent studies. (4) The 'GUIDE' rule: subgroups should be used for GUIDing (generating hypotheses), not for DECIDing (changing practice).",
+    "domain": "critical_review",
+    "subdomain": "subgroup_analyses",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Sun X et al. (2010) How to use a subgroup analysis. JAMA; CONSORT statement; Wang R et al. (2007) Statistics in subgroup analyses",
+    "tags": ["subgroup_analysis", "multiple_testing", "interaction", "type_I_error", "data_dredging"]
+  },
+  {
+    "stem": "A scale development study for a new 15-item depression screening tool reports a Cronbach's alpha of 0.94. Factor analysis shows a SINGLE factor (Eigenvalue 6.2) explaining 41% of variance, with a second factor (Eigenvalue 1.1) explaining 7%. The scree plot shows an inflection point at 2 factors. Which statement is MOST accurate?",
+    "options": [" The scale is unidimensional — it clearly measures one construct", " The alpha of 0.94 suggests some items may be REDUNDANT (high item overlap), and the second factor with Eigenvalue >1 suggests possible multidimensionality — further refinement may be needed", " The scale has poor internal consistency", " The factor analysis is unnecessary because alpha is high", " The scree plot suggests 3 factors should be retained"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The high alpha (0.94) and large first factor (Eigenvalue 6.2) suggest strong unidimensionality, BUT the second factor with Eigenvalue >1 (1.1) and the scree plot inflection point at 2 factors together suggest there MAY be a SECOND DIMENSION. This cannot be dismissed without further investigation.",
+      "CORRECT. This is a NUANCED finding: (1) Cronbach's alpha of 0.94 is HIGH — but alpha > 0.90 may indicate ITEM REDUNDANCY (too many items measuring the same narrow aspect, inflating internal consistency). Ideally, alpha should be between 0.70 and 0.90 for a clinical scale. (2) The first factor explains 41% of variance and has Eigenvalue 6.2 — strong. (3) BUT: the second factor has Eigenvalue 1.1 (using Kaiser's criterion — retain factors with Eigenvalue >1). The scree plot shows an inflection (elbow) at 2 factors. These findings suggest the scale MAY be MULTIDIMENSIONAL — there may be a second underlying construct (e.g., a separate 'somatic' factor alongside 'cognitive' depression). The researcher should: (a) Examine item loadings on each factor; (b) Consider whether items loading on Factor 2 form a clinically meaningful subscale; (c) Potentially remove items with cross-loadings or low loadings; (d) Confirm the factor structure in an independent sample using CONFIRMATORY FACTOR ANALYSIS (CFA).",
+      "Alpha 0.94 is EXCELLENT — the scale has high internal consistency. But very high alpha can be problematic.",
+      "Factor analysis is essential when developing a new scale — it examines the LATENT STRUCTURE. High alpha alone does not prove unidimensionality.",
+      "1 factor is when the eigenvalue drops below 1. Elbow at 2 means the drop from factor 1 to 2 is the largest. But factor 2 still has EV >1."
+    ],
+    "teaching_point": "Factor analysis and Cronbach's alpha — advanced psychometrics: EIGENVALUE: represents the amount of variance explained by each factor. Kaiser's criterion: retain factors with Eigenvalue >1. Scree plot: look for the 'elbow' (point of inflection). Parallel analysis: compares Eigenvalues to randomly generated data — more accurate than Kaiser's criterion. Factor LOADING: correlation between an item and a factor (≥0.4 = meaningful). CROSS-LOADING: item loads on multiple factors (≥0.3 on 2+ factors = problematic). Cronbach's alpha: (1) Acceptable: 0.70-0.90; (2) >0.90 = possible redundancy; (3) <0.70 = poor internal consistency. If alpha is too high (redundancy), items are too similar and the scale lacks breadth. If alpha is too low, items do not measure the same construct. For new scale development: (1) Item pool generation; (2) Exploratory Factor Analysis (EFA); (3) Confimatory Factor Analysis (CFA) in an independent sample; (4) Test-retest reliability; (5) Convergent and discriminant validity. COMMON FACTOR ANALYSIS vs PRINCIPAL COMPONENTS ANALYSIS (PCA): PCA is not true factor analysis — it is a data reduction method. EFA identifies latent constructs. CFA tests whether the data fit a pre-specified factor structure.",
+    "domain": "critical_review",
+    "subdomain": "psychometrics_advanced",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Streiner DL & Norman GR (2008) Health Measurement Scales; Nunnally JC & Bernstein IH (1994) Psychometric Theory; Costello AB & Osborne JW (2005) EFA",
+    "tags": ["Cronbach_alpha", "factor_analysis", "Eigenvalue", "scree_plot", "psychometrics", "reliability"]
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "stem": "According to Fazel and Danesh's landmark meta-analysis (2002), what is the approximate prevalence of psychotic illness among male prisoners in Western countries?",
+    "options": [" 1-2%", " 3-5%", " 7-10%", " 12-15%", " 20-25%"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "1-2% is the general population prevalence of psychotic disorders (1%). Prison rates are significantly higher.",
+      "CORRECT. Fazel and Danesh (2002, Lancet) conducted a systematic review of 62 surveys of 22,790 prisoners across 12 countries. They found: (1) PSYCHOTIC ILLNESS — 3.7% of male prisoners and 4.0% of female prisoners (approximately 3-5× higher than the general population); (2) MAJOR DEPRESSION — 10% of male prisoners and 12% of female prisoners; (3) PERSONALITY DISORDER — 65% of male prisoners and 42% of female prisoners (with antisocial PD being the most common). This was the landmark study demonstrating the high prevalence of mental illness in prisons. Subsequent studies have confirmed these figures, with some finding even higher rates in specific populations (remand prisoners, women, pre-release prisoners).",
+      "7-10% overestimates psychosis. The correct figure is ~3.7%.",
+      "12-15% is incorrect for psychosis.",
+      "20-25% is the prevalence of any personality disorder in the general population, not psychosis in prisoners."
+    ],
+    "teaching_point": "Psychiatric morbidity in prisons (Fazel & Danesh, 2002): Psychosis: men 3.7%, women 4.0%. Major depression: men 10%, women 12%. Personality disorder: men 65%, women 42% (ASPD ~47% of men). Suicide risk in prisoners: 5-6× higher than general population. Highest risk periods: first 24-48 hours of custody (acute intoxication, withdrawal, shock), pre-release, and post-release (reduced tolerance). Prisons in England and Wales: the Liaison and Diversion service aims to identify and divert people with mental health problems away from the criminal justice system into health services. NICE guidelines: provide mental health screening at reception into prison (validated tool).",
+    "domain": "forensic",
+    "subdomain": "prison_psychiatry",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Fazel S & Danesh J (2002) Serious mental disorder in 23,000 prisoners. Lancet",
+    "tags": ["prison", "psychosis", "prevalence", "Fazel_Danesh", "forensic"]
+  },
+  {
+    "stem": "A 30-year-old man with chronic schizophrenia is charged with assault after pushing a stranger in the street. He was acutely psychotic at the time, believing the man was a government agent trying to kill him. He is currently stable on clozapine in hospital, having been detained under Section 2 of the MHA 1983. Which of the following criminal court disposals would allow the court to order his detention in hospital for treatment under the MHA, bypassing the usual MHA assessment process?",
+    "options": [" Section 37 (Hospital Order)", " Section 41 (Restriction Order)", " Section 47/49 (Transfer from prison)", " Section 35 (Remand for report)", " Section 36 (Remand for treatment)"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Section 37 (Hospital Order) is a disposal by the Crown Court or Magistrates' Court authorising the detention of a mentally disordered offender in hospital for treatment. Requirements: (1) The person is convicted of an imprisonable offence (other than murder — which carries a mandatory life sentence); (2) The court is satisfied, on the evidence of TWO registered medical practitioners, that the person has a mental disorder of a nature or degree that makes detention in hospital appropriate; (3) The court considers that a Hospital Order is the most suitable disposal. It is equivalent to a Section 3 but made by the court. It lasts for up to 6 months, renewable. The responsible clinician can grant Section 17 leave and discharge, but certain restrictions apply.",
+      "Section 41 (Restriction Order) is ADDED to a Section 37 when the court considers it necessary to protect the public from serious harm. It restricts discharge, leave, and transfer — these require Ministry of Justice approval.",
+      "Section 47/49 is for PRISONERS already serving a sentence who develop mental disorder and require transfer to hospital for treatment. This patient is not in prison.",
+      "Section 35 (Remand for Report) is for an accused person (not yet convicted) to be remanded to hospital for a report on their mental condition. It does not confer treatment powers.",
+      "Section 36 (Remand for Treatment) is for a person awaiting trial or sentence who has mental disorder requiring treatment. It is rarely used."
+    ],
+    "teaching_point": "MHA sections relevant to forensic psychiatry: S35 — Remand for report (pre-trial). S36 — Remand for treatment (pre-trial). S37 — Hospital Order (post-conviction, equivalent to S3). S38 — Interim Hospital Order (pending final disposal). S41 — Restriction Order (added to S37 for public protection, requires MoJ consent for leave/transfer/discharge). S45A — Hybrid Order (Hospital Direction + prison sentence — the person is in hospital initially, then transferred to prison when treatment is no longer needed). S47/49 — Transfer from prison for mental health treatment. S48/49 — Transfer of unsentenced prisoners. The MHA and the criminal justice system: a person with mental disorder who has committed an offence can be diverted at any stage: (1) At arrest (police — S136); (2) At the police station (Liaison & Diversion); (3) At court (S35, S36, S37, S38); (4) In prison (S47/49).",
+    "domain": "forensic",
+    "subdomain": "MHA",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "MHA 1983 (as amended 2007); MHA Code of Practice (2015); RCPsych forensic curriculum",
+    "tags": ["Section_37", "Hospital_Order", "MHA", "forensic", "court_disposal"]
+  },
+  {
+    "stem": "A 42-year-old woman is charged with killing her 6-week-old baby. The evidence suggests she was experiencing a psychotic episode at the time, with command hallucinations telling her the baby was 'evil' and must be killed. She had no prior psychiatric history. What is the most appropriate special defence verdict in this case?",
+    "options": [" Diminished responsibility", " Infanticide", " Insanity (not guilty by reason of insanity — M'Naghten rules)", " Automatism", " Unfitness to plead"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Diminished responsibility (Section 52 Coroners and Justice Act 2009) is a partial defence to MURDER that reduces the charge to MANSLAUGHTER. It applies when: (1) The person suffered from an abnormality of mental functioning; (2) Arising from a recognised medical condition; (3) That substantially impaired their ability to understand the nature of their conduct/ exercise self-control/ form a rational judgment; (4) Which provides an explanation for the killing. This could apply, but INFANTICIDE is the more specific charge for a mother killing her infant child during the first 12 months post-partum.",
+      "CORRECT. Infanticide Act 1938 (as amended): A woman who causes the death of her child aged under 12 months may be charged with INFANTICIDE (not murder) if at the time of the killing the BALANCE OF HER MIND WAS DISTURBED due to the effects of GIVING BIRTH or LACTATION. It is a partial defence to murder, reducing it to a lesser charge. The maximum sentence for infanticide is equivalent to a hospital order or probation — the court has discretion. The infant must be under 12 months. The disturbance can include postpartum psychosis, postpartum depression, or puerperal psychosis. Infanticide is distinct from MURDER because the mother is not seen as fully responsible due to the effects of childbirth. D'Orban (1979) classified filicide: (1) Battering father (most common); (2) Maternal filicide — includes infanticide (psychotic), neonatal filicide (killing within 24h — often concealed pregnancy), accidental, retaliatory (against partner), unwanted child.",
+      "Insanity (M'Naghten Rules, 1843) is a full defence. The defendant must show that at the time of the act they were: (1) Labouring under a defect of reason from disease of the mind; (2) Did not know the nature and quality of the act; OR (3) Did not know it was wrong. If found NGRI, the defendant receives a Hospital Order (with restrictions). Infanticide is more appropriate here as it is specifically designed for this situation.",
+      "Automatism (non-insane) is a complete defence for involuntary acts (e.g., sleepwalking, hypoglycaemia, concussion). Not applicable to a planned psychotic act.",
+      "Fitness to plead (Pritchard criteria, 1836) assesses whether the defendant can: (1) Enter a plea; (2) Understand the court proceedings; (3) Instruct a solicitor; (4) Challenge a juror; (5) Follow the evidence. This is assessed before the trial. The patient likely CAN be treated (once stabilised on clozapine, she has recovered), and she would be found fit."
+    ],
+    "teaching_point": "Infanticide vs filicide vs neonaticide: INFANTICIDE — killing of an infant under 12 months by its mother (specific UK statute). FILICIDE — killing of a child by a parent (any age). NEONATICIDE — killing of a newborn within 24 hours of birth (often concealed pregnancy, single young women). D'Orban (1979) classified maternal filicide into 6 types: (1) Psychotic (present case); (2) Neonaticide (concealed pregnancy); (3) Accidental (battering); (4) Retaliatory (against partner); (5) Unwanted child; (6) Mercy killing. Infanticide is a SPECIFIC STATUTORY defence — it applies ONLY to the mother of a child under 12 months. It reflects the recognition that childbirth can cause significant disturbance of mind. It is NOT available to fathers or other carers. Infanticide is a sentencing disposal, not a mandatory medical disposal — the woman may receive a hospital order, probation, or non-custodial sentence.",
+    "domain": "forensic",
+    "subdomain": "offences",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Infanticide Act 1938; Homicide Act 1957; D'Orban PT (1979) Br J Psychiatry; MHA 1983",
+    "tags": ["infanticide", "filicide", "postpartum_psychosis", "diminished_responsibility", "M_Naghten"]
+  },
+  {
+    "stem": "According to research evidence, which of the following is the strongest predictor of future violent behaviour in an individual?",
+    "options": [" A diagnosis of schizophrenia", " A history of previous violence", " Substance misuse (alcohol/drugs)", " Male gender", " Low socioeconomic status"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Schizophrenia is associated with a SMALL increased risk of violence (OR ~1.5-3 compared to general population), but the absolute risk is low. The increased risk is largely mediated by comorbid substance misuse and poor treatment adherence. The strongest single predictor is a HISTORY OF PREVIOUS VIOLENCE.",
+      "CORRECT. A history of previous violence is the SINGLE STRONGEST PREDICTOR of future violence. This is a consistent finding across all research (e.g., Bonta et al., 1998; HCR-20 validation studies). The 'best predictor of future behaviour is past behaviour' applies to violence risk assessment. All violence risk assessment tools incorporate past violence: the HCR-20 (Historical Clinical Risk Management — 20 items) has 10 HISTORICAL items that are static risk factors (including history of violence, young age at first violent incident, relationship instability, employment problems, substance misuse, major mental illness, psychopathy, early maladjustment, personality disorder, prior supervision failure). The HCR-20 is the most widely used structured professional judgment (SPJ) tool for violence risk.",
+      "Substance misuse is a significant risk factor (OR ~3-4 for violence when intoxicated) and is a moderate predictor, but not as strong as past violence.",
+      "Male gender is a risk factor (males commit 80-90% of violent offences) but is not the STRONGEST individual predictor.",
+      "Low socioeconomic status is an epidemiological risk factor (poverty, social deprivation, unemployment) but is not a strong individual-level predictor."
+    ],
+    "teaching_point": "Violence risk assessment in psychiatry: STRUCTURED PROFESSIONAL JUDGMENT (SPJ) tools are preferred over actuarial tools. HCR-20 (Webster et al., 1997) — the most widely used: H (HISTORICAL) — 10 static items (past violence, age, relationships, employment, substance, mental illness, psychopathy, early maladjustment, PD, supervision failure). C (CLINICAL) — 5 dynamic items (insight, attitude, symptoms, impulsivity, treatment response). R (RISK MANAGEMENT) — 5 future-oriented items (feasibility of plans, support, stress, coping, safety). Other tools: PCL-R (Psychopathy Checklist-Revised — Hare) — measures psychopathy (Factor 1: interpersonal/affective; Factor 2: antisocial lifestyle). VRAG (Violence Risk Appraisal Guide) — actuarial. RSVP (Risk of Sexual Violence Protocol) — for sexual violence. Macarthur Risk Assessment Study (Monahan et al., 2001): in the community, the risk of violence from discharged psychiatric patients is similar to controls AFTER controlling for substance misuse. The key message: mental illness alone is a WEAK predictor of violence; substance misuse + non-adherence + past violence is a STRONGER predictor.",
+    "domain": "forensic",
+    "subdomain": "risk_assessment",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Webster CD et al. (1997) HCR-20; Bonta J et al. (1998) Predicting violent recidivism; Monahan J et al. (2001) MacArthur",
+    "tags": ["violence_risk", "HCR-20", "past_violence", "risk_assessment", "forensic_psychiatry"]
+  },
+  {
+    "stem": "A 35-year-old man with schizophrenia (well-controlled on medication) is referred for a psychiatric court report. He is charged with criminal damage after smashing a window during a psychotic episode. He has no previous convictions, no history of violence, and has been compliant with medication. A Hospital Order (Section 37) is being considered. Which of the following is TRUE regarding Section 37?",
+    "options": [" It can only be imposed with the patient's consent", " It lasts for up to 12 months before renewal", " The offender must be convicted of an imprisonable offence and have a mental disorder warranting detention in hospital", " It includes a Restriction Order (Section 41) by default", " The court must provide written reasons for the order"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Section 37 does not require the patient's consent (unlike informal admission). It is a Court Order for detention.",
+      "Section 37 lasts for up to 6 months (renewable — like Section 3). The first renewal is for 6 months, then 12 months, then yearly.",
+      "CORRECT. Section 37 Hospital Order requirements: (1) The person is CONVICTED of an IMPRISONABLE offence (or is found unfit to plead and has done the act); (2) The court has evidence from TWO doctors (one Section 12 approved) that the person has a mental disorder of a nature OR degree justifying detention; (3) The court considers a Hospital Order is the most suitable disposal (considering all circumstances, offence seriousness, and other available disposals); (4) The hospital (and RC) has agreed to admit the patient. S37 is the MENTAL HEALTH equivalent of a prison sentence — it is a restriction of liberty but in a hospital setting.",
+      "Section 41 (Restriction Order) is optional — it must be EXPLICITLY added by the Crown Court (not Magistrates' Court) when necessary to protect the public from serious harm. It is NOT automatic with S37.",
+      "Not true — written reasons are not a requirement for S37 (though they may be given). The court must hear oral evidence from the doctors."
+    ],
+    "teaching_point": "Disposals for mentally disordered offenders (Magistrates' Court vs Crown Court): MAGISTRATES' COURT: (1) Absolute/conditional discharge; (2) Fine; (3) Community order (with mental health treatment requirement); (4) Referral for diversion; (5) Section 37 (Hospital Order). CROWN COURT: (1) All the above; (2) Section 37 + Section 41 (Restriction Order with MoJ consent); (3) Section 45A (Hybrid Order — hospital direction + prison sentence); (4) Life sentence (for murder). Section 45A (Hybrid Order): the person starts in hospital under MHA, and when treatment is no longer necessary, they are transferred to prison to serve the remainder of the sentence. It provides both treatment and public protection.",
+    "domain": "forensic",
+    "subdomain": "court_disposals",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "MHA 1983 (as amended 2007); MHA Code of Practice (2015); Sentencing Council guidelines",
+    "tags": ["Section_37", "Hospital_Order", "court_disposal", "MHA", "forensic"]
+  },
+  {
+    "stem": "A 40-year-old man with a history of arson is being assessed by the forensic psychiatry team. He has an ICD-11 diagnosis of dissocial personality disorder (ASPD) and alcohol dependence. Which of the following characteristics is most strongly associated with arson?",
+    "options": [" Sexual arousal by fire", " Revenge against a specific person", " Financial gain through insurance fraud", " Combines alcohol misuse, antisocial personality disorder and/or learning disability", " Attention-seeking behaviour"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Sexual arousal by fire (pyromania — specifically 'fire-setting for sexual gratification') is relatively rare (accounts for <10% of arson). Most arsonists do NOT meet criteria for pyromania.",
+      "Revenge is a common motive but it is not the strongest epidemiological association.",
+      "Financial gain is a motive for some firesetting (insurance fraud) but is not the strongest psychiatric association.",
+      "CORRECT. Arsonists most commonly have: (1) ALCOHOL USE DISORDER (most common comorbidity — up to 50-70%); (2) ANTISOCIAL PERSONALITY DISORDER (up to 30-40%); (3) LEARNING DISABILITY (overrepresented). The typical profile of a person who commits arson is: male (90%), late 20s-30s, unemployed, with a history of alcohol misuse, impulsivity, and often a prior criminal record. Pyromania (recurrent fire-setting for pleasure/relief, with fascination with fire, NOT for revenge or financial gain) is a DIFFERENT diagnosis — it is extremely rare and accounts for only a small fraction of firesetting. Most firesetting is instrumental (for revenge, gain, or due to psychosis).",
+      "Attention-seeking is a superficial characterisation, not a research-supported association."
+    ],
+    "teaching_point": "Arson and psychiatric disorders: (1) PYROMANIA (ICD-11, DSM-5-TR) — recurrent fire-setting, tension/arousal before, pleasure/relief during, fascination with fire. NOT for revenge, financial gain, or delusions/hallucinations. VERY RARE. (2) SCHIZOPHRENIA — fire-setting due to delusions (e.g., paranoid) or command hallucinations. (3) ALCOHOL USE DISORDER — most common association (disinhibition, intoxication). (4) ASPD — instrumental fire-setting for gain/ revenge. (5) LEARNING DISABILITY — fire-setting may reflect impulsivity, poor understanding of consequences, or social rejection. (6) BIPOLAR DISORDER — during manic episodes (grandiose, disinhibited). Risk assessment for fire-setting: HCR-20, RSVP (Risk of Sexual Violence Protocol — includes firesetting). There is also a Specialist Risk Assessment for Firesetting. Recidivism: ~20-30% of arsonists reoffend. Treatment: CBT for fire-setting (e.g., the 'Firesetting Intervention Programme for Mentally Disordered Offenders' — FIP-MOD).",
+    "domain": "forensic",
+    "subdomain": "arson",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Brett A, Yakeley J et al. NICE evidence review; Doley R (2003) Fire-setting and pyromania; DSM-5-TR",
+    "tags": ["arson", "pyromania", "alcohol", "ASPD", "fire-setting"]
+  },
+  {
+    "stem": "The Penrose hypothesis (1939) states that there is an inverse relationship between:",
+    "options": [" The number of psychiatrists and the crime rate", " The number of mental health beds and the prison population", " The prevalence of psychosis and the quality of mental health services", " Alcohol consumption and rates of depression", " The use of community treatment orders and hospital admissions"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "No — Penrose specifically addressed beds and prisons.",
+      "CORRECT. The Penrose hypothesis (Lionel Penrose, 1939, British Journal of Medical Psychology) proposed that there is an INVERSE RELATIONSHIP between the number of psychiatric hospital beds and the prison population: as psychiatric bed numbers DECREASE, the prison population INCREASES, and vice versa. This is the 'transinstitutionalisation' or 'balloon effect' — the idea that people with mental illness who would have previously been in hospital are instead ending up in prison. Penrose analysed data from 18 European countries and found a strong negative correlation between the number of psychiatric beds and the number of prisoners. The hypothesis has been debated extensively. Recent evidence: England saw psychiatric bed numbers fall from ~150,000 in the 1950s to ~20,000 today, while the prison population rose from ~20,000 to ~85,000. Some argue that this reflects transinstitutionalisation; others argue that falling crime rates in some periods do not support a simple causal relationship. Regardless, the Penrose hypothesis is a classic concept in forensic psychiatry.",
+      "Not the Penrose hypothesis.",
+      "Not related.",
+      "Not related."
+    ],
+    "teaching_point": "Transinstitutionalisation: The shift of people with mental illness from psychiatric hospitals to other institutions (prisons, homeless shelters, nursing homes). Factors contributing to this trend: (1) Deinstitutionalisation — closure of large psychiatric hospitals without adequate community provision; (2) Underfunded community mental health services; (3) Low threshold for imprisonment for minor offences; (4) Lack of diversion services. The 'revolving door' phenomenon: patients discharged from hospital → decompensate in the community → re-admitted or imprisoned. Liaison and Diversion services (NHS England, 2014-present) aim to identify mental health problems in the criminal justice system and divert people away from custody into health services. The Bradley Report (2009) was a key policy document highlighting the over-representation of people with mental health problems in the criminal justice system.",
+    "domain": "forensic",
+    "subdomain": "penrose_hypothesis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Penrose L (1939) Mental disease and crime. Br J Med Psychol; Bradley Report (2009)",
+    "tags": ["Penrose", "transinstitutionalisation", "prison", "psychiatric_beds", "forensic"]
+  },
+  {
+    "stem": "A 28-year-old male prisoner sentenced to 8 years for robbery develops acute psychosis 2 weeks into his sentence. He is transferred to the prison healthcare wing. He has persecutory delusions and auditory hallucinations. He has no prior psychiatric history but used cannabis heavily before imprisonment. Which MHA section is most appropriate for authorising his assessment and treatment in hospital?",
+    "options": [" Section 2 (Assessment Order)", " Section 3 (Treatment Order)", " Section 47/49 (Transfer from prison to hospital)", " Section 48/49 (Transfer of unsentenced prisoners)", " Section 37 (Hospital Order)"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Section 2 is for assessment of people in the community or general hospitals — it cannot be used for prisoners.",
+      "Section 3 is for treatment of people in the community or general hospitals under the MHA — it also cannot be used for prisoners.",
+      "CORRECT. Section 47/49 of the MHA 1983 allows for the transfer of a SENTENCED PRISONER from prison to hospital for mental health treatment. Section 47 authorises the transfer; Section 49 applies restrictions equivalent to a Restriction Order. Requirements: (1) The prisoner is serving a sentence of imprisonment; (2) Two doctors (one Section 12 approved) confirm that the prisoner has a mental disorder requiring treatment; (3) The Secretary of State (via the Ministry of Justice) authorises the transfer. Once in hospital, the prisoner is treated under the MHA. If the patient recovers and no longer needs treatment, they are RETURNED TO PRISON to serve the remainder of their sentence. Sections 47/49 are the bridge between the criminal justice system and the mental health system for sentenced prisoners.",
+      "Section 48/49 is for UNSENTENCED prisoners (remand, awaiting trial/ sentence), not sentenced prisoners.",
+      "Section 37 is a Hospital Order made by a COURT at the time of sentencing — it cannot be used for someone already sentenced."
+    ],
+    "teaching_point": "MHA sections for prisoners: (1) SENTENCED prisoners — Section 47 (transfer) + Section 49 (restrictions). If they no longer need treatment, return to prison. (2) UNSENTENCED prisoners (remand) — Section 48 (transfer) + Section 49 (restrictions). If they no longer need treatment, return to prison to await trial. (3) If a serving prisoner requires hospital treatment and the sentence is short, they may be transferred to hospital under S47/49 and remain there until the end of the sentence. (4) If a Hospital Order is needed at SENTENCE, the court can impose Section 37 (+ Section 41 if needed). The Ministry of Justice (MoJ) is the approving authority for S47/49 transfers. The prison healthcare team and the forensic community team liaise closely to manage the transfer. Liaison & Diversion services can identify prisoners needing transfer at the earliest opportunity.",
+    "domain": "forensic",
+    "subdomain": "prisoner_transfer",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "MHA 1983; MHA Code of Practice (2015); NICE CG78 forensic psychiatry section",
+    "tags": ["Section_47", "prisoner_transfer", "MHA", "prison_psychiatry", "forensic"]
+  },
+  {
+    "stem": "Which of the following is the most appropriate structured professional judgement (SPJ) tool for assessing the risk of sexual violence in an individual?",
+    "options": [" HCR-20 (Historical Clinical Risk Management-20)", " PCL-R (Psychopathy Checklist-Revised)", " RSVP (Risk of Sexual Violence Protocol)", " VRAG (Violence Risk Appraisal Guide)", " SORAG (Sex Offender Risk Appraisal Guide)"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "HCR-20 is a GENERAL violence risk assessment tool (the most widely used SPJ tool). It covers violence broadly but is not specifically designed for SEXUAL violence. It can be used alongside the RSVP.",
+      "PCL-R (Hare, 1991) assesses PSYCHOPATHY (Factor 1 — interpersonal/affective; Factor 2 — antisocial lifestyle). It is a risk factor for general and violent reoffending but is NOT a comprehensive risk assessment tool. It measures one specific construct (psychopathy) that contributes to risk.",
+      "CORRECT. The RSVP (Hart et al., 2003) is a structured professional judgement tool specifically designed for assessing the risk of SEXUAL VIOLENCE. It has 22 items organised into 5 domains: (1) Sexual violence history; (2) Psychological adjustment (sexual deviance, cognitive distortions); (3) Mental disorder (paraphilias, personality disorder); (4) Social adjustment (intimacy problems, attitudes); (5) Manageability (treatment engagement, supervision, insight). It provides a structured framework for case formulation, risk scenario planning, and risk management. Unlike actuarial tools, it does not produce a numerical risk score — it guides professional judgment about the nature, severity, imminence, and likelihood of future sexual violence.",
+      "VRAG (Harris et al., 1993) is an ACTUARIAL tool for GENERAL violence risk (not specifically sexual). It uses 12 weighted static items to produce a numerical probability of violent recidivism. It is NOT an SPJ tool (no professional judgement component — it is purely actuarial).",
+      "SORAG (Quinsey et al., 1998) is an ACTUARIAL tool specifically for sexual offences. It is based on the VRAG. However, it is actuarial, NOT an SPJ tool. The RSVP is the preferred SPJ tool. NICE and the Department of Health recommend using SPJ tools (like the RSVP, HCR-20) rather than purely actuarial tools (VRAG, SORAG)."
+    ],
+    "teaching_point": "Risk assessment tools in forensic psychiatry: GENERAL VIOLENCE: (1) SPJ — HCR-20 (most common). (2) Actuarial — VRAG, Static-99 (static only). SEXUAL VIOLENCE: (1) SPJ — RSVP (recommended). (2) Actuarial — Risk Matrix 2000 (for sexual recidivism), Static-99R, SORAG. PSYCHOPATHY: PCL-R (psychopathy is a risk FACTOR, not a risk assessment tool per se). STALKING: The Stalking Risk Profile. FIRESETTING: FIP-MOD, Specialist Risk Assessment for Firesetting. SPJ tools are preferred over actuarial because they: (1) Allow for individualised case formulation; (2) Incorporate dynamic (changeable) risk factors; (3) Guide risk management and treatment planning; (4) Are more defensible in court (structured, transparent). All violence risk assessments must consider: (1) Nature (type of violence); (2) Severity (likely harm); (3) Frequency/ periodicity; (4) Imminence; (5) Likelihood. The DUNDRUM Toolkit (Kennedy et al.) assesses readiness for transfer through forensic mental health services (from high secure to community).",
+    "domain": "forensic",
+    "subdomain": "risk_assessment_tools",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Hart SD et al. (2003) RSVP; Webster CD et al. (1997) HCR-20; Hare RD (1991) PCL-R",
+    "tags": ["RSVP", "sexual_violence", "risk_assessment", "SORAG", "HCR-20"]
+  },
+  {
+    "stem": "A 22-year-old man with no prior psychiatric history is found not guilty by reason of insanity for assault. He was experiencing a first episode of paranoid psychosis at the time of the offence, believing his victim was a 'shape-shifting alien'. The court imposes a Hospital Order with Restrictions (Section 37/41). Under the M'Naghten Rules, what must the defence prove?",
+    "options": [" That the defendant was intoxicated at the time of the offence", " That the defendant had a mental disorder and was unable to control their actions due to irresistible impulse", " That the defendant was suffering from a DEFECT OF REASON from a DISEASE OF THE MIND such that they either did not know the NATURE AND QUALITY of their act OR did not know it was WRONG", " That the defendant's actions were involuntary automatism due to an external cause", " That the defendant was unfit to plead at the time of the trial"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Intoxication is not a defence under the M'Naghten rules. Voluntarily induced intoxication is generally not a defence in criminal law.",
+      "'Irresistible impulse' is NOT recognised under the M'Naghten Rules. The rules require a COGNITIVE defect (not knowing what you were doing or that it was wrong), not a VOLITIONAL defect (inability to resist an impulse). The McNaughton Rules are often criticised for not including volitional impairment. Some jurisdictions (US Model Penal Code) include volitional impairment, but M'Naghten does not. Scotland has a separate test (diminished responsibility).",
+      "CORRECT. The M'Naghten Rules (1843) establish the test for the INSANITY DEFENCE (not guilty by reason of insanity — 'special verdict' under the Criminal Procedure (Insanity and Unfitness to Plead) Act 1991). The defendant must prove, on the BALANCE OF PROBABILITIES (civil standard), that at the time of the act: (1) They were suffering from a DEFECT OF REASON; (2) Caused by a DISEASE OF THE MIND (a medical condition affecting the mind — includes mental illness, learning disability, dementia, epilepsy; excludes intoxication, sleepwalking, or external factors); (3) Resulting in failure to know the NATURE AND QUALITY of the act ('I didn't know what I was doing') OR that the act was WRONG ('I knew what I was doing but I didn't know it was wrong — a legal or moral wrong).",
+      "Automatism (non-insane) is a complete defence for INVOLUNTARY ACTS due to an EXTERNAL CAUSE (e.g., concussion, hypoglycaemia from insulin, anaesthetic, stroke). It is distinct from the INSANITY defence. If the automatism is due to an INTERNAL CAUSE (e.g., epilepsy, cerebral tumour, dementia), it falls under the INSANITY defence. This is the distinction between 'sane' automatism (external cause → complete acquittal) and 'insane' automatism (internal cause → special verdict of NGRI).",
+      "Unfitness to plead (Pritchard criteria) is assessed BEFORE the trial. It is not a defence."
+    ],
+    "teaching_point": "M'Naghten Rules — classic MRCPsych exam topic: The rules arose from Daniel M'Naghten's case (1843) — M'Naghten shot and killed a man he believed was part of a conspiracy against him. He was found 'not guilty on the grounds of insanity'. The House of Lords subsequently set down the rules. DEFECT OF REASON must be from a DISEASE OF THE MIND (an internal, medical condition). DISEASE OF THE MIND is a legal, not medical, definition — it includes: schizophrenia, bipolar disorder, depression with psychosis, learning disability, dementia, epilepsy (post-ictal), sleepwalking (technically a 'disorder of the mind' — R v Burgess 1991). It EXCLUDES: intoxication (voluntary), hypoglycaemia from insulin (external cause), concussion, post-traumatic stress disorder (in some cases). DISPOSAL for NGRI: the court MUST impose a Hospital Order (Section 37) with restrictions (Section 41) under the Criminal Procedure (Insanity and Unfitness to Plead) Act 1991. The court has NO DISCRETION — the NGRI verdict receives a mandatory Hospital Order.",
+    "domain": "forensic",
+    "subdomain": "insanity_defence",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "M'Naghten Rules (1843); R v Burgess (1991); Criminal Procedure (Insanity and Unfitness to Plead) Act 1991",
+    "tags": ["insanity", "M_Naghten", "disease_of_the_mind", "defect_of_reason", "forensic"]
+  }
+]

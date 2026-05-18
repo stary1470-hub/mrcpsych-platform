@@ -1,0 +1,182 @@
+[
+  {
+    "stem": "A 15-year-old girl presents with a 6-month history of severe restriction of food intake, intense fear of gaining weight, and distorted body image. Her BMI is 14.5 (below 3rd centile). She has amenorrhoea. Observations: HR 44 bpm, BP 88/55, Temp 35.8°C. ECG shows sinus bradycardia. What is the most appropriate immediate management?",
+    "options": [" Outpatient CBT-E (enhanced CBT for eating disorders)", " Fluoxetine 20mg daily", " Urgent admission to a paediatric or eating disorders unit for medical stabilisation", " Family therapy once weekly", " Increase caloric intake by 200kcal/day as an outpatient"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "CBT-E is an effective outpatient treatment for bulimia and less severe anorexia, but this patient has MEDICAL INSTABILITY requiring urgent admission. Medical instability criteria include: HR <50 bpm, BP <90/60, Temp <36°C, BMI <15, K+ <3.2, phosphate <0.8.",
+      "Fluoxetine is recommended for bulimia nervosa (60mg daily) but has limited evidence for anorexia in underweight patients. Weight restoration is the first priority. SSRIs are not effective in the underweight state (low tryptophan availability reduces serotonin synthesis).",
+      "CORRECT. This patient meets criteria for urgent medical admission: (1) BMI <15 (severe underweight); (2) HR <45 bpm (bradycardia); (3) BP <90/60; (4) Hypothermia. Refeeding syndrome risk is high. Management: (1) Medical admission to paediatric ward or specialist eating disorders unit; (2) MONITOR for refeeding syndrome (check phosphate, K+, Mg2+); (3) Slow, controlled refeeding (start at 500-800kcal/day, increase by 200kcal/1-2 days); (4) Daily ECG monitoring (QTc prolongation risk); (5) MARSIPAN guidelines: multidisciplinary assessment and management.",
+      "Family therapy (FBT — Family-Based Treatment) is the first-line psychological therapy for adolescent anorexia but it is an outpatient treatment after medical stabilisation.",
+      "Slow refeeding is appropriate but cannot be done safely as an outpatient given her severe bradycardia and hypotension."
+    ],
+    "teaching_point": "Anorexia nervosa — MARSIPAN (Medical Emergencies in Eating Disorders) guidelines: Admission criteria for young people: HR <50 bpm, BP <80/50, postural drop >20mmHg, BMI <13 (or rapid weight loss), K+ <3.0, PO4 <0.8, Mg <0.7, glucose <3.0, Temp <35°C, syncope, ECG abnormalities (QTc >450ms, bradycardia <45). REFEEDING SYNDROME: potentially fatal metabolic disturbance when malnourished patients are fed too quickly — characterised by hypophosphataemia, hypokalaemia, hypomagnesaemia, cardiac failure, seizures. Prevention: start refeeding at 500-800kcal/day, supplement phosphate/K+/Mg appropriately, monitor bloods daily.",
+    "domain": "child_adolescent",
+    "subdomain": "eating_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "MARSIPAN guidelines (RCPsych, 2014); NICE NG69: Eating disorders",
+    "tags": ["anorexia_nervosa", "admission_criteria", "MARSIPAN", "refeeding_syndrome", "adolescent"]
+  },
+  {
+    "stem": "A 16-year-old girl presents with binge eating and self-induced vomiting 3-4 times per week, occurring for the past 8 months. She is distressed by these behaviours. Her BMI is 23 (within normal range). She does not restrict her food intake between binges. What is the most likely diagnosis and first-line treatment?",
+    "options": [" Anorexia nervosa — binge-purge subtype — admit for medical stabilisation", " Bulimia nervosa — offer CBT-E (enhanced CBT) as first-line psychological treatment", " Bulimia nervosa — start fluoxetine 60mg daily", " Binge eating disorder — offer guided self-help CBT", " Atypical anorexia nervosa — offer family therapy"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "This patient has a normal BMI — she does not meet the 'significantly low weight' criterion for anorexia. The ICD-11 and DSM-5-TR now allow a diagnosis of anorexia without explicitly requiring low weight? No — DSM-5 still requires significantly low weight. ICD-11 dropped the requirement for 'significantly low body weight' in anorexia? Wait, ICD-11 has revised this — but for MRCPsych, the classic distinction is: AN = low weight + fear of weight gain + body image disturbance; BN = normal/overweight + binge-purge without low weight.",
+      "CORRECT. Bulimia nervosa: recurrent episodes of binge eating (eating a large amount of food with a sense of loss of control) AND recurrent inappropriate compensatory behaviours (vomiting, laxatives, fasting, excessive exercise), at least 1×/week for 3 months. Self-evaluation unduly influenced by body weight/shape. This patient has a normal BMI. NICE NG69: first-line treatment = CBT-E (enhanced CBT for eating disorders, 16-20 sessions). CBT-E is the most evidence-based psychological treatment for bulimia. Alternatively, IPT for eating disorders is a second-line option.",
+      "Fluoxetine 60mg daily IS recommended by NICE as an alternative to or in combination with CBT-E for bulimia (the ONLY pharmacological treatment for BN). However, NICE recommends CBT-E as first-line. Fluoxetine 60mg is second-line if CBT-E is declined or ineffective.",
+      "Binge eating disorder (BED) involves binge eating without compensatory behaviours. This patient has purging (vomiting), which excludes BED. BED first-line: guided self-help CBT.",
+      "This is not anorexia — her BMI is normal."
+    ],
+    "teaching_point": "Bulimia nervosa — key facts: Lifetime prevalence ~1-2%. Typical onset: late adolescence/early adulthood. More common in females (10:1). Recovery rate ~50% at 5-10 years, ~25% have chronic symptoms. Medical complications: electrolyte disturbance (K+ depletion leading to cardiac arrhythmias, renal impairment), hypokalaemic alkalosis, salivary gland hypertrophy, dental erosion (perimylolysis), Russell's sign (calluses on knuckles from self-induced vomiting), Mallory-Weiss tears, gastric/oesophageal rupture (rare but life-threatening). Treatment: NICE NG69 — first-line: CBT-E (16-20 sessions) OR fluoxetine 60mg. The combination of CBT + fluoxetine has modest benefit over monotherapy.",
+    "domain": "child_adolescent",
+    "subdomain": "eating_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG69: Eating disorders; DSM-5-TR; BMJ Best Practice (Bulimia nervosa)",
+    "tags": ["bulimia_nervosa", "CBT-E", "fluoxetine", "binge_purge", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 9-year-old boy is referred with a 2-year history of both motor and vocal tics. His motor tics include eye blinking, head jerking, and shoulder shrugging. His vocal tics include throat clearing, sniffing, and grunting. The tics occur many times a day (most days), wax and wane in severity, and have been present for more than a year since onset. He has no significant functional impairment at school. What is the most likely diagnosis?",
+    "options": [" Transient tic disorder", " Chronic motor or vocal tic disorder", " Tourette's disorder", " Obsessive-compulsive disorder", " Stereotypic movement disorder"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Transient tic disorder requires tics for <12 months. This child has had tics for 2 years.",
+      "Chronic tic disorder has EITHER motor OR vocal tics (but not both). This child has BOTH motor AND vocal tics, which meets criteria for Tourette's.",
+      "CORRECT. Tourette's disorder (DSM-5-TR) criteria: (1) Multiple motor tics AND one or more vocal tics (at some time during the illness, not necessarily concurrently); (2) Tics persist for >1 year since first tic onset; (3) Onset before age 18; (4) Not due to substances or other medical conditions. This child meets all criteria. Prevalence: 0.5-1% of school-age children. M:F 3-4:1. Peak severity: age 10-12. Most improve by late adolescence. Comorbidities: ADHD (50-60%), OCD (30-50%), anxiety, ASD. Phenomenology: tics are preceded by a premonitory urge (sensory phenomenon) that is temporarily relieved by the tic. Tics can be voluntarily suppressed for brief periods.",
+      "OCD involves obsessions (recurrent, intrusive thoughts/images/urges) and/or compulsions (repetitive behaviours/mental acts performed in response to obsessions). Not tics.",
+      "Stereotypic movement disorder involves repetitive, seemingly driven, non-functional motor behaviours (hand-flapping, rocking, body-rocking) — often seen in ASD or LD. Not tics."
+    ],
+    "teaching_point": "Tic disorders — classification: (1) Tourette's disorder: multiple motor + at least one vocal tic, >1 year. (2) Chronic motor/vocal tic disorder: either motor OR vocal tics, >1 year. (3) Transient tic disorder: motor and/or vocal tics, <1 year. (4) Substance-induced tic disorder. Natural history: onset age 4-6, peak 10-12, 60-80% improve by age 20. Worsening factors: stress, excitement, fatigue, caffeine, stimulants. Treatment: NICE CG: psychoeducation first — tics are not harmful, most improve. If impairing: (1) Habit reversal therapy (HRT) or CBT (exposure + response prevention for tics); (2) Pharmacological: clonidine (alpha-2 agonist, first-line), atomoxetine (if ADHD comorbid), risperidone or aripiprazole (for severe tics — but carry metabolic side effects).",
+    "domain": "child_adolescent",
+    "subdomain": "tic_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "DSM-5-TR; NICE CG: Tics and Tourette's (2024)",
+    "tags": ["Tourette", "tic_disorder", "motor_tics", "vocal_tics", "diagnosis"]
+  },
+  {
+    "stem": "A 12-year-old boy with Tourette's disorder and ADHD (combined presentation) has significant functional impairment at school due to both his tics and his inattention/hyperactivity. His tics are worsened by stress. He has tried behavioural therapy (habit reversal) with partial improvement. What is the most appropriate first-line pharmacological treatment?",
+    "options": [" Methylphenidate MR 18mg daily", " Risperidone 0.5mg daily", " Clonidine 50mcg BD", " Atomoxetine 40mg daily", " Fluoxetine 20mg daily"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Methylphenidate is first-line for ADHD but can WORSEN tics (though this is less common than previously thought — the CATS study showed methylphenidate and clonidine BOTH improved tics and ADHD. Some children with tics experience worsening with stimulants. Clonidine treats both conditions.",
+      "Risperidone is effective for tics but does NOT treat ADHD — it may worsen attention due to sedation. It should be reserved for severe, refractory tics. It also carries metabolic side effects.",
+      "CORRECT. Clonidine (an alpha-2 adrenergic agonist) is the most appropriate first-line treatment because: (1) It treats BOTH tics (reduces tic severity by ~30-40%) and ADHD (improves hyperactivity, impulsivity, and attention); (2) It is first-line pharmacological treatment for Tourette's per NICE; (3) It can be combined with stimulant if needed; (4) Side effects: sedation (common but often transient), dry mouth, postural hypotension. Alternative: guanfacine XR (another alpha-2 agonist, longer-acting, once daily, FDA-approved for ADHD + tics, less sedating). Starting dose: clonidine 25-50mcg BD, titrate to 100-200mcg daily in divided doses.",
+      "Atomoxetine (SNRI) is effective for ADHD but NOT for tics. Some evidence suggests it may have a neutral effect on tics. It is an alternative if stimulants and clonidine are not tolerated.",
+      "Fluoxetine treats OCD and depression but does not treat ADHD or tics."
+    ],
+    "teaching_point": "ADHD + Tourette's comorbidity: 50-60% of Tourette's patients have ADHD. Treatment selection: (1) If both conditions are impairing: start with clonidine or guanfacine (treat both). (2) If ADHD remains impairing: can add stimulant (methylphenidate) to alpha-agonist. (3) If tics remain impairing: can add antipsychotic (aripiprazole preferred over risperidone for metabolic profile). Avoid: dexamfetamine (higher risk of tic exacerbation than methylphenidate). The CATS study (Tourette Syndrome Study Group, 2002) showed clonidine alone and methylphenidate alone each improved ADHD and tics; the combination was most effective. Behavioural treatments: HRT and CBIT (Comprehensive Behavioural Intervention for Tics) are effective and should be offered before or alongside medication.",
+    "domain": "child_adolescent",
+    "subdomain": "tic_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG: Tics and Tourette's (updated 2024); CATS study (2002); BNFc",
+    "tags": ["Tourette", "ADHD", "clonidine", "treatment", "comorbidity"]
+  },
+  {
+    "stem": "A 13-year-old boy is referred because he has been refusing to attend school for the past 6 weeks. He complains of headaches and stomach-aches on school mornings which resolve if he stays home. He attends a mainstream secondary school, has good academic performance, and is generally well-liked by peers. He denies bullying. His parents are supportive but frustrated. He does not have any other mental health symptoms. What is the most likely diagnosis and first-line management?",
+    "options": [" School refusal due to separation anxiety — gradual graded exposure to school attendance", " Truancy — disciplinary action by the school", " Social anxiety disorder — refer for CBT", " Depression with somatic symptoms — start fluoxetine", " Malingering — suggest consequences for missing school"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. School refusal (emotionally-based school avoidance) is distinguished from truancy by: (1) The child stays at home with parental knowledge (vs truancy where the child is away from both home and school); (2) The child has emotional distress about attending school (somatic symptoms, anxiety); (3) The child wants to attend but 'cannot'. This child has somatic symptoms, no behavioural problems, and parents are aware. Management: (1) Multi-agency approach (school, CAMHS, education welfare); (2) Identify and address anxiety triggers; (3) GRADED GRADUAL EXPOSURE (start with an hour, build up); (4) Treat any underlying anxiety/depression; (5) Education about the importance of early return to school. Prolonged absence worsens prognosis. School refusal peaks at age 5-6 and 11-14 (transition points).",
+      "Truancy involves sneaking away from school/home without parental knowledge, often with antisocial behaviour. This child is staying at home with parents' knowledge and is distressed — not truancy.",
+      "Social anxiety disorder is a possible underlying cause if there are specific fears about social scrutiny (but the child denies bullying and has good peer relationships). The first-line management of school refusal is graded return to school, not specific CBT for social anxiety (unless that is the identified cause).",
+      "There are no depressive symptoms described — somatic symptoms are temporally linked to school attendance and resolve at home. This is more consistent with school refusal than depression.",
+      "Malingering would involve conscious feigning of symptoms for external gain. The child's symptoms are genuine (distress about attending school), not fabricated. Suggesting consequences would be counter-productive."
+    ],
+    "teaching_point": "School refusal vs truancy: SCHOOL REFUSAL: Child stays home with parents, wants to attend but can't (anxiety-driven), good academic performance, somatic symptoms, no antisocial behaviour. TRUANCY: Child is away from home/school without parents' knowledge, lacks anxiety about school, often has conduct problems, poor academic performance. Treatment for school refusal: (1) Early return is essential; (2) Graded exposure; (3) Address underlying anxiety (CBT, family therapy); (4) School-based support (pastoral care, reduced timetable initially, named key worker); (5) Consider antidepressant if anxiety/depression is severe. Prognosis: good with early intervention; worse if prolonged (>1 year).",
+    "domain": "child_adolescent",
+    "subdomain": "school_refusal",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE guidelines on anxiety in children; Thambirajah MS (2008) School refusal",
+    "tags": ["school_refusal", "truancy", "anxiety", "graded_exposure", "child"]
+  },
+  {
+    "stem": "A 4-year-old boy with global developmental delay and a happy, sociable demeanour is referred for genetic assessment. He has dysmorphic features including brachycephaly, flat facial profile, upslanting palpebral fissures, and a protruding tongue. He has hypotonia and a single palmar crease. What is the most likely genetic diagnosis and associated psychiatric risk?",
+    "options": [" Fragile X syndrome — risk of ADHD and autism", " Rett syndrome — risk of ASD and self-injury", " Down syndrome — risk of dementia (Alzheimer's type) from age 40+ and depression", " Prader-Willi syndrome — risk of hyperphagia and OCD", " Williams syndrome — risk of anxiety and ADHD"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Fragile X presents with macrocephaly (not brachycephaly), long face, large ears, and prominent jaw. The sociable personality is more typical of Williams syndrome, not Fragile X.",
+      "Rett syndrome almost exclusively affects girls (MECP2 gene), presents with normal development then regression at 6-18 months with loss of language, hand-wringing, and deceleration of head growth.",
+      "CORRECT. Down syndrome (trisomy 21) — the most common chromosomal disorder (1 in 700-1000 live births). Physical features: brachycephaly, flat facial profile, upslanting palpebral fissures, epicanthal folds, protruding tongue, hypotonia, single transverse palmar crease, sandal gap. Intellectual disability: mild-moderate (IQ 40-70). Psychiatric comorbidities: Alzheimer's dementia (by age 40: 50% have neuropathological changes; by age 60: 70% have dementia), depression, ADHD, ASD (~15%), OCD movements. Medical: congenital heart disease (AVSD), hearing loss, visual problems, thyroid disease, coeliac disease, atlantoaxial instability. Mosaicism: associated with higher IQ.",
+      "Prader-Willi syndrome presents with infantile hypotonia/poor feeding → hyperphagia/obesity from age 2-4, narrow bifrontal diameter, almond-shaped eyes, hypogonadism. Not consistent with the described facial features.",
+      "Williams syndrome (7q11.23 deletion) presents with elfin facies, hoarse voice, cardiovascular disease (supravalvular aortic stenosis), and a 'cocktail party' personality (overly friendly, loquacious). Not consistent with down-slanting palpebral fissures and macrocephaly."
+    ],
+    "teaching_point": "Genetic syndromes and psychiatric associations — high-yield for MRCPsych: Down (trisomy 21: AD dementia, depression). Fragile X (FMR1: ADHD, ASD, anxiety). Rett (MECP2: regression, hand-wringing, epilepsy). Prader-Willi (15q11-13 paternal deletion: hyperphagia, OCD, psychosis). Angelman (15q11-13 maternal deletion: happy puppet, ataxia, severe LD). Williams (7q11.23 deletion: overly friendly, anxiety, ADHD). VCFS/DiGeorge (22q11.2: psychosis risk ~30%, schizotypal). Smith-Magenis (17p11.2: self-hugging, insomnia, aggressive behaviour). Lesch-Nyhan (HGPRT deficiency: self-injury, gout). Tuberous sclerosis (TSC1/2: seizures, autism, intellectual disability). Neurofibromatosis (NF1: ADHD, learning difficulties, optic glioma).",
+    "domain": "child_adolescent",
+    "subdomain": "genetic_syndromes",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Down syndrome — DSM-5-TR; NICE guidelines on learning disability; Strydom A et al. (2010) Down syndrome and dementia",
+    "tags": ["Down_syndrome", "trisomy_21", "genetic_syndrome", "intellectual_disability", "Alzheimer"]
+  },
+  {
+    "stem": "An 8-year-old girl with severe learning disability presents to the paediatric clinic. She was born after a normal pregnancy and delivery and developed normally until age 18 months, when she began losing previously acquired skills. She lost her spoken language, developed repetitive hand-wringing movements, and her head growth decelerated. She now has severe intellectual disability, epilepsy, and scoliosis. What is the most likely diagnosis?",
+    "options": [" Autism spectrum disorder with regression", " Rett syndrome", " Childhood disintegrative disorder (Heller syndrome)", " Landau-Kleffner syndrome", " Tuberous sclerosis complex"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "ASD can involve regression (loss of language and social skills, typically around 18-24 months) in 20-30% of cases, but it does not include the specific features of decelerating head growth, hand-wringing stereotypies, or the characteristic neurological regression of Rett syndrome.",
+      "CORRECT. Rett syndrome is an X-linked dominant neurodevelopmental disorder caused by mutations in the MECP2 gene (methyl-CpG-binding protein 2), almost exclusively affecting females (males die in utero). Diagnostic criteria: (1) Normal prenatal and perinatal period; (2) Normal development for first 6-18 months; (3) Then REGRESSION with loss of purposeful hand skills and spoken language; (4) Hand stereotypies (hand-wringing, washing, clapping); (5) Deceleration of head growth (acquired microcephaly); (6) Gait abnormalities (ataxia, apraxia). Associated: severe ID, epilepsy (80%), scoliosis, breathing irregularities (hyperventilation, apnoea), sleep disturbance. Management: multi-disciplinary, symptomatic (epilepsy, scoliosis, nutrition, physiotherapy).",
+      "Childhood disintegrative disorder (Heller syndrome): normal development for at least 2 years (usually 3-4 years), then significant loss of skills in at least 2 areas (language, social, motor, bowel/bladder). It is now included under ASD in DSM-5-TR. It does not include the specific hand-wringing or decelerating head growth characteristic of Rett.",
+      "Landau-Kleffner syndrome (acquired epileptic aphasia): a childhood epilepsy syndrome with language regression associated with EEG abnormalities (continuous spike-wave during sleep). Onset: age 3-7. No deceleration of head growth or hand stereotypies.",
+      "Tuberous sclerosis (TSC) presents with seizures (infantile spasms), facial angiofibromas (adenoma sebaceum), hypomelanotic macules ('ash leaf' spots), cortical tubers, subependymal nodules, and cardiac rhabdomyomas. ASD and ID are common. Regression is not a classic feature."
+    ],
+    "teaching_point": "Rett syndrome — key facts for MRCPsych: Prevalence ~1 in 10,000-15,000 females. MECP2 mutation causes abnormalities in the MeCP2 protein (transcriptional regulator). Stages: Stage I (6-18 months) — developmental stagnation; Stage II (1-4 years) — rapid regression; Stage III (2-10 years) — plateau with severe ID, seizures, hand stereotypies; Stage IV (10+ years) — motor deterioration, scoliosis, rigidity, autonomic instability. Life expectancy: reduced but many survive to adulthood (mean survival ~50 years). Psychiatric features: autistic-like features, anxiety, sleep disturbance, self-injury. No cure. Treatment: multidisciplinary care, anti-epileptics, scoliosis surgery, supportive therapies. Note: the MECP2 gene is also implicated in some cases of ASD, intellectual disability, and neuropsychiatric disorders.",
+    "domain": "child_adolescent",
+    "subdomain": "genetic_syndromes",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "DSM-5-TR; Rett syndrome — Neul JL et al. (2010) Rett syndrome clinical criteria; NICE",
+    "tags": ["Rett_syndrome", "MECP2", "regression", "hand_wringing", "genetic_disorder"]
+  },
+  {
+    "stem": "An 8-year-old boy has been hearing his mother's voice calling his name when she is not at home. He also sees shadows in his room at night which he finds frightening. These occur around bedtime and when he is alone. He has full insight that these experiences are not real. His mood, behaviour, and school performance are normal. His developmental history is unremarkable. There is no family history of psychosis. What is the most likely explanation?",
+    "options": [" Early-onset schizophrenia", " Psychosis not otherwise specified", " Normal developmental hallucinatory phenomena (pseudohallucinations)", " Complex partial seizures", " Post-traumatic stress disorder"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Early-onset schizophrenia is rare before age 12 (very early-onset schizophrenia is <1% of all schizophrenia). It requires multiple psychotic symptoms (delusions, hallucinations, disorganised speech) with functional decline. This child has isolated, brief, developmentally appropriate hallucinations with full insight and no functional impairment.",
+      "A diagnosis of psychosis requires significant distress, functional impairment, and multiple symptom domains. This does not apply here.",
+      "CORRECT. Transient hallucinatory phenomena are COMMON in children, especially between ages 3-8. Prevalence: 8-15% of children report hallucinatory experiences at some point. These are typically: (1) Brief; (2) Occur in specific contexts (bedtime, alone); (3) Benign content (hearing name called, seeing shadows); (4) Full insight that they are not real; (5) No distress or functional impairment; (6) No other psychotic symptoms; (7) No prodromal features. These are NOT pathological and do not predict psychosis. Management: (1) Reassurance; (2) Normalise the experience; (3) Address any associated anxiety; (4) Monitor for warning signs (functional decline, bizarre content, lack of insight, mood symptoms). Referral to CAMHS is only needed if there is significant distress, impairment, or other concerns.",
+      "Complex partial seizures would present with stereotyped episodes, alteration of consciousness, automatisms, and post-ictal confusion — not isolated hallucinations.",
+      "PTSD would require exposure to a traumatic event with re-experiencing symptoms, avoidance, negative mood, and hyperarousal. None are described."
+    ],
+    "teaching_point": "Hallucinations in children: Benign/ developmental hallucinations: peak age 5-8, prevalence 8-15%, simple content (seeing shadows/figures, hearing name called), occur at transitions (bedtime, alone), full insight, no impairment, no other psychotic symptoms. Usually resolve spontaneously. Risk factors for persistence/psychosis: age at onset (>12), frequency, content (bizarre/command), lack of insight, associated mood disturbance, family history of psychosis, functional decline. The 'at-risk mental state' (ARMS) or ultra-high risk (UHR) for psychosis: (1) Attenuated psychotic symptoms; (2) Brief limited intermittent psychotic symptoms (BLIPS); (3) Genetic risk + functional decline. CAMHS referral indicated if: persistent (>1 month), distressing, impairing, worsening, or multiple psychotic features.",
+    "domain": "child_adolescent",
+    "subdomain": "developmental_phenomena",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "DSM-5-TR; Kelleher I et al. (2012) Hallucinations in children: systematic review",
+    "tags": ["hallucinations", "child", "pseudohallucinations", "benign", "development"]
+  },
+  {
+    "stem": "An 11-year-old girl presents with a 5-month history of excessive worry about her academic performance, her health, and whether her parents are safe when they are away from her. She has difficulty falling asleep (worrying at night), complains of headaches and stomach-aches most mornings, and has been irritable. She has started refusing to go to school on some days. Physical examination and baseline investigations are normal. What is the most likely diagnosis and first-line treatment?",
+    "options": [" Separation anxiety disorder — refer for parent-child psychotherapy", " Generalised anxiety disorder — offer CBT adapted for children", " Social anxiety disorder — offer group CBT", " Panic disorder — offer SSRI", " Illness anxiety disorder — refer for CBT"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Separation anxiety disorder involves excessive fear/anxiety about separation from attachment figures, with specific fears about harm befalling the attachment figure or oneself. This has some features (worry about parents' safety), but the worries are broader (academic, health) and are more consistent with GAD.",
+      "CORRECT. Generalised anxiety disorder (GAD) in children: excessive anxiety and worry about multiple domains (academic, health, family safety), occurring more days than not for ≥6 months. Associated symptoms: restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbance. In children, only ONE associated symptom is required (vs three for adults). The worry is difficult to control and causes functional impairment. Prevalence: ~2-5% of children. Mean age of onset: 10-14. Treatment (NICE CG): Step 1 — psychoeducation and guided self-help. Step 2 — CBT for anxiety (individual or group). Step 3 — CBT + consider SSRI (fluoxetine or sertraline) if moderate-severe or CBT not effective.",
+      "Social anxiety involves fear of social situations where the child may be scrutinised (speaking in class, meeting new people, eating in public). This child's worries are about academic performance, health, and family safety — more generalised.",
+      "Panic disorder: recurrent, unexpected panic attacks with persistent fear of additional attacks. No panic attacks described.",
+      "Illness anxiety (hypochondriasis) involves preoccupation with having a serious medical illness despite normal investigations. This child worries about multiple domains, not just health."
+    ],
+    "teaching_point": "Anxiety disorders in children — key differences from adult presentations: (1) Children may not recognise their worry as excessive; (2) Present with somatic symptoms (headaches, stomach-aches) more than verbal expression of worry; (3) Irritability is common; (4) School refusal is a common consequence; (5) GAD requires only 1 associated symptom (vs 3 for adults). Prevalence: anxiety disorders affect 5-10% of children — the most common mental health condition in childhood. NICE stepped care: Step 1 — Identification and assessment. Step 2 — Psychoeducation, guided self-help, school support. Step 3 — CBT (individual or group). Step 4 — CBT + SSRI (fluoxetine or sertraline) for moderate-severe anxiety. Sertraline is preferred for anxiety in younger children.",
+    "domain": "child_adolescent",
+    "subdomain": "anxiety",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG159: Anxiety disorders in children and young people; DSM-5-TR",
+    "tags": ["GAD", "anxiety", "child", "CBT", "NICE_guidelines"]
+  }
+]

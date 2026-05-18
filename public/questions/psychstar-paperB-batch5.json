@@ -1,0 +1,202 @@
+[
+  {
+    "stem": "A 45-year-old man with a 20-year history of alcohol dependence presents for detoxification. He drinks approximately 20 units of alcohol daily. Past medical history includes hypertension, type 2 diabetes, and a DVT 3 years ago. LFTs: ALT 65, GGT 120. His AUDIT score is 28. Which of the following is the most appropriate pharmacological regimen for his alcohol detoxification?",
+    "options": [" Chlordiazepoxide 30mg QDS reducing regimen over 5-7 days, plus thiamine 100mg TDS", " Diazepam 10mg TDS fixed dose for 2 weeks", " Lorazepam 2mg QDS as needed", " Acamprosate 666mg TDS", " Naltrexone 50mg daily"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE CG115 recommends: for alcohol detoxification, offer a benzodiazepine (chlordiazepoxide is the most commonly used in the UK) in a reducing regimen over 5-7 days. Chlordiazepoxide has a long half-life (24-48 hours) which provides a smooth withdrawal and reduces seizure risk. Starting dose depends on severity of dependence (typically 20-40mg QDS for severe dependence). PLUS Pabrinex (IV thiamine) for those at risk of Wernicke-Korsakoff syndrome (heavy drinking, poor nutrition, abnormal LFTs). Thiamine 100mg TDS orally is insufficient for prophylaxis — IV Pabrinex (one pair BD for 3-5 days) is needed in this patient (elevated GGT, heavy drinker).",
+      "Diazepam is also used but has a very long half-life (up to 100 hours for active metabolites) which can accumulate, especially in elderly or liver-impaired patients. A 2-week course is too long — standard detox is 5-7 days.",
+      "PRN (as-needed) benzodiazepine regimens are NOT recommended for alcohol detoxification because they: (1) Do not prevent seizures effectively; (2) Can lead to under- or overdosing; (3) Do not provide a predictable blood level; (4) Fixed-dose reducing regimens are the gold standard (NICE CG115).",
+      "Acamprosate is for relapse prevention, not acute detoxification. It should be started after detox is complete.",
+      "Naltrexone is for relapse prevention (reduces craving and drinking days), not for detoxification. It is an opioid receptor antagonist."
+    ],
+    "teaching_point": "Alcohol detoxification (NICE CG115): (1) Assess severity — AUDIT (10-item, max 40, >20 = dependent), SADQ (Severity of Alcohol Dependence Questionnaire), CIWA-Ar (Clinical Institute Withdrawal Assessment — for monitoring symptoms). (2) Setting: community detox if SADQ <30, no history of seizures/DTs, good support. Inpatient: SADQ >30, history of seizures/DTs, acute medical/psychiatric comorbidity, poor social support. (3) Pharmacotherapy: chlordiazepoxide reducing regimen over 5-7 days (long half-life benzodiazepine). Alternative: lorazepam/oxazepam in liver impairment (short-acting, no active metabolites). (4) Thiamine: IV Pabrinex (one pair BD for 3-5 days) for Wernicke-Korsakoff prophylaxis in high-risk patients. (5) Monitoring: CIWA-Ar every 2-4 hours. (6) Seizure risk: highest at 24-48 hours. DTs (delirium tremens): peak at 72-96 hours — medical emergency (mortality ~5%).",
+    "domain": "substance_misuse",
+    "subdomain": "alcohol",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG115: Alcohol dependence; BNF; Ewusie JE et al. (2023) Cochrane review of alcohol detoxification",
+    "tags": ["alcohol", "detoxification", "chlordiazepoxide", "thiamine", "Wernicke_Korsakoff"]
+  },
+  {
+    "stem": "A 52-year-old man who is a heavy drinker (25 units/day) is admitted for community detoxification. On day 3 of his chlordiazepoxide reducing regimen, he becomes confused, agitated, and tremulous. He reports seeing insects crawling on the walls. Observations: HR 115, BP 155/95, Temp 37.8°C, SpO2 97%. He is disoriented to time and place. What is the most likely diagnosis and management?",
+    "options": [" Alcohol intoxication — reassure and monitor", " Alcohol withdrawal hallucinosis — add olanzapine 5mg", " Delirium tremens — increase chlordiazepoxide dose and consider admission for medical management", " Wernicke's encephalopathy — give IV Pabrinex immediately and send to MRI", " Alcoholic hallucinosis — start haloperidol 5mg IM"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "This is severe withdrawal, not intoxication. The patient is on day 3 of detox, which is the peak period for complicated withdrawal.",
+      "Alcohol withdrawal hallucinosis involves isolated hallucinations (usually auditory) with clear consciousness. This patient has confusion and disorientation — this is DELIRIUM TREMENS, not simple hallucinosis.",
+      "CORRECT. Delirium tremens (DTs) is a medical emergency with mortality ~5%. Features: (1) Develops 48-96 hours after last drink (peak day 3-4); (2) CONFUSION and fluctuating consciousness (key difference from hallucinosis); (3) Visual, tactile, and auditory hallucinations (typically frightening — insects, animals); (4) Autonomic hyperactivity (tachycardia, hypertension, fever); (5) Tremor, agitation. Management: (1) ADMIT for medical management (HDU/ICU may be needed); (2) High-dose benzodiazepines (diazepam 10-20mg IV every 10-15 min until sedation — 'front-loading'); (3) IV Pabrinex; (4) Correct electrolyte abnormalities; (5) Monitor for complications (seizures, arrhythmias, aspiration); (6) Consider antipsychotic (haloperidol) only for severe agitation (caution with QTc). This patient is already on a chlordiazepoxide regimen but is developing DTs — the dose was insufficient.",
+      "Wernicke's encephalopathy: acute confusion, ataxia, ophthalmoplegia (nystagmus). This patient does not have ataxia or eye signs. Both conditions can coexist.",
+      "Alcoholic hallucinosis: hallucinations (usually auditory, persecutory) in CLEAR consciousness — this patient is confused. Antipsychotics are not first-line for DTs — BENZODIAZEPINES are."
+    ],
+    "teaching_point": "Alcohol withdrawal spectrum: (1) MILD: tremor, sweating, anxiety, craving — starts 6-12h after last drink. (2) ALCOHOLIC HALLUCINOSIS: hallucinations (usually auditory) with clear consciousness — develops 12-24h, resolves within days. (3) WITHDRAWAL SEIZURES: generalised tonic-clonic, peak at 24-48h — 2-5% of withdrawals. (4) DELIRIUM TREMENS: confusion, hallucinations, autonomic hyperactivity — peak at 72-96h, lasts 2-5 days, mortality 5%. Risk factors for severe withdrawal: past DTs/seizures, high daily intake, long drinking history, concurrent illness, electrolyte abnormalities, elevated GGT. Management: benzodiazepines (front-loading for DTs), IV thiamine, supportive care.",
+    "domain": "substance_misuse",
+    "subdomain": "alcohol",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG115; BNF; Schuckit MA (2014) Recognition and management of withdrawal delirium",
+    "tags": ["delirium_tremens", "alcohol_withdrawal", "benzodiazepines", "medical_emergency"]
+  },
+  {
+    "stem": "A 38-year-old man with a history of alcohol dependence (SADQ 35) has completed a community detoxification successfully. He is now abstinent for 5 days and wishes to maintain abstinence. He has no significant medical problems. Which of the following is the most appropriate first-line pharmacological relapse prevention agent according to NICE?",
+    "options": [" Naltrexone 50mg daily", " Acamprosate 666mg TDS", " Disulfiram 200mg daily", " Baclofen 10mg TDS", " Topiramate 50mg BD"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Naltrexone (opioid antagonist) is an alternative first-line option but the question asks for 'the most appropriate first-line'. NICE CG115 recommends offering acamprosate OR naltrexone as first-line pharmacological relapse prevention — the choice depends on preference and suitability. An argument can be made for either, but acamprosate is often considered the primary first-line in the UK (and NICE says: 'offer acamprosate or naltrexone').",
+      "CORRECT. Acamprosate (calcium acetylhomotaurinate) is a first-line pharmacological relapse prevention treatment for alcohol dependence. It acts as an NMDA receptor modulator, reducing the neurobiological drive to drink. Dose: 666mg TDS (must be over 60kg). Key: it requires COMPLETE ABSTINENCE before starting (start as soon as detox is complete). Duration: 6-12 months. Monitor: U&Es (excreted renally — avoid if eGFR <30). Contraindications: severe renal impairment. Evidence: reduces risk of relapse by ~15-20% (Cochrane review). NNT for preventing return to any drinking = 9-12.",
+      "Disulfiram (aldehyde dehydrogenase inhibitor) is SECOND-LINE pharmacological treatment for relapse prevention. It is aversive therapy — if the patient drinks on disulfiram, they experience acetaldehyde syndrome (flushing, nausea, vomiting, hypotension, palpitations, headache — potentially dangerous). It requires careful monitoring and supervision (ideally a family member witnesses each dose). It is only used after acamprosate/naltrexone have failed or are not tolerated.",
+      "Baclofen is NOT recommended by NICE for alcohol dependence. Evidence is mixed (some positive studies, others negative). It is sometimes used off-label for severe dependence but is not first-line.",
+      "Topiramate is NOT recommended by NICE for alcohol dependence. It has some evidence (reduces craving, reduces heavy drinking days) but carries significant side effects (cognitive slowing, word-finding difficulty, weight loss, metabolic acidosis, renal stones). Not first-line in UK."
+    ],
+    "teaching_point": "Pharmacological relapse prevention (NICE CG115): STEP 1 — Offer acamprosate (666mg TDS, monitor U&Es, start after detox complete) OR naltrexone (50mg daily, LFTs baseline + monthly for 3 months, contraindicated in acute hepatitis/opioid use). STEP 2 — If first-line fails: consider the alternative (if acamprosate failed → try naltrexone, or vice versa). STEP 3 — Disulfiram: only after acamprosate and naltrexone have failed, or if the patient prefers it after discussion. Monitoring: LFTs, U&Es, adherence. Psychosocial interventions should be offered alongside pharmacotherapy (CBT, behavioural couples therapy, social network treatment, 12-step facilitation).",
+    "domain": "substance_misuse",
+    "subdomain": "alcohol",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG115: Alcohol dependence; Cochrane review (Jonas et al. 2014)",
+    "tags": ["alcohol", "relapse_prevention", "acamprosate", "naltrexone", "disulfiram"]
+  },
+  {
+    "stem": "A 28-year-old man presents to the substance misuse service seeking help for heroin dependence. He has been using heroin intravenously for 3 years, currently approximately 1g daily. He has tried to stop several times but experiences severe withdrawal symptoms including diarrhoea, vomiting, muscle aches, and intense cravings. He is motivated for treatment. Urine drug screen is positive for opiates. He has no significant medical history. What is the most appropriate first-line pharmacological treatment?",
+    "options": [" Methadone maintenance (starting 30-40mg daily, titrated)", " Buprenorphine 4mg daily sublingual", " Naltrexone 50mg daily", " Lofexidine 0.2mg TDS", " Clonidine 100mcg TDS"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE CG52 recommends: Offer oral methadone maintenance as first-line pharmacological treatment for opioid dependence. Methadone is a long-acting full mu-opioid agonist. Starting dose: 10-30mg daily (depending on level of dependence), titrated up by 5-10mg every few days until no withdrawal symptoms (typically 60-120mg daily). Advantages: (1) Once-daily dosing (long half-life ~24-36h); (2) Reduces illicit opioid use; (3) Reduces injecting behaviour; (4) Reduces crime; (5) Improves retention in treatment; (6) Reduces mortality (by ~70-80%). Disadvantages: QTc prolongation (ECG monitoring required), respiratory depression risk if over-titrated, interactions with other sedatives. Key: start LOW (to avoid overdose), go SLOW (titrate gradually).",
+      "Buprenorphine (partial mu-agonist) is a first-line ALTERNATIVE to methadone. It is generally considered second-line in some guidelines but NICE recommends offering buprenorphine or methadone, taking patient preference into account. However, the first-line option for maintenance is usually methadone (particularly for those with heavy dependence) because: (1) It retains patients better in treatment; (2) It is a full agonist with more predictable effects. Buprenorphine has: ceiling effect (reduces overdose risk), fewer side effects (no QTc effect), and is easier to withdraw from. But it can precipitate withdrawal if started too soon after heroin use.",
+      "Naltrexone (opioid antagonist) is for RELAPSE PREVENTION in DETOXIFIED patients only. If given to a patient who is still physically dependent on opioids, it will precipitate SEVERE withdrawal. It is absolutely contraindicated in active heroin use without prior detoxification.",
+      "Lofexidine (alpha-2 agonist) is for OPIOID DETOXIFICATION (symptomatic relief of withdrawal), not for maintenance. It reduces withdrawal symptoms (sweating, diarrhoea, cramping, anxiety) but does NOT reduce craving and has no effect on subsequent relapse. It is not a substitute for maintenance.",
+      "Clonidine (also alpha-2 agonist, like lofexidine) is similarly used for detoxification, not maintenance. It is less commonly used than lofexidine."
+    ],
+    "teaching_point": "Opioid dependence treatment (NICE CG52): (1) MAINTENANCE: Methadone (full agonist) or buprenorphine (partial agonist) — the decision depends on level of dependence, patient preference, and risk factors. Both are effective. Methadone has better retention rates; buprenorphine has a better safety profile (ceiling effect, no QTc, easier to withdraw). (2) DETOXIFICATION: Lofexidine (alpha-2 agonist) for symptom relief, reducing methadone or buprenorphine over a period of weeks to months. (3) RELAPSE PREVENTION: Naltrexone after successful detoxification. (4) OVERDOSE MANAGEMENT: Naloxone (take-home naloxone programme). Risk factors for fatal overdose: recent detox/ release from prison (reduced tolerance), concurrent alcohol/benzodiazepine use, resumption of use after a period of abstinence. Methadone: monitor for QTc prolongation (ECG baseline and annually). Avoid concurrent drugs that prolong QTc.",
+    "domain": "substance_misuse",
+    "subdomain": "opioids",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG52: Opioid dependence; BNF; Maudsley Prescribing Guidelines",
+    "tags": ["heroin", "opioid_dependence", "methadone", "maintenance", "harm_reduction"]
+  },
+  {
+    "stem": "A 48-year-old man with a 15-year history of alcohol dependence (currently drinking 18 units/day) and Child-Pugh class B cirrhosis is admitted for detoxification. He is homeless with limited social support. He has a history of two previous withdrawal seizures and one episode of delirium tremens 3 years ago. Observations: HR 88, BP 125/78, Temp 36.8°C, GCS 15. What is the most appropriate setting and pharmacological regimen for his detoxification?",
+    "options": [" Community detoxification with chlordiazepoxide 30mg QDS reducing regimen", " Inpatient detoxification with lorazepam (short-acting benzodiazepine) and IV Pabrinex", " Community detoxification with oxazepam 15mg QDS reducing regimen", " Inpatient detoxification with chlordiazepoxide 30mg QDS reducing regimen", " Outpatient detoxification with diazepam 5mg TDS"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Community detoxification is contraindicated here: (1) Child-Pugh B cirrhosis (liver impairment); (2) Homeless (poor social support); (3) History of withdrawal seizures and DTs (high risk for complicated withdrawal). This patient requires INPATIENT detoxification (NICE CG115 criteria).",
+      "Lorazepam is used for detoxification in severe liver disease (short-acting, no active metabolites, less accumulation). However, chlordiazepoxide IS safe in Child-Pugh B if used at a lower dose and with careful monitoring. Lorazepam is typically reserved for more severe liver disease. Chlordiazepoxide is still preferred if liver function is adequate.",
+      "Oxazepam is another short-acting benzodiazepine for liver disease, but community detoxification is still contraindicated due to the patient's risk profile (previous DTs, seizures, homelessness, cirrhosis).",
+      "CORRECT. Inpatient detoxification is indicated based on NICE criteria: (1) High SADQ or previous DTs/seizures; (2) Significant medical comorbidity (cirrhosis); (3) Poor social support (homelessness). Chlordiazepoxide is the preferred benzodiazepine for detoxification even in liver impairment (it is metabolised in the liver but has a long half-life which provides smooth withdrawal). A lower starting dose (15-20mg QDS) with careful monitoring is appropriate. IV Pabrinex is essential (he has cirrhosis and is at high risk of Wernicke-Korsakoff). Regular monitoring: CIWA-Ar, bloods (LFTs, U&Es, FBC, clotting).",
+      "Outpatient/community detox: inappropriate given his risk profile. Diazepam 5mg TDS is also too low for someone drinking 18 units/day."
+    ],
+    "teaching_point": "Inpatient vs community detoxification (NICE CG115): INPATIENT — SADQ >30, previous DTs/seizures, significant medical/psychiatric comorbidity, pregnancy, polysubstance misuse, poor social support, failed community detox. COMMUNITY — SADQ <30, no previous DTs/seizures, good social support, no significant comorbidity, no polysubstance misuse. Benzodiazepine choice: chlordiazepoxide (standard, long half-life) vs lorazepam/oxazepam (short-acting, preferred in severe liver disease — Child-Pugh C). In Child-Pugh B, chlordiazepoxide CAN be used with a lower starting dose and careful monitoring. Wernicke-Korsakoff: high-risk patients (chronic heavy alcohol use, malnutrition, abnormal LFTs, cognitive impairment) require IV Pabrinex (one pair BD for 3-5 days) rather than oral thiamine.",
+    "domain": "substance_misuse",
+    "subdomain": "alcohol",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG115; BNF; Royal College of Physicians (NCCMH) Wernicke's guidance",
+    "tags": ["alcohol", "detoxification", "cirrhosis", "inpatient", "benzodiazepines", "Wernicke"]
+  },
+  {
+    "stem": "A 32-year-old woman presents to the emergency department with acute confusion, agitation, hypertension (175/105), tachycardia (125 bpm), and hyperthermia (38.9°C). She has generalised tonic-clonic clonus in her lower limbs, inducible clonus at the ankles, and hyperreflexia. She has dilated pupils. Her partner reports she started taking an antidepressant 2 weeks ago. She had also taken a recreational drug at a party last night. Which drug combination is most likely to have caused this presentation?",
+    "options": [" Mirtazapine + cannabis", " Sertraline + mephedrone", " Venlafaxine + MDMA (ecstasy)", " Fluoxetine + alcohol", " Citalopram + ketamine"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Mirtazapine + cannabis is unlikely to cause serotonin syndrome. Mirtazapine has minimal serotonergic activity (it is a NaSSA — acts on presynaptic alpha-2 receptors). Cannabis intoxication can cause anxiety, paranoia, and tachycardia but not clonus or hyperreflexia.",
+      "Sertraline + mephedrone: mephedrone is a monoamine releasing agent (like MDMA) that releases serotonin, dopamine, and noradrenaline. It can contribute to serotonin toxicity. However, sertraline is a relatively weak SSRI and the picture here is more severe.",
+      "CORRECT. This is SEROTONIN SYNDROME caused by venlafaxine (SNRI — potent serotonin reuptake inhibition) + MDMA (ecstasy — potent serotonin release). The combination of a serotonergic antidepressant and a recreational drug that releases serotonin (MDMA) is a well-known cause of severe serotonin syndrome. Features: The Hunter Toxicity Criteria require the presence of ONE of: (1) Spontaneous clonus; (2) Inducible clonus + agitation/diaphoresis; (3) Ocular clonus + agitation/diaphoresis; (4) Tremor + hyperreflexia; (5) Hypertonia + temperature >38°C + ocular/inducible clonus. This patient has inducible clonus, hyperreflexia, hyperthermia, and autonomic instability.",
+      "Fluoxetine + alcohol: alcohol does not cause serotonin syndrome. Alcohol withdrawal could cause tremor and autonomic hyperactivity but NOT clonus.",
+      "Citalopram + ketamine: ketamine (NMDA antagonist) can cause dissociation and hypertension but does not release serotonin. It is not associated with serotonin syndrome."
+    ],
+    "teaching_point": "Serotonin syndrome vs NMS — classic MRCPsych differential: SEROTONIN SYNDROME: clonus (spontaneous/inducible/ocular) is the HALLMARK, hyperreflexia, tremor, autonomic instability, hyperthermia. Rapid onset (<12h). Associated with serotonergic drugs. Treatment: stop serotonergic drugs, supportive care, cyproheptadine (5-HT2A antagonist) if severe. NMS: LEAD-PIPE RIGIDITY (not clonus), bradyreflexia, fever, autonomic instability, elevated CK. Gradual onset (1-3 days). Associated with antipsychotics. Treatment: stop antipsychotic, dantrolene/bromocriptine, supportive. MEPHEDRONE: synthetic cathinone ('bath salts', 'plant food'), releases serotonin/noradrenaline/dopamine, causes: tachycardia, hypertension, hyperthermia, agitation, psychosis, hyponatraemia. MDMA (ecstasy): similar serotonergic effects. Venlafaxine at high doses has significant noradrenergic and serotonergic effects — more dangerous in overdose than SSRIs.",
+    "domain": "substance_misuse",
+    "subdomain": "emergency_toxicology",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "BNF; Hunter Serotonin Toxicity Criteria; Maudsley Prescribing Guidelines; ACMD reports (mephedrone)",
+    "tags": ["serotonin_syndrome", "MDMA", "venlafaxine", "ecstasy", "clonus", "drug_interaction"]
+  },
+  {
+    "stem": "A 22-year-old man is brought to the emergency department by ambulance. He was found collapsed at a music festival with reduced consciousness (GCS 10), pinpoint pupils, and respiratory rate of 6 breaths per minute. His SpO2 is 88% on air. A friend says he may have taken something 'to relax'. What is the most likely drug involved and the most appropriate immediate management?",
+    "options": [" MDMA (ecstasy) toxicity — active cooling and IV fluids", " Gamma-hydroxybutyrate (GHB) overdose — supportive care and airway management", " Opiate/heroin overdose — give naloxone 0.4-2mg IV", " Benzodiazepine overdose — give flumazenil", " Methamphetamine toxicity — give lorazepam and cooling"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "MDMA toxicity presents with hyperthermia, agitation, hyponatraemia, hypertension, tachycardia, and seizures — NOT pinpoint pupils, low respiratory rate, and reduced GCS (which are opiate signs).",
+      "GHB intoxication causes reduced consciousness, hypotonia, and bradycardia — but it does NOT cause pinpoint pupils. Pupils are typically normal or mid-position. Respiratory depression occurs with high doses of GHB but it is less characteristic than opiate overdose.",
+      "CORRECT. This is a classic opiate overdose presentation: (1) Reduced conscious level (GCS 10); (2) PINPOINT PUPILS (miosis) — pathognomonic for opioid toxicity (due to mu-opioid receptor activation in the Edinger-Westphal nucleus); (3) Respiratory depression (rate 6, SpO2 88%) — the main cause of death in opioid overdose; (4) Context (music festival, took something 'to relax'). Immediate management: (1) AIRWAY — ensure airway patency; (2) NALOXONE — 0.4-2mg IV (starting dose 0.4mg, repeat every 2-3 minutes if no response). Naloxone is a short-acting opioid antagonist (half-life ~30-45 minutes — shorter than heroin/methadone). Watch for REBOUND OVERDOSE (resedation after naloxone wears off) — the patient must be observed for at least 4 hours. If respiratory status is compromised: bag-mask ventilation, call anaesthetics.",
+      "Benzodiazepine overdose causes reduced GCS, ataxia, and nystagmus — but NOT pinpoint pupils. Respiratory depression is less severe than with opioids (unless combined with alcohol). Flumazenil is NOT recommended in mixed overdoses (risk of seizures, especially if the patient is also on TCAs).",
+      "Methamphetamine toxicity presents with agitation, hyperthermia, hypertension, tachycardia, dilated pupils, and psychosis — NOT pinpoint pupils and respiratory depression."
+    ],
+    "teaching_point": "Opioid overdose — recognition and management: TRIPLE SIGN: (1) Reduced GCS; (2) Pinpoint pupils; (3) Respiratory depression (RR <10). Risk factors: reduced tolerance (recent detox, prison release), mixing with alcohol/benzodiazepines, methadone (longer half-life). MANAGEMENT: (1) Airway + breathing + circulation (ABC); (2) Naloxone 0.4mg IV (repeat PRN up to 2mg); (3) IM naloxone if no IV access (0.4-0.8mg); (4) Monitor for resedation (naloxone lasts 20-90 minutes; heroin lasts 4-6 hours; methadone lasts 24-36 hours); (5) Admission for observation (minimum 4 hours; 24 hours for methadone). Naloxone: short half-life, may need IV infusion for long-acting opioids (methadone, slow-release morphine). Take-home naloxone: NICE recommends providing naloxone kits to all opioid users to prevent overdose deaths.",
+    "domain": "substance_misuse",
+    "subdomain": "opioids",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; NICE CG52; ACMD report on opioid overdose",
+    "tags": ["opioid_overdose", "naloxone", "miosis", "respiratory_depression", "emergency"]
+  },
+  {
+    "stem": "A 35-year-old man who had been abstinent from cocaine for 6 months after completing a community treatment programme presents requesting help because he has relapsed. He uses crack cocaine approximately 3-4 times per week and is finding it difficult to stop. He has no other substance use (confirmed by urine drug screen). What is the most appropriate pharmacological treatment to support abstinence?",
+    "options": [" Disulfiram 200mg daily", " Naltrexone 50mg daily", " Topiramate 200mg daily", " No specific pharmacological treatment — offer psychosocial interventions (CBT, contingency management)", " Bupropion 150mg daily"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Disulfiram: in a small number of studies, disulfiram has shown some efficacy in reducing cocaine use (possibly by altering cocaine metabolism or increasing the aversive effects of cocaine). However, it is NOT licensed or recommended by NICE for cocaine dependence.",
+      "Naltrexone has some limited evidence for cocaine dependence (especially when combined with cocaine) but is not licensed or recommended by NICE for this indication.",
+      "Topiramate has some evidence for reducing cocaine use but is not licensed or recommended by NICE. It also carries significant side effects (cognitive slowing).",
+      "CORRECT. NICE CG51 (Drug misuse in adults) recommends psychosocial interventions as the primary treatment for cocaine/crack dependence: (1) COGNITIVE BEHAVIOURAL THERAPY (CBT) — addressing triggers, craving management, relapse prevention; (2) CONTINGENCY MANAGEMENT — offering vouchers or incentives for drug-free urine samples (most evidence-based intervention for stimulant dependence). There is NO licensed pharmacotherapy for cocaine dependence in the UK. NICE recommends that psychological treatment is the mainstay. The patient should be referred to a specialist drug service for structured psychosocial intervention.",
+      "Bupropion (NDRI — noradrenaline-dopamine reuptake inhibitor) is used for SMOKING CESSATION and has some evidence for methamphetamine but NOT cocaine dependence."
+    ],
+    "teaching_point": "Cocaine/crack dependence treatment (NICE CG51): PHARMACOLOGICAL: there is no licensed pharmacological treatment for cocaine dependence in the UK. Medications investigated (off-label, limited evidence): (1) Disulfiram; (2) Naltrexone; (3) Topiramate; (4) Modafinil (for cocaine dependence with ADHD); (5) Bupropion (for methamphetamine). PSYCHOSOCIAL (MAINSTAY): (1) CBT — cognitive techniques to identify and manage triggers, develop alternative behaviours; (2) Contingency management — most effective intervention, uses positive reinforcement (vouchers) for drug-negative urine screens; (3) Motivational interviewing; (4) Social network support. CRACK COCAINE: more addictive than powder cocaine due to faster onset and higher peak levels. Cocaine withdrawal: depression, anhedonia, fatigue, increased sleep, craving — typically peaks at 2-4 days, resolves over 1-2 weeks. No specific pharmacotherapy for withdrawal symptoms.",
+    "domain": "substance_misuse",
+    "subdomain": "stimulants",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG51: Drug misuse in adults; Cochrane reviews on cocaine dependence",
+    "tags": ["cocaine", "crack", "stimulant_dependence", "CBT", "contingency_management"]
+  },
+  {
+    "stem": "A 26-year-old man is brought to the emergency department by police who found him behaving bizarrely in the street. He is agitated, confused, and paranoid. He smells of ketamine. He has horizontal nystagmus and is unable to stand unaided due to ataxia. His pupils are dilated. Observations: HR 110, BP 145/90, Temp 37.2°C. He cannot give a clear history. What are the most important physical health risks to assess?",
+    "options": [" Pancreatitis and leucopenia", " Rhabdomyolysis, bladder toxicity, and hyponatraemia", " Hepatic failure and oesophageal varices", " Cardiomyopathy and aortic dissection", " Pulmonary fibrosis and pneumothorax"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Pancreatitis and leucopenia are associated with valproate, not ketamine.",
+      "CORRECT. Ketamine (phencyclidine derivative, dissociative anaesthetic, NMDA receptor antagonist, GABA positive modulator) has multiple physical health complications: ACUTE: (1) Rhabdomyolysis (from prolonged immobility/agitation); (2) Hyponatraemia; (3) Hypertension, tachycardia; (4) Ataxia, nystagmus, confusion; (5) Bladder symptoms (dysuria, frequency). CHRONIC/LONG-TERM: (1) KETAMINE-INDUCED CYSTITIS/UROPATHY — the most important long-term physical health complication — causes frequency, urgency, dysuria, haematuria, reduced bladder capacity, hydronephrosis, renal impairment. Can be irreversible. (2) KUB — ketamine-related bladder damage; (3) Cognitive impairment (memory, executive function); (4) Dependence — chronic ketamine use leads to tolerance and withdrawal (craving, anxiety, depression). Ketamine is also used as a rapid-acting antidepressant in treatment-resistant depression.",
+      "Hepatic failure and oesophageal varices are associated with chronic alcohol use.",
+      "Cardiomyopathy is associated with cocaine (stimulant-induced cardiomyopathy). Aortic dissection is associated with stimulants (cocaine, methamphetamine).",
+      "Pulmonary fibrosis and pneumothorax are classically associated with cannabis smoking (bullous lung disease) and intravenous drug use (septic emboli)."
+    ],
+    "teaching_point": "Ketamine — high-yield for MRCPsych: Mechanism: NMDA receptor antagonist (at subanaesthetic doses) — dissociative anaesthetic. Effects: dissociation, hallucinations (out-of-body experiences, 'K-hole'), sedation, analgesia, amnesia. Acute physical signs: hypertension, tachycardia, nystagmus, ataxia, dilated pupils. CHRONIC RISKS: (1) Ketamine-induced cystitis — frequency, urgency, haematuria, bladder fibrosis (can require cystectomy); (2) Cognitive impairment — especially memory and executive function; (3) Dependence — psychological more than physical withdrawal; (4) Biliary dilatation (ketamine-induced cholangiopathy). Therapeutic use: esketamine (Spravato) licensed for treatment-resistant depression. Management of acute ketamine intoxication: supportive care (quiet environment, reassurance), monitoring (vital signs, hydration, bladder symptoms). No specific antidote.",
+    "domain": "substance_misuse",
+    "subdomain": "novel_psychoactive_substances",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "BNF; ACMD (Advisory Council on the Misuse of Drugs) Ketamine report; NICE CG51",
+    "tags": ["ketamine", "cystitis", "bladder", "dissociative", "rhabdomyolysis"]
+  },
+  {
+    "stem": "A 40-year-old man with schizophrenia who is stable on clozapine 400mg daily is referred to the substance misuse service. He smokes cannabis daily and uses crack cocaine twice a week. He wants to stop his substance use but finds it difficult. His psychotic symptoms are well-controlled. What is the most appropriate management regarding the interaction between his medications and substance use?",
+    "options": [" Advise stopping cannabis and crack — there is no significant interaction with clozapine", " Warn him that cannabis INCREASES clozapine levels via CYP1A2 induction — he may need a lower clozapine dose if he stops cannabis", " Warn him that cannabis INHIBITS CYP1A2 — he may need a REDUCTION in clozapine dose if he stops cannabis, and crack cocaine can lower seizure threshold", " Switch clozapine to olanzapine to avoid interactions with cannabis", " Add naltrexone 50mg for both cannabis and crack dependence"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Cannabis DOES interact with clozapine significantly. Cannabis smoke (like tobacco) induces CYP1A2 via polycyclic aromatic hydrocarbons. However, although cannabis INCREASES clozapine metabolism (INDUCTION), the effect is less predictable than tobacco. When the patient STOPS cannabis, the metabolism decreases, leading to INCREASED clozapine levels. Actually — I need to check this. Cannabis actually INHIBITS CYP1A2 (contrary to initial thought). Tetrahydrocannabinol (THC) and cannabidiol (CBD) inhibit CYP1A2, which would INCREASE clozapine levels. So stopping cannabis would DECREASE clozapine levels? Let me think about this more carefully.",
+      "Actually, the literature on cannabis and CYP1A2 is mixed. Some studies suggest cannabis INHIBITS CYP1A2, meaning it reduces clozapine metabolism, leading to HIGHER levels. Other studies suggest smoking cannabis (like tobacco) can induce CYP1A2. The most common clinical finding is that cannabis smoking can lower clozapine levels (similar to but less than tobacco). Regardless, the important clinical message is that cannabis and clozapine DO interact, and changes in cannabis use require clozapine level monitoring.",
+      "CORRECT. The key interactions: (1) Cannabis — in clinical practice, smoking cannabis may have unpredictable effects on CYP1A2 metabolism, requiring MONITORING of clozapine levels (the most common effect is CYP1A2 induction, which may LOWER clozapine levels; so stopping cannabis may INCREASE clozapine levels, requiring dose reduction). (2) Crack cocaine — stimulants (cocaine) LOWER the seizure threshold. Clozapine has a dose-dependent risk of seizures (0.5-2% at standard doses, up to 4-6% at high doses >600mg). The COMBINATION of clozapine + cocaine significantly increases the risk of seizures. (3) The patient should be advised of these interactions. Management: (a) Clozapine level monitoring (especially if substance use pattern changes); (b) Specific treatment for cannabis and crack dependence (CBT, contingency management); (c) If clozapine levels are affected, dose adjustment may be needed.",
+      "Switching to olanzapine is not indicated — clozapine is clearly the best treatment for treatment-resistant schizophrenia, and substance use is a common comorbidity that should be managed alongside, not by changing antipsychotic.",
+      "Naltrexone is for alcohol and opioid dependence. There is no evidence for naltrexone in cannabis or cocaine dependence."
+    ],
+    "teaching_point": "Substance use and clozapine interactions: (1) Tobacco (smoking) — INDUCES CYP1A2 (heavily). Smokers need 1.5-2× the clozapine dose. Stop smoking → levels rise by 50-100% → reduce dose by 30-50%. (2) Cannabis — variable effects (may induce CYP1A2 via smoke constituents). Monitor levels. (3) Cocaine — lowers seizure threshold. Clozapine + cocaine = high seizure risk. (4) Opioids — may increase sedation and respiratory depression. (5) Alcohol — increases sedation, hepatotoxicity risk. Dual diagnosis (severe mental illness + substance misuse) is extremely common (~50% of patients with schizophrenia). NICE CG120 recommends: 'People with dual diagnosis should have access to both mental health AND substance misuse services. Neither service should exclude them.'",
+    "domain": "substance_misuse",
+    "subdomain": "dual_diagnosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG120: Psychosis with substance misuse; Maudsley Prescribing Guidelines; BNF",
+    "tags": ["dual_diagnosis", "clozapine", "cannabis", "cocaine", "CYP1A2"]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "stem": "According to NICE, what is the recommended psychological intervention that should be offered to ALL people with a diagnosis of schizophrenia or psychosis, regardless of symptom stage?",
+    "options": [" Family intervention (at least 10 planned sessions)", " Cognitive behavioural therapy (CBT) for psychosis (at least 16 planned sessions)", " Art therapy", " Social skills training", " Psychodynamic psychotherapy"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Family intervention is recommended for all families in close contact with the person with psychosis, but NICE specifies CBT for the person themselves.",
+      "CORRECT. NICE CG178 states: 'Offer CBT to ALL people with psychosis or schizophrenia, particularly for those who have persistent symptoms despite medication.' CBT for psychosis should be delivered at least 16 planned sessions. The key word is ALL — regardless of symptom stage. This is one of the core NICE recommendations. Evidence: CBT reduces symptom severity, improves insight, reduces relapse, and improves social functioning. NNT for reducing relapse is ~8-10.",
+      "Art therapy is NOT recommended by NICE (removed from 2014 update due to insufficient evidence).",
+      "Social skills training is not routinely recommended by NICE.",
+      "Psychodynamic psychotherapy is not recommended by NICE for schizophrenia (insufficient evidence)."
+    ],
+    "teaching_point": "NICE-recommended psychological interventions for psychosis/schizophrenia (CG178): (1) CBT for psychosis — at least 16 sessions, offered to ALL. (2) Family intervention — at least 10 sessions, offered to families in close contact with the patient. (3) Arts therapies — NOT recommended. (4) Social skills training — NOT routinely recommended. (5) Psychoeducation alone — NOT recommended as a standalone intervention. In the acute phase, the priority is antipsychotic medication + family intervention. CBT is particularly for those with persistent symptoms despite medication, but NICE recommends it for ALL patients, including those in remission.",
+    "domain": "organisation_delivery",
+    "subdomain": "psychological_interventions",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG178: Psychosis and schizophrenia (updated 2024)",
+    "tags": ["CBT", "schizophrenia", "psychological_therapy", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 22-year-old woman presents to her GP with a first episode of psychosis. She reports paranoid thoughts and auditory hallucinations that have been present for 6 weeks. She has no substance use, no medical history, and no family history of mental illness. According to NICE CG178, what is the maximum recommended waiting time for a first episode of psychosis to be seen by a specialist early intervention in psychosis (EIP) service?",
+    "options": [" 1 week", " 2 weeks", " 1 month", " 6 weeks", " 3 months"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "1 week is shorter than the NICE target.",
+      "CORRECT. NICE CG178 (and the NHS Long Term Plan, 2019) states: 'People with first-episode psychosis should be offered treatment by an early intervention in psychosis (EIP) service. The waiting time from referral to the service should be no longer than 2 weeks.' This is a key NHS performance target. The EIP service provides: (1) Multi-disciplinary assessment; (2) Antipsychotic medication (starting low, going slow); (3) CBT for psychosis; (4) Family intervention; (5) Vocational and educational support; (6) Physical health monitoring. Duration of EIP treatment: up to 3 years (NHS Long Term Plan extended this from 2 to 3 years for 14-25 year olds).",
+      "Exceeds the recommended target.",
+      "Exceeds the target significantly.",
+      "Would be considered a serious delay in treatment."
+    ],
+    "teaching_point": "Early Intervention in Psychosis (EIP) services: NICE CG178 recommends EIP for ALL people with first-episode or first presentation of psychosis. Core components: (1) Rapid assessment (within 2 weeks of referral); (2) Antipsychotic medication; (3) CBT; (4) Family intervention; (5) Health promotion (smoking cessation, weight management); (6) Vocational support; (7) Relapse prevention. Youth-friendly services (under 35). Duration: NICE says at least 2 years; NHS Long Term Plan extends to 3 years for 14-25s. Benefits of EIP: (1) Reduced DUP; (2) Fewer hospital admissions; (3) Better treatment engagement; (4) Improved social functioning; (5) Reduced suicide risk. The 2-week wait target is a key NHS performance indicator. Performance data: most areas in England achieve >90% compliance.",
+    "domain": "organisation_delivery",
+    "subdomain": "EIP",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG178; NHS Long Term Plan (2019)",
+    "tags": ["early_intervention", "EIP", "psychosis", "waiting_time", "NICE_guidelines"]
+  },
+  {
+    "stem": "According to NICE guidelines, which of the following is the most appropriate first-line treatment for a 30-year-old woman with moderately severe depression who has declined antidepressant medication?",
+    "options": [" Watchful waiting and follow up in 2 weeks", " A high-intensity psychological intervention (CBT or IPT)", " St John's Wort", " Exercise on prescription", " Referral for ECT"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Watchful waiting is for subthreshold or mild depression (Step 2 of NICE stepped care), not moderate depression.",
+      "CORRECT. NICE CG90 (Depression) stepped care: Step 3 (moderate-severe depression): offer antidepressant OR high-intensity psychological intervention (CBT, IPT, behavioural activation, or behavioural couples therapy). If the patient DECLINES medication, the alternative is high-intensity psychological therapy. This is a patient-centred, shared decision-making approach.",
+      "St John's Wort is NOT recommended by NICE due to uncertainty about active constituents, variable preparation quality, and significant drug interactions (CYP450 induction).",
+      "Exercise is a low-intensity psychosocial intervention (Step 2 — mild depression), not a standalone treatment for moderate depression.",
+      "ECT is indicated for SEVERE, life-threatening depression (with psychotic features, catatonia, high suicide risk, poor oral intake) where a rapid response is needed, or for treatment-resistant depression. Not first-line for moderate depression."
+    ],
+    "teaching_point": "NICE stepped care model for depression: Step 1 (ALL): Assessment, psychoeducation, active monitoring. Step 2 (PERSISTENT SUBTHRESHOLD / MILD): Low-intensity psychosocial interventions (guided self-help, computerised CBT, structured exercise, group-based peer support). Step 3 (MODERATE-SEVERE): Antidepressant (SSRI first-line) OR high-intensity psychological therapy (CBT, IPT) OR COMBINATION. Step 4 (COMPLEX / REFRACTORY / AT RISK): Specialist multidisciplinary teams, complex medication combinations, ECT. The stepped care model means: (1) Start with the LEAST INTENSIVE intervention appropriate; (2) 'STEP UP' if no response; (3) Patients should ALWAYS be offered a choice. NICE emphasises: 'Offer the least intrusive, most effective intervention first.' This applies to ALL medical conditions.",
+    "domain": "organisation_delivery",
+    "subdomain": "stepped_care",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG90: Depression in adults",
+    "tags": ["depression", "stepped_care", "CBT", "NICE_guidelines", "stepped_care"]
+  },
+  {
+    "stem": "A 24-year-old South Asian woman with a diagnosis of schizophrenia (on depot antipsychotic) does not speak English and communicates through her husband, who is present at every appointment. She appears withdrawn and avoids eye contact. She has not left the house in 3 months. Her husband reports she is 'fine'. The psychiatrist is concerned about possible depression and social isolation. Which of the following is the most appropriate approach?",
+    "options": [" Accept the husband's report that she is fine", " Arrange a confidential appointment with a female interpreter, without the husband present", " Arrange for a social worker to visit the home", " Increase the antipsychotic dose", " Prescribe an antidepressant based on clinical observation alone"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Accepting the husband's report at face value is inadequate and potentially unsafe. There may be domestic abuse, cultural dynamics, or the patient may not feel able to speak freely in his presence.",
+      "CORRECT. This scenario highlights the importance of CULTURALLY COMPETENT psychiatric services. The patient's presentation (withdrawn, avoids eye contact, housebound) could indicate depression, agoraphobia, negative symptoms of schizophrenia, or be influenced by cultural factors. The most important intervention is: (1) Arrange a CONFIDENTIAL assessment with a PROFESSIONAL FEMALE INTERPRETER (not a family member) to give the patient a safe space to speak; (2) Explore her symptoms and concerns without the husband present; (3) Only then make a formulation. Cultural competence in psychiatry includes: understanding the patient's cultural background, using professional interpreters (not family), being aware of cultural presentations of distress (e.g., somatic symptoms, 'nerve' problems), and involving the family appropriately.",
+      "A social worker home visit may be part of the assessment but the clinical priority is a proper psychiatric assessment without the family member present.",
+      "Increasing the antipsychotic without understanding the cause of her symptoms is not indicated.",
+      "Starting an antidepressant based purely on observation without a proper history is poor clinical practice."
+    ],
+    "teaching_point": "Cultural competence in psychiatry — NICE guidance: (1) Use PROFESSIONAL INTERPRETERS (not family members) — family members may filter information, edit responses, or the patient may feel inhibited. (2) Be aware of CULTURAL VARIATIONS in symptom presentation — depression may present with somatic symptoms (fatigue, headache) in some cultures; shame and stigma may affect disclosure. (3) Understand the patient's explanatory model — what does the patient think is wrong? (4) Involve the family appropriately — many cultures make decisions collectively. (5) Be aware of cultural differences in help-seeking and adherence. (6) Racial disparities in mental health: people from Black ethnic groups are more likely to be detained under the MHA, more likely to receive depot antipsychotics, and less likely to receive psychological therapy (NHS Race Equality Framework). The Avoidable Deaths Reports (e.g., the report into the death of David Bennett) highlighted systemic racism in mental health services. The No Health Without Mental Health strategy and the Patient and Carer Race Equality Framework (PCREF) aim to address disparities.",
+    "domain": "organisation_delivery",
+    "subdomain": "cultural_competence",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE guidance on cultural competence; Race Equality Foundation; NHS Equality Delivery System",
+    "tags": ["cultural_competence", "interpreter", "ethnic_minorities", "disparities", "patient_safety"]
+  },
+  {
+    "stem": "A 65-year-old man with treatment-resistant depression (failed 3 antidepressants + CBT) is referred for consideration of ECT. He has severe depression with psychotic features, poor oral intake, and significant weight loss. He has ischaemic heart disease and an implanted cardiac pacemaker. According to NICE TA136, which of the following is TRUE regarding ECT in this patient?",
+    "options": [" ECT is contraindicated because of his pacemaker", " ECT can be used but requires specialist anaesthetic and cardiac monitoring", " ECT is only effective for depression without psychotic features", " He must first have a trial of transcranial magnetic stimulation (rTMS)", " ECT should only be used for catatonia, not depression"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "A pacemaker is NOT an absolute contraindication to ECT. It requires careful peri-procedural management: the pacemaker should be checked by cardiology before ECT, the anaesthetist should have magnet available, and the pacemaker may need to be temporarily reprogrammed to a fixed rate during the procedure.",
+      "CORRECT. NICE TA136 (ECT, 2003, updated) states that ECT is recommended for: (1) Severe depressive episode with psychotic features; (2) Catatonia; (3) Prolonged or severe mania. The presence of a pacemaker is NOT an absolute contraindication — ECT can be safely performed with: (1) Pre-ECT cardiology review; (2) Anaesthetic assessment; (3) Monitoring during the procedure; (4) Modified brief-pulse ECT (bitoemporal or right unilateral). The patient's severe psychotic depression with weight loss/poor intake meets NICE criteria for ECT. Response rates: 80-90% for psychotic depression.",
+      "This is false — ECT is particularly effective for psychotic depression (most evidence).",
+      "rTMS is not recommended by NICE for severe depression with psychotic features. It has a weaker evidence base.",
+      "This is false — ECT is recommended for severe depression (especially psychotic), catatonia, and prolonged/severe mania."
+    ],
+    "teaching_point": "ECT — indications, contraindications and side effects (NICE TA136): INDICATIONS: (1) Severe depression with psychotic features (strongest evidence); (2) Catatonia (including NMS); (3) Prolonged/severe mania (when rapid response needed). ECT is also used in: (4) Treatment-resistant depression; (5) Severe depression with high suicide risk; (6) Depression with poor oral intake/ refeeding risk. CONTRAINDICATIONS: There are NO absolute contraindications — the risk-benefit ratio determines use. Relative contraindications: increased intracranial pressure, recent MI/stroke, aortic aneurysm, severe hypertension, phaeochromocytoma. Pacemakers: can be safely managed. SIDE EFFECTS: Cognitive effects are the main concern — anterograde amnesia (transient, resolves weeks-months), retrograde amnesia (may persist, especially for events around the time of ECT), post-ictal confusion, headache, muscle aches. Cognitive effects are LESS with: right unilateral ECT, brief pulse stimulation, low stimulus intensity. Bitemporal ECT is more effective but has more cognitive side effects. Mechanism of action: unknown — theories include: (1) Increased neurogenesis in the hippocampus; (2) Normalisation of HPA axis; (3) Increased BDNF; (4) Anticonvulsant effect (increased GABA transmission).",
+    "domain": "organisation_delivery",
+    "subdomain": "ECT",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE TA136: ECT; BNF; UK ECT Review Group (2003) Lancet",
+    "tags": ["ECT", "pacemaker", "psychotic_depression", "contraindications", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 45-year-old woman with a diagnosis of terminal ovarian cancer (stage IV, life expectancy 4-6 months) is referred to the liaison psychiatry team. She has developed severe anxiety, panic attacks, and difficulty sleeping. She says she 'can't stop thinking about dying' and 'doesn't want to burden her family'. She has no prior psychiatric history. She is receiving palliative chemotherapy. What is the most appropriate management?",
+    "options": [" Reassure her that anxiety is normal in her situation and refer to counselling", " Start sertraline 50mg daily and refer for CBT adapted for palliative care", " Start diazepam 5mg TDS for symptom control", " Refer to chaplaincy services only", " Admit to psychiatric ward for observation"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "While some anxiety is understandable, her symptoms are severe (panic attacks, severe sleep disturbance) and require active treatment.",
+      "CORRECT. This patient has a MAJOR DEPRESSIVE EPISODE or ADJUSTMENT DISORDER with anxiety that warrants treatment. Management in liaison/palliative psychiatry: (1) ANTIDEPRESSANTS — SSRIs (sertraline or citalopram) are first-line. They take 2-4 weeks to work. Mirtazapine can be used if there is poor appetite/weight loss (appetite-stimulating, sedating). Avoid TCAs (anticholinergic, cardiotoxic). (2) PSYCHOLOGICAL THERAPY — CBT adapted for palliative care (focus on quality of life, meaning-making, existential distress, and 'dignity therapy'). (3) ANXIOLYTICS — short-term benzodiazepines (lorazepam, clonazepam) may be used PRN for severe panic but avoid long-term (tolerance, dependence, excessive sedation). (4) EXISTENTIAL DISTRESS: consider meaning-centred therapy, Dignity Therapy (Chochinov), and chaplaincy involvement. (5) Liaison psychiatry: the patient should be seen by the liaison team within the general hospital, not admitted to a psychiatric unit (unless there is acute suicide risk).",
+      "Benzodiazepines alone are not sufficient and carry risk of sedation, dependency, and falls. They should be used short-term alongside an antidepressant.",
+      "Chaplaincy can complement treatment but is not a replacement for psychiatric care.",
+      "Admission to a psychiatric ward is not indicated — the patient is in a palliative phase and should be managed by the liaison team in the general hospital."
+    ],
+    "teaching_point": "Liaison psychiatry in palliative care — key points: (1) Depression and anxiety are common in palliative care (up to 30-40% of patients). (2) SSRIs are safe and well-tolerated. Mirtazapine is particularly useful (appetite stimulation, sedation, anti-emetic). (3) Psychological therapies adapted for palliative care: Dignity Therapy (Chochinov) — helping patients create a legacy document for loved ones; Meaning-centred therapy (Breitbart) — focusing on finding meaning in life despite suffering; Life review; CBT — for anxiety and pain. (4) Existential distress — treat with supportive psychotherapy, not medication. (5) The 'Desire for hastened death' is associated with depression — treat the depression, and the desire for death often diminishes. (6) The role of the liaison psychiatrist: assessment, treatment of delirium/anxiety/depression, supporting staff distress, and end-of-life decision-making with the MDT. NICE guidance on supportive and palliative care (QS13): all patients should have access to psychological support.",
+    "domain": "organisation_delivery",
+    "subdomain": "liaison_psychiatry",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE QS13: Palliative care; Chochinov HM (2002) Dignity therapy; Breitbart W (2004) Meaning-centred therapy",
+    "tags": ["liaison_psychiatry", "palliative_care", "depression", "CBT", "dignity_therapy"]
+  },
+  {
+    "stem": "A 32-year-old man is brought to the emergency department by police under Section 136 of the Mental Health Act. He was found shouting at passers-by in the street, appearing confused and agitated. He has a history of bipolar disorder and had stopped his lithium 2 weeks ago. In the emergency department, he refuses to stay informally and is becoming increasingly agitated. A Section 2 assessment is initiated. Which of the following is TRUE regarding Section 136?",
+    "options": [" Section 136 allows a police officer to remove a person from a PRIVATE RESIDENCE to a place of safety", " The place of safety can be a police station or a hospital, and the person can be detained for up to 24 hours (extendable by 12 hours if necessary)", " Section 136 requires the person to be assessed by a psychiatrist before being taken to a place of safety", " The maximum duration of detention under Section 136 is 72 hours", " Section 136 can only be used if the person has committed an offence"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Section 136 applies to a person in a PUBLIC PLACE (not a private residence). If the person is in a private residence, the police must use Section 135 (warrant to enter premises).",
+      "CORRECT. Section 136 MHA 1983 (as amended 2007): A police officer may remove a person who appears to be suffering from a mental disorder and is in immediate need of care or control from a PUBLIC PLACE to a PLACE OF SAFETY. The place of safety should PREFERABLY be a HOSPITAL (not a police station — this was a key change from the 2007 amendments and the MHA Code of Practice 2015). The person can be detained for up to 24 HOURS (to allow assessment by a doctor and an AMHP). This can be EXTENDED by 12 HOURS (to a maximum of 36 hours) if it is not reasonably practicable for the assessment to be completed within 24 hours. Children aged under 18 should only be taken to a hospital, NOT a police station (statutory requirement under the Policing and Crime Act 2017). A police station should only be used in EXCEPTIONAL CIRCUMSTANCES for adults.",
+      "No — the police officer makes the decision to remove the person based on appearance (not psychiatric assessment). The assessment happens AT the place of safety.",
+      "The maximum duration is 24 hours (extendable to 36 hours). Not 72 hours.",
+      "Section 136 does NOT require an offence — it is a CIVIL power for the person's own safety. The person must appear to be suffering from a mental disorder and in immediate need of care or control."
+    ],
+    "teaching_point": "Sections 135 and 136 — police powers under the MHA: S136 — removes a person from a PUBLIC PLACE to a PLACE OF SAFETY (preferably a health-based place of safety, not a police station). Duration: up to 24 hours (extendable to 36). The person must be assessed by two doctors (one S12) and an AMHP within that time. S135 — allows police with a warrant from a magistrate to enter PRIVATE PREMISES to remove a person with suspected mental disorder to a place of safety. Duration: same as S136. The Policing and Crime Act 2017 introduced major reforms: (1) Children under 18 cannot be taken to a police station as a place of safety; (2) For adults, a police station should only be used in exceptional circumstances; (3) The maximum detention period was reduced to 24 hours (plus 12 extension); (4) The person has the right to have someone informed of their removal. The MHA Code of Practice (2015) provides detailed guidance. All mental health professionals should ensure liaison with emergency departments.",
+    "domain": "organisation_delivery",
+    "subdomain": "MHA",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "MHA 1983 (2007 amendments); MHA Code of Practice (2015); Policing and Crime Act 2017",
+    "tags": ["Section_136", "place_of_safety", "MHA", "police", "emergency"]
+  }
+]

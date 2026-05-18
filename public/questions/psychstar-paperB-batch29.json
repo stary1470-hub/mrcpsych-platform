@@ -1,0 +1,1557 @@
+[
+  {
+    "stem": "A 34-year-old woman presents with excessive worry about work performance, finances, and her children's safety for the past 8 months. She reports muscle tension, fatigue, poor concentration, and irritability. She finds it difficult to control the worry. She has no history of panic attacks or avoidance behaviours. According to ICD-11 criteria, what is the most likely diagnosis?",
+    "options": [
+      " Generalised anxiety disorder",
+      " Panic disorder",
+      " Adjustment disorder",
+      " Social anxiety disorder",
+      " Health anxiety disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. ICD-11 GAD requires marked symptoms of anxiety (muscle tension, restlessness, concentration difficulties, irritability, sleep disturbance) present for at least 6 months, with worry that is difficult to control.",
+      "Panic disorder requires recurrent unexpected panic attacks and concern about future attacks, not ongoing worry across multiple domains.",
+      "Adjustment disorder requires an identifiable stressor within the preceding 6 months and symptoms that remit when the stressor is removed.",
+      "Social anxiety disorder requires fear or anxiety focused on social situations where scrutiny is possible, not worry across multiple life domains.",
+      "Health anxiety (illness anxiety disorder) centres on fear of having or developing a serious medical illness, not generalised worry about multiple domains."
+    ],
+    "teaching_point": "ICD-11 GAD requires 6+ months of prominent anxiety and worry across multiple domains (work, finances, family) plus autonomic/hyperarousal symptoms. NICE CG113 recommends CBT-based interventions as first-line for GAD; SSRIs (sertraline first-line) if medication is indicated.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-GAD",
+      "ICD-11"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "A 28-year-old man presents to the emergency department following his third panic attack in two weeks. Each episode involves sudden onset of palpitations, chest tightness, sweating, trembling, and a fear that he is dying. Between attacks he worries constantly about having another episode and has started avoiding crowded places and public transport. Which of the following is the FIRST-LINE psychological treatment recommended by NICE CG113?",
+    "options": [
+      " Cognitive behavioural therapy (CBT)",
+      " Psychodynamic psychotherapy",
+      " Counselling",
+      " Eye movement desensitisation and reprocessing (EMDR)",
+      " Mindfulness-based stress reduction"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG113 recommends CBT as the first-line psychological intervention for panic disorder, with or without agoraphobia. It typically involves psychoeducation, cognitive restructuring, and exposure to interoceptive cues.",
+      "Psychodynamic psychotherapy is not recommended as a first-line treatment for panic disorder in NICE guidelines.",
+      "Counselling is not recommended as a stand-alone treatment for panic disorder; structured CBT is preferred.",
+      "EMDR is indicated for PTSD, not panic disorder.",
+      "Mindfulness-based stress reduction is not a first-line NICE-recommended treatment for panic disorder."
+    ],
+    "teaching_point": "NICE CG113: CBT is first-line psychological treatment for panic disorder. If CBT is declined or ineffective, an SSRI (sertraline, citalopram, or fluoxetine) should be offered. Benzodiazepines should not be used beyond short-term crisis management due to dependence risk.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-panic",
+      "NICE-CG113",
+      "CBT"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "A 45-year-old woman presents with fear and avoidance of situations where escape might be difficult or help unavailable, such as queues, bridges, and public transport. She has not left her home alone in six months. She experiences intense anxiety when she considers going outside, with palpitations and dizziness. She does not have panic attacks spontaneously but does experience them in feared situations. According to ICD-11, what is the most likely diagnosis?",
+    "options": [
+      " Agoraphobia",
+      " Panic disorder",
+      " Generalised anxiety disorder",
+      " Specific phobia (situational type)",
+      " Social anxiety disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. ICD-11 agoraphobia is characterised by marked fear or avoidance of situations where escape may be difficult or help unavailable, including crowds, public transport, open spaces, and being outside the home alone.",
+      "Panic disorder without agoraphobia may involve unexpected panic attacks but not the pattern of avoidance of multiple escape-difficult situations.",
+      "GAD involves pervasive worry across domains, not fear of specific situations related to escape.",
+      "Specific phobia (situational) involves fear of a single type of situation (e.g. flying, lifts), not the broader constellation of agoraphobic situations.",
+      "Social anxiety disorder involves fear of negative evaluation in social or performance situations, not fear of escape difficulties."
+    ],
+    "teaching_point": "Agoraphobia in ICD-11 is classified separately from panic disorder. Fear or avoidance of at least two situations: crowds, public places, travelling alone, or being away from home. NICE CG113 recommends CBT including exposure therapy.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-agoraphobia",
+      "ICD-11"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "A 22-year-old university student experiences intense fear and avoidance of public speaking, eating in front of others, and attending social gatherings. He fears that others will notice his trembling hands and blushing, and that he will be judged negatively. His symptoms have persisted for over two years and cause significant academic impairment. Which of the following SSRI medications is recommended FIRST-LINE by NICE CG113 for social anxiety disorder?",
+    "options": [
+      " Escitalopram or sertraline",
+      " Fluoxetine",
+      " Paroxetine",
+      " Citalopram",
+      " Fluvoxamine"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG113 recommends escitalopram or sertraline as first-line pharmacological treatment for social anxiety disorder. They have the most favourable balance of efficacy and tolerability.",
+      "Fluoxetine has weaker evidence for social anxiety compared with escitalopram and sertraline.",
+      "Paroxetine is effective but has a less favourable side-effect profile (anticholinergic, weight gain, sexual dysfunction, discontinuation syndrome).",
+      "Citalopram has some evidence but is not specifically listed as first-line for social anxiety in NICE CG113.",
+      "Fluvoxamine is rarely used for social anxiety in UK practice and is not first-line per NICE."
+    ],
+    "teaching_point": "NICE CG113: For social anxiety disorder, first-line psychological treatment is CBT (individual or group). First-line pharmacological treatment: escitalopram or sertraline. Paroxetine is an alternative second-line option. Treatment should continue for at least 6-12 months after remission.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-social",
+      "NICE-CG113",
+      "SSRI"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "A 38-year-old woman with a diagnosis of GAD has not responded to a full course of CBT and has had an inadequate response to sertraline 200 mg daily after 12 weeks. According to NICE CG113, which of the following is the next appropriate step in her management?",
+    "options": [
+      " Offer an alternative SSRI (escilatopram or fluoxetine) or consider pregabalin",
+      " Switch immediately to a benzodiazepine",
+      " Add quetiapine augmentation",
+      " Refer for psychodynamic psychotherapy",
+      " Consider electroconvulsive therapy"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG113 recommends considering an alternative SSRI or pregabalin after non-response to a first SSRI. Pregabalin has evidence in GAD but requires monitoring for abuse potential.",
+      "Benzodiazepines are not recommended beyond short-term crisis management due to tolerance and dependence risk. NICE specifically advises against long-term use.",
+      "Quetiapine is not recommended for GAD in NICE CG113; antipsychotics lack robust evidence for anxiety disorders without psychosis.",
+      "Psychodynamic psychotherapy is not recommended for GAD by NICE; CBT is the evidence-based psychological treatment.",
+      "ECT has no role in the management of GAD."
+    ],
+    "teaching_point": "NICE CG113 stepped-care for GAD: Step 1 (identification/assessment), Step 2 (CBT-based low-intensity interventions), Step 3 (CBT or SSRI as first-line), Step 4 (specialist review, alternative SSRI, or pregabalin). Pregabalin is a second-line option but carries risk of dependence.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-GAD",
+      "NICE-CG113",
+      "treatment-resistant"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "A 30-year-old man has a 6-month history of recurrent, unexpected panic attacks accompanied by persistent concern about having additional attacks and worry about the implications of the attacks (e.g. losing control, going crazy, having a heart attack). He has no agoraphobic avoidance. His GP prescribed diazepam 5 mg prn, which he has used almost daily for 4 months. According to NICE CG113, what is the most appropriate management strategy?",
+    "options": [
+      " Taper and discontinue the benzodiazepine and offer CBT or an SSRI",
+      " Continue diazepam as needed and add CBT",
+      " Increase diazepam to 10 mg prn for better symptom control",
+      " Switch to a long-acting benzodiazepine like clonazepam",
+      " Add pregabalin alongside the current diazepam regimen"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG113 advises that benzodiazepines should not be used for panic disorder beyond short-term crisis management. The patient should be gradually withdrawn from benzodiazepines and offered CBT or an SSRI.",
+      "Continuing benzodiazepines while adding CBT is not recommended because benzodiazepines can interfere with CBT by reducing the experience of anxiety that is necessary for successful exposure and cognitive restructuring.",
+      "Increasing the benzodiazepine dose is contrary to NICE guidance; these medications carry high dependence risks.",
+      "Switching to another benzodiazepine is not recommended; the goal is discontinuation, not optimization of benzodiazepine therapy.",
+      "Adding pregabalin alongside ongoing benzodiazepines is not a NICE-recommended strategy. The first step is to remove benzodiazepines and offer evidence-based first-line treatments."
+    ],
+    "teaching_point": "NICE CG113 is clear: benzodiazepines are NOT recommended for the treatment of panic disorder except for short-term crisis management (up to 2-3 weeks only). They impair psychological treatment effectiveness and carry high dependence risk. First-line: CBT or SSRI (sertraline preferred).",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-panic",
+      "NICE-CG113",
+      "benzodiazepines"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "Which of the following is NOT a characteristic feature of social anxiety disorder (social phobia) according to DSM-5-TR?",
+    "options": [
+      " Marked fear or anxiety about one or more social situations in which the individual is exposed to possible scrutiny by others",
+      " The fear is out of proportion to the actual threat posed by the social situation",
+      " The individual consistently avoids public places where escape might be difficult",
+      " The fear, anxiety, or avoidance causes clinically significant distress or impairment",
+      " The fear, anxiety, or avoidance is persistent, typically lasting 6 months or more"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "This IS a core DSM-5-TR criterion for social anxiety disorder (Criterion A).",
+      "This IS a core DSM-5-TR criterion (Criterion B - disproportionate fear).",
+      "Correct. This describes agoraphobia, not social anxiety disorder. Social anxiety disorder involves fear of social/performance situations due to fear of negative evaluation.",
+      "This IS a core DSM-5-TR criterion (Criterion D - functional impairment).",
+      "This IS a core DSM-5-TR criterion (Criterion E - duration)."
+    ],
+    "teaching_point": "DSM-5-TR social anxiety disorder: marked fear of social situations involving possible scrutiny. Agoraphobia involves fear of situations where escape may be difficult (crowds, queues, public transport, open spaces). Differentiating these is important clinically as treatment strategies differ (social skills training vs. graded exposure to public spaces).",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "easy",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-social",
+      "DSM-5-TR"
+    ],
+    "source": "DSM-5-TR; NICE CG113"
+  },
+  {
+    "stem": "A 52-year-old woman with panic disorder with agoraphobia has been treated with sertraline 150 mg daily for 6 months with good effect. She feels much improved and wants to know how long she should continue the medication. According to NICE CG113, what advice should you give regarding duration of pharmacological treatment?",
+    "options": [
+      " Continue for at least 6 months after remission, then consider gradual withdrawal",
+      " Stop immediately since she is now well",
+      " Continue indefinitely at the current dose",
+      " Taper over 2 weeks and discontinue",
+      " Reduce to half the current dose for 1 month, then stop"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG113 recommends continuing medication for at least 6 months after achieving remission before considering gradual withdrawal. This reduces risk of relapse.",
+      "Abrupt discontinuation of SSRIs risks relapse and discontinuation syndrome, and is not recommended.",
+      "Indefinite continuation is not necessary for all patients; a trial of gradual withdrawal after 6-12 months of stability is appropriate.",
+      "A 2-week taper is too rapid for SSRIs and increases risk of discontinuation syndrome and relapse.",
+      "Reducing to half dose for 1 month is not a standard evidence-based tapering protocol. Gradual withdrawal over several weeks to months is recommended."
+    ],
+    "teaching_point": "NICE CG113: Antidepressant treatment for anxiety disorders should be continued for at least 6 months after remission. Gradual withdrawal over several weeks (or months for venlafaxine/paroxetine due to severe discontinuation) is recommended. Long-term maintenance may be considered for those at high risk of relapse.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety-panic",
+      "NICE-CG113",
+      "pharmacotherapy"
+    ],
+    "source": "NICE CG113"
+  },
+  {
+    "stem": "A 26-year-old man spends 3-4 hours daily checking locks, switches, and appliances before leaving the house. He has intrusive thoughts that his family will die in a fire if he does not check the cooker repeatedly. He recognises these thoughts are excessive but cannot resist the compulsion. He has been unable to hold a job due to lateness caused by his rituals. According to NICE CG31, what is the FIRST-LINE psychological treatment for his condition?",
+    "options": [
+      " Exposure and response prevention (ERP) therapy",
+      " Cognitive behavioural therapy (CBT) focusing on cognitive restructuring alone",
+      " Acceptance and commitment therapy (ACT)",
+      " Psychoanalytic psychotherapy",
+      " Supportive counselling"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG31 recommends ERP as a core component of CBT for OCD. ERP involves graded exposure to feared situations/thoughts while refraining from compulsive rituals.",
+      "CBT with cognitive restructuring alone (without ERP) is less effective than ERP. The behavioural component (exposure and response prevention) is the key active ingredient.",
+      "ACT has emerging evidence but is not first-line per NICE CG31.",
+      "Psychoanalytic psychotherapy is not effective for OCD and is not recommended by NICE.",
+      "Supportive counselling is not an evidence-based treatment for OCD and is not recommended by NICE."
+    ],
+    "teaching_point": "NICE CG31: For OCD, first-line psychological treatment is CBT (including ERP). First-line pharmacological treatment is an SSRI (fluoxetine, fluvoxamine, paroxetine, sertraline, or citalopram). For moderate to severe OCD, combine CBT and SSRI. ERP involves exposure to obsessive triggers while preventing compulsive responses.",
+    "domain": "general_adult",
+    "subdomain": "ocd",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "OCD",
+      "NICE-CG31",
+      "ERP"
+    ],
+    "source": "NICE CG31"
+  },
+  {
+    "stem": "A 32-year-old woman with OCD has not improved despite 12 weeks of CBT (including ERP) and sertraline 200 mg daily. According to NICE CG31, which of the following is the most appropriate next step?",
+    "options": [
+      " Switch to an alternative SSRI (fluoxetine or fluvoxamine) or augment with a low-dose antipsychotic (risperidone or aripiprazole)",
+      " Increase sertraline above 200 mg daily",
+      " Add a benzodiazepine",
+      " Refer for deep brain stimulation",
+      " Add a tricyclic antidepressant (amitriptyline)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG31 recommends switching to another SSRI or augmenting with an antipsychotic (risperidone or aripiprazole) if there is inadequate response to a full trial of one SSRI plus CBT.",
+      "Sertraline is maxed at 200 mg daily; doses above this are not recommended and increase side-effect burden without proven additional benefit.",
+      "Benzodiazepines are not recommended for OCD due to dependence risk and lack of efficacy for core symptoms.",
+      "Deep brain stimulation is reserved for severe, treatment-refractory OCD and is not a next step after first-line failure.",
+      "Amitriptyline has no evidence base in OCD and is not recommended by NICE."
+    ],
+    "teaching_point": "NICE CG31 stepped-care for OCD: Step 1 (assessment), Step 2 (CBT with ERP for mild/moderate, or SSRI), Step 3 (CBT + SSRI for moderate/severe), Step 4 (alternative SSRI or antipsychotic augmentation), Step 5 (specialist services, consider clomipramine, intensive CBT, or DBS).",
+    "domain": "general_adult",
+    "subdomain": "ocd",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "OCD",
+      "NICE-CG31",
+      "treatment-resistant"
+    ],
+    "source": "NICE CG31"
+  },
+  {
+    "stem": "A 24-year-old woman presents with a preoccupation with a perceived flaw in the appearance of her nose. She spends hours checking mirrors, taking selfies, and comparing her nose to others. She has sought multiple cosmetic surgery consultations, all of which were declined by surgeons who could not identify a significant abnormality. She has poor insight and experiences significant distress and social withdrawal. What is the most likely diagnosis?",
+    "options": [
+      " Body dysmorphic disorder (BDD)",
+      " Obsessive-compulsive disorder",
+      " Social anxiety disorder",
+      " Eating disorder (anorexia nervosa)",
+      " Psychotic disorder (delusional disorder - somatic type)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. BDD involves a preoccupation with a perceived defect in physical appearance that is not observable or appears slight to others. Repetitive behaviours (mirror checking, comparing) and cosmetic surgery seeking are characteristic.",
+      "OCD involves obsessions and compulsions that are not limited to appearance concerns, although BDD is classified within OCD and related disorders in DSM-5-TR.",
+      "Social anxiety involves fear of scrutiny in performance situations, not a distorted view of physical appearance.",
+      "Anorexia nervosa involves restriction of food intake and weight disturbance with body image disturbance focused on weight/shape, not a specific body part.",
+      "Delusional disorder (somatic type) involves fixed false beliefs; the patient here has poor insight but the presentation of BDD with poor insight is on a spectrum, and BDD with absent insight/delusional beliefs is still classified as BDD."
+    ],
+    "teaching_point": "BDD is classified under OCD and Related Disorders in DSM-5-TR. It can be with or without insight (good/fair, poor, or absent/delusional). NICE CG31 recommends CBT adapted for BDD (including ERP) as first-line. SSRI doses may need to be higher than for depression.",
+    "domain": "general_adult",
+    "subdomain": "ocd",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "BDD",
+      "NICE-CG31",
+      "DSM-5-TR"
+    ],
+    "source": "NICE CG31; DSM-5-TR"
+  },
+  {
+    "stem": "A 48-year-old man lives alone in a house filled with stacks of newspapers, magazines, and packaging dating back over 10 years. The clutter has become so severe that he can only use one room, and the local fire department has issued a warning due to fire risk. He becomes intensely distressed at the thought of discarding any items, fearing he might need them later. He does not hoard animals or have symptoms of psychosis. What is the most likely diagnosis?",
+    "options": [
+      " Hoarding disorder",
+      " Obsessive-compulsive disorder",
+      " Autistic spectrum disorder",
+      " Diogenes syndrome",
+      " Schizotypal personality disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Hoarding disorder (DSM-5-TR) involves persistent difficulty discarding possessions, perceived need to save items, distress at discarding, accumulation that congests living areas, and significant functional impairment or health/safety risk.",
+      "OCD hoarding was historically considered a symptom dimension of OCD, but DSM-5-TR now separates hoarding disorder as distinct. Hoarding in OCD is typically ego-dystonic and linked to specific obsessions (e.g. contamination).",
+      "Autistic spectrum disorder can involve collecting behaviours but not the core difficulty discarding and distress characteristic of hoarding disorder.",
+      "Diogenes syndrome involves extreme self-neglect, domestic squalor, and social withdrawal, often with hoarding; however, the primary feature here is hoarding, not self-neglect.",
+      "Schizotypal personality disorder involves odd beliefs and eccentric behaviour but not specifically hoarding as a defining feature."
+    ],
+    "teaching_point": "Hoarding disorder is distinguished from OCD in DSM-5-TR. Key features: persistent difficulty discarding, distress at discarding, clutter that compromises living space, and significant impairment. NICE does not have a specific hoarding guideline; management involves CBT tailored for hoarding and SSRI trials extrapolated from OCD evidence.",
+    "domain": "general_adult",
+    "subdomain": "ocd",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "hoarding",
+      "DSM-5-TR"
+    ],
+    "source": "DSM-5-TR"
+  },
+  {
+    "stem": "For a patient with OCD being started on an SSRI, which of the following statements regarding SSRI dosing in OCD is CORRECT according to NICE CG31?",
+    "options": [
+      " SSRIs typically require higher doses and longer trials (at least 12 weeks) for OCD compared with depression",
+      " SSRIs should be started at subtherapeutic doses and increased slowly to avoid exacerbation of OCD symptoms",
+      " The same SSRI doses are effective for OCD as for depression, but response is faster",
+      " Low-dose SSRIs are as effective as standard-dose SSRIs for OCD",
+      " Clomipramine should be used first-line over SSRIs due to superior efficacy"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG31 states that SSRI doses for OCD are often at the higher end of the therapeutic range and that a trial of at least 12 weeks at maximum tolerated dose is needed before non-response can be declared.",
+      "While starting low and going slow is good practice to minimise side effects, SSRI initiation does not typically exacerbate OCD symptoms. The key point is that higher doses are often needed.",
+      "SSRI dose requirements for OCD are generally higher than for depression, and response takes longer (8-12 weeks vs. 4-6 weeks for depression).",
+      "Low-dose SSRIs are less effective than standard-to-high doses for OCD. Dose optimisation is critical.",
+      "Clomipramine (a TCA) is effective for OCD but SSRIs are first-line due to better tolerability and safety profile. Clomipramine is reserved for treatment-resistant cases."
+    ],
+    "teaching_point": "NICE CG31: SSRI dosing in OCD requires higher doses and longer trials (minimum 12 weeks at maximum tolerated dose) compared with depression. First-line SSRIs: fluoxetine, fluvoxamine, paroxetine, sertraline, or citalopram. Clomipramine is second-line due to side-effect burden.",
+    "domain": "general_adult",
+    "subdomain": "ocd",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "OCD",
+      "NICE-CG31",
+      "SSRI-dosing"
+    ],
+    "source": "NICE CG31"
+  },
+  {
+    "stem": "A 29-year-old woman with a 10-year history of OCD (contamination subtype, compulsive washing) presents to psychiatry clinic. She has been on sertraline 200 mg for 16 weeks with partial response. She continues to spend 2 hours daily washing and avoids public toilets. According to NICE CG31, which of the following management options is most appropriate?",
+    "options": [
+      " Continue sertraline and offer adjunctive CBT including ERP",
+      " Switch to pregabalin augmentation",
+      " Recommend deep transcranial magnetic stimulation (dTMS)",
+      " Stop all medication and refer for intensive residential CBT",
+      " Add olanzapine 10 mg and titrate"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. For OCD with partial response to SSRI alone, NICE CG31 recommends offering CBT (including ERP) alongside the SSRI. The combination of SSRI and CBT is more effective than either alone for moderate-severe OCD.",
+      "Pregabalin is not recommended for OCD by NICE CG31.",
+      "dTMS is not a first- or second-line treatment for OCD; it remains an experimental treatment in some settings.",
+      "Stopping medication if there has been partial benefit is not appropriate. Intensive residential CBT is reserved for severe treatment-refractory cases.",
+      "Olanzapine is not recommended for OCD augmentation. Risperidone or aripiprazole are the antipsychotics with best evidence for augmentation; olanzapine has less evidence."
+    ],
+    "teaching_point": "NICE CG31: For moderate OCD, offer CBT (including ERP) and an SSRI combined. For severe OCD, always offer combination treatment. If there is no response to first SSRI after 12 weeks at maximum dose, try a different SSRI or augment with antipsychotic (risperidone or aripiprazole).",
+    "domain": "general_adult",
+    "subdomain": "ocd",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "OCD",
+      "NICE-CG31",
+      "treatment-strategy"
+    ],
+    "source": "NICE CG31"
+  },
+  {
+    "stem": "A 35-year-old man was involved in a serious car accident 4 months ago in which he was trapped in his vehicle for 30 minutes. He now experiences recurrent intrusive memories of the accident, nightmares, hypervigilance to traffic sounds, and avoids driving or being in cars. He feels emotionally numb and reports that he cannot remember parts of the accident clearly. He has difficulty sleeping and feels irritable. What is the most likely diagnosis according to ICD-11?",
+    "options": [
+      " Post-traumatic stress disorder",
+      " Acute stress reaction",
+      " Adjustment disorder",
+      " Complex PTSD",
+      " Panic disorder with agoraphobia"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. ICD-11 PTSD requires exposure to a threatening event plus re-experiencing in the present, avoidance of reminders, and persistent perceptions of heightened current threat (hyperarousal). Symptoms must persist for at least several weeks following the event.",
+      "Acute stress reaction is a transient reaction to severe stress, typically resolving within days. The 4-month duration here rules this out.",
+      "Adjustment disorder involves emotional or behavioural symptoms in response to an identifiable stressor that do not meet the threshold for PTSD; it lacks the specific re-experiencing and hyperarousal symptoms.",
+      "Complex PTSD (ICD-11) requires the core PTSD symptoms plus disturbances in affect regulation, negative self-concept, and interpersonal difficulties. These are not described here.",
+      "Panic disorder involves spontaneous panic attacks and fear of future attacks, not triggered specifically by reminders of a traumatic event."
+    ],
+    "teaching_point": "ICD-11 simplifies PTSD to three core clusters: re-experiencing, avoidance, and sense of current threat. Complex PTSD adds three additional domains: affect dysregulation, negative self-concept, and interpersonal difficulties. NICE NG116 recommends trauma-focused CBT (TF-CBT) or EMDR as first-line psychological treatments.",
+    "domain": "general_adult",
+    "subdomain": "ptsd",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "PTSD",
+      "ICD-11",
+      "NICE-NG116"
+    ],
+    "source": "NICE NG116"
+  },
+  {
+    "stem": "According to NICE NG116, which of the following is a FIRST-LINE psychological treatment for PTSD in adults?",
+    "options": [
+      " Trauma-focused CBT (TF-CBT) or eye movement desensitisation and reprocessing (EMDR) therapy",
+      " Non-directive counselling",
+      " Psychodynamic therapy",
+      " Supportive psychotherapy",
+      " Mindfulness-based stress reduction"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE NG116 recommends TF-CBT and EMDR as the first-line psychological treatments for PTSD. Both have robust evidence bases for effectiveness.",
+      "Non-directive counselling is not recommended for PTSD due to lack of evidence of effectiveness.",
+      "Psychodynamic therapy is not recommended for PTSD by NICE.",
+      "Supportive psychotherapy is not effective for core PTSD symptoms.",
+      "Mindfulness-based interventions have some evidence for general wellbeing but are not first-line treatments for PTSD per NICE NG116."
+    ],
+    "teaching_point": "NICE NG116: All adults with a diagnosis of PTSD should be offered a course of TF-CBT or EMDR. These are typically 8-12 sessions. For severe or complex PTSD, more sessions may be required. Pharmacological treatments (SSRIs: paroxetine, sertraline) are second-line, offered only if psychological treatment is declined or ineffective.",
+    "domain": "general_adult",
+    "subdomain": "ptsd",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "PTSD",
+      "NICE-NG116",
+      "TF-CBT",
+      "EMDR"
+    ],
+    "source": "NICE NG116"
+  },
+  {
+    "stem": "A 28-year-old woman experienced multiple childhood sexual abuse by a family member between ages 6 and 14. In adulthood, she presents with core PTSD symptoms (flashbacks, nightmares, avoidance) as well as significant difficulties regulating her emotions (intense anger outbursts and feeling 'switched off'), a persistent negative self-view ('I am dirty and worthless'), and severe problems in relationships (she oscillates between idealising and devaluing partners). According to ICD-11, what is the most appropriate diagnosis?",
+    "options": [
+      " Complex PTSD (C-PTSD)",
+      " PTSD",
+      " Borderline personality disorder",
+      " Dissociative identity disorder",
+      " Adjustment disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. ICD-11 C-PTSD requires the three core PTSD symptom clusters plus three additional disturbances: (1) affect dysregulation, (2) negative self-concept (feelings of worthlessness, guilt, shame), and (3) interpersonal difficulties. The enduring/repeated nature of the trauma supports this diagnosis.",
+      "PTSD alone would account for the re-experiencing, avoidance, and hyperarousal, but not the additional domains of affect dysregulation, negative self-concept, and interpersonal disturbance.",
+      "BPD shares features of emotional dysregulation and interpersonal difficulties, but BPD does not require the core PTSD symptom clusters (re-experiencing, avoidance, sense of threat) as necessary criteria.",
+      "DID involves fragmentation of identity with distinct personality states and amnesia, which are not described here.",
+      "Adjustment disorder does not require the severity or specificity of symptoms described and would not be appropriate given the symptom constellation."
+    ],
+    "teaching_point": "ICD-11 C-PTSD is a distinct diagnosis (unlike DSM-5-TR which subsumes it within PTSD). It arises from sustained, repeated, or multiple forms of traumatic exposure (e.g. childhood abuse, domestic violence, torture). Core distinction from BPD: C-PTSD requires re-experiencing and avoidance, which are not intrinsic to BPD. NICE NG116 recommends a phased approach for complex presentations (stabilisation, trauma-focused therapy, reintegration).",
+    "domain": "general_adult",
+    "subdomain": "ptsd",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "C-PTSD",
+      "ICD-11",
+      "complex-trauma"
+    ],
+    "source": "ICD-11; NICE NG116"
+  },
+  {
+    "stem": "A 40-year-old soldier developed PTSD following combat exposure 2 years ago. He has tried two courses of trauma-focused CBT and EMDR, each with initial partial response followed by relapse. He has persistent flashbacks and hypervigilance. According to NICE NG116, which of the following pharmacological treatments is recommended as monotherapy for PTSD?",
+    "options": [
+      " Paroxetine or sertraline",
+      " Venlafaxine",
+      " Mirtazapine",
+      " Prazosin",
+      " Olanzapine"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE NG116 recommends paroxetine or sertraline (SSRIs) as first-line pharmacological treatments for PTSD when medication is indicated. Venlafaxine is also recommended as an alternative.",
+      "Venlafaxine is a second-line option per NICE NG116 but the question asks for what is recommended as monotherapy alongside SSRIs; paroxetine and sertraline are the most consistently recommended first-line medications.",
+      "Mirtazapine is not specifically recommended by NICE NG116 for PTSD.",
+      "Prazosin (alpha-blocker) has some evidence for trauma-related nightmares but is not recommended as monotherapy for PTSD by NICE NG116.",
+      "Antipsychotics are not recommended for PTSD unless there are comorbid psychotic symptoms or severe agitation."
+    ],
+    "teaching_point": "NICE NG116: Pharmacological treatment for PTSD should not be routinely offered first-line. Only consider medication if psychological therapy has been declined or is ineffective. First-line options: paroxetine, sertraline, or venlafaxine. Treatment should be continued for at least 12 months if effective.",
+    "domain": "general_adult",
+    "subdomain": "ptsd",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "PTSD",
+      "NICE-NG116",
+      "pharmacotherapy"
+    ],
+    "source": "NICE NG116"
+  },
+  {
+    "stem": "A 22-year-old woman presents 6 weeks after breaking up with her long-term partner. She reports low mood, tearfulness, difficulty concentrating, insomnia, and a loss of interest in activities that she previously enjoyed. She describes feeling 'stuck' and unable to move on. Her symptoms started within 1 month of the breakup and have been present daily. She has no suicidal ideation or psychotic symptoms. She has no prior psychiatric history. What is the most likely diagnosis?",
+    "options": [
+      " Adjustment disorder",
+      " Major depressive disorder",
+      " Post-traumatic stress disorder",
+      " Prolonged grief disorder",
+      " Generalised anxiety disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Adjustment disorder involves emotional or behavioural symptoms in response to an identifiable psychosocial stressor, starting within 1 month, with symptoms not meeting criteria for another disorder. The symptoms are time-limited and proportionate to the stressor.",
+      "Major depressive disorder requires a minimum of 2 weeks of depressed mood or loss of interest plus additional symptoms; however, the 1-month onset from a stressor and the context of a relationship breakup make adjustment disorder more likely if symptoms are not severe enough for MDD.",
+      "PTSD requires exposure to a life-threatening or traumatic event; a breakup does not qualify as a traumatic event in diagnostic criteria.",
+      "Prolonged grief disorder requires the death of a close other with yearning/preoccupation lasting 12+ months (6 months in children).",
+      "GAD requires worry across multiple domains for 6+ months."
+    ],
+    "teaching_point": "ICD-11 adjustment disorder: symptoms develop within 1 month of an identifiable stressor, typically resolve within 6 months. Can present with depressed mood, anxiety, or conduct disturbance. Must not meet criteria for another disorder. NICE recommends watchful waiting, low-intensity psychological interventions, and addressing the stressor.",
+    "domain": "general_adult",
+    "subdomain": "ptsd",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "adjustment-disorder",
+      "ICD-11"
+    ],
+    "source": "ICD-11; NICE NG116"
+  },
+  {
+    "stem": "A 36-year-old man has been experiencing nightmares, intrusive memories, and hypervigilance following a violent assault 8 months ago. He is also noted to have dissociative amnesia for parts of the assault and reports episodes where he feels detached from his own body (depersonalisation) and that the world seems unreal (derealisation). These dissociative symptoms occur during stressful periods. What specifier or subtype should be considered according to DSM-5-TR?",
+    "options": [
+      " PTSD with dissociative symptoms (depersonalisation/derealisation specifier)",
+      " Dissociative amnesia with PTSD",
+      " Depersonalisation/derealisation disorder",
+      " Complex PTSD",
+      " Acute stress disorder with dissociative features"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. DSM-5-TR includes a dissociative symptoms specifier for PTSD when the individual experiences persistent or recurrent depersonalisation and/or derealisation in addition to core PTSD symptoms.",
+      "Dissociative amnesia is part of the dissociative specifier in PTSD but is not a separate diagnosis alongside PTSD in this context.",
+      "Depersonalisation/derealisation disorder involves persistent depersonalisation/derealisation without the trauma history and core PTSD symptoms.",
+      "Complex PTSD is an ICD-11 diagnosis; DSM-5-TR does not have a separate C-PTSD diagnosis but includes dissociative symptoms as a specifier.",
+      "Acute stress disorder applies within the first month following trauma, not at 8 months."
+    ],
+    "teaching_point": "DSM-5-TR PTSD specifiers: (1) With dissociative symptoms (depersonalisation/derealisation), (2) With delayed expression (full diagnostic criteria not met until at least 6 months after the event). The dissociative subtype is seen in 10-30% of PTSD cases and may require modified treatment approaches (grounding techniques first).",
+    "domain": "general_adult",
+    "subdomain": "ptsd",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "PTSD",
+      "DSM-5-TR",
+      "dissociative-subtype"
+    ],
+    "source": "DSM-5-TR; NICE NG116"
+  },
+  {
+    "stem": "A 19-year-old female student is referred to the eating disorders service. She has a BMI of 14.5 kg/m² and has been restricting her food intake severely for the past year, aiming to eat fewer than 500 kcal daily. She has a profound fear of weight gain and sees herself as 'fat' despite being emaciated. She runs 10 km daily to burn calories. No binge-eating or purging behaviours are present. According to NICE NG69, which investigation is MOST IMPORTANT to perform before starting refeeding?",
+    "options": [
+      " Serum electrolytes, phosphate, magnesium, calcium, ECG, and full blood count",
+      " Dual-energy X-ray absorptiometry (DEXA) scan",
+      " Brain MRI",
+      " Oesophageal pH monitoring",
+      " Thyroid function tests alone"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE NG69 mandates baseline assessment including FBC, U&Es, LFTs, bone profile, magnesium, phosphate, ECG, and fluid balance monitoring before refeeding, due to risk of refeeding syndrome.",
+      "DEXA scan is recommended after 1 year of low weight but is not an urgent pre-refeeding investigation.",
+      "Brain MRI is not routinely indicated unless there are focal neurological signs.",
+      "Oesophageal pH monitoring is relevant for reflux but not for refeeding preparation.",
+      "TFTs alone are insufficient; a comprehensive metabolic panel and ECG are essential."
+    ],
+    "teaching_point": "NICE NG69: Refeeding syndrome is a potentially fatal complication of nutritional restoration in severely malnourished patients. It involves hypophosphataemia, hypokalaemia, hypomagnesaemia, fluid shifts, cardiac arrhythmias, and neurological complications. Key prevention: slow refeeding (starting at 5-10 kcal/kg/day), aggressive monitoring, and phosphate supplementation as needed. MARSIPAN guidelines provide detailed protocols.",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anorexia-nervosa",
+      "NICE-NG69",
+      "MARSIPAN",
+      "refeeding"
+    ],
+    "source": "NICE NG69; MARSIPAN"
+  },
+  {
+    "stem": "A 24-year-old woman with anorexia nervosa (restricting type), BMI 15.0, is admitted for medical stabilisation. She has been restricting to 600 kcal/day. She has no significant comorbidity. According to the MARSIPAN guidelines, which of the following initial refeeding rates is most appropriate?",
+    "options": [
+      " Start at 5-10 kcal/kg/day for the first 24-48 hours, then increase gradually by 0.5-1.0 kcal/kg/day",
+      " Start at 30-40 kcal/kg/day to achieve rapid weight restoration",
+      " Start with intravenous dextrose 10% only for the first week",
+      " Start at 20 kcal/kg/day and double every 48 hours",
+      " Start with total parenteral nutrition (TPN) at 50 kcal/kg/day"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. MARSIPAN and NICE NG69 recommend starting refeeding at 5-10 kcal/kg/day (or 800-1000 kcal/day for adults) for the first 48 hours in severely malnourished patients, with gradual increases of 0.5-1.0 kcal/kg/day to minimise refeeding syndrome risk.",
+      "Starting at 30-40 kcal/kg/day is too aggressive and significantly increases risk of refeeding syndrome.",
+      "Intravenous dextrose alone does not provide adequate nutrition and may actually precipitate refeeding syndrome.",
+      "Doubling caloric intake every 48 hours is too rapid and dangerous in severe malnutrition.",
+      "TPN is reserved for cases where enteral feeding is not possible; oral/enteral nutrition is preferred. High starting rates increase refeeding syndrome risk."
+    ],
+    "teaching_point": "MARSIPAN guidelines: For patients at high risk of refeeding syndrome (BMI < 15, rapid weight loss, minimal intake for >10 days), start at 5-10 kcal/kg/day. Check serum phosphate, potassium, magnesium, and glucose at least twice daily for the first week. Give prophylactic thiamine 100 mg tds. Correct electrolyte abnormalities promptly.",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anorexia-nervosa",
+      "MARSIPAN",
+      "refeeding-syndrome"
+    ],
+    "source": "NICE NG69; MARSIPAN"
+  },
+  {
+    "stem": "A 23-year-old woman presents with recurrent episodes of binge eating (consuming large amounts of food in a short period with a sense of loss of control) occurring twice weekly for the past 3 months. During these episodes, she eats very rapidly, until uncomfortably full, and alone due to embarrassment. She feels disgusted and guilty afterwards. She does not engage in compensatory behaviours such as vomiting, laxative use, or excessive exercise. Her BMI is 32 kg/m². What is the most likely diagnosis?",
+    "options": [
+      " Binge eating disorder (BED)",
+      " Bulimia nervosa",
+      " Anorexia nervosa (binge-eating/purging type)",
+      " Obesity with food addiction",
+      " Atypical anorexia nervosa"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. DSM-5-TR BED requires recurrent binge eating episodes (at least once weekly for 3 months), loss of control, marked distress, and absence of regular compensatory behaviours. Three or more associated features (rapid eating, eating until uncomfortably full, eating alone, feeling disgusted/guilty) are also required.",
+      "Bulimia nervosa requires recurrent inappropriate compensatory behaviours (vomiting, laxatives, fasting, excessive exercise) following binge episodes.",
+      "Anorexia nervosa (binge-eating/purging type) requires significantly low body weight (BMI < 18.5 typically), which is not present here.",
+      "'Obesity with food addiction' is not a DSM-5-TR or ICD-11 diagnosis; it is a speculative construct.",
+      "Atypical anorexia nervosa requires restriction and fear of weight gain with significant weight loss, but weight is within/near the normal range."
+    ],
+    "teaching_point": "NICE NG69: For BED, guided self-help based on CBT (CBT-GSH) is first-line. If ineffective or declined, individual CBT for eating disorders (CBT-ED) should be offered. SSRI (fluoxetine 60 mg) may be considered as a second-line option. BED is associated with obesity, metabolic syndrome, and mood disorders.",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "BED",
+      "NICE-NG69",
+      "DSM-5-TR"
+    ],
+    "source": "NICE NG69; DSM-5-TR"
+  },
+  {
+    "stem": "A 20-year-old woman with bulimia nervosa engages in binge-eating followed by self-induced vomiting approximately 5 times per week. She also uses 8-10 laxatives daily. She has a BMI of 21.5 kg/m². Which of the following is the MOST COMMON electrolyte abnormality associated with this presentation?",
+    "options": [
+      " Hypokalaemia and hypochloraemic metabolic alkalosis",
+      " Hyperkalaemia and metabolic acidosis",
+      " Hyponatraemia and hypercalcaemia",
+      " Hypernatraemia and hypophosphataemia",
+      " Hypocalcaemia and hyperphosphataemia"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Self-induced vomiting and laxative abuse in bulimia nervosa cause loss of gastric acid (HCl) and potassium, leading to hypokalaemia and metabolic alkalosis. This is a well-recognised medical complication.",
+      "Hyperkalaemia is not typical of vomiting/laxative abuse; potassium is lost, leading to hypokalaemia.",
+      "Hyponatraemia can occur with excessive water drinking but is less characteristic than hypokalaemia; hypercalcaemia is not associated.",
+      "Hypernatraemia is not typical; hypophosphataemia can occur in refeeding but is not the hallmark of bulimia.",
+      "Hypocalcaemia and hyperphosphataemia are not characteristic of bulimia nervosa."
+    ],
+    "teaching_point": "NICE NG69: Medical complications of bulimia include electrolyte disturbances (hypokalaemia, hypochloraemic metabolic alkalosis), dental erosion (from gastric acid), parotid gland enlargement, oesophageal tears (Mallory-Weiss), and cardiac arrhythmias from electrolyte disturbance. ECG monitoring is important. First-line psychological treatment: CBT-ED. First-line medication: high-dose fluoxetine (60 mg).",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "bulimia-nervosa",
+      "NICE-NG69",
+      "electrolyte"
+    ],
+    "source": "NICE NG69"
+  },
+  {
+    "stem": "A 16-year-old female with anorexia nervosa, BMI 13.8 kg/m², is admitted to a paediatric medical ward. Her heart rate is 38 bpm, blood pressure 78/45 mmHg, and QTc interval is 520 ms on ECG. She has peripheral oedema and is lethargic. According to MARSIPAN guidelines, what is the MOST APPROPRIATE management step?",
+    "options": [
+      " Urgent transfer to a medical high-dependency unit (HDU) or paediatric intensive care unit (PICU)",
+      " Commence oral refeeding at 10 kcal/kg/day on the ward with 4-hourly monitoring",
+      " Start NG feeding at 30 kcal/kg/day immediately",
+      " Administer 1 litre of normal saline IV and repeat ECG in 6 hours",
+      " Discharge to home with community dietitian follow-up"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. MARSIPAN criteria for high-dependency care include: HR < 40 bpm, BP < 80/50 mmHg, QTc > 460 ms (adults) or > 450 ms (under 18), severe electrolyte disturbance, or need for NG feeding. This patient meets multiple criteria (HR 38, QTc 520) and requires HDU/PICU.",
+      "Oral refeeding on a general ward is inadequate for this severity; she requires HDU level monitoring given bradycardia, hypotension, and prolonged QTc.",
+      "Starting NG feeding at 30 kcal/kg/day is too aggressive for a patient with BMI 13.8; initial rates of 5-10 kcal/kg/day with HDU monitoring are indicated.",
+      "IV fluids alone do not address malnutrition. ECG monitoring alone without correction of nutritional status is insufficient; she requires intensive monitoring and slow refeeding.",
+      "Discharge is contraindicated given the severity of medical compromise (bradycardia, hypotension, prolonged QTc)."
+    ],
+    "teaching_point": "MARSIPAN criteria for medical admission of anorexia: HR < 50 bpm, BP < 90/60 mmHg, BMI < 15, rapid weight loss, QTc > 450 ms, electrolyte disturbance, inability to eat/drink. Indications for HDU/PICU: HR < 40, BP < 80/50, QTc > 460 (adults) / > 450 (adolescents), severe hypophosphataemia, or cardiac arrhythmia.",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anorexia-nervosa",
+      "MARSIPAN",
+      "medical-emergency"
+    ],
+    "source": "MARSIPAN; NICE NG69"
+  },
+  {
+    "stem": "A 28-year-old woman presents with a 3-year history of unstable relationships, intense fear of abandonment, chronic feelings of emptiness, recurrent suicidal gestures (superficial wrist lacerations), and marked impulsivity (substance misuse, reckless driving). She describes rapid shifts in her view of others from idealisation to devaluation. Her symptoms are pervasive and have been present since late adolescence. Which of the following is the FIRST-LINE psychological treatment recommended by NICE CG78 for this condition?",
+    "options": [
+      " Dialectical behaviour therapy (DBT)",
+      " Mentalisation-based therapy (MBT)",
+      " Cognitive behavioural therapy (CBT)",
+      " Psychodynamic psychotherapy",
+      " Cognitive analytic therapy (CAT)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG78 recommends DBT as a first-line psychological treatment for borderline personality disorder (BPD), particularly for women with recurrent self-harm and emotional dysregulation. DBT combines individual therapy, group skills training, phone coaching, and therapist consultation.",
+      "MBT is an evidence-based treatment for BPD but is considered an alternative to DBT per NICE, not the primary first-line recommendation.",
+      "CBT has less evidence for BPD compared with DBT and MBT. Generic CBT is not specifically recommended by NICE CG78 for BPD.",
+      "Psychodynamic psychotherapy lacks the structured evidence base that DBT has for BPD.",
+      "CAT has some evidence but is not a first-line NICE-recommended treatment for BPD."
+    ],
+    "teaching_point": "NICE CG78: For BPD, offer DBT, especially for women with frequent self-harm. MBT is also recommended as a treatment option for adults with BPD. Treatment duration should be at least 12 months. SSRIs should not be used routinely for BPD unless there is comorbid depression. Antipsychotics should not be used for short-term distress but may be considered for short-term crisis management.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "BPD",
+      "NICE-CG78",
+      "DBT"
+    ],
+    "source": "NICE CG78"
+  },
+  {
+    "stem": "A 25-year-old woman with a diagnosis of borderline personality disorder presents to the emergency department with superficial wrist lacerations following an argument with her partner. She is calm and states she felt 'empty and numb' and wanted to 'feel something'. She has had multiple similar presentations. According to NICE CG78, what is the most appropriate management of this self-harm episode?",
+    "options": [
+      " Offer a brief, compassionate, and non-judgemental assessment; address immediate medical needs; offer emergency crisis plan; and consider involving the crisis team",
+      " Admit to a psychiatric inpatient unit for 72 hours of observation",
+      " Commence low-dose olanzapine for behavioural control",
+      " Offer an urgent referral for DBT starting immediately",
+      " Discharge with a follow-up appointment in 2 weeks"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG78 and NICE CG133 (self-harm) recommend a person-centred, compassionate approach to self-harm assessment. The focus is on medical stabilisation, brief psychological assessment, collaborative safety planning, and crisis team involvement rather than automatic admission.",
+      "Automatic admission is not recommended; NICE advises against admission solely for self-harm unless there is significant ongoing risk. Admission can be disempowering and reinforce maladaptive patterns.",
+      "Antipsychotics should not be used routinely for BPD symptoms or self-harm; they may be considered only for short-term crisis management if distress is severe.",
+      "DBT referral is appropriate but cannot be started immediately in an emergency setting; the patient needs acute management first.",
+      "Discharge without a crisis/safety plan is inadequate given the acute presentation; a risk management plan and appropriate follow-up are needed."
+    ],
+    "teaching_point": "NICE CG133 (Self-harm) and NICE CG78: The management of self-harm in BPD involves: (1) Treat the injury with dignity and respect, (2) Conduct a psychosocial assessment of needs and risks, (3) Develop a collaborative safety/crisis plan, (4) Consider crisis team involvement, (5) Avoid admission unless necessary. The evidence does not support automatic hospital admission for self-harm in BPD.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "BPD",
+      "NICE-CG78",
+      "self-harm"
+    ],
+    "source": "NICE CG78; NICE CG133"
+  },
+  {
+    "stem": "A 34-year-old man has a history of conduct disorder in childhood and multiple convictions for theft, assault, and fraud in adulthood. He shows a consistent pattern of disregard for the law, deceitfulness, impulsivity, irritability, and lack of remorse for his actions. He has never sustained a stable relationship and has been fired from multiple jobs for dishonesty. His IQ is assessed at 82. According to NICE CG77, which of the following is the most appropriate treatment approach?",
+    "options": [
+      " Group-based cognitive behavioural therapy focusing on reducing offending and antisocial behaviour",
+      " Long-term psychoanalytic psychotherapy",
+      " Low-dose antipsychotic medication",
+      " SSRI medication for impulse control",
+      " No treatment is effective; focus on risk management only"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG77 recommends group-based CBT programmes for people with antisocial personality disorder (ASPD) to reduce offending and antisocial behaviour. Schema therapy may also be considered for individuals with ASPD.",
+      "Psychoanalytic psychotherapy is not recommended for ASPD by NICE CG77; it lacks evidence in this population.",
+      "Antipsychotics are not recommended for core ASPD symptoms; they may only be considered for short-term agitation if comorbid psychosis.",
+      "SSRIs have limited evidence for ASPD and are not recommended by NICE for core symptoms.",
+      "This is incorrect. While ASPD is challenging to treat, group CBT has evidence for reducing reoffending. Risk management is part of care but not the only option."
+    ],
+    "teaching_point": "NICE CG77: For ASPD, offer group-based CBT programmes focused on reducing antisocial behaviour and offending. Consider schema therapy for individuals with ASPD and a history of childhood abuse. Pharmacological interventions should NOT be routinely offered for ASPD core symptoms. Comorbid conditions (depression, anxiety, substance misuse) should be treated according to relevant guidelines. The evidence base for any treatment in ASPD is more limited than for BPD.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "ASPD",
+      "NICE-CG77",
+      "CBT"
+    ],
+    "source": "NICE CG77"
+  },
+  {
+    "stem": "A 32-year-old man with antisocial personality disorder has been imprisoned for assault. He has a history of childhood conduct disorder, alcohol dependence, and depression. He asks about medication to help with his 'anger problems'. According to NICE CG77, what is the most appropriate pharmacological approach?",
+    "options": [
+      " Assess and treat comorbid conditions (alcohol dependence, depression) according to standard protocols; do not offer medication specifically for ASPD",
+      " Start carbamazepine for impulse control",
+      " Prescribe low-dose haloperidol for anger management",
+      " Start fluoxetine 20 mg for anger and impulsivity",
+      " Prescribe depot antipsychotic for behavioural stabilisation"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG77 states that pharmacological interventions should NOT be routinely used for the core symptoms of ASPD. Any medication should be directed at comorbid mental health conditions (depression, anxiety, alcohol dependence) using standard treatment protocols.",
+      "Carbamazepine is not recommended for ASPD by NICE; there is insufficient evidence for mood stabilisers in this context.",
+      "Antipsychotics should not be used routinely for ASPD, only short-term if there is severe agitation or comorbid psychosis.",
+      "Fluoxetine is not recommended for anger/impulsivity in ASPD. Comorbid depression should be treated independently.",
+      "Depot antipsychotics are not indicated for ASPD unless there is a comorbid psychotic disorder."
+    ],
+    "teaching_point": "NICE CG77 is clear: Do not offer pharmacological interventions for the core symptoms of ASPD. Treat comorbid conditions according to standard guidelines. The focus should be on structured psychological interventions (group CBT, schema therapy) and social support. Antipsychotics may be considered for short-term crisis management only.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "ASPD",
+      "NICE-CG77",
+      "pharmacotherapy"
+    ],
+    "source": "NICE CG77"
+  },
+  {
+    "stem": "A 26-year-old woman with borderline personality disorder has been in DBT for 8 months with good engagement. She continues to experience episodes of intense emotional distress, but the frequency of self-harm has reduced from weekly to once monthly. She asks whether medication could help with her rapidly shifting moods. According to NICE CG78, what is the most appropriate advice regarding medication for BPD?",
+    "options": [
+      " Medication should not be used routinely for BPD core symptoms; if mood instability persists, review for comorbid mood disorder and treat accordingly",
+      " Start low-dose quetiapine for mood instability",
+      " Prescribe sodium valproate as a mood stabiliser",
+      " Add fluoxetine 60 mg for emotional dysregulation",
+      " Start lamotrigine for mood swings"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG78 advises that drug treatment should NOT be used specifically for BPD or the core symptoms of BPD (chronic emptiness, emotional instability, impulsivity). Comorbid depression should be treated according to standard protocols.",
+      "Quetiapine is not recommended for BPD core symptoms; NICE advises caution with antipsychotics due to side-effect burden and limited evidence.",
+      "Sodium valproate is not recommended for BPD; mood stabilisers lack robust evidence in this population.",
+      "Fluoxetine at any dose is not recommended for BPD core symptoms. Comorbid depression should be treated as per depression guidelines.",
+      "Lamotrigine is not recommended for BPD."
+    ],
+    "teaching_point": "NICE CG78: Do not use pharmacological interventions for the core features of BPD or for the comorbid presentation of BPD with mood instability. If there is comorbid depression, treat it according to NICE guidelines for depression but note that the evidence for antidepressants in BPD-depression is weaker than in depression alone. Antipsychotics may be considered for short-term (up to 1 week) crisis management only.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "BPD",
+      "NICE-CG78",
+      "pharmacotherapy"
+    ],
+    "source": "NICE CG78"
+  },
+  {
+    "stem": "A 29-year-old man presents with a long-standing pattern of social and interpersonal deficits, eccentric behaviour, odd beliefs (magical thinking - he believes he can read others' thoughts), perceptual distortions (feeling that absent people are present), and inappropriate affect. He has no close friends and has been unable to hold a job due to his odd behaviour. These features have been present since adolescence. There is no history of psychotic episodes where full criteria for schizophrenia have been met. What is the most likely diagnosis?",
+    "options": [
+      " Schizotypal personality disorder",
+      " Schizophrenia",
+      " Autistic spectrum disorder (ASD)",
+      " Avoidant personality disorder",
+      " Schizoid personality disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Schizotypal personality disorder (DSM-5-TR / ICD-11) involves pervasive pattern of social deficits, cognitive/perceptual distortions (magical thinking, ideas of reference, unusual perceptual experiences), and eccentric behaviour. Unlike schizophrenia, there are no frank psychotic episodes.",
+      "Schizophrenia requires a period of frank psychotic symptoms (delusions, hallucinations, disorganised speech) that meet duration criteria; this patient has never had such episodes.",
+      "ASD involves deficits in social communication and restricted/repetitive behaviours, not magical thinking or perceptual distortions.",
+      "Avoidant personality disorder involves social inhibition and feelings of inadequacy, not eccentricity or odd beliefs.",
+      "Schizoid personality disorder involves emotional detachment and limited social relationships but does NOT include cognitive/perceptual distortions or odd thinking."
+    ],
+    "teaching_point": "Schizotypal personality disorder sits on the schizophrenia spectrum. It is characterised by odd thinking, unusual perceptual experiences, and social deficits without frank psychosis. It has a genetic link to schizophrenia. Treatment involves social skills training, CBT for psychotic-like symptoms, and cautious use of low-dose antipsychotics if distressing perceptual disturbances are present. NICE CG78 does not specifically address schizotypal PD; management follows general PD principles.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "schizotypal-PD",
+      "DSM-5-TR",
+      "ICD-11"
+    ],
+    "source": "DSM-5-TR; NICE CG78"
+  },
+  {
+    "stem": "A 35-year-old woman with borderline personality disorder has been in DBT for 14 months. She has made good progress with reduced self-harm and improved emotional regulation. However, she continues to experience transient psychotic-like symptoms lasting minutes to hours during extreme stress, involving suspiciousness and hearing her name called. She has no full-blown psychotic episodes. According to NICE CG78, what is the most appropriate management for these symptoms?",
+    "options": [
+      " These are typical micropsychotic episodes in BPD; manage within the psychological therapy framework and treat the underlying stress, not with antipsychotics",
+      " Start low-dose risperidone for psychotic symptoms",
+      " Diagnose comorbid schizotypal personality disorder and treat accordingly",
+      " Admit for assessment of first-episode psychosis",
+      " Switch from DBT to mentalisation-based therapy (MBT)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Micropsychotic episodes (stress-related transient psychotic symptoms) are a recognised feature of BPD. NICE CG78 advises that antipsychotics should not be routinely prescribed for BPD symptoms; these episodes should be managed within the psychological therapy framework.",
+      "Antipsychotics are not recommended for transient psychotic symptoms in BPD. They may be considered only for short-term (up to 1 week) crisis management if distress is severe.",
+      "Transient stress-related psychotic symptoms in BPD do not necessarily indicate a separate personality disorder; they are part of the BPD phenotype.",
+      "Admission is not indicated for brief, stress-related psychotic symptoms in a known BPD patient without other risk factors.",
+      "Switching therapy is not necessarily indicated; DBT is already in place and showing benefit."
+    ],
+    "teaching_point": "Micropsychotic episodes (also called quasi-psychotic or psychotic-like symptoms) occur in up to 40% of BPD patients, typically during extreme stress. They are brief (minutes to hours), reality-testing returns completely, and there is no formal thought disorder. Treatment involves addressing the stressor, grounding techniques, and continuing DBT. NICE CG78 advises against antipsychotic prescription for these symptoms.",
+    "domain": "general_adult",
+    "subdomain": "personality_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "BPD",
+      "NICE-CG78",
+      "micropsychotic"
+    ],
+    "source": "NICE CG78"
+  },
+  {
+    "stem": "Which of the following is a key feature distinguishing dissociative identity disorder (DID) from the dissociative specifier of PTSD according to DSM-5-TR?",
+    "options": [
+      " DID involves distinct personality states with recurrent gaps in recall of everyday events, not just trauma-related amnesia or depersonalisation/derealisation",
+      " DID always includes depersonalisation, which rarely occurs in PTSD",
+      " PTSD with dissociative specifier does not involve any dissociative amnesia",
+      " DID is limited to patients with childhood sexual abuse, while PTSD has various aetiologies",
+      " DID responds better to EMDR than trauma-focused CBT"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. DID is characterised by the presence of two or more distinct personality states (alter identities) and recurrent gaps in recall of everyday events, important personal information, or traumatic events (Criterion B). The dissociative specifier of PTSD involves depersonalisation and/or derealisation but not identity disruption with amnesia for everyday events.",
+      "Depersonalisation occurs in both conditions and is not a distinguishing feature.",
+      "PTSD with dissociative specifier can include dissociative amnesia for traumatic events, but this is different from the pervasive amnesia for everyday events seen in DID.",
+      "While DID is strongly associated with severe childhood trauma (often sexual abuse), PTSD with dissociative specifier also arises from trauma. Aetiology alone does not distinguish them.",
+      "Treatment response is not a diagnostic criterion."
+    ],
+    "teaching_point": "DSM-5-TR DID: (A) Disruption of identity characterised by two or more distinct personality states (culturally normal possession excluded), (B) recurrent gaps in recall of everyday events, important personal information, or traumatic events, (C) clinically significant distress, (D) not due to substances or medical condition. The identity disruption in DID is more pervasive than the dissociative symptoms of PTSD. Treatment requires long-term specialised psychotherapy (phase-oriented: stabilisation, trauma processing, integration).",
+    "domain": "general_adult",
+    "subdomain": "dissociative",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "DID",
+      "DSM-5-TR",
+      "dissociative"
+    ],
+    "source": "DSM-5-TR"
+  },
+  {
+    "stem": "A 42-year-old woman presents with a 3-week history of weakness in her left arm and leg, difficulty walking, and sensory loss in a 'glove and stocking' distribution. She has had similar episodes in the past, each lasting several weeks and resolving spontaneously. Neurological examination is inconsistent with anatomical pathways (e.g. the sensory loss splits at the midline exactly at the sternum). MRI brain and spine are normal. EEG and nerve conduction studies are normal. What is the most likely diagnosis?",
+    "options": [
+      " Conversion disorder (functional neurological symptom disorder)",
+      " Malingering",
+      " Factitious disorder",
+      " Multiple sclerosis",
+      " Dissociative identity disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Conversion disorder (DSM-5-TR: functional neurological symptom disorder) involves symptoms of altered voluntary motor or sensory function that are incompatible with recognised neurological conditions. The 'glove and stocking' sensory loss that splits at the midline is a classic sign of non-organic sensory disturbance.",
+      "Malingering involves intentional production of symptoms for external incentive (e.g. financial gain, avoiding work). There is no mention of such incentives here.",
+      "Factitious disorder involves intentional feigning of symptoms for primary gain (to assume the sick role), not for external incentives. The presentation is consistent with conversion, not intentional symptom production.",
+      "Multiple sclerosis typically shows lesions on MRI and has a progressive/relapsing course. Normal imaging rules this out.",
+      "DID involves identity fragmentation and amnesia, not isolated neurological symptoms."
+    ],
+    "teaching_point": "DSM-5-TR: Functional neurological symptom disorder (conversion disorder) requires at least one symptom of altered voluntary motor or sensory function, with clinical findings showing incompatibility with recognised neurological conditions. It is NOT a diagnosis of exclusion - positive signs like Hoover's sign, la belle indifference, and non-anatomical sensory loss are used. Treatment involves psychoeducation, physical therapy, and CBT. NICE NG211 recommends a multidisciplinary approach.",
+    "domain": "general_adult",
+    "subdomain": "dissociative",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "conversion-disorder",
+      "DSM-5-TR",
+      "functional-neurological"
+    ],
+    "source": "DSM-5-TR; NICE NG211"
+  },
+  {
+    "stem": "A 29-year-old man presents to A&E with his mother. She reports that he has been experiencing episodes where he 'spaces out' and subsequently has no memory of what happened during these episodes. During one such episode, witnessed by his mother, he appeared confused, walked around the house aimlessly, and did not respond when spoken to. The episodes last 20-40 minutes. He has no history of head injury, and an EEG is normal. What is the most likely diagnosis?",
+    "options": [
+      " Dissociative (psychogenic) fugue",
+      " Complex partial seizures (temporal lobe epilepsy)",
+      " Dissociative identity disorder",
+      " Factitious disorder",
+      " Malingering"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Dissociative fugue (part of dissociative amnesia in DSM-5-TR) involves sudden, unexpected travel or wandering away from home with inability to recall some or all of one's past. It can present with purposeful wandering and amnesia for the episode. It is usually triggered by stress.",
+      "Complex partial seizures can present with confusion and automatisms, but the duration (20-40 min) is longer than typical seizures (1-3 min). A normal EEG makes this less likely.",
+      "DID involves distinct personality states, not isolated amnestic wandering without identity switching.",
+      "Factitious disorder involves intentional feigning; there is no evidence of deception-seeking sick role behaviour.",
+      "Malingering requires external incentive; none is mentioned."
+    ],
+    "teaching_point": "DSM-5-TR: Dissociative amnesia with dissociative fugue involves purposeful travel or wandering coupled with amnesia for identity or personal history. The fugue state resolves spontaneously, and the individual may feel confused and disoriented about their circumstances. It is differentiated from epilepsy by longer duration, lack of automatisms, and normal EEG. Treatment involves ensuring safety, psychoeducation, and trauma-focused therapy.",
+    "domain": "general_adult",
+    "subdomain": "dissociative",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "dissociative-fugue",
+      "DSM-5-TR"
+    ],
+    "source": "DSM-5-TR"
+  },
+  {
+    "stem": "A 55-year-old man with a history of coronary artery bypass surgery 2 years ago presents with persistent chest pain that began shortly after the surgery. Extensive cardiological investigations (angiography, ECG, echocardiogram, stress test) have been normal. He is convinced that he has a serious heart condition that doctors have missed and visits multiple specialists seeking confirmation. He spends hours checking his pulse and blood pressure. Which features would be MOST helpful in distinguishing illness anxiety disorder (DSM-5-TR) from somatic symptom disorder?",
+    "options": [
+      " In illness anxiety disorder, the individual has high health anxiety but no or only mild somatic symptoms; in somatic symptom disorder, there are prominent somatic symptoms with disproportionate thoughts, feelings, and behaviours",
+      " Illness anxiety disorder requires the presence of a diagnosed medical condition; somatic symptom disorder does not",
+      " Somatic symptom disorder requires symptoms to be medically unexplained; illness anxiety disorder does not",
+      " Illness anxiety disorder is limited to cancer fears; somatic symptom disorder covers all symptoms",
+      " Both conditions require the same diagnostic criteria and are distinguished only by duration"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. The key distinction in DSM-5-TR: illness anxiety disorder involves preoccupation with having or acquiring a serious illness, with high health anxiety and illness-related behaviours, but somatic symptoms are absent or mild. Somatic symptom disorder requires one or more distressing somatic symptoms with excessive thoughts, feelings, or behaviours related to the symptoms.",
+      "Neither condition requires a diagnosed medical condition; indeed, both typically involve elevated health concerns without or disproportionate to an identified medical condition.",
+      "Neither condition requires symptoms to be medically unexplained. DSM-5-TR moved away from requiring 'medically unexplained' as a criterion for somatic symptom disorders.",
+      "Illness anxiety disorder is not limited to cancer fears; it can involve any perceived serious illness.",
+      "They have distinct diagnostic criteria beyond duration."
+    ],
+    "teaching_point": "DSM-5-TR: Somatic symptom disorder (one or more distressing somatic symptoms + excessive thoughts/feelings/behaviours related to symptoms) vs. Illness anxiety disorder (preoccupation with having a serious illness, high health anxiety, minimal or no somatic symptoms). Both require 6+ months. The key differentiator is the presence vs. absence of prominent somatic symptoms. NICE NG211 recommends CBT, graded activity, and collaborative care.",
+    "domain": "general_adult",
+    "subdomain": "dissociative",
+    "difficulty": "easy",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "somatic-symptom",
+      "illness-anxiety",
+      "DSM-5-TR"
+    ],
+    "source": "DSM-5-TR; NICE NG211"
+  },
+  {
+    "stem": "A 24-year-old primigravida at 36 weeks gestation presents with a 2-week history of depressed mood, anhedonia, poor sleep, reduced appetite, and excessive guilt about her ability to be a good mother. She has no prior psychiatric history. She has been unable to work and struggles to perform basic self-care. According to NICE CG192, what is the most appropriate first-line treatment?",
+    "options": [
+      " High-intensity psychological therapy (CBT) as the first-line treatment",
+      " Start sertraline immediately at 50 mg daily",
+      " Admit to a Mother and Baby Unit (MBU)",
+      " Start quetiapine augmentation",
+      " Recommend watchful waiting for 2 more weeks"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG192 recommends that for moderate to severe depression in pregnancy, psychological therapy (CBT or IPT) should be offered as first-line treatment. Medication should be considered if the woman declines or does not respond to psychological therapy, or has severe depression.",
+      "Sertraline is an option if psychological therapy is declined or ineffective, but it is not first-line for moderate depression in pregnancy. The risks and benefits must be discussed.",
+      "MBU admission is reserved for severe cases requiring specialist perinatal psychiatric input (e.g. puerperal psychosis, severe depression with high suicide risk, or complex risks to the baby).",
+      "Quetiapine is not indicated for unipolar depression in pregnancy.",
+      "Watchful waiting is not appropriate for a 2-week history of moderate-severe symptoms meeting criteria for a depressive episode."
+    ],
+    "teaching_point": "NICE CG192 (Antenatal and postnatal mental health): For depression in pregnancy, offer structured psychological therapy (CBT, IPT) as first-line. If the woman declines psychological therapy, has no response after 3-4 weeks, or has severe depression, consider an antidepressant (sertraline, citalopram, or fluoxetine). Discuss the risks of untreated depression (preterm birth, low birth weight, poor self-care, self-harm) vs. risks of medication. All women with significant mental illness in pregnancy should have a perinatal care plan.",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "perinatal",
+      "antenatal-depression",
+      "NICE-CG192"
+    ],
+    "source": "NICE CG192"
+  },
+  {
+    "stem": "A 32-year-old woman, 10 days post-cesarean section, is brought to the emergency department by her husband. Over the past 2 days, she has become increasingly agitated, suspicious, and has not slept. She believes the hospital staff are poisoning her baby and that she is being filmed by hidden cameras. She has been speaking rapidly and jumping between topics. She has no prior psychiatric history. Her temperature is 38.2°C. What is the most likely diagnosis?",
+    "options": [
+      " Puerperal psychosis",
+      " Postnatal depression with psychotic features",
+      " Delirium",
+      " Obsessive-compulsive disorder (intrusive thoughts about harm)",
+      " Bipolar disorder (manic episode)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Puerperal (postpartum) psychosis is a psychiatric emergency with rapid onset of delusions, hallucinations, confusion, and mood disturbance within the first 2 weeks postpartum. It affects 1-2 per 1000 deliveries and is strongly associated with bipolar disorder.",
+      "Postnatal depression typically has a more gradual onset (weeks to months) and does not include delusions or confusion as key features.",
+      "Delirium is possible (given fever) but puerperal psychosis is more likely given the specific delusional content about the baby and the absence of fluctuating consciousness. However, delirium should be excluded.",
+      "OCD in the postpartum period can involve intrusive thoughts about harm to the baby, but these are ego-dystonic (recognised as irrational and distressing), not held as fixed beliefs.",
+      "While puerperal psychosis is often a manifestation of bipolar disorder, the specific postpartum onset and delusions about the baby make 'puerperal psychosis' the most precise diagnosis in this acute context."
+    ],
+    "teaching_point": "Puerperal psychosis: Onset within days to 2 weeks postpartum. Risk factors: personal or family history of bipolar disorder, first pregnancy, primiparity (50% occur in first deliveries). Features: delusions (often centred on the baby), hallucinations, agitation, confusion, mood lability, sleep disturbance. It is a psychiatric emergency requiring urgent MBU admission. Treatment: antipsychotics, mood stabilisers (lithium is effective but requires monitoring in breastfeeding). NICE CG192 recommends urgent specialist perinatal assessment.",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "perinatal",
+      "puerperal-psychosis",
+      "NICE-CG192"
+    ],
+    "source": "NICE CG192"
+  },
+  {
+    "stem": "A 28-year-old breastfeeding woman with bipolar I disorder is stable on lithium 800 mg daily. She wishes to continue lithium while breastfeeding. Her child is 3 weeks old and healthy. According to NICE CG192, which of the following is the most appropriate monitoring recommendation for the infant?",
+    "options": [
+      " Monitor the infant for lithium levels, thyroid function, and renal function; lithium levels in breastfed infants are approximately 10-50% of maternal serum levels",
+      " Lithium is absolutely contraindicated in breastfeeding; advise immediate cessation and switch to olanzapine",
+      " No monitoring is needed because lithium transfer into breast milk is negligible",
+      " Only monitor the infant if they develop lethargy or poor feeding",
+      " Advise to stop breastfeeding entirely if taking any medication"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG192 advises that lithium can be used in breastfeeding with appropriate monitoring. Infant lithium levels reach 10-50% of maternal levels, so monitoring of infant serum lithium, renal function, and thyroid function is recommended. The infant should be observed for signs of toxicity (lethargy, poor feeding, hypotonia).",
+      "Lithium is not absolutely contraindicated in breastfeeding. NICE CG192 allows lithium use with infant monitoring. The risk-benefit balance favours treatment of maternal illness to prevent relapse.",
+      "Lithium does transfer into breast milk significantly; monitoring is essential. The statement that transfer is negligible is incorrect.",
+      "While observing for clinical signs is important, routine monitoring of levels and renal/thyroid function is recommended by NICE for infants of mothers on lithium.",
+      "Breastfeeding is not necessarily contraindicated with most psychotropic medications. NICE CG192 provides guidance on risk-benefit assessment for each medication."
+    ],
+    "teaching_point": "NICE CG192: For breastfeeding on lithium: (1) Lithium levels should be monitored in the mother, (2) Infant should be monitored for lithium levels, renal function, and thyroid function, (3) Observe the infant for signs of lithium toxicity (lethargy, poor feeding, hypotonia, cyanosis), (4) Inform the mother to report any concerns about infant drowsiness or feeding difficulties. Valproate and carbamazepine have different considerations.",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "perinatal",
+      "lithium",
+      "breastfeeding",
+      "NICE-CG192"
+    ],
+    "source": "NICE CG192"
+  },
+  {
+    "stem": "A 34-year-old woman with a history of major depressive disorder presents at 8 weeks postpartum with a 4-week history of low mood, anhedonia, tearfulness, poor sleep (unable to sleep even when the baby sleeps), poor appetite, and intrusive thoughts of accidentally harming the baby (e.g. dropping her). She is distressed by these thoughts and recognises they are irrational. She has no delusions or hallucinations and does not have any intention to harm the baby. She is finding it difficult to bond with her infant. What is the most likely diagnosis?",
+    "options": [
+      " Postnatal depression with anxious features",
+      " Puerperal psychosis",
+      " Obsessive-compulsive disorder",
+      " Generalised anxiety disorder",
+      " Adjustment disorder"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Postnatal depression (PND) occurs in 10-15% of women within the first year postpartum. This patient meets DSM-5-TR criteria for a major depressive episode with peripartum onset specifier. Intrusive thoughts about harm to the baby are common in PND and are ego-dystonic (recognised as irrational and distressing).",
+      "Puerperal psychosis involves delusions, hallucinations, or severe confusion—not present here. The intrusive thoughts are recognised as irrational (good insight), distinguishing them from psychotic beliefs.",
+      "OCD can present postpartum with ego-dystonic intrusive thoughts about harm, but the core feature here is depressed mood meeting MDD criteria. The OCD specifier would be considered if obsessions/compulsions dominate the picture.",
+      "GAD requires worry across multiple domains for 6+ months, not 4 weeks of postpartum-onset depressive symptoms.",
+      "Adjustment disorder does not meet the severity or duration threshold for MDD; this patient has a full depressive syndrome."
+    ],
+    "teaching_point": "NICE CG192: Postnatal depression can present with prominent anxiety and ego-dystonic intrusive thoughts about harm to the baby (which must be distinguished from psychotic beliefs). First-line: high-intensity psychological therapy (CBT, IPT). SSRIs (sertraline first-line) if medication is needed. The Edinburgh Postnatal Depression Scale (EPDS) is a validated screening tool. Prompt treatment improves maternal outcomes and infant attachment.",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "perinatal",
+      "postnatal-depression",
+      "NICE-CG192"
+    ],
+    "source": "NICE CG192"
+  },
+  {
+    "stem": "A 36-year-old woman with schizophrenia is planning pregnancy. She is stable on paliperidone palmitate (monthly depot). She has been well for 2 years. She wants advice about the safest treatment approach during pregnancy. According to NICE CG192, what is the most appropriate recommendation?",
+    "options": [
+      " Discuss the risks and benefits of continuing vs. switching antipsychotics; if she continues, monitor carefully with perinatal team involvement; consider switching to a lower-risk option (olanzapine, quetiapine) if clinically appropriate",
+      " Immediately stop paliperidone as all antipsychotics are teratogenic",
+      " Recommend elective termination of pregnancy due to medication risks",
+      " Switch to clozapine as it is safest in pregnancy",
+      " Advise that she must stop breastfeeding immediately"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG192 recommends a shared decision-making approach: discuss risks of untreated psychosis (poor prenatal care, relapse, risk to self and baby) vs. medication risks. Antipsychotics can be continued in pregnancy with specialist perinatal monitoring. Switching to a lower-risk antipsychotic may be considered.",
+      "Abruptly stopping antipsychotics risks relapse, which carries significant risks to mother and foetus. Relapse during pregnancy is associated with poor obstetric outcomes.",
+      "Elective termination is not routinely recommended and would be a personal decision based on informed discussion.",
+      "Clozapine requires regular blood monitoring (FBC), which can be challenging in pregnancy, and carries risks of neutropenia and other side effects. It is not first-choice in pregnancy.",
+      "Breastfeeding decisions are separate from pregnancy management and should be discussed postpartum."
+    ],
+    "teaching_point": "NICE CG192: Antipsychotics in pregnancy - all antipsychotics cross the placenta. First-generation antipsychotics (haloperidol, chlorpromazine) have longer safety data. Second-generation antipsychotics: olanzapine and quetiapine have more data than others. Depot antipsychotics can be continued. Key principles: (1) Keep the woman well - relapse is more harmful than medication, (2) Use the lowest effective dose, (3) Monitor for gestational diabetes with SGAs, (4) Involve perinatal psychiatry jointly with obstetrics.",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "perinatal",
+      "schizophrenia-pregnancy",
+      "NICE-CG192"
+    ],
+    "source": "NICE CG192"
+  },
+  {
+    "stem": "A 45-year-old man with no prior psychiatric history is found by police standing on a motorway bridge, threatening to jump. He is brought to the emergency department under Section 136 of the Mental Health Act 1983 (as amended 2007). On assessment, he is tearful, says he lost his job yesterday, and states he 'cannot go on'. He has no psychotic symptoms. His wife has been contacted and is on her way. What is the maximum duration a Section 136 can last?",
+    "options": [
+      " 24 hours (extendable to 36 hours if the initial assessment cannot be completed)",
+      " 36 hours (extendable to 48 hours if the initial assessment cannot be completed)",
+      " 72 hours",
+      " 12 hours",
+      " 48 hours (no extension possible)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. S136 of the MHA 1983 (as amended 2007) allows a police officer to remove a person from a public place to a place of safety for up to 24 hours (extendable by 12 hours if the initial assessment cannot be completed, making it up to 36 hours total).",
+      "36 hours is the maximum with extension, not the initial period.",
+      "72 hours is the duration of Section 2 or Section 3, not Section 136.",
+      "12 hours is incorrect; S136 allows up to 24 hours initially.",
+      "48 hours is not the duration for S136; the initial period is 24 hours with possible 12-hour extension."
+    ],
+    "teaching_point": "S136 MHA: A person can be removed from a public place (but NOT from a private residence - police need a warrant for entry or S135) to a place of safety for assessment. Duration: 24 hours initially, extendable by 12 hours if assessment cannot be completed in time. The person must be assessed by a doctor and an approved mental health professional (AMHP). A place of safety is usually a hospital but can be a police station (though this is discouraged for psychiatric patients). NICE guidance emphasises that police stations should only be used in exceptional circumstances.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "MHA",
+      "Section-136",
+      "emergency"
+    ],
+    "source": "Mental Health Act 1983 (amended 2007)"
+  },
+  {
+    "stem": "A 55-year-old man with schizophrenia is brought to the Emergency Department by his CMHT due to relapse of psychosis. He has poor insight and refuses admission informally. He is not currently displaying any violent behaviour but has stopped eating and drinking for three days. He is assessed as having capacity to refuse admission but also appears to be at significant risk of physical harm due to dehydration. Which section of the Mental Health Act is most appropriate for admission?",
+    "options": [
+      " Section 2 (assessment, 28 days)",
+      " Section 3 (treatment, 6 months)",
+      " Section 4 (emergency, 72 hours)",
+      " Section 5(2) (doctor's holding power, 72 hours)",
+      " Section 135 (warrant to enter premises)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Section 2 is for assessment (or assessment followed by treatment) for up to 28 days. It requires two doctors and an AMHP. Given the patient has not been previously detained and requires assessment of his mental state and physical status, Section 2 is appropriate.",
+      "Section 3 is for treatment for up to 6 months and is used when the nature and degree of the disorder requires treatment in hospital. It requires that appropriate medical treatment is available. While appropriate long-term, Section 2 is more appropriate for initial assessment if the diagnosis needs clarification or if the patient has not been previously detained.",
+      "Section 4 is an emergency admission for 72 hours, used when only one doctor is available and there is urgent need. It should not be used if two doctors can reasonably be obtained.",
+      "Section 5(2) is a holding power used when a voluntary inpatient decides to leave and is deemed at risk. This patient is not currently an inpatient.",
+      "Section 135 is a warrant to enter premises to remove a person to a place of safety - not applicable here as the patient is already in the ED."
+    ],
+    "teaching_point": "MHA 1983: Section 2 (admission for assessment, 28 days) requires two medical recommendations (one Section 12 approved) and an AMHP. Grounds: (a) the person is suffering from a mental disorder of a nature or degree that warrants detention for assessment, and (b) the person ought to be detained in the interests of their health or safety or for the protection of others. Section 3 (admission for treatment, 6 months renewable) requires that appropriate medical treatment is available.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "easy",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "MHA",
+      "Section-2",
+      "Section-3",
+      "capacity"
+    ],
+    "source": "Mental Health Act 1983 (amended 2007)"
+  },
+  {
+    "stem": "A 22-year-old woman is admitted informally to a psychiatric ward following a suicide attempt. After 24 hours, she decides she wants to leave the ward against medical advice. The responsible clinician (RC) assesses her and believes that she remains at significant risk of suicide and lacks capacity to make the decision to leave due to her mental state. What is the MOST APPROPRIATE legal mechanism to prevent her from leaving?",
+    "options": [
+      " Section 5(2) of the Mental Health Act (doctor's holding power)",
+      " Section 5(4) of the Mental Health Act (nurse's holding power)",
+      " Section 2 of the Mental Health Act",
+      " Section 4 of the Mental Health Act",
+      " The Mental Capacity Act 2005 (deprivation of liberty)"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Section 5(2) allows the responsible clinician (or their nominated deputy, usually the F2/SHO or registrar) to detain a voluntary inpatient for up to 72 hours to prevent them from leaving when they are at risk of harm. This gives time for an AMHP and second doctor to attend for a formal assessment (Section 2 or 3).",
+      "Section 5(4) is a nurse's holding power (up to 6 hours) that applies when a doctor is not available. It is used by a registered nurse to prevent a voluntary inpatient from leaving when the nurse believes the patient is at immediate risk. A doctor must attend within 6 hours.",
+      "Section 2 cannot be used immediately without prior assessment; Section 5(2) bridges the gap.",
+      "Section 4 is for emergency admission from the community, not for an existing inpatient.",
+      "The MCA can be used for incapacitated patients, but the MHA provides a more appropriate legal framework for patients at risk of suicide due to mental disorder. The MHA also allows for treatment of the mental disorder without consent, which the MCA does not automatically permit."
+    ],
+    "teaching_point": "Section 5(2) (doctor's holding power, 72 hrs): applies to a voluntary inpatient who wishes to leave but whom the doctor believes is suffering from a mental disorder and needs to be detained for their health/safety or for the protection of others. Section 5(4) (nurse's holding power, 6 hrs): can be used when no doctor is available. Both require urgent action by AMHP and second doctor for formal detention.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "MHA",
+      "Section-5(2)",
+      "Section-5(4)",
+      "holding-power"
+    ],
+    "source": "Mental Health Act 1983 (amended 2007)"
+  },
+  {
+    "stem": "A 34-year-old woman with bipolar I disorder is brought to the Emergency Department by police after being found walking in traffic, screaming that people are trying to kill her. She is extremely agitated and refuses to stay for assessment. She has not been admitted previously and is not an inpatient. Which section of the Mental Health Act allows police to remove a person from a public place to a place of safety?",
+    "options": [
+      " Section 136",
+      " Section 135",
+      " Section 4",
+      " Section 5(4)",
+      " Section 7"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. Section 136 allows a police officer to remove a person from a public place to a place of safety if they appear to be suffering from a mental disorder and are in immediate need of care or control. The person must be assessed within 24 hours.",
+      "Section 135 allows a police officer (with a warrant) to enter private premises to remove a person to a place of safety. This person is on a public road, so S136 applies.",
+      "Section 4 is an emergency admission for assessment for up to 72 hours, requiring one medical recommendation and an AMHP - it is not a police power.",
+      "Section 5(4) is a nurse's holding power for inpatients only.",
+      "Section 7 is guardianship, not relevant here."
+    ],
+    "teaching_point": "Section 136 vs Section 135: S136 applies to public places, S135 applies to private premises (and requires a magistrate's warrant). Both result in the person being taken to a place of safety for assessment. Since the 2017 MHA amendments, a police station should not be used as a place of safety for under 18s and should only be used for adults in exceptional circumstances. Healthcare-based places of safety are preferred.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "MHA",
+      "Section-136",
+      "Section-135",
+      "police-powers"
+    ],
+    "source": "Mental Health Act 1983 (amended 2007)"
+  },
+  {
+    "stem": "A 28-year-old woman with borderline personality disorder presents to the Emergency Department after taking a paracetamol overdose (16 tablets, approximately 8 grams) 2 hours ago following an argument with her partner. She states she 'didn't really want to die, just wanted the pain to stop'. She has had three similar overdoses in the past year. On assessment, she is calm and says she now feels better. Her serum paracetamol level is below the treatment line. What is the most appropriate immediate management?",
+    "options": [
+      " Provide medical treatment (N-acetylcysteine if indicated based on levels), conduct a comprehensive psychosocial assessment, develop a collaborative safety plan, and involve the crisis team",
+      " Discharge her immediately as her levels are below the treatment line and she denies suicidal intent",
+      " Admit her to a psychiatric ward for 2 weeks due to the frequency of self-harm",
+      " Start SSRI medication immediately",
+      " Call the police and have her arrested for wasting NHS resources"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. NICE CG133 (Self-harm) and emergency psychiatry best practice: all self-harm presentations require medical assessment, comprehensive psychosocial assessment, risk formulation, and collaborative safety planning. Crisis team involvement can provide follow-up. The fact that paracetamol levels are below treatment line does not negate the need for psychiatric assessment.",
+      "Discharge without assessment is inappropriate. All self-harm requires psychosocial assessment regardless of medical severity or stated intent.",
+      "Automatic admission is not recommended by NICE. The decision to admit should be based on a comprehensive risk assessment, not solely on frequency.",
+      "Starting an SSRI in the ED is not appropriate without follow-up and without knowing the full history. NICE CG78 advises against routine medication for BPD.",
+      "This response is judgemental and clinically inappropriate. Self-harm is a health issue requiring compassionate care."
+    ],
+    "teaching_point": "NICE CG133: All people who present with self-harm should be offered a psychosocial assessment of needs and risks. The assessment should be comprehensive, compassionate, and collaborative. Key elements: (1) Understand the person's story, (2) Assess mental state, (3) Evaluate current risk, (4) Develop a safety/crisis plan, (5) Arrange follow-up. Admission is not automatically indicated but may be necessary based on risk assessment. Crisis team involvement and brief psychological interventions reduce repetition.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "self-harm",
+      "emergency",
+      "NICE-CG133",
+      "BPD"
+    ],
+    "source": "NICE CG133; NICE CG78"
+  },
+  {
+    "stem": "In assessing suicide risk in a 40-year-old man with depression, which of the following is the STRONGEST predictor of completed suicide?",
+    "options": [
+      " Previous suicide attempt (especially violent method)",
+      " Expressing suicidal thoughts",
+      " Male gender",
+      " Living alone",
+      " Unemployment"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. A previous suicide attempt is the single strongest predictor of future completed suicide. A history of previous attempt increases risk 10-60 fold. The risk is particularly high with violent methods (hanging, firearms, jumping) or attempts that required intensive medical care.",
+      "Expressing suicidal thoughts is a significant risk factor but has lower predictive value for completed suicide than a previous attempt. Many people express ideation without acting.",
+      "Male gender is a risk factor (males complete suicide at 3-4 times the rate of females in the UK), but a previous attempt is a stronger individual-level predictor.",
+      "Living alone is a risk factor (social isolation), but it is less predictive than a previous attempt.",
+      "Unemployment is a risk factor but is not as strong a predictor as a previous suicide attempt."
+    ],
+    "teaching_point": "Risk factors for suicide: STATISTICAL - Previous attempt (strongest), Male gender, Older age, Social isolation, Physical illness, Mental illness (depression, bipolar, schizophrenia, BPD, substance misuse), Recent discharge from psychiatric hospital (especially first 2 weeks), Family history of suicide, Access to means. However, individual risk assessment is inherently imprecise. NICE guidance emphasises a collaborative, formulation-based approach rather than relying on checklists alone.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "risk-assessment",
+      "suicide",
+      "emergency"
+    ],
+    "source": "NICE CG133"
+  },
+  {
+    "stem": "A 48-year-old man with schizophrenia and alcohol dependence is brought to the Emergency Department by police under Section 136. He is verbally aggressive, smelling strongly of alcohol, and shouting at staff. He is refusing blood tests and assessment. His blood alcohol level is estimated to be very high. Which of the following is the most appropriate initial management?",
+    "options": [
+      " Manage his intoxication in the Emergency Department; once sober, re-assess his mental state and then proceed with MHA assessment if indicated",
+      " Immediately detain him under Section 2 due to aggression",
+      " Transfer him to a police station as a place of safety because of his aggression",
+      " Administer intramuscular haloperidol for rapid tranquillisation",
+      " Discharge him once sober since his behaviour is likely alcohol-related"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. A person brought in under S136 who is acutely intoxicated should be assessed for medical needs first. Intoxication can mimic or mask mental disorder. The MHA assessment should take place once the person is sober enough to be properly assessed. The place of safety clock does not start until the person is fit for assessment.",
+      "Section 2 cannot be applied while the person is intoxicated and cannot be properly assessed. The MHA assessment must be conducted when the person's medical condition allows meaningful evaluation.",
+      "Police stations should only be used as a place of safety in exceptional circumstances for adults, never for under 18s. The ED is an appropriate place of safety.",
+      "Rapid tranquillisation should not be the first step for a possibly intoxicated patient; de-escalation and medical management of intoxication come first.",
+      "Discharge without assessment when sober is incorrect; the underlying mental disorder (schizophrenia) requires assessment."
+    ],
+    "teaching_point": "The MHA Code of Practice states that the place of safety assessment clock under S136 starts when the person is ready to be assessed (i.e. when they are sober and medically fit). Intoxication should be managed medically first. Police stations should only be used as a place of safety in exceptional circumstances. The guiding principle is that healthcare settings are preferred for assessment of mental health needs.",
+    "domain": "general_adult",
+    "subdomain": "emergency",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "MHA",
+      "Section-136",
+      "intoxication",
+      "emergency"
+    ],
+    "source": "Mental Health Act 1983; MHA Code of Practice"
+  },
+  {
+    "stem": "Match the following five clinical presentations (Questions 41-45) with the most appropriate ICD-11 or DSM-5-TR diagnosis from the list. Each diagnosis may be used once, more than once, or not at all.\n\nList of diagnoses:\nA. Panic disorder\nB. Agoraphobia\nC. Generalised anxiety disorder\nD. Social anxiety disorder\nE. Specific phobia\nF. Illness anxiety disorder\nG. Somatic symptom disorder\nH. Adjustment disorder\n\nQuestion 41: A 30-year-old woman experiences sudden episodes of palpitations, chest tightness, choking sensation, and intense fear of dying, occurring unpredictably. Between episodes, she worries constantly about when the next attack will happen.\nQuestion 42: A 45-year-old man has excessive worry about his health, finances, and family, with muscle tension, restlessness, and difficulty concentrating for over 18 months.\nQuestion 43: A 22-year-old student experiences intense fear when giving presentations in class, eating in public, and attending parties, fearing negative evaluation by others.\nQuestion 44: A 35-year-old woman avoids queues, bridges, and public transport, fearing she might be trapped and unable to escape.\nQuestion 45: A 50-year-old man is preoccupied with the belief that he has undiagnosed cancer despite multiple normal medical investigations. He has no somatic symptoms.",
+    "options": [
+      " 41=A, 42=C, 43=D, 44=B, 45=F",
+      " 41=G, 42=C, 43=D, 44=B, 45=H",
+      " 41=A, 42=C, 43=D, 44=B, 45=G",
+      " 41=B, 42=C, 43=A, 44=E, 45=F",
+      " 41=A, 42=H, 43=D, 44=C, 45=F"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 41=Panic disorder (recurrent unexpected panic attacks + fear of future attacks), 42=GAD (pervasive worry across domains with tension symptoms >6 months), 43=Social anxiety disorder (fear of scrutiny in social/performance situations), 44=Agoraphobia (avoidance of escape-difficult situations), 45=Illness anxiety disorder (preoccupation with having a serious illness with minimal somatic symptoms).",
+      "Incorrect: 41 is panic, not somatic symptom disorder. 45 is illness anxiety, not adjustment disorder.",
+      "Incorrect: 45 is illness anxiety disorder, not somatic symptom disorder. Illness anxiety involves minimal somatic symptoms.",
+      "Incorrect: 41 is panic disorder, not agoraphobia. The key feature of panic disorder is the fear of future panic attacks. 44 is agoraphobia, not specific phobia.",
+      "Incorrect: 42 is GAD, not adjustment disorder (duration >6 months). 44 is agoraphobia, not GAD."
+    ],
+    "teaching_point": "ICD-11/DSM-5-TR anxiety disorder differentials: Panic disorder = recurrent unexpected panic attacks + anticipatory anxiety. GAD = pervasive worry across multiple domains for 6+ months. Social anxiety = fear of negative evaluation in social/performance situations. Agoraphobia = fear of situations where escape might be difficult. Illness anxiety = health preoccupation with minimal somatic symptoms. These distinctions are fundamental for MRCPsych Paper B.",
+    "domain": "general_adult",
+    "subdomain": "anxiety",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "anxiety",
+      "ICD-11",
+      "DSM-5-TR",
+      "EMI",
+      "differentials"
+    ],
+    "source": "ICD-11; DSM-5-TR"
+  },
+  {
+    "stem": "Match the following five eating disorder presentations (Questions 46-50) with the most appropriate management from the list. Each option may be used once, more than once, or not at all.\n\nList of management strategies:\nA. Guided self-help CBT (CBT-GSH), or consider fluoxetine 60 mg if psychological treatment is declined\nB. Slow refeeding (5-10 kcal/kg/day) with phosphate monitoring and ECG surveillance on a medical ward\nC. High-intensity psychological therapy (CBT-ED) as first-line treatment\nD. Immediate referral for specialist eating disorder inpatient care with MARSIPAN monitoring\nE. Bariatric surgery assessment\nF. Urgent medical admission for refeeding syndrome management\nG. Watchful waiting and monitoring\n\nQuestion 46: A 17-year-old female with anorexia nervosa, BMI 13.5 kg/m², heart rate 42 bpm, BP 82/48 mmHg, QTc 485 ms, who has been restricting to under 400 kcal/day for 4 months.\nQuestion 47: A 24-year-old woman with binge eating disorder (BED), BMI 33 kg/m², binge eating 3 times weekly, no purging, requesting help.\nQuestion 48: A 19-year-old woman with bulimia nervosa, binge-purge cycle 4 times weekly, BMI 22 kg/m², no medical complications, good dental health.\nQuestion 49: A 16-year-old female with anorexia nervosa, BMI 14.8 kg/m², medically stable (HR 58 bpm, BP 100/65, normal ECG), willing to engage in outpatient treatment.\nQuestion 50: A 32-year-old woman with bulimia nervosa who has not responded to two courses of CBT-ED and fluoxetine 60 mg, and continues to binge-purge daily.",
+    "options": [
+      " 46=D, 47=A, 48=C, 49=B, 50=A",
+      " 46=F, 47=A, 48=C, 49=B, 50=A",
+      " 46=D, 47=G, 48=C, 49=B, 50=C",
+      " 46=D, 47=A, 48=C, 49=B, 50=F",
+      " 46=B, 47=A, 48=C, 49=G, 50=A"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "Correct. 46=D (severe AN with medical instability - requires specialist inpatient care per MARSIPAN), 47=A (BED first-line is CBT-GSH; fluoxetine is second-line), 48=C (BN first-line is CBT-ED), 49=B (AN with BMI 14.8, medically stable but still severely underweight, requires structured outpatient refeeding with monitoring), 50=A (for BN not responding to CBT-ED and fluoxetine, NICE NG69 recommends considering CBT-ED delivered differently, DBT-ED, or IPT - but also re-offering CBT-GSH or fluoxetine).",
+      "Incorrect: 46 requires specialist inpatient care, not just medical admission for refeeding syndrome (which is a complication to prevent, not treat).",
+      "Incorrect: 47 requires active treatment, not watchful waiting. 50 requires a change in approach, not repeating the same failed treatment.",
+      "Incorrect: 50 does not require F (medical admission for refeeding syndrome) as BMI is likely normal.",
+      "Incorrect: 49 has BMI 14.8 which is severe <15, requires structured monitoring even if 'medically stable'. Watchful waiting is insufficient. 50 requires treatment modification."
+    ],
+    "teaching_point": "NICE NG69 and MARSIPAN: Severity stratification in AN - BMI < 15 is severe; medical instability requires inpatient care (HR < 50, BP < 90/60, QTc > 450, electrolyte disturbance). BED first-line: guided self-help CBT (CBT-GSH). BN first-line: CBT-ED (16-20 sessions). Fluoxetine 60 mg is the only medication with good evidence in BN. Treatment-resistant BN: consider other psychological approaches (DBT-ED, IPT) or higher intensity of care.",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "tags": [
+      "general_adult",
+      "eating-disorders",
+      "NICE-NG69",
+      "MARSIPAN",
+      "EMI"
+    ],
+    "source": "NICE NG69; MARSIPAN"
+  }
+]

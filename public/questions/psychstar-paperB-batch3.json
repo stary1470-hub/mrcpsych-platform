@@ -1,0 +1,422 @@
+[
+  {
+    "stem": "A 78-year-old woman is brought to the memory clinic by her daughter with a 2-year history of progressive memory decline. Her daughter reports that she repeats herself, misplaces items, and has become lost in familiar places. She has difficulty recalling recent events but remembers her childhood well. MMSE is 22/30 (misses orientation to time, recall of 3 objects, and serial 7s). She has no significant medical history and is on no medication. What is the most likely diagnosis?",
+    "options": [" Vascular dementia", " Dementia with Lewy bodies", " Alzheimer's disease", " Frontotemporal dementia", " Mild cognitive impairment"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Vascular dementia typically has a stepwise decline with focal neurological signs and vascular risk factors. This patient has no such history and the course is gradual.",
+      "DLB presents with visual hallucinations, parkinsonism, fluctuating cognition, and REM sleep behaviour disorder. None are described here.",
+      "CORRECT. Alzheimer's disease is the most common cause of dementia (50-70%). Typical presentation: insidious onset, gradual progression, prominent early short-term memory loss (hippocampal), then progressive language, praxis, and executive dysfunction. This patient's profile (poor recall, preserved remote memory, disorientation, gradual course) is classic. MMSE: orientation, recall, and calculation are affected early.",
+      "FTD presents with personality/behavioural change or language problems before memory decline. Usually younger onset (<65).",
+      "MCI requires subjective AND objective cognitive decline WITHOUT significant functional impairment. This patient has functional decline (getting lost), which exceeds MCI criteria."
+    ],
+    "teaching_point": "Alzheimer's disease: most common dementia (50-70%). Risk factors: age (risk doubles every 5 years after 65), APOE4 (3-8× risk), female, head injury, low education. Neuropathology: amyloid plaques (extracellular, Aβ42), neurofibrillary tangles (intracellular, hyperphosphorylated tau). Atrophy: medial temporal lobe (hippocampus, entorhinal cortex) — seen on MRI. NICE NG97: suspect AD if insidious onset, gradual progression, prominent early episodic memory loss. Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) for mild-moderate AD. Memantine for moderate-severe AD.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE NG97: Dementia; NICE TA217 (cholinesterase inhibitors)",
+    "tags": ["Alzheimer", "dementia", "diagnosis", "MMSE", "memory"]
+  },
+  {
+    "stem": "Which of the following is the most common behavioural and psychological symptom of dementia (BPSD) in Alzheimer's disease?",
+    "options": [" Psychosis (delusions/hallucinations)", " Aggression", " Depression", " Apathy", " Wandering"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Psychosis occurs in 20-40% of AD patients but is not the most common BPSD.",
+      "Aggression occurs in 30-50% but is not the most common.",
+      "Depression occurs in 20-50% but apathy is more common.",
+      "CORRECT. Apathy is the most common BPSD in Alzheimer's disease, affecting 50-80% of patients. It is defined as reduced motivation, initiative, and emotional engagement. Apathy is often under-recognised and can be confused with depression. Key distinguishing feature: in apathy, there is lack of motivation without the emotional distress (low mood, worthlessness, suicidal ideation) seen in depression.",
+      "Wandering occurs in 30-40%."
+    ],
+    "teaching_point": "BPSD prevalence in Alzheimer's: Apathy (50-80%) > Depression (20-50%) > Agitation/Aggression (30-50%) > Psychosis (20-40%) > Wandering (30-40%). NICE NG97: non-pharmacological management FIRST for BPSD. Antipsychotics only for severe symptoms that are causing distress or risk, and only for short-term use (limited to 12 weeks). Apathy: no specific pharmacological treatment — environmental and behavioural interventions recommended.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE NG97; Lyketsos CG et al. (2000) Prevalence of neuropsychiatric symptoms in AD",
+    "tags": ["BPSD", "apathy", "Alzheimer", "behavioural_symptoms"]
+  },
+  {
+    "stem": "A 75-year-old man with a 3-year history of Alzheimer's disease is started on donepezil 5mg daily. Two weeks later, his daughter reports he had a fall and was found to have a heart rate of 48 bpm. ECG shows sinus bradycardia. What is the most appropriate management?",
+    "options": [" Continue donepezil and add atropine", " Stop donepezil and switch to memantine", " Reduce donepezil to 2.5mg daily", " Stop donepezil and start rivastigmine patch", " Add bisoprolol 2.5mg to control heart rate"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Atropine is for acute bradycardia but does not address the cause. Donepezil is the cause.",
+      "CORRECT. Donepezil (a cholinesterase inhibitor) increases acetylcholine levels, which can cause excessive vagal tone leading to bradycardia, heart block, and syncope. Management: (1) Stop donepezil; (2) Consider switching to memantine (NMDA antagonist — no vagal effects). Rivastigmine and galantamine also carry bradycardia risk. Memantine is a suitable alternative when donepezil is not tolerated, though it is less effective for cognition.",
+      "Dose reduction may help but memantine is preferred as it does not cause bradycardia.",
+      "Rivastigmine is also a cholinesterase inhibitor and carries the same bradycardia risk.",
+      "Bisoprolol (beta-blocker) would worsen bradycardia and is contraindicated."
+    ],
+    "teaching_point": "Cholinesterase inhibitors and bradycardia: Donepezil, rivastigmine, galantamine all increase vagal tone and can cause bradycardia, syncope, and falls. Contraindicated in patients with sick sinus syndrome, heart block, or significant bradycardia. Baseline ECG recommended before starting. Memantine has no vagal effects and is safe in cardiac disease. Memantine is licensed for moderate-severe AD (NICE TA217). Other donepezil side effects: nausea, vomiting, diarrhoea, muscle cramps, insomnia. Titrate from 5mg to 10mg after 4-6 weeks.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG97; NICE TA217; BNF",
+    "tags": ["donepezil", "bradycardia", "memantine", "side_effects", "cholinesterase_inhibitor"]
+  },
+  {
+    "stem": "An 82-year-old woman with moderate Alzheimer's disease (MMSE 16), hypertension, and type 2 diabetes develops gradual onset of parkinsonism (rigidity, bradykinesia, shuffling gait) over 6 months. She also has well-formed visual hallucinations of small children in her house and her cognition fluctuates markedly throughout the day. She has REM sleep behaviour disorder (punches and kicks in her sleep). What is the most likely diagnosis?",
+    "options": [" Alzheimer's disease with extrapyramidal signs", " Vascular dementia with Parkinson's disease", " Dementia with Lewy bodies", " Frontotemporal dementia", " Progressive supranuclear palsy"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "AD with EPS can occur but the combination of visual hallucinations, fluctuating cognition, and RBD is diagnostic of DLB.",
+      "Vascular dementia does not typically present with visual hallucinations or RBD.",
+      "CORRECT. Dementia with Lewy bodies (DLB) diagnostic criteria (McKeith criteria): ESSENTIAL: progressive cognitive decline with FLUCTUATIONS in cognition (marked variation in attention/alertness). CORE features (2 required): (1) FLUCTUATING cognition; (2) RECURRENT visual hallucinations (well-formed, detailed); (3) Parkinsonism (rigidity, bradykinesia, gait). Suggestive features: RBD, severe neuroleptic sensitivity, low dopamine transporter uptake on SPECT/PET. This patient has ALL THREE core features + RBD — diagnosis is clear.",
+      "FTD presents with behaviour/personality change or language problems in younger patients, not visual hallucinations and parkinsonism.",
+      "PSP presents with vertical gaze palsy, early falls, and axial rigidity — no fluctuations or visual hallucinations."
+    ],
+    "teaching_point": "DLB diagnostic criteria (McKeith 2017): Fluctuating cognition (marked variation in attention/alertness), recurrent well-formed visual hallucinations, parkinsonism (onset after cognitive decline). Suggestive: RBD, neuroleptic hypersensitivity, low DAT scan. Management: (1) Cholinesterase inhibitors (rivastigmine) — effective for both cognition and hallucinations; (2) AVOID antipsychotics — severe neuroleptic sensitivity can be fatal (extrapyramidal worsening, autonomic instability, NMS-like reactions). Use quetiapine or clozapine with extreme caution if antipsychotic absolutely necessary. Prognosis: shorter than AD (~5-7 years). Alpha-synuclein pathology (Lewy bodies) in brainstem and cortex.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "McKeith IG et al. (2017) DLB diagnosis and management; NICE NG97",
+    "tags": ["DLB", "Lewy_body", "visual_hallucinations", "parkinsonism", "RBD", "neuroleptic_sensitivity"]
+  },
+  {
+    "stem": "A 72-year-old man with a 5-year history of Parkinson's disease presents with a 3-month history of visual hallucinations (seeing animals in his house) and paranoid delusions (believing his wife is poisoning his food). His cognition has been stable (MoCA 26/30). He is on levodopa/carbidopa 100/25mg TDS. What is the most appropriate management?",
+    "options": [" Stop levodopa and switch to pramipexole", " Start risperidone 0.5mg daily", " Start quetiapine 12.5-25mg nocte", " Start clozapine 12.5mg BD", " Add olanzapine 5mg nocte"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Stopping levodopa may worsen motor symptoms without resolving psychosis. Pramipexole (dopamine agonist) carries a higher risk of psychosis and impulse control disorders.",
+      "Risperidone is a D2 antagonist that can worsen parkinsonism and is relatively contraindicated in Parkinson's disease psychosis (PDP) due to the risk of severe extrapyramidal side effects.",
+      "CORRECT. For Parkinson's disease psychosis, first-line is quetiapine (low dose 12.5-50mg daily). Quetiapine has the lowest EPS risk among antipsychotics due to low D2 occupancy at low doses. Key principle: treat the psychosis without worsening parkinsonism. Quetiapine is the recommended first-line antipsychotic in PDP (NICE NG71, Maudsley Guidelines). If the patient has dementia with Lewy bodies (DLB), quetiapine is also the safest choice if antipsychotic unavoidable.",
+      "Clozapine is second-line for PDP if quetiapine fails. It also has low EPS risk but requires blood monitoring. It is recommended by the Maudsley Guidelines as the most effective antipsychotic for PDP but is not first-line due to monitoring burden.",
+      "Olanzapine is not recommended in PDP — it has moderate EPS risk and can worsen motor symptoms."
+    ],
+    "teaching_point": "Parkinson's disease psychosis: Up to 40% of PD patients develop psychosis. Risk factors: disease duration, age, cognitive impairment, dopamine agonist use. Management: (1) Rule out medical causes (infection, electrolyte, medications); (2) Reduce antiparkinsonian medications (first reduce anticholinergics, then dopamine agonists, then COMT-I/MAO-B, then levodopa); (3) If symptoms persist, add antipsychotic. Safety hierarchy: Quetiapine (first-line, lowest risk) → Clozapine (second-line, most effective but monitoring needed) → Avoid: risperidone, olanzapine, haloperidol (will worsen motor symptoms). NICE NG71: quetiapine is recommended for PDP. Pimavanserin (5-HT2A inverse agonist) is licensed in the US but not widely available in UK.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG71: Parkinson's disease; Maudsley Prescribing Guidelines",
+    "tags": ["Parkinson", "psychosis", "quetiapine", "hallucinations", "neuroleptic_sensitivity"]
+  },
+  {
+    "stem": "A 68-year-old man is brought to A&E with acute confusion. His wife reports that 3 days ago he was his normal self. Over the past 48 hours, he has become increasingly confused, disoriented, and agitated. He is picking at his clothes and not making sense. He has a past history of mild cognitive impairment and hypertension. Observations: Temp 38.4°C, HR 104, BP 118/72, SpO2 96% on air. Urine dip shows leucocytes and nitrites. What is the most likely diagnosis?",
+    "options": [" Rapidly progressive dementia", " Delirium superimposed on mild cognitive impairment", " Acute psychotic episode", " Complex partial seizure", " Transient ischaemic attack"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Rapidly progressive dementia would have a course of months, not hours to days. This is delirium.",
+      "CORRECT. Delirium is defined by: (1) Acute onset (hours to days); (2) Fluctuating course; (3) Reduced attention and awareness; (4) Cognitive change (memory, orientation, language). This patient has all features plus a clear precipitant (UTI). Delirium superimposed on dementia (DSD) is very common — up to 50% of hospitalised patients with dementia develop delirium. The pre-existing cognitive impairment (MCI) is a major risk factor. Treatment: treat the underlying cause (antibiotics for UTI), environmental measures (reorientation, familiar staff, adequate lighting), avoid antipsychotics unless severe distress/risk.",
+      "Acute psychosis typically has a more specific symptom profile (delusions, hallucinations) without the clouding of consciousness and fluctuating course seen in delirium.",
+      "Complex partial seizures would be paroxysmal, not persistent over days.",
+      "TIA presents with focal neurological deficits, not global confusion."
+    ],
+    "teaching_point": "Delirium vs dementia — classic MRCPsych comparison: DELIRIUM: acute onset, fluctuating, reduced attention, consciousness affected, reversible, abnormal EEG (slow waves). DEMENTIA: insidious onset, progressive, memory loss early, consciousness clear, partially reversible/irreversible, normal or mildly abnormal EEG. Risk factors for delirium: age >65, pre-existing dementia, polypharmacy, sensory impairment, severe illness, dehydration. Screen with: 4AT test (Alertness, AMT4, Attention, Acute change — >4 suggests delirium). Prevention: multicomponent intervention (NICE CG103).",
+    "domain": "old_age",
+    "subdomain": "delirium",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG103: Delirium; NICE NG97: Dementia",
+    "tags": ["delirium", "dementia", "delirium_superimposed_on_dementia", "UTI", "4AT"]
+  },
+  {
+    "stem": "According to NICE CG103, which of the following is the most appropriate first-line management for an agitated patient with delirium who is at risk of harming themselves or others and has not responded to verbal de-escalation?",
+    "options": [" Haloperidol 0.5-1mg orally", " Lorazepam 2mg IM", " Olanzapine 10mg orally", " Promethazine 25mg IM", " Physical restraint without medication"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE CG103 recommends: For patients with delirium who are severely distressed or at risk of harming themselves/others and de-escalation has failed: offer haloperidol 0.5-1mg orally (or olanzapine 2.5-5mg). Haloperidol is the most studied antipsychotic for delirium. Use the lowest possible dose. Avoid IM if possible (higher risk of QTc prolongation and dystonia). The dose should be titrated to the minimum effective dose with regular monitoring.",
+      "Benzodiazepines (lorazepam) are NOT recommended as first-line for delirium unless the delirium is due to alcohol/sedative withdrawal. They can worsen confusion and cause paradoxical disinhibition in older adults.",
+      "Olanzapine is an alternative to haloperidol but haloperidol is more studied. Olanzapine 2.5-5mg is the recommended starting dose, not 10mg. High doses should be avoided in elderly.",
+      "Promethazine is not recommended for delirium in NICE guidelines.",
+      "NICE: If de-escalation fails, offer oral medication first. Physical restraint should only be used as a LAST resort when all other measures have failed and there is significant risk. It should be documented and time-limited."
+    ],
+    "teaching_point": "Delirium management (NICE CG103): 1. IDENTIFY and treat the underlying cause (infection, electrolyte, medication, hypoxia, constipation, urinary retention). 2. ENVIRONMENTAL: reorientation, family presence, familiar objects, adequate lighting, sleep hygiene, avoid room changes. 3. PHARMACOLOGICAL: only if severe distress/risk. First-line: haloperidol 0.5-1mg orally (lowest dose, short course). Alternatives: olanzapine 2.5-5mg. Avoid: benzodiazepines (except withdrawal), high doses, polypharmacy, long-term antipsychotic use. Monitor: QTc, EPS, sedation. Reassess daily. The 4AT screening tool is validated for delirium detection in clinical practice.",
+    "domain": "old_age",
+    "subdomain": "delirium",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG103: Delirium; BNF (prescribing in elderly)",
+    "tags": ["delirium", "haloperidol", "agitation", "management", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 70-year-old woman is diagnosed with mild Alzheimer's disease (MMSE 22). She has no significant medical history. Her daughter asks about medication options. According to NICE TA217, which of the following is recommended as first-line pharmacological treatment?",
+    "options": [" Memantine 20mg daily", " Ginkgo biloba 120mg daily", " Donepezil 5mg daily", " Rivastigmine patch 9.5mg/24h", " Vitamin E 1000 IU daily"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Memantine is licensed for MODERATE-SEVERE AD (MMSE 10-20), not mild AD (MMSE 21-26).",
+      "Ginkgo biloba is not recommended by NICE (insufficient evidence).",
+      "CORRECT. NICE TA217 recommends cholinesterase inhibitors (donepezil, rivastigmine, galantamine) as first-line for MILD to MODERATE Alzheimer's disease (MMSE 10-26). Donepezil 5mg daily for 4-6 weeks, then increase to 10mg if tolerated. All three are considered equal in efficacy; the choice depends on tolerability and patient preference (rivastigmine patch may have fewer GI side effects).",
+      "Rivastigmine is also first-line for mild-moderate AD and is available as an oral capsule or patch. The patch improves GI tolerability. It is also licensed for DLB and Parkinson's disease dementia.",
+      "Vitamin E is not recommended by NICE. Several trials have failed to show clear benefit in AD."
+    ],
+    "teaching_point": "NICE TA217 — Cholinesterase inhibitors for mild-moderate AD: Three drugs: donepezil, rivastigmine, galantamine. All are equally recommended. Efficacy: modest improvement in cognition (2-3 point ADAS-Cog improvement over 6 months), global function, and behaviour. Not disease-modifying. Memantine: for moderate-severe AD (MMSE 10-20), or when cholinesterase inhibitors not tolerated. Combination therapy (donepezil + memantine) may be beneficial. NICE recommends annual review: discontinue if no benefit or continued decline. MMSE staging: Mild (21-26), Moderate (10-20), Severe (<10).",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE TA217: Cholinesterase inhibitors and memantine for AD",
+    "tags": ["Alzheimer", "donepezil", "cholinesterase_inhibitor", "NICE_guidelines", "first-line"]
+  },
+  {
+    "stem": "A 76-year-old man with moderate Alzheimer's disease (MMSE 14) becomes increasingly agitated and aggressive towards his wife. He has no prior psychiatric history. Non-pharmacological strategies have failed. His wife is exhausted and he is at risk of being placed in residential care. He has a history of ischaemic heart disease and QTc is 450ms. What is the most appropriate pharmacological management?",
+    "options": [" Haloperidol 1.5mg daily", " Risperidone 0.5mg daily for up to 12 weeks", " Lorazepam 1mg TDS PRN", " Citalopram 20mg daily", " Valproate semisodium 500mg BD"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Haloperidol is not recommended by NICE for BPSD (higher EPS and QTc risk). The QTc of 450ms is borderline.",
+      "CORRECT. NICE NG97 recommends: for severe BPSD (agitation/psychosis) where non-pharmacological measures have failed: (1) Consider risperidone 0.25-0.5mg daily (maximum 1mg) OR haloperidol 0.5mg daily. (2) Limit use to SHORT TERM (up to 12 weeks). (3) Monitor for benefit and side effects (metabolic, EPS, QTc, stroke risk). (4) Review at 4 weeks and then regularly. Risperidone is the most studied antipsychotic for BPSD. START LOW, GO SLOW. Increased risk of CVA with antipsychotics in dementia (especially risperidone) — must discuss with patient/carer and document.",
+      "Benzodiazepines (lorazepam) are not recommended for BPSD due to sedation, falls, and paradoxical disinhibition.",
+      "Citalopram is not first-line for agitation/aggression in BPSD. SSRIs have some evidence for depression and agitation in dementia but are not first-line for aggression.",
+      "Valproate is not recommended for BPSD (NICE). Evidence shows no benefit over placebo and significant harm (falls, sedation, thrombocytopenia)."
+    ],
+    "teaching_point": "Management of agitation/aggression in dementia (NICE NG97): STEP 1: Assess for cause (pain, infection, constipation, hunger, thirst, over/under-stimulation, medication side effect). STEP 2: Non-pharmacological — personalised activities, sensory stimulation, music therapy, pet therapy, environmental modification, carer training. STEP 3: Pharmacological (only if severe risk or distress, non-pharm failed): Risperidone 0.25-1mg daily (up to 12 weeks). Discuss increased stroke risk (3×) and mortality (1.5×). Review at 4 weeks — if no benefit, discontinue. Antipsychotics should NOT be used routinely for BPSD. NICE: 'Do not offer antipsychotics for non-cognitive symptoms of dementia unless they are severe and causing significant distress to the person or others.'",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG97: Dementia; BNF; Ballard C et al. (2009) Antipsychotics in dementia",
+    "tags": ["BPSD", "agitation", "risperidone", "dementia", "NICE_guidelines", "antipsychotic"]
+  },
+  {
+    "stem": "A 74-year-old woman presents with a 2-year history of progressive language difficulties. Her family reports that she struggles to find words, has difficulty understanding what others say, and her speech is becoming hesitant and effortful. Her memory for day-to-day events is relatively preserved. Her behaviour is unchanged. MRI shows left temporal lobe atrophy. What is the most likely diagnosis?",
+    "options": [" Alzheimer's disease", " Vascular dementia", " Frontotemporal dementia — semantic variant", " Frontotemporal dementia — progressive non-fluent aphasia variant", " Dementia with Lewy bodies"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "AD typically presents with short-term memory loss, not isolated language difficulty with preserved memory.",
+      "Vascular dementia would have stepwise decline, vascular risk factors, and imaging showing infarcts/white matter changes.",
+      "Semantic variant of FTD presents with loss of word meaning (semantic knowledge) — fluent empty speech, asking 'What is that?', impaired comprehension of single words. This patient has EFFORTFUL, hesitant speech suggestive of non-fluent aphasia.",
+      "CORRECT. Progressive non-fluent aphasia (PNFA) is a variant of frontotemporal dementia (FTD). Features: effortful, hesitant speech, anomia (word-finding difficulty), impaired grammar, preserved comprehension of single words/objects but difficulty understanding complex sentences. May progress to mutism. MRI: left perisylvian/Frontal opercular atrophy. Relatively preserved memory and behaviour (unlike the behavioural variant of FTD).",
+      "DLB presents with visual hallucinations, parkinsonism, fluctuating cognition — not isolated language difficulties."
+    ],
+    "teaching_point": "FTD subtypes: (1) Behavioural variant (bvFTD): personality change, disinhibition, apathy, loss of empathy, stereotyped behaviours — most common FTD variant. (2) Semantic variant (svPPA): fluent aphasia, loss of word meaning, impaired object knowledge, anterior temporal lobe atrophy. (3) Non-fluent variant (nfvPPA): effortful speech, agrammatism, apraxia of speech, left perisylvian atrophy. (4) FTD with motor neuron disease (FTD-MND): rapidly progressive. Genetics: 30-50% have family history (MAPT, GRN, C9orf72). Mean age of onset: 50-65 (earlier than AD). No disease-modifying treatment. Symptomatic management: SSRIs for behavioural symptoms.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE NG97; Rascovsky K et al. (2011) bvFTD criteria; Gorno-Tempini ML et al. (2011) PPA criteria",
+    "tags": ["FTD", "progressive_aphasia", "language", "temporal_lobe", "dementia"]
+  },
+  {
+    "stem": "According to NICE NG97, what is the approximate annual conversion rate from mild cognitive impairment (MCI) to dementia?",
+    "options": [" 1-2%", " 5-15%", " 30-40%", " 50-60%", " 80-90%"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "1-2% is the general population dementia incidence rate, not MCI conversion.",
+      "CORRECT. MCI is defined as: (1) Subjective cognitive complaint; (2) Objective cognitive impairment on testing (1-1.5 SD below age norms); (3) Largely preserved functional abilities; (4) Not demented. Annual conversion rate to dementia is approximately 5-15% per year (meta-analysis: Mitchell & Shiri-Feshki, 2009). At 5-year follow-up, approximately 30-50% of MCI convert to dementia. Risk factors for conversion: amnestic MCI subtype, APOE4 carrier, hippocampal atrophy, abnormal CSF amyloid/tau, low cognitive reserve.",
+      "30-40% overestimates the annual rate. About 30-50% convert over 5 years.",
+      "50-60% per year is incorrect.",
+      "80-90% over several years, not per year."
+    ],
+    "teaching_point": "MCI: prevalence 15-20% in over-65s. Subtypes: (1) Amnestic MCI (memory impaired — higher Alzheimer's risk); (2) Non-amnestic MCI (other domains — higher risk of vascular dementia, DLB). Screening: MoCA more sensitive than MMSE for MCI detection. ACE-III (Addenbrooke's Cognitive Examination) is more sensitive (cut-off <88 for MCI, <82 for dementia). Not all MCI converts to dementia — some remain stable, some revert to normal. Management: vascular risk factor control, cognitive stimulation, monitoring. No pharmacological treatment approved for MCI (NICE does not recommend donepezil for MCI).",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE NG97; Mitchell AJ & Shiri-Feshki M (2009) MCI conversion rates; Petersen RC (2004) MCI",
+    "tags": ["MCI", "conversion_rate", "dementia_progression", "prognosis"]
+  },
+  {
+    "stem": "A 72-year-old woman with moderate Alzheimer's disease (MMSE 15) on donepezil 10mg daily for 12 months continues to decline. Her daughter asks about adding memantine. According to NICE TA217, which patients with Alzheimer's disease are eligible for memantine?",
+    "options": [" All patients with any severity of AD", " Only those with severe AD (MMSE <10)", " Those with moderate AD (MMSE 10-20) who cannot take or are intolerant to cholinesterase inhibitors", " First-line for all patients with AD", " Only those with behavioural symptoms"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Memantine is not recommended for mild AD by NICE TA217.",
+      "Memantine is also recommended for moderate AD, not just severe.",
+      "CORRECT. NICE TA217 recommends memantine for: (1) Moderate Alzheimer's disease (MMSE 10-20) only as an alternative to cholinesterase inhibitors for those who cannot take or are intolerant to them; OR (2) As an add-on to donepezil/rivastigmine/galantamine for moderate disease; OR (3) As monotherapy for severe AD (MMSE <10). This patient is in the moderate range on donepezil and continuing to decline — adding memantine is appropriate per NICE.",
+      "Memantine is not first-line. Cholinesterase inhibitors are first-line for mild-moderate AD.",
+      "Memantine can improve behavioural symptoms but is not restricted to them."
+    ],
+    "teaching_point": "Memantine: NMDA receptor antagonist — blocks pathological glutamate excitotoxicity while preserving physiological glutamate transmission. Licensed for moderate-severe AD. Dosing: start 5mg daily, increase by 5mg weekly to 20mg daily (standard titration). Side effects: dizziness, headache, constipation, hypertension. Advantages: no vagal effects (safe with cardiac disease), no GI side effects, no drug interactions. NICE TA217: consider memantine as an add-on to cholinesterase inhibitors for moderate AD, or as monotherapy for severe AD. Combination therapy (donepezil + memantine) has shown benefits in cognition, function, and behaviour vs monotherapy.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE TA217; Howard R et al. (2012) Donepezil and memantine in moderate-severe AD (DOMINO trial)",
+    "tags": ["memantine", "Alzheimer", "NICE_guidelines", "add-on_therapy", "moderate_AD"]
+  },
+  {
+    "stem": "An 80-year-old woman is referred with 6-month history of low mood, tearfulness, poor sleep (early morning wakening), poor appetite (weight loss 4kg), and loss of interest in her usual activities. She has no prior psychiatric history. MMSE is 28/30. GDS-15 (Geriatric Depression Scale) score is 11/15. She has a history of hypertension and atrial fibrillation (rate-controlled on bisoprolol, apixaban). She is on no other medications. What is the most appropriate first-line treatment?",
+    "options": [" Sertraline 50mg daily", " Mirtazapine 15mg nocte", " Nortriptyline 25mg nocte", " Citalopram 20mg daily", " Amitriptyline 25mg nocte"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Sertraline is the preferred first-line SSRI in elderly patients with depression. It has: (1) Minimal QTc effect (safe with cardiac history); (2) Few CYP450 interactions (safe with bisoprolol, apixaban); (3) No significant anticholinergic burden; (4) Good tolerability profile. NICE CG90 recommends SSRIs first-line for depression in elderly. Sertraline has the best evidence base in elderly depression and is the safest SSRI in cardiovascular disease.",
+      "Mirtazapine is an alternative, especially if sleep/appetite disturbance is prominent, but it has more sedation and can cause weight gain. Sertraline is first-line unless there is a specific indication for mirtazapine.",
+      "Nortriptyline is a TCA. While it is the best-tolerated TCA in elderly, TCAs carry anticholinergic burden and postural hypotension risk. SSRIs are preferred first-line in elderly depression (NICE CG90).",
+      "Citalopram is effective but carries QTc prolongation risk (especially >20mg in over-65s). The patient has AF and is on apixaban — QTc risk makes sertraline preferable.",
+      "Amitriptyline has significant anticholinergic effects (confusion, urinary retention, constipation) and postural hypotension — not first-line in elderly."
+    ],
+    "teaching_point": "Depression in elderly: prevalence 5-15% (higher in care homes, up to 30%). Presentation: more somatic symptoms, more anxiety, more cognitive complaints (pseudo-dementia), less guilt. GDS-15: cut-off ≥5 suggests depression. Treatment first-line: SSRI (sertraline best evidence in elderly). Start low, go slow (sertraline 25mg for 1 week, then 50mg). Monitor: hyponatraemia (SIADH risk in elderly ~10%), falls, drug interactions. SSRIs and apixaban: SSRIs increase GI bleeding risk (platelet serotonin depletion) but apixaban has lower GI bleed risk than warfarin. Monitor for bruising/bleeding. ECT: effective for severe depression in elderly, especially with psychotic features or poor oral intake.",
+    "domain": "old_age",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90: Depression; BNF; NICE CG192 (elderly section)",
+    "tags": ["depression", "elderly", "sertraline", "SSRI", "first-line", "GDS"]
+  },
+  {
+    "stem": "A 66-year-old woman with a 30-year history of schizophrenia has been stable on risperidone 2mg daily for many years. She develops a left-sided weakness and is found to have an ischaemic stroke on CT. She is admitted to the stroke unit. Her psychotic symptoms are well controlled and she is not distressed. According to NICE guidelines, what is the most appropriate management regarding her antipsychotic?",
+    "options": [" Continue risperidone at the same dose as she is stable", " Increase risperidone due to stress of hospitalisation", " Stop risperidone permanently due to stroke risk", " Switch risperidone to aripiprazole", " Reduce risperidone to 1mg daily"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. In a patient without acute psychiatric symptoms who is stable, antipsychotics should be CONTINUED after a stroke. The acute stroke unit can be disorienting and stopping antipsychotics may trigger psychotic relapse. However, the patient should be closely monitored for side effects (QTc, EPS, dysphagia, blood pressure). The NICE quality statement on antipsychotics in dementia does not apply to patients with schizophrenia — antipsychotics are the primary treatment for schizophrenia.",
+      "There is no indication to increase the dose in the absence of psychotic symptoms.",
+      "There is no evidence that atypical antipsychotics cause stroke in patients with schizophrenia (the CVA risk warning applies specifically to antipsychotic use in dementia).",
+      "Switching in the acute post-stroke period is destabilising and unnecessary.",
+      "Dose reduction is not indicated without a reason (e.g., side effects)."
+    ],
+    "teaching_point": "Antipsychotics and stroke: The NICE/MHRA warning about increased CVA risk with antipsychotics (especially risperidone, olanzapine) applies specifically to use in DEMENTIA (OR ~3-5 for CVA, 1.5-2 for mortality). This does NOT mean that antipsychotics cause stroke in patients with schizophrenia. However, patients on antipsychotics who have a stroke should be monitored for: (1) QTc prolongation (ECG); (2) Dysphagia (antipsychotics can worsen aspiration risk post-stroke); (3) Postural hypotension; (4) EPS (if new parkinsonism). Clozapine note: stroke itself is not a contraindication to clozapine.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG128: Stroke rehabilitation; MHRA Drug Safety Update (antipsychotics and CVA); NICE CG178",
+    "tags": ["schizophrenia", "stroke", "antipsychotic", "CVA_risk", "elderly"]
+  },
+  {
+    "stem": "A 78-year-old man with advanced Alzheimer's disease (MMSE 8) living in a nursing home has developed increasingly aggressive behaviour towards carers. Non-pharmacological approaches have been tried without success. His aggression places others at risk. He has a history of atrial fibrillation (on apixaban) and ischaemic heart disease. His QTc is 455ms. What is the most appropriate management?",
+    "options": [" Risperidone 0.25-0.5mg daily for a maximum of 12 weeks", " Haloperidol 2mg daily", " Olanzapine 10mg daily", " Diazepam 5mg TDS", " Valproate semisodium 500mg BD"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE NG97 recommends risperidone (0.25-1mg daily) as first-line for severe BPSD aggression where non-pharmacological measures have failed. Dose 0.25mg initially, increase slowly to 0.5-1mg. Maximum 12-week trial. Must discuss CVA risk (3× increase) and mortality (1.5×) with family and document. Monitor for EPS, sedation, and QTc.",
+      "Haloperidol 2mg is too high for an elderly patient with dementia and cardiac history. 0.5-1mg would be the limit, and even so, haloperidol is not first-line (higher EPS risk).",
+      "Olanzapine 10mg is a high dose for dementia-associated aggression. Typical starting dose is 2.5mg. 10mg carries high metabolic and sedation risk. Risperidone is the most studied agent for BPSD.",
+      "Benzodiazepines are not recommended for BPSD — they can worsen confusion, cause falls, and paradoxical disinhibition.",
+      "Valproate is not recommended for BPSD (NICE). Evidence does not support efficacy and there are significant harms."
+    ],
+    "teaching_point": "Antipsychotic use in dementia — NICE key points: (1) Only use for severe symptoms (aggression/psychosis) that are causing significant distress or risk. (2) First choice: risperidone (most evidence) OR haloperidol (low dose). (3) Inform family about 3× CVA risk and 1.5× mortality. (4) Use lowest effective dose, shortest duration (max 12 weeks). (5) Review at 4 weeks — if no response, discontinue. (6) Never use as first-line. (7) Offer antipsychotics with caution in patients with CVD (QTc, stroke risk). APIXABAN + risperidone: both increase bleeding risk via different mechanisms — monitor carefully.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG97: Dementia; BNF; Ballard C & Howard R (2006) Antipsychotics in dementia",
+    "tags": ["BPSD", "aggression", "risperidone", "dementia", "antipsychotic", "elderly"]
+  },
+  {
+    "stem": "A 65-year-old man presents with progressive difficulty walking, frequent falls, and cognitive decline over 6 months. He has vertical supranuclear gaze palsy (difficulty looking down) and axial rigidity (stiffness in his neck and trunk). His MMSE is 22/30 with prominent executive dysfunction. He has no tremor. What is the most likely diagnosis?",
+    "options": [" Dementia with Lewy bodies", " Parkinson's disease dementia", " Progressive supranuclear palsy", " Corticobasal degeneration", " Vascular dementia"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "DLB presents with visual hallucinations, fluctuating cognition, and parkinsonism — not vertical gaze palsy.",
+      "Parkinson's disease dementia develops in patients with established PD (tremor, rigidity, bradykinesia that responds to levodopa). This patient has no tremor and gaze palsy is not typical of PD.",
+      "CORRECT. Progressive supranuclear palsy (PSP) — Richardson syndrome variant. Classic features: (1) Vertical supranuclear gaze palsy (especially downgaze — pathognomonic); (2) Early postural instability and falls (within first year); (3) Axial > limb rigidity; (4) Cognitive decline with prominent frontal/executive dysfunction; (5) Pseudobulbar affect. Mean age of onset: 65. Poor response to levodopa. Tau pathology (tauopathy). MRI: midbrain atrophy ('hummingbird sign' or 'Mickey Mouse sign'). PSP is progressive with mean survival 5-7 years.",
+      "Corticobasal degeneration presents with asymmetric parkinsonism, apraxia, alien limb phenomenon, myoclonus and cortical sensory loss — not vertical gaze palsy.",
+      "Vascular dementia has stepwise decline, vascular risk factors, and focal neurological signs — not gaze palsy."
+    ],
+    "teaching_point": "Parkinson-plus syndromes — MRCPsych high-yield: PSP — early falls, vertical gaze palsy, axial rigidity, frontal dementia. DLB — fluctuations, visual hallucinations, parkinsonism. MSA — autonomic dysfunction, cerebellar signs, parkinsonism (poor levodopa response). CBD — asymmetric apraxia, alien limb, myoclonus. All are tau/synucleinopathies. All have poor response to levodopa. Imaging: PSP (midbrain atrophy 'hummingbird'), MSA (putaminal atrophy/hot cross bun sign), CBD (asymmetric frontoparietal atrophy).",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE NG97; Litvan I et al. (1996) PSP diagnostic criteria",
+    "tags": ["PSP", "supranuclear_palsy", "parkinsonism", "falls", "gaze_palsy", "tauopathy"]
+  },
+  {
+    "stem": "A 72-year-old woman presents with a 3-month history of low mood and anxiety following the death of her husband. She has poor sleep (initial and middle), poor appetite, and difficulty concentrating. GDS-15 score is 9/15. She reports it is difficult to motivate herself to do things. She scores 24/30 on the MMSE. She lives alone. She has no history of depression. What is the most important first step in differentiating bereavement from a major depressive episode?",
+    "options": [" The duration of symptoms", " The presence of suicidal ideation", " Preoccupation with thoughts of the deceased versus pervasive low mood", " Response to a short course of antidepressants", " The severity of functional impairment"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Duration alone is not diagnostic — both bereavement and depression can last months.",
+      "Suicidal ideation can occur in both bereavement and depression.",
+      "CORRECT. The key distinguishing feature in the DSM-5-TR is the FOCUS of concern: In uncomplicated bereavement, the predominant affect is feelings of emptiness and loss, with preoccupation with thoughts of the deceased. In major depression, the predominant affect is persistent depressed mood and the inability to anticipate happiness or pleasure (pervasive anhedonia), with self-critical ruminations (worthlessness, guilt). Other distinguishing features: depression = pervasive low mood NOT related to the loss, feelings of worthlessness, marked functional impairment, psychomotor retardation. Bereavement = pangs of grief related to the loss, preserved capacity for positive emotions when thinking of the deceased.",
+      "A trial of antidepressants is not a diagnostic tool and would not be the first step.",
+      "Functional impairment occurs in both conditions."
+    ],
+    "teaching_point": "Bereavement vs depression: Bereavement (uncomplicated grief): predominant emptiness/loss, grief pangs, preserved positive emotions, no worthlessness/guilt beyond bereavement context. Major depression: pervasive low mood, anhedonia, worthlessness, pathological guilt, suicidal ideation. Timing: 'Normal' bereavement can last 6-12 months. Complicated grief: prolonged (>12 months), intense yearning, difficulty accepting the loss. Treatment: bereavement does not require antidepressants — provide support, grief counselling, watchful waiting. If depression develops: treat per NICE CG90. Risk factors for complicated grief: sudden/violent loss, dependent relationship, history of depression, lack of social support.",
+    "domain": "old_age",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "DSM-5-TR; NICE CG90",
+    "tags": ["bereavement", "depression", "differential_diagnosis", "grief", "elderly"]
+  },
+  {
+    "stem": "A 68-year-old man with a history of hypertension and type 2 diabetes presents with a 3-month history of hypomanic symptoms: elevated mood, reduced need for sleep (4 hours/night, feeling rested), increased energy, and grandiose plans. He has no prior psychiatric history. MMSE is 29/30. His daughter reports he has been 'drinking more than usual'. What investigation is essential before starting treatment?",
+    "options": [" MRI brain", " EEG", " Thyroid function tests", " Lumbar puncture", " Carotid Doppler"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "MRI brain is indicated if there are focal neurological signs, atypical presentation, or first-episode psychosis. Late-onset mania (first episode after 50) warrants investigation for organic causes but TFTs are the most important initial screen.",
+      "EEG is not routinely indicated for first-episode mania unless seizures are suspected.",
+      "CORRECT. Late-onset mania (≥50 years) requires a thorough medical workup to exclude secondary causes. Thyroid function tests are essential: hyperthyroidism can present with maniform symptoms. Other essential investigations: (1) FBC, U&Es, LFTs, glucose; (2) TFTs; (3) B12/folate; (4) Syphilis serology; (5) CT/MRI brain if focal signs or cognitive impairment. Up to 40% of new-onset mania after age 50 is due to an underlying medical condition. Other causes: stroke (especially right hemisphere), head injury, dementia (early), hyperthyroidism, Cushing's disease, steroids, antidepressants.",
+      "Lumbar puncture is not indicated without signs of infection/ inflammation.",
+      "Carotid Doppler is not indicated without focal neurological signs."
+    ],
+    "teaching_point": "Late-onset mania (≥50): always investigate for organic causes. Differential: (1) Neurodegenerative (early AD/FTD can present with disinhibition); (2) Cerebrovascular (stroke, especially right frontotemporal); (3) Endocrine (hyperthyroidism, Cushing's); (4) Medication-induced (steroids, L-dopa, antidepressants, stimulants); (5) Neoplastic (meningioma, glioma); (6) Dementia (behavioural variant FTD). Essential investigations: TFTs, B12/folate, U&Es, LFTs, glucose, syphilis serology, neuroimaging (CT/MRI). Management: treat underlying cause + symptomatic treatment with mood stabilisers/atypical antipsychotics. Lithium requires caution in elderly (lower starting dose, target level 0.4-0.6 mmol/L).",
+    "domain": "old_age",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185; BNF (prescribing in elderly); Maudsley Prescribing Guidelines",
+    "tags": ["late_onset_mania", "hyperthyroidism", "TFTs", "organic", "elderly"]
+  },
+  {
+    "stem": "A 75-year-old woman with moderate Alzheimer's disease (MMSE 14) who lives in a care home presents with a 2-day history of increased confusion, fluctuating consciousness, and hallucinations (seeing insects on the wall). She is febrile (38.2°C), has a productive cough, and oxygen saturation is 91%. She has been on donepezil 10mg for 2 years. What is the most appropriate immediate management?",
+    "options": [" Increase donepezil to 15mg due to worsening dementia", " Start haloperidol 1.5mg BD for hallucinations", " Treat the chest infection, stop donepezil temporarily, and manage delirium with environmental measures", " Stop donepezil permanently", " Start risperidone 0.5mg BD for BPSD"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing donepezil would not help — this is acute delirium, not progressive dementia.",
+      "Haloperidol is not first-line. The priority is treating the underlying cause (chest infection). Antipsychotics should only be considered if the patient is severely distressed or at risk.",
+      "CORRECT. This patient has DELIRIUM (acute onset, fluctuating, medical cause). Management: (1) Treat the underlying cause — antibiotics/oxygen for chest infection; (2) Environmental measures — reorientation, familiar staff, family presence, sensory aids (glasses/hearing aids), sleep hygiene; (3) Temporarily stop donepezil (can worsen vomiting/bradycardia during acute illness, contributes to delirium); (4) Once resolved, restart donepezil. If there is significant agitation: haloperidol 0.5mg or olanzapine 2.5mg only if de-escalation fails. Cholinesterase inhibitors can be temporarily stopped during acute illness without harm.",
+      "Donepezil should be restarted once delirium resolves. Permanent discontinuation is not indicated.",
+      "Risperidone is for BPSD (chronic agitation in dementia) — not first-line for delirium."
+    ],
+    "teaching_point": "Delirium in dementia — key management: (1) Identify and treat the cause (infection, medications, electrolyte, constipation, hypoxia — the 'DELIRIUM' mnemonic: Drugs, Electrolytes, Infection, Retention, Injury, Underlying disease, Metabolic). (2) Environmental reorientation. (3) Temporarily stop non-essential medications (including anticholinergics, benzodiazepines, and possibly cholinesterase inhibitors). (4) Antipsychotics only if severe distress/risk — use low dose, short course, monitor QTc. (5) Cholinesterase inhibitors can be stopped for 2-4 weeks during acute illness without causing irreversible cognitive decline.",
+    "domain": "old_age",
+    "subdomain": "delirium",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG103: Delirium; NICE NG97: Dementia",
+    "tags": ["delirium", "dementia", "infection", "donepezil", "management"]
+  },
+  {
+    "stem": "A 76-year-old woman with no prior psychiatric history presents with a 3-month history of progressive cognitive decline, myoclonus (sudden jerking movements), and ataxia. She has had rapid progression over 3 months from independent living to needing help with all activities of daily living. EEG shows generalised periodic complexes (triphasic waves). What is the most likely diagnosis?",
+    "options": [" Alzheimer's disease — rapid progression", " Dementia with Lewy bodies", " Prion disease (Creutzfeldt-Jakob disease)", " Autoimmune encephalitis", " Cerebrovascular disease"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Alzheimer's disease is typically insidious and slowly progressive over years, not months.",
+      "DLB has fluctuations and visual hallucinations but NOT the rapid progression, myoclonus, and typical EEG pattern seen here.",
+      "CORRECT. Creutzfeldt-Jakob disease (CJD) is a rapidly progressive prion disease. Classic features: (1) Rapidly progressive dementia (weeks to months); (2) Myoclonus (startle-sensitive); (3) Cerebellar ataxia; (4) Pyramidal/extrapyramidal signs; (5) Visual disturbances. Diagnostic test: EEG shows periodic sharp wave complexes (PSWC) — triphasic waves at 1-2 Hz — in sporadic CJD (80% of cases). MRI: high signal in basal ganglia and cortical ribboning (DWI). CSF: 14-3-3 protein (non-specific but supportive). Most patients die within 6-12 months.",
+      "Autoimmune encephalitis (anti-NMDA receptor, VGKC) presents with subacute cognitive decline, seizures, psychiatric symptoms — but typically without the classic EEG pattern of CJD. Diagnosis is confirmed by antibody testing.",
+      "Cerebrovascular disease can cause cognitive decline but would be stepwise, not continuously progressive over months."
+    ],
+    "teaching_point": "Rapidly progressive dementias — key causes: (1) PRION — CJD (sporadic 85%, familial 10-15%, variant ~1% — vCJD linked to BSE). Sporadic CJD: mean onset 65, survival 4-6 months. (2) Autoimmune — anti-NMDA receptor encephalitis, VGKC/LGI1 encephalitis (faciolateral dystonic movements, hyponatraemia), Hashimoto's encephalopathy (elevated thyroid antibodies, steroid-responsive). (3) Vascular — cerebral vasculitis, CADASIL, cerebral amyloid angiopathy. (4) Infectious — HIV dementia, neurosyphilis, PML. (5) Neoplastic — primary CNS lymphoma, gliomatosis. Key investigation for rapidly progressive dementia: MRI brain, EEG, CSF analysis (14-3-3, cell count, oligoclonal bands, antibodies, PCR for viruses), bloods (TFTs, B12, autoantibodies, syphilis, HIV, paraneoplastic antibodies).",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE NG97; WHO diagnostic criteria for CJD; Geschwind MD (2016) Rapidly progressive dementia",
+    "tags": ["CJD", "prion", "rapidly_progressive_dementia", "myoclonus", "EEG"]
+  },
+  {
+    "stem": "A 74-year-old man with moderate Alzheimer's disease attending a memory clinic review has lost 8kg over 6 months. His appetite is poor. He has no depressive symptoms. His cognition has declined from MMSE 22 to MMSE 18 over 12 months. He has no swallowing difficulties. What is the most appropriate management for his weight loss?",
+    "options": [" Start nasogastric feeding", " Start mirtazapine 15mg nocte for appetite stimulation", " Refer for percutaneous endoscopic gastrostomy (PEG) feeding", " Trial of high-calorie oral supplements and review by a dietitian", " Stop donepezil as it causes weight loss"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "NG feeding is reserved for patients with dysphagia who are at high risk of aspiration. It is not indicated for simple decreased intake.",
+      "Mirtazapine is used off-label for appetite stimulation and weight gain. However, this patient does not have depression and starting medication for weight alone is not first-line. Nutritional support is the first step.",
+      "PEG is only considered for long-term enteral feeding when oral intake is impossible or unsafe (dysphagia). It should be discussed as part of advanced care planning.",
+      "CORRECT. Weight loss in dementia is common and multifactorial: (1) Increased metabolic demand (agitation, wandering); (2) Forgetting to eat; (3) Loss of appetite (sensory changes, dental issues); (4) Caregiver difficulty providing meals. Management: (1) Dietitian referral and nutritional assessment; (2) High-calorie oral supplements (Fortisip, Ensure); (3) Finger foods if cutlery is difficult; (4) supervision at mealtimes; (5) Treat underlying causes (depression, dysphagia, oral pathology, constipation). Donepezil can cause nausea but this is usually transient.",
+      "Donepezil can cause nausea and reduced appetite initially, but this typically resolves within 4-6 weeks. After 12 months of treatment, this is unlikely to be the cause of weight loss."
+    ],
+    "teaching_point": "Weight loss in dementia — causes and management: Factors: (1) Increased energy expenditure; (2) Decreased intake (forgetting, apraxia, sensory changes, dental problems); (3) Metabolic changes of dementia. Management: (1) Dietitian review; (2) Oral supplements; (3) Environmental modifications; (4) Treat depression if present; (5) Consider mirtazapine only if nutritional interventions fail and depression is present. Advanced care planning: PEG feeding in advanced dementia does NOT improve survival or quality of life and is not routinely recommended. NICE NG97: offer appropriate assessment and management of comorbidities including weight loss.",
+    "domain": "old_age",
+    "subdomain": "dementia",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG97: Dementia; British Dietetic Association (dementia and nutrition)",
+    "tags": ["dementia", "weight_loss", "nutrition", "dietitian", "management"]
+  }
+]

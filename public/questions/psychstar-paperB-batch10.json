@@ -1,0 +1,202 @@
+[
+  {
+    "stem": "A study compares a new screening test for dementia against the gold standard clinical diagnosis. The test yields the following results in a sample of 500 older adults: Test positive and have dementia: 80. Test positive and do NOT have dementia: 40. Test negative and have dementia: 20. Test negative and do NOT have dementia: 360. What is the sensitivity of the new test?",
+    "options": [" 80%", " 67%", " 90%", " 75%", " 95%"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Sensitivity = TP / (TP + FN) = 80 / (80 + 20) = 80/100 = 80%. Sensitivity is the proportion of people WITH the disease who test positive. It reflects the test's ability to correctly IDENTIFY those with the condition ('true positives'). A high sensitivity test is good for SCREENING — it catches most cases. Limitations: it does not account for false positives.",
+      "67% is the Positive Predictive Value (PPV = TP / (TP + FP) = 80/120 = 67%), not sensitivity.",
+      "90% is the Negative Predictive Value (NPV = TN / (TN + FN) = 360/380 = 95%), not sensitivity.",
+      "75% would be the Specificity? No — Specificity = TN / (TN + FP) = 360/400 = 90%.",
+      "Not correct — sensitivity is 80/100 = 80%."
+    ],
+    "teaching_point": "Diagnostic test statistics — 2×2 table essentials for MRCPsych: Disease present (+) / Disease absent (-). Test positive (+): TP / FP. Test negative (-): FN / TN. Sensitivity = TP/(TP+FN) — 'ability to detect disease'. Specificity = TN/(TN+FP) — 'ability to rule out disease'. PPV = TP/(TP+FP) — 'probability that a positive test means you have the disease' (affected by prevalence). NPV = TN/(TN+FN) — 'probability that a negative test means you don't have the disease' (affected by prevalence). LR+ = sensitivity/(1-specificity) — 'how much more likely a positive test is in those WITH the disease'. LR- = (1-sensitivity)/specificity — 'how much less likely a negative test is in those WITH the disease'. Fagan nomogram: used to calculate POST-TEST PROBABILITY from pre-test probability and likelihood ratio. Rule of thumb: LR+ >10 = large change from pre- to post-test probability; LR+ 5-10 = moderate; LR+ 2-5 = small; LR+ 1-2 = minimal. ROC curves: plot sensitivity (true positive rate) vs 1-specificity (false positive rate) at different cut-offs. AUC (Area Under the Curve): 1.0 = perfect test; 0.9-1.0 = excellent; 0.8-0.9 = good; 0.7-0.8 = fair; 0.5 = no better than chance.",
+    "domain": "critical_review",
+    "subdomain": "diagnostic_tests",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Altman DG (1991) Practical Statistics for Medical Research; Greenhalgh T (2019) How to Read a Paper",
+    "tags": ["sensitivity", "specificity", "2x2_table", "PPV", "NPV", "diagnostic_test"]
+  },
+  {
+    "stem": "In a randomised controlled trial comparing a new antidepressant with placebo for major depression, 40 out of 100 patients in the treatment group responded, compared to 20 out of 100 in the placebo group. What is the Number Needed to Treat (NNT)?",
+    "options": [" 2", " 5", " 10", " 20", " 40"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "INCORRECT. NNT is 1/ARR. Check your calculation.",
+      "CORRECT. NNT = 1/ARR (Absolute Risk Reduction). Treatment group response rate (EER — Experimental Event Rate) = 40/100 = 0.4 (40%). Control group response rate (CER — Control Event Rate) = 20/100 = 0.2 (20%). ARR = EER - CER = 0.4 - 0.2 = 0.2 (20%). NNT = 1 / 0.2 = 5. Interpretation: you need to treat 5 patients with the antidepressant (vs placebo) to achieve ONE additional responder. The 95% confidence interval for NNT can be calculated from the ARR's CI. A lower NNT indicates a more effective treatment. Clinically, an NNT of 5 for antidepressants is considered moderate (typical antidepressants have NNTs of 4-10 for acute depression). For comparison: NNT of 2-3 = highly effective (e.g., ECT for severe depression), NNT >10 = modest benefit.",
+      "10 is the CER/EER ratio, not NNT.",
+      "Not correct.",
+      "Not correct — this is the raw response rate in the control group (CER = 20%)."
+    ],
+    "teaching_point": "Number Needed to Treat (NNT) — essential for MRCPsych: NNT = 1 / Absolute Risk Reduction (ARR). ARR = CER - EER (Control Event Rate minus Experimental Event Rate). For HARMFUL outcomes, calculate NNH (Number Needed to Harm) = 1 / (EER - CER) where the event is an adverse outcome. Key NNTs in psychiatry: (1) Antidepressants for acute MDD — NNT ~4-10; (2) Antipsychotics for acute schizophrenia — NNT ~3-6; (3) Lithium for bipolar prophylaxis — NNT ~4-8; (4) ECT for severe depression — NNT ~2-4; (5) CBT for anxiety — NNT ~3-7. Caveats: (1) NNT is specific to the time-period of the trial (cannot be extrapolated to different durations); (2) NNT for the same treatment can vary depending on the baseline risk of the population; (3) NNT should be interpreted alongside NNH (Number Needed to Harm). The NNT is arguably the most clinically useful measure of treatment effect (more intuitive than OR or RR).",
+    "domain": "critical_review",
+    "subdomain": "NNT",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Cook RJ & Sackett DL (1995) The NNT: a clinically useful measure of treatment effect. BMJ",
+    "tags": ["NNT", "ARR", "CER", "EER", "treatment_effect", "response_rate"]
+  },
+  {
+    "stem": "A meta-analysis of 10 trials of an intervention for depression produces a forest plot. The I² statistic is reported as 65%. What does this indicate?",
+    "options": [" 65% of the variability in effect sizes is due to true heterogeneity between studies rather than chance", " 65% of patients in the trials responded to treatment", " The overall treatment effect is statistically significant at p<0.05", " The funnel plot shows no publication bias", " The random effects model is inappropriate"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. The I² statistic (Higgins & Thompson, 2002) describes the percentage of total variation across studies that is due to TRUE HETEROGENEITY (differences in study populations, interventions, outcomes, or methodology) rather than SAMPLING ERROR (chance). I² thresholds: 0-40% = 'might not be important'; 30-60% = 'moderate heterogeneity'; 50-90% = 'substantial heterogeneity'; 75-100% = 'considerable heterogeneity'. An I² of 65% represents SUBSTANTIAL heterogeneity. When I² is high, investigators should: (1) Pre-specified subgroup analyses or meta-regression to explore sources of heterogeneity; (2) Consider using a RANDOM EFFECTS model (which incorporates between-study variation into the estimate); (3) Consider not pooling the results if heterogeneity is very high. The Galbraith plot can identify which studies are outliers contributing to heterogeneity.",
+      "This is not what I² represents.",
+      "I² does not relate to p-values.",
+      "A funnel plot (effect size vs SE) assesses publication bias (asymmetry = possible publication bias). I² is unrelated.",
+      "High I² suggests random effects may be more appropriate (it takes between-study variance into account), but it does not make fixed effects 'inappropriate'. The choice between fixed and random effects should be based on the research question and whether it is plausible to assume a single true effect."
+    ],
+    "teaching_point": "Forest plot interpretation — high-yield for MRCPsych: Components: (1) Each ROW = one study (author, year); (2) SQUARE = point estimate of effect (OR/RR/SMD); (3) HORIZONTAL LINE = 95% CI; (4) DIAMOND (bottom) = pooled estimate. Heterogeneity: (1) I² (0-100%); (2) Chi-square (Cochran's Q) — p-value for heterogeneity (low p = significant heterogeneity); (3) Tau² — between-study variance. Types of plots: FOREST PLOT — main meta-analysis display. FUNNEL PLOT — asymmetry suggests publication bias (tested by Egger's test). GALBRAITH PLOT — identifies outlier studies. L'ABBÉ PLOT — event rate in treatment vs control groups. Fixed effects model: assumes one true effect across all studies (weighted by within-study variance). Random effects model: assumes true effects vary across studies (weights incorporate between-study variance). DerSimonian & Laird method is the most common random effects method. Predictive intervals may be reported with random effects. Heterogeneity should be explored by: subgroup analysis, meta-regression, sensitivity analysis.",
+    "domain": "critical_review",
+    "subdomain": "meta_analysis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Higgins JPT & Thompson SG (2002) Quantifying heterogeneity in meta-analysis. Stat Med; Cochrane Handbook",
+    "tags": ["I-squared", "heterogeneity", "meta-analysis", "forest_plot", "random_effects"]
+  },
+  {
+    "stem": "A researcher wants to compare the mean depression scores (on a continuous scale) between THREE groups of patients who received: CBT, medication, or placebo. Which statistical test is most appropriate?",
+    "options": [" Independent samples t-test", " Mann-Whitney U test", " One-way ANOVA", " Chi-square test", " Paired t-test"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "An independent t-test compares means between TWO groups only. Three groups require a different approach.",
+      "Mann-Whitney U test is the non-parametric equivalent of the independent t-test for TWO groups (used when data are not normally distributed or are ordinal).",
+      "CORRECT. One-way ANOVA (Analysis of Variance) is the appropriate test when comparing means between THREE OR MORE independent groups on a continuous (normally distributed) dependent variable. It tests the null hypothesis that all group means are equal. If ANOVA is significant, POST-HOC tests (e.g., Bonferroni, Tukey HSD) identify WHICH groups differ from each other. Key assumptions of ANOVA: (1) Independence of observations; (2) Normality of residuals; (3) Homogeneity of variance (Levene's test). If assumptions are violated: use Kruskal-Wallis test (non-parametric alternative).",
+      "Chi-square test is for CATEGORICAL data (counts/proportions), not continuous outcomes. It is used to test for associations between categorical variables (e.g., proportion responding vs treatment group).",
+      "Paired t-test compares means WITHIN the same subjects measured TWICE (e.g., pre-treatment and post-treatment). Not for three independent groups."
+    ],
+    "teaching_point": "Choosing the RIGHT statistical test — high-yield EMIs: Parametric (assume normal distribution): (1) 2 independent groups, continuous → t-test (or z-test if large n). (2) 3+ independent groups, continuous → ANOVA → post-hoc tests. (3) 2 related groups, continuous → paired t-test. (4) 3+ related groups, continuous → repeated measures ANOVA. (5) Association between 2 continuous variables → Pearson's r. Non-parametric (no normality assumption): (1) 2 independent groups → Mann-Whitney U. (2) 3+ independent groups → Kruskal-Wallis. (3) 2 related groups → Wilcoxon signed-rank. (4) 3+ related groups → Friedman test. (5) Association between 2 continuous variables → Spearman's rho. (6) Association between categorical variables → Chi-square or Fisher's exact (if expected frequency <5 in any cell). (7) Predicting a binary outcome → Logistic regression. (8) Predicting a continuous outcome → Linear regression. This is one of the most common EMI question types in Paper B.",
+    "domain": "critical_review",
+    "subdomain": "statistical_tests",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Altman DG (1991) Practical Statistics for Medical Research; Kirkwood BR & Sterne JAC (2003) Essential Medical Statistics",
+    "tags": ["ANOVA", "statistical_tests", "parametric", "three_groups", "choice_of_test"]
+  },
+  {
+    "stem": "A cohort study follows 2,000 smokers and 2,000 non-smokers over 10 years to see who develops depression. At the end of the study, 200 smokers developed depression and 100 non-smokers developed depression. What is the RELATIVE RISK of developing depression for smokers compared to non-smokers?",
+    "options": [" 2.0", " 1.5", " 1.0", " 0.5", " 0.75"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Relative Risk (RR) = Risk in exposed group / Risk in unexposed group. Risk in smokers: 200/2000 = 0.1 (10%). Risk in non-smokers: 100/2000 = 0.05 (5%). RR = 0.1/0.05 = 2.0. Interpretation: smokers have TWICE the risk of developing depression compared to non-smokers over 10 years. RR > 1 = increased risk; RR = 1 = no effect; RR < 1 = decreased risk (protective). RR is the most appropriate measure of association in a COHORT STUDY (where groups are defined by exposure and followed prospectively for disease). Odds Ratio (OR) is used in CASE-CONTROL studies (where groups are defined by disease and retrospective exposure is measured). RR and OR are similar when the disease is rare (<10%); OR overestimates RR when the disease is common. This is important for MRCPsych.",
+      "1.5 would be calculated if you used different denominators — incorrect.",
+      "1.0 = no effect.",
+      "0.5 = decreased risk (protective).",
+      "0.75 = slightly decreased risk."
+    ],
+    "teaching_point": "RR vs OR vs ARR — essential MRCPsych distinctions: RELATIVE RISK (RR) = Risk in exposed / Risk in unexposed. ODDS RATIO (OR) = Odds of exposure in cases / Odds of exposure in controls. RISK DIFFERENCE / ARR = Risk in exposed − Risk in unexposed. NNT = 1/ARR. Relative Risk Reduction (RRR) = (CER - EER)/CER = 1 - RR. When to use: (1) Cohort study = RR (can also calculate OR). (2) Case-control = OR only (cannot calculate RR because groups are defined by disease status, not exposure). (3) Cross-sectional = OR or prevalence ratio. (4) RCT = RR, ARR, NNT. The MANTEL-HAENSZEL method can pool ORs across strata. CONFOUNDING can be addressed by: stratification, multivariable regression, or propensity scores. Effect modification (interaction): when the effect of exposure differs across strata of a third variable. Key study design features: PROSPECTIVE (cohort — starts with exposure, follows for outcome), RETROSPECTIVE (case-control — starts with disease, looks back at exposure), CROSS-SECTIONAL (exposure and disease measured simultaneously).",
+    "domain": "critical_review",
+    "subdomain": "relative_risk",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Altman DG (1991) Practical Statistics; Greenhalgh T (2019) How to Read a Paper",
+    "tags": ["relative_risk", "cohort_study", "RR", "ARR", "risk"]
+  },
+  {
+    "stem": "A study claims that a new antipsychotic reduces relapse rates in schizophrenia (p = 0.04, 95% CI 0.32 to 0.96). Which of the following is the MOST ACCURATE interpretation of the p-value?",
+    "options": [" There is a 4% probability that the null hypothesis is true", " There is a 4% chance that the results are due to the treatment effect", " If the null hypothesis is true (no difference between treatments), the probability of observing a result as extreme as or more extreme than that obtained is 4%", " The probability of making a Type II error is 4%", " The treatment is 96% likely to be effective"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "This is a common misinterpretation. The p-value does NOT tell you the probability that the null hypothesis is true. It tells you the probability of the DATA (or more extreme) assuming the null hypothesis is true.",
+      "Incorrect — p-values do not indicate the probability of the result being due to treatment effect.",
+      "CORRECT. The p-value is defined as: 'the probability of obtaining a test statistic at least as extreme as the one observed, ASSUMING THE NULL HYPOTHESIS IS TRUE.' In this case: p = 0.04 means that, if the antipsychotic truly has NO effect (null hypothesis), there is a 4% chance of observing a relapse reduction as large as the one found (or larger) due to chance alone. Convention: p < 0.05 is considered 'statistically significant' — meaning the observed result would be unlikely to occur by chance alone if the null hypothesis were true. IMPORTANT: p < 0.05 does NOT mean: (1) There is a 95% chance the treatment works; (2) The effect size is large; (3) The result is clinically significant; (4) The null hypothesis is false. Confidence intervals are more informative than p-values (they show the RANGE of plausible effect sizes). The 95% CI of 0.32 to 0.96 excludes 1.0 — consistent with statistical significance.",
+      "A Type II error (β) is failing to detect a true effect. The p-value relates to Type I error (α).",
+      "This misinterpretation is common but incorrect."
+    ],
+    "teaching_point": "P-values and confidence intervals — the MRCPsych must-know: P-VALUE: (1) What it IS: probability of the data (or more extreme) given the null hypothesis (p(D|H0)). (2) What it is NOT: probability that H0 is true (p(H0|D)). (3) p < 0.05 = 'statistically significant' (arbitrary threshold). (4) The lower the p-value, the stronger the evidence against the null hypothesis. (5) p-values do not tell you about clinical significance. CONFIDENCE INTERVALS: (1) A 95% CI means: if the study were repeated 100 times, 95 of the CIs would contain the TRUE population value. (2) CIs show the precision of the estimate (wider = less precise). (3) CIs are more informative than p-values — they provide the range of plausible effect sizes. (4) A 95% CI that excludes the null value (e.g., RR = 1, OR = 1, mean difference = 0) is equivalent to p < 0.05. COMMON ERRORS: The 'p-value fallacy' — equating 'not significant' (p > 0.05) with 'no effect'. A non-significant result does not prove the null hypothesis (absence of evidence is NOT evidence of absence). Use CIs to guide clinical interpretation.",
+    "domain": "critical_review",
+    "subdomain": "p_values",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Altman DG (1991) Practical Statistics; BMJ statistical notes; Sterne JAC & Smith GD (2001) BMJ 'Sifting the evidence'",
+    "tags": ["p-value", "significance", "null_hypothesis", "confidence_intervals", "statistics"]
+  },
+  {
+    "stem": "You are presented with a funnel plot from a meta-analysis of 15 studies on the efficacy of a psychological therapy for depression. The plot shows an asymmetrical distribution — studies with negative results on the lower left are missing. What is this asymmetry MOST likely to indicate?",
+    "options": [" That the meta-analysis should use a fixed effects model", " That there is true heterogeneity between studies", " Possible publication bias — small studies with negative/null results have not been published", " That the treatment is not effective", " That the largest study had the smallest effect size"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "The choice of model (fixed vs random effects) depends on whether heterogeneity is present, not on funnel plot asymmetry.",
+      "Heterogeneity is assessed using I² and the Chi-square test, not funnel plot asymmetry.",
+      "CORRECT. A FUNNEL PLOT is a scatter plot of each study's effect size (x-axis) vs its precision (usually SE or 1/SE, on the y-axis). In the absence of publication bias, the plot should be SYMMETRICAL — shaped like an inverted funnel (wide at the bottom where small studies with imprecise estimates are, narrow at the top where large precise studies are). ASYMMETRY suggests: (1) PUBLICATION BIAS — small studies with negative/null results are less likely to be published (most common cause of asymmetry — they are missing from the lower left of the plot); (2) Selective reporting (outcome reporting bias); (3) True heterogeneity (small studies may differ systematically from larger ones in terms of population, intervention, or methodology); (4) Poor methodological quality in smaller studies (exaggerated treatment effects); (5) Chance. Statistical tests for funnel plot asymmetry: EGGER'S TEST (regression of effect size on SE — significant p-value = asymmetry) and BEGG'S TEST (rank correlation). If publication bias is suspected, DUVAL AND TWEEDIE'S 'TRIM AND FILL' METHOD can impute missing studies and adjust the pooled estimate.",
+      "The funnel plot tests for publication bias, not whether the treatment works — that is assessed by the pooled effect estimate.",
+      "This is a possible observation but not the most important interpretation of funnel plot asymmetry."
+    ],
+    "teaching_point": "Funnel plot interpretation — HIGH-YIELD: PLOT: Effect size (x-axis) vs Precision/SE (y-axis, inverted so larger studies at the top). SYMMETRICAL (inverted funnel) = no obvious publication bias. ASYMMETRICAL (gap in lower left) = possible publication bias — small negative studies missing. EGGER'S TEST: p < 0.05 = significant asymmetry. Causes of asymmetry: publication bias (most common), true heterogeneity, poor methodological quality of small studies, chance, outcome reporting bias, language bias. Management: (1) Trim and fill method; (2) Sensitivity analysis excluding small studies; (3) Limitations section in the systematic review. Publication bias is a systematic error in meta-analysis — if only positive studies are published, the pooled effect will OVERESTIMATE the true treatment effect. Other types of bias in systematic reviews: (1) SELECTION BIAS — inclusion criteria; (2) LANGUAGE BIAS — excluding non-English studies; (3) CITATION BIAS — preferential citation of positive studies; (4) OUTCOME REPORTING BIAS — selective reporting of favourable outcomes. The Cochrane Handbook recommends comprehensive search strategies to minimise publication bias (including trial registries, grey literature, conference abstracts).",
+    "domain": "critical_review",
+    "subdomain": "publication_bias",
+    "difficulty": "medium",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Egger M et al. (1997) BMJ 'Bias in meta-analysis detected by a simple graphical test'; Cochrane Handbook",
+    "tags": ["funnel_plot", "publication_bias", "Eggers_test", "meta-analysis", "asymmetry"]
+  },
+  {
+    "stem": "A study on the relationship between cannabis use and psychosis uses a case-control design. 200 patients with first-episode psychosis (cases) and 200 age- and gender-matched controls from the general population are compared. 120 of the cases (60%) had used cannabis regularly compared to 60 of the controls (30%). What is the ODDS RATIO for the association between regular cannabis use and psychosis?",
+    "options": [" 2.0", " 3.5", " 5.0", " 1.5", " 0.5"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "The RR would be approximately 2.0 if this were a cohort study. But the OR in a case-control study is different.",
+      "CORRECT. Odds Ratio = (Odds of exposure in cases) / (Odds of exposure in controls). Cases: 120 exposed, 80 unexposed → odds = 120/80 = 1.5. Controls: 60 exposed, 140 unexposed → odds = 60/140 = 0.429. OR = 1.5 / 0.429 = 3.5 (approximately). More directly: OR = (a×d)/(b×c) = (120×140)/(80×60) = 16800/4800 = 3.5. Interpretation: the odds of regular cannabis use are 3.5 times higher in people with first-episode psychosis compared to matched controls. OR approximates RR when the outcome is RARE (<10% incidence). Psychosis has a baseline incidence of ~0.05% per year, so it is rare, and OR ~ RR. The increased risk of psychosis associated with cannabis is a well-replicated finding (Di Forti et al., 2019 — Lancet Psychiatry). High-potency cannabis (skunk) carries a higher risk than traditional resin.",
+      "Not correct based on the calculation.",
+      "1.5 is the odds of exposure in cases (120/80 = 1.5), not the OR.",
+      "0.5 would suggest a protective effect."
+    ],
+    "teaching_point": "Case-control studies — key methodological points: (1) Start with DISEASE (cases = have the outcome; controls = do not). (2) Measure EXPOSURE retrospectively (recall, records). (3) Calculate ODDS RATIO (not RR — cannot calculate risk from a case-control study because groups are defined by disease status, not exposure). (4) OR = (a×d)/(b×c) using the 2×2 table (exposed/disease + non-exposed/disease + exposed/non-disease + non-exposed/non-disease). (5) Case-control studies are useful for RARE outcomes (cohort studies would require very large samples). (6) BIASES: Selection bias (how are controls selected?), Recall bias (cases may remember exposures differently), Confounding. (7) MATCHING: to control for confounders (e.g., age, gender, SES). (8) NESTED CASE-CONTROL study: cases and controls are selected from within an existing cohort. This design combines advantages of both cohort and case-control designs. The cannabis-psychosis OR of ~2-4 is well-established. The relationship shows: (1) Dose-response (more frequent use = higher risk); (2) Age effect (younger onset of use = higher risk); (3) Potency effect (high-THC cannabis = higher risk).",
+    "domain": "critical_review",
+    "subdomain": "odds_ratio",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Altman DG; Di Forti M et al. (2019) The contribution of cannabis use to variation in the incidence of psychotic disorder. Lancet Psychiatry",
+    "tags": ["odds_ratio", "case-control", "cannabis_psychosis", "OR", "matching"]
+  },
+  {
+    "stem": "A researcher plans to interview 25 people with lived experience of self-harm about their experiences of seeking help from mental health services. The researcher wants to identify recurring themes in their narratives to inform service improvement. Which qualitative research methodology is most appropriate?",
+    "options": [" Grounded theory", " Thematic analysis", " Interpretative phenomenological analysis (IPA)", " Ethnography", " Discourse analysis"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Grounded theory aims to DEVELOP A NEW THEORY 'grounded in' the data. It uses constant comparison and theoretical sampling (sampling to develop the emerging theory). It would be used where no existing theory explains the phenomenon.",
+      "CORRECT. Thematic analysis (Braun & Clarke, 2006) is a flexible qualitative method for IDENTIFYING, ANALYSING, and REPORTING PATTERNS (themes) within qualitative data. It is particularly suited to this research question: identifying recurring themes in people's experiences with a pragmatic focus on informing service improvement. Thematic analysis does NOT require the detailed theoretical commitments of grounded theory, IPA, or discourse analysis. It involves: (1) Familiarisation with data; (2) Generating initial codes; (3) Searching for themes; (4) Reviewing themes; (5) Defining and naming themes; (6) Writing the report. Thematic analysis can be either deductive (theory-driven) or inductive (data-driven). For this study, the researcher wants to identify common themes across 25 participants — thematic analysis is ideal.",
+      "IPA (Smith, Flowers, Larkin) focuses on understanding INDIVIDUAL lived experience in fine-grained detail. It typically uses SMALL samples (<10) and focuses on the MEANING of experiences for each individual. While self-harm experiences could be studied with IPA, the sample size of 25 is too large for IPA, and the goal of service improvement (identifying common themes) is better served by thematic analysis.",
+      "Ethnography involves the study of a CULTURAL GROUP through prolonged immersion (observation, participation, interviews). Not appropriate for this research question.",
+      "Discourse analysis focuses on LANGUAGE and how it constructs social reality. It would examine how people TALK about self-harm, not identify themes across many people's experiences."
+    ],
+    "teaching_point": "Qualitative research methods — high-yield for MRCPsych: (1) THEMATIC ANALYSIS — flexible, identifies patterns across data, pragmatic. (2) GROUNDED THEORY — develops new theory from data (constant comparison, theoretical saturation). (3) IPA — detailed idiographic analysis of individual lived experience. (4) ETHNOGRAPHY — study of cultural groups through immersion. (5) DISCOURSE ANALYSIS — study of language and how it constructs reality. (6) CONTENT ANALYSIS — counts frequencies of words/phrases. SAMPLING in qualitative research: PURPOSIVE (selecting participants with relevant experience), SNOWBALL (participants recruit others — for hard-to-reach populations), CONVENIENCE (easiest to recruit). QUALITATIVE RIGOUR: TRIANGULATION (multiple data sources, researchers, theories), MEMBER CHECKING (checking findings with participants), REFLEXIVITY (the researcher reflects on their own influence on the research), NEGATIVE CASE ANALYSIS (looking for cases that disconfirm the findings), AUDIT TRAIL (documenting all decisions made). DATA SATURATION: the point at which no new themes emerge. The QUALITATIVE dimension in mixed-methods research: often used alongside quantitative measures to understand the 'why' behind the numbers. NICE increasingly includes qualitative evidence in guideline development.",
+    "domain": "critical_review",
+    "subdomain": "qualitative_methods",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Braun V & Clarke V (2006) Using thematic analysis in psychology. Qual Res Psychol; Pope C & Mays N (2020) Qualitative Research in Health Care",
+    "tags": ["thematic_analysis", "qualitative", "self-harm", "IPA", "grounded_theory"]
+  },
+  {
+    "stem": "In a study comparing two antidepressants for the treatment of depression in 200 patients, the researchers state that 'the treatment effect was statistically significant (p = 0.03) with a Cohen's d effect size of 0.40'. What does a Cohen's d of 0.40 represent?",
+    "options": [" A large effect size", " A medium effect size", " A small effect size", " A negligible effect size", " The proportion of variance explained by the treatment (16%)"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Large effect: Cohen's d ≥ 0.8.",
+      "CORRECT. Cohen's d is a STANDARDISED EFFECT SIZE measure that quantifies the difference between two groups in standard deviation units. d = (Mean_group1 − Mean_group2) / Pooled_SD. Cohen's conventions (1988): d = 0.2 = SMALL effect; d = 0.5 = MEDIUM effect; d = 0.8 = LARGE effect. A Cohen's d of 0.40 is just below the medium threshold — considered a SMALL-TO-MEDIUM effect size. Effect sizes are critical because they tell us the MAGNITUDE of the difference, which p-values cannot. A treatment can be statistically significant (p < 0.05) but have a very small effect size (clinically meaningless).",
+      "Small effect: d = 0.2. 0.4 is between small and medium.",
+      "Negligible would be <0.2.",
+      "Eta-squared (η²) or R² is the proportion of variance explained. η² = d²/(d²+4) for two groups. For d = 0.4: η² = 0.16/4.16 = 0.04 (4%). So the treatment explains only ~4% of the variance in outcome — despite being 'statistically significant'."
+    ],
+    "teaching_point": "Effect sizes — key to interpreting study results: COHEN'S d: standardised mean difference. (1) 0.2 = small; (2) 0.5 = medium; (3) 0.8 = large. PEARSON'S r: correlation coefficient. (1) 0.1 = small; (2) 0.3 = medium; (3) 0.5 = large. ODDS RATIO: (1) OR 1.5 = small; (2) OR 2.5 = medium; (3) OR 4+ = large (though this depends on baseline risk). NUMBER NEEDED TO TREAT: (1) 2-4 = large; (2) 5-9 = moderate; (3) 10+ = modest. Why effect sizes matter: (1) STATISTICAL SIGNIFICANCE (p-value) depends on sample size — a tiny effect can be 'significant' in a huge study; (2) CLINICAL SIGNIFICANCE should be assessed by effect size and NNT. HEDGES' g: similar to Cohen's d but with a correction for small sample bias (used when n < 20). SMD (standardised mean difference): used in meta-analyses when studies use different outcome scales. Often used in Cochrane reviews. The key paper: one antidepressant may have a p < 0.001 superior to another, but the effect size may be d = 0.1 — clinically meaningless.",
+    "domain": "critical_review",
+    "subdomain": "effect_size",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Cohen J (1988) Statistical Power Analysis for the Behavioral Sciences; Coe R (2002) It's the effect size, stupid",
+    "tags": ["Cohen_d", "effect_size", "standardised_mean_difference", "statistical_significance"]
+  }
+]

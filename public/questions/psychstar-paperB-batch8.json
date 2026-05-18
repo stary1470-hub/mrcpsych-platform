@@ -1,0 +1,122 @@
+[
+  {
+    "stem": "A 10-year-old boy with severe learning disability is brought to the clinic by his mother. He was born full-term after a normal pregnancy. He has a long, narrow face, large prominent ears, a high-arched palate, and macrocephaly. He is hyperactive, has poor eye contact, and flaps his hands. His mother reports he has delayed speech and language development. Which of the following is the most likely genetic diagnosis?",
+    "options": [" Down syndrome (trisomy 21)", " Fragile X syndrome", " Rett syndrome", " Prader-Willi syndrome", " Williams syndrome"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Down syndrome presents with brachycephaly (not macrocephaly), upslanting palpebral fissures, flat facial profile, and protruding tongue. The described features (long face, prominent ears, large testicles post-puberty) are classic for Fragile X.",
+      "CORRECT. Fragile X syndrome is the most common inherited cause of intellectual disability worldwide and the MOST COMMON single-gene cause of autism. Prevalence: ~1 in 4,000 males, ~1 in 8,000 females. Caused by a CGG trinucleotide repeat expansion in the FMR1 gene (Xq27.3) — >200 repeats causes 'full mutation' leading to methylation and silencing of FMR1. Physical features: long narrow face, prominent ears, macrocephaly, high-arched palate, hyperextensible joints, large testicles (post-pubertal). Behavioural phenotype: ADHD/hyperactivity, gaze avoidance (hand-flapping, poor eye contact), ASD (25-50%), social anxiety, language delay, intellectual disability (moderate-severe in males, milder in females due to X-inactivation).",
+      "Rett syndrome (MECP2 mutation) affects girls almost exclusively, presents with normal development then regression at 6-18 months, microcephaly, hand-wringing — not the features described.",
+      "Prader-Willi (15q11-13 paternal deletion) presents with infantile hypotonia, poor feeding → later hyperphagia, obesity, almond-shaped eyes, small hands/feet.",
+      "Williams syndrome (7q11.23 deletion) presents with 'elfin facies', cardiovascular disease (SVAS), and a friendly, loquacious ('cocktail party') personality."
+    ],
+    "teaching_point": "Fragile X syndrome — key facts for MRCPsych: (1) Genetics: FMR1 gene, CGG repeat expansion (normal 6-44, premutation 55-200 'carrier', full mutation >200). (2) Prevalence: most common inherited ID. (3) Inheritance: X-linked dominant (females affected but milder). (4) Penetrance: males with full mutation — 100% have ID (moderate-severe). Females — ~50% have ID (mild). Premutation carriers are at risk of: Fragile X-associated Tremor/Ataxia Syndrome (FXTAS) — late-onset tremor, ataxia, cognitive decline; Fragile X-associated Primary Ovarian Insufficiency (FXPOI). (5) Phenotype: long face, prominent ears, large testicles, hyperlaxity, mitral valve prolapse. (6) Behaviour: ADHD, ASD, anxiety, gaze avoidance, hand-flapping, aggression. (7) Brain: enlarged caudate nucleus, enlarged ventricles, reduced cerebellar vermis. (8) Treatment: supportive — special education, behavioural interventions, medication for ADHD/anxiety (SSRIs, stimulants — use cautiously).",
+    "domain": "learning_disability",
+    "subdomain": "genetic_syndromes",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE guidelines on LD; Hagerman RJ (2002) Fragile X syndrome; DSM-5-TR",
+    "tags": ["Fragile_X", "FMR1", "intellectual_disability", "autism", "genetic_syndrome"]
+  },
+  {
+    "stem": "A 28-year-old woman with Down syndrome (mild learning disability) who lives in supported accommodation presents with a 6-week history of low mood, tearfulness, social withdrawal, and reduced appetite. She has lost 4kg. Her support workers report she has been uncharacteristically quiet and has stopped attending her day centre. She cannot clearly articulate her feelings. She has no prior psychiatric history. What is the most appropriate first step?",
+    "options": [" Start sertraline 50mg daily", " Refer for CBT adapted for LD", " Arrange a comprehensive assessment including collateral history, physical health screen, and behavioural observation using an adapted depression scale (Glasgow Depression Scale for LD)", " Admit to a psychiatric inpatient unit", " Start risperidone 0.5mg daily for possible behavioural disturbance"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Starting an antidepressant without a full assessment would be premature. The diagnosis must be confirmed using appropriate tools for people with LD.",
+      "CBT may be appropriate but only after a confirmed diagnosis and physical health screen.",
+      "CORRECT. Depression in people with learning disability presents DIFFERENTLY. It may present with: (1) Behavioural change (withdrawal, regression, loss of skills); (2) Somatic symptoms; (3) Irritability/agitation; (4) Crying, sleep and appetite disturbance; (5) Difficult to articulate mood. The FIRST STEP is a COMPREHENSIVE ASSESSMENT: (1) Collateral history from carers and family (essential); (2) Physical health screen — people with Down syndrome have HIGH rates of HYPOTHYROIDISM (up to 30%) which can cause depressive symptoms; (3) Use an ADAPTED DEPRESSION SCREENING TOOL: Glasgow Depression Scale for LD (GDS-LD) or the Self-Report Depression Questionnaire (SRDQ); (4) Check pain, sensory issues, and medical problems (common causes of behavioural change in LD); (5) Consider dementia (early-onset Alzheimer's in Down syndrome — see below). In Down syndrome, risk factors for depression include: hypothyroidism, sleep apnoea, Alzheimer's disease, social isolation.",
+      "Inpatient admission is not indicated without acute risk (self-harm, suicidality, severe agitation, psychotic features) and after community interventions have been tried.",
+      "Risperidone is for severe challenging behaviour, not for possible depression."
+    ],
+    "teaching_point": "Depression in learning disability: Prevalence: rates similar to the general population (~10-15%), but DIAGNOSIS IS OFTEN MISSED due to diagnostic overshadowing (attributing symptoms to the disability rather than mental illness). Assessment: (1) Use MULTIPLE sources (self-report, carer report, clinical observation); (2) Adapt language and concepts (use simple words, visual aids); (3) Use VALIDATED SCALES: Glasgow Depression Scale for LD (GDS-LD), PAS-ADD (Psychiatric Assessment Schedule for Adults with Developmental Disabilities); (4) ALWAYS rule out physical causes (pain, infection, thyroid, epilepsy, sensory impairment). Treatment: same as general population — SSRIs (sertraline, fluoxetine) are first-line. However, response rates may be lower. Psychological therapy: adapted CBT (simplified, more concrete, visual aids). Cognitive impairment in Down syndrome: Alzheimer's neuropathology by age 40 (100% of cases by 40), but clinical dementia occurs in only ~50-70% over 60. The change from baseline function is more important than a single cognitive test score.",
+    "domain": "learning_disability",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE guideline on LD and mental health; Strydom A et al. (2010) Depression in adults with ID",
+    "tags": ["Down_syndrome", "depression", "Glasgow_Depression_Scale", "diagnostic_overshadowing", "assessment"]
+  },
+  {
+    "stem": "A 35-year-old man with moderate learning disability is referred for assessment of challenging behaviour. He lives in a residential care home and his support workers report that he has been hitting staff, throwing objects, and screaming when asked to change his daily routine. He cannot communicate verbally and uses Makaton signs. A previous trial of risperidone 1mg daily was ineffective. What is the most appropriate first-line approach?",
+    "options": [" Increase risperidone to 2mg daily", " Add valproate semisodium 500mg BD", " Start with a comprehensive functional behavioural assessment to identify triggers and functions of the behaviour before considering medication", " Start lorazepam 1mg PRN for agitation", " Refer for inpatient admission"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing risperidone without understanding the behaviour is not recommended. Antipsychotics should only be used for challenging behaviour in LD when: (1) non-pharmacological approaches have been fully implemented; (2) the behaviour is severe and causing significant distress or risk; and (3) there is evidence of an underlying psychiatric disorder (schizophrenia, bipolar, or severe irritability in ASD).",
+      "Valproate is not recommended for challenging behaviour without a specific mood disorder indication. NICE NG11 (Challenging behaviour and LD) specifically advises AGAINST using valproate for challenging behaviour in LD.",
+      "CORRECT. NICE NG11 (Challenging behaviour and learning disability) recommends: (1) A COMPREHENSIVE FUNCTIONAL ASSESSMENT of the behaviour before any intervention — identifying the ANTECEDENTS, BEHAVIOUR, and CONSEQUENCES (ABC). This helps understand what the behaviour is COMMUNICATING (pain, boredom, frustration, sensory overload, desire for attention, avoidance of demands). (2) Develop a BEHAVIOUR SUPPORT PLAN based on the functional assessment. (3) Environmental modifications (changing routines, reducing sensory overload, providing structure). (4) Communication support (Makaton, pictures, now-and-next boards). (5) Treat any underlying physical health problem (pain, constipation, dental issues — VERY COMMON in LD). (6) Only consider MEDICATION if the behaviour is severe, the above have failed, and there is evidence of a mental disorder or the behaviour is clearly related to it.",
+      "PRN benzodiazepines are not recommended for chronic challenging behaviour due to tolerance, dependence, and paradoxical disinhibition. They may be used for acute crisis but not as prophylaxis.",
+      "Inpatient admission is not the first step — a comprehensive community-based assessment and intervention plan should be attempted first, unless there is immediate and severe risk."
+    ],
+    "teaching_point": "Challenging behaviour in LD (NICE NG11): DEFINITION: 'Culturally abnormal behaviour of such intensity, frequency or duration that the physical safety of the person or others is likely to be placed in serious jeopardy, or behaviour which is likely to seriously limit use of, or result in the person being denied access to, ordinary community facilities' (Emerson, 1995). ASSESSMENT: (1) Functional analysis (ABC chart); (2) Physical health screen (pain, constipation, dental, sensory impairment, epilepsy); (3) Communication assessment (many challenging behaviours are a form of communication); (4) Environmental factors (routine, staffing, noise, over/under-stimulation); (5) Mental health assessment (depression, anxiety, psychosis, ASD). MANAGEMENT: (1) Behavioural interventions (antecedent management, differential reinforcement of alternative behaviours — DRA, functional communication training); (2) Environmental modifications; (3) Treat physical causes; (4) STOMP — Stopping Over-Medication of Children with Learning Disability, Autism or both (NHS campaign to reduce inappropriate psychotropic prescribing). Only use medication if: severe behaviour, non-pharm failed, AND there is a clearly identified mental disorder or specific symptom.",
+    "domain": "learning_disability",
+    "subdomain": "challenging_behaviour",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG11: Challenging behaviour and learning disability (2015); Emerson E (1995) Challenging behaviour",
+    "tags": ["challenging_behaviour", "functional_assessment", "ABC", "STOMP", "NICE_guidelines"]
+  },
+  {
+    "stem": "According to the ICD-11 classification of intellectual disability (learning disability), which of the following is the correct IQ range for MODERATE intellectual disability?",
+    "options": [" IQ 50-55 to approximately 70", " IQ 35-40 to 50-55", " IQ 20-25 to 35-40", " IQ below 20-25", " IQ 70-85 (borderline)"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "MILD ID: IQ 50-55 to approximately 70. These individuals can typically live independently with support, read and write, and hold simple jobs.",
+      "CORRECT. MODERATE intellectual disability: IQ 35-40 to 50-55. Age of onset: early childhood. Characteristics: (1) Language delay (simple sentences, limited vocabulary); (2) Can attend to self-care with support; (3) Can perform simple supervised tasks; (4) Academic skills limited to basic literacy/numeracy; (5) Typically needs daily support for complex tasks; (6) Can live in supported accommodation. Prevalence: ~10% of the LD population. This patient: 35-year-old, needs assistance with daily living, cannot manage finances (consistent with moderate LD).",
+      "SEVERE ID: IQ 20-25 to 35-40. Limited language, requires daily supervision, significant motor impairment.",
+      "PROFOUND ID: IQ below 20-25. Requires total care, minimal communication, multiple physical comorbidities.",
+      "BORDERLINE intellectual functioning: IQ 70-85. Not classified as ID (which requires IQ <70). These individuals may have adaptive difficulties but do not meet criteria for ID."
+    ],
+    "teaching_point": "Intellectual disability classification (ICD-11/DSM-5-TR): By IQ AND ADAPTIVE FUNCTIONING (both must be impaired). Current classification emphasises ADAPTIVE FUNCTIONING (conceptual, social, practical domains) more than IQ alone. Severity levels: MILD (50-55 to 70) — can live independently, needs support. MODERATE (35-40 to 50-55) — needs daily support, simple tasks, independent living possible with support. SEVERE (20-25 to 35-40) — requires daily supervision/much support. PROFOUND (<20-25) — total care. The old term 'mental retardation' is no longer used. Current ICD-11 and DSM-5-TR both use 'intellectual developmental disorder'/'intellectual disability' and severity is based on ADAPTIVE FUNCTIONING, not just IQ. ICD-11 also includes a category for 'global developmental delay' (under 5 years). Prevalence of ID: ~1-2% of the population. Approximately 85% have mild, 10% moderate, 5% severe/profound.",
+    "domain": "learning_disability",
+    "subdomain": "classification",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "ICD-11; DSM-5-TR; NICE guideline on LD",
+    "tags": ["intellectual_disability", "classification", "moderate", "IQ_range", "ICD-11"]
+  },
+  {
+    "stem": "A 32-year-old woman with mild learning disability is referred from the general hospital where she was treated for acute appendicitis. The surgical team noted that the nursing staff initially thought her abdominal pain was part of her 'behavioural problems' and delayed seeking medical review. This delay led to perforation and peritonitis. This clinical scenario BEST illustrates which concept?",
+    "options": [" Diagnostic overshadowing", " Confirmation bias", " Over-diagnosis bias", " The 'care vs justice' dilemma", " The inverse care law"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Diagnostic overshadowing is a term first used by Reiss et al. (1982) to describe the process where a person's physical or mental health symptoms are incorrectly attributed to their intellectual disability (or other developmental disability), LEADING TO UNDER-DIAGNOSIS of treatable conditions. In this case, the patient's pain was attributed to 'behaviour' due to her LD, causing a DELAYED diagnosis of appendicitis with serious consequences. This is a well-documented phenomenon in LD healthcare. Other examples: (1) An LD patient's depression being attributed to their disability ('She's just quiet because she has LD'); (2) A patient with ASD's psychosis being misattributed to autistic traits; (3) An LD patient's pain from a fracture being dismissed as 'attention-seeking behaviour.' Diagnostic overshadowing is a major contributor to health inequalities in people with LD. People with LD experience: 4× higher rates of preventable deaths, higher rates of untreated physical health problems, and lower life expectancy (by 15-20 years).",
+      "Confirmation bias is the tendency to search for, interpret, and remember information that confirms one's pre-existing beliefs. Not specific to the LD context.",
+      "Over-diagnosis bias is the tendency to over-diagnose conditions — less relevant to this scenario of under-diagnosis.",
+      "The 'care vs justice' dilemma (from forensic psychiatry) refers to balancing therapeutic needs with public protection.",
+      "The inverse care law (Hart, 1971) states that those who need the most care receive the least. While relevant to LD health inequalities, diagnostic overshadowing is the specific concept illustrated."
+    ],
+    "teaching_point": "Diagnostic overshadowing — a critical MRCPsych concept: Definition: 'the tendency to attribute new symptoms or behaviours in a person with a developmental disability to their underlying disability rather than to a separate, potentially treatable condition' (Reiss et al., 1982). Consequences: (1) Delayed diagnosis of physical illness (pain, infection, cancer, fractures); (2) Delayed diagnosis of mental illness (depression, anxiety, psychosis); (3) Increased morbidity and mortality; (4) Poorer quality of life. PATIENT SAFETY IN LD: Annual health checks for people with LD (introduced in 2008, NHS England — 'Learning Disability Annual Health Check' in primary care). The LeDeR report (Learning Disability Mortality Review) has highlighted significant premature mortality in people with LD. Recommendations: (1) Use adapted communication; (2) Involve carers/family; (3) Be aware of diagnostic overshadowing; (4) Consider the 'behaviour is communication' principle. Mental health in LD: use specialised adapted assessment tools (PAS-ADD, GDS-LD, Mini PAS-ADD).",
+    "domain": "learning_disability",
+    "subdomain": "diagnostic_overshadowing",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Reiss S et al. (1982) Diagnostic overshadowing; LeDeR Report; NICE NG11",
+    "tags": ["diagnostic_overshadowing", "learning_disability", "health_inequalities", "patient_safety"]
+  },
+  {
+    "stem": "A 28-year-old man with mild-moderate learning disability has been referred with symptoms of a first manic episode — elevated mood, grandiose delusions, increased energy, reduced need for sleep, and disinhibited behaviour. He is not on any medication. He has no history of bipolar disorder. What is the most important investigation before starting treatment?",
+    "options": [" Thyroid function tests", " CT head", " Serum lithium level", " EEG", " Lumbar puncture"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Before treating a first episode of mania in a person with LD, ruling out MEDICAL causes is essential. Thyroid function tests (TFTs) are the most important initial investigation: (1) Hyperthyroidism is more common in people with Down syndrome (5-10% have hyperthyroidism) and can present with maniform symptoms; (2) Lithium treatment will further alter thyroid function; (3) Baseline TFTs are needed before starting any mood stabiliser. Other essential investigations: (1) FBC, U&Es, LFTs, glucose, HbA1c; (2) ECG; (3) TFTs; (4) B12, folate; (5) Syphilis serology; (6) Neuroimaging (MRI/CT) if focal neurology, first episode, or atypical features. In LD patients, organic causes of mood disorders are MORE COMMON than in the general population.",
+      "CT head is not the most important first-line investigation unless there is focal neurology, first seizure, or head injury.",
+      "Lithium level is a monitoring test during treatment, not a pre-treatment diagnostic test.",
+      "EEG is indicated if there is a history of seizures (common in LD), or to rule out complex partial seizures mimicking psychiatric symptoms.",
+      "Lumbar puncture is not indicated without signs of CNS infection/inflammation."
+    ],
+    "teaching_point": "Mania in LD — organic causes to exclude: (1) Hyperthyroidism (especially in Down syndrome); (2) Cushing's syndrome / steroid therapy; (3) Brain tumour / structural lesion; (4) Stroke (especially right frontal); (5) Head injury; (6) Seizures (post-ictal mania); (7) Medication-induced (L-dopa, corticosteroids, stimulants, antidepressants); (8) Neurodegenerative disorders (FTD can present with disinhibition). Treatment: same as general population (antipsychotics first-line for acute mania, lithium or valproate for maintenance). The choice of antipsychotic must consider the LD patient's: (1) Increased sensitivity to EPS (extrapyramidal side effects); (2) Risk of epilepsy (higher in LD — avoid lowering the seizure threshold); (3) Communication difficulties in reporting side effects; (4) Need for adapted psychoeducation. Lithium: dose adjustment may be needed if renal function is reduced; careful monitoring. Valproate: restricted in women of childbearing potential. Antipsychotics: start low, go slow.",
+    "domain": "learning_disability",
+    "subdomain": "mania",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE guideline on LD and mental health; Maudsley Prescribing Guidelines (LD chapter)",
+    "tags": ["bipolar", "learning_disability", "hyperthyroidism", "investigations", "organic"]
+  }
+]

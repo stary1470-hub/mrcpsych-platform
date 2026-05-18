@@ -1,0 +1,142 @@
+[
+  {
+    "stem": "A 35-year-old woman with bipolar I disorder presents with depression (PHQ-9 16) that has not responded to quetiapine 300mg nocte for 8 weeks. She refuses antidepressant augmentation. Her BMI is 22 and she has no medical problems. What is the most appropriate next step?",
+    "options": [" Increase quetiapine to 600mg nocte", " Add lamotrigine 25mg daily with slow titration", " Add aripiprazole 5mg", " Start olanzapine 10mg plus fluoxetine 20mg", " ECT"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "600mg is for mania, not depression.",
+      "CORRECT. After first-line quetiapine, lamotrigine is a NICE-recommended option for treatment-resistant bipolar depression. Slow titration required.",
+      "Aripiprazole is not effective for bipolar depression.",
+      "OFC is an option but lamotrigine is preferred after quetiapine.",
+      "Not indicated at this severity."
+    ],
+    "teaching_point": "Bipolar depression treatment sequence (NICE): 1st: quetiapine or olanzapine. 2nd: add fluoxetine to olanzapine (OFC). 3rd: add lamotrigine. 4th: ECT.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185",
+    "tags": ["bipolar", "depression", "lamotrigine", "treatment_resistance"]
+  },
+  {
+    "stem": "A 32-year-old woman with bipolar I disorder develops acute mania while on lithium (level 0.4 mmol/L). She is not pregnant. What is the most appropriate management?",
+    "options": [" Increase lithium to achieve level 0.6-1.0 mmol/L", " Switch lithium to valproate", " Add olanzapine 10mg and check lithium level", " Start aripiprazole 15mg alone", " Add carbamazepine 400mg BD"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Lithium alone is too slow for acute mania.",
+      "No need to switch.",
+      "CORRECT. Acute mania: add an antipsychotic (olanzapine) for rapid onset. Optimise lithium level (0.6-1.0). Check level: low at 0.4, may need dose increase.",
+      "Antipsychotic alone is fine, but lithium optimisation is also important.",
+      "Carbamazepine not first-line."
+    ],
+    "teaching_point": "Breakthrough mania on lithium: add antipsychotic (rapid effect) AND optimise lithium level. Check adherence, check for drugs reducing lithium levels (NSAIDs, diuretics).",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185",
+    "tags": ["bipolar", "mania", "breakthrough", "lithium", "olanzapine"]
+  },
+  {
+    "stem": "A 48-year-old man with bipolar I disorder has had 4 manic episodes in the past 12 months despite good adherence to lithium (level 0.6 mmol/L). What is the most appropriate next step?",
+    "options": [" Increase lithium to achieve level 0.8-1.0", " Add carbamazepine", " Add valproate and consider reducing lithium", " Switch to aripiprazole LAI", " Add lamotrigine"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing lithium may help but adding another agent is more effective.",
+      "Carbamazepine is third-line.",
+      "CORRECT. Rapid cycling despite lithium: valproate has evidence for rapid cycling. BALANCE trial supports lithium+valproate. Lithium level 0.6 is therapeutic but mid-range.",
+      "LAI is an option but valproate augmentation has better evidence for rapid cycling.",
+      "Lamotrigine prevents depression, not mania."
+    ],
+    "teaching_point": "Rapid cycling management: 1st: optimise lithium. 2nd: add valproate. 3rd: add antipsychotic. Rule out: hypothyroidism, substance misuse, antidepressant-induced cycling.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185; BALANCE trial",
+    "tags": ["rapid_cycling", "bipolar", "valproate", "lithium"]
+  },
+  {
+    "stem": "A 52-year-old woman with bipolar I disorder on lithium develops coarse tremor, ataxia, and dysarthria. Lithium level is 2.3 mmol/L. She is on ibuprofen for arthritis. What is the most appropriate management?",
+    "options": [" Reduce lithium dose by 50%", " Stop lithium, give IV normal saline, check U&Es, consider haemodialysis", " Add propranolol 40mg for tremor", " Switch ibuprofen to paracetamol and continue lithium", " Stop lithium and start valproate"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Dose reduction alone is insufficient for level 2.3 with neurological symptoms.",
+      "CORRECT. Lithium toxicity (level >1.5 with neurological symptoms). Stop lithium, IV fluids, monitor U&Es. Haemodialysis if >2.5 or severe neuro symptoms. NSAID is the precipitant.",
+      "Propranolol treats benign lithium tremor, not toxicity.",
+      "Switching NSAID to paracetamol is correct but lithium cessation + active management is needed first.",
+      "Switching is for after recovery."
+    ],
+    "teaching_point": "Lithium toxicity: level 1.5-2.5 moderate (vomiting, ataxia, dysarthria). >2.5 severe (seizures, coma). NSAIDs precipitate toxicity by reducing renal clearance. Paracetamol is safe.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; Maudsley; NICE CG185",
+    "tags": ["lithium", "toxicity", "NSAID", "haemodialysis"]
+  },
+  {
+    "stem": "A 40-year-old man with bipolar I disorder has been stable on lithium for 5 years. Routine bloods show TSH 12 mIU/L (0.3-4.2). He is asymptomatic. What is the most appropriate management?",
+    "options": [" Stop lithium as it is causing hypothyroidism", " Start levothyroxine 50mcg daily and continue lithium", " Switch lithium to valproate", " Repeat TFTs in 6 months", " Add liothyronine 20mcg daily"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Lithium can be continued with levothyroxine cover.",
+      "CORRECT. Lithium-induced hypothyroidism occurs in 10-20%. Management: start levothyroxine, continue lithium (mood stabilisation trumps thyroid effects). Monitor TFTs.",
+      "No need to switch if hypothyroidism is well-managed.",
+      "TSH 12 requires treatment, not monitoring.",
+      "Liothyronine (T3) is not first-line. Levothyroxine (T4) is standard."
+    ],
+    "teaching_point": "Lithium and hypothyroidism: 10-20% develop subclinical/overt hypothyroidism. More common in women. Treatment: levothyroxine. Continue lithium. TFTs at baseline and every 6 months.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185; BNF",
+    "tags": ["lithium", "hypothyroidism", "levothyroxine", "side_effects"]
+  },
+  {
+    "stem": "A 38-year-old man with treatment-resistant depression (failed 2 antidepressants) is referred for assessment. On collateral, his partner reports he has 'high energy bursts' lasting 1-2 days where he is very productive and needs less sleep. These occur every few months. He has never been hospitalised. What is the most likely diagnosis?",
+    "options": [" Major depressive disorder", " Bipolar II disorder", " Cyclothymia", " Bipolar I disorder", " Unspecified bipolar disorder"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Hypomanic episodes (even brief) suggest bipolar spectrum when TRD is present.",
+      "CORRECT. Bipolar II: hypomania (4+ days per DSM-5 but 2-3 days can still be bipolar II if clinically significant) + major depression. TRD with bipolar flags is highly suggestive.",
+      "Cyclothymia has subthreshold mood symptoms only.",
+      "Bipolar I requires mania (7+ days).",
+      "Too specific."
+    ],
+    "teaching_point": "Brief hypomanic episodes (2-3 days) are common in bipolar II. DSM-5 requires 4 days but clinical judgement is important. Bipolar II is the most missed diagnosis in TRD.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG185; DSM-5-TR",
+    "tags": ["bipolar_II", "TRD", "hypomania", "missed_diagnosis"]
+  },
+  {
+    "stem": "A 31-year-old woman with bipolar I disorder on lithium (level 0.7 mmol/L) and quetiapine 300mg nocte becomes pregnant. She is 8 weeks gestation. She has a history of severe mania requiring admission. What is the most appropriate management of her medication?",
+    "options": [" Stop lithium due to teratogenicity", " Stop quetiapine due to limited safety data", " Continue both with close monitoring and adjustment", " Stop both and start lamotrigine", " Stop both and start olanzapine"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Lithium can be continued with monitoring.",
+      "Quetiapine is relatively safe in pregnancy.",
+      "CORRECT. Continue both medications with: (1) lowest effective doses; (2) monitor lithium levels 4-weekly; (3) detailed anomaly scan at 18-20 weeks; (4) monitor for gestational diabetes (quetiapine); (5) plan for neonatal adaptation syndrome. Risk of relapse if stopped: 50-90%.",
+      "Switching to lamotrigine mid-pregnancy risks destabilisation.",
+      "Switching mid-pregnancy is destabilising."
+    ],
+    "teaching_point": "Bipolar in pregnancy: continue effective medication with monitoring. Lithium: Ebstein risk 1-2/1000. Quetiapine: relatively safe. Valproate: contraindicated. Relapse risk off medication: 50-90%. NICE CG192: individualised risk-benefit discussion.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192; NICE CG185",
+    "tags": ["bipolar", "pregnancy", "lithium", "quetiapine", "perinatal"]
+  }
+]

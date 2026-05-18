@@ -1,0 +1,1080 @@
+[
+  {
+    "stem": "A 34-year-old woman presents with a 4-week history of low mood, anhedonia, poor concentration, reduced energy, and early morning wakening. She has no prior psychiatric history. PHQ-9 score is 16. She is medically well and takes no regular medications. According to NICE guidelines, what is the most appropriate first-line management?",
+    "options": [
+      " Sertraline 50mg daily and watchful waiting",
+      " High-intensity psychological therapy (CBT or IPT) alone",
+      " Sertraline 50mg daily plus low-intensity psychosocial intervention",
+      " Venlafaxine 75mg daily",
+      " Referral to crisis team for urgent assessment"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Watchful waiting is for subthreshold/mild depression (PHQ-9 < 10). A PHQ-9 of 16 indicates moderate depression, which requires active treatment.",
+      "High-intensity psychological therapy alone is appropriate for moderate depression when the patient declines medication, but NICE recommends offering antidepressant medication OR high-intensity psychological therapy. The combination of medication PLUS low-intensity psychosocial intervention (guided self-help, physical activity programme) is most appropriate as first-line for moderate depression.",
+      "CORRECT. NICE CG90 (updated) recommends for moderate depression: offer antidepressant medication OR a high-intensity psychological intervention. Additionally, a low-intensity psychosocial intervention (guided self-help, behavioural activation, exercise programme) should be offered alongside. Sertraline is the first-line SSRI due to favourable side-effect profile and safety in overdose.",
+      "Venlafaxine is not first-line for moderate depression. NICE recommends SSRIs (sertraline, fluoxetine, citalopram) as first-line. Venlafaxine (SNRI) is reserved for second-line or where an SSRI has failed, due to higher side-effect burden and toxicity in overdose.",
+      "Crisis team referral is for acute risk (suicidality, self-harm, psychotic depression). There is no indication of immediate risk in this presentation."
+    ],
+    "teaching_point": "NICE stepped care for depression: For moderate depression (PHQ-9 10-19), offer an antidepressant (SSRI first-line — sertraline preferred) OR high-intensity psychological therapy (CBT/IPT). A low-intensity psychosocial intervention (guided self-help, exercise) should be offered alongside. Sertraline is first-line SSRI due to good tolerability and safety in overdose. Fluoxetine has longest half-life (least discontinuation syndrome) but more initial activation. Citalopram carries QTc prolongation risk >40mg.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90: Depression in adults (updated)",
+    "tags": [
+      "depression",
+      "NICE_guidelines",
+      "SSRI",
+      "sertraline",
+      "stepped_care"
+    ]
+  },
+  {
+    "stem": "A 28-year-old man with a history of epilepsy (well-controlled on lamotrigine) presents with a 5-week history of low mood, anhedonia, poor sleep, and suicidal ideation without plan. PHQ-9 is 18. Which antidepressant is the safest first-line choice given his epilepsy?",
+    "options": [
+      " Sertraline",
+      " Mirtazapine",
+      " Amitriptyline",
+      " Venlafaxine",
+      " Bupropion"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Sertraline is generally safe in epilepsy but carries a slightly increased risk of seizures at higher doses (RR ~1.5). SSRIs as a class are not contraindicated, but mirtazapine has the lowest seizure risk of all antidepressants.",
+      "CORRECT. Mirtazapine is the safest antidepressant in patients with epilepsy. It has the lowest seizure risk of all antidepressants (RR ~0.5-1.0 compared to placebo). It acts on presynaptic α2-adrenoceptors and 5-HT2/5-HT3 receptors. Additionally, it has beneficial effects on sleep and appetite — useful in depressed patients with insomnia and weight loss.",
+      "Tricyclic antidepressants, especially amitriptyline, are PROCONVULSANT. They lower the seizure threshold and are relatively contraindicated in epilepsy. Amitriptyline is associated with dose-dependent seizure risk (RR ~2-4).",
+      "Venlafaxine (SNRI) at higher doses (>150mg) is associated with increased seizure risk and is also more dangerous in overdose (cardiotoxicity, serotonin syndrome). Not first-line in epilepsy.",
+      "Bupropion is absolutely contraindicated in epilepsy. It is a noradrenaline-dopamine reuptake inhibitor that significantly lowers the seizure threshold. Seizure risk is dose-dependent (~0.4% at 300mg, ~4% at 450mg)."
+    ],
+    "teaching_point": "Antidepressant choice in epilepsy: Mirtazapine (NaSSA) has the lowest seizure risk, making it the safest choice. SSRIs (sertraline, fluoxetine, citalopram) are generally safe but carry a small increased risk at high doses. TCAs are proconvulsant (amitriptyline highest risk). Bupropion is contraindicated in epilepsy. Always check the BNF/NICE guidelines for antidepressant prescribing in patients with comorbid physical illness.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; NICE CG90; Mula M, Sander JW (2013) Antidepressants in epilepsy",
+    "tags": [
+      "depression",
+      "epilepsy",
+      "mirtazapine",
+      "antidepressant_safety",
+      "physical_comorbidity"
+    ]
+  },
+  {
+    "stem": "A 52-year-old man is referred with a 6-month history of low mood, poor concentration, reduced energy, and anhedonia. He has insulin-dependent type 2 diabetes with HbA1c of 78 mmol/mol. PHQ-9 is 17. He was previously tried on sertraline 100mg daily for 8 weeks with no improvement. What is the most appropriate next-step antidepressant?",
+    "options": [
+      " Increase sertraline to 200mg daily",
+      " Switch to fluoxetine 20mg daily",
+      " Switch to mirtazapine 30mg daily",
+      " Switch to venlafaxine 75mg daily",
+      " Augment sertraline with aripiprazole 2mg daily"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Sertraline 100mg is already at a therapeutic dose after 8 weeks with no response. The maximum licensed dose is 200mg, but increasing further is not recommended as first step after non-response — switching or augmenting is preferred. However, in this patient with diabetes, mirtazapine is a better option.",
+      "Switching to another SSRI (fluoxetine) is a reasonable option after SSRI failure (class switching), but in this patient with poorly controlled diabetes and weight loss, mirtazapine's weight gain and improved glycaemic control may be beneficial.",
+      "CORRECT. Mirtazapine is a good choice in depression comorbid with diabetes because: (1) it can improve appetite and weight in patients with anorexia associated with depression; (2) it may improve glycaemic control through weight gain; (3) it is effective in depression; (4) it has a favourable side-effect profile regarding seizures and sexual dysfunction. After failure of one SSRI at an adequate dose for 8 weeks, NICE recommends switching to an alternative antidepressant (different class).",
+      "Venlafaxine is an option after SSRI failure, but it requires monitoring of BP (hypertension risk), can worsen glycaemic control, and is more dangerous in overdose. Mirtazapine is a better choice in this specific patient.",
+      "Augmentation is a strategy after failure of two or more antidepressants (treatment-resistant depression, TRD). This patient has only failed one SSRI, so switching is the preferred next step per NICE."
+    ],
+    "teaching_point": "Management after first antidepressant failure: NICE recommends (1) check adherence, (2) check diagnosis (is it bipolar depression?), (3) consider switching to a different class (e.g., SSRI → NaSSA/SNRI). SSRIs can worsen glycaemic control in diabetes; mirtazapine is associated with weight gain which can paradoxically improve HbA1c in underweight patients but must be monitored in obesity. Mirtazapine also has the lowest sexual dysfunction rate of all antidepressants.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90; NICE NG19: Diabetes in adults; Maudsley Prescribing Guidelines",
+    "tags": [
+      "depression",
+      "diabetes",
+      "treatment_resistance",
+      "mirtazapine",
+      "switching_antidepressant"
+    ]
+  },
+  {
+    "stem": "According to the STAR*D trial, what is the cumulative remission rate after up to four sequential treatment steps for major depressive disorder?",
+    "options": [
+      " Approximately 47%",
+      " Approximately 67%",
+      " Approximately 53%",
+      " Approximately 37%",
+      " Approximately 80%"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "47% is the remission rate after Level 2 (switch/augment) only. The cumulative rate across all 4 levels is higher.",
+      "CORRECT. The STAR*D (Sequenced Treatment Alternatives to Relieve Depression) trial found cumulative remission rates of: Level 1 (citalopram) 36.8%, Level 2 (switch/augment) 30.6% of remaining, Level 3 13.7% of remaining, Level 4 13.0% of remaining. The overall cumulative remission rate across all 4 levels was approximately 67%.",
+      "53% does not correspond to any specific STAR*D outcome.",
+      "37% is the Level 1 (citalopram monotherapy) remission rate — not cumulative.",
+      "80% overestimates the cumulative rate. Even with aggressive treatment, approximately 33% of patients remain symptomatic after 4 treatment levels."
+    ],
+    "teaching_point": "STAR*D (Rush et al., 2006) is the landmark pragmatic trial of treatment-resistant depression. Key findings: (1) Step 1 (citalopram) remission = 36.8%; (2) subsequent steps have diminishing returns; (3) cumulative remission after 4 steps = ~67%; (4) no significant difference between switch and augment strategies at any level; (5) approximately 1 in 3 patients remain depressed despite multiple adequate trials. The take-home for MRCPsych: citalopram was the index drug; sertraline, bupropion, venlafaxine were switch options; augmentation options included bupropion, buspirone, and T3.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Rush AJ et al. (2006) STAR*D. Am J Psychiatry; NICE CG90",
+    "tags": [
+      "STARstar_D",
+      "treatment_resistance",
+      "depression",
+      "remission_rates",
+      "clinical_trials"
+    ]
+  },
+  {
+    "stem": "A 68-year-old man presents with low mood, poor appetite, and early morning wakening 4 weeks after an ischaemic stroke affecting his left middle cerebral artery territory. He has a past history of hypertension and a GI bleed 2 years ago requiring transfusion. Mental State Examination reveals depressive cognitions but no psychotic features. PHQ-9 is 15. Which antidepressant is the safest and most appropriate first-line choice?",
+    "options": [
+      " Amitriptyline 50mg nocte",
+      " Sertraline 50mg daily",
+      " Nortriptyline 25mg nocte",
+      " Citalopram 20mg daily",
+      " Phenelzine 15mg TDS"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Amitriptyline is a TCA with significant anticholinergic burden, sedation, and postural hypotension — risky in elderly post-stroke patients. It also has QTc prolongation risk. Not first-line.",
+      "Sertraline is an SSRI. While SSRIs are generally options for post-stroke depression, their association with GI bleeding (due to platelet serotonin depletion) is a relative contraindication here given the history of a significant GI bleed. The risk is elevated in elderly patients on NSAIDs or anticoagulants.",
+      "CORRECT. Nortriptyline is a TCA that is preferred in post-stroke depression because: (1) it has fewer anticholinergic effects than amitriptyline; (2) it has less postural hypotension than other TCAs; (3) it does not carry the GI bleeding risk associated with SSRIs; (4) in post-stroke depression, TCAs have evidence of efficacy from RCTs (e.g., Lipsey et al., 1984). Nortriptyline is the TCA of choice in elderly patients and those with cardiovascular comorbidity.",
+      "Citalopram is an SSRI with QTc prolongation risk at higher doses (>40mg, >20mg in over-65s). While safer than TCAs in most elderly patients, the GI bleed history means a TCA (nortriptyline) is preferable.",
+      "Phenelzine (MAOI) requires dietary restrictions and carries risk of hypertensive crisis. It is reserved for treatment-resistant cases only. Absolutely not first-line in any scenario."
+    ],
+    "teaching_point": "Post-stroke depression affects approximately 30% of stroke survivors. Treatment choice must account for: (1) GI bleeding risk with SSRIs (platelet serotonin depletion); (2) cardiovascular side effects of TCAs; (3) drug interactions with antihypertensives and anticoagulants. Nortriptyline has the best evidence in post-stroke depression with the most favourable TCA side-effect profile. Sertraline can be used if no GI bleeding risk. NICE recommends SSRIs or TCAs for post-stroke depression based on individual patient factors.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90; NICE NG128: Stroke rehabilitation; Lipsey JR et al. (1984) Nortriptyline in post-stroke depression; BNF",
+    "tags": [
+      "depression",
+      "post-stroke",
+      "elderly",
+      "nortriptyline",
+      "TCA",
+      "GI_bleed"
+    ]
+  },
+  {
+    "stem": "According to the literature, approximately what proportion of patients with major depressive disorder will have a recurrence within 5-10 years after recovery from an index episode?",
+    "options": [
+      " 20-30%",
+      " 40-50%",
+      " 60-75%",
+      " 80-90%",
+      " <10%"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "20-30% underestimates recurrence. Even 40-50% is too low.",
+      "40-50% is closer but still below the actual figure reported in long-term follow-up studies.",
+      "CORRECT. Long-term outcome studies (e.g., Keller et al., 1992; Judd et al., 1998; the NIMH Collaborative Depression Study) consistently show that 60-75% of patients with MDD will experience at least one further episode within 5-10 years. The risk increases with each subsequent episode: after 1 episode ~50% recurrence, after 2 episodes ~70%, after 3+ episodes ~90%.",
+      "80-90% is the recurrence risk after 3 or more episodes, not after an index episode.",
+      "<10% is clearly wrong — MDD is a relapsing-remitting condition for the majority."
+    ],
+    "teaching_point": "Recurrence in MDD: The natural history of MDD is characterised by high recurrence rates. After a first episode, the risk of recurrence is ~50% within 5 years. This rises to 70% after a second episode and 90% after a third. NICE recommends maintenance antidepressants for at least 2 years for patients at high risk of recurrence (those with 2+ episodes, severe episodes, or residual symptoms). The distinction between relapse (return of symptoms within 6 months of recovery — same episode) and recurrence (new episode after full recovery) is the Kupfer curve concept.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Keller MB et al. Arch Gen Psychiatry 1992; Judd LL et al. Arch Gen Psychiatry 1998; NICE CG90",
+    "tags": [
+      "depression",
+      "recurrence",
+      "prognosis",
+      "Kupfer_curve",
+      "natural_history"
+    ]
+  },
+  {
+    "stem": "A 42-year-old woman with a history of recurrent major depressive disorder (two previous episodes) presents at 30 weeks gestation in her first pregnancy. She reports low mood, anhedonia, poor sleep, and reduced energy over 6 weeks. PHQ-9 is 16. She had been stable on sertraline 100mg daily prior to pregnancy but stopped it at 6 weeks gestation after learning she was pregnant. She is now keen to restart medication. What is the most appropriate management?",
+    "options": [
+      " Advise against restarting medication — refer for CBT instead",
+      " Restart sertraline at 50mg daily",
+      " Switch to fluoxetine 20mg daily",
+      " Start mirtazapine 15mg nocte",
+      " Start nortriptyline 25mg TDS"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "CBT alone would be appropriate for mild depression, but this is moderate depression (PHQ-9 16) with functional impairment. The risk of untreated depression in pregnancy (poor foetal growth, preterm birth, postnatal depression, impaired bonding) often outweighs the small risks of SSRIs.",
+      "CORRECT. Reinstating the same antidepressant that was previously effective at the same dose is the recommended approach. Sertraline is the preferred SSRI in pregnancy due to extensive safety data and low placental passage. The BNF advises that SSRI use in pregnancy should be individualised; sertraline and fluoxetine have the largest safety database. The risk of relapse if antidepressants are stopped in pregnancy is 68-90%, compared to 26% in those who continue.",
+      "Fluoxetine has a long half-life (4-6 days, active metabolite 7-9 days) which is less desirable in pregnancy due to longer neonatal exposure and risk of persistent pulmonary hypertension (PPHN, absolute risk ~3/1000 vs 1/1000 background). Sertraline is preferred.",
+      "Mirtazapine has less safety data in pregnancy than sertraline. While not contraindicated, reinstating her previously effective treatment is more appropriate.",
+      "Nortriptyline is a TCA with a narrower therapeutic index and higher side-effect burden. It is not first-line when a previously effective SSRI is available."
+    ],
+    "teaching_point": "Depression in pregnancy: The risk of relapse is high (68-90%) in women who discontinue antidepressants, with over half of relapses occurring in the first trimester. Sertraline is the preferred SSRI in pregnancy due to: (1) extensive safety data; (2) low placental passage; (3) lowest PPHN risk. Paroxetine should be avoided (associated with cardiac defects). Fluoxetine carries slightly higher PPHN risk. Venlafaxine can cause neonatal withdrawal. The principles: use the lowest effective dose of the drug that worked previously; monotherapy preferred; avoid polypharmacy; consider baseline foetal ultrasound and neonatal adaptation syndrome monitoring.",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192: Antenatal and postnatal mental health; BNF; Maudsley Prescribing Guidelines in Pregnancy",
+    "tags": [
+      "depression",
+      "pregnancy",
+      "perinatal",
+      "sertraline",
+      "SSRI",
+      "relapse_prevention"
+    ]
+  },
+  {
+    "stem": "A 32-year-old woman with a diagnosis of borderline personality disorder presents with low mood, anhedonia, irritability, and sleep disturbance of 3 weeks' duration. She has a history of recurrent self-harm (cutting) and three previous presentations to A&E with overdoses. PHQ-9 is 14. What is the most appropriate management according to NICE guidelines?",
+    "options": [
+      " Start sertraline 50mg daily",
+      " Start mirtazapine 15mg nocte",
+      " Refer for dialectical behaviour therapy (DBT)",
+      " Start olanzapine 5mg daily",
+      " Admit to psychiatric ward for assessment"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Antidepressants (SSRIs) are not recommended as first-line treatment for depression in patients with borderline personality disorder. NICE CG78 states that drug treatment should not be used specifically for BPD or for symptoms associated with BPD, including depression. Transient depressive symptoms in the context of BPD often resolve with psychological intervention.",
+      "Mirtazapine is similarly not recommended as first-line for depressive symptoms in BPD. Medication has a limited evidence base in this population and carries risk of overdose.",
+      "CORRECT. NICE CG78 recommends structured psychological therapy (specifically DBT, mentalisation-based therapy, or CBT) as first-line for people with BPD. For depressive symptoms that occur in the contex ptoms without acute risk of suicide (no current suicidal ideation or plan described). DBT can be provided in outpatient settings."
+    ],
+    "teaching_point": "BPD and depression: Depressive symptoms in BPD can be difficult to distinguish from episodes of major depression. NICE is clear: drug treatment should NOT be used for BPD or for associated symptoms. The evidence does not support SSRIs for depressive symptoms in BPD. Psychological therapy is first-line. If depression is severe and persistent (>6 weeks) despite psychological therapy, a short-term trial of an SSRI may be considered, but should be agreed with the patient regarding limited evidence of benefit. Self-harm should be managed within a DBT framework.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG78: Borderline personality disorder; NICE CG90: Depression",
+    "tags": [
+      "depression",
+      "borderline_personality_disorder",
+      "DBT",
+      "NICE_guidelines",
+      "psychological_therapy"
+    ]
+  },
+  {
+    "stem": "A 55-year-old man presents with severe depressive episode with psychotic features. He is convinced his internal organs are rotting and that he is responsible for causing a recent flood in his town. He has poor oral intake and is losing weight. His PHQ-9 is 24. What is the most appropriate treatment?",
+    "options": [
+      " Fluoxetine 20mg daily augmented with olanzapine 5mg daily",
+      " ECT",
+      " Amitriptyline 150mg daily alone",
+      " Sertraline 100mg daily alone",
+      " Venlafaxine 225mg daily augmented with aripiprazole 5mg daily"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. For severe depression with psychotic features, NICE recommends combination therapy with an antidepressant and an antipsychotic. Fluoxetine + olanzapine is the most studied combination (also referred to as OFC — olanzapine-fluoxetine combination). Alternatively, amitriptyline alone or an SSRI with an antipsychotic are options. The combination of an antidepressant with an atypical antipsychotic is first-line pharmacological treatment for psychotic depression.",
+      "ECT is highly effective for psychotic depression (response rate 80-90%) and is recommended when there is a need for rapid response (e.g., poor oral intake, high suicide risk, catatonia). However, it is not first-line for psychotic depression unless there is urgency, treatment resistance, or patient preference after discussing options. NICE recommends ECT for severe depression with psychotic features when there is a need for rapid improvement or where pharmacological treatment has failed.",
+      "Amitriptyline 150mg alone is insufficient — psychotic depression requires an antipsychotic in combination. While amitriptyline has evidence as monotherapy for psychotic depression (unlike SSRIs alone), combined therapy is more effective.",
+      "SSRI alone is insufficient for psychotic depression. The psychotic component requires an antipsychotic. Antidepressant monotherapy has poor response rates (<30%) in delusional depression.",
+      "Venlafaxine + aripiprazole is a reasonable combination but is not the most studied or established first-line option. Fluoxetine + olanzapine has the strongest evidence base (including FDA approval for bipolar depression and psychotic depression)."
+    ],
+    "teaching_point": "Psychotic (delusional) depression: Characterised by depressive symptoms with mood-congruent delusions/hallucinations (e.g., nihilistic, guilty, somatic). Pharmacologically, it requires BOTH an antidepressant and an antipsychotic — neither alone is sufficient (response rates: combination ~80%, antidepressant alone ~30%, antipsychotic alone ~25%). ECT is highly effective (80-90% response) and should be considered early if the patient is refusing food/fluids, catatonic, or at high suicide risk. NICE recommends offering combination therapy (antidepressant + antipsychotic) as first-line or ECT.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90; NICE TA136 (ECT); Maudsley Prescribing Guidelines",
+    "tags": [
+      "depression",
+      "psychotic_depression",
+      "olanzapine",
+      "fluoxetine",
+      "ECT",
+      "combination_therapy"
+    ]
+  },
+  {
+    "stem": "A 74-year-old woman with no prior psychiatric history presents with a 3-week history of low mood, tearfulness, and anxiety. She lives alone and has become increasingly socially withdrawn. MSE reveals depressive cognitions but no psychotic features. She has a history of atrial fibrillation (rate-controlled on bisoprolol), hypertension, and previous TIA. Her ECG shows QTc interval of 455ms. PHQ-9 is 15. What is the most appropriate antidepressant for this patient?",
+    "options": [
+      " Citalopram 20mg daily",
+      " Sertraline 50mg daily",
+      " Mirtazapine 15mg nocte",
+      " Nortriptyline 25mg nocte",
+      " Fluoxetine 20mg daily"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Citalopram carries a dose-related risk of QTc prolongation. The BNF advises maximum 20mg daily in over-65s and avoidance if QTc >450ms. This patient's QTc is 455ms, so citalopram is best avoided.",
+      "Sertraline has minimal QTc effect and is generally safe in elderly patients. However, mirtazapine offers additional advantages in this patient (see below). Sertraline is a reasonable alternative.",
+      "CORRECT. Mirtazapine is the best choice in this elderly patient because: (1) it has no QTc prolongation effect (safe in this patient's prolonged QTc); (2) it has minimal CYP450 interactions (unlikely to interact with bisoprolol or antihypertensives); (3) its sedative effects at 15mg can help with insomnia common in late-life depression; (4) it has appetite-stimulating effects useful in elderly patients with weight loss; (5) no postural hypotension (unlike TCAs); (6) no significant sexual dysfunction.",
+      "Nortriptyline is a TCA. Despite being the best-tolerated TCA, it still carries risk of postural hypotension and QTc prolongation. The TCA class has anticholinergic effects that can worsen cognition in elderly patients. Not first-choice here.",
+      "Fluoxetine has the longest half-life (4-6 days, active metabolite norfluoxetine 7-9 days), which is disadvantageous in elderly patients if side effects occur. It also has significant CYP2D6 inhibition potential (drug interactions). In elderly patients, a shorter half-life SSRI (sertraline) or mirtazapine is preferred."
+    ],
+    "teaching_point": "Antidepressant choice in elderly with cardiovascular disease: Mirtazapine is often preferred because of its unique side-effect profile: (1) no QTc effect; (2) no CYP450 inhibition (fewer drug interactions with cardiac meds); (3) sedation aids sleep; (4) appetite stimulation aids nutrition; (5) minimal sexual dysfunction; (6) no hyponatraemia risk (lower than SSRIs). SSRIs carry hyponatraemia risk (SIADH) in elderly, QTc risk with citalopram, and interaction with warfarin/antiplatelets via platelet serotonin depletion. TCAs carry postural hypotension, anticholinergic, and QTc risks.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; NICE CG90; Maudsley Prescribing Guidelines; Taylor D, Carol Paton, Kapur S",
+    "tags": [
+      "depression",
+      "elderly",
+      "mirtazapine",
+      "QTc",
+      "cardiovascular",
+      "prescribing_in_elderly"
+    ]
+  },
+  {
+    "stem": "A 45-year-old man is referred with low mood, anhedonia, and poor concentration of 7 weeks' duration. He is known to have chronic kidney disease stage 4 (eGFR 22 ml/min/1.73m2, stable over 6 months). PHQ-9 is 16. He has no prior psychiatric history. Which antidepressant is safest and most appropriate as first-line?",
+    "options": [
+      " Citalopram 20mg daily",
+      " Amitriptyline 50mg nocte",
+      " Duloxetine 60mg daily",
+      " Sertraline 50mg daily",
+      " Venlafaxine 75mg MR daily"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Citalopram is not contraindicated in renal impairment, but its dose must be adjusted (max 20mg if eGFR <20). However, sertraline has a better safety margin — no dose adjustment required in renal impairment and no active metabolites that accumulate.",
+      "Amitriptyline is predominantly renally excreted and its active metabolites (nortriptyline) can accumulate in CKD, increasing anticholinergic and cardiotoxic risks. Avoid or use with extreme caution.",
+      "Duloxetine (SNRI) is contraindicated if eGFR <30 due to accumulation of conjugated metabolites. This patient's eGFR is 22, so duloxetine is contraindicated per BNF.",
+      "CORRECT. Sertraline is the safest SSRI in renal impairment because: (1) it is extensively metabolised in the liver to an inactive metabolite; (2) no dose adjustment is required in any degree of renal impairment; (3) it does not accumulate in CKD; (4) it has minimal effect on QTc; (5) it has no significant drug interactions with common renal medications. Sertraline is the first-line antidepressant in chronic kidney disease per Maudsley Guidelines.",
+      "Venlafaxine is predominantly eliminated renally and its active metabolite (O-desmethylvenlafaxine) accumulates in renal impairment. The BNF advises caution with dose adjustment or avoidance in severe renal impairment. Not first-line in CKD stage 4."
+    ],
+    "teaching_point": "Antidepressant selection in chronic kidney disease: Sertraline is the safest SSRI in renal impairment (no dose adjustment needed). Fluoxetine and paroxetine also have favourable renal profiles. Duloxetine and venlafaxine (SNRIs) accumulate significantly in renal impairment (avoid if eGFR <30). TCAs accumulate active metabolites and increase cardiotoxicity risk. Citalopram is safe but requires dose adjustment (max 20mg if eGFR <20). Mirtazapine is also a good option (hepatic metabolism, no renal adjustment needed). Always check the BNF and Maudsley for specific dose guidance.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; Maudsley Prescribing Guidelines; NICE CG90",
+    "tags": [
+      "depression",
+      "renal_failure",
+      "CKD",
+      "sertraline",
+      "prescribing_in_renal_impairment"
+    ]
+  },
+  {
+    "stem": "According to the NICE stepped-care model for depression, which intervention is most appropriate for a 22-year-old woman with subthreshold depressive symptoms (PHQ-9 score of 8) who has had symptoms for 3 weeks following a relationship breakup?",
+    "options": [
+      " Sertraline 50mg daily",
+      " High-intensity CBT",
+      " Watchful waiting with follow-up in 2 weeks",
+      " Referral for group exercise programme and guided self-help",
+      " Referral to crisis team"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Antidepressants are not recommended for subthreshold or mild depression (PHQ-9 <10) unless it persists after other interventions or has been present for >2 years (persistent subthreshold depression).",
+      "High-intensity psychological therapy is for moderate-severe depression, not first-line for subthreshold/mild symptoms.",
+      "Watchful waiting alone is appropriate for subthreshold depression that does not meet criteria for a depressive episode. However, NICE stepped care recommends offering low-intensity psychosocial interventions for persistent subthreshold depression (>2 weeks). Group exercise and guided self-help are low-intensity interventions.",
+      "CORRECT. For persistent subthreshold depressive symptoms (lasting >2 weeks) or mild depression, NICE recommends low-intensity psychosocial interventions. These include: (1) individual guided self-help based on CBT principles; (2) computerised CBT; (3) structured group physical activity programme; (4) group-based peer support. If these are declined or ineffective, consider high-intensity psychological therapy or medication.",
+      "Crisis team referral would only be indicated if there is acute risk (suicidality, self-harm, psychotic symptoms), which is not described here."
+    ],
+    "teaching_point": "NICE stepped care for depression — Step 1: recognition and assessment, watchful waiting. Step 2 (persistent subthreshold/mild): low-intensity psychosocial interventions (guided self-help, computerised CBT, structured exercise, peer support). Step 3 (moderate-severe): antidepressant plus high-intensity psychological therapy. Step 4 (complex/severe/refractory/at risk): multidisciplinary team input including crisis teams, complex medication regimes, ECT. Key exam point: low-intensity interventions are for mild/persistent subthreshold depression, NOT medication.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90: Depression in adults: recognition and management",
+    "tags": [
+      "depression",
+      "NICE_stepped_care",
+      "mild_depression",
+      "psychosocial_intervention",
+      "guided_self-help"
+    ]
+  },
+  {
+    "stem": "A 26-year-old woman who recently started taking fluoxetine 20mg daily for moderate depression reports feeling more agitated, anxious, and restless since starting the medication 5 days ago. She is concerned and considering stopping the medication. What is the most appropriate advice?",
+    "options": [
+      " Stop fluoxetine immediately and switch to mirtazapine",
+      " Reassure that this is a common transient side effect and advise continuing",
+      " Reduce dose to fluoxetine 10mg on alternate days",
+      " Add lorazepam 1mg TDS PRN",
+      " Admit to hospital for observation"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Switching after only 5 days is premature. Initial activation/agitation with SSRIs is a known, transient phenomenon that typically resolves within the first 1-2 weeks. Patients should be counselled about this at the time of prescribing.",
+      "CORRECT. Early-onset agitation, anxiety, and restlessness are common transient side effects of SSRIs, particularly fluoxetine (which has the most activating profile). This typically occurs in the first few days to 2 weeks and resolves spontaneously. Patients should be warned about this at initiation and encouraged to continue. If symptoms significantly worsen or new akathisia develops, review urgently.",
+      "Dose reduction is not indicated at this stage as the activation is a pharmacodynamic effect, not dose-dependent. The 20mg dose is appropriate.",
+      "PRN benzodiazepines can be used short-term (1-2 weeks) if agitation is severe, but they are not routinely recommended and carry dependence risk. Reassurance and support are first-line.",
+      "Admission is not indicated for mild transient SSRI side effects without suicidal ideation or severe akathisia."
+    ],
+    "teaching_point": "SSRI side effects — initial activation: SSRIs (especially fluoxetine) can cause an initial transient increase in anxiety, agitation, and restlessness (sometimes called 'jitteriness syndrome'). This is thought to be due to initial serotonergic overstimulation before receptor desensitisation occurs. It typically resolves within 1-2 weeks. Patients MUST be warned about this at initiation. If severe or persistent, consider: (1) starting at a lower dose and titrating; (2) switching to a less activating SSRI (sertraline, citalopram) or mirtazapine. Rarely, it can herald serotonergic toxicity or bipolar switching. Always exclude akathisia.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; NICE CG90; Maudsley Prescribing Guidelines",
+    "tags": [
+      "SSRI",
+      "fluoxetine",
+      "side_effects",
+      "activation",
+      "jitteriness",
+      "patient_education"
+    ]
+  },
+  {
+    "stem": "A 38-year-old woman with recurrent major depressive disorder has been on sertraline 100mg daily for 6 weeks with partial improvement (PHQ-9 reduced from 20 to 14). She reports significant fatigue, reduced energy, and poor motivation as her residual symptoms. What is the most appropriate next step?",
+    "options": [
+      " Increase sertraline to 150mg daily",
+      " Add mirtazapine 15mg nocte (California rocket fuel)",
+      " Switch to venlafaxine 150mg daily",
+      " Add modafinil 200mg daily",
+      " Add aripiprazole 2mg augmentation"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Increasing the dose is reasonable (sertraline max 200mg) but the patient has some response already. However, for residual fatigue specifically, augmentation strategies targeting residual symptoms may be more targeted.",
+      "California rocket fuel (SSRI + mirtazapine) is a strategy for treatment-resistant depression but is more commonly used when there has been a poor response to SSRI alone. The patient has had partial response (PHQ-9 dropped from 20 to 14 — 30% reduction). This is not yet treatment-resistant.",
+      "Switch to venlafaxine is reasonable after SSRI partial response, but modafinil augmentation is specifically recommended for residual fatigue and has evidence in this context.",
+      "CORRECT. Modafinil augmentation of SSRIs has evidence for improving residual fatigue, sleepiness, and cognitive symptoms in partial responders to antidepressants. NICE acknowledges augmentation strategies for residual symptoms. Modafinil 100-200mg daily (off-label) is a recognised augmentation strategy for residual fatigue in MDD. However, it should be used cautiously due to risk of mania switching in bipolar disorder (ensure diagnosis is unipolar).",
+      "Aripiprazole augmentation is licensed for treatment-resistant depression (TRD) after failure of 1-2 adequate antidepressant trials. This patient has only had partial response to one trial — not yet TRD."
+    ],
+    "teaching_point": "Residual symptoms in depression: Up to 50% of responders to antidepressant treatment have residual symptoms. Fatigue and cognitive symptoms are among the most common. Management strategies include: (1) optimise current dose; (2) switch to a different antidepressant; (3) targeted augmentation. Modafinil (off-label) has evidence for residual fatigue. Other options include bupropion augmentation (not available in UK), or switching to a more activating antidepressant (fluoxetine, venlafaxine). Note: 'California rocket fuel' (SSRI + mirtazapine) is effective for TRD but mirtazapine may worsen fatigue/sedation at low doses.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG90; Maudsley Prescribing Guidelines; Am J Psychiatry 2007 (Fava et al.) modafinil augmentation",
+    "tags": [
+      "depression",
+      "residual_symptoms",
+      "fatigue",
+      "modafinil",
+      "augmentation",
+      "treatment_resistance"
+    ]
+  },
+  {
+    "stem": "Which of the following antidepressant discontinuation syndromes is most commonly associated with paroxetine compared to other SSRIs?",
+    "options": [
+      " Flu-like symptoms, dizziness, and nausea",
+      " Manic switch",
+      " Weight gain and metabolic syndrome",
+      " QTc prolongation",
+      " Hepatic failure"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Paroxetine has the highest risk of discontinuation syndrome among all SSRIs (incidence ~30-50%). This is due to its short half-life (~21 hours) and absence of active metabolites. Symptoms include: dizziness, flu-like symptoms, nausea, headache, paraesthesias (electric shock sensations), insomnia, and vivid dreams. The syndrome typically occurs within 2-4 days of stopping or reducing the dose and can last 1-2 weeks. Fluoxetine has the lowest risk (half-life ~4-6 days, active metabolite norfluoxetine ~7-9 days).",
+      "Manic switch is a risk with all antidepressants in bipolar disorder, not specific to paroxetine or to discontinuation. It is more associated with TCAs and venlafaxine than SSRIs.",
+      "Weight gain and metabolic syndrome are common with paroxetine (more than other SSRIs) but these are treatment-emergent, not discontinuation effects.",
+      "QTc prolongation is associated with citalopram (>40mg), not specifically paroxetine.",
+      "Hepatic failure is not a known side effect of paroxetine."
+    ],
+    "teaching_point": "Antidepressant discontinuation syndrome: Risk is proportional to half-life. Paroxetine (shortest SSRI half-life, no active metabolite) → highest risk. Venlafaxine (short half-life) → also high risk. Fluoxetine (longest half-life, active metabolite) → lowest risk. Sertraline (intermediate). Citalopram/escitalopram (intermediate). Management: (1) gradual taper (reduce by 10mg every 1-2 weeks for paroxetine); (2) if severe, reintroduce the antidepressant and taper more slowly; (3) fluoxetine has lowest risk and can be used as a bridge when switching antidepressants. Key exam distinction: discontinuation syndrome starts quickly (2-4 days), resolves with reintroduction; relapse takes 2+ weeks to develop.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "BNF; Maudsley Prescribing Guidelines; NICE CG90",
+    "tags": [
+      "antidepressant",
+      "discontinuation_syndrome",
+      "paroxetine",
+      "half-life",
+      "SSRI"
+    ]
+  },
+  {
+    "stem": "A 48-year-old man presents with a 4-week history of elevated mood, increased energy, reduced need for sleep (sleeping 3 hours per night but feeling rested), grandiose plans to start multiple businesses, excessive spending, and rapid speech. He has had two previous similar episodes requiring hospital admission. He has no depressive episodes. He is currently not on any medication. His BMI is 32, fasting glucose is 6.8 mmol/L, and his wife reports he drinks heavily when well. What is the most appropriate first-line acute treatment for his current episode?",
+    "options": [
+      " Lithium 800mg daily",
+      " Valproate semisodium 500mg BD",
+      " Olanzapine 10mg daily",
+      " Aripiprazole 15mg daily",
+      " Carbamazepine 400mg BD"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Lithium is effective for acute mania but has a slow onset of action (7-14 days) and requires pre-treatment bloods (U&Es, TFTs, pregnancy test) and monitoring. It is more commonly used as maintenance treatment. In acute mania, an antipsychotic is preferred for rapid symptom control.",
+      "Valproate is effective in acute mania but is now restricted in women of childbearing potential (MHRA 2024 warning). In this 48-year-old man, valproate is an option but not first-line. NICE recommends antipsychotics first for acute mania.",
+      "CORRECT. NICE CG185 recommends offering an antipsychotic (haloperidol, olanzapine, risperidone, quetiapine, aripiprazole) as first-line for acute mania. Olanzapine is a good choice here given rapid onset and evidence in mania (5-10mg daily, can be increased to 20mg). However, given his BMI is already elevated (32) and fasting glucose is impaired (6.8), olanzapine carries metabolic risk. An alternative antipsychotic with lower metabolic risk (e.g., aripiprazole) may be preferable, but olanzapine is the most commonly used first-line.",
+      "Aripiprazole is an effective antipsychotic for acute mania with lower metabolic risk than olanzapine. It would be a reasonable alternative but has a slower onset and can cause akathisia. Given that the question points towards 'most appropriate first-line', olanzapine is the standard answer.",
+      "Carbamazepine is reserved for treatment-resistant cases or specific situations (e.g., rapid cycling). It is not first-line due to tolerability, significant CYP450 induction (drug interactions), and need for monitoring. It also auto-induces its own metabolism."
+    ],
+    "teaching_point": "Acute mania management (NICE CG185): First-line = antipsychotic (haloperidol, olanzapine, risperidone, quetiapine, aripiprazole). If the patient is already on a mood stabiliser, optimise the dose. Consider adding a short-term benzodiazepine (lorazepam) for agitation/insomnia. Lithium and valproate can be added but have slower onset. Key considerations: patient preference, previous response, side-effect profile (metabolic, EPS). Lithium and valproate are first-line for MAINTENANCE but not for acute control. NICE recommends continuing the antipsychotic for 3-6 months after remission.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185: Bipolar disorder (updated); Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar",
+      "mania",
+      "acute_treatment",
+      "antipsychotic",
+      "olanzapine",
+      "NICE_guidelines"
+    ]
+  },
+  {
+    "stem": "A 32-year-old woman with bipolar I disorder has been stable on lithium 800mg daily for 3 years. She presents at 8 weeks pregnant (confirmed by dating scan). She wants to know the safest option for her and the baby regarding mood stabiliser treatment. She has a history of two manic episodes, the last being 15 months ago. What is the most appropriate recommendation?",
+    "options": [
+      " Stop lithium immediately due to teratogenicity",
+      " Continue lithium at current dose with close monitoring",
+      " Switch lithium to valproate semisodium",
+      " Switch lithium to lamotrigine",
+      " Continue lithium at a lower dose with dose adjustment and enhanced monitoring"
+    ],
+    "correct_index": 4,
+    "distractors_rationale": [
+      "Abruptly stopping lithium is dangerous. The risk of relapse in bipolar disorder during pregnancy is very high (especially postpartum). Lithium has been associated with Ebstein's anomaly (absolute risk 1-2/1000 with first-trimester exposure — RR ~3-5), but this risk is lower than previously thought and is dose-dependent. The risk of untreated bipolar relapse often outweighs the risks of lithium.",
+      "Continuing at the same dose is not ideal because physiological changes in pregnancy (increased GFR, expanded plasma volume) affect lithium levels. Lithium levels must be monitored more frequently and the dose may need to be adjusted to maintain therapeutic levels while minimising exposure.",
+      "Valproate is now ABSOLUTELY CONTRAINDICATED in pregnancy due to high teratogenicity (7-10% neural tube defects) and neurodevelopmental effects (30-40% risk of developmental delay, 42% IQ <80). The MHRA has introduced a pregnancy prevention programme for valproate. It must NOT be prescribed to any woman of childbearing potential unless criteria are met.",
+      "Lamotrigine is considered safer in pregnancy (lower teratogenicity ~2-3%) and is a good option for bipolar depression maintenance. However, switching to lamotrigine mid-pregnancy carries risk of destabilisation (washout + titration period). It may not be sufficient for prevention of manic episodes (stronger evidence for bipolar depression maintenance than mania prevention).",
+      "CORRECT. The recommended approach is to continue lithium at the lowest effective dose with dose adjustment as pregnancy progresses. Key steps: (1) discuss risks and benefits; (2) check baseline lithium level, U&Es, TFTs; (3) monitor lithium levels every 4 weeks (then weekly near term); (4) maintain level at lower end of therapeutic range (0.4-0.6 mmol/L); (5) avoid dehydration/hyperemesis; (6) at delivery, reduce dose to pre-pregnancy level and recheck within 1 week; (7) monitor neonate for lithium toxicity (hypotonia, cyanosis, bradycardia). Detailed foetal anomaly scan at 18-20 weeks recommended."
+    ],
+    "teaching_point": "Lithium in pregnancy: The risk of Ebstein's anomaly with first-trimester lithium exposure is lower than previously thought (1-2/1000 vs earlier estimates of 1/20). Current guidelines (NICE CG192, BAP, Maudsley) recommend: (1) discuss risks of untreated bipolar disorder (relapse rate 50-90% if medication stopped) vs small risk of lithium; (2) if lithium is continued, use the lowest effective dose; (3) monitor serum levels 4-weekly; (4) detailed foetal anomaly scan; (5) avoid dehydration, NSAIDs, and diuretics. Valproate is contraindicated. Lamotrigine and some antipsychotics (quetiapine, olanzapine) are alternatives with better pregnancy safety profiles. Postpartum relapse risk is particularly high for bipolar women (30-50% in first 3 months).",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192: Antenatal and postnatal mental health; NICE CG185: Bipolar disorder; Maudsley Prescribing Guidelines 2024; BAP Guidelines",
+    "tags": [
+      "bipolar",
+      "pregnancy",
+      "lithium",
+      "teratogenicity",
+      "perinatal",
+      "mood_stabiliser"
+    ]
+  },
+  {
+    "stem": "A 55-year-old woman with bipolar I disorder presents with a 4-week history of low mood, anhedonia, poor concentration, and feelings of worthlessness. Six weeks ago, she was hospitalised for acute mania which was successfully treated with olanzapine 15mg daily. Her mood stabiliser is lithium (level 0.7 mmol/L, therapeutic). PHQ-9 is 18. She has no psychotic features and is medically well. What is the most appropriate management for her bipolar depression?",
+    "options": [
+      " Increase lithium dose to achieve level 0.8-1.0 mmol/L",
+      " Add sertraline 50mg daily",
+      " Add fluoxetine 20mg daily and continue olanzapine (OFC)",
+      " Add quetiapine 300mg nocte",
+      " Add lamotrigine 25mg daily with slow titration"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Lithine augmentation alone is unlikely to treat an acute bipolar depressive episode. While keeping lithium at the therapeutic range is important for maintenance, the depressive episode requires additional treatment.",
+      "Antidepressant monotherapy in bipolar depression is controversial and generally NOT recommended by NICE. Antidepressants can precipitate manic switching, especially in bipolar I and without mood stabiliser cover. If an antidepressant is used, it must be combined with an antimanic agent (antipsychotic or mood stabiliser). SSRIs alone carry ~15-20% switch risk."
+    ]
+  },
+  {
+    "stem": "A 45-year-old woman with bipolar I disorder develops acute mania. She has a history of lithium-induced nephrogenic diabetes insipidus (NDI). Which mood stabiliser is most appropriate for managing the NDI while continuing an effective antimanic agent?",
+    "options": [
+      " Continue lithium and add amiloride 5mg BD",
+      " Switch lithium to carbamazepine",
+      " Stop lithium and add indapamide",
+      " Continue lithium and add desmopressin",
+      " Stop lithium and start loop diuretic"
+    ],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Lithium-induced NDI occurs in 10-20% of patients. Lithium enters collecting duct cells via ENaC channels and inhibits aquaporin-2 expression. Amiloride blocks ENaC channels and reduces lithium entry, treating NDI while allowing lithium continuation. This is a useful strategy if lithium is otherwise effective.",
+      "Switching to carbamazepine is an option if NDI cannot be managed, but amiloride is first-line for NDI management.",
+      "Indapamide is a thiazide-like diuretic which can worsen NDI and cause electrolyte disturbance. Not appropriate.",
+      "Desmopressin (synthetic ADH) treats the symptom but not the cause. The kidney is ADH-resistant in NDI, so desmopressin will not be effective.",
+      "Loop diuretics can worsen electrolyte disturbance and are not indicated for NDI management."
+    ],
+    "teaching_point": "Lithium-induced NDI: Mechanism: lithium inhibits GSK3-beta, reducing aquaporin-2 expression in collecting ducts. Presents with polydipsia and polyuria. Management: (1) Check lithium level; (2) Amiloride 5-10mg daily; (3) Reduce dose if safe; (4) Ensure hydration; (5) If severe, switch mood stabiliser. NDI is slowly reversible.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; BNF; Grunfeld JP et al. Lithium-induced NDI",
+    "tags": [
+      "lithium",
+      "NDI",
+      "amiloride",
+      "nephrogenic_diabetes_insipidus"
+    ]
+  },
+  {
+    "stem": "A 28-year-old woman with bipolar II disorder is currently euthymic. She has a history of three depressive episodes and two hypomanic episodes over 4 years. She is not pregnant and wishes to conceive next year. She wants to minimise medication in pregnancy. Which mood stabiliser is the safest option for maintenance in someone planning pregnancy?",
+    "options": [
+      " Lithium",
+      " Valproate semisodium",
+      " Lamotrigine",
+      " Carbamazepine",
+      " Quetiapine"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Lithium carries risk of Ebstein anomaly (1-2/1000) and requires careful monitoring. It is not the safest option in pregnancy.",
+      "Valproate is absolutely contraindicated in pregnancy (MHRA pregnancy prevention programme) due to high neural tube defect risk (7-10%) and neurodevelopmental effects (42% IQ <80).",
+      "CORRECT. Lamotrigine is the safest mood stabiliser in pregnancy. The risk of major congenital malformations is approximately 2-3% (similar to background risk of 1-2%). It does not cause neural tube defects (unlike valproate and carbamazepine). Lamotrigine is particularly effective for preventing depressive episodes, which is relevant for bipolar II (where depression dominates). Levels of lamotrigine fall significantly in pregnancy (due to increased clearance) and must be monitored and adjusted. Bipolar II: lamotrigine first-line for maintenance (NICE CG185).",
+      "Carbamazepine carries increased risk of neural tube defects (0.5-1%) and requires folic acid 5mg. It is not the safest option.",
+      "Quetiapine is relatively safe in pregnancy (antipsychotic, not a classical mood stabiliser) but carries metabolic risk. It is effective for both depression and mania but lamotrigine has a better safety profile in pregnancy."
+    ],
+    "teaching_point": "Lamotrigine in pregnancy: (1) Lowest teratogenic risk among mood stabilisers; (2) Levels drop by 50% in pregnancy due to increased glucuronidation — monitor levels and increase dose; (3) Levels rise back postpartum — reduce dose within 48 hours to avoid toxicity; (4) Folic acid 5mg recommended; (5) Neonatal monitoring for withdrawal/toxicity. Valproate is now essentially contraindicated in any woman of childbearing potential without a pregnancy prevention programme. Bipolar II maintenance: NICE recommends lamotrigine as first-line (stronger evidence for depression prophylaxis). Lithium is first-line for bipolar I.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185: Bipolar disorder; NICE CG192: Perinatal mental health; Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar",
+      "lamotrigine",
+      "pregnancy",
+      "safety",
+      "maintenance"
+    ]
+  },
+  {
+    "stem": "A 55-year-old man with bipolar I disorder has been on lithium for 15 years. His latest U&Es show eGFR 48 mL/min/1.73m2 (down from 62 one year ago). His lithium level is 0.6 mmol/L (therapeutic). He has no proteinuria and normal urine output. His blood pressure is 136/84. He is on no nephrotoxic medications. What is the most appropriate management?",
+    "options": [
+      " Stop lithium immediately and switch to valproate",
+      " Reduce lithium dose to achieve level 0.4-0.5 mmol/L and refer to nephrology",
+      " Continue lithium at the same dose as eGFR >30 is acceptable",
+      " Add an ACE inhibitor to reduce proteinuria",
+      " Switch lithium to lamotrigine and start quetiapine"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Stopping lithium abruptly is dangerous (relapse risk) and not indicated unless eGFR <15-20 or rapidly declining despite optimisation.",
+      "CORRECT. Lithium-induced renal impairment: a decline in eGFR >20% from baseline or rate of decline >5 mL/min/year warrants intervention. This patient's eGFR dropped from 62 to 48 in 1 year (decline of 14 — >5/year). Management: (1) Reduce lithium to lowest effective level (0.4-0.5 mmol/L for maintenance); (2) Refer to nephrology for further assessment; (3) Monitor U&Es 3-monthly; (4) Avoid NSAIDs, dehydration, ACE inhibitors; (5) If eGFR continues to decline despite optimisation, consider switching mood stabiliser.",
+      "An eGFR decline to <60 with a significant drop over 1 year requires action. 'eGFR >30 is acceptable' would be under-responding to a significant decline.",
+      "ACE inhibitors are part of general renal protection but carry risk of increasing lithium toxicity (reduce GFR, can increase lithium levels). They should only be prescribed with extreme caution in lithium patients.",
+      "Switching to lamotrigine + quetiapine is premature at this stage. The first step is dose optimisation and nephrology review."
+    ],
+    "teaching_point": "Lithium and renal impairment: Chronic lithium therapy causes tubulointerstitial nephropathy and reduced GFR. Monitoring: U&Es/eGFR every 6 months. Action thresholds: eGFR decline >20% from baseline, or rapid decline >5 mL/min/year, or eGFR <30. Management: (1) Lowers dose level (target 0.4-0.5); (2) Nephrology referral; (3) Avoid NSAIDs; (4) Monitor 3-monthly; (5) If eGFR <30 or continuing decline, consider switching to valproate or lamotrigine. Lithium is NOT nephrotoxic at standard doses in most patients — the risk is chronic. The annual eGFR decline on lithium is approximately 0-2 mL/min/year (vs 0-1 for the general population). Acute kidney injury can occur with toxicity. NICE CG185: monitor U&Es and eGFR every 6 months.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185; Maudsley Prescribing Guidelines; BNF",
+    "tags": [
+      "lithium",
+      "renal",
+      "eGFR",
+      "nephrotoxicity",
+      "monitoring"
+    ]
+  },
+  {
+    "stem": "A 22-year-old woman presents with depressed mood, anhedonia, low energy, and hypersomnia. She reports that her 'limbs feel like lead' and she is highly sensitive to perceived rejection. She has no history of mania or hypomania. Her PHQ-9 is 18. There is a family history of bipolar disorder in her father. Her depression has not responded to sequential trials of sertraline (50mg for 8 weeks) and mirtazapine (30mg for 6 weeks). What is the most appropriate next step?",
+    "options": [
+      " Augment mirtazapine with aripiprazole 2mg",
+      " Switch to venlafaxine 75mg daily",
+      " Start quetiapine 150mg nocte and reassess the possibility of bipolar depression",
+      " Start lamotrigine 25mg daily (slow titration)",
+      " Refer for ECT"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Aripiprazole augmentation is a NICE-recommended strategy for treatment-resistant unipolar depression. However, this patient's clinical features (hypersomnia, leaden paralysis, rejection sensitivity — atypical depression features) and family history of bipolar disorder should raise suspicion for bipolar depression.",
+      "Switching to another antidepressant (SNRI) after two SSRI/NaSSA failures is an option for unipolar TRD, but the clinical picture (atypical features, family history, poor response to antidepressants) should prompt consideration of bipolarity.",
+      "CORRECT. This patient has several 'bipolar flags': (1) Atypical depressive features (hypersomnia, hyperphagia, leaden paralysis, rejection sensitivity); (2) Family history of bipolar disorder; (3) Poor response to two antidepressant monotherapies (antidepressants can be ineffective or destabilising in bipolar depression). Quetiapine is first-line for bipolar depression (NICE CG185) and would be the appropriate choice if bipolar II is suspected. She should be reassessed carefully for hypomanic episodes using collateral history and the HCL-32 or MDQ. Bipolar II is often misdiagnosed as unipolar depression.",
+      "Lamotrigine is for bipolar maintenance (especially depression prophylaxis), not acute treatment. It is too slow (takes 6-8 weeks to reach therapeutic dose) and would not be appropriate as monotherapy for acute depression where bipolar depression is suspected.",
+      "ECT is not indicated at this stage — the patient has moderate depression without psychotic features, catatonia, or acute risk."
+    ],
+    "teaching_point": "Recognising bipolar depression vs unipolar depression: Bipolar depression is more likely if: (1) Atypical features (hypersomnia, hyperphagia, leaden paralysis); (2) Early onset (<25 years); (3) Postpartum depression; (4) Antidepressant-induced mania/hypomania; (5) Poor response to antidepressant monotherapy; (6) Family history of bipolar disorder; (7) Cyclothymic temperament; (8) More frequent episodes. The HCL-32 (Hypomania Checklist) and MDQ (Mood Disorder Questionnaire) are screening tools. Treatment: first-line = quetiapine; alternatives = olanzapine, lamotrigine (maintenance). Antidepressants should only be used with mood stabiliser cover.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG185; DSM-5-TR; HCL-32 screening tool",
+    "tags": [
+      "bipolar_depression",
+      "misdiagnosis",
+      "atypical_depression",
+      "bipolar_II",
+      "quetiapine"
+    ]
+  },
+  {
+    "stem": "A 32-year-old woman with bipolar I disorder presents with her third manic episode in 2 years. She is currently on lithium (level 0.5 mmol/L) and takes it erratically. She finds the side effects of lithium unpleasant (tremor, polydipsia) and is not motivated to improve adherence. Her BMI is 28. She is not pregnant. What is the most appropriate maintenance strategy?",
+    "options": [
+      " Increase lithium dose and counsel about adherence",
+      " Switch to valproate monotherapy",
+      " Switch to a long-acting injectable antipsychotic (aripiprazole LAI)",
+      " Switch to lamotrigine monotherapy",
+      " Continue lithium and add quetiapine 150mg nocte augmentation"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Further increasing lithium dose is unlikely to help if the patient is poorly adherent due to side effects. A different approach is needed.",
+      "Valproate is effective for maintenance, especially in women with poor adherence, but is now strictly restricted in women of childbearing potential due to MHRA warnings. At 32, she is in this age group. Valproate requires adherence counselling and a pregnancy prevention programme. It also carries weight gain risk (her BMI is 28).",
+      "CORRECT. This patient is a good candidate for a LAI antipsychotic because: (1) She has recurrent manic episodes despite lithium — she may benefit from a different maintenance strategy; (2) She is poorly adherent with oral medication — LAI ensures consistent delivery; (3) Aripiprazole LAI has a low metabolic side effect profile (important given BMI 28) and is weight-neutral; (4) It is licensed for maintenance in bipolar I. Aripiprazole LAI 400mg monthly is effective for preventing manic relapse. NICE CG185 recommends LAIs for maintenance when adherence is a concern. Other options: olanzapine LAI, risperidone LAI (but prolactin risk) or paliperidone LAI.",
+      "Lamotrigine monotherapy is not recommended for maintenance in bipolar I (evidence stronger for depression than mania prevention). It also requires slow titration.",
+      "Lithium + quetiapine augmentation is a valid option, but if adherence is the core issue (she takes lithium erratically), adding another oral medication won't address it. A depot/LAI addresses adherence directly."
+    ],
+    "teaching_point": "LAIs in bipolar disorder: Indications: (1) Poor adherence with oral medication; (2) Patient preference (convenience); (3) Chronic recurrent illness. LAI options for bipolar: aripiprazole LAI (monthly — best metabolic profile, prevents mania), olanzapine LAI (PDSS risk, metabolic concerns), risperidone LAI (prolactin elevation, weight gain). NICE advises: 'Consider a depot/LAI antipsychotic for people with bipolar disorder who would prefer it, or for those who have poor adherence with oral medication and have relapsed as a result.' Valproate restrictions: in women of childbearing potential, must have a pregnancy prevention programme. The patient is 32 and not pregnant but still within childbearing age.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185: Bipolar disorder; Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar",
+      "LAI",
+      "adherence",
+      "maintenance",
+      "aripiprazole"
+    ]
+  },
+  {
+    "stem": "A 48-year-old woman with bipolar I disorder presents with a mixed affective episode — she is depressed, tearful, and hopeless but also irritable, easily distracted, and full of energy. She has had poor sleep for 4-5 days. She is not currently on medication. What is the most appropriate first-line pharmacological treatment?",
+    "options": [
+      " Sertraline 50mg daily to target depressive symptoms",
+      " Lithium 800mg daily alone",
+      " Valproate alone",
+      " Olanzapine 10mg daily",
+      " Lamotrigine 200mg daily"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Antidepressants in mixed affective states are generally not recommended by NICE. They can worsen the manic component of the mixed episode and carry risk of accelerating cycling or inducing mania.",
+      "Lithium has evidence in acute mania but has a slow onset (7-14 days) and requires pre-treatment bloods. In acute mixed episodes, first-line is an antipsychotic.",
+      "Valproate is effective in mixed episodes (has some evidence for mixed states) but is not first-line in NICE CG185. An antipsychotic is preferred.",
+      "CORRECT. NICE CG185 recommends an antipsychotic (olanzapine, risperidone, quetiapine, haloperidol, aripiprazole) as first-line for acute mixed episodes. Olanzapine 5-10mg has evidence for mixed episodes (both manic and depressive symptoms). When the patient stabilises, consider starting a mood stabiliser (lithium or valproate) for maintenance. Olanzapine is rapidly effective (within 2-4 days) for manic symptoms and has some effect on depressive symptoms in mixed states.",
+      "Lamotrigine is not effective for acute mixed episodes. It is a MAINTENANCE treatment for bipolar depression prophylaxis. It is too slow (6-8 weeks titration) for acute treatment."
+    ],
+    "teaching_point": "Mixed affective episode: Defined in DSM-5-TR as a manic episode with at least 3 depressive symptoms (dysphoric mania) OR a depressive episode with at least 3 manic symptoms (mixed episode). ICD-11 also recognises mixed episodes. Key management principles: (1) Antipsychotics first-line (olanzapine, quetiapine, risperidone); (2) Avoid antidepressants (can worsen the episode); (3) After stabilisation, consider mood stabiliser for maintenance; (4) Valproate has some evidence for mixed states; (5) Lithium is effective but slower. Differential: rapid cycling (4+ episodes/yr, each discrete), mixed episode (simultaneous manic and depressive symptoms). Mixed episodes are associated with higher suicide risk and poorer treatment response.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185; DSM-5-TR; Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar",
+      "mixed_episode",
+      "olanzapine",
+      "antipsychotic",
+      "treatment"
+    ]
+  },
+  {
+    "stem": "A 40-year-old man with bipolar I disorder and mild learning disability is being started on lithium for maintenance. He lives in supported accommodation. He is on no other medication. What is the most important lithium monitoring requirement before starting?",
+    "options": [
+      " ECG",
+      " U&Es, TFTs, serum calcium, pregnancy test, and weight",
+      " FBC and LFTs",
+      " Chest X-ray",
+      " Lithium levels only"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "ECG is recommended before starting lithium if the patient has cardiac risk factors or is >50 years, but is not mandatory for all.",
+      "CORRECT. NICE CG185 and the BNF require BEFORE starting lithium: (1) U&Es (to ensure normal renal function); (2) TFTs (thyroid abnormalities common with lithium); (3) Serum calcium (lithium can cause hyperparathyroidism); (4) Pregnancy test for women of childbearing potential; (5) Weight/BMI (baseline for metabolic monitoring). THEN check lithium level 5-7 days after each dose change until therapeutic. Then lithium levels every 3 months, and U&Es/TFTs/Ca every 6 months. In this patient with learning disability, it is particularly important to have a clear monitoring plan and involve carers/support workers.",
+      "FBC and LFTs are not a standard requirement for lithium initiation but may be checked as part of routine health screening.",
+      "Chest X-ray is not required for lithium.",
+      "Only checking lithium levels is insufficient — baseline renal and thyroid function are essential to establish a reference point before starting."
+    ],
+    "teaching_point": "Lithium pre-treatment checks — must-do: (1) U&Es and eGFR (baseline renal function); (2) TFTs (TSH, fT4); (3) Serum calcium (lithium can cause hyperparathyroidism); (4) Weight and BMI; (5) Pregnancy test (if applicable); (6) ECG (if >50 or cardiovascular risk). Ongoing monitoring: lithium level every 3 months (12-hour post-dose trough). U&Es, TFTs, Ca every 6 months. Weight, BMI, HbA1c, lipids annually. Lithium interacts with: NSAIDs (increase levels), thiazide diuretics (increase levels), ACE inhibitors (increase levels), metronidazole (increase levels). Lithium level targets: acute mania 0.6-1.0, maintenance 0.4-0.8. Elderly: 0.4-0.6.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "BNF; NICE CG185; Maudsley Prescribing Guidelines",
+    "tags": [
+      "lithium",
+      "pre_treatment",
+      "monitoring",
+      "U&Es",
+      "TFTs"
+    ]
+  },
+  {
+    "stem": "A 35-year-old woman with bipolar I disorder is euthymic on quetiapine 300mg nocte. She has a history of two manic episodes and one depressive episode. She wants to discuss long-term treatment. She is concerned about weight gain (5kg over 1 year) and sedation. Her BMI is 27. What is the most appropriate maintenance strategy according to NICE?",
+    "options": [
+      " Continue quetiapine as it is effective for both mania and depression",
+      " Switch to lithium as first-line maintenance and offer lifestyle advice for weight",
+      " Add lamotrigine to allow quetiapine dose reduction",
+      " Switch to valproate semisodium",
+      " Taper and stop quetiapine after 2 years of stability"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "While quetiapine is effective for bipolar maintenance, it is not first-line maintenance. NICE recommends lithium as first-line maintenance for bipolar I. If there are tolerability issues (weight gain, sedation), a switch to first-line treatment should be discussed.",
+      "CORRECT. NICE CG185 recommends: 'Offer lithium as first-line maintenance treatment for bipolar disorder.' Lithium has the strongest evidence for preventing both manic and depressive relapses and is the only medication with proven suicide prevention effect. For patients concerned about weight gain and sedation (common with quetiapine), switching to lithium is appropriate. Lithium is weight-neutral and does not cause sedation. Lifestyle advice for weight should accompany any medication changes.",
+      "Adding lamotrigine to quetiapine is a valid augmentation strategy, but if the patient is having significant tolerability issues with quetiapine, switching to a simpler first-line option (lithium) is preferable to polypharmacy.",
+      "Valproate is not first-line for maintenance (lithium is). In a woman of childbearing potential (35 years), valproate is now strictly restricted (MHRA pregnancy prevention programme). It also carries weight gain risk similar to quetiapine.",
+      "NICE recommends at least 2-5 years of maintenance after a manic episode (often lifelong). Given she has had 2 manic + 1 depressive episode, long-term treatment is indicated."
+    ],
+    "teaching_point": "Maintenance treatment for bipolar I: First-line: lithium (strongest evidence for mania and depression prevention + suicide reduction). Alternatives if lithium is not tolerated or ineffective: (1) Valproate (but restricted in women of childbearing potential); (2) Olanzapine (metabolic risk); (3) Quetiapine (sedation, metabolic); (4) Aripiprazole LAI; (5) Lamotrigine (adjunctive, especially for depression prevention). Duration: at least 2-5 years after a manic episode, often lifelong. NICE: 'Continue maintenance treatment for at least 2 years after a manic episode and for longer if there are risk factors for relapse (e.g., frequent episodes, severe episodes, poor insight, substance misuse).' Lithium monitoring must continue for the duration of treatment.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185; BNF; Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar",
+      "maintenance",
+      "lithium",
+      "first-line",
+      "NICE_guidelines"
+    ]
+  },
+  {
+    "stem": "A 30-year-old man with bipolar I disorder is admitted to a psychiatric unit with acute mania for the third time in 18 months. He was previously on lithium 800mg (level 0.6 mmol/L) but discontinued it 6 months ago due to 'feeling fine'. He is now agitated, grandiose, and refusing all oral medication. His ECG shows QTc 460ms. Observations: BP 138/86, HR 105, Temp 36.8°C. What is the most appropriate immediate treatment?",
+    "options": [
+      " Olanzapine 10mg IM",
+      " Haloperidol 5mg IM plus lorazepam 2mg IM",
+      " Haloperidol 10mg IM (higher dose for rapid effect)",
+      " Aripiprazole 15mg orally",
+      " Quetiapine 200mg orally"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "IM olanzapine is effective but carries risk of post-injection syndrome and excessive sedation. Also, the QTc of 460ms warrants caution — olanzapine is relatively QTc-neutral. The combination of haloperidol + lorazepam is the standard first-line for rapid tranquillisation.",
+      "CORRECT. For rapid tranquillisation of an agitated/aggressive patient with acute mania, NICE recommends IM haloperidol (5mg) plus IM lorazepam (2mg). This is the most studied and recommended combination. Haloperidol is a high-potency antipsychotic with rapid onset by IM route. Lorazepam adds sedation and reduces the antipsychotic dose needed. QTc 460ms is borderline but acceptable for haloperidol IM (caution at higher doses).",
+      "Haloperidol 10mg is a higher dose which may increase EPS and QTc risk unnecessarily. The recommended dose is 5mg, with 2mg lorazepam.",
+      "Aripiprazole orally is not appropriate — the patient is refusing oral medication and needs rapid, reliable administration.",
+      "Quetiapine orally is not appropriate for the same reason. It also has a slower onset than haloperidol IM."
+    ],
+    "teaching_point": "Rapid tranquillisation in acute mania: First-line IM: haloperidol 5mg + lorazepam 2mg IM (NICE CG10, NICE CG185). Alternative if QTc is borderline or prolonged: consider IM lorazepam alone and IM antipsychotic with caution. Rapid tranquillisation guidelines: (1) De-escalation first; (2) Offer oral medication if possible; (3) If refused, IM haloperidol + lorazepam; (4) Monitor QTc before repeat doses; (5) Avoid IM clozapine + IM benzodiazepine (respiratory depression risk). After the acute episode, discuss maintenance treatment. NICE: patients with 2+ manic episodes in 12 months should be offered lithium maintenance.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG10: Violence and aggression; NICE CG185: Bipolar disorder; Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar",
+      "mania",
+      "rapid_tranquillisation",
+      "haloperidol",
+      "lorazepam",
+      "QTc"
+    ]
+  },
+  {
+    "stem": "A 41-year-old man with treatment-resistant depression (failed 3 antidepressants) and no history of mania/hypomania is referred for a second opinion. On careful chart review and collateral from his wife, he has had three episodes lasting 2-3 days of elevated mood, grandiosity, reduced need for sleep, and increased goal-directed activity. These were not impairing. His depressive episodes are severe and frequent. What is the most likely diagnosis and treatment?",
+    "options": [
+      " Unipolar depression with cyclothymic temperament — continue antidepressant treatment",
+      " Bipolar II disorder — start quetiapine 150-300mg nocte and taper antidepressants",
+      " Bipolar I disorder — start lithium",
+      " Schizoaffective disorder — start olanzapine",
+      " Cyclothymia — start lamotrigine"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "This patient has hypomanic episodes (clear discrete episodes with elevated mood, grandiosity, reduced need for sleep) — this rules out unipolar depression. Bipolar II is defined by hypomania + major depression. The 2-3 day episodes are borderline brief (<4 days required by DSM-5-TR), but ICD-11 is more flexible. Clinically, if they are clearly hypomanic in phenotype, bipolar II is the working diagnosis.",
+      "CORRECT. Bipolar II disorder: one or more hypomanic episodes + at least one major depressive episode. No history of mania. This patient meets criteria. Treatment: quetiapine first-line (NICE CG185). Antidepressants should be tapered (they may worsen cycling in bipolar II). He failed 3 antidepressant trials — this should have prompted screening for bipolarity earlier. HCL-32 and MDQ screening are crucial in TRD.",
+      "Bipolar I requires a full manic episode (≥1 week, or less if hospitalised, with marked functional impairment or psychotic features). This patient has never been manic — only hypomanic.",
+      "Schizoaffective disorder requires psychotic symptoms in the absence of mood episodes. This patient's elevated mood and depression are mood episodes without psychosis.",
+      "Cyclothymia requires chronic fluctuating mood disturbance without discrete episodes meeting hypomania or major depression criteria. This patient has clear depressive episodes meeting criteria."
+    ],
+    "teaching_point": "Bipolar II is a critical diagnosis to catch in TRD. Prevalence: 10-20% of TRD patients have unrecognised bipolar II. Screening tools: HCL-32 >14, MDQ >7. Key clinical features: (1) Early onset <25; (2) Atypical depression (hypersomnia, hyperphagia, leaden paralysis, rejection sensitivity); (3) Postpartum depression; (4) Antidepressant 'poop-out' (loss of efficacy); (5) Antidepressant-induced switching/cycling; (6) Family history of bipolar; (7) 3+ antidepressant failures. Treatment: quetiapine first-line for bipolar depression (NICE). Alternative: lamotrigine for prophylaxis, olanzapine for acute depression. NEVER use antidepressant monotherapy in bipolar II.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG185; DSM-5-TR; Maudsley Prescribing Guidelines",
+    "tags": [
+      "bipolar_II",
+      "treatment_resistant_depression",
+      "missed_diagnosis",
+      "quetiapine"
+    ]
+  },
+  {
+    "stem": "A 44-year-old man with bipolar I disorder has been stable on lithium 800mg (level 0.6) and aripiprazole 15mg daily for 2 years. He develops new-onset hypertension (BP 152/94) and his GP wants to start an antihypertensive. Which antihypertensive is safest to use with lithium?",
+    "options": [
+      " Hydrochlorothiazide",
+      " Lisinopril (ACE inhibitor)",
+      " Amlodipine (calcium channel blocker)",
+      " Losartan (angiotensin receptor blocker)",
+      " Bendroflumethiazide"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Thiazide diuretics (hydrochlorothiazide, bendroflumethiazide) reduce renal clearance of lithium by increasing proximal tubular reabsorption, potentially causing lithium toxicity. They should be avoided or used with extreme caution.",
+      "ACE inhibitors (lisinopril, enalapril, ramipril) reduce GFR and can cause lithium retention and toxicity. They should be avoided if possible.",
+      "CORRECT. Amlodipine (calcium channel blocker) has no significant interaction with lithium. It does not affect renal function or lithium clearance. It is the safest antihypertensive to use with lithium. Other safe options: beta-blockers (e.g., bisoprolol) and potassium-sparing diuretics (e.g., amiloride — which treats lithium-induced NDI).",
+      "ARBs (losartan, candesartan) act on the renin-angiotensin system, similar to ACE inhibitors, and can reduce GFR. They carry a similar risk of lithium elevation, though the interaction is less well-studied than for ACE inhibitors. Best avoided.",
+      "See A — bendroflumethiazide is a thiazide diuretic with significant interaction."
+    ],
+    "teaching_point": "Lithium and antihypertensives: AVOID: thiazide diuretics (lithium toxicity by increased reabsorption), ACE inhibitors (lithium toxicity by reduced GFR). USE WITH CAUTION: ARBs (similar mechanism to ACE inhibitors but less significant — still monitor lithium levels). SAFE: Calcium channel blockers (amlodipine, nifedipine, verapamil/diltiazem — note verapamil may have mood effects), beta-blockers (bisoprolol, propranolol), potassium-sparing diuretics (amiloride — beneficial for NDI). SAFEST: Amlodipine. Any new antihypertensive requires lithium level monitoring within 1 week of starting and every 3 months thereafter.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BNF; Maudsley Prescribing Guidelines",
+    "tags": [
+      "lithium",
+      "drug_interactions",
+      "hypertension",
+      "amlodipine",
+      "antihypertensive"
+    ]
+  },
+  {
+    "stem": "A 29-year-old woman with bipolar I disorder is 6 weeks postpartum. She was stable on quetiapine 300mg throughout pregnancy. She presents with a 3-day history of rapidly worsening confusion, agitation, bizarre behaviour, and auditory hallucinations. She has slept very little in 72 hours and is refusing food. Temperature 37.6°C, HR 112, BP 138/88. She is breastfeeding. What is the most likely diagnosis and best management?",
+    "options": [
+      " Postpartum depression with psychosis — admit to mother and baby unit, increase quetiapine to 600mg, consider ECT",
+      " Puerperal psychosis — admit to mother and baby unit, start antipsychotic (olanzapine or haloperidol), assess for lithium or ECT",
+      " Postpartum anxiety with insomnia — benzodiazepine and outpatient follow-up",
+      " Delirium due to infection — medical admission for investigations",
+      " Postpartum blues — reassurance and support"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Postpartum depression with psychosis is a recognised entity but is usually described as part of the puerperal psychosis spectrum. The rapid onset (hours to days), confusion, bizarre behaviour, and sleep loss are classic for puerperal psychosis.",
+      "CORRECT. Puerperal (postpartum) psychosis is a psychiatric emergency with onset typically within the first 2 weeks (but can occur up to 12 weeks). Features: rapid onset of psychotic symptoms, mood lability (usually manic or mixed), confusion, disorganised behaviour, sleep loss. Incidence: 1-2/1000 deliveries. Risk: 50% in bipolar women (if history of postpartum psychosis, risk 50-90%). Management: (1) URGENT admission to a specialist mother and baby unit (MBU); (2) Antipsychotic (olanzapine, haloperidol) — quetiapine dose can be increased; (3) Consider lithium augmentation (can be used in breastfeeding with monitoring); (4) ECT if severe/refractory; (5) Risk assessment (infanticide risk — 5% of cases involve infanticide, usually in the context of psychosis); (6) Assess breastfeeding — most antipsychotics at low levels in breastmilk; benefits usually outweigh risks.",
+      "The patient has psychotic symptoms — this is not anxiety/insomnia.",
+      "Delirium is in the differential but less likely given the history of bipolar and the classic presentation of puerperal psychosis. The absence of a clear medical cause (no fever, no medications known to cause delirium) makes puerperal psychosis more likely.",
+      "Postpartum blues affects 50-90% of women, peaks at day 3-5, resolves spontaneously within 2 weeks. It does NOT involve psychotic symptoms or such significant functional impairment."
+    ],
+    "teaching_point": "Puerperal psychosis: HIGH-YIELD MRCPsych topic. Key facts: (1) Incidence 1-2/1000; (2) Onset 2-14 days postpartum (can be up to 12 weeks); (3) Risk factors: bipolar disorder (50% risk), previous puerperal psychosis (50-90% risk), family history of puerperal psychosis, primiparity, mode of delivery (Caesarean); (4) Features: mood symptoms (usually manic or mixed), psychotic symptoms (paranoid, grandiose, sometimes bizarre), confusion, disorganised behaviour, rapid onset; (5) Treatment: MBU admission, antipsychotics, lithium, ECT; (6) Prognosis: good — 90% recover fully; (7) Recurrence risk: 50% in subsequent pregnancies; (8) Infanticide risk: ~5% (usually via extended suicide). The Mental Health Act may be needed if the patient lacks capacity.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192: Antenatal and postnatal mental health; NICE CG185; Maudsley Prescribing Guidelines",
+    "tags": [
+      "puerperal_psychosis",
+      "postpartum",
+      "bipolar",
+      "MBU",
+      "infanticide",
+      "perinatal"
+    ]
+  },
+  {
+    "stem": "A 25-year-old man with bipolar I disorder presents with severe depression (PHQ-9 23) with psychotic features (nihilistic delusions, guilt). He has not responded to quetiapine 300mg nocte for 8 weeks. He refused augmentation with an antidepressant. His BMI is 22 and he has no medical problems. What is the most appropriate next step?",
+    "options": [
+      " Add lamotrigine 25mg daily with slow titration",
+      " Increase quetiapine to 600mg nocte",
+      " Start olanzapine 10mg daily plus fluoxetine 20mg (OFC)",
+      " ECT",
+      " Start lithium augmentation 400mg BD"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Lamotrigine is for maintenance prophylaxis, not acute bipolar depression (especially with psychosis). It is too slow to titrate.",
+      "Increasing quetiapine is an option but only up to 400mg for bipolar depression. At 600mg, the evidence is for mania, not depression. The presence of psychotic features and severe functional impairment (PHQ-9 23) warrants a more urgent intervention.",
+      "OFC (olanzapine-fluoxetine combination) is an option for bipolar depression, but this patient has psychotic depression with severe symptoms. ECT has the highest evidence for psychotic depression (80-90% response). OFC would be slower.",
+      "CORRECT. ECT is first-line for severe depression with psychotic features (delusional depression) that has not responded to medication. In bipolar depression specifically, ECT is indicated when: (1) there is a high suicide risk; (2) psychotic features are present; (3) catatonia is present; (4) treatment resistance is evident (failed quetiapine, refused antidepressant augmentation). ECT has a response rate of 80-90% in psychotic depression. It is safe in bipolar disorder. The patient will need concurrent medication for maintenance after ECT.",
+      "Lithium augmentation is an option for bipolar depression but is slower (2-4 weeks to reach therapeutic levels) and less effective than ECT in psychotic depression."
+    ],
+    "teaching_point": "ECT in bipolar depression: Indications: (1) Severe depression with psychotic features; (2) Treatment-resistant depression; (3) High suicide risk; (4) Catatonia; (5) Rapid response needed (e.g., poor food/fluid intake). ECT works faster than medication (usually within 2-4 sessions). In bipolar depression, ECT is effective for both mood and psychotic symptoms. Maintenance ECT can be considered for recurrent episodes. Cognitive side effects: anterograde amnesia (transient), retrograde amnesia (may persist). Right unilateral ECT has fewer cognitive side effects than bitemporal but is less effective. NICE TA136: ECT is recommended for severe depression, catatonia, and prolonged/severe mania.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE TA136: ECT; NICE CG185; NICE CG90",
+    "tags": [
+      "ECT",
+      "bipolar",
+      "psychotic_depression",
+      "treatment_resistance",
+      "delusional_depression"
+    ]
+  },
+  {
+    "stem": "A 38-year-old man with bipolar I disorder is on maintenance lithium (level 0.6 mmol/L). He wishes to start a weight-training programme and asks about creatine supplementation. What is the most appropriate advice?",
+    "options": [
+      " Creatine is safe and may help with antidepressant augmentation",
+      " Creatine can increase the risk of lithium toxicity through dehydration and reduced GFR — advise against it",
+      " Creatine is fine as long as he stays hydrated",
+      " Creatine does not interact with lithium at all",
+      " Creatine should be taken with NSAIDs to maximise absorption"
+    ],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Creatine does not have evidence for antidepressant augmentation, and there are safety concerns with lithium.",
+      "CORRECT. Creatine supplementation can cause: (1) Dehydration (creatine pulls water into muscles); (2) Increased creatinine (false reading — does not directly affect lithium clearance but reduced hydration can reduce GFR); (3) Potential renal stress in combination with lithium (both can affect renal function). The combination is not absolutely contraindicated but requires precautions: maintain excellent hydration, monitor U&Es/lithium levels closely, avoid over-supplementation. The safest advice is to avoid it on lithium.",
+      "Even with adequate hydration, creatine can cause renal stress and should be used with caution on lithium.",
+      "There is a potential interaction via hydration status.",
+      "NSAIDs should never be taken with lithium (they reduce lithium clearance and can cause acute toxicity)."
+    ],
+    "teaching_point": "Exercise and lithium: Strenuous exercise can cause dehydration and electrolyte disturbance, potentially affecting lithium levels. Patients on lithium should: (1) Maintain adequate hydration (especially during exercise); (2) Be aware of signs of lithium toxicity (nausea, tremor, ataxia); (3) Avoid supplements that may affect renal function or hydration; (4) Monitor weight and metabolic health (exercise is beneficial). Creatine specifically: draws water into muscle cells, increasing fluid requirements. On lithium, this creates a risk of relative dehydration and reduced GFR → increased lithium levels. If the patient chooses to use creatine: strict hydration, monitor U&Es and lithium levels 2 weeks after starting.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; BNF",
+    "tags": [
+      "lithium",
+      "creatine",
+      "exercise",
+      "dehydration",
+      "safety"
+    ]
+  },
+  {
+    "stem": "A 60-year-old man with bipolar I disorder presents with acute mania. He has a history of myocardial infarction 6 months ago, is on bisoprolol 5mg, atorvastatin 40mg, and aspirin 75mg. His ECG shows sinus rhythm with QTc 465ms. What is the most appropriate antimanic agent?",
+    "options": [
+      " Haloperidol 5mg IM",
+      " Lithium 800mg daily",
+      " Valproate semisodium 500mg BD",
+      " Olanzapine 5mg daily",
+      " Carbamazepine 400mg BD"
+    ],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Haloperidol carries significant QTc prolongation risk (especially in elderly/those with cardiac history). QTc of 465ms is borderline — haloperidol could worsen this. Also carries EPS risk in an elderly patient.",
+      "Lithium has a slow onset (7-14 days) and requires pre-treatment bloods (U&Es, TFTs). It is not ideal for acute management and carries cardiac risks (lithium can cause T-wave changes and rarely arrhythmias). The patient is on aspirin and atorvastatin — no direct interaction but lithium levels need monitoring.",
+      "Valproate is effective for acute mania, but carries weight gain and metabolic risk. It also causes thrombocytopenia (potential issue with aspirin). It is an option but not the safest given his QTc and metabolic profile.",
+      "CORRECT. Olanzapine is the best choice here because: (1) It has minimal QTc prolongation (safe with his prolonged QTc); (2) Effective for acute mania with rapid onset (2-4 days); (3) No significant interaction with cardiac medications; (4) Can be given IM if needed; (5) Safe post-MI (no negative inotropic effects, no significant QTc effect). The metabolic effects of olanzapine are a concern (weight, lipids) but for acute management in a patient with cardiac disease, QTc safety outweighs this. Metabolic monitoring should continue long-term.",
+      "Carbamazepine has significant CYP450 induction (interacts with atorvastatin, bisoprolol), carries blood dyscrasias risk, and is not first-line. It also has QTc effects."
+    ],
+    "teaching_point": "Antimanic choice in cardiac patients: Olanzapine is the safest in terms of QTc profile and cardiac safety. Risperidone is also relatively QTc-safe but has prolactin risk. Quetiapine has moderate QTc effect. Haloperidol has the highest QTc risk (especially IM). Lithium is effective for maintenance but slow for acute; can cause ECG changes (T-wave inversion, U waves). Valproate is an option but carries metabolic risk. Carbamazepine has significant drug interactions (CYP induction). Key principle: in patients with pre-existing QTc prolongation or cardiac disease, choose an antipsychotic with minimal QTc effect (olanzapine, aripiprazole). Monitor ECG regularly.",
+    "domain": "general_adult",
+    "subdomain": "bipolar",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; BNF; NICE CG185",
+    "tags": [
+      "bipolar",
+      "mania",
+      "cardiac",
+      "olanzapine",
+      "QTc",
+      "MI"
+    ]
+  },
+  {
+    "stem": "A 22-year-old university student presents to student health with low mood, anhedonia, poor concentration, and difficulty falling asleep (initial insomnia) for 4 weeks. She also reports periods of feeling 'empty' and intense anger triggered by perceived rejection from her boyfriend. She has used alcohol and cannabis to cope. She has a history of self-harm (cutting) at age 16-17. She describes chronic feelings of emptiness and unclear self-image. PHQ-9 is 15. What is the most likely diagnosis?",
+    "options": [
+      " Major depressive disorder",
+      " Bipolar II disorder, current episode depressed",
+      " Borderline personality disorder with comorbid depression",
+      " Cyclothymia with cannabis misuse",
+      " Adjustment disorder"
+    ],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "While she has depressive symptoms (meeting criteria for MDD), the additional features (chronic emptiness, identity disturbance, intense anger at rejection, history of self-harm, mood instability triggered by interpersonal stress) suggest the depression is occurring in the context of BPD. The core issue is BPD, not unipolar depression.",
+      "There is no history of discrete hypomanic episodes. The mood swings in BPD are triggered by interpersonal stress, not spontaneous hypomania. The chronic emptiness and identity disturbance are not features of bipolar II.",
+      "CORRECT. This patient meets DSM-5-TR criteria for borderline personality disorder with a comorbid depressive episode. BPD features: (1) Chronic emptiness; (2) Identity disturbance; (3) Affective instability due to reactivity of mood; (4) Intense anger/difficulty controlling anger; (5) Transient stress-related paranoia or dissociation; (6) History of self-harm; (7) Frantic efforts to avoid abandonment. The depressive episode should be treated according to NICE guidelines — but with caution: antidepressants in BPD have limited evidence and NICE does not recommend them for BPD per se.",
+      "Cyclothymia requires chronic hypomanic and depressive symptoms that do not meet full episode criteria. This patient has BPD symptoms (identity disturbance, chronic emptiness, self-harm history) that are not explained by cyclothymia.",
+      "Adjustment disorder requires a clear stressor within the previous 3 months. The symptoms here are more chronic and pervasive, consistent with a personality disorder."
+    ],
+    "teaching_point": "BPD vs bipolar II vs depression — a common MRCPsych differential: BPD key features: (1) Affective instability is brief (hours to days), triggered by interpersonal stress; (2) Chronic emptiness vs episodic low mood; (3) Identity disturbance, chronic; (4) Self-harm is often for emotional regulation. Bipolar II: (1) Episodic hypomania (≥4 days); (2) Episodic depression; (3) Mood episodes are spontaneous; (4) Self-harm less common. NICE CG78 for BPD: 'Do not use drug treatment specifically for BPD or for individual symptoms or behaviour associated with BPD.' Antidepressants should not be used first-line for depression in BPD unless there is a clear major depressive episode of significant duration and severity.",
+    "domain": "general_adult",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG78: Borderline personality disorder; NICE CG90; DSM-5-TR",
+    "tags": [
+      "borderline_personality_disorder",
+      "depression",
+      "differential_diagnosis",
+      "self-harm",
+      "identity_disturbance"
+    ]
+  }
+]

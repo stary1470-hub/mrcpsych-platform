@@ -1,0 +1,142 @@
+[
+  {
+    "stem": "A 36-year-old man with opioid dependence is being started on methadone maintenance. He reports using 1g of street heroin daily for the past 5 years, injected intravenously. Urine drug screen is positive for opiates. He has no other substance use, no medical comorbidities, and his ECG shows QTc 435ms. What is the CORRECT starting dose range for methadone?",
+    "options": [" 5-10mg daily", " 10-30mg daily", " 60-80mg daily", " 100-120mg daily", " 150mg daily"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "5-10mg is too low for a daily 1g heroin habit — this would precipitate withdrawal and lead to early treatment dropout.",
+      "CORRECT. NICE CG52 and the BNF recommend starting methadone at 10-30mg daily, depending on the level of tolerance. For a 1g/day heroin habit, a starting dose of 20-30mg is appropriate. The critical principle: START LOW, GO SLOW. Methadone has a long half-life (24-36 hours) and accumulates over the first 3-5 days of treatment. Over-titrating in the first few days can lead to ACCUMULATIVE TOXICITY (respiratory depression, overdose). The dose is titrated by 5-10mg every 2-3 days based on withdrawal symptoms (monitored by the Short Opioid Withdrawal Scale — SOWS or COWS). The average maintenance dose is 60-120mg daily. Higher doses are associated with BETTER RETENTION in treatment and LOWER illicit heroin use. ECG monitoring: required at baseline and annually (methadone prolongs QTc in a dose-dependent manner). A QTc of 435ms is normal.",
+      "60-80mg would be a typical MAINTENANCE dose after 1-2 weeks of titration, NOT a starting dose. Starting at this level without gradual titration carries a high risk of respiratory depression, especially on day 3-5 when the drug has accumulated.",
+      "100-120mg is a high maintenance dose, not a starting dose.",
+      "150mg is excessive as a starting dose and would be extremely dangerous — high risk of fatal overdose."
+    ],
+    "teaching_point": "Methadone prescribing — classic MRCPsych exam scenario: (1) INITIATION: start 10-30mg daily (depending on tolerance). Maximum initial dose: 30mg. Do NOT start >30mg without specialist review. (2) TITRATION: increase by 5-10mg every 2-3 days (not daily — accumulation risk). (3) MONITORING: withdrawal symptoms (SOWS/COWS), QTc (ECG at baseline + annually; consider switch to buprenorphine if QTc >450ms), respiratory rate, sedation, concurrent use of alcohol/benzodiazepines (risk of fatal overdose). (4) INTERACTIONS: CNS depressants (alcohol, benzodiazepines, gabapentinoids — additive respiratory depression), CYP450 inducers (rifampicin, carbamazepine — methadone levels), CYP450 inhibitors (fluconazole, erythromycin). Methadone is a FULL mu-opioid agonist. Buprenorphine (partial mu-agonist) has a lower overdose risk and causes less QTc prolongation but can precipitate withdrawal if started too soon after heroin use (must wait until moderate withdrawal — typically 12-24 hours after last heroin use). The 'LAME' mnemonic for methadone: Long half-life, Accumulates, Monitored ECG, Establish low and titrate slowly.",
+    "domain": "substance_misuse",
+    "subdomain": "opioids",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG52: Opioid dependence; BNF; Maudsley Prescribing Guidelines",
+    "tags": ["methadone", "opioid_dependence", "dosing", "monitoring", "QTc"]
+  },
+  {
+    "stem": "A 48-year-old man with alcohol dependence (SADQ 35) is being started on relapse prevention medication after completing detoxification 5 days ago. He has a history of epilepsy (well-controlled on lamotrigine) and stage 3 chronic kidney disease (eGFR 42 mL/min). He is keen to take medication to prevent relapse. Which is the MOST appropriate first-line pharmacological option?",
+    "options": [" Acamprosate 666mg TDS", " Naltrexone 50mg daily", " Disulfiram 200mg daily", " Naltrexone 25mg daily — starting at a lower dose due to renal impairment", " Acamprosate 333mg TDS — dose reduction for renal impairment"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Acamprosate is EXCRETED RENALLY and is CONTRAINDICATED if eGFR <30 (severe renal impairment). For eGFR 30-50 (moderate impairment — stage 3), the BNF advises CAUTION and dose reduction (333mg TDS). However, acamprosate is also ABSOLUTELY CONTRAINDICATED in epilepsy because it LOWERS THE SEIZURE THRESHOLD. This patient has epilepsy, so acamprosate is contraindicated.",
+      "CORRECT. Naltrexone is the PREFERRED first-line option because: (1) It is METABOLISED IN THE LIVER (not renally excreted) — it is safe in CKD stage 3; (2) It does NOT lower the seizure threshold (safe in epilepsy); (3) It has comparable efficacy to acamprosate in preventing relapse (NNT ~9 for preventing return to heavy drinking). Requires baseline LFTs (caution if acute hepatitis or hepatic failure — not present here). Contraindications: acute hepatitis, opioid use (current or anticipated), severe hepatic impairment. Starting dose: 25mg for the first 2-3 days, then 50mg daily. Side effects: nausea (common but transient), headache, dizziness, reduced appetite, fatigue.",
+      "Disulfiram is SECOND-LINE and would be inappropriate here. It is metabolised by the liver (via CYP450) and can cause hepatitis. It does NOT cause seizures. However, it requires consent and witnessed administration (aversive therapy). Not first-line after acamprosate/naltrexone have not been tried (NICE CG115).",
+      "Naltrexone 25mg is the correct STARTING dose but the BNF confirms it does NOT require dose adjustment for renal impairment (unlike acamprosate). The starting dose is 25mg for 2-3 days, then 50mg.",
+      "Acamprosate is contraindicated in epilepsy due to seizure threshold lowering."
+    ],
+    "teaching_point": "Choosing relapse prevention medication in alcohol dependence — comorbidity considerations: ACAMPROSATE: (1) Contraindications: severe renal impairment (eGFR <30), epilepsy (lowers seizure threshold); (2) Dose adjustment for moderate renal impairment (eGFR 30-50): 333mg TDS; (3) Start after detox complete; (4) Duration: 6-12 months. NALTREXONE: (1) Contraindications: acute hepatitis, hepatic failure, opioid use, acute opioid withdrawal; (2) SAFE in epilepsy and renal impairment; (3) Monitor LFTs at baseline and monthly for the first 3 months; (4) Duration: 6-12 months. DISULFIRAM: (1) SECOND-LINE; (2) Contraindications: severe hepatic impairment, cardiac disease, pregnancy, psychosis; (3) Requires witnessed administration; (4) Potentially dangerous reaction if alcohol consumed (acetaldehyde syndrome: flushing, nausea, vomiting, hypotension, palpitations, headache, dyspnoea — can be severe). NICE CG115: offer acamprosate OR naltrexone as first-line. Disulfiram is only after these have failed or are not tolerated.",
+    "domain": "substance_misuse",
+    "subdomain": "alcohol_relapse_prevention",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG115: Alcohol dependence; BNF; Maudsley Prescribing Guidelines",
+    "tags": ["acamprosate", "naltrexone", "alcohol", "epilepsy", "renal", "CKD", "relapse_prevention"]
+  },
+  {
+    "stem": "A 12-year-old boy with Tourette's disorder (significant motor and vocal tics causing functional impairment at school) and comorbid OCD (severe, Y-BOCS = 32, involving contamination fears and washing rituals) has not responded to habbit reversal therapy. Which of the following is the MOST appropriate pharmacological treatment for BOTH conditions?",
+    "options": [" Methylphenidate MR 18mg daily", " Clonidine 50mcg BD", " Fluoxetine 20mg daily", " Aripiprazole 5mg daily", " Clomipramine 25mg nocte"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Methylphenidate treats ADHD but does NOT treat Tourette's tics (it can worsen tics in some cases) or OCD.",
+      "Clonidine (alpha-2 agonist) treats TICS (first-line in Tourette's) but does NOT treat OCD. Evidence for clonidine in OCD is lacking.",
+      "Fluoxetine is first-line for paediatric OCD (NICE CG31) but does NOT treat tics. It may be combined with an antipsychotic if needed.",
+      "CORRECT. Aripiprazole (partial D2 agonist) is EFFECTIVE for BOTH conditions: (1) TOURETTE'S — aripiprazole reduces tic severity by ~40-60%. It is one of the most effective medications for tics with a favourable side-effect profile (less weight gain than risperidone, lower prolactin). Starting dose: 2.5mg daily, titrated up to 5-10mg daily. (2) OCD — aripiprazole AUGMENTATION of SSRIs has evidence for treatment-resistant OCD (NICE CG31). In this patient who has not responded to habit reversal therapy, a trial of an SSRI (fluoxetine 10-20mg) PLUS an antipsychotic (aripiprazole) would be an evidence-based approach. Aripiprazole alone may have some benefit in OCD but is more commonly used as an AUGMENTATION agent. ALTERNATIVELY: Start fluoxetine AND aripiprazole together — fluoxetine for the OCD and aripiprazole for both tics and OCD augmentation.",
+      "Clomipramine (TCA) is effective for OCD (NICE CG31: second-line after failure of SSRI) but: (1) Adverse SE effects (anticholinergic: constipation, dry mouth, blurred vision, sedation); (2) QTc prolongation risk; (3) Does NOT treat tics significantly. Aripiprazole is preferred."
+    ],
+    "teaching_point": "Comorbid Tourette's and OCD: 30-50% of children with Tourette's have comorbid OCD. The treatment approach must target BOTH conditions: (1) MILD: Habit reversal therapy (HRT) for tics + CBT (ERP) for OCD. (2) MODERATE-SEVERE: Add pharmacological treatment — aripiprazole treats both tics AND augments OCD treatment. Alternative: fluoxetine (or sertraline) for OCD + clonidine/aripiprazole for tics. (3) SEVERE: SSRI + aripiprazole. The key principle: choose a medication that targets the dominant symptom while considering the comorbidity. Aripiprazole has an advantage in comorbid Tourette's + OCD because: (1) D2 partial agonism reduces tics; (2) 5-HT1A partial agonism may benefit anxiety/OCD; (3) favourable metabolic profile. Avoid: (1) GABAPENTIN (can worsen tics); (2) STIMULANTS (can worsen tics in 20-30% though may be acceptable in some).",
+    "domain": "child_adolescent",
+    "subdomain": "Tourette_OCD",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG31: OCD and BDD; NICE guideline on tics (2024); BNFc; Scahill L et al. (2006) Tourette's treatment",
+    "tags": ["Tourette", "OCD", "aripiprazole", "comorbidity", "child"]
+  },
+  {
+    "stem": "A 12-year-old girl is referred with a 5-month history of increasingly disruptive behaviour at home and school. She frequently argues with adults, actively defies rules, deliberately annoys people, and blames others for her mistakes. She is irritable most days. She does NOT: steal, destroy property, or physically harm others. Her academic performance is average. What is the MOST likely diagnosis and first-line treatment?",
+    "options": [" Conduct disorder — parent-training programme", " Oppositional defiant disorder (ODD) — offer a parent-training programme (Incredible Years, Triple P) as first-line", " Attention deficit hyperactivity disorder — start methylphenidate", " Intermittent explosive disorder — refer for CBT", " Disruptive mood dysregulation disorder — start fluoxetine"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Conduct disorder (CD) requires more severe behaviours (aggression to people/animals, destruction of property, deceitfulness/theft, serious violations of rules). This patient has argumentative/defiant behaviour without the severe features of CD. ODD often PRECEDES CD developmentally.",
+      "CORRECT. Oppositional Defiant Disorder (DSM-5-TR): A pattern of angry/irritable mood, argumentative/defiant behaviour, or vindictiveness lasting ≥6 months. Requires ≥4 symptoms from three categories: (1) Angry/irritable mood (often loses temper, touchy/easily annoyed, angry/resentful); (2) Argumentative/defiant behaviour (argues with authority figures, actively defies rules, deliberately annoys people, blames others for mistakes); (3) Vindictiveness (spiteful/ vindictive at least twice in past 6 months). SEVERITY: mild (1 setting), moderate (2 settings), severe (3+ settings). This child has ODD (mild-moderate). FIRST-LINE: NICE CG158 recommends a parent-training programme (Incredible Years, Triple P) as first-line for children aged 3-11 with ODD. For adolescents (12+), consider individual CBT (anger management), family therapy, or multi-systemic therapy (MST). Medication is NOT recommended for ODD alone (only treat comorbid ADHD if present).",
+      "ADHD requires inattention/hyperactivity-impulsivity symptoms. The core symptoms here are oppositional/defiant behaviour — not attentional or hyperactive symptoms.",
+      "IED involves recurrent impulsive aggressive outbursts (verbal or physical) disproportionate to provocation. Not described here.",
+      "DMDD (DSM-5-TR) involves severe, recurrent temper outbursts (verbal and/or behavioural) that are grossly out of proportion to the situation, occurring ≥3/week, with chronically irritable/angry mood between outbursts. The outbursts in ODD are less severe than in DMDD."
+    ],
+    "teaching_point": "ODD vs CD vs DMDD — essential child psychiatry differential: ODD: argumentative, defiant, angry, irritable, but does NOT involve serious rule violations or aggression (described). CD: MORE SEVERE — aggression, theft, vandalism, cruelty, serious rule violations. DMDD: SEVERE TEMPER OUTBURSTS (not just defiance) with chronically irritable mood. Prevalence: ODD ~3-8% of children; CD ~2-10% (male > female). Comorbidity: ADHD (50-60% in ODD), depression, anxiety, learning difficulties. RISK FACTORS: harsh/inconsistent parenting, parental conflict, socioeconomic deprivation, difficult temperament, prenatal smoking. PROGNOSIS: childhood-onset CD → ASPD in 40-50%. Adolescent-onset CD → better prognosis. EARLY INTERVENTION is critical. TREATMENT: Parent-training (3-11 years) — Incredible Years, Triple P. For older children: individual CBT, family therapy, social skills training. TREAT COMORBIDITIES first (especially ADHD). Medication is NOT recommended for ODD/CD alone (NICE CG158).",
+    "domain": "child_adolescent",
+    "subdomaain": "ODD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG158: Conduct disorders; DSM-5-TR",
+    "tags": ["ODD", "conduct_disorder", "parent_training", "child", "Incredible_Years"]
+  },
+  {
+    "stem": "A 15-year-old girl is brought to A&E by her mother after taking a paracetamol overdose (approximately 10g, 4 hours ago). She has a history of recurrent self-harm (cutting) and a diagnosis of emotionally unstable personality disorder. She is under CAMHS. She states she 'just wanted to feel something else'. Paracetamol level is 180 mg/L at 4 hours (treatment line: 100 mg/L at 4 hours). She refuses to stay in hospital. Which is the MOST appropriate management?",
+    "options": [" Discharge with crisis plan — she has capacity to refuse", " Detain under MHA Section 2 — she has a mental disorder, is at significant risk (toxic paracetamol level, needs medical treatment + psychiatric assessment), and is refusing", " Start N-acetylcysteine and discharge her home with a safety plan", " Transfer to paediatric ward, start NAC, and assess capacity — if she lacks capacity to refuse, treat under MCA; if she has capacity but is still at risk, consider MHA", " Start NAC and refer to CAMHS for outpatient follow-up"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Discharging a patient with a toxic paracetamol level who has attempted suicide would be negligent. She requires immediate MEDICAL treatment (NAC) AND MENTAL HEALTH assessment.",
+      "Detaining under MHA is possible but the FIRST priority is MEDICAL treatment (paracetamol overdose requires NAC within 8 hours to prevent hepatotoxicity). The MHA can be considered once she is medically stable.",
+      "She cannot be discharged — she requires NAC treatment. Starting NAC and discharging is unsafe.",
+      "CORRECT. This patient has taken a SIGNIFICANT OVERDOSE (10g, level above treatment line) requiring: (1) IMMEDIATE MEDICAL — NAC infusion (start within 8 hours, ideally within 4 hours). NAC is most effective when started within 4 hours post-ingestion. (2) CAPACITY ASSESSMENT — is she able to understand, retain, weigh up and communicate the information about her need for medical treatment? If she LACKS CAPACITY due to her mental state, treat under the MENTAL CAPACITY ACT (MCA 2005) in her best interests. (3) If she HAS CAPACITY but is still at risk of self-harm/suicide, consider DETENTION under the MHA (if the primary purpose is psychiatric assessment/ treatment). However, the MHA CANNOT detain someone for the purpose of medical treatment for an overdose — the medical treatment is under the MCA. The MHA can be used to detain her for PSYCHIATRIC treatment once she is medically stable. (4) TRANSFER to paediatric ward (if <16) or medical ward (if 16+) for NAC and monitoring. PARACETAMOL OVERDOSE MANAGEMENT: NAC dose: 150mg/kg in 200mL over 1 hour, then 50mg/kg in 500mL over 4 hours, then 100mg/kg in 1L over 16 hours (three-bag regimen). Check LFTs, prothrombin time, U&Es at 12-24 hours.",
+      "Outpatient follow-up is insufficient — she needs inpatient medical management first."
+    ],
+    "teaching_point": "Paracetamol overdose in adolescents — management algorithm: (1) TIME FROM INGESTION: level should be taken at 4 hours post-ingestion (or at presentation if >4 hours). (2) TREATMENT LINE: the level is plotted on the Prescott/Rumack-Matthew nomogram. If ABOVE the line → START NAC. (3) NAC REGIMEN: three-bag regimen (see above). (4) CAPACITY AND CONSENT: the GMC advises that while the MHA can be used to treat the MENTAL DISORDER, it does not authorise medical treatment for the overdose (the MCA is used for this). Patients with capacity can refuse MEDICAL treatment, but if they are at significant risk due to mental disorder, the MHA should be considered. (5) PSYCHIATRIC ASSESSMENT: every patient who self-harms needs a thorough psychosocial assessment (NICE NG225). In this patient with BPD and suicide attempt, consider: (a) risk assessment; (b) admission to a paediatric ward or psychiatric unit; (c) referral for structured psychological therapy (DBT is most evidence-based for BPD with recurrent self-harm). (6) SAFEGUARDING: check for any child protection concerns.",
+    "domain": "child_adolescent",
+    "subdomain": "self_harm_management",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG225: Self-harm; MHA 1983; MCA 2005; BNF (paracetamol poisoning treatment guidelines)",
+    "tags": ["paracetamol", "overdose", "NAC", "MCA", "MHA", "self-harm", "capacity"]
+  },
+  {
+    "stem": "A 22-year-old woman who is 14 weeks pregnant (primigravida) presents with a 3-week history of depressed mood, anhedonia, poor sleep, poor appetite, and overwhelming anxiety about the pregnancy. PHQ-9 = 17. She has a past history of major depressive episode at age 19 that responded to sertraline. She has been off medication for 2 years. She is worried about taking medication in pregnancy. Which is the MOST appropriate management?",
+    "options": [" Advise against medication — refer for CBT only; antidepressants are not safe in pregnancy", " Start sertraline 50mg daily — the risk of untreated depression in pregnancy outweighs the small risks of SSRI therapy; sertraline has the best safety profile", " Start fluoxetine 20mg daily — it has the longest safety record in pregnancy", " Start nortriptyline 25mg TDS — TCAs are safer than SSRIs in pregnancy", " Start quetiapine 50mg daily — antipsychotics are safer than antidepressants in pregnancy"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "SSRIs are NOT major teratogens. The absolute risk of major congenital malformations with SSRIs is approximately 2-3% (vs 1-2% background). The risk of UNTREATED depression in pregnancy is significant: poor obstetric outcomes (preterm birth, low birth weight), poor engagement with antenatal care, substance use, self-harm, suicide. For MODERATE-SEVERE depression (PHQ-9 17), medication + psychological therapy is recommended (NICE CG192).",
+      "CORRECT. Sertraline is the preferred SSRI in pregnancy because: (1) EXTENSIVE SAFETY DATA — largest database of any SSRI in pregnancy; (2) LOW PLACENTAL PASSAGE — lower levels reach the foetus compared to fluoxetine; (3) LOW PPHN RISK — risk of persistent pulmonary hypertension of the newborn is ~3/1000 vs 1/1000 background (vs fluoxetine where the risk may be slightly higher); (4) NO ACTIVE METABOLITES — fewer accumulation concerns. This patient had a previous response to sertraline, making it the most appropriate choice. NICE CG192: REINSTATE the treatment that was previously effective. Offer CBT/IPT as an adjunctive therapy.",
+      "Fluoxetine has the LONGEST HALF-LIFE (4-6 days, active metabolite 7-9 days), which may lead to HIGHER NEONATAL EXPOSURE. It is associated with: (1) slightly higher risk of PPHN; (2) neonatal adaptation syndrome (more prolonged). Sertraline is preferred.",
+      "Nortriptyline (TCA) is effective but carries more side effects (anticholinergic, postural hypotension, constipation) and a narrower therapeutic index. SSRIs are better studied in pregnancy and are preferred (NICE CG192).",
+      "Quetiapine is not a first-line treatment for depression without psychosis in pregnancy. It carries metabolic risk (gestational diabetes, weight gain). SSRIs are preferred as first-line."
+    ],
+    "teaching_point": "SSRI choice in pregnancy (NICE CG192): SAFEST SSRI in pregnancy: Sertraline (lowest placental passage, most safety data). SECOND-LINE: Fluoxetine (longer half-life, more placental passage, slightly higher PPHN risk — but still safe). AVOID: Paroxetine (first-trimester concern for cardiac defects — RR ~1.5 for atrial/VSD defects). A SAFEST (in order): Sertraline > Fluoxetine > Citalopram > Paroxetine (avoid). VENLAFAXINE: More dangerous in overdose; can cause severe neonatal adaptation syndrome; avoid if possible. ALL ADs carry a small risk of: (1) NEONATAL ADAPTATION SYNDROME (irritability, feeding difficulties, respiratory distress — typically transient, resolves within days); (2) PPHN (absolute risk ~2-3/1000 for SSRIs vs 1/1000 background). KEY MESSAGE: The risk of UNTREATED depression in pregnancy (preterm birth, low birth weight, poor engagement, substance misuse, suicide — the leading cause of maternal death in the UK) OUTWEIGHS the small risks of SSRIs. NICE CG192: 'Do not routinely withdraw antidepressants during pregnancy.'",
+    "domain": "general_adult",
+    "subdomain": "perinatal",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192: Antenatal and postnatal mental health; BNF; Maudsley Prescribing Guidelines",
+    "tags": ["pregnancy", "SSRI", "sertraline", "perinatal", "depression", "PPHN"]
+  },
+  {
+    "stem": "A 38-year-old woman with a 12-year history of recurrent binge eating disorder (BED) has tried guided self-help CBT and 8 sessions of group CBT with limited benefit. She binges on large amounts of food 3-4 times per week, with a sense of loss of control. Her BMI is 34. She has no purging behaviour. What is the MOST appropriate next-step treatment?",
+    "options": [" Admit to a specialist eating disorders unit", " Start lisdexamfetamine 30mg daily (titrated up to 70mg)", " Start topiramate 50mg BD", " Start orlistat 120mg TDS", " Start fluoxetine 60mg daily"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Admission is rarely indicated for BED unless there is severe medical instability or high suicide risk — this patient is medically stable.",
+      "CORRECT. Lisdexamfetamine (a prodrug of dextroamphetamine — a CNS stimulant) is the ONLY medication LICENSED for moderate-severe BED in adults in the UK (MHRA license). It is recommended by NICE as a second-line treatment after CBT has been tried. MECHANISM: it increases noradrenaline and dopamine in the prefrontal cortex, reducing impulsivity and improving cognitive control over eating. DOSE: 30mg daily initially, increased by 20mg weekly to max 70mg daily. SIDE EFFECTS: dry mouth, insomnia, nausea, tachycardia, hypertension, weight loss. CONTRAINDICATIONS: CVD, hypertension, hyperthyroidism, glaucoma, stimulant abuse history. MONITOR: BP, HR, weight. EVIDENCE: two large phase 3 RCTs showed significant reduction in binge days per week compared to placebo (approximately 3+ binge-free weeks vs 1 on placebo).",
+      "Topiramate (antiepileptic) has SOME evidence for reducing binge eating (dose 50-150mg BD) but is NOT LICENSED for BED. Side effects: cognitive slowing, word-finding difficulty, metabolic acidosis, weight loss, renal stones. Lisdexamfetamine is the LICENSED and preferred option.",
+      "Orlistat (lipase inhibitor) is for WEIGHT LOSS, not for BED. It reduces fat absorption (causes steatorrhoea) but does NOT address binge eating behaviour or loss of control. It is NOT recommended by NICE for BED.",
+      "Fluoxetine 60mg (high dose) is LICENSED for BULIMIA NERVOSA but NOT for BED. BED and bulimia differ: BED involves bingeing WITHOUT compensatory behaviours (no purging, fasting, excessive exercise). Bulimia involves bingeing WITH compensatory behaviours. Fluoxetine 60mg is effective for bulimia (NNT ~3-4 for reducing binge-purge episodes) but has WEAK EVIDENCE for BED."
+    ],
+    "teaching_point": "Binge eating disorder — treatment (NICE NG69): STEP 1: GUIDED SELF-HELP CBT (first-line for BED). STEP 2: GROUP CBT (if self-help insufficient). STEP 3: INDIVIDUAL CBT (if group not suitable). STEP 4: LISDEXAMFETAMINE — offered by a specialist as an addition to or after psychological therapy. STEP 5: Consider other specialist treatments if above fail. BED vs BULIMIA: BED = bingeing without compensation; Bulimia = bingeing with compensation. BED is MORE COMMON than anorexia and bulimia combined (lifetime prevalence ~3% vs ~1% for bulimia, ~0.5% for anorexia). Associated with obesity (50-70% of BED patients have BMI >30). Psychiatric comorbidities: depression, anxiety, substance misuse, personality disorders. The key distinguishing feature from bulimia: absence of compensatory behaviours.",
+    "domain": "general_adult",
+    "subdomain": "eating_disorders",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG69: Eating disorders; BNF; MHRA approval for lisdexamfetamine in BED",
+    "tags": ["BED", "binge_eating", "lisdexamfetamine", "CBT", "pharmacotherapy"]
+  }
+]

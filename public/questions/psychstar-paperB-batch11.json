@@ -1,0 +1,182 @@
+[
+  {
+    "stem": "A study is designed to investigate whether a new therapeutic intervention improves outcomes for patients with treatment-resistant depression. Patients are randomly allocated to receive either the new intervention or treatment as usual. The assessors measuring outcomes at 12 weeks are not told which group each patient was allocated to. This design feature is known as:",
+    "options": [" Selection bias reduction", " Blinding of outcome assessors", " Intention-to-treat analysis", " Stratified randomisation", " Allocation concealment"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Selection bias is reduced by randomisation itself, not by blinding of assessors (which reduces DETECTION/MEASUREMENT bias).",
+      "CORRECT. Blinding (or masking) of OUTCOME ASSESSORS means those measuring the treatment outcome do not know which group the patient was allocated to. This REDUCES DETECTION BIAS (also called measurement bias, assessment bias, or observer bias). If assessors know the treatment allocation, they may (unconsciously) rate outcomes differently. Blinding is one of the key features of a well-designed RCT. In psychological therapy trials, it is often impossible to blind patients or therapists ('single-blind'), but the assessor can be blinded ('observer-blind'). In contrast, in pharma trials, both the patient and clinician can be blinded using a placebo ('double-blind'). ALTERNATIVE TERMINOLOGY: (1) Single-blind = patient does not know their allocation; (2) Double-blind = patient AND clinician/assessor do not know; (3) Triple-blind = patient, clinician, AND data analyst do not know.",
+      "Intention-to-treat analysis is a statistical method that includes ALL randomised patients in the analysis regardless of whether they completed the trial. It preserves the benefits of randomisation.",
+      "Stratified randomisation ensures an equal distribution of a key prognostic variable (e.g., age, gender, disease severity) across groups.",
+      "Allocation concealment means the person doing the randomisation does not know which group the next patient will be allocated to. It prevents SELECTION bias. It is different from blinding (which prevents DETECTION/PERFORMANCE bias)."
+    ],
+    "teaching_point": "Types of bias in clinical trials — high-yield for MRCPsych: (1) SELECTION BIAS — systematic differences between groups at baseline. Prevention: randomisation + allocation concealment (concealed allocation schema, sequentially numbered opaque sealed envelopes — SNOSE). (2) PERFORMANCE BIAS — systematic differences in care provided apart from the intervention. Prevention: blinding of patients and clinicians (double-blind). (3) DETECTION BIAS — systematic differences in how outcomes are assessed. Prevention: blinding of outcome assessors. (4) ATTRITION BIAS — systematic differences in dropouts between groups. Prevention: intention-to-treat analysis, minimise dropouts. (5) REPORTING BIAS — selective reporting of outcomes. Prevention: pre-registration of trial protocol (e.g., ClinicalTrials.gov, ISRCTN). Assessment of bias risk: the COCHRANE RISK OF BIAS tool (RoB 2) assesses 5 domains: randomisation process, deviations from intended interventions, missing outcome data, measurement of outcome, selection of reported result. The CONSORT statement provides guidelines for reporting RCTs.",
+    "domain": "critical_review",
+    "subdomain": "bias",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "CONSORT statement (2010); Cochrane Handbook; BMJ 'User's Guide to the Medical Literature'",
+    "tags": ["blinding", "outcome_assessment", "detection_bias", "RCT", "bias"]
+  },
+  {
+    "stem": "In a study of a new drug for schizophrenia, 20 patients are randomised to the drug and 20 to placebo. At the end of the 8-week trial, 5 patients in the drug group and 4 patients in the placebo group dropped out. The main analysis includes only the 15 patients who completed the trial in each group. What is the MOST SERIOUS criticism of this approach?",
+    "options": [" The sample size is too small", " It is not a placebo-controlled trial", " The analysis is by per-protocol rather than intention-to-treat, which can introduce attrition bias", " The drug is likely to have side effects", " The trial duration is too short"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Small sample size is a concern (reduces statistical power), but the methodological flaw described is the analysis method.",
+      "Placebo-controlled is appropriate for this type of proof-of-concept trial.",
+      "CORRECT. Intention-to-treat (ITT) analysis is the GOLD STANDARD for RCTs. ITT means ALL randomised patients are analysed in their original allocated group, regardless of whether they completed the study, crossed over, or received the treatment. This PRESERVES the benefits of randomisation — it maintains group comparability (the only difference between groups is the treatment allocation). PER-PROTOCOL analysis (also called 'on-treatment' or 'completer' analysis) only includes patients who completed the trial as per protocol. This can introduce ATTRITION BIAS — patients who drop out may differ systematically from those who stay (e.g., those with more side effects or less improvement may drop out). If the drug group had more dropouts due to side effects, a per-protocol analysis would underestimate the true side effect rate and potentially overestimate efficacy (because the dropouts are excluded). NICE prefers ITT analysis for guideline development.",
+      "Side effects may be relevant but are not the most serious methodological criticism of the analysis approach.",
+      "8 weeks is adequate for an acute schizophrenia trial."
+    ],
+    "teaching_point": "ITT vs per-protocol analysis: ITT: (1) All patients analysed as randomised; (2) Preserves randomisation — groups are comparable at baseline; (3) Answers a 'PRAGMATIC' question: what happens when this treatment is used in real practice (where dropouts, non-adherence, and crossovers occur)? (4) More conservative (reduces bias towards finding an effect). PER-PROTOCOL: (1) Only patients who completed the trial (and adhered to protocol) are included; (2) Answers an 'EFFICACY' question: does the treatment work under ideal conditions?; (3) Can introduce ATTRITION BIAS. Other analysis approaches: MODIFIED ITT (MITT) — excludes patients who never received treatment (common in pharma trials). ASTREATED — analyses patients by the treatment they actually received (can introduce bias if patients switch groups). NICE guidance: 'Where possible, we prefer to see the results of an ITT analysis. If the ITT analysis is not the primary analysis, an explanation of why should be provided.' HANDLING MISSING DATA: (1) Last Observation Carried Forward (LOCF) — assumes no change from last observation (problematic if dropouts would have worsened); (2) Mixed models for repeated measures (MMRM) — more appropriate, accounts for missing data patterns; (3) Multiple imputation — uses observed data to estimate missing values; (4) Sensitivity analysis — testing how robust the results are to different assumptions about missing data.",
+    "domain": "critical_review",
+    "subdomain": "ITT",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "CONSORT statement; Altman DG (1991) Practical Statistics; NICE guidelines manual",
+    "tags": ["ITT", "intention_to_treat", "per_protocol", "attrition_bias", "RCT"]
+  },
+  {
+    "stem": "A 12-year-old boy is referred to CAMHS with a 3-week history of acute-onset confusion, agitation, hallucinations, and fluctuating consciousness. He has a fever (38.2°C). His parents report he had a sore throat 2 weeks ago treated with penicillin. He has no psychiatric history. His neurological examination shows orofacial dyskinesia and choreiform movements. Anti-streptolysin O (ASO) titres are elevated. What is the most likely diagnosis?",
+    "options": [" First-episode psychosis — early-onset schizophrenia", " Sydenham's chorea", " Paediatric Autoimmune Neuropsychiatric Disorder Associated with Streptococcal Infection (PANDAS)", " Anti-NMDA receptor encephalitis", " Viral meningoencephalitis"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Early-onset schizophrenia is rare before age 12 (very early-onset schizophrenia <1% of all schizophrenia). The acute onset, fever, fluctuating consciousness, and choreiform movements are not typical.",
+      "Sydenham's chorea (acute rheumatic fever) presents with chorea, emotional lability, and obsessions/compulsions — but NOT the acute confusion, agitation, and psychotic features seen here. Sydenham's chorea is a neurological manifestation of Group A streptococcal infection affecting the basal ganglia.",
+      "PANDAS (Swedo, 1998) describes the acute onset of OCD/tics following Streptococcal infection in children. The criteria include: (1) Presence of OCD and/or tic disorder; (2) Prepubertal onset; (3) Acute onset and episodic course; (4) Temporal association with GAS infection (positive throat culture or ASO titres); (5) Association with neurological abnormalities (choreiform movements). However, this presentation includes PROMINENT PSYCHOSIS and CONFUSION, which is more characteristic of ANTI-NMDA RECEPTOR ENCEPHALITIS.",
+      "CORRECT. Anti-NMDA receptor encephalitis is an autoimmune encephalitis that presents with a characteristic SYNDROME: (1) PRODROME (flu-like, fever, headache); (2) PSYCHIATRIC SYMPTOMS (psychosis, agitation, confusion, hallucinations, bizarre behaviour) — often the FIRST presentation, leading to misdiagnosis as first-episode psychosis; (3) SEIZURES; (4) MOVEMENT DISORDERS (orofacial dyskinesia, chorea, dystonia, catatonia — pathognomonic); (5) AUTONOMIC INSTABILITY (tachycardia, hypertension, hyperthermia, hypo/hyperventilation); (6) DECREASED CONSCIOUSNESS. It is caused by antibodies against the NMDA receptor (GluN1 subunit) — often associated with OVARIAN TERATOMA in young women (but also occurs in men and children without tumours). Management: (1) Tumour search (ovarian ultrasound/MRI); (2) IMMUNOTHERAPY (IVIG, steroids, rituximab, plasmapheresis); (3) Tumour removal if found; (4) Psychiatric symptom management (low-dose antipsychotics — patients are highly sensitive to EPS). This has become a high-yield MRCPsych topic — any acute-onset psychosis with neurological signs (orofacial dyskinesia, chorea, seizures, autonomic instability) should raise suspicion for anti-NMDA receptor encephalitis.",
+      "Viral meningoencephalitis typically presents with fever, headache, neck stiffness (meningism), photophobia, and altered mental status — not specifically with the orofacial dyskinesia and chorea characteristic of anti-NMDA receptor encephalitis."
+    ],
+    "teaching_point": "Anti-NMDA receptor encephalitis — HIGH-YIELD for MRCPsych: (1) Demographics: young adults, 80% female. (2) Association: Ovarian teratoma in 30-50% of young adult women (rare in men/children). (3) Clinical stages: Prodrome (flu-like) → Psychosis (weeks) → Seizures + Movement disorder → Autonomic instability → Decreased consciousness. (4) Psychiatric presentation: psychosis, hallucinations, agitation, bizarre behaviour, catatonia — often misdiagnosed as first-episode psychosis or NMS. (5) Neurological clues: orofacial dyskinesia (lip-smacking, grimacing, chewing movements — characteristic), chorea, dystonia, seizures, autonomic instability. (6) Diagnosis: CSF anti-NMDA receptor antibodies (GluN1). MRI brain: normal in 50%. EEG: 'extreme delta brush' pattern. (7) Screening: pelvic USS/CT/MRI for teratoma. (8) Treatment: tumour removal + immunotherapy (IVIG, steroids, rituximab). (9) Psychiatric management: low-dose antipsychotics (high EPS sensitivity). (10) Prognosis: 75% make a full or partial recovery. Morbidity is significant if untreated. Early recognition and treatment = better outcomes. The Differential: FIRST-EPISODE PSYCHOSIS (no neurological signs), NMS (antipsychotic exposure), SEROTONIN SYNDROME (serotonergic drugs, clonus), MALIGNANT CATATONIA (fever, rigidity, autonomic instability — may be indistinguishable without antibody testing).",
+    "domain": "general_adult",
+    "subdomain": "autoimmune_psychiatry",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Dalmau J et al. (2008) Anti-NMDA-receptor encephalitis; Lancet Neurology; Graus F et al. (2016) Clinical approach to encephalitis",
+    "tags": ["anti-NMDA_receptor_encephalitis", "autoimmune_encephalitis", "psychosis", "orofacial_dyskinesia", "teratoma"]
+  },
+  {
+    "stem": "A new screening questionnaire for depression is found to have Cronbach's alpha of 0.82. This value indicates:",
+    "options": [" That the questionnaire has good test-retest reliability", " That the questionnaire has good VALIDITY (it measures what it claims to measure)", " That the questionnaire has good INTERNAL CONSISTENCY (the items are measuring the same underlying construct)", " That the questionnaire has good inter-rater reliability", " That the questionnaire has a sensitivity of 82%"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Test-retest reliability is assessed by giving the same test to the same people on two separate occasions and calculating the correlation (Pearson's r or ICC). Cronbach's alpha is a different form of reliability.",
+      "Cronbach's alpha measures reliability (internal consistency), not validity. A test can be RELIABLE (consistent) but not VALID (not measuring what it claims to measure). Validity is assessed by: content validity, criterion validity (concurrent/predictive), construct validity (convergent/discriminant).",
+      "CORRECT. Cronbach's alpha (or coefficient alpha) is a measure of INTERNAL CONSISTENCY — how closely related a set of items are as a group (whether they all measure the same construct). It is the most commonly used measure of internal consistency in questionnaire development. Ranges from 0 to 1. Thresholds: α ≥ 0.9 = excellent; α 0.8-0.9 = good; α 0.7-0.8 = acceptable; α 0.6-0.7 = questionable; α < 0.6 = poor (items may not be measuring the same construct). A Cronbach's alpha of 0.82 is considered GOOD internal consistency — suitable for research purposes and clinical screening. However, VERY high alpha (>0.95) may suggest item redundancy (too many similar items).",
+      "Inter-rater reliability (assessed by Cohen's kappa for categorical data, ICC for continuous data) measures the agreement between different raters assessing the same phenomenon. It is different from internal consistency.",
+      "Cronbach's alpha does not relate to sensitivity or specificity."
+    ],
+    "teaching_point": "Reliability vs Validity — essential psychometric concepts: RELIABILITY = consistency / reproducibility. Types: (1) TEST-RETEST — stability over time (Pearson's r). (2) INTER-RATER — agreement between raters (Cohen's κ, ICC). (3) INTERNAL CONSISTENCY — how well items measure the same construct (Cronbach's α, KR-20 for dichotomous items). (4) PARALLEL FORMS — agreement between two equivalent versions of a test. VALIDITY = does it measure what it claims to? Types: (1) FACE VALIDITY — looks like it measures the right thing (subjective). (2) CONTENT VALIDITY — covers all aspects of the construct (expert judgement). (3) CRITERION VALIDITY — predicts an external standard (concurrent = predicts current gold standard; predictive = predicts future outcome). (4) CONSTRUCT VALIDITY — measures the underlying theoretical construct (convergent = correlates with measures of similar constructs; discriminant = does NOT correlate with measures of different constructs). COHEN'S KAPPA (κ): measures inter-rater reliability for CATEGORICAL data, CORRECTED FOR CHANCE. κ = (observed agreement − expected agreement) / (1 − expected agreement). κ < 0 = poor; 0-0.2 = slight; 0.2-0.4 = fair; 0.4-0.6 = moderate; 0.6-0.8 = substantial; 0.8-1.0 = almost perfect. Note: κ can be paradoxically low when agreement is high but prevalence is extreme (the 'prevalence problem').",
+    "domain": "critical_review",
+    "subdomain": "psychometrics",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Cronbach LJ (1951) Coefficient alpha and the internal structure of tests; Bland JM & Altman DG (1997) Cronbach's alpha; Landis JR & Koch GG (1977) Kappa",
+    "tags": ["Cronbach_alpha", "internal_consistency", "reliability", "validity", "psychometrics"]
+  },
+  {
+    "stem": "In a randomised controlled trial, 100 patients receive the new antipsychotic and 100 receive a placebo. After 6 months, 30 patients in the antipsychotic group had relapsed, compared to 45 in the placebo group. The p-value is 0.04. The authors state the result is 'statistically significant'. Which of the following BEST describes how the 95% confidence interval for the RISK DIFFERENCE would appear?",
+    "options": [" The CI would include 1.0", " The CI would be entirely above zero (excluding 0)", " The CI would be entirely below zero (excluding 0)", " The CI would include 0.15", " The CI would be from -0.25 to +0.25"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "1.0 is the null value for RR/OR, not for RISK DIFFERENCE. The null value for risk difference is 0 (no difference).",
+      "If the CI were entirely ABOVE zero, that would mean the antipsychotic INCREASES risk of relapse — opposite of what the data show.",
+      "CORRECT. Risk Difference (RD) = Risk in placebo − Risk in treatment = 45/100 − 30/100 = 0.45 − 0.30 = 0.15 (15% absolute risk reduction). The null value for RD is 0 (no difference). Since the p-value is 0.04 (<0.05), we know the result is statistically significant. Therefore, the 95% CI for the risk difference would EXCLUDE ZERO. Since the treatment REDUCES relapse (negative direction: −15% RD relative to placebo, or +15% ARR), the CI would be entirely BELOW zero for the risk difference (−0.27 to −0.03, for example). IMPORTANT: A 95% CI that excludes the null value is equivalent to p < 0.05. Key null values: RR = 1, OR = 1, RD = 0, SMD = 0.",
+      "0.15 is the point estimate of the risk difference, not the CI.",
+      "If the CI crossed zero (from negative to positive), the result would NOT be statistically significant — contradictory to p = 0.04."
+    ],
+    "teaching_point": "Confidence intervals and null values: Null values: RR/OR/HR = 1 (no effect); RD/MD = 0 (no difference). CI EXCLUDES null → equivalent to p < 0.05 (statistically significant). CI INCLUDES null → not statistically significant (p > 0.05). The CI shows the RANGE of plausible effect sizes compatible with the data. A narrow CI = precise estimate. A wide CI = imprecise estimate (small sample). For this study: RD = 0.15 (ARR 15%), NNT = 1/0.15 = 6.67 (~7). Interpretation: treat 7 patients with the antipsychotic to prevent one relapse. This is a clinically meaningful NNT (antipsychotics for schizophrenia maintenance typically have NNTs of 4-8 for preventing relapse). NNT should always be reported with a CI (which may be wide).",
+    "domain": "critical_review",
+    "subdomain": "confidence_intervals",
+    "difficulty": "medium",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "Altman DG & Bland JM (1995) Statistics notes: confidence intervals; NICE guidelines manual",
+    "tags": ["confidence_interval", "risk_difference", "null_value", "NNT", "p-value"]
+  },
+  {
+    "stem": "Which of the following study designs is MOST appropriate for investigating whether a rare side effect (incidence 0.1%) is associated with a new antipsychotic drug?",
+    "options": [" Cross-sectional study", " Randomised controlled trial", " Case-control study", " Cohort study", " Systematic review"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Cross-sectional studies measure exposure and outcome simultaneously — they cannot establish temporality and are not suitable for studying rare outcomes (would require a very large sample to find any cases).",
+      "RCTs are the gold standard for efficacy but are NOT feasible for rare side effects because: (1) They typically have <1000 patients (too small to detect rare events); (2) Short duration; (3) They are not designed to detect uncommon harms. Post-marketing surveillance (Phase IV) is needed.",
+      "CORRECT. Case-control studies are the MOST EFFICIENT design for studying RARE outcomes (incidence <5%). They start with CASES (people with the rare side effect) and CONTROLS (without), then look BACK to assess exposure. This is MUCH more efficient than following a cohort large enough to generate enough cases. Examples of case-control studies in psychiatric pharmacovigilance: (1) Clozapine and myocarditis; (2) Antidepressants and suicidality in adolescents; (3) Antipsychotics and thromboembolism; (4) Valproate and neural tube defects. Limitations: recall bias, selection bias (how are controls chosen?), difficulty establishing temporality, and inability to calculate incidence rates.",
+      "Cohort studies can study rare outcomes but would require VERY large samples (e.g., to detect a 0.5% incidence, you would need thousands of patients). This is expensive and time-consuming.",
+      "Systematic reviews can synthesise evidence from any study design, but they do not GENERATE new data — they summarise existing evidence."
+    ],
+    "teaching_point": "Study designs — choosing the right one for the research question: (1) RCT: 'Does treatment X improve outcome Y?' — gold standard for efficacy. (2) COHORT: 'What is the risk/prognosis of condition X?' — follows people forward in time from exposure to outcome. (3) CASE-CONTROL: 'What are the risk factors for rare condition X?' — efficient for rare outcomes. (4) CROSS-SECTIONAL: 'What is the prevalence of condition X?' — measures exposure and outcome simultaneously. (5) ECOLOGICAL: 'Is there a correlation between X and Y at a population level?' — prone to ECOLOGICAL FALLACY. (6) NESTED CASE-CONTROL: cases and controls selected from within an existing cohort — combines advantages of both. (7) CASE-CROSSOVER: each case serves as their own control — useful for transient risk factors (e.g., 'Does alcohol consumption trigger violence in schizophrenia?'). (8) N-OF-1 TRIAL: single patient, randomised crossover — for individual treatment decisions. PHARMACOVIGILANCE: Phase IV studies (post-marketing surveillance) monitor real-world safety. The YELLOW CARD SCHEME (MHRA) collects spontaneous reports of suspected adverse drug reactions. Limitations: under-reporting, numerator/denominator problems, biases.",
+    "domain": "critical_review",
+    "subdomain": "study_designs",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "BMJ 'How to Read a Paper' series; Greenhalgh T (2019); Cochrane Handbook",
+    "tags": ["case-control", "rare_outcome", "study_design", "pharmacovigilance", "side_effects"]
+  },
+  {
+    "stem": "A research group investigates whether there is an association between the number of hours of sleep per night and scores on a depression rating scale in 150 adults. Which correlation coefficient would be MOST appropriate to quantify the strength and direction of the association?",
+    "options": [" Spearman's rank correlation coefficient (rho)", " Pearson's product-moment correlation coefficient (r)", " Point-biserial correlation", " Phi coefficient", " Kendall's tau"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Spearman's rho is used when BOTH variables are ordinal OR when the assumptions for Pearson's r are violated (non-normal distribution, non-linear relationship). It is the non-parametric alternative.",
+      "CORRECT. Pearson's product-moment correlation coefficient (r) is the appropriate test when: (1) Both variables are CONTINUOUS (interval/ratio scale — hours of sleep is continuous, depression rating scale score is continuous); (2) The relationship between the two variables is approximately LINEAR; (3) The data are approximately normally distributed (bivariate normality). r ranges from -1 (perfect negative correlation) to +1 (perfect positive correlation). r = 0 means no linear relationship. r² (coefficient of determination) = the proportion of variance in one variable explained by the other. For example, r = -0.5 (moderate negative correlation — more sleep associated with lower depression) → r² = 0.25, meaning sleep explains 25% of the variation in depression scores.",
+      "Point-biserial correlation is used when ONE variable is continuous and the OTHER is dichotomous (binary) — e.g., depression (yes/no) vs hours of sleep.",
+      "Phi coefficient (φ) is used when BOTH variables are dichotomous.",
+      "Kendall's tau (τ) is a non-parametric measure of rank correlation (similar to Spearman's) used for ordinal data. It can be used with small samples and has a more intuitive interpretation as a probability."
+    ],
+    "teaching_point": "Choosing the right correlation coefficient: (1) BOTH CONTINUOUS + linear → Pearson's r. (2) BOTH CONTINUOUS but non-linear/non-normal → Spearman's rho or Kendall's tau. (3) BOTH ORDINAL → Spearman's rho or Kendall's tau. (4) ONE CONTINUOUS + ONE DICHOTOMOUS → Point-biserial r. (5) BOTH DICHOTOMOUS → Phi coefficient (φ) or Cramer's V. (6) ONE ORDINAL + ONE DICHOTOMOUS → Spearman's rho. ASSUMPTIONS for Pearson's r: (1) Continuous data; (2) Linear relationship (check with scatter plot); (3) Bivariate normal distribution; (4) No significant outliers. CORRELATION ≠ CAUSATION: A correlation between sleep and depression does NOT mean that poor sleep causes depression (reverse causation, confounding, or third variables are possible). Common confounders: age, physical health, medication, substance use. Part correlation and partial correlation can control for confounding. Multiple regression can assess the independent effect of each predictor.",
+    "domain": "critical_review",
+    "subdomain": "correlation",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Altman DG (1991) Practical Statistics; BMJ statistical notes",
+    "tags": ["Pearson_r", "correlation", "continuous_variables", "Spearman_rho", "point_biserial"]
+  },
+  {
+    "stem": "Which of the following concepts is CORRECTLY defined?",
+    "options": [" Type I error: failing to reject a false null hypothesis", " Type II error: incorrectly rejecting a true null hypothesis", " Type I error (alpha): the probability of concluding there is a difference when there is none (false positive)", " Statistical power: the probability of making a Type I error when the null hypothesis is false", " Effect size: the probability that the observed effect is real"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "This is a Type II error (β) — failing to reject a NULL hypothesis that is FALSE (false negative). The statement is reversed.",
+      "This is a Type I error (α) — rejecting a TRUE null hypothesis (false positive). However, the statement says 'incorrectly rejecting' correctly, but the definition is wrong because: rejecting a TRUE null describes Type I, not Type II.",
+      "CORRECT. Type I error (α) = the probability of rejecting the null hypothesis when it is TRUE — a FALSE POSITIVE. Conventionally set at α = 0.05 (5% chance of making a Type I error). If you conduct 100 hypothesis tests and the null is true for all of them, you would expect 5 to be 'statistically significant' by chance alone (the MULTIPLE COMPARISONS problem — important when making many subgroup analyses or testing many outcomes).",
+      "STATISTICAL POWER = the probability of REJECTING the null hypothesis when it is FALSE — in other words, the ability to detect a TRUE effect. Power = 1 − β (where β is Type II error). Power depends on: (1) Sample size (N); (2) Effect size (d); (3) Alpha (α); (4) Study design. Convention: power should be ≥ 0.80 (80% chance of detecting a true effect). A power calculation should be done before the study to determine the REQUIRED sample size.",
+      "Effect size is a STANDARDISED measure of the magnitude of an effect — it is NOT a probability. p-values, not effect sizes, are probabilities. An effect size of 0.5 (Cohen's d) tells you the groups differ by 0.5 standard deviations, not the probability of being correct."
+    ],
+    "teaching_point": "Errors and power — the four possibilities when testing hypotheses: TRUTH: Null is TRUE / Null is FALSE. DECISION: (1) Reject null → Type I error (α) / CORRECT (power). (2) Fail to reject null → CORRECT / Type II error (β). α = Type I error rate (usually 0.05). β = Type II error rate (usually 0.2). Power = 1 − β = 0.8 (80%). Factors AFFECTING POWER: (1) Larger sample → more power; (2) Larger effect → more power; (3) Larger alpha → more power (but increases Type I error); (4) One-tailed test → more power than two-tailed (but requires a directional hypothesis). Sample size calculation requires: (1) Expected effect size; (2) Desired power (usually 0.8); (3) Alpha (0.05); (4) Study design. The MULTIPLE TESTING problem: the more statistical tests you perform, the higher the chance of Type I errors. Corrections: Bonferroni correction (α/n comparisons — very conservative), false discovery rate (FDR), Holm's sequential procedure. BONFERRONI: if testing 10 outcomes, the adjusted α = 0.05/10 = 0.005. Criticised as too conservative (increases Type II errors, reduces power). NICE requires specification of the PRIMARY OUTCOME to avoid problems with multiple testing.",
+    "domain": "critical_review",
+    "subdomain": "hypothesis_testing",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Altman DG (1991); BMJ statistical notes; Cohen J (1988) Statistical Power Analysis",
+    "tags": ["type_I_error", "type_II_error", "power", "alpha", "sample_size"]
+  },
+  {
+    "stem": "A health economic analysis compares two treatments for depression — CBT and antidepressant medication. The study reports that the Incremental Cost-Effectiveness Ratio (ICER) for CBT vs medication is £20,000 per QALY gained. The cost- effectiveness acceptability curve (CEAC) shows that at a willingness-to-pay threshold of £20,000 per QALY, CBT has a 55% probability of being cost-effective. Which of the following is MOST accurate?",
+    "options": [" CBT is clearly more effective and cheaper than medication", " CBT is not cost-effective compared to medication at the NICE threshold of £20,000 per QALY", " There is considerable uncertainty about the cost-effectiveness of CBT vs medication; at the NICE £20,000/QALY threshold, there is a 55% chance CBT is cost-effective", " Medication dominates CBT (cheaper and more effective)", " QALYs are a measure of patient satisfaction"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "An ICER of £20,000 per QALY suggests CBT is MORE EFFECTIVE AND MORE EXPENSIVE than medication (you pay £20,000 for each additional QALY), not cheaper.",
+      "Not entirely accurate — £20,000/QALY is the LOWER NICE threshold. NICE considers interventions 'cost-effective' if the ICER is below £20,000-£30,000 per QALY. Using the lower threshold, £20,000 is right at the margin — this is why the CEAC shows 55% probability (just above the threshold). The statement 'not cost-effective' would be misleading.",
+      "CORRECT. The ICER of £20,000/QALY means that for each additional QALY gained from CBT compared to medication, it costs an extra £20,000. The CEAC shows the PROBABILITY of being cost-effective at different thresholds. At the NICE lower threshold of £20,000 per QALY, there is a 55% probability that CBT is cost-effective — meaning there is substantial uncertainty (the decision depends on whether society is willing to pay £20,000 for an extra QALY). At the upper NICE threshold of £30,000/QALY, the probability would be higher. NICE uses a threshold range of £20,000-£30,000 per QALY gained. Interventions with ICER > £30,000 are less likely to be recommended.",
+      "If medication dominated CBT (cheaper AND more effective), the ICER would be negative (cost-saving), not £20,000/QALY.",
+      "QALY (Quality-Adjusted Life Year) is a measure that combines QUANTITY of life (years) and QUALITY of life (utility weight from 0 = death to 1 = perfect health). One year in perfect health = 1 QALY. One year in a health state with utility 0.5 = 0.5 QALYs. QALYs are used in cost-utility analysis to compare treatments across different conditions."
+    ],
+    "teaching_point": "Health economics — essential MRCPsych concepts: (1) COST-UTILITY ANALYSIS — uses QALYs (most common in NICE). (2) COST-EFFECTIVENESS ANALYSIS — uses natural units (e.g., cost per depression-free day). (3) COST-BENEFIT ANALYSIS — everything in monetary terms. (4) COST-MINIMISATION ANALYSIS — assumes outcomes are equal (compares costs only). COSTS: DIRECT (healthcare resources — drugs, hospital beds, staff) vs INDIRECT (lost productivity, informal care, travel) vs INTANGIBLE (pain, suffering — not easily quantified). ICER = (Cost_new − Cost_standard) / (Effect_new − Effect_standard). QALY = years of life × utility weight (EQ-5D-5L is the standard measure). CEAC — shows the probability that each intervention is cost-effective across a range of willingness-to-pay thresholds. DISCOUNTING — future costs and benefits are discounted (typically 3.5% per year in UK — the rate reflects time preference). SENSITIVITY ANALYSIS — tests how robust the results are to changes in key assumptions. Cost-effectiveness thresholds: NICE uses £20,000-£30,000 per QALY. Interventions >£30,000 are usually not recommended (unless special circumstances). Examples in psychiatry: CBT for depression is cost-effective compared to GP care alone; clozapine for TRS is cost-effective despite monitoring costs (reduces hospitalisations).",
+    "domain": "critical_review",
+    "subdomain": "health_economics",
+    "difficulty": "hard",
+    "bloom_taxonomy": "interpretation",
+    "paper": "B",
+    "source": "NICE Methods Guide (2022); Drummond MF et al. (2015) Methods for the Economic Evaluation of Health Care Programmes",
+    "tags": ["ICER", "QALY", "cost-effectiveness", "CEAC", "health_economics", "NICE"]
+  }
+]

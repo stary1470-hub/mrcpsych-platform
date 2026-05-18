@@ -1,0 +1,222 @@
+[
+  {
+    "stem": "A 9-year-old boy is referred to CAMHS by his school due to persistent difficulty concentrating in class, being easily distracted, fidgeting, and difficulty waiting his turn. His parents report these behaviours have been present since age 5 across both home and school settings. His academic progress is below expectations. What is the most likely diagnosis?",
+    "options": [" Conduct disorder", " Autism spectrum disorder", " Attention deficit hyperactivity disorder — combined presentation", " Generalised anxiety disorder", " Oppositional defiant disorder"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Conduct disorder involves repetitive and persistent violation of the rights of others (aggression, destruction of property, theft), not inattention and hyperactivity.",
+      "ASD involves social communication deficits, restricted interests, and repetitive behaviours. While attention difficulties can occur, the core difficulties described are inattention and hyperactivity.",
+      "CORRECT. DSM-5-TR distinguishes three presentations of ADHD: predominantly inattentive, predominantly hyperactive-impulsive, and COMBINED (both domains). This child has inattention (poor concentration, easily distracted) AND hyperactivity-impulsivity (fidgeting, difficulty waiting). Symptoms must be present before age 12, across multiple settings, with functional impairment. Prevalence: ~5% of school-age children. Male:Female 3:1. DSM-5 now uses 'presentation specifiers' rather than 'subtypes' (which may change over time).",
+      "GAD in children presents with excessive worry about multiple domains, somatic symptoms (headaches, stomach-aches), and irritability — not the core inattention and hyperactivity described.",
+      "ODD involves angry/irritable mood, argumentative/defiant behaviour, and vindictiveness — not inattention and hyperactivity."
+    ],
+    "teaching_point": "ADHD diagnostic criteria (DSM-5-TR): 1) Inattention: 6+ symptoms (5+ for age ≥17) present for ≥6 months, including: careless mistakes, difficulty sustaining attention, does not listen, fails to finish tasks, disorganised, avoids sustained mental effort, loses things, easily distracted, forgetful. 2) Hyperactivity-impulsivity: 6+ symptoms including: fidgets, leaves seat, runs/climbs excessively (restlessness in adults), cannot play quietly, 'on the go', talks excessively, blurts out, difficulty waiting, interrupts. Must have: onset <12 years, cross-situational (≥2 settings), clear functional impairment. ICD-11 also has hyperkinetic disorder (more severe, all domains). Prevalence: 3-5% school-age children. Heritability: 70-80%.",
+    "domain": "child_adolescent",
+    "subdomain": "ADHD",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "DSM-5-TR; NICE NG87: ADHD",
+    "tags": ["ADHD", "diagnosis", "child", "inattention", "hyperactivity"]
+  },
+  {
+    "stem": "According to NICE NG87, what is the first-line pharmacological treatment for a 7-year-old child diagnosed with attention deficit hyperactivity disorder (ADHD) without significant comorbidity?",
+    "options": [" Methylphenidate", " Dexamfetamine", " Atomoxetine", " Clonidine", " Guanfacine"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE NG87 recommends methylphenidate (immediate or modified-release) as first-line pharmacological treatment for children aged 6+ with ADHD who do not have significant comorbidity. Methylphenidate is a CNS stimulant that blocks dopamine and noradrenaline reuptake. It improves core ADHD symptoms in ~70% of children. Start with a low dose and titrate. Options: immediate-release (3-4 times/day) or modified-release (once daily).",
+      "Dexamfetamine (also a stimulant) is second-line if methylphenidate is not effective or not tolerated.",
+      "Atomoxetine (a selective noradrenaline reuptake inhibitor) is a non-stimulant option. It is second-line for children who do not respond to or cannot tolerate methylphenidate and lisdexamfetamine. It is also first-line if there is comorbid substance misuse risk (non-addictive) or significant tics.",
+      "Clonidine (alpha-2 agonist) is third-line, for when first-line treatments have failed or for ADHD with tics. Not first-line.",
+      "Guanfacine (extended-release alpha-2 agonist) is licensed for adolescent ADHD (not first-line) when stimulants are not suitable."
+    ],
+    "teaching_point": "NICE NG87 — ADHD pharmacological management in children 6+: STEP 1: Methylphenidate (immediate or modified-release). STEP 2: If methylphenidate ineffective/tolerated: try lisdexamfetamine or dexamfetamine. STEP 3: If both stimulants ineffective/tolerated: atomoxetine or guanfacine. For children <6: offer parent-training programme first. Drug treatment should always be part of a comprehensive treatment plan (including psychoeducation, behavioural interventions, school support). Monitoring: height, weight (growth deceleration common), BP, HR, appetite, sleep. Drug holidays can be considered but should be discussed with the family. ADHD in adults: same medication algorithm.",
+    "domain": "child_adolescent",
+    "subdomain": "ADHD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE NG87: ADHD (2018, updated 2024)",
+    "tags": ["ADHD", "methylphenidate", "treatment", "NICE_guidelines", "child"]
+  },
+  {
+    "stem": "A 12-year-old boy with a diagnosis of autism spectrum disorder presents with significant hyperactivity, impulsivity, and inattention that is causing functional impairment at school. He has tried parent-training programmes and school-based interventions without sufficient improvement. He has a history of sleep difficulties. Which pharmacological treatment has the strongest evidence for managing ADHD symptoms in children with ASD?",
+    "options": [" Methylphenidate (lower starting dose, monitor carefully for side effects)", " Risperidone", " Atomoxetine", " Clonidine", " Melatonin"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Methylphenidate is effective for ADHD symptoms in children with ASD, though the evidence base is less robust than for typically-developing children. Studies (RUPP Autism Network, 2005) show methylphenidate improves ADHD symptoms in ASD, but: (1) response rates are lower (~50% vs ~70% in non-ASD); (2) side effects are more common (irritability, sleep disturbance, appetite loss); (3) START AT A LOWER DOSE (half the usual starting dose) and titrate more slowly. NICE NG87 recommends the same algorithm for children with ASD but with careful monitoring.",
+      "Risperidone is an antipsychotic that is used for IRRITABILITY and AGGRESSION in ASD, not for ADHD symptoms. It does not improve attention and hyperactivity to the same extent as stimulants.",
+      "Atomoxetine is an alternative non-stimulant option (second-line). Some studies suggest it may be better tolerated than stimulants in ASD, but efficacy is lower. It has less abuse potential and may be preferred if there is comorbid anxiety.",
+      "Clonidine has some evidence for hyperarousal and sleep difficulties in ASD but is not first-line for ADHD symptoms.",
+      "Melatonin is for sleep difficulties in ASD (which are common), not for ADHD symptoms."
+    ],
+    "teaching_point": "ADHD in ASD: Common comorbidity (30-50% of ASD children meet ADHD criteria). Management: (1) Same NICE algorithm as for non-ASD children; (2) Start methylphenidate at lower dose (e.g., 2.5mg TDS IR for a 12-year-old vs 5mg TDS); (3) Monitor for increased irritability (a common side effect with methylphenidate in ASD); (4) Atomoxetine and guanfacine may be useful alternatives if stimulants not tolerated; (5) Comorbidities: sleep difficulties (melatonin, good sleep hygiene), anxiety (CBT), irritability/aggression (behavioural + risperidone only if severe).",
+    "domain": "child_adolescent",
+    "subdomain": "ADHD",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG87; RUPP Autism Network (2005) Methylphenidate in ASD; NICE CG170: Autism",
+    "tags": ["ADHD", "ASD", "methylphenidate", "autism", "treatment"]
+  },
+  {
+    "stem": "A 4-year-old boy is brought to his GP by his mother who is concerned about his language development. He was born full-term after an uncomplicated pregnancy. He sat at 6 months, walked at 14 months, but had delayed babbling and first words at 18 months (currently speaks only 10 single words). He does not point to show interest, avoids eye contact, and prefers to play alone, lining up his toy cars repetitively. He becomes distressed if his routine is changed. What is the most likely diagnosis?",
+    "options": [" Specific language impairment", " Global developmental delay", " Autism spectrum disorder", " Reactive attachment disorder", " Selective mutism"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Specific language impairment (now called developmental language disorder) involves language delay without the social communication deficits, repetitive behaviours, and insistence on sameness that are characteristic of ASD.",
+      "Global developmental delay would involve delays across all domains (motor, language, social, cognitive). This child has delayed language and social skills but normal motor milestones (sat at 6mo, walked at 14mo — within normal range).",
+      "CORRECT. This child meets DSM-5-TR criteria for autism spectrum disorder: A) Persistent deficits in social communication/interaction (poor eye contact, does not point, limited social interest). B) Restricted, repetitive patterns of behaviour (lining up toys, insistence on routine, distress at change). C) Symptoms present in early development (delayed first words, early social difficulties). Core features: (1) Social-emotional reciprocity deficits; (2) Nonverbal communication deficits; (3) Relationship difficulties; (4) Stereotyped/repetitive movements or speech; (5) Insistence on sameness; (6) Highly restricted, fixated interests; (7) Hyper/hyporeactivity to sensory input.",
+      "Reactive attachment disorder results from severe social neglect/ deprivation and presents with inhibited, emotionally withdrawn behaviour. This child has a normal caregiving environment described.",
+      "Selective mutism (now an anxiety disorder) involves consistent failure to speak in specific social situations where speaking is expected, despite speaking in other situations. There is no repetitive behaviour or insistence on sameness."
+    ],
+    "teaching_point": "ASD — epidemiology and aetiology: Prevalence ~1-2%. Male:Female 4:1 (but females may be underdiagnosed due to 'camouflaging'). Heritability ~80-90%. Strongest known genetic risk factors: 22q11.2 deletion, Fragile X, tuberous sclerosis. Environmental factors: advanced parental age, prematurity, valproate exposure in utero. Associated features: LD (~30-50%), epilepsy (~20-30%), ADHD, anxiety, sleep difficulties. Screening tools: M-CHAT (16-30 months), SCDC, AQ (adult). NICE CG170: 'Refer all children with suspected ASD to a multidisciplinary team for diagnostic assessment.' Early intervention is crucial.",
+    "domain": "child_adolescent",
+    "subdomain": "ASD",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "DSM-5-TR; NICE CG170: Autism spectrum disorder",
+    "tags": ["ASD", "autism", "diagnosis", "child", "early_features"]
+  },
+  {
+    "stem": "A 10-year-old boy with autism spectrum disorder presents with significant irritability, aggression towards his parents, and self-injurious behaviour (head-banging). Non-pharmacological behavioural interventions have been tried without adequate response. His sleep, communication, and sensory needs have been addressed. Which pharmacological treatment has the strongest evidence for managing severe irritability in ASD?",
+    "options": [" Methylphenidate", " Fluoxetine", " Risperidone", " Haloperidol", " Melatonin"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Methylphenidate treats ADHD symptoms, not irritability and aggression in ASD.",
+      "SSRIs (fluoxetine) may help anxiety and OCD symptoms but have limited and mixed evidence for irritability in ASD. They are not first-line for aggression.",
+      "CORRECT. Risperidone is the most studied medication for severe irritability, aggression, and self-injurious behaviour in ASD. It is licensed for this indication in children (5-16 years) when non-pharmacological measures have failed. Starting dose: 0.25mg daily, titrate slowly up to 0.5-2mg daily (max 3mg). Evidence: RUPP Autism Network (2002) — risperidone reduced irritability by 57% vs 14% placebo (ABC-Irritability subscale). Side effects: weight gain (mean 2.7kg over 8 weeks), sedation, increased prolactin. NB: NICE CG170 recommends risperidone as first-line pharmacological treatment for severe irritability/aggression in ASD.",
+      "Haloperidol was historically used but has been replaced by risperidone/aripiprazole due to EPS risk. Not first-line in children.",
+      "Melatonin is for sleep difficulties, a common comorbidity in ASD, not for aggression."
+    ],
+    "teaching_point": "Pharmacological management of irritability/aggression in ASD (NICE CG170): STEP 1: Assess triggers (pain, sensory overload, communication difficulties, sleep deprivation). STEP 2: Non-pharmacological — environmental modifications, behavioural interventions, communication support, treatment of sleep/medical problems. STEP 3: If severe and persistent: offer risperidone (0.25-2mg daily, licensed for 5-16 year olds) OR aripiprazole (alternative, also licensed). Monitor: weight, metabolic parameters, prolactin, EPS, sedation. Review at 4-6 weeks — discontinue if no benefit. Melatonin for sleep: 2-10mg nocte (off-label for children). SSRIs for anxiety/OCD: fluoxetine 10-20mg may be helpful but evidence is limited.",
+    "domain": "child_adolescent",
+    "subdomain": "ASD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG170: Autism; RUPP Autism Network (2002) Risperidone in ASD; BNFc",
+    "tags": ["ASD", "risperidone", "irritability", "aggression", "pharmacological"]
+  },
+  {
+    "stem": "A 14-year-old girl is brought to CAMHS by her mother who is concerned about her mood. She has been increasingly withdrawn, tearful, irritable, and has lost interest in her hobbies over the past 8 weeks. She has been sleeping poorly (initial insomnia) and her appetite has reduced — she has lost 3kg. PHQ-A (PHQ-Adolescent) score is 16. She has no history of self-harm or suicidal ideation. What is the most appropriate first-line treatment according to NICE guidelines?",
+    "options": [" Fluoxetine 10mg daily plus cognitive behavioural therapy", " Sertraline 50mg daily alone", " Citalopram 20mg daily plus family therapy", " Cognitive behavioural therapy alone", " Referral to inpatient unit"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE NG134 recommends for moderate-severe depression in young people (12-18 years): offer FLUOXETINE (10mg daily) PLUS A STRUCTURED PSYCHOLOGICAL THERAPY (CBT specifically for depression). This combination is the gold standard. Fluoxetine is the ONLY SSRI licensed for depression in children/adolescents in the UK. Starting dose: 10mg daily for 2 weeks, then increase to 20mg if tolerated. Do NOT use paroxetine (increased suicide risk) or venlafaxine (increased self-harm/suicidality).",
+      "Psychological therapy should always accompany medication in young people with moderate-severe depression. NICE does not recommend medication alone.",
+      "Citalopram is not licensed for under-18s. Fluoxetine is the only SSRI with a favourable risk-benefit profile for adolescent depression.",
+      "CBT alone is appropriate for MILD depression (persistent subthreshold). For moderate-severe depression (PHQ-A 16), medication + psychological therapy is recommended.",
+      "Inpatient referral is not indicated — there is no acute risk (no self-harm, no suicidality, no psychotic features, adequate oral intake)."
+    ],
+    "teaching_point": "NICE NG134 — Depression in children and young people: MILD depression: watchful waiting (2 weeks) → high-intensity psychological therapy (CBT, IPT, or family therapy) for 3 months. MODERATE-SEVERE depression: offer fluoxetine (10-20mg) PLUS CBT. Assessment: PHQ-A (adolescent version), MFQ (Mood and Feelings Questionnaire). Monitor for: suicidal ideation (increased in first weeks of treatment), mania switching, weight, growth. If no response to fluoxetine after 12 weeks: consider augmenting with CBT or switching to an alternative SSRI under specialist advice. DO NOT PRESCRIBE: paroxetine, venlafaxine (increase self-harm). SSRIs carry an FDA black box warning for increased suicidal ideation in under-25s (NNT 100 for benefit vs NNH 200 for self-harm). ECT: only in severe, life-threatening depression in adolescents.",
+    "domain": "child_adolescent",
+    "subdomain": "depression",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG134: Depression in children and young people",
+    "tags": ["adolescent", "depression", "fluoxetine", "CBT", "NICE_guidelines", "PHQ-A"]
+  },
+  {
+    "stem": "A 15-year-old girl presents with a 4-week history of low mood, anhedonia, poor sleep, reduced appetite, and poor concentration. She also reports hearing a voice telling her she is 'worthless and ugly'. She has no previous psychiatric history. She has been self-harming by cutting her forearms. She denies suicidal intent. PHQ-A score is 20. What is the most appropriate management?",
+    "options": [" Start fluoxetine 10mg daily and refer for CBT", " Start aripiprazole 2.5mg daily for psychotic symptoms plus fluoxetine", " Refer for urgent CAMHS assessment — consider admission for risk assessment and treatment planning", " Start sertraline 25mg daily and refer to school counselling", " Reassure and monitor — adolescent depression often resolves spontaneously"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Outpatient fluoxetine + CBT would be appropriate for moderate depression without risk. This patient has self-harm, psychotic features, and moderate-severe depression (PHQ-A 20). She needs a comprehensive multidisciplinary assessment.",
+      "Antipsychotic (aripiprazole) is not first-line for psychotic depression in adolescents. The priority is a full CAMHS assessment to manage risk and formulate the treatment plan.",
+      "CORRECT. This patient has: (1) Moderate-severe depression (PHQ-A 20); (2) Psychotic symptoms (auditory hallucinations congruent with low mood — likely mood-congruent psychosis); (3) Active self-harm; (4) Requires urgent multidisciplinary CAMHS assessment to: (a) assess suicide risk and safeguarding; (b) determine the need for admission (crisis/home treatment vs inpatient); (c) formulate management of psychotic depression (fluoxetine + antipsychotic + CBT or ECT if severe). NICE NG134: 'For young people with depression who are at significant risk of self-harm or suicide, offer an urgent assessment.' The presence of psychotic features in adolescent depression is a severity marker and may require admission.",
+      "Sertraline is not first-line for adolescent depression (fluoxetine is). School counselling is insufficient for this severity with psychosis and self-harm.",
+      "This approach would be dangerous given the psychotic features, self-harm, and severity."
+    ],
+    "teaching_point": "Depression with psychotic features in adolescents: Presentation: mood-congruent psychotic symptoms (guilt, punishment, nihilistic delusions; auditory hallucinations of a derogatory/commanding nature). Management: (1) Urgent CAMHS assessment — admission likely needed; (2) Antidepressant (fluoxetine) + antipsychotic (atypical — olanzapine, quetiapine) OR ECT for severe/refractory; (3) Assess suicide risk (psychotic depression has the highest suicide risk of all depressive subtypes); (4) Safeguarding plan. Differential: schizophrenia, bipolar (manic/mixed episode). Poor prognostic factors: psychosis, self-harm, family history of bipolar, substance misuse. NICE NG134: ECT may be considered for severe, life-threatening depression in adolescents.",
+    "domain": "child_adolescent",
+    "subdomain": "depression",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE NG134: Depression in children and young people",
+    "tags": ["adolescent", "psychotic_depression", "self-harm", "CAMHS", "admission"]
+  },
+  {
+    "stem": "According to research evidence, what is the approximate heritability of autism spectrum disorder?",
+    "options": [" 30-40%", " 50-60%", " 70-80%", " 80-90%", " 95-100%"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "30-40% is too low — ASD has one of the highest heritabilities among psychiatric conditions.",
+      "50-60% underestimates the heritability.",
+      "70-80% is closer but the best estimate from twin studies is higher.",
+      "CORRECT. Twin studies consistently estimate ASD heritability at 80-95%. An older twin study (Bailey et al., 1995) found 92% concordance in MZ twins vs 10% in DZ twins. More recent studies (Sandin et al., 2014, 2017 — the largest twin study to date, n=2M from Nordic registers) estimated heritability at 83% when a broad definition is used. The concordance rates are among the highest in psychiatry, comparable to bipolar disorder (80-85%) and higher than schizophrenia (70-80%). The remaining risk is due to non-shared environmental factors (prematurity, valproate exposure, advanced parental age).",
+      "100% is too high — environment plays a small but significant role."
+    ],
+    "teaching_point": "Heritability estimates in psychiatry (high-yield for MRCPsych): ASD: 80-95%. Bipolar disorder: 80-85%. Schizophrenia: 70-80%. ADHD: 70-80%. MDD: 30-40% (higher in women). GAD: 30-40%. Environmental risk factors for ASD: advanced paternal age, prematurity (<35 weeks), valproate/thalidomide/misoprostol in utero, maternal infection (rubella, CMV), birth complications. Key genes associated with ASD: SHANK3, NRXN1, NLGN3/4, MECP2 (Rett syndrome), FMR1 (Fragile X), TSC1/TSC2 (tuberous sclerosis), CHD8, CNTNAP2. Copy number variants (CNVs) are important — 22q11.2 deletions, 16p11.2.",
+    "domain": "child_adolescent",
+    "subdomain": "ASD",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Sandin S et al. (2017) ASD heritability in Nordic registers; Bailey A et al. (1995) Twin study of autism",
+    "tags": ["ASD", "heritability", "genetics", "twin_study"]
+  },
+  {
+    "stem": "An 8-year-old boy is referred with disruptive behaviour at school. He frequently bullies other children, has been caught stealing from shops, has deliberately destroyed school property, and has been aggressive towards his mother when she restricts his Xbox. He shows little remorse for his actions. These behaviours have been present for over 12 months. His teacher reports he has difficulty reading and has been behind his peers academically. What is the most likely diagnosis?",
+    "options": [" Attention deficit hyperactivity disorder", " Oppositional defiant disorder", " Conduct disorder — childhood-onset type", " Intermittent explosive disorder", " Antisocial personality disorder"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "ADHD involves inattention and hyperactivity/impulsivity. While it can co-occur with conduct disorder, the core features here are aggression towards people, destruction of property, theft, and violation of rules — these are the hallmarks of conduct disorder.",
+      "ODD involves angry/irritable mood, argumentative/defiant behaviour, and vindictiveness. It does NOT include the more severe behaviours seen here (physical cruelty, theft, destruction of property, lack of remorse). These are the 'severe' behaviours that escalate CD from ODD. ODD typically precedes CD developmentally.",
+      "CORRECT. Conduct disorder (DSM-5-TR): repetitive and persistent pattern of behaviour in which the basic rights of others or major age-appropriate societal norms/rules are violated, with at least 3 of 15 criteria in the past 12 months (at least 1 in past 6 months) across: A) Aggression to people/animals; B) Destruction of property; C) Deceitfulness or theft; D) Serious violations of rules. Childhood-onset type: at least one criterion before age 10 (worse prognosis). Adolescent-onset type: no criteria before age 10. Co-morbidities: ADHD (50%), learning difficulties, depression, substance misuse. This child has childhood-onset CD (aggression, theft, property destruction, rule violations).",
+      "IED involves recurrent impulsive aggressive outbursts disproportionate to provocation, but not the persistent pattern of rule violations and antisocial behaviours.",
+      "ASPD cannot be diagnosed before age 18. This child is only 8. (For MRCPsych: conduct disorder before 15 + ASPD after 18)."
+    ],
+    "teaching_point": "Conduct disorder: prevalence ~5-10% of children. Childhood-onset (<10): more common in boys, more aggressive, worse prognosis (often develops into ASPD). Adolescent-onset (10+): less aggressive, better prognosis. Risk factors: genetic (heritability ~50%), prenatal (maternal smoking, alcohol), temperamental (difficult temperament), parenting (harsh, inconsistent discipline), socio-economic deprivation, peer rejection, exposure to violence. Comorbidities: ADHD (50%), substance misuse, depression, dyslexia. Treatment: parent-training programmes (Incredible Years, Triple P), CBT for anger management, social skills training, functional family therapy, multimodal treatment. Pharmacological: no specific medication for CD — treat comorbid ADHD/ depression. NICE: offer parent-training programme for 3-11 year olds with CD.",
+    "domain": "child_adolescent",
+    "subdomain": "conduct",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "DSM-5-TR; NICE CG158: Conduct disorders",
+    "tags": ["conduct_disorder", "childhood_onset", "aggression", "ODD", "parent_training"]
+  },
+  {
+    "stem": "A 15-year-old girl is brought to A&E by ambulance after taking a paracetamol overdose (16 tablets, approximately 8g). She took the overdose impulsively after an argument with her boyfriend. She has a history of three similar overdoses in the past year and recurrent self-harm (cutting). She has been diagnosed with emotionally unstable personality disorder (borderline type). She says she does not want to die but 'couldn't cope'. What is the most appropriate immediate management?",
+    "options": [" Arrange urgent admission to a paediatric ward for medical management and CAMHS assessment", " Reassure and discharge with crisis team follow-up", " Start fluoxetine 20mg daily", " Refer for dialectical behaviour therapy as an outpatient", " Arrange a single session with the school counsellor"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Paracetamol overdose requires immediate medical management: (1) Check serum paracetamol level at 4 hours post-ingestion; (2) If level above treatment line, start N-acetylcysteine (NAC) to prevent hepatotoxicity; (3) Medical admission to paediatric ward; (4) CAMHS assessment once medically stable; (5) Risk and safeguarding assessment. Any young person who has taken an overdose requires a comprehensive CAMHS assessment before discharge. NICE NG134: 'For children and young people who have self-harmed, offer a comprehensive assessment of social, psychological, and motivational factors.'",
+      "It would be negligent to discharge without medical and psychiatric assessment after a significant paracetamol overdose.",
+      "Starting an antidepressant is not the immediate priority — medical stabilisation and mental health assessment come first.",
+      "DBT is a long-term treatment for BPD but is not appropriate in the acute management of an overdose.",
+      "School counselling is wholly insufficient after a significant overdose with recurrent self-harm."
+    ],
+    "teaching_point": "Self-harm in young people (NICE NG134): Self-harm is one of the strongest predictors of suicide. Management: (1) Medical assessment and treatment of the physical effects (paracetamol levels, NAC, ECG if overdose). (2) Psychosocial assessment by a trained CAMHS professional. (3) Collaborative safety plan. (4) Treat underlying mental health conditions (depression, BPD, PTSD). (5) Psychotherapy — DBT is the most evidence-based for recurrent self-harm in BPD. (6) Risk factors for suicide in young people: male, previous self-harm, substance misuse, conduct disorder, family history of suicide, access to means, psychotic depression. Statistics: UK has one of the highest rates of self-harm in Europe. Annual prevalence: ~10% of 15-16 year old females, ~4% of males.",
+    "domain": "child_adolescent",
+    "subdomain": "self-harm",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE NG134: Depression in children and young people; NICE CG78: BPD",
+    "tags": ["adolescent", "self-harm", "overdose", "paracetamol", "CAMHS", "risk_assessment"]
+  },
+  {
+    "stem": "A 6-year-old girl is referred for wetting her pants during the day and soiling her underwear. She has been toilet-trained since age 3 but started having accidents 3 months ago when her parents separated. Her parents report she is otherwise well, developmentally normal, and achieving at school. Physical examination and urinalysis are normal. What is the most likely diagnosis?",
+    "options": [" Non-organic enuresis (primary)", " Non-organic encopresis", " Non-organic enuresis (secondary) with associated encopresis", " Urinary tract infection", " Child sexual abuse"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Primary enuresis = the child has never achieved continence. This is secondary enuresis (onset after a period of continence, triggered by the stress of parental separation).",
+      "Encopresis alone would not explain daytime wetting. Both symptoms suggest a stress reaction.",
+      "CORRECT. Secondary enuresis (daytime and/or nighttime wetting after a period of at least 6 months of continence) is often triggered by psychological stress (parental separation, new sibling, school change, bereavement). Associated encopresis (soiling) is common. Management: (1) Reassurance — most cases resolve spontaneously once the stressor is managed; (2) Good toileting routine (regular toileting, adequate time); (3) Reward system (star chart); (4) Treat constipation if present (can cause overflow incontinence); (5) Family support — address the underlying stressor. This is a common presentation in child psychiatry.",
+      "UTI is excluded by urinalysis. UTI typically presents with dysuria, frequency, and fever — not isolated soiling.",
+      "Child sexual abuse must be considered in any child presenting with new-onset enuresis/encopresis, particularly if there are other red-flag signs (sexualised behaviour, anal/ genital trauma, abdominal pain). However, the presence of a clear psychosocial stressor (parental separation) makes this a less likely primary cause, though appropriate safeguarding enquiries should still be made."
+    ],
+    "teaching_point": "Enuresis and encopresis: ENURESIS: involuntary voiding of urine — primary (never dry) vs secondary (after ≥6 months of dryness). Nocturnal only (most common), diurnal, or mixed. Peak age: 5-7 years. 5-year-olds: 10-15% nocturnal enuresis. Treatment: (1) Reassurance + education; (2) Enuresis alarm (best evidence); (3) Desmopressin (synthetic ADH) for short-term use. ENCOPRESIS: repeated passage of faeces into inappropriate places (≥1/month for ≥3 months). Associated with constipation (80-90%). Treatment: (1) Disimpaction (movicol); (2) Maintenance laxatives; (3) Regular toileting; (4) Reward system. Psychological causes: stress, family dysfunction, coercive toilet training. Safeguarding: always consider abuse in new-onset soiling without clear cause.",
+    "domain": "child_adolescent",
+    "subdomain": "elimination_disorders",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "DSM-5-TR; NICE CG99: Enuresis; NICE CG49: Constipation in children",
+    "tags": ["enuresis", "encopresis", "secondary_enuresis", "stress", "child"]
+  }
+]

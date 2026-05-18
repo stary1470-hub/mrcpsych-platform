@@ -1,0 +1,1005 @@
+[
+  {
+    "stem": "An 18-year-old man presents with a 6-month history of social withdrawal, declining academic performance, and unusual beliefs. He reports that his thoughts are being broadcast on television and that strangers can hear his private thoughts. He has no previous psychiatric history, no substance use, and a normal physical examination with baseline bloods including prolactin. What is the most likely diagnosis?",
+    "options": [" Paranoid schizophrenia", " Schizotypal disorder", " First episode psychosis due to cannabis use", " Schizoaffective disorder", " Adolescent identity crisis"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Paranoid schizophrenia is the most likely diagnosis. The patient has symptoms that have persisted for 6 months (meeting the duration criterion of >1 month for active phase symptoms under ICD-11 and DSM-5-TR) with core features: thought broadcasting (a first-rank Schneiderian symptom, confirming thought alienation), delusions of reference (television talking about him), and social/occupational decline. The absence of prominent mood symptoms makes schizoaffective disorder less likely.",
+      "Schizotypal disorder is a personality disorder characterized by odd behaviour, unusual beliefs (but not frankly psychotic), magical thinking, and social anxiety. It does not include first-rank symptoms like thought broadcasting. It is a long-standing pattern, not an acute deterioration over 6 months.",
+      "Cannabis-induced psychotic disorder requires evidence of cannabis use and a temporal relationship. This patient has no substance use history. While cannabis can precipitate psychosis in vulnerable individuals, the 6-month duration with clear first-rank symptoms points to a primary psychotic disorder.",
+      "Schizoaffective disorder requires concurrent prominent mood symptoms (depressive or manic) that meet criteria for a mood episode for a substantial proportion of the total illness duration. These features are absent.",
+      "An adolescent identity crisis would not explain first-rank psychotic symptoms or sustained functional decline over 6 months."
+    ],
+    "teaching_point": "First-rank Schneiderian symptoms of schizophrenia include: auditory hallucinations (third-person, running commentary, thought echo), thought alienation (broadcast, insertion, withdrawal, echo), passivity phenomena (made feelings/impulses/volition, somatic passivity), and delusional perception. These were classically pathognomonic of schizophrenia in the Schneiderian system but are now considered highly suggestive rather than diagnostic. DSM-5-TR and ICD-11 require: at least 2 of 5 core symptoms (delusions, hallucinations, disorganised speech, grossly disorganised behaviour, negative symptoms) with at least one being a core symptom (delusions, hallucinations, disorganised speech), present for at least 1 month with functional decline lasting at least 6 months.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "ICD-11 (6A20); DSM-5-TR; NICE CG178: Psychosis and schizophrenia",
+    "tags": ["schizophrenia", "first_rank_symptoms", "thought_broadcast", "diagnosis", "Schneider"]
+  },
+  {
+    "stem": "According to DSM-5-TR criteria for schizophrenia, what is the minimum duration of active psychotic symptoms (Criterion A) required for diagnosis?",
+    "options": [" 1 week", " 2 weeks", " 1 month", " 3 months", " 6 months"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "1 week is too brief — this would meet criteria for brief psychotic disorder (<1 month). Schizophrenia requires at least 1 month of active-phase symptoms.",
+      "2 weeks similarly point to a brief psychotic disorder or substance-induced psychotic disorder.",
+      "CORRECT. DSM-5-TR requires at least 1 month of active-phase symptoms (or less if successfully treated) meeting Criterion A (at least 2 of: delusions, hallucinations, disorganised speech, grossly disorganised/catatonic behaviour, negative symptoms, with at least one being delusions, hallucinations, or disorganised speech). The 6-month total duration criterion includes prodromal and residual phases.",
+      "3 months is not a standard DSM-5 threshold.",
+      "6 months is the total duration of the illness (including prodromal, active, and residual phases), not the active-phase symptom duration."
+    ],
+    "teaching_point": "ICD-11 vs DSM-5-TR — duration differences for schizophrenia: ICD-11 requires symptoms present for at least 1 month. DSM-5-TR requires active-phase symptoms for at least 1 month (Criterion A) PLUS continuous signs of disturbance for at least 6 months (which may include prodromal/residual symptoms). Brief psychotic disorder: 1 day to 1 month. Schizophreniform disorder (DSM-5 only): 1-6 months. Schizoaffective disorder requires mood symptoms present for the majority of the total duration AND at least 2 weeks of psychosis without mood symptoms. Key exam point: the 6-month criterion is total illness duration including prodrome/residual, NOT the duration of active psychosis.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "DSM-5-TR; ICD-11; NICE CG178",
+    "tags": ["schizophrenia", "DSM-5", "diagnosis", "diagnostic_criteria", "duration"]
+  },
+  {
+    "stem": "A 22-year-old man presents with a first episode of psychosis. He has paranoid delusions that his flatmates are poisoning his food and auditory hallucinations commenting on his behaviour. He has no previous psychiatric history, no medical issues, and no substance use. His baseline bloods (U&Es, LFTs, TFTs, prolactin, HbA1c, lipids) and ECG are normal. According to NICE guidelines, which antipsychotic should be offered first-line?",
+    "options": [" Olanzapine 10mg daily", " Haloperidol 5mg daily", " Risperidone 4mg daily", " Clozapine 12.5mg BD", " Any oral antipsychotic licensed for first-episode psychosis, in consultation with the patient about side-effect profile and preferences"],
+    "correct_index": 4,
+    "distractors_rationale": [
+      "Olanzapine is an effective antipsychotic, but it is not recommended as first-line for first-episode psychosis by NICE due to metabolic side effects (weight gain, dyslipidaemia, diabetes risk). It should be reserved for patients who have failed trials of other antipsychotics or who specifically prefer it after discussion of side effects.",
+      "Haloperidol is effective but carries a high risk of extrapyramidal side effects (EPS), which are poorly tolerated and associated with poor adherence. It is not the preferred first-line antipsychotic in first-episode psychosis.",
+      "Risperidone is effective and commonly used in first-episode psychosis. However, NICE does not mandate a specific antipsychotic — the key principle is shared decision-making. Risperidone carries prolactin elevation and weight gain risks.",
+      "Clozapine is reserved for treatment-resistant schizophrenia (failure of at least two adequate trials of different antipsychotics). It is not indicated in first-episode psychosis.",
+      "CORRECT. NICE CG178 recommends: 'Offer oral antipsychotic medication in conjunction with psychological interventions (CBT and family intervention). The choice of antipsychotic should be made jointly with the patient after discussing the likely benefits and potential side effects of each drug.' No single antipsychotic is recommended as first-line. The patient's preference and side-effect profile are the main determinants. Low-dose antipsychotic (e.g., olanzapine 2.5-5mg, risperidone 1-2mg, aripiprazole 5-10mg) is often started and slowly titrated. The key principle: 'start low, go slow'."
+    ],
+    "teaching_point": "NICE CG178 on antipsychotic choice in first-episode psychosis: (1) Offer oral antipsychotic + CBT + family intervention; (2) Choice is a shared decision considering side-effect profiles — no single agent is recommended as first-line; (3) Start at a low dose and titrate slowly ('start low, go slow'); (4) Monitor physical health: weight, HbA1c, lipids, prolactin, ECG at baseline and regularly; (5) Offer a trial of at least 2 different antipsychotics (adequate dose, 4-6 weeks) before considering clozapine for treatment resistance; (6) The LAI (long-acting injectable) should be considered if the patient prefers it or if oral adherence is a concern.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178: Psychosis and schizophrenia in adults (updated 2024)",
+    "tags": ["psychosis", "first_episode", "antipsychotic", "NICE_guidelines", "shared_decision_making"]
+  },
+  {
+    "stem": "A 24-year-old woman was started on risperidone 2mg daily for first-episode psychosis 6 weeks ago with good resolution of her psychotic symptoms. At her follow-up appointment, she reports that she has developed breast tenderness, galactorrhoea, and amenorrhoea. Her prolactin level is 2200 mIU/L (normal range <500). What is the most appropriate management?",
+    "options": [" Add amantadine 100mg BD to reduce prolactin", " Prescribe bromocriptine 2.5mg daily", " Switch antipsychotic to a prolactin-sparing agent (aripiprazole or quetiapine)", " Start oral contraceptive pill to regulate menstruation", " Reassure and continue risperidone — prolactin elevation is transient and self-limiting"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Amantadine has been used for antipsychotic-induced hyperprolactinaemia but has limited evidence and can worsen psychosis. It is not first-line.",
+      "Dopamine agonists (bromocriptine, cabergoline) can reduce prolactin but carry a risk of worsening psychosis (dopamine agonism). They are reserved for severe, symptomatic hyperprolactinaemia that does not respond to antipsychotic switching and where antipsychotic change is not possible.",
+      "CORRECT. Switching to a prolactin-sparing antipsychotic is the first-line management. Aripiprazole (partial dopamine agonist) has the lowest prolactin elevation risk — it can even lower prolactin from elevated levels. Quetiapine and olanzapine also have minimal prolactin elevation. Risperidone and amisulpride have the highest prolactin elevation risk. The switch should be gradual (cross-titration) to avoid relapse.",
+      "The oral contraceptive pill treats the symptom (amenorrhoea) but not the underlying cause. It does not address galactorrhoea or the long-term risks of hyperprolactinaemia (reduced bone density, hypogonadism).",
+      "This is incorrect. Symptomatic hyperprolactinaemia (galactorrhoea, amenorrhoea, sexual dysfunction) requires intervention. It will not resolve on continued risperidone and carries long-term health risks."
+    ],
+    "teaching_point": "Antipsychotic-induced hyperprolactinaemia: Risperidone and amisulpride have the highest risk (prolactin elevation up to 10× normal). Haloperidol and typical antipsychotics have moderate risk. Olanzapine, quetiapine, and clozapine have low risk. Aripiprazole has the lowest risk (partial agonist at D2 receptors — can lower prolactin). Management: (1) Switch to prolactin-sparing agent (first-line); (2) If switch not possible → consider dose reduction, add aripiprazole augmentation (off-label), or use dopamine agonist under specialist supervision. Long-term risks of untreated hyperprolactinaemia: reduced bone mineral density, hypogonadism, infertility, sexual dysfunction.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; BNF",
+    "tags": ["antipsychotic", "hyperprolactinaemia", "risperidone", "aripiprazole", "side_effects"]
+  },
+  {
+    "stem": "A 28-year-old man with treatment-resistant schizophrenia has been on clozapine 400mg daily for 8 weeks. There has been significant improvement in his positive symptoms. His baseline neutrophil count was 4.0 × 10⁹/L. His current neutrophil count has dropped to 1.8 × 10⁹/L. What is the most appropriate management according to the clozapine monitoring protocol?",
+    "options": [" Stop clozapine immediately and refer to haematology", " Continue clozapine and increase monitoring frequency to weekly", " Continue clozapine and increase monitoring to twice weekly", " Stop clozapine and restart clozapine when neutrophils recover to >2.0", " Reduce clozapine dose to 300mg and recheck in 2 weeks"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Stopping clozapine immediately is not indicated unless neutrophils fall below 1.0 × 10⁹/L (amber alert) or 0.5 × 10⁹/L (red alert). A count of 1.8 is in the green range.",
+      "Weekly monitoring is the standard schedule for the first 18 weeks. This patient is at week 8, so he should already be on weekly monitoring. However, a drop from 4.0 to 1.8 within the green range requires TWICE-weekly monitoring per the clozapine monitoring protocol when there is a significant drop (>50% from baseline).",
+      "CORRECT. The clozapine monitoring protocol defines: Green (neutrophils ≥1.5 × 10⁹/L) — continue clozapine. However, a significant drop (>50% from baseline) or a count <2.0 requires increased monitoring to TWICE WEEKLY. This patient's neutrophils dropped from 4.0 to 1.8 (>50% drop, and <2.0), so twice-weekly monitoring is indicated. Clozapine is continued at the same dose.",
+      "Not indicated at this level. The amber threshold (stop and liaise with haematology) is neutrophils 1.0-1.5 × 10⁹/L. The red threshold (stop immediately) is <0.5 × 10⁹/L.",
+      "Dose reduction does not reliably affect neutrophil counts. The clozapine-induced neutropenia is an idiosyncratic reaction, not dose-dependent. Dose reduction would risk relapse without improving the neutrophil count."
+    ],
+    "teaching_point": "Clozapine monitoring: Monitored through the Clozapine Patient Monitoring Service (CPMS, formerly ZTAS/Clozaril). Schedule: (1) Before starting — baseline FBC and U&Es; (2) Weekly for 18 weeks; (3) Fortnightly for the next 34 weeks (to week 52); (4) Monthly thereafter. Thresholds: Green (≥2.0) — continue, standard monitoring. Amber (1.0-1.5) — stop, daily FBC, haematology review. Red (<0.5) — stop permanently, consider G-CSF. A significant drop (>50% from baseline) requires increased monitoring. Rechallenge after red reaction is NOT recommended (risk of fatal agranulocytosis). Note: Benign ethnic neutropenia (BEN) affects people of Afro-Caribbean descent — lower thresholds apply (green ≥1.3, amber 0.5-1.3).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Clozapine Patient Monitoring Service (CPMS)",
+    "tags": ["clozapine", "neutropenia", "monitoring", "haematological", "safety"]
+  },
+  {
+    "stem": "Which of the following is the strongest predictor of clozapine-induced myocarditis?",
+    "options": [" Female gender", " Age over 50", " Rapid dose titration in the first 2 weeks", " Pre-existing cardiac disease", " Concomitant use of SSRIs"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Myocarditis is more common in younger patients (<40 years), not female gender or older age.",
+      "Age over 50 is not a specific risk factor. Clozapine-induced myocarditis is more common in younger adults.",
+      "CORRECT. Rapid dose titration is the strongest risk factor for clozapine-induced myocarditis. The incidence is highest in the first 2-4 weeks of treatment. The standard titration schedule is slow: 12.5mg on day 1, 25mg on day 2, then incremental increases of 25-50mg every 2-3 days. Faster titration significantly increases the risk. Other risk factors: younger age (<40), male gender, concomitant sodium valproate (controversial), and pre-existing cardiac disease.",
+      "Pre-existing cardiac disease increases the risk of cardiac adverse effects generally, but the strongest modifiable risk factor for clozapine-induced myocarditis is dose titration rate.",
+      "SSRIs are not specifically associated with increased myocarditis risk. Fluvoxamine and paroxetine increase clozapine levels via CYP450 inhibition but this relates to toxicity/sedation, not specifically myocarditis."
+    ],
+    "teaching_point": "Clozapine-induced myocarditis: Incidence ~0.3-3%. Key features: presents within the first 2-4 weeks (peak at 14-21 days). Symptoms: fever, tachycardia, chest pain, dyspnoea, flu-like symptoms. Investigations: elevated troponin, CRP, CK-MB; ECG changes (ST/T wave changes); echocardiogram (reduced ejection fraction). Management: immediate clozapine cessation, cardiology referral. Do NOT rechallenge. Increased monitoring is recommended: baseline troponin and CRP, then weekly for the first 4 weeks. The slow titration schedule is critical for risk reduction. Pericarditis is also recognised (peak at 2-4 months). Cardiomyopathy is a later complication (usually >6 months).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Ronaldson KJ et al. Schizophr Res 2015",
+    "tags": ["clozapine", "myocarditis", "titration", "cardiovascular", "monitoring"]
+  },
+  {
+    "stem": "A 36-year-old man with treatment-resistant schizophrenia has been on clozapine 450mg daily for 2 years. He has been stable with no psychotic relapses. He presents complaining of significant weight gain (15kg over 2 years) and has recently been diagnosed with type 2 diabetes mellitus (HbA1c 72 mmol/mol). His BMI is 34. What is the most appropriate management?",
+    "options": [" Stop clozapine and switch to aripiprazole", " Reduce clozapine dose to minimise metabolic side effects", " Continue clozapine and manage diabetes/metabolic effects with lifestyle and pharmacological interventions", " Add metformin 500mg TDS and continue clozapine", " Switch clozapine to olanzapine which has lower metabolic risk"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Aripiprazole does not cause as much metabolic disturbance as clozapine, but switching from clozapine carries a high risk of psychotic relapse. Clozapine is still the most effective antipsychotic for treatment-resistant schizophrenia. The metabolic effects should be managed alongside continuing clozapine.",
+      "Dose reduction may help slightly but at the cost of increased relapse risk. The metabolic effects of clozapine are not strictly dose-dependent in a linear fashion.",
+      "CORRECT. The principle is: do NOT stop clozapine for metabolic reasons — it is the most effective antipsychotic for treatment-resistant schizophrenia. Instead, manage the metabolic side effects aggressively: (1) lifestyle advice (diet, exercise); (2) monitor weight, HbA1c, lipids regularly; (3) consider metformin (off-label) for clozapine-induced weight gain and diabetes; (4) consider adding aripiprazole (augmentation) which may reduce weight and improve metabolic profile; (5) manage diabetes per NICE NG28.",
+      "Metformin is an evidence-based intervention for clozapine-induced weight gain and metabolic dysfunction. While this is a correct management strategy, the question asks for the 'most appropriate management' — which is the overall principle of continuing clozapine and managing the metabolic effects. Metformin is one component of this.",
+      "Olanzapine has a similar or possibly worse metabolic profile than clozapine (weight gain, diabetes risk). Switching to olanzapine would be trading one metabolic liability for another, with high relapse risk."
+    ],
+    "teaching_point": "Clozapine and metabolic syndrome: Clozapine has the highest risk of weight gain and metabolic disturbance of all antipsychotics. Weight gain >7% occurs in 50-80% of patients. Up to 25-30% develop metabolic syndrome over 1 year. Management: (1) baseline and regular monitoring (weight, HbA1c, lipids); (2) lifestyle interventions (dietetic referral, exercise); (3) metformin 500mg-2g daily (off-label, evidence supports ~3kg weight reduction); (4) aripiprazole augmentation (5-15mg) — may reduce weight and prolactin; (5) do NOT stop clozapine for metabolic reasons alone — the risk of relapse far outweighs the metabolic risk. NICE CG178: 'Do not routinely switch antipsychotic to manage weight gain — offer lifestyle interventions and consider metformin.'",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; NICE NG28: Diabetes; Maudsley Prescribing Guidelines",
+    "tags": ["clozapine", "weight_gain", "diabetes", "metabolic_syndrome", "metformin"]
+  },
+  {
+    "stem": "A 26-year-old woman with first-episode psychosis was started on olanzapine 5mg daily 2 weeks ago. She gained 4kg in the first week and her appetite has significantly increased. She is distressed by this and wants to know what can be done. Her psychotic symptoms are improving. According to NICE guidelines, what is the most appropriate management?",
+    "options": [" Switch to aripiprazole due to olanzapine-induced weight gain", " Reduce olanzapine to 2.5mg daily", " Start metformin 500mg BD", " Reassure that weight gain will plateau and offer dietary advice", " Add orlistat 120mg TDS"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE CG178 states: 'If a person gains more than 7% of their baseline body weight at any time, consider switching to an antipsychotic with a lower risk of weight gain.' This patient has gained 4kg in 2 weeks (rapid weight gain — though not yet >7% of baseline, the trajectory is concerning and the patient is distressed). Aripiprazole has the lowest weight gain risk among antipsychotics (weight neutral or minimal gain). This is a reasonable switch early in treatment. Other lower-metabolic-risk options include lurasidone, ziprasidone (not widely used in UK), or haloperidol (but EPS risk).",
+      "Dose reduction may slow weight gain but is unlikely to reverse it and risks psychotic relapse. Weight gain with olanzapine occurs even at low doses and is probably mediated through histamine H1 and serotonergic antagonism.",
+      "Metformin is an option but is not first-line. NICE recommends considering switching antipsychotic first. Metformin can be offered if switching is not acceptable or appropriate.",
+      "Reassurance alone is insufficient when the patient is distressed and the trajectory of weight gain indicates long-term metabolic harm. Active intervention is needed.",
+      "Orlistat is not recommended for antipsychotic-induced weight gain. It is a lipase inhibitor that can cause gastrointestinal side effects and interacts with absorption of medications."
+    ],
+    "teaching_point": "Antipsychotic weight gain — high vs low risk: High risk: clozapine, olanzapine (most weight gain). Moderate risk: risperidone, quetiapine, paliperidone, amisulpride. Low risk: aripiprazole, lurasidone, ziprasidone, haloperidol (lowest). NICE CG178: weight should be monitored weekly for the first 6 weeks, at 12 weeks, and then every 6 months. If >7% weight gain: consider switching to an antipsychotic with lower liability. If no switch possible: offer lifestyle interventions, consider metformin (off-label). Weight gain mechanisms: H1 antagonism (appetite), 5-HT2C antagonism, possibly via M3 antagonism and altered adipokine regulation.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["antipsychotic", "weight_gain", "olanzapine", "aripiprazole", "NICE_guidelines", "metabolic"]
+  },
+  {
+    "stem": "Which of the following is NOT a recognised risk factor for antipsychotic-induced QTc prolongation?",
+    "options": [" Female gender", " Hypokalaemia", " Concomitant use of clarithromycin", " Concomitant use of omeprazole", " Age over 65"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Female gender is a recognised risk factor for QTc prolongation. Women have a longer baseline QTc interval and a higher risk of Torsades de Pointes (TdP) with QTc-prolonging drugs.",
+      "Hypokalaemia is a major risk factor. Electrolyte disturbances (K+, Mg2+, Ca2+) prolong cardiac repolarisation and increase arrhythmia risk.",
+      "Clarithromycin is a macrolide antibiotic that prolongs QTc by blocking the hERG (human ether-à-go-go-related gene) potassium channel. It also inhibits CYP3A4, increasing levels of QTc-prolonging antipsychotics (e.g., haloperidol, pimozide). Concomitant use of multiple QTc-prolonging drugs has additive risk.",
+      "CORRECT. Omeprazole (proton pump inhibitor) has no significant QTc-prolonging effect and is not a risk factor. It is not listed on crediblemeds.org as a QTc-prolonging drug.",
+      "Age over 65 is a risk factor due to age-related cardiac changes, polypharmacy, and reduced drug clearance."
+    ],
+    "teaching_point": "QTc prolongation risk factors: Non-modifiable: female gender, age >65, pre-existing cardiac disease, congenital long QT syndrome, family history of sudden death. Modifiable: hypokalaemia, hypomagnesaemia, hypocalcaemia, bradycardia, use of QTc-prolonging drugs (especially >2 drugs). High-risk antipsychotics: haloperidol (especially IV), pimozide, ziprasidone, amisulpride (at high doses). Moderate risk: quetiapine, risperidone. Low risk: olanzapine, aripiprazole, lurasidone. ECG monitoring: baseline and after dose increases for all antipsychotics (NICE CG178). If QTc >500ms or increases >60ms from baseline: review treatment urgently, check electrolytes, stop offending drug, consider cardiology review. The BNF lists specific QTc prolongation warnings.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "BNF; Maudsley Prescribing Guidelines; NICE CG178; CredibleMeds.org",
+    "tags": ["QTc", "antipsychotic", "cardiac", "risk_factors", "ECG_monitoring"]
+  },
+  {
+    "stem": "A 32-year-old man with treatment-resistant schizophrenia has failed trials of risperidone and olanzapine at adequate doses for 8 weeks each. He has been started on clozapine and is currently titrating up. On day 14 of treatment (250mg daily), he develops a fever of 38.5°C, tachycardia (110bpm), and complains of chest tightness. His CRP is 85 mg/L and troponin I is elevated at 0.8 ng/mL. ECG shows sinus tachycardia. What is the most likely diagnosis and the most appropriate immediate management?",
+    "options": [" Community-acquired pneumonia — start antibiotics and continue clozapine", " Clozapine-induced myocarditis — stop clozapine immediately and refer to cardiology", " Clozapine-induced agranulocytosis — check FBC urgently", " Neuroleptic malignant syndrome — stop clozapine and start dantrolene", " Serotonin syndrome — stop all medications and provide supportive care"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Pneumonia is in the differential, but the timing (day 14 of clozapine), elevated troponin, and clinical picture are classic for clozapine-induced myocarditis. Concomitant infection is possible, but the working diagnosis must be myocarditis as it is potentially fatal.",
+      "CORRECT. Clozapine-induced myocarditis typically presents within the first 2-4 weeks (peak day 14-21). Features: fever, tachycardia, chest pain/dyspnoea, flu-like symptoms. Elevated troponin and CRP are diagnostic hallmarks. Immediate management: (1) STOP clozapine immediately; (2) refer to cardiology for ECG, echocardiogram; (3) check full cardiac panel (troponin, CRP, CK-MB, BNP); (4) supportive care. Do NOT rechallenge — the mortality of rechallenge after myocarditis is very high.",
+      "Agranulocytosis typically presents with fever and infection (sore throat, mouth ulcers) but NOT chest pain or elevated troponin. FBC would show low neutrophils. The clinical picture (chest pain, troponin elevation) points to a cardiac cause.",
+      "NMS presents with fever, rigidity, autonomic instability, and altered mental status — typically NOT chest pain or isolated troponin elevation. CK is elevated but troponin distinguishes myocardial injury.",
+      "Serotonin syndrome presents with clonus, hyperreflexia, tremor, hyperthermia, and autonomic instability. It is associated with serotonergic drugs (SSRIs, MAOIs, lithium augmentation), not typically clozapine monotherapy."
+    ],
+    "teaching_point": "Clozapine-induced myocarditis — key exam scenario: (1) Timing: days 14-21 of treatment; (2) Presentation: flu-like symptoms, fever, tachycardia, chest pain, dyspnoea; (3) Ix: elevated troponin, CRP, CK-MB; (4) ECG: non-specific ST/T changes, sinus tachycardia; (5) Echo: reduced LVEF; (6) Management: STOP clozapine, emergency cardiology referral, NO rechallenge; (7) Monitor: baseline troponin/CRP before starting and weekly for 4 weeks. Incidence ~0.3-3%, mortality up to 10-20% if not recognised early. Clozapine-induced cardiomyopathy presents later (>6 months) with congestive heart failure. Clozapine-induced pericarditis (peak 2-4 months) with positional chest pain and pericardial rub.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Ronaldson KJ et al. (2015) Clozapine-induced myocarditis",
+    "tags": ["clozapine", "myocarditis", "cardiac", "emergency", "troponin", "monitoring"]
+  },
+  {
+    "stem": "A 35-year-old man with treatment-resistant schizophrenia has been on clozapine 500mg daily for 3 years with good symptom control. He presents with hypersalivation that is socially embarrassing and causing him to avoid going out. What is the most appropriate pharmacological management for clozapine-induced hypersalivation?",
+    "options": [" Hyoscine hydrobromide 300mcg TDS", " Pirenzepine 50mg daily", " Glycopyrrolate 1mg TDS", " Atropine eye drops 1% sublingually", " Oral hygiene advice and reassurance only"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Hyoscine is an antimuscarinic that can reduce salivation but crosses the blood-brain barrier, potentially causing cognitive impairment and worsening psychosis. It is less selective for peripheral M3 receptors.",
+      "CORRECT. Pirenzepine is an M1/M3 muscarinic antagonist that does not cross the BBB (does not enter the CNS), making it ideal for clozapine-induced hypersalivation. It works by blocking the M3 receptors on salivary glands. The dose is 50-100mg daily (off-label in the UK). It reduces salivary flow by up to 50%. Alternatives include sublingual atropine drops, hyoscine, and glycopyrrolate (peripheral antimuscarinic). The Maudsley Guidelines recommend pirenzepine or atropine 1% drops sublingually.",
+      "Glycopyrrolate is a peripheral antimuscarinic (quaternary amine, does not cross BBB) that is effective but less widely used. It causes constipation, blurred vision, and urinary retention more than pirenzepine.",
+      "Atropine 1% eye drops administered sublingually (1-2 drops) is an effective and commonly used treatment in clinical practice. However, pirenzepine is the most specifically studied and recommended agent in the Maudsley Guidelines for this indication.",
+      "Reassurance alone is insufficient given the significant social impact. Hypersalivation affects up to 30-80% of clozapine patients and is a common reason for non-adherence."
+    ],
+    "teaching_point": "Clozapine-induced hypersalivation (sialorrhoea): Mechanism — clozapine is a potent M4 agonist (despite being M1-M3 antagonist), causing excessive salivation, especially at night. Management stepwise: (1) Reassurance, sleep with towel; (2) Sublingual atropine 1% drops (1-2 drops PRN); (3) Pirenzepine 50-100mg daily (off-label, does not cross BBB); (4) Glycopyrrolate 1-2mg TDS or hyoscine; (5) Add amisulpride or aripiprazole augmentation (may reduce clozapine dose and thus salivation). Avoid TCAs (additive anticholinergic side effects). Note: pirenzepine is not widely available in the UK — atropine drops are the most practical first-line intervention in many NHS settings.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; BNF",
+    "tags": ["clozapine", "hypersalivation", "sialorrhoea", "pirenzepine", "atropine", "side_effects"]
+  },
+  {
+    "stem": "A 44-year-old man with a 20-year history of schizophrenia has been stable on flupentixol decanoate (depot) 40mg IM every 2 weeks for 5 years. He is a heavy smoker (30 cigarettes/day). At a routine physical health check, he is found to have a fasting glucose of 7.8 mmol/L. His BMI is 30. He has no family history of diabetes. What is the most appropriate next step?",
+    "options": [" Switch flupentixol to aripiprazole LAI due to metabolic side effects", " Start metformin 500mg BD", " Reduce flupentixol dose to minimise metabolic disturbance", " Arrange a fasting HbA1c and glucose tolerance test, and offer lifestyle advice", " Add olanzapine 5mg daily to the depot regime"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Flupentixol (first-generation depot) has a lower metabolic risk than second-generation antipsychotics (e.g., olanzapine, clozapine). Switching is not the first step — the glucose level needs further investigation first.",
+      "Metformin should not be started without confirming the diagnosis of diabetes. A single random/fasting glucose of 7.8 is suspicious but requires confirmation with a second fasting glucose or HbA1c.",
+      "Dose reduction is not indicated and risks relapse. The glucose disturbance needs formal investigation.",
+      "CORRECT. A fasting glucose of 7.8 mmol/L is above the normal range (normal fasting glucose <6.1). Impaired fasting glucose is 6.1-6.9. Diabetes is diagnosed on two separate fasting readings ≥7.0 OR HbA1c ≥48 mmol/mol (6.5%). The appropriate steps are: (1) confirm with a second fasting glucose and HbA1c; (2) arrange OGTT if needed; (3) offer lifestyle advice (diet, exercise, smoking cessation); (4) consider risk factors — heavy smoking increases diabetes risk and may lower antipsychotic levels (smoking induces CYP1A2).",
+      "Olanzapine has significant metabolic risk and would worsen the situation. Adding it for metabolic reasons makes no clinical sense."
+    ],
+    "teaching_point": "Metabolic monitoring on antipsychotics (NICE CG178): Baseline: weight, BMI, HbA1c (or fasting glucose), lipids (total, LDL, HDL, triglycerides), prolactin. Follow-up: weight weekly for 6 weeks → at 12 weeks → annually; HbA1c and lipids at 12 weeks → annually; prolactin at 6 months. Smoking interaction: smokers require higher antipsychotic doses because smoking induces CYP1A2 (which metabolises clozapine, olanzapine, flupentixol). Heavy smoking is an independent diabetes risk factor. FEPs (first-generation antipsychotics) have lower metabolic risk than SGAs (second-generation) except for haloperidol which carries higher EPS risk. Diabetes screening threshold: if any single abnormal glucose test, confirm with a second test.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; NICE NG28: Diabetes; Maudsley Prescribing Guidelines",
+    "tags": ["antipsychotic", "diabetes", "metabolic_monitoring", "smoking", "flupentixol"]
+  },
+  {
+    "stem": "The CUtLASS 1 trial investigated which of the following in the treatment of schizophrenia?",
+    "options": [" The superiority of second-generation antipsychotics over first-generation antipsychotics", " The efficacy of clozapine versus other antipsychotics in treatment-resistant schizophrenia", " The cost-effectiveness of depot antipsychotics", " The effect of cognitive behavioural therapy in early psychosis", " The long-term outcomes of early intervention services"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. CUtLASS 1 (Cost Utility of the Latest Antipsychotic Drugs in Schizophrenia Study) found that second-generation antipsychotics (SGAs) as a group were NOT superior to first-generation antipsychotics (FGAs) when used in typical clinical practice for patients with schizophrenia. The exception was clozapine, which was superior for treatment-resistant patients. This was a landmark pragmatic trial (n=227) that challenged the prevailing assumption that newer (atypical) drugs were more effective than older (typical) drugs.",
+      "CUtLASS 2 investigated clozapine vs other antipsychotics in treatment-resistant schizophrenia. CUtLASS 1 compared FGAs vs SGAs broadly.",
+      "Not a CUtLASS finding. Cost-effectiveness was measured, but that was not the primary hypothesis.",
+      "CBT in early psychosis is not the focus of CUtLASS. The NICE guidelines on CBT for psychosis draw from other RCTs and meta-analyses.",
+      "Early intervention services were studied in the OPUS trial (Denmark) and LEO (UK), not CUtLASS."
+    ],
+    "teaching_point": "Key antipsychotic trials for MRCPsych Paper B: (1) CUtLASS 1 (Jones et al., 2006, Arch Gen Psychiatry) — SGAs (olanzapine, risperidone, quetiapine, amisulpride) not superior to FGAs (sulpiride, haloperidol, trifluoperazine, flupentixol) in quality of life and symptoms. (2) CUtLASS 2 (Lewis et al., 2006) — clozapine superior to other antipsychotics in TRS. (3) CATIE (Lieberman et al., 2005, NEJM) — no significant difference between FGAs (perphenazine) and SGAs (olanzapine, risperidone, quetiapine, ziprasidone) in all-cause discontinuation; olanzapine had best efficacy but worst metabolic profile. (4) Kane 1988 — clozapine effective in 30% of treatment-resistant patients vs 4% for chlorpromazine.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "CUtLASS 1 — Jones PB et al. Arch Gen Psychiatry 2006; NICE CG178",
+    "tags": ["CUtLASS", "antipsychotics", "clinical_trials", "FGA_vs_SGA", "schizophrenia"]
+  },
+  {
+    "stem": "According to the CATIE trial (Clinical Antipsychotic Trials of Intervention Effectiveness), which antipsychotic had the lowest rate of all-cause discontinuation and the best efficacy, but the highest rate of metabolic side effects?",
+    "options": [" Risperidone", " Quetiapine", " Perphenazine", " Olanzapine", " Ziprasidone"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Risperidone had a moderate discontinuation rate and efficacy in CATIE. It was associated with moderate prolactin elevation and weight gain.",
+      "Quetiapine had a high dropout rate due to lack of efficacy and side effects (sedation, metabolic). It was not superior.",
+      "Perphenazine (the FGA comparator) had a comparable discontinuation rate to the SGAs, supporting the CUtLASS findings that FGAs are as effective as most SGAs. It was not 'best' on any primary outcome.",
+      "CORRECT. In CATIE (Lieberman et al., 2005, NEJM), olanzapine had: (1) the lowest all-cause discontinuation rate (64% vs 74-82% for others); (2) the best efficacy (highest reduction in PANSS scores); (3) BUT the highest weight gain (4.2kg over 9 months vs 0-2.1kg for others), and the highest rates of diabetes, dyslipidaemia. This trade-off is the classic CATIE finding: olanzapine keeps patients in treatment longest but at the highest metabolic cost.",
+      "Ziprasidone had the lowest metabolic side effect profile but the highest discontinuation rate due to lack of efficacy."
+    ],
+    "teaching_point": "CATIE (Lieberman et al., NEJM 2005): Phase 1 randomised 1493 patients to olanzapine, risperidone, quetiapine, ziprasidone, or perphenazine (an FGA). Primary outcome: all-cause discontinuation (reflecting a 'real-world' composite of efficacy, tolerability, and patient preference). Results: olanzapine 64% discontinuation (lowest), risperidone 74%, quetiapine 81%, ziprasidone 79%, perphenazine 75%. Key conclusion: olanzapine was most effective but had most metabolic side effects. The FGA (perphenazine) was comparable to most SGAs. CATIE Phase 2: clozapine superior for treatment-resistant patients. Take-home: 'atypical' antipsychotics are NOT a homogeneous group — each has a unique efficacy and side-effect profile. The drug choice must be individualised.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Lieberman JA et al. (2005) CATIE. NEJM 353:1209-23; NICE CG178",
+    "tags": ["CATIE", "antipsychotics", "olatapine", "efficacy", "metabolic_syndrome", "clinical_trial"]
+  },
+  {
+    "stem": "A 52-year-old man with treatment-resistant schizophrenia is being treated with clozapine 400mg daily. He develops sudden onset of fever (39.0°C), generalised muscle rigidity, fluctuating consciousness, and autonomic instability (labile BP, tachycardia, diaphoresis). His CK level is 15,000 IU/L (normal 40-320). He is also on lithium augmentation (level 0.6 mmol/L) and has been stable on this combination for 6 months. What is the most likely diagnosis?",
+    "options": [" Clozapine-induced myocarditis", " Lithium toxicity", " Neuroleptic malignant syndrome (NMS)", " Malignant catatonia", " Serotonin syndrome"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Myocarditis presents with chest pain, dyspnoea, tachycardia, and elevated troponin — NOT generalised rigidity with grossly elevated CK. The absence of chest pain and presence of rigidity make myocarditis unlikely.",
+      "Lithium toxicity at a level of 0.6 is unlikely. Toxicity would present with ataxia, dysarthria, nystagmus, tremor, nausea/vomiting — NOT fever, rigidity, and extremely elevated CK.",
+      "CORRECT. This is a classic NMS presentation even though clozapine has a lower risk of NMS than high-potency FGAs. The classic tetrad: (1) fever (≥38°C); (2) muscle rigidity (lead-pipe); (3) altered mental status (fluctuating consciousness); (4) autonomic instability (labile BP, tachycardia). Elevated CK is characteristic (typically >1000, often >10,000). NMS is a medical emergency. Management: (1) STOP antipsychotic; (2) supportive care (IV fluids, cooling); (3) consider dantrolene or bromocriptine; (4) monitor for complications (AKI, rhabdomyolysis, DIC, ARDS). NMS develops gradually over 1-3 days. Clozapine, lower NMS risk than other antipsychotics, but lithium augmentation may increase risk slightly.",
+      "Malignant catatonia is clinically indistinguishable from NMS. The key difference: NMS is antipsychotic-induced; malignant catatonia is a form of catatonia that can occur without antipsychotic exposure. In someone on antipsychotics, NMS is the working diagnosis. Malignant catatonia is treated with benzodiazepines and ECT.",
+      "Serotonin syndrome typically presents with clonus (spontaneous, inducible, ocular), hyperreflexia, tremor, autonomic instability, and hyperthermia. It does NOT typically cause lead-pipe rigidity and is associated with serotonergic drugs (SSRIs, MAOIs, lithium), not clozapine alone."
+    ],
+    "teaching_point": "NMS vs Serotonin Syndrome vs Malignant Catatonia — the classic MRCPsych differential: NMS (rigidity + fever + autonomic instability + high CK, develops 1-3 days, associated with antipsychotics, treatment: stop antipsychotic, dantrolene/bromocriptine). Serotonin syndrome (clonus + hyperreflexia + tremor + autonomic instability, develops 6-24 hours, associated with serotonergic drugs, treatment: cyproheptadine, supportive). Malignant catatonia (rigidity + mutism/posturing/stupor + autonomic instability, treatment: lorazepam/ECT). Clozapine-induced: remember that while clozapine has the lowest NMS risk, it CAN occur. Clozapine also has a unique side-effect profile: fever in first few weeks (benign, self-limiting, without rigidity — distinct from NMS), myocarditis, agranulocytosis, hypersalivation.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; NMS diagnostic criteria (DSM-5-TR, Caroff-Mann criteria)",
+    "tags": ["NMS", "neuroleptic_malignant_syndrome", "clozapine", "CK", "differential_diagnosis"]
+  },
+  {
+    "stem": "A 30-year-old man presents with paranoid ideation, auditory hallucinations, and social withdrawal that developed over 3 weeks following a 2-week binge on synthetic cannabinoids ('Spice'). He has no prior psychiatric history and has been using cannabis regularly since age 16. His urine drug screen is positive for cannabinoids but negative for other substances. He is medically well with normal observations. Which of the following features would most strongly favour a diagnosis of schizophrenia rather than substance-induced psychotic disorder?",
+    "options": [" Acute onset of symptoms within 72 hours of substance use", " The presence of auditory hallucinations", " Persistence of psychotic symptoms for more than 1 month after abstinence from the substance", " A positive urine drug screen", " The fact that he was using synthetic cannabinoids rather than natural cannabis"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Acute onset within 72 hours of substance use favours substance-induced psychotic disorder, not a primary psychotic disorder. Schizophrenia typically has an insidious onset with a prodromal phase.",
+      "Auditory hallucinations occur in both schizophrenia and substance-induced psychotic disorder and do not differentiate between the two.",
+      "CORRECT. The duration of symptoms after substance cessation is the key differentiating feature. ICD-11 and DSM-5-TR state: if psychotic symptoms persist for >1 month after substance cessation, a primary psychotic disorder (e.g., schizophrenia) is more likely than a substance-induced psychotic disorder. The substance may have precipitated or unmasked the underlying condition. This patient's symptoms persist 3 weeks post-binge, and if they extend beyond 1 month, schizophrenia becomes the more likely diagnosis. Other indicators: family history of psychosis, personal history of schizotypal traits, persistence of negative symptoms, and lack of a clear dose-response relationship.",
+      "A positive urine drug screen indicates substance use but is not a diagnostic discriminator. Many patients with schizophrenia also use cannabis.",
+      "Synthetic cannabinoids (CB1 full agonists) are more potent and carry a higher risk of psychosis than natural cannabis (partial agonist). However, the type of cannabinoid does not distinguish substance-induced vs primary psychosis."
+    ],
+    "teaching_point": "Substance-induced psychotic disorder vs primary psychotic disorder: Key distinguishing features: (1) Temporal relationship — onset within 2 weeks of substance use (ICD-11); (2) Duration — symptoms resolve within 1 month of abstinence (if persisting >1 month, consider primary psychosis); (3) Typical features of substance-induced: more visual/tactile hallucinations, more confusion/disorientation, more affective symptoms, less negative symptoms, less thought disorder; (4) Family history of psychosis suggests a primary disorder. Cannabis increases schizophrenia risk by ~2-3×, with a dose-response relationship (more potent cannabis = higher risk). Synthetic cannabinoids (Spice/K2) are associated with more severe psychotic reactions.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "ICD-11; DSM-5-TR; NICE CG178; Di Forti M et al. (2019) Lancet Psychiatry — cannabis potency and psychosis",
+    "tags": ["psychosis", "substance-induced", "cannabis", "synthetic_cannabinoids", "differential_diagnosis"]
+  },
+  {
+    "stem": "A 28-year-old woman with paranoid schizophrenia has been adherent to aripiprazole 15mg daily for 6 months with complete resolution of symptoms. She is stable and working full-time. She has a past history of one episode of severe depression 2 years ago (treated with sertraline, which she discontinued after 6 months). She has no current depressive symptoms. What is the most appropriate long-term management strategy?",
+    "options": [" Continue aripiprazole 15mg indefinitely with regular monitoring", " Taper aripiprazole over 3 months and discontinue if stable", " Add sertraline 50mg for prophylaxis of depression", " Reduce aripiprazole to 10mg for 6 months then consider discontinuation", " Switch to aripiprazole LAI (depot) to ensure adherence"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE CG178 recommends continuing antipsychotic medication for at least 2 years after a first psychotic episode. For patients with recurrent episodes (two or more episodes), maintenance treatment for at least 2-5 years (often lifelong) is recommended. This patient has had at least one psychotic episode and a depressive episode — she is at high risk of relapse. Aripiprazole is effective and well-tolerated, so continuation is appropriate. Regular monitoring includes: weight, HbA1c, lipids, prolactin, ECG, and mental state.",
+      "NICE does not recommend routine discontinuation before 2 years of stability. Even then, discontinuation carries a high relapse risk (up to 50-70% within 2 years). This patient has only 6 months of stability — too early to consider discontinuation.",
+      "There is no indication for prophylactic antidepressants in the absence of depressive symptoms. SSRI use is reserved for acute depressive episodes or treatment-resistant negative symptoms (off-label).",
+      "Dose reduction is reasonable if side effects are problematic, but planned discontinuation within 6 months is not recommended. The principle: the lowest effective dose for the longest necessary duration.",
+      "LAI is indicated if: (1) the patient prefers it; (2) there are concerns about oral adherence; (3) there is a history of relapse due to poor adherence. This patient has been adherent and stable on oral medication, so an LAI is not necessary."
+    ],
+    "teaching_point": "Duration of antipsychotic treatment after a psychotic episode: First episode — at least 2 years after symptom remission. Multiple episodes (2+) — at least 2-5 years (many clinicians recommend lifelong). Relapse risk: 70-80% within 2 years of stopping antipsychotics after a first episode (the relapse risk is higher in those with multiple episodes). NICE CG178: 'Do not routinely stop antipsychotic medication before 2 years. Discuss the risks and benefits with the patient and their family/carers if considering discontinuation.' Factors favouring longer treatment: multiple episodes, severe episodes (with harm), poor insight, high expressed emotion, comorbid substance use, persistent negative/cognitive symptoms.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178: Psychosis and schizophrenia in adults",
+    "tags": ["schizophrenia", "maintenance_treatment", "relapse_prevention", "antipsychotic_duration", "NICE_guidelines"]
+  },
+  {
+    "stem": "According to current evidence, approximately what percentage of patients with treatment-resistant schizophrenia will respond to clozapine?",
+    "options": [" 10-15%", " 30-50%", " 60-70%", " 80-90%", " 95%+"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "10-15% is too low and underestimates clozapine's efficacy in TRS.",
+      "CORRECT. The classic Kane 1988 study (n=268 TRS patients) showed that 30% of clozapine-treated patients responded (≥20% reduction in BPRS + CGI improvement) compared to only 4% of chlorpromazine-treated patients. More recent meta-analyses confirm that 30-50% of treatment-resistant patients respond to clozapine. Response is typically assessed after 6-12 months of adequate treatment (300-600mg daily, therapeutic level). If there is no response after 6 months, clozapine augmentation strategies should be considered.",
+      "60-70% is too high — even in non-resistant patients, antipsychotic response rates are around 60-70%. In TRS, clozapine response is ~30-50%.",
+      "80-90% is the ECT response rate in severe depression, not clozapine in TRS.",
+      "No treatment has a 95%+ response rate in TRS."
+    ],
+    "teaching_point": "Treatment-resistant schizophrenia (TRS): Defined by NICE as 'little or no improvement in symptoms despite adequate trials (at least 6 weeks each) of at least two different antipsychotics at adequate doses'. Clozapine is the ONLY licensed drug for TRS. Response rates: 30-50% respond to clozapine (vs 4-10% to other antipsychotics in TRS). If clozapine fails: (1) Check adherence and clozapine levels; (2) Optimise dose (target levels 350-600 ng/mL); (3) Try augmentation strategies: aripiprazole, amisulpride, lamotrigine, or ECT; (4) Consider high-dose antipsychotics (e.g., clozapine >800mg under specialist guidance). Only about 10-20% of TRS patients remain non-responsive despite clozapine optimisation and augmentation. Kane 88 remains a landmark trial for MRCPsych.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Kane J et al. (1988) Clozapine for TRS. Arch Gen Psychiatry; NICE CG178",
+    "tags": ["clozapine", "treatment_resistance", "Kane_1988", "response_rates", "schizophrenia"]
+  },
+  {
+    "stem": "A 23-year-old woman with first-episode psychosis was started on aripiprazole 10mg daily 4 weeks ago with good effect. She presents to the emergency department with acute onset of motor restlessness — she is unable to sit still, pacing around the room, and reports 'I feel like I'm going to crawl out of my skin'. She has no fever, no rigidity, and observations are normal. What is the most likely diagnosis and management?",
+    "options": [" Neuroleptic malignant syndrome — stop antipsychotic and start dantrolene", " Acute dystonia — give procyclidine 5mg IV/IM", " Akathisia — reduce aripiprazole dose or add propranolol 40mg BD", " Agitation due to psychosis — increase aripiprazole to 15mg", " Tardive dyskinesia — switch to clozapine"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "NMS presents with fever, rigidity, autonomic instability, and elevated CK — none of which are present. Akathisia is a distinct EPS.",
+      "Acute dystonia presents with sustained muscle contractions (oculogyric crisis, torticollis, opisthotonos), not subjective motor restlessness.",
+      "CORRECT. This is a classic description of akathisia — a subjective feeling of inner restlessness with objective motor agitation (pacing, inability to sit still). Aripiprazole has one of the highest risks of akathisia among antipsychotics (partial D2 agonism). Management: (1) Reduce the dose (first-line); (2) Add propranolol 30-80mg daily (first-line treatment); (3) Consider switching to a low-EPS antipsychotic (olanzapine, quetiapine); (4) Benzodiazepines (clonazepam) can be used short-term. Akathisia is a common cause of treatment non-adherence and is associated with worsening of suicidality.",
+      "Increasing the dose would exacerbate akathisia. The dose should be reduced, not increased.",
+      "Tardive dyskinesia develops after months-years of treatment, presents with choreiform movements (orofacial, limb, trunk), is late-onset (tardive), and is not typically relieved by reducing the dose (may even worsen — withdrawal-emergent phenomenon). This is acute-onset akathisia."
+    ],
+    "teaching_point": "Extrapyramidal side effects (EPS) — the 4 types: (1) Acute dystonia — onset hours-days (oculogyric crisis, torticollis, laryngeal spasm), treat with anticholinergics (procyclidine); (2) Akathisia — onset days-weeks (subjective + objective restlessness), treat with dose reduction, propranolol, switch antipsychotic; (3) Parkinsonism — onset days-weeks (bradykinesia, rigidity, tremor), treat with dose reduction, switch to low-EPS antipsychotic, consider anticholinergic; (4) Tardive dyskinesia — onset months-years (choreiform movements, especially orofacial), treat with clozapine switch (best evidence), valbenazine/deutetrabenazine (not widely available in UK). Aripiprazole has: LOW parkinsonism + dystonia risk, HIGH akathisia risk, VERY LOW tardive dyskinesia risk (partial agonist).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; BNF",
+    "tags": ["akathisia", "aripiprazole", "EPS", "propranolol", "side_effects", "extrapyramidal"]
+  },
+  {
+    "stem": "A 42-year-old man with chronic schizophrenia (20-year history) presents with abnormal involuntary movements of his mouth, lips, and tongue. He has been on haloperidol decanoate (depot) 100mg IM every 4 weeks for the past 6 years. His psychotic symptoms are well controlled. The movements are painless but socially embarrassing. They include lip-smacking, tongue protrusion, and chewing movements. What is the most likely diagnosis and management?",
+    "options": [" Acute dystonia — reduce depot dose and add procyclidine", " Tardive dyskinesia — switch from haloperidol to clozapine", " Tardive dyskinesia — increase haloperidol dose to suppress movements", " Huntington's disease — refer to neurology", " Akathisia — add propranolol 80mg daily"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Acute dystonia occurs within hours to days of starting or increasing antipsychotics. It presents with sustained muscle spasms (oculogyric crisis, torticollis), not involuntary choreiform movements after years of treatment. This is tardive dyskinesia.",
+      "CORRECT. Tardive dyskinesia (TD) is a late-onset movement disorder characterised by choreiform (rapid, jerky) or athetoid (slow, writhing) movements, typically orofacial (mouth, lips, tongue) but can also involve limbs and trunk. It develops after months or years of antipsychotic exposure. Risk factors: older age, female, cumulative antipsychotic exposure, FGA use (especially high-potency), history of acute EPS, diabetes, smoking. Management: (1) Reduce or stop anticholinergic medications (they worsen TD); (2) Switch to clozapine (first-line, best evidence for TD improvement); (3) Switch to quetiapine as second-line; (4) Consider valbenazine or deutetrabenazine (if available). Haloperidol is a high-potency FGA with high TD risk.",
+      "Increasing the antipsychotic dose can temporarily mask TD movements (via dopamine blockade) but ultimately worsens the underlying pathophysiology of D2 receptor upregulation and hypersensitivity. The movements will return and be worse. This is never a recommended strategy.",
+      "Huntington's presents with chorea, but it is a progressive neurodegenerative disorder with cognitive decline, psychiatric symptoms, and a family history. The movements are generalised (not isolated orofacial), and there is no history of antipsychotic exposure as a cause. The temporal relationship with antipsychotic treatment makes TD far more likely.",
+      "Akathisia is a subjective feeling of inner restlessness, not involuntary orofacial movements. Orofacial movements are classic for TD."
+    ],
+    "teaching_point": "Tardive dyskinesia — key facts for MRCPsych: (1) Prevalence: ~20-30% with long-term FGA use, ~5-15% with SGA use; (2) Incidence: ~5% per year on FGAs; (3) Pathophysiology: D2 receptor upregulation/supersensitivity in the striatum (nigrostriatal pathway); (4) Risk factors: older age, female, FGA, long exposure, EPS history, diabetes, smoking, alcohol; (5) Withdrawal-emergent TD: symptoms may first appear or worsen when antipsychotic is reduced/stopped (do NOT restart the antipsychotic to suppress them — switch to clozapine); (6) Treatment: switch to clozapine (first-line), reduce anticholinergics, VMAT2 inhibitors (valbenazine, deutetrabenazine — not widely available in UK NHS), consider quetiapine. The Aberrant Involuntary Movement Scale (AIMS) is used for monitoring.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; BNF",
+    "tags": ["tardive_dyskinesia", "haloperidol", "clozapine", "parkinsonism", "side_effects"]
+  },
+  {
+    "stem": "A 34-year-old man with schizophrenia who has been stable on paliperidone LAI 75mg monthly for 18 months presents requesting to stop his antipsychotic. He has had one previous psychotic episode 3 years ago which led to his diagnosis. He has been symptom-free for 2.5 years, working full-time, and living independently. He feels the medication makes him feel 'slowed down'. His BMI is 25 with normal metabolic parameters. What is the most appropriate management?",
+    "options": [" Support his decision and taper paliperidone over 4 weeks", " Advise against discontinuation due to high relapse risk but offer a trial of reducing the dose", " Switch to oral paliperidone at an equivalent dose", " Add modafinil 100mg daily to counteract cognitive slowing", " Refer for CBT to address his concerns about medication"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Discontinuing after only one psychotic episode is strongly discouraged by NICE. The relapse risk after discontinuation is 50-70% within 2 years. Tapering over 4 weeks is too rapid and may trigger withdrawal dyskinesia or rebound psychosis.",
+      "CORRECT. NICE CG178 recommends: 'For people who have had a first episode, consider gradually reducing or discontinuing antipsychotic medication after at least 2 years of stability, taking into account: the person's preference, the nature and severity of the episode, and the consequences of relapse.' After ONE episode, gradual dose reduction (not necessarily discontinuation) can be trialled with careful monitoring. A slower taper over many months with close follow-up is recommended. The patient should understand the risks and have a relapse prevention plan.",
+      "Switching to oral medication does not address the central question — the patient wants to stop medication, not switch formulations.",
+      "Modafinil augmentation in schizophrenia carries a risk of psychotic relapse. While cognitive symptoms are a valid concern, adding a psychostimulant-like agent is not first-line.",
+      "CBT can address medication concerns but is not an alternative to shared decision-making about dose reduction. The patient has valid concerns about side effects that should be addressed."
+    ],
+    "teaching_point": "Discontinuation of antipsychotics — risk vs benefit: First-episode patients: consider dose reduction after 2 years of stability. Multi-episode patients: generally need long-term (often lifelong) maintenance. Relapse risk after discontinuation: (1) After 1 episode: 50-70% within 2 years; (2) After 2+ episodes: 80-90% within 2 years. Gradual taper (over months) is safer than abrupt discontinuation. Monitoring: (1) educate patient and family about early warning signs; (2) agree a crisis plan; (3) maintain psychological therapy (CBT); (4) continue monitoring by the early intervention team. If relapse occurs: restart effective dose immediately. The risk of relapse after discontinuation includes risk of suicide and treatment resistance (kindling hypothesis — each relapse may make treatment less effective).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Wunderink L et al. (2013) JAMA Psychiatry — dose reduction vs maintenance",
+    "tags": ["antipsychotic_cessation", "relapse_prevention", "shared_decision_making", "dose_reduction", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 45-year-old man with treatment-resistant schizophrenia (on clozapine 450mg daily) continues to experience persistent auditory hallucinations and paranoid delusions after 6 months of adequate treatment. His clozapine level is 450 ng/mL (therapeutic range 350-600). Adherence is confirmed by his clozapine coordinator. He has no side effects limiting dose increase. According to NICE and Maudsley guidelines, which of the following is the most appropriate next step?",
+    "options": [" Increase clozapine to 600mg daily", " Add a second antipsychotic (amisulpride or aripiprazole)", " Add lamotrigine 25mg daily (slow titration)", " Start ECT", " Switch from clozapine to high-dose olanzapine"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. The clozapine level is 450 ng/mL, which is therapeutic but at the lower end of the optimal range (350-600 ng/mL). Many experts aim for 500-600 ng/mL for optimal response. Before considering augmentation strategies, the clozapine dose should be optimised (level >500). The Maudsley Guidelines recommend increasing clozapine up to 900mg (if tolerated) or achieving a level >500 ng/mL first. Factors limiting dose: sedation, hypersalivation, seizures (dose-dependent risk, especially >600mg). This patient has no side effects limiting dose increase, so dose optimisation is the first step.",
+      "Augmentation with a second antipsychotic (amisulpride, aripiprazole) is recommended IF clozapine is optimised (adequate trial of 6-12 months at maximum tolerated dose) and the level is therapeutic. This is step 2, not step 1.",
+      "Lamotrigine augmentation has some evidence but is not first-line. It carries risk of Stevens-Johnson syndrome and the slow titration delays efficacy.",
+      "ECT augmentation of clozapine has evidence for rapid response in severe cases but is reserved for when pharmacological options have been exhausted (or acute risk).",
+      "Switching from clozapine to olanzapine is not recommended — clozapine is the most effective drug for TRS. High-dose olanzapine is not superior."
+    ],
+    "teaching_point": "Clozapine optimisation and augmentation strategies: Step 1: Optimise dose (target 300-600mg, level 350-600 ng/mL; max 900mg under specialist guidance). Step 2: Check for interactions (smoking, caffeine, fluvoxamine). Step 3: Add a second antipsychotic — amisulpride (most evidence) or aripiprazole. Step 4: Add lamotrigine (slow titration, SJS risk). Step 5: ECT. Step 6: Consider high-dose clozapine (>900mg, level >1000) under specialist monitoring. Clozapine levels are affected by: smoking (CYP1A2 induction — smokers need 1.5-2× the dose), caffeine (CYP1A2 inhibition — 1 cup coffee can increase levels by 30%), and fluvoxamine (CYP1A2 inhibitor — used off-label to boost clozapine levels).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; Taylor DM (2017) Clozapine augmentation",
+    "tags": ["clozapine", "treatment_resistance", "augmentation", "dose_optimisation", "therapeutic_drug_monitoring"]
+  },
+  {
+    "stem": "A 38-year-old man with schizophrenia is being assessed. He has significant negative symptoms — social withdrawal, lack of motivation (avolition), reduced speech (alogia), and flattening of affect. These have persisted for 2 years and have been present even when his positive symptoms (delusions, hallucinations) are well controlled on risperidone 6mg daily. He has no depressive symptoms. His PANSS negative symptom score is 28. What is the most appropriate management for his negative symptoms?",
+    "options": [" Increase risperidone to 8mg daily to target negative symptoms", " Add an antidepressant (fluoxetine 20mg) for negative symptoms", " Consider switching to amisulpride or adding aripiprazole, and offer CBT", " Refer for ECT", " Reassure that negative symptoms are untreatable"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing risperidone may worsen negative symptoms (D2 blockade can cause secondary negative symptoms via EPS and sedation). Risperidone itself is not effective for primary negative symptoms.",
+      "There is no strong evidence for SSRIs in primary negative symptoms of schizophrenia. Antidepressants may help if there is comorbid depression, which has been excluded here.",
+      "CORRECT. Primary negative symptoms of schizophrenia remain a therapeutic challenge. Options include: (1) Switch to amisulpride (which at low doses preferentially blocks presynaptic D2/D3 autoreceptors, enhancing dopamine transmission in the prefrontal cortex and improving negative symptoms); (2) Add aripiprazole (partial agonist may improve negative symptoms); (3) CBT specifically adapted for negative symptoms (evidence for improving motivation, social functioning); (4) Consider olanzapine or quetiapine (which have lower EPS burden). NICE CG178 recommends offering CBT to all people with schizophrenia, including for negative symptoms.",
+      "ECT has no role in primary negative symptoms.",
+      "Negative symptoms are not 'untreatable' — they are more difficult to treat than positive symptoms, but amisulpride, CBT, and psychosocial interventions have modest evidence. This outdated belief should not be perpetuated."
+    ],
+    "teaching_point": "Negative symptoms of schizophrenia: The 5 A's: Affective flattening/blunted affect, Alogia (poverty of speech), Avolition (loss of motivation), Anhedonia (loss of pleasure), Asociality (social withdrawal). Distinguish PRIMARY (core illness) vs SECONDARY (due to EPS, depression, positive symptoms, environmental deprivation). Treatment: (1) Rule out and treat secondary causes first; (2) CBT (evidence for modest improvement); (3) Consider amisulpride (low dose 50-300mg) which has the best evidence for primary negative symptoms; (4) Consider aripiprazole augmentation; (5) Clozapine (for clozapine-resistant negative symptoms — often improves secondary negative symptoms by reducing EPS and positive symptoms); (6) Social skills training, supported employment. Do NOT use high-dose antipsychotics or anticholinergics. Amisulpride is unique: at low doses it enhances prefrontal dopamine via presynaptic D2/D3 blockade.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Leucht S et al. (2013) Amisulpride for negative symptoms",
+    "tags": ["negative_symptoms", "schizophrenia", "amisulpride", "CBT", "treatment"]
+  },
+  {
+    "stem": "A 19-year-old university student presents with a 2-week history of acute psychotic symptoms — paranoid delusions that flatmates are poisoning him, second-person auditory hallucinations telling him he is worthless, and disorganised behaviour (wandering the streets at night). He has no prior psychiatric history and no substance use. His physical examination and baseline investigations are normal. He scores 6 on the PANSS positive subscale items for delusions and hallucinations. He is willing to take medication. According to NICE, which of the following should be offered in addition to antipsychotic medication?",
+    "options": [" Family intervention (at least 10 planned sessions)", " Cognitive behavioural therapy (CBT) for psychosis (at least 16 planned sessions)", " Art therapy", " Social skills training", " Supported employment"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. NICE CG178 recommends that ALL people with first-episode psychosis or schizophrenia should be offered: (1) oral antipsychotic medication in conjunction with; (2) family intervention (at least 10 planned sessions over at least 3-6 months); (3) cognitive behavioural therapy (CBT) for psychosis (at least 16 planned sessions). However, in the acute phase, NICE specifically recommends antipsychotic medication + family intervention as the first-line psychological treatment before CBT. The key wording: 'Offer CBT to all people with psychosis or schizophrenia, particularly for those who have persistent symptoms despite medication.' Family intervention should be offered to all families of people with first-episode psychosis who are in close contact.",
+      "CBT is recommended for all patients but NICE states it is 'particularly for those who have persistent symptoms despite medication'. In acute first-episode psychosis, antipsychotics are the primary treatment, with family therapy as the key psychological intervention alongside. CBT can be offered alongside but is not the most essential add-on in the acute phase according to NICE's sequencing.",
+      "Art therapy is not recommended by NICE for first-episode psychosis. NICE (2009) did not find sufficient evidence and it was removed from the 2014 update.",
+      "Social skills training is not recommended as a routine intervention by NICE for first-episode psychosis. It may be helpful later in recovery for social functioning.",
+      "Supported employment (Individual Placement and Support) is recommended for those who wish to return to work, but is not the primary psychological intervention in the acute phase."
+    ],
+    "teaching_point": "NICE CG178 — psychological interventions in schizophrenia: (1) CBT for psychosis — offered to ALL (especially for persistent symptoms, at least 16 sessions); (2) Family intervention — offered to ALL families in close contact (at least 10 sessions over 3-6 months, includes psychoeducation, problem-solving, communication skills); (3) Arts therapies — NOT routinely recommended (insufficient evidence); (4) Social skills training — not routinely recommended; (5) Supported employment (IPS) — for those who wish to work. Key evidence: family intervention reduces relapse rates by 20-50% and hospitalisation. CBT reduces symptom severity and distress. Both should be started as early as possible in the course of illness.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178: Psychosis and schizophrenia in adults (updated 2024)",
+    "tags": ["psychosis", "first_episode", "family_intervention", "CBT", "NICE_guidelines", "psychological_therapy"]
+  },
+  {
+    "stem": "A 36-year-old man with a 12-year history of schizophrenia has been on clozapine 400mg daily for 3 years with good control of his positive symptoms. He presents with a 4-week history of worsening low mood, anhedonia, poor appetite, poor sleep, and feelings of worthlessness. He has lost 5kg in weight. He has no psychotic symptoms. PHQ-9 is 18. What is the most appropriate management for his depressive episode?",
+    "options": [" Increase clozapine to 500mg daily", " Add sertraline 50mg daily", " Add aripiprazole 10mg daily", " Start cognitive behavioural therapy and add a low-dose antidepressant if no improvement", " Start ECT urgently"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Increasing clozapine would not be expected to improve depressive symptoms. It may worsen certain depressive-like side effects (sedation, hypersalivation).",
+      "Adding an SSRI to clozapine can be done but requires caution — SSRIs (especially fluvoxamine, paroxetine) inhibit CYP1A2, which can increase clozapine levels significantly. Sertraline has minimal CYP interaction but increases the medication burden. Psychological therapy should be tried first.",
+      "Aripiprazole augmentation of clozapine can improve negative and depressive symptoms in some patients but carries akathisia risk. It is not first-line for an acute depressive episode.",
+      "CORRECT. NICE CG178 recommends offering CBT for depression in people with schizophrenia. Psychological therapy (CBT) should be the first-line treatment for mild-moderate depressive episodes. Antidepressants should be considered if: (1) the depressive episode is moderate-severe; (2) there is insufficient response to CBT; (3) there are biological features (poor appetite, weight loss, early morning wakening). The evidence for antidepressants in schizophrenia-related depression is modest. If used, sertraline or citalopram are preferred (minimal CYP interactions with clozapine). Fluvoxamine should be avoided (potent CYP1A2 inhibitor — increases clozapine levels by 2-5×).",
+      "ECT is reserved for severe, treatment-resistant depression with high risk (suicidality, poor oral intake). This patient has moderate depression and should first be offered standard treatment."
+    ],
+    "teaching_point": "Depression in schizophrenia: Up to 40% of patients with schizophrenia experience comorbid depression. It can be: (1) a core part of the illness; (2) a post-psychotic depressive episode; (3) secondary to medication side effects (akinesia from EPS); (4) treatment-emergent dysphoria; (5) part of schizoaffective disorder. Management: (1) Rule out negative symptoms and EPS-induced akinesia (which mimic depression); (2) Offer CBT first-line (NICE CG178); (3) Consider antidepressants (caution with drug interactions via CYP450 — avoid fluvoxamine with clozapine); (4) Optimise psychosocial support. Depression in schizophrenia is associated with increased suicide risk (10-15% lifetime). Clozapine is the only antipsychotic with evidence for reducing suicidality.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["schizophrenia", "depression", "clozapine", "CBT", "antidepressant"]
+  },
+  {
+    "stem": "A 22-year-old woman is referred to an early intervention in psychosis (EIP) service after presenting with her first episode of psychosis. She had been experiencing paranoid ideas and auditory hallucinations for 4 months before seeking help. According to NICE, what is the maximum recommended waiting time between referral and commencement of treatment in an EIP service?",
+    "options": [" 1 week", " 2 weeks", " 4 weeks", " 8 weeks", " 12 weeks"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "1 week would be ideal but is shorter than the standard NICE target.",
+      "CORRECT. NICE CG178 recommends that Early Intervention in Psychosis (EIP) services should begin treatment within 2 weeks of referral. This is also reflected in the NHS Long Term Plan (2019) commitment to achieve this. The duration of untreated psychosis (DUP) is a critical prognostic factor — longer DUP is associated with worse outcomes, including poorer treatment response, greater cognitive impairment, and lower social functioning. The 2-week target aims to minimise DUP.",
+      "4 weeks exceeds the recommended target and may have a negative impact on the patient.",
+      "8 weeks is too long and would be outside NICE recommendations.",
+      "12 weeks would represent a significant delay in treatment."
+    ],
+    "teaching_point": "Duration of untreated psychosis (DUP): Defined as the time from onset of psychotic symptoms to initiation of adequate treatment. Mean DUP in the UK is 12-24 months. Longer DUP is associated with: (1) poorer treatment response; (2) more severe positive symptoms; (3) greater cognitive decline; (4) worse social functioning; (5) higher relapse rates. The NHS Long Term Plan target: 2-week wait from referral to treatment in EIP services. EIP services provide: intensive multi-disciplinary support, psychological therapies, family intervention, medication management, physical health monitoring, social/vocational support. The key message: DUP is a modifiable prognostic factor — early detection and treatment improve outcomes.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG178; NHS Long Term Plan (2019); Marshall M et al. (2005) DUP review",
+    "tags": ["EIP", "DUP", "early_intervention", "referral_waiting_time", "prognosis"]
+  },
+  {
+    "stem": "A 43-year-old man with chronic schizophrenia (20-year history) has been stable on fluphenazine decanoate (depot) 25mg IM every 2 weeks for 3 years. He has a history of recurrent relapse due to poor adherence with oral medication. He smokes 20 cigarettes per day. He has developed difficulty initiating urination over the past 2 months, and a recent ECG shows QTc of 470ms. His blood pressure is 95/60 lying and 82/50 standing. Which antipsychotic switch would be the most appropriate?",
+    "options": [" Olanzapine LAI 300mg IM every 2 weeks", " Aripiprazole LAI 400mg IM monthly", " Haloperidol decanoate 100mg IM every 4 weeks", " Clozapine 300mg daily", " Continue fluphenazine and add an anticholinergic (procyclidine)"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Olanzapine LAI carries risk of post-injection delirium/sedation syndrome (PDSS) and significant metabolic side effects. In a patient with postural hypotension (already on fluphenazine), it may exacerbate this. It also carries moderate weight gain and metabolic risk.",
+      "CORRECT. Aripiprazole LAI 400mg monthly is a good choice because: (1) It has minimal metabolic side effects (weight neutral); (2) It does not prolong QTc (QTc of 470 needs careful management — avoid drugs that further prolong it); (3) It does not cause postural hypotension (unlike fluphenazine and other high-potency FGAs that are alpha-adrenergic blockers); (4) Low anticholinergic burden (unlike fluphenazine which can cause urinary hesitancy/retention); (5) LAIs require 3-4 loading injections then monthly — reducing visit burden. Cigarette smoking does not significantly affect aripiprazole levels (mainly metabolised by CYP2D6 and 3A4, not 1A2).",
+      "Haloperidol decanoate is a high-potency FGA with the highest risk of EPS, especially parkinsonism and akathisia. It has moderate QTc prolongation risk and carries the highest tardive dyskinesia risk. It also has alpha-blocking properties causing postural hypotension.",
+      "Clozapine is indicated for treatment-resistant schizophrenia, not simply for switching due to side effects of an adequate depot regime. This patient is stable on fluphenazine. Clozapine carries a heavy monitoring burden, significant metabolic effects, salivation, and constipation. QTc prolongation can occur with clozapine (mechanism: hERG channel block at high concentrations).",
+      "Anticholinergics (procyclidine) can treat EPS but they: (1) do NOT address postural hypotension; (2) do NOT address QTc prolongation; (3) may worsen urinary retention; (4) may worsen cognitive impairment; (5) can cause tachyphylaxis. They are not a substitute for switching antipsychotic."
+    ],
+    "teaching_point": "FGA depots vs SGA depots available in the UK: FGA depots: flupentixol decanoate, fluphenazine decanoate, haloperidol decanoate, zuclopenthixol decanoate. SGA depots: aripiprazole (monthly — first with a once-monthly dose after loading), paliperidone (monthly/3-monthly), olanzapine (pamoate — requires 3h post-injection monitoring for PDSS), risperidone (2-weekly). Aripiprazole LAI advantages: once-monthly, weight neutral, minimal metabolic effects, no QTc prolongation, no postural hypotension, low prolactin. Key principle: the choice of LAI should be based on the patient's previous response, side-effect profile, and preferences. Smoking induces CYP1A2 (metabolises clozapine, olanzapine, fluphenazine) but not CYP2D6 (metabolises aripiprazole, haloperidol).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; BNF",
+    "tags": ["LAI", "depot", "aripiprazole", "antipsychotic_switch", "QTc", "smoking"]
+  },
+  {
+    "stem": "A 48-year-old man with schizophrenia has been treated with haloperidol 10mg daily for 3 weeks for an acute psychotic relapse. His psychosis is improving but he has developed marked parkinsonism — bilateral upper limb rigidity, bradykinesia, and a shuffling gait. He finds these symptoms distressing. What is the most appropriate management?",
+    "options": [" Add procyclidine 5mg TDS", " Add selegiline 5mg daily for parkinsonism", " Switch to quetiapine (which has the lowest EPS liability)", " Add benzatropine 2mg IV", " Reduce haloperidol dose and consider switching to a low-EPS antipsychotic"],
+    "correct_index": 4,
+    "distractors_rationale": [
+      "Procyclidine (anticholinergic) treats drug-induced parkinsonism but is not the recommended first-line approach. The Maudsley Guidelines advise: if EPS develop, first reduce the dose (if clinically possible) OR switch to a lower-EPS antipsychotic. Adding an anticholinergic is a second-line strategy.",
+      "Selegiline (MAO-B inhibitor) is used for idiopathic Parkinson's disease, not drug-induced parkinsonism. It can interact with antipsychotics and is not indicated.",
+      "Quetiapine has the lowest EPS liability among antipsychotics (low D2 occupancy at therapeutic doses). However, switching should not be the first step — dose reduction should be attempted first.",
+      "IM/IV benzatropine is used for acute dystonia (emergency treatment for oculogyric crisis, torticollis), not for chronic parkinsonism. Prophylactic anticholinergics are not recommended by NICE.",
+      "CORRECT. NICE CG178 recommends: (1) First, reduce the antipsychotic dose if possible; (2) If not possible or ineffective, switch to an antipsychotic with lower EPS risk (e.g., quetiapine, olanzapine, aripiprazole); (3) Adding an anticholinergic (procyclidine, trihexyphenidyl) is only if the above are not possible. Prophylactic anticholinergics are NOT recommended. Anticholinergics themselves have significant side effects: cognitive impairment, blurred vision, dry mouth, constipation, urinary retention, and risk of abuse. Elderly patients are particularly vulnerable."
+    ],
+    "teaching_point": "Management of antipsychotic-induced parkinsonism: Stepwise approach per Maudsley/NICE: (1) Reduce dose (if clinically safe); (2) Switch to low-EPS antipsychotic (quetiapine, olanzapine, aripiprazole, clozapine); (3) Add anticholinergic (procyclidine 5-20mg daily, or orphenadrine). Anticholinergics should be used cautiously, for 3-6 months maximum, then tapered to assess if EPS persists. Risk factors for EPS: high-potency FGAs (haloperidol, fluphenazine), younger age, male, previous EPS, rapid dose escalation. Quetiapine and clozapine have the lowest EPS liability (low D2 occupancy). Aripiprazole (partial agonist) has low parkinsonism risk but higher akathisia risk. Remember: EPS can be difficult to distinguish from negative symptoms of schizophrenia.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["EPS", "parkinsonism", "haloperidol", "anticholinergic", "quetiapine", "management"]
+  },
+  {
+    "stem": "A 40-year-old man with schizoaffective disorder (bipolar type) presents with acute psychotic symptoms and elevated mood. He has grandiose delusions, increased energy, reduced need for sleep, and rapid pressured speech. He is not on any medication currently. According to NICE guidelines, what is the most appropriate first-line treatment?",
+    "options": [" Lithium 800mg daily", " Valproate semisodium 500mg BD", " Olanzapine 10mg daily", " Aripiprazole 15mg daily", " Carbamazepine 400mg BD"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Lithium is effective for manic symptoms but has a slow onset (7-14 days) and requires pre-treatment blood tests. It is not the first-line acute treatment.",
+      "Valproate is effective for acute mania but is not first-line in NICE CG185. It also has restrictions for women of childbearing age.",
+      "CORRECT. For acute mania or mixed episodes in bipolar I disorder, NICE CG185 recommends offering an antipsychotic (haloperidol, olanzapine, risperidone, quetiapine, aripiprazole) first-line. Olanzapine 10-15mg has good evidence for both manic and psychotic symptoms. Given this patient has schizoaffective disorder (bipolar type), an antipsychotic treats both the psychotic and manic dimensions. Rapid onset of action (days) is important for acute symptom control.",
+      "Aripiprazole is an alternative but carries akathisia risk (15-20%). Olanzapine is more commonly used and has a broader evidence base for acute mania with psychotic features.",
+      "Carbamazepine is a third-line option for acute mania, reserved for treatment-resistant cases. It has significant side effects (CYP450 induction, rash, hyponatraemia, blood dyscrasias) and drug interactions."
+    ],
+    "teaching_point": "Schizoaffective disorder: A controversial diagnosis — requires concurrent psychotic and mood (depressive or manic) symptoms, with psychosis present for at least 2 weeks in the absence of a full mood episode. Types: bipolar type (manic episodes) and depressive type. Treatment: acute — treat the presenting syndrome (antipsychotic ± mood stabiliser). Maintenance — mood stabiliser (lithium, lamotrigine) + antipsychotic. NICE recommends treating according to the predominant syndrome. Prognosis: better than schizophrenia but worse than bipolar disorder alone. Lifetime prevalence ~0.3%.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG185: Bipolar disorder; NICE CG178: Schizophrenia; DSM-5-TR",
+    "tags": ["schizoaffective", "mania", "antipsychotic", "olanzapine", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 52-year-old man with chronic schizophrenia has been on clozapine 500mg daily for 5 years with good symptom control. He presents to the medical team with severe constipation — he has not opened his bowels for 7 days and is experiencing abdominal distension and pain. Abdominal X-ray shows faecal loading with evidence of partial obstruction. He takes no other constipating medications. What is the most appropriate management?",
+    "options": [" Advise increased fibre and fluids, and review in 2 weeks", " Prescribe lactulose 15ml BD", " Stop clozapine immediately and switch to risperidone", " Admit for emergency bowel decompression and medical management of clozapine-induced constipation", " Add semna 15mg nocte"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "This patient has severe constipation with partial obstruction — this is a medical emergency. Outpatient advice and watchful waiting are inappropriate.",
+      "Lactulose alone is insufficient for severe constipation with partial obstruction. This patient requires hospital-level care.",
+      "Stopping clozapine abruptly risks psychotic relapse (high relapse risk within days-weeks). Clozapine-induced constipation should be managed proactively, not by discontinuation.",
+      "CORRECT. Clozapine-induced constipation is common (up to 60% of patients), potentially life-threatening (can cause ileus, ischaemic bowel, perforation), and is the most under-recognised clozapine side effect. It is caused by clozapine's anticholinergic and antiserotonergic effects (M1-M3 antagonism, 5-HT3/4 antagonism). This patient has severe constipation with partial obstruction — this requires: (1) immediate admission; (2) surgical review (bowel decompression); (3) IV fluids, NG tube, enemas; (4) macrogol (Movicol) and/or stimulant laxatives; (5) clozapine dose should be temporarily withheld; (6) restart at a lower dose once bowel function resumes; (7) clozapine level monitoring.",
+      "Semna is a stimulant laxative that is useful for maintenance but not sufficient for acute severe constipation with obstruction."
+    ],
+    "teaching_point": "Clozapine-induced constipation — a high-yield exam topic: Pathophysiology: clozapine antagonises muscarinic M1-3 and serotonergic 5-HT3/4 receptors in the GI tract, slowing peristalsis and increasing colonic transit time. Prevalence: 60% of patients, can be life-threatening (mortality from bowel ischaemia/perforation higher than agranulocytosis). Clinical tip: ask about bowel movements at EVERY clozapine appointment. Management pyramid: (1) hydration, fibre, exercise; (2) docusate sodium + semna; (3) macrogol (Movicol) daily; (4) lactulose + bisacodyl PRN; (5) if no BM for 3+ days despite laxatives — escalate to medical review. If no BM for 5+ days despite maximal laxatives — consider clozapine dose reduction. Admission criteria: pain, distension, vomiting, no BM for 5+ days. Clozapine should never be stopped abruptly for constipation; it should be proactively managed. Clozapine-related mortality: aspiration pneumonia (most common) > myocarditis > bowel ischaemia > agranulocytosis.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; Every-Palmer et al. (2017) Clozapine GI hypomotility",
+    "tags": ["clozapine", "constipation", "ileus", "bowel_obstruction", "side_effects", "medical_emergency"]
+  },
+  {
+    "stem": "A 31-year-old man with first-episode psychosis has been successfully treated with aripiprazole 15mg daily for 6 months and is now in remission. He has a BMI of 31 (gained 8kg over 6 months), HbA1c 42 mmol/mol, and his wife has expressed concern about his weight. What is the most appropriate management of his weight gain?",
+    "options": [" Switch to olanzapine which is weight neutral", " Add metformin 500mg BD", " Switch to paliperidone LAI which has less weight gain", " Offer lifestyle advice (diet, exercise) and monitor weight, HbA1c and lipids; consider metformin or switching to lurasidone/ziprasidone if weight continues to increase", " Reduce aripiprazole to 10mg daily"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Olanzapine has MORE weight gain than aripiprazole (median ~4-5kg vs ~1-2kg). It would worsen the metabolic profile, not help.",
+      "Metformin is a useful treatment for antipsychotic-induced weight gain but should not be the first step. Lifestyle interventions and considering a switch should precede pharmacological management of weight gain.",
+      "Paliperidone has a similar weight gain profile to risperidone (moderate), which is more than aripiprazole. Switching from aripiprazole to paliperidone is likely to increase weight further.",
+      "CORRECT. NICE CG178 recommends: (1) Monitor weight, BMI, HbA1c, and lipids at baseline, 12 weeks, and annually; (2) Offer lifestyle advice (dietitian referral, exercise programme); (3) If weight gain continues despite lifestyle interventions, consider switching to an antipsychotic with lower metabolic risk (e.g., switching from aripiprazole — which is already low risk — would need to go to lurasidone or ziprasidone, which have the lowest metabolic impact but are less widely used). Metformin (off-label) can be considered if switching is not appropriate. Aripiprazole already has one of the best metabolic profiles, but 8kg gain in 6 months is significant and warrants active management.",
+      "Dose reduction may help but risks psychotic relapse. The weight gain on aripiprazole is partial D2 agonist mediated and not strictly dose-linear in terms of weight effect."
+    ],
+    "teaching_point": "Weight gain hierarchy among antipsychotics (highest to lowest): Clozapine > Olanzapine > Risperidone / Paliperidone > Quetiapine > Amisulpride / Aripiprazole > Haloperidol > Lurasidone / Ziprasidone. Management of metabolic side effects: (1) Prevent with baseline monitoring and lifestyle counselling at initiation; (2) If >7% weight gain: switch to a lower-liability antipsychotic; (3) No switch possible: add metformin (off-label, 500-2000mg daily, ~3kg weight loss); (4) Consider orlistat (limited evidence in antipsychotic-induced obesity). NICE CG178: 'Do not routinely switch or stop antipsychotic to manage weight gain — offer lifestyle interventions first.' Aripiprazole is considered weight-neutral but some patients still gain significant weight.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["weight_gain", "metabolic_syndrome", "aripiprazole", "metformin", "lifestyle_intervention"]
+  },
+  {
+    "stem": "A 27-year-old woman with paranoid schizophrenia has a 5-year history although has not required hospitalisation. She has been stable on risperidone LAI 50mg IM every 2 weeks for the past 2 years. She has no history of cardiovascular disease and all baseline investigations were normal except for a mildly elevated prolactin of 750 mIU/L. She has noted galactorrhoea but no menstrual irregularities. She is asking about the possibility of pregnancy. She is currently using barrier contraception. What advice regarding medication in pregnancy should she be given?",
+    "options": [" She should stop risperidone before attempting pregnancy as it is teratogenic", " The risks and benefits of continuing risperidone should be discussed; risperidone is relatively safe in pregnancy with neonatal adaptation monitored", " Switch to olanzapine which is proven safe in pregnancy", " Switch to clozapine before conception due to superior efficacy and safety", " Increase barrier contraception and advise against pregnancy while on antipsychotics"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Stopping all antipsychotics before pregnancy is dangerous — 70-80% of women with schizophrenia relapse in the first year off medication. Antipsychotics are not major teratogens (the absolute risk of major congenital malformations is increased by a small amount, approximately 2-3% vs 1-2% baseline).",
+      "CORRECT. NICE CG192 recommends: (1) Discuss risks of untreated psychosis in pregnancy (relapse, poor engagement, obstetric complications) vs small risks of antipsychotics; (2) Risperidone is considered relatively safe in pregnancy (extensive clinical experience, no specific major teratogenic pattern); (3) Monitor for gestational diabetes (antipsychotics increase risk); (4) Plan for neonatal adaptation syndrome (irritability, feeding difficulties, sedation — typically self-limiting, resolves within days); (5) Plan for the postnatal period (highest risk time).",
+      "Olanzapine is not 'proven safe' — no antipsychotic is proven safe (no RCTs in pregnancy). Olanzapine carries a higher risk of gestational diabetes and weight gain than risperidone. The choice should be based on what works best for the individual patient.",
+      "Clozapine requires stringent blood monitoring and is not recommended in pregnancy due to limited safety data and potential risk of agranulocytosis in the neonate. It is not a first-line choice in pregnancy.",
+      "Advising against pregnancy is ethically inappropriate. All patients have the right to make informed reproductive choices. The role of the psychiatrist is to counsel, support, and optimise treatment to allow the patient to have a safe pregnancy and healthy baby."
+    ],
+    "teaching_point": "Antipsychotics in pregnancy: General principles: (1) Untreated maternal psychosis is harmful to both mother and baby (preterm birth, low birth weight, poor engagement); (2) Antipsychotics are not major teratogens — absolute risk of congenital anomalies is approximately 2-3% (vs 1-2% background); (3) High-potency FGAs (haloperidol) have the longest safety record; (4) Most SGAs (olanzapine, risperidone, quetiapine) have moderate safety data; (5) Avoid polypharmacy where possible; (6) Monitor for gestational diabetes; (7) Plan for neonatal adaptation syndrome; (8) Arrange a perinatal psychiatry review. Risks per antipsychotic: olanzapine — highest gestational diabetes risk; risperidone — prolactin elevation may affect fertility; aripiprazole — limited data; clozapine — not first-line in pregnancy.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192: Antenatal and postnatal mental health; Maudsley Prescribing Guidelines",
+    "tags": ["pregnancy", "antipsychotic", "risperidone", "perinatal", "teratogenicity", "risk_benefit"]
+  },
+  {
+    "stem": "A 34-year-old woman with schizophrenia (paranoid type) has been stable on paliperidone palmitate LAI 100mg IM monthly for 2 years. She wants to become pregnant and asks about the safest antipsychotic option. She has been in full remission for 18 months. What is the most appropriate recommendation?",
+    "options": [" Recommend switching to aripiprazole which has the best safety profile in pregnancy", " Recommend continuing paliperidone as she is stable", " Discuss the option of a planned off-medication trial before conception, with close monitoring", " Recommend switching to haloperidol which has the longest safety record in pregnancy", " Recommend switching to clozapine before conception"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Aripiprazole has limited pregnancy safety data compared to haloperidol and FGAs. Switching carries risk of destabilisation.",
+      "Continuing paliperidone is an option, but the objective safest option (with the longest safety record) should be discussed. Paliperidone (active metabolite of risperidone) has similar safety data to risperidone.",
+      "CORRECT. Haloperidol (a high-potency FGA) has the longest safety record in pregnancy, with the most extensive published data dating back to the 1960s. It has not been associated with any specific major teratogenic pattern. The Maudsley Guidelines state: 'If a woman with schizophrenia is planning pregnancy, haloperidol is the antipsychotic of choice in terms of safety.' However, this must be balanced against the risk of destabilisation during a switch. Options for this patient: (1) Continue paliperidone (the devil you know — she is stable); (2) Switch to haloperidol or trifluoperazine (the safest safety record, higher EPS risk); (3) If she is in full remission and collaborative, a planned dose reduction with close perinatal team monitoring could be discussed. The choice should be individualised based on her history, resilience, and preferences. The patient should be seen in a specialist perinatal psychiatry service.",
+      "Haloperidol has the best evidence base. However, switching a stable patient carries relapse risk. Both approaches should be discussed.",
+      "Clozapine is not recommended in pregnancy and is not the safest option."
+    ],
+    "teaching_point": "Antipsychotic choice in pregnancy — safety hierarchy (Maudsley, NICE CG192): Best evidence: Haloperidol, chlorpromazine, trifluoperazine (FGAs — extensive long-term data). Good evidence: Olanzapine, risperidone, quetiapine (larger newer datasets). Limited evidence: Aripiprazole, paliperidone, amisulpride. Avoid if possible: Clozapine (requires strict blood monitoring, limited safety data), high-dose combinations. Key principle: A woman stable on an antipsychotic that is not known to be teratogenic should generally remain on it. Switching to haloperidol in pregnancy is only recommended if it provides a meaningful safety advantage without significant relapse risk. Most women remain on their current antipsychotic with appropriate monitoring.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192; Maudsley Prescribing Guidelines; BAP Guidelines (2017)",
+    "tags": ["pregnancy", "antipsychotic", "haloperidol", "perinatal", "preconception", "safety"]
+  },
+  {
+    "stem": "A 30-year-old woman with a 10-year history of schizophrenia presents with a severe psychotic relapse. She has been non-adherent to oral antipsychotics in the past. She has previously tried risperidone (developed hyperprolactinaemia) and quetiapine (excessive sedation). She has a BMI of 34 with HbA1c of 48 mmol/mol (impaired fasting glucose). Her ECG shows QTc of 440ms. Which LAI antipsychotic is most appropriate?",
+    "options": [" Fluphenazine decanoate 25mg IM every 2 weeks", " Olanzapine pamoate 300mg IM every 2 weeks", " Aripiprazole LAI 400mg IM monthly", " Paliperidone palmitate 150mg IM monthly", " Haloperidol decanoate 50mg IM every 4 weeks"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Fluphenazine is a high-potency FGA with high EPS risk (parkinsonism, tardive dyskinesia) and moderate prolactin elevation. It would be a poor choice given her previous hyperprolactinaemia on risperidone (FGAs can also cause this).",
+      "Olanzapine pamoate carries a risk of post-injection delirium/sedation syndrome (PDSS — 0.07% of injections), requires 3-hour post-injection observation, and has the highest metabolic risk (weight gain, diabetes) which is particularly dangerous given her BMI of 34 and impaired fasting glucose.",
+      "CORRECT. Aripiprazole LAI is an excellent choice because: (1) It does NOT cause hyperprolactinaemia (it can even lower prolactin — crucial given her risperidone history); (2) Low sedation profile (good given her quetiapine intolerance); (3) Weight NEUTRAL or minimal gain (safe with her obesity and borderline diabetes); (4) Minimal QTc prolongation; (5) Once-monthly dosing after initial loading (good for adherence); (6) Available as a long-acting injection. The LAI formulation addresses her adherence issues. The main side effect to monitor is akathisia (~10-15%).",
+      "Paliperidone palmitate has similar side effects to risperidone — hyperprolactinaemia and moderate weight gain. Given her history of hyperprolactinaemia on risperidone, paliperidone (its active metabolite) is likely to cause the same issue.",
+      "Haloperidol decanoate carries high EPS risk, moderate QTc prolongation risk, hyperprolactinaemia, and postural hypotension. It is a poor choice given her risk factors."
+    ],
+    "teaching_point": "LAI antipsychotic selection — individualised choice based on side-effect history: Aripiprazole LAI is unique among LAIs: (1) Weight neutral (critical in patients with metabolic risk); (2) No prolactin elevation; (3) Minimal QTc effect; (4) Low sedation; (5) Once-monthly (paliperidone also has 3-monthly). The patient's history of hyperprolactinaemia on risperidone is the key discriminating factor. Aripiprazole (partial D2 agonist) is prolactin-sparing — it can even treat risperidone-induced hyperprolactinaemia. Side-effect profile is the main determinant of LAI choice — not just efficacy.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["LAI", "aripiprazole", "antipsychotic_choice", "hyperprolactinaemia", "side_effect_profile"]
+  },
+  {
+    "stem": "A 50-year-old man with chronic schizophrenia who is a heavy smoker (40/day) has been on olanzapine 10mg daily with poor response. On assessment, his smoking has increased recently. His baseline olanzapine level is subtherapeutic. Smoking cessation is planned. What is the most important consideration when he stops smoking?",
+    "options": [" Olanzapine levels may decrease — increase the dose", " Olanzapine levels may increase due to CYP1A2 de-induction — halve or reduce the dose and monitor for toxicity", " No dose change needed — smoking does not affect olanzapine", " Switch to aripiprazole which is not CYP1A2-metabolised", " Add nicotine replacement therapy to maintain olanzapine levels"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Olanzapine levels INCREASE when smoking stops (smoking induces CYP1A2). They do not decrease.",
+      "CORRECT. Smoking induces CYP1A2 (the major enzyme that metabolises clozapine and olanzapine). When a heavy smoker stops smoking, CYP1A2 activity decreases over 2-4 weeks, leading to a significant INCREASE in olanzapine levels (by up to 50-100%). This can cause toxicity (excessive sedation, hypotension, seizures). Management: (1) Warn the patient; (2) Consider reducing the olanzapine dose by 30-50% at the time of smoking cessation; (3) Monitor for side effects; (4) Recheck levels in 2-4 weeks. The same principle applies to clozapine — it is the most important drug interaction in clozapine prescribing.",
+      "Smoking DOES affect olanzapine — it's a key exam fact. CYP1A2 is induced by polycyclic aromatic hydrocarbons in cigarette smoke.",
+      "Aripiprazole is metabolised by CYP2D6 and CYP3A4, not CYP1A2, so smoking does not affect its levels. This is an option but the immediate safety concern is the olanzapine level change.",
+      "Nicotine replacement (patches, gum) does NOT induce CYP1A2 — only the polycyclic aromatic hydrocarbons in SMOKE do. So nicotine replacement alone does not alter olanzapine/clozapine metabolism. However, it does not address the dose adjustment need."
+    ],
+    "teaching_point": "Smoking and antipsychotics — the CYP1A2 interaction: This is one of the most important drug interactions in psychiatry. Cigarette smoke (specifically polycyclic aromatic hydrocarbons) induces CYP1A2, increasing the metabolism of clozapine and olanzapine by up to 40-50%. A heavy smoker may need up to double the dose of a non-smoker. When a patient stops smoking (or is admitted to a smoke-free ward), CYP1A2 de-induction over 2-4 weeks causes levels to RISE by up to 50-100%, risking toxicity. Management: reduce clozapine/olanzapine dose by 30-50% when smoking cessation is planned. Monitor levels. Other CYP1A2 inducers: char-grilled meat, cruciferous vegetables (broccoli, Brussels sprouts). Inhibitors: fluvoxamine, caffeine (weak), grapefruit juice. Aripiprazole, risperidone, quetiapine, and haloperidol are NOT metabolised by CYP1A2 and are not affected by smoking.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; BNF",
+    "tags": ["smoking", "CYP1A2", "olanzapine", "clozapine", "drug_interaction", "smoking_cessation"]
+  },
+  {
+    "stem": "A 44-year-old man with schizophrenia on clozapine 400mg daily is admitted to a smoke-free ward. He smokes 30 cigarettes per day. Three days after admission, he becomes excessively sedated, drooling, and ataxic. What is the most likely cause of this presentation?",
+    "options": [" Clozapine-induced myocarditis", " Neuroleptic malignant syndrome", " Clozapine toxicity due to smoking cessation-induced CYP1A2 de-induction", " Cerebrovascular accident", " Benzodiazepine withdrawal"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Myocarditis presents with fever, chest pain, dyspnoea, and elevated troponin — not excessive sedation, drooling, and ataxia without fever.",
+      "NMS presents with fever, rigidity, autonomic instability, and elevated CK — not excessive sedation and drooling without rigidity or fever.",
+      "CORRECT. This is a classic and important clinical scenario. Smoking cessation causes CYP1A2 de-induction over 1-4 weeks. Since clozapine is predominantly metabolised by CYP1A2, cessation of smoking in a heavy smoker can double serum clozapine levels, leading to acute toxicity. Symptoms of clozapine toxicity: excessive sedation, drooling/hypersalivation, ataxia, confusion, seizures (at high levels). Management: (1) Hold the next dose; (2) Check clozapine level urgently; (3) Reduce dose by 30-50% and monitor symptoms; (4) If severe (seizures, respiratory depression), admit to medical ward. The same applies to olanzapine. Prevention: reduce clozapine/olanzapine dose by 30-50% at the time of admission to a smoke-free ward.",
+      "A CVA would present with focal neurological signs (hemiparesis, facial droop, dysphasia), not with the global picture of sedation and ataxia without focal features in a patient with a clear alternative explanation.",
+      "Benzodiazepine withdrawal presents with anxiety, agitation, tachycardia, hypertension, and seizures — not excessive sedation and drooling."
+    ],
+    "teaching_point": "Clozapine toxicity from smoking cessation — classic MRCPsych exam scenario: Mechanism: smoking induces CYP1A2 → smoking stops → CYP1A2 de-induction over 1-2 weeks → clozapine levels rise 50-100%. Clinical features of toxicity: sedation (most sensitive indicator), hypersalivation, ataxia, confusion, seizures (levels >1000-1300 ng/mL), respiratory depression, coma. Management: stop clozapine, check level, supportive care, reduce dose. Prevention: anticipate at admission — reduce dose by 30-50% when a smoker is admitted to a smoke-free setting. Monitor levels weekly during the transition. The same interaction applies to olanzapine but is less dramatic. CYP1A2 is also induced by: cannabis smoking, chargrilled meat, cruciferous vegetables. Inhibited by: fluvoxamine (potent), ciprofloxacin, caffeine (mild).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; BNF; NICE CG178",
+    "tags": ["clozapine", "smoking_cessation", "CYP1A2", "toxicity", "ward_admission", "dose_adjustment"]
+  },
+  {
+    "stem": "According to research evidence, which of the following is most strongly associated with first-episode psychosis coming to clinical attention earlier (shorter duration of untreated psychosis)?",
+    "options": [" The patient being from an ethnic minority background", " Higher levels of premorbid functioning", " The presence of family involvement and help-seeking", " The type of psychotic symptoms (positive vs negative)", " Male gender"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Ethnic minority status is associated with LONGER DUP and later presentation to EIP services, not shorter.",
+      "Higher premorbid functioning is associated with better outcomes but has a complex relationship with DUP (may be associated with later presentation as the patient may compensate better initially).",
+      "CORRECT. Family involvement and active help-seeking by family members is the strongest factor associated with shorter DUP. The family may notice symptoms earlier, be more motivated to seek help, and engage more effectively with healthcare services. Other factors associated with shorter DUP: (1) acute onset (vs insidious); (2) living in urban areas with better access to EIP services; (3) younger age at onset; (4) presence of violent or risky behaviour. Longer DUP is associated with: insidious onset, negative symptoms, male gender, ethnic minority status, living alone, lower socio-economic status.",
+      "The type of psychotic symptoms (e.g., positive vs negative) has a complex relationship with DUP. Predominantly negative symptoms are associated with LONGER DUP (they are less noticeable and more likely to be attributed to adolescent turmoil or personality). Positive symptoms (especially if behavioural) may lead to earlier presentation.",
+      "Male gender is associated with LONGER DUP in some studies (though the evidence is mixed)."
+    ],
+    "teaching_point": "Duration of Untreated Psychosis (DUP): Mean DUP is 1-2 years in UK (varies widely from weeks to years). Shorter DUP → better outcomes (treatment response, symptom remission, social functioning, cognition). Factors associated with shorter DUP: family involvement, acute onset, younger age, living with family. Factors associated with longer DUP: insidious onset, negative symptoms, ethnic minority, male, living alone, poor premorbid functioning. EIP services aim to reduce DUP. The 2-week wait target (NHS Long Term Plan) is designed to minimise DUP. Critical/sensitive period hypothesis: the first 2-5 years after onset are a critical period where intervention can fundamentally alter illness trajectory.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Marshall M et al. (2005) DUP and outcome: systematic review. Br J Psychiatry; NICE CG178",
+    "tags": ["DUP", "early_intervention", "help-seeking", "family_involvement", "prognosis"]
+  },
+  {
+    "stem": "A 46-year-old man with chronic schizophrenia is being reviewed by the assertive outreach team at home. He has had multiple hospital admissions over the past 10 years due to poor adherence with oral medication. He has previously tried olanzapine (weight gain of 12kg), risperidone (prolactin-related sexual dysfunction), and haloperidol (severe akathisia). He is currently not on any medication and is moderately symptomatic with paranoid ideas and social withdrawal. He agrees to consider a depot/LAI. What is the most appropriate LAI to offer?",
+    "options": [" Paliperidone palmitate 150mg IM monthly", " Olanzapine pamoate 300mg IM every 2 weeks", " Zuclopenthixol decanoate 200mg IM every 2 weeks", " Haloperidol decanoate 50mg IM every 4 weeks", " Flupentixol decanoate 40mg IM every 2 weeks"],
+    "correct_index": 0,
+    "distractors_rationale": [
+      "CORRECT. Paliperidone palmitate (a monthly LAI) is a good choice here. Paliperidone is the active 9-hydroxy metabolite of risperidone. It has a distinct side-effect profile — while it shares prolactin elevation (which may be a problem given his history of risperidone-related sexual dysfunction), it has: less sedation than olanzapine, less weight gain than olanzapine, less akathisia than haloperidol, and less EPS than FGAs. The monthly dosing schedule (after initial loading days 1 and 8) is simpler for adherence. However, note the prolactin issue — in practice aripiprazole LAI would be preferred given his side-effect history, but it's not listed here. Between the options, paliperidone is the most appropriate.",
+      "Olanzapine pamoate (LAI) requires 3-hour post-injection monitoring for PDSS. Given his history of significant weight gain on oral olanzapine, this LAI would likely cause further metabolic deterioration.",
+      "Zuclopenthixol is a high-potency FGA depot, carries EPS risk and akathisia. Given his history of akathisia on haloperidol (also a high-potency FGA), this should be avoided.",
+      "Haloperidol decanoate has the same problems — high akathisia risk. His history clearly contraindicates this.",
+      "Flupentixol decanoate is a moderate-potency FGA depot — lower akathisia risk than haloperidol but still significant EPS risk. However, given his poor experience with haloperidol (akathisia), FGAs should be avoided."
+    ],
+    "teaching_point": "Selecting an LAI after multiple antipsychotic failures: The key is to review side-effect history and select a drug with a different profile. This patient had EPS with haloperidol (FGA) and weight gain with olanzapine (SGA with high metabolic risk). The remaining options are: (1) Paliperidone (moderate side-effect profile, prolactin risk); (2) Aripiprazole (best profile for this patient — would be ideal but wasn't listed). The principle: choose an LAI based on the patient's response and tolerance history. If a patient has failed multiple antipsychotics, consider a different mechanism (e.g., a partial agonist like aripiprazole). Paliperidone LAI evidence: similar efficacy to risperidone LAI but monthly dosing is preferred by patients. The loading regimen: 150mg IM day 1, 100mg IM day 8, then 75-150mg monthly.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["LAI", "paliperidone", "antipsychotic_selection", "adherence", "treatment_resistance"]
+  },
+  {
+    "stem": "A 39-year-old man with schizophrenia who has been well on quetiapine 400mg daily for 3 years presents at a routine review. His psychotic symptoms remain well controlled but he reports being unable to achieve or maintain an erection, which is causing significant distress and relationship problems. His prolactin level is normal. What is the most appropriate management?",
+    "options": [" Switch to aripiprazole", " Add sildenafil 50mg PRN", " Add testosterone gel 50mg daily", " Reduce quetiapine dose to 200mg daily", " Reassure that this is a common side effect that usually resolves"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Aripiprazole has a lower rate of sexual dysfunction than quetiapine but switching carries relapse risk and may not be necessary if the sexual dysfunction can be managed more simply. The patient is stable on quetiapine.",
+      "CORRECT. Quetiapine can cause sexual dysfunction via dopamine blockade (D2) in the tuberoinfundibular pathway, histamine blockade (sedation affecting libido and performance), and alpha-1 blockade (affecting erection). The most common management for antipsychotic-induced erectile dysfunction is: (1) Check prolactin (if high → switch to a prolactin-sparing agent); (2) If prolactin normal and the patient wishes to continue the current antipsychotic, consider a PDE5 inhibitor (sildenafil, tadalafil). Sildenafil 50mg is effective for antipsychotic-induced erectile dysfunction. Alternatives: dose reduction (risks relapse), switch to aripiprazole (if acceptable to the patient).",
+      "Testosterone is not routinely recommended without confirmed biochemical hypogonadism. It carries risks (prostate, cardiovascular) and is not first-line.",
+      "Dose reduction may help but risks psychotic relapse. Sexual dysfunction with quetiapine can occur even at moderate doses.",
+      "Reassurance is insufficient. The patient is distressed and the problem is causing relationship difficulties. Active management is needed."
+    ],
+    "teaching_point": "Antipsychotic-induced sexual dysfunction: Mechanisms vary: (1) Prolactin elevation (risperidone, amisulpride, haloperidol) → decreased libido, erectile dysfunction, anorgasmia; (2) Dopamine antagonism (all antipsychotics to varying degrees) → decreased libido; (3) Alpha-1 blockade (quetiapine, chlorpromazine) → erectile dysfunction; (4) Histamine H1 blockade → sedation affecting sexual function. Management: (1) Check prolactin; (2) If raised → switch to prolactin-sparing agent (aripiprazole, quetiapine, olanzapine); (3) If prolactin normal → consider PDE5 inhibitor (sildenafil) for erectile dysfunction; (4) Consider dose reduction (risks relapse); (5) Consider switch to aripiprazole. Aripiprazole has the lowest rate of sexual dysfunction among antipsychotics. Sexual dysfunction affects 30-70% of patients on antipsychotics and is a major cause of non-adherence.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; Montejo AL et al. (2018) Antipsychotic-related sexual dysfunction",
+    "tags": ["sexual_dysfunction", "quetiapine", "sildenafil", "prolactin", "side_effects"]
+  },
+  {
+    "stem": "A 33-year-old man with first-episode psychosis has been on aripiprazole 10mg daily for 8 weeks with good resolution of positive symptoms. However, he reports persistent lack of motivation (avolition), social withdrawal, and reduced emotional expression. These symptoms were present before treatment but have become more noticeable now that his positive symptoms have resolved. He has no depressive symptoms, no EPS, and his aripiprazole dose is within the normal range. What is the most appropriate management?",
+    "options": [" Increase aripiprazole to 15mg daily to better treat the negative symptoms", " Diagnose post-psychotic depression and start an SSRI", " Add cognitive behavioural therapy for psychosis (CBTp) and consider a trial of switching or augmenting with a drug that may improve negative symptoms", " Add an anticholinergic (procyclidine) to rule out drug-induced akinesia", " Reassure that these symptoms are part of the illness and cannot be treated"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing aripiprazole is unlikely to help and may worsen negative symptoms (D2 blockade causing secondary negative symptoms).",
+      "Post-psychotic depression requires depressive symptoms (low mood, anhedonia, worthlessness) beyond negative symptoms. This patient has negative symptoms without depressive cognitions.",
+      "CORRECT. Primary negative symptoms persisting after resolution of positive symptoms are a therapeutic challenge. Management: (1) Rule out secondary causes (depression, EPS, medication-induced akinesia, social deprivation); (2) Offer CBTp specifically adapted for negative symptoms (evidence for small to moderate improvement in avolition and social functioning); (3) Consider switching to amisulpride (has the best evidence for primary negative symptoms at low doses 50-300mg via presynaptic D2/D3 blockade enhancing prefrontal dopamine); (4) Consider aripiprazole augmentation with low-dose amisulpride; (5) Consider psychosocial interventions (social skills training, supported employment). Clozapine may improve secondary negative symptoms but evidence for primary negative symptoms is mixed.",
+      "Anticholinergics would only help if there is drug-induced akinesia (which mimics negative symptoms). This patient has no EPS, making this unlikely.",
+      "This is an outdated and incorrect view. Negative symptoms are challenging but not untreatable."
+    ],
+    "teaching_point": "Primary vs secondary negative symptoms — the key distinction for MRCPsych: SECONDARY negative symptoms (treatable causes): (1) Positive symptoms (social withdrawal due to paranoia); (2) Depression; (3) EPS (akinesia, bradykinesia); (4) Sedation from medication; (5) Environmental deprivation. PRIMARY negative symptoms (deficit syndrome): core illness features with no identifiable secondary cause. Treatment of primary negative symptoms: (1) CBT (best evidence); (2) Amisulpride (low dose, evidence from Cochrane review, Leucht et al. 2013); (3) Aripiprazole augmentation; (4) Psychosocial interventions; (5) No strong evidence for SSRIs, modafinil, or other agents. Amisulpride's unique mechanism: at low doses (<300mg), preferentially blocks presynaptic D2/D3 autoreceptors, increasing dopamine release in the prefrontal cortex.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Leucht S et al. (2013) Amisulpride for negative symptoms",
+    "tags": ["negative_symptoms", "primary_vs_secondary", "amisulpride", "CBT", "deficit_syndrome"]
+  },
+  {
+    "stem": "Which one of the following antipsychotics carries the HIGHEST risk of venous thromboembolism (VTE)?",
+    "options": [" Aripiprazole", " Risperidone", " Clozapine", " Haloperidol", " Quetiapine"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Aripiprazole has the lowest VTE risk due to its neutral metabolic and platelet effects.",
+      "Risperidone has intermediate VTE risk, higher than aripiprazole but lower than clozapine.",
+      "CORRECT. Clozapine carries the highest VTE risk of all antipsychotics (odds ratio ~2.5-6.5). The mechanism is multifactorial: (1) Sedation and immobility; (2) Obesity; (3) Increased platelet aggregation; (4) Elevated anticardiolipin antibodies (some patients); (5) Hyperhomocysteinaemia. VTE risk is highest in the first 3-6 months of treatment. Clozapine-associated VTE is frequently under-recognised. Any patient on clozapine presenting with unilateral leg swelling, chest pain, or sudden dyspnoea should be investigated for DVT/PE. Antipsychotics as a class increase VTE risk by 2-3× (population-based studies). Low-potency FGAs (chlorpromazine) and clozapine have the highest risk. Prophylactic measures: hydration, mobilisation, compression stockings, and VTE risk assessment.",
+      "Haloperidol has a lower VTE risk than low-potency antipsychotics. High-potency FGAs have less VTE risk than low-potency ones.",
+      "Quetiapine has moderate VTE risk (similar to olanzapine and risperidone), lower than clozapine."
+    ],
+    "teaching_point": "Antipsychotics and VTE: A meta-analysis of observational studies (Zhang et al., 2021) found: all antipsychotics increase VTE risk (OR ~2.0). Risk hierarchy: Clozapine (highest) > Low-potency FGAs (chlorpromazine) > Olanzapine/Quetiapine/Risperidone > Haloperidol/Aripiprazole (lowest). VTE is one of the most under-recognised antipsychotic-related adverse events. Clinical presentation: unilateral calf swelling/Homans sign (DVT), sudden dyspnoea/tachypnoea/pleuritic chest pain/ haemoptysis (PE). Risk factors for VTE: age >60, obesity, smoking, immobility, surgery, travel, pregnancy, oestrogen therapy, cancer, thrombophilia. Monitoring: ask about leg swelling/chest pain at each clozapine review. Prevention for clozapine: maintain hydration, encourage mobilisation, weight management.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; Zhang R et al. (2021) Antipsychotics and VTE; BNF",
+    "tags": ["VTE", "clozapine", "antipsychotic", "pulmonary_embolism", "DVT", "side_effects"]
+  },
+
+  {
+    "stem": "A 47-year-old woman with a 25-year history of schizophrenia is brought to the emergency department by police after being found wandering the streets in a confused and agitated state. She is well-known to the mental health team and had disengaged from services 3 months ago. Her last prescribed medication was flupentixol decanoate 40mg IM every 2 weeks. She is poor historian, appears frightened, and is responding to unseen stimuli. Observations: BP 145/90, HR 102, Temp 37.1°C, RR 18, O2 sat 99%. Blood glucose 7.2 mmol/L. What is the most appropriate immediate management?",
+    "options": [" Administer haloperidol 5mg IM for rapid tranquillisation", " Start olanzapine 10mg orally as a stat dose and restart depot in the morning", " Reassure and observe in a quiet room overnight", " Restart flupentixol decanoate 40mg IM immediately", " Initiate clozapine 12.5mg BD for suspected treatment resistance"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Haloperidol is not indicated here. The patient has baseline tachycardia and hypertension — haloperidol carries dystonia and QTc risks. There is no acute risk justifying pharmacological sedation.",
+      "Oral olanzapine stat is premature — she may be distressed but not acutely aggressive or at risk. A less invasive approach should be tried first.",
+      "CORRECT. This patient is likely experiencing a psychotic relapse due to disengagement and missed depot medications. She is frightened and confused but has normal observations (no acute medical issue), normal glucose (stress hyperglycaemia likely), and is not aggressive. The appropriate initial management is: (1) Place in a quiet, low-stimulation environment; (2) Provide reassurance and reorientation; (3) Re-establish oral intake and hydration; (4) Contact the home treatment team or EIP service; (5) Consider oral antipsychotic (the same medication she was on) if she is unable to settle; (6) Restart her depot once she is medically stable and consent is obtained. This is a common presentation of disengagement. The principle: least restrictive first.",
+      "Restarting a depot requires capacity assessment and consent. In a confused/frightened patient, this may not be appropriate without first assessing capacity and attempting oral medication.",
+      "There is no evidence of treatment resistance. Clozapine would be inappropriate — it requires FBC monitoring, slow titration, and is indicated after 2 failed antipsychotic trials at adequate doses."
+    ],
+    "teaching_point": "Management of relapsed psychosis after disengagement from services: Prevalence: up to 50% of patients with schizophrenia disengage from services at some point. Approach: (1) Assess capacity to consent to treatment; (2) If the patient lacks capacity, treat under MCA (best interests) or MHA; (3) Offer oral antipsychotic (same as previous effective agent); (4) Re-engage with community team, home treatment, or EIP; (5) Re-establish depot/LAI if previously effective; (6) Assess for physical health complications of relapse (dehydration, electrolyte disturbance, VTE risk). Least restrictive principle: always start with the least coercive intervention. The MHA may be needed if the patient lacks capacity and needs treatment for a mental disorder that places themselves or others at risk.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; MHA 1983 Code of Practice; MCA 2005",
+    "tags": ["relapse", "disengagement", "emergency", "capacity", "least_restrictive"]
+  },
+  {
+    "stem": "A 55-year-old man with a 30-year history of schizophrenia has been maintained on flupentixol decanoate (depot) 40mg IM every 2 weeks with good effect. He develops choreiform movements of his mouth and tongue. What is the most appropriate management step?",
+    "options": [" Add procyclidine 5mg TDS", " Reduce depot frequency to every 3 weeks", " Switch to aripiprazole LAI 400mg monthly", " Add tetrabenazine 25mg TDS", " Increase depot dose to suppress the movements"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Procyclidine (anticholinergic) can WORSEN tardive dyskinesia (TD). Anticholinergics reduce the threshold for TD and should be tapered if possible. They may help acute dystonia and parkinsonism but NOT TD.",
+      "Reducing the dose may help by lowering D2 blockade but carries risk of psychotic relapse. Switching to a lower TD-risk antipsychotic (clozapine or aripiprazole) is the recommended approach.",
+      "CORRECT. The first-line management of tardive dyskinesia is: (1) Switch to clozapine (best evidence for TD improvement) OR aripiprazole (partial D2 agonist, evidence for TD improvement). (2) Reduce or stop anticholinergic medications. (3) If the movements are severe and disabling, consider VMAT2 inhibitors (valbenazine, deutetrabenazine — not widely available in UK NHS, or tetrabenazine off-label). (4) Consider adding vitamin E (limited evidence). Aripiprazole LAI is a practical option: ensures adherence, months-monthly dosing, and has a lower TD risk than flupentixol (FGA). Clozapine would be first-line if the patient has treatment-resistant symptoms.",
+      "Tetrabenazine is a VMAT2 inhibitor used for Huntington's chorea. It carries risk of depression and parkinsonism. It is not first-line for antipsychotic-induced TD and should only be considered under specialist advice.",
+      "Increasing the depot dose would mask TD temporarily but worsen the underlying D2 supersensitivity. When the dose is eventually reduced, the movements would worsen (withdrawal-emergent TD). This is never recommended."
+    ],
+    "teaching_point": "Tardive dyskinesia — management summary: Step 1: Switch to clozapine (first-line, evidence from multiple studies — improvement in 50-60%) or aripiprazole (partial agonist). Step 2: Taper and stop anticholinergics. Step 3: Consider VMAT2 inhibitors (valbenazine, deutetrabenazine, tetrabenazine) under specialist guidance. Step 4: Consider vitamin E (weak evidence). TD develops in 20-30% of long-term FGA users. FGAs (haloperidol, fluphenazine, flupentxol, zuclopenthixol) carry the highest risk. SGAs (olanzapine, risperidone) carry moderate risk. Clozapine, quetiapine, and aripiprazole carry the lowest risk. AIMS (Abnormal Involuntary Movement Scale) is the standard monitoring tool. Withdrawal-emergent TD: can occur when antipsychotic is reduced or stopped — do not restart the antipsychotic to mask it.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; NICE CG178; Bhidayasiri R et al. (2018) TD management",
+    "tags": ["tardive_dyskinesia", "clozapine", "aripiprazole", "depot", "management"]
+  },
+  {
+    "stem": "A 26-year-old man presents with his first episode of psychosis — he has persecutory delusions and auditory hallucinations that have been present for about 6 weeks with a 4-month prodromal phase of social withdrawal and declining function. He has no medical history, no substance use, and baseline investigations are normal. He agrees to start antipsychotic medication. According to NICE, what is the recommended timeframe for assessing response to an antipsychotic trial?",
+    "options": [" 2 weeks at a therapeutic dose", " 4-6 weeks at an adequate therapeutic dose", " 8-12 weeks at an adequate therapeutic dose", " 3 months at any dose", " 1 week at a subtherapeutic dose"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "2 weeks is insufficient to assess response. Some early improvement may be seen, but full assessment requires 4-6 weeks.",
+      "CORRECT. NICE CG178 states: 'Assess response to antipsychotic medication after 4-6 weeks at an adequate therapeutic dose. If there is no improvement after 4-6 weeks, consider switching to a different antipsychotic.' If there is some response but suboptimal, the trial can be extended to 8-12 weeks. The dose should be within the therapeutic range (BNF-listed dose), not a subtherapeutic dose. Response is defined as: (1) >20% reduction in PANSS/BPRS; (2) CGI-I of much/very much improved; (3) Improvement in social/occupational functioning.",
+      "8-12 weeks is too long to wait without response and risks prolonged untreated symptoms. Only extend to 8-12 weeks if there is partial response.",
+      "3 months is too long and the dose must be adequate.",
+      "1 week is far too short, and subtherapeutic doses cannot be adequately assessed."
+    ],
+    "teaching_point": "Timing of antipsychotic response: Early improvement (weeks 1-2) predicts eventual response, but the formal assessment is at 4-6 weeks. If there is no improvement at 4-6 weeks, switch to a different antipsychotic (different class ideally). After two adequate trials at 4-6 weeks each, assess for treatment resistance and consider clozapine. The Maudsley guidelines note that some patients (especially on clozapine/olanzapine) may show slower improvement up to 12 weeks. Key exam point: treatment resistance is defined as failure of at least TWO antipsychotic trials of adequate dose and duration (6 weeks each).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "easy",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines",
+    "tags": ["antipsychotic_trial", "response_assessment", "duration", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 36-year-old man with treatment-resistant schizophrenia has been on clozapine 500mg daily for 3 months. His positive symptoms have improved but he continues to experience significant persistent auditory hallucinations and paranoid beliefs. His clozapine level is 550 ng/mL. Adherence is confirmed. He has had trials of risperidone and olanzapine previously. Which of the following augmentation strategies has the strongest evidence base?",
+    "options": [" Add lamotrigine 200mg daily", " Add sodium valproate 1000mg daily", " Add amisulpride 400mg daily", " Add ECT twice weekly", " Add aripiprazole 10mg daily"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Lamotrigine augmentation has mixed evidence. Some positive open-label trials but RCTs have been inconclusive. It also carries Stevens-Johnson syndrome risk with slow titration required.",
+      "Valproate augmentation has been studied, but evidence is weak. It is not recommended by NICE or Maudsley for clozapine augmentation.",
+      "CORRECT. Amisulpride augmentation has the strongest evidence base for clozapine non-response among antipsychotic augmentation strategies. A meta-analysis by Taylor et al. (2012) and subsequent studies found: adding amisulpride (400-800mg daily) to clozapine produces significant improvement in positive and negative symptoms. The mechanism: amisulpride's high D2/D3 occupancy complements clozapine's broad receptor profile and low D2 occupancy. Other augmentation strategies with evidence: aripiprazole (moderate evidence, also helps weight), and ECT (strong evidence but reserved for severe cases).",
+      "ECT has strong evidence for augmentation in clozapine-resistant schizophrenia (response rate 40-60%), but it is not first-line augmentation. It is reserved for severe symptoms, catatonia, or high suicide risk.",
+      "Aripiprazole augmentation has moderate evidence (some positive RCTs). It may help weight gain as an added benefit. However, amisulpride has the strongest evidence base for positive symptom improvement."
+    ],
+    "teaching_point": "Clozapine augmentation strategies — evidence hierarchy: (1) Amisulpride (best evidence, D2/D3 antagonist); (2) Aripiprazole (moderate evidence, partial D2 agonist, helps weight); (3) ECT (strong evidence but invasive, reserved for severe/resistant); (4) Lamotrigine (weak evidence, SJS risk); (5) Sulpiride (similar to amisulpride, less studied); (6) Valproate (no convincing evidence); (7) The Maudsley Guidelines also mention: pimozide, haloperidol, chlorpromazine augmentation but with lower evidence. The most common practice: amisulpride 400-800mg daily added to clozapine. Monitor for QTc, check U&Es/BNF. About 30-50% of patients who have not responded to clozapine monotherapy will respond to augmentation.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "recall",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; Taylor DM et al. (2012) Clozapine augmentation; NICE CG178",
+    "tags": ["clozapine", "augmentation", "amisulpride", "treatment_resistance", "evidence"]
+  },
+  {
+    "stem": "A 32-year-old woman with a 14-year history of schizophrenia is being assessed in a pre-conception counselling appointment. She has been stable on aripiprazole LAI 400mg monthly for 2 years. She has had two previous episodes of severe postpartum psychosis requiring admission to a mother and baby unit. She wishes to understand the risks and benefits of continuing medication in pregnancy. According to NICE, what is the most appropriate advice?",
+    "options": [" Aripiprazole should be discontinued before conception as it has known teratogenic effects", " The benefits of continuing aripiprazole likely outweigh the small risks (unknown risk profile but no major teratogenic signal); discuss the plan with specialist perinatal services", " Switch to haloperidol as it is the only antipsychotic proven safe in pregnancy", " Recommend termination of pregnancy if she conceives on aripiprazole", " Recommend she discontinue all medication and rely on psychological therapy alone"],
+    "correct_index": 1,
+    "distractors_rationale": [
+      "Aripiprazole is not known to be a major teratogen. No specific pattern of congenital malformations has been identified, though data are less extensive than for older antipsychotics.",
+      "CORRECT. NICE CG192 recommends: (1) Discuss the risks of untreated mental illness in pregnancy (relapse, disengagement, poor obstetric outcomes) vs the risks of medication; (2) Aripiprazole is not a known major teratogen but data are limited — the woman should be counselled about the limited evidence base; (3) The lowest effective dose should be used; (4) She should have a detailed discussion with a specialist perinatal psychiatrist; (5) If she conceives while on aripiprazole, she should be supported to continue (if that is her preference) with close monitoring; (6) There is no evidence to recommend switching to haloperidol in a woman stable on aripiprazole.",
+      "Haloperidol has the most extensive safety database in pregnancy, but switching a stable patient carries relapse risk. The principle of 'don't fix what isn't broken' applies. Haloperidol would only be recommended if the patient chooses to switch after understanding the risks.",
+      "Termination is not recommended based solely on antipsychotic exposure. The overall risk of major congenital malformations with most antipsychotics is approximately 2-3% (baseline 1-2%).",
+      "Discontinuing all medication is dangerous given her history of severe postpartum psychosis (high relapse risk without medication)."
+    ],
+    "teaching_point": "Antipsychotics in pregnancy — NICE CG192 key principles: (1) Untreated maternal mental illness carries significant risks (relapse, poor obstetric outcomes, impaired mother-infant bonding, safeguarding concerns). (2) Most antipsychotics are not major teratogens. (3) The risk of relapse after stopping antipsychotics in pregnancy is high (50-70% for schizophrenia). (4) If a woman is stable on an antipsychotic and there is no known teratogenicity, it is generally recommended to continue. (5) Switch only if there is a specific safety concern outweighing the risk of destabilisation. (6) Refer all women with severe mental illness in pregnancy to specialist perinatal services. (7) Plan for the postnatal period (highest risk time for relapse). Aripiprazole safety data: limited but growing; no specific teratogenic pattern identified.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG192: Antenatal and postnatal mental health; Maudsley Prescribing Guidelines",
+    "tags": ["pregnancy", "aripiprazole", "pre_conception", "perinatal", "antipsychotic_safety"]
+  },
+  {
+    "stem": "A 50-year-old man with chronic schizophrenia has been stable on flupentixol decanoate 40mg IM every 2 weeks for 5 years. He is found to have a corrected QT interval (QTc) of 485ms on a routine ECG. His electrolytes are normal. He has no history of cardiac disease and is on no other QTc-prolonging medications. What is the most appropriate management?",
+    "options": [" Continue flupentixol and repeat ECG in 6 months", " Switch to haloperidol decanoate as it has less QTc effect", " Add amiodarone 200mg daily for QT prophylaxis", " Switch to aripiprazole LAI (which has minimal QTc effect) and refer to cardiology", " Reduce flupentixol dose by half"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "A QTc of 485ms is prolonged (>470ms in men is abnormal) and requires action. Active management is needed, not just monitoring.",
+      "Haloperidol also prolongs QTc (dose-dependent) and carries additional EPS and metabolic risks. It is not a safer alternative.",
+      "Amiodarone itself is a QTc-prolonging antiarrhythmic with significant side effects (thyroid, pulmonary, hepatic). It is NEVER used for drug-induced QTc prolongation. Management of prolonged QTc is to remove the offending drug.",
+      "CORRECT. A QTc >480ms in a patient on a QTc-prolonging antipsychotic requires: (1) Stop the offending drug; (2) Correct electrolyte abnormalities; (3) ECG monitoring; (4) Refer to cardiology if QTc does not normalise; (5) Switch to a lower-risk antipsychotic (aripiprazole has minimal QTc effect, as does lurasidone and ziprasidone — though the latter are not widely available in the UK). Aripiprazole LAI is an appropriate switch option. Maudsley Guidelines: consider switch to aripiprazole if QTc is >480ms on a QTc-prolonging antipsychotic.",
+      "Dose reduction may help marginally but does not address the underlying issue. Flupentixol still has significant QTc prolongation even at lower doses. Switching is preferred."
+    ],
+    "teaching_point": "QTc prolongation management on antipsychotics: Thresholds: Normal QTc <440ms (men) / <460ms (women). Borderline 440-470ms (men) / 460-480ms (women). Prolonged >470ms (men) / >480ms (women). If QTc >500ms or increased by >60ms from baseline: immediate action. Management steps: (1) Check electrolytes (K+, Mg2+, Ca2+); (2) Review all QTc-prolonging drugs (antipsychotics, antibiotics, antiemetics); (3) Stop the offending drug; (4) Switch to a QTc-neutral antipsychotic (aripiprazole, lurasidone); (5) Cardiology referral if QTc remains prolonged; (6) Avoid other QTc-prolonging drugs in future. Antipsychotic QTc risk: Haloperidol (IV > oral, dose-dependent) > Amisulpride (dose-dependent) > Quetiapine > Risperidone > Olanzapine > Aripiprazole (lowest).",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; BNF; NICE CG178",
+    "tags": ["QTc", "flupentixol", "aripiprazole", "ECG", "cardiac_monitoring"]
+  },
+  {
+    "stem": "A 38-year-old woman with paranoid schizophrenia develops severe NMS while on haloperidol 15mg daily. She has marked rigidity, fever (39.2°C), autonomic instability, and a CK of 25,000 IU/L. Haloperidol has been stopped and IV fluids started. What is the most appropriate specific pharmacological treatment for her NMS?",
+    "options": [" Procyclidine 10mg IM", " L-dopa 100mg TDS", " ECT", " Dantrolene 50mg IV or bromocriptine 5mg TDS", " Midazolam 5mg IV PRN"],
+    "correct_index": 3,
+    "distractors_rationale": [
+      "Procyclidine (anticholinergic) is for acute dystonia and parkinsonism — not NMS. It does not treat the core pathophysiology of NMS.",
+      "L-dopa is used for Parkinson's disease. It increases CNS dopamine but carries psychosis risk. It is not standard treatment for NMS.",
+      "ECT is effective for NMS (especially for catatonic features and refractory cases) but is a SECOND-LINE treatment after pharmacological measures and supportive care have been tried.",
+      "CORRECT. Moderate-severe NMS (CK >10,000, marked rigidity, fever, autonomic instability) requires specific pharmacological treatment in addition to supportive care (stop antipsychotic, IV fluids, cooling). First-line: dantrolene (direct-acting skeletal muscle relaxant, reduces rigidity and heat production) 50-100mg IV, or bromocriptine (dopamine agonist, addresses dopamine blockade) 5-10mg TDS. Dantrolene works faster on rigidity; bromocriptine addresses neuropsychiatric symptoms and may prevent recurrence. The two can be combined if there is no response. Supportive care includes: IV fluids (for rhabdomyolysis), cooling, anticoagulation (VTE risk), and monitoring for complications (AKI, DIC, ARDS, aspiration).",
+      "Midazolam is for sedation and may be used for acute agitation but does not treat NMS. Benzodiazepines alone (lorazepam 1-2mg) are used for malignant catatonia, which can be hard to distinguish from NMS."
+    ],
+    "teaching_point": "NMS management: The three pillars — (1) SUPPORTIVE: stop antipsychotic, IV fluids (for rhabdomyolysis-induced AKI), cooling (for hyperthermia), monitoring (CK, U&Es, urine output, VTE prophylaxis). (2) SPECIFIC: dantrolene (2-3mg/kg/day IV — reduces rigidity, heat production), bromocriptine (5-10mg TDS — dopamine agonist), or both. (3) ECT: if refractory or severe (especially if catatonic features). NMS typically resolves over 5-14 days but CK may take longer. Recovery rate: 80-90% with modern management. Mortality: 5-10% (down from 20-30% historically). After recovery, reintroduce antipsychotics cautiously (wait 2 weeks, use a low-potency agent). Clozapine and quetiapine have the lowest NMS risk. Do NOT rechallenge with the offending drug.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "Maudsley Prescribing Guidelines; Strawn JR et al. (2007) NMS; BNF",
+    "tags": ["NMS", "dantrolene", "bromocriptine", "haloperidol", "management", "CK"]
+  },
+  {
+    "stem": "A 33-year-old man with schizophrenia has been stable on risperidone LAI 50mg IM every 2 weeks for the past year. He comes to clinic complaining that he has been feeling 'not quite right' for the past week — slightly more suspicious than usual, mild irritability, and difficulty sleeping. He does not meet full criteria for relapse but you are concerned this may be an early warning sign. What is the most appropriate management?",
+    "options": [" Immediately increase risperidone LAI to 50mg weekly", " Start a course of oral risperidone 2mg PRN alongside his LAI", " Arrange an urgent review, check for triggers (stress, substance use, adherence), and ensure a crisis plan is in place", " Admit to hospital for observation", " Switch to clozapine as this indicates treatment resistance"],
+    "correct_index": 2,
+    "distractors_rationale": [
+      "Increasing the LAI dose pre-emptively is not recommended without evidence of full relapse. The patient has early warning signs that require assessment, not automatic dose escalation.",
+      "PRN oral risperidone is not indicated unless the patient is in crisis. The first step is assessment and monitoring, not automatic medication change.",
+      "CORRECT. Recognising and acting on early warning signs of relapse is a core component of relapse prevention in schizophrenia. Early warning signs are subjective or objective changes that precede full relapse by days to weeks (e.g., suspiciousness, tension, insomnia, social withdrawal, irritability). Management of early warning signs: (1) Validate the patient's experience; (2) Assess for triggers (stress, substance use, missed medication, physical illness); (3) Ensure adherence to current medication; (4) Increase contact with the community team or home treatment team; (5) Ensure a crisis/relapse prevention plan is activated; (6) Consider short-term increase in monitoring; (7) Only consider medication changes if symptoms escalate. The patient has a clear plan and early warning signs are being detected — this is the window for PREVENTION.",
+      "Hospital admission is not indicated for early warning signs without acute risk or severe symptoms. Early intervention in the community can prevent relapse and readmission.",
+      "Clozapine is for treatment-resistant schizophrenia (failure of 2 adequate antipsychotic trials). This patient is stable on risperidone with early warning signs — not treatment failure."
+    ],
+    "teaching_point": "Relapse prevention in schizophrenia — early warning signs: Prodromal symptoms precede full relapse by 1-6 weeks. Common early signs: tension, anxiety, insomnia, irritability, suspiciousness, social withdrawal, reduced concentration. Management: (1) Use a personalised early warning signs checklist; (2) Patient, family, and team all trained to identify them; (3) Activate a crisis/relapse prevention plan; (4) Increase contact frequency; (5) Brief low-dose antipsychotic increase (under specialist guidance); (6) Address stress and triggers. Evidence: early warning sign interventions reduce relapse rates by 20-30%. NICE CG178: 'Consider developing a relapse prevention plan with people with psychosis and schizophrenia who are in remission.' Every patient should have a WRAP (Wellness Recovery Action Plan) or personalised relapse signature plan.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "medium",
+    "bloom_taxonomy": "application",
+    "paper": "B",
+    "source": "NICE CG178; Birchwood M et al. (2000) Early warning signs in schizophrenia",
+    "tags": ["relapse_prevention", "early_warning_signs", "crisis_plan", "relapse_signature", "NICE_guidelines"]
+  },
+  {
+    "stem": "A 29-year-old man with a diagnosis of schizophrenia has prominent negative symptoms (avolition, anhedonia, asociality) that have been stable for 3 years. He also suffers from obesity (BMI 33) and has a history of diabetes (HbA1c 56 mmol/mol) which is well-controlled on metformin. He is currently on olanzapine 15mg daily and is intolerant of aripiprazole (akathisia). What option might improve both negative symptoms and metabolic health?",
+    "options": [" Increase olanzapine to 20mg to maximise D2 occupancy", " Add amisulpride 100mg daily (low dose) to olanzapine", " Switch to clozapine which has superior efficacy for negative symptoms", " Add fluoxetine 20mg daily", " Start CBT for negative symptoms and consider switching to amisulpride"],
+    "correct_index": 4,
+    "distractors_rationale": [
+      "Increasing olanzapine would worsen metabolic parameters and would not improve negative symptoms (D2 occupancy >80% may worsen secondary negative symptoms via EPS).",
+      "Augmenting olanzapine with amisulpride 100mg may help negative symptoms (low-dose amisulpride enhances prefrontal dopamine) but the combination carries additive metabolic and prolactin risks. Better to switch to amisulpride monotherapy.",
+      "Clozapine has the highest metabolic risk and would worsen his metabolic health. Clozapine improves SECONDARY negative symptoms (by reducing positive symptoms and EPS) but evidence for PRIMARY negative symptoms is weaker than for amisulpride.",
+      "Fluoxetine does not have evidence for primary negative symptoms and carries CYP interactions (CYP2D6 inhibition). It may help depression if present, but this patient has no depressive symptoms.",
+      "CORRECT. CBT for negative symptoms has evidence for modest improvement in avolition, social functioning, and motivation (Grant et al., 2012; NICE CG178). Additionally, switching to amisulpride (50-300mg daily) would: (1) Improve primary negative symptoms via presynaptic D2/D3 blockade enhancing prefrontal dopamine (strongest evidence of all antipsychotics for negative symptoms); (2) Have a better metabolic profile than olanzapine (weight neutral, no diabetes risk); (3) Be suitable as monotherapy, avoiding the metabolic burden of olanzapine. Amisulpride does NOT cause weight gain or diabetes — it has the best metabolic profile of all SGAs alongside aripiprazole."
+    ],
+    "teaching_point": "Amisulpride — unique among antipsychotics: At low doses (50-300mg), it preferentially blocks presynaptic D2/D3 autoreceptors, increasing dopamine release in the prefrontal cortex → improves negative symptoms. At high doses (400-800mg), it blocks postsynaptic D2/D3 receptors → treats positive symptoms. This is called the 'amisulpride double dissociation' — the only antipsychotic that is more effective at low doses for negative symptoms than at high doses. Metabolic profile: weight neutral, no diabetes risk, no dyslipidaemia. Side effects: prolactin elevation (dose-dependent), QTc prolongation at high doses. Renal excretion (avoid in renal impairment). CBT for negative symptoms: evidence for modest improvement, particularly for avolition. Key meta-analysis: Leucht et al. (2013) An J Psychiatry confirmed amisulpride's superior efficacy for negative symptoms.",
+    "domain": "general_adult",
+    "subdomain": "psychosis",
+    "difficulty": "hard",
+    "bloom_taxonomy": "analysis",
+    "paper": "B",
+    "source": "NICE CG178; Maudsley Prescribing Guidelines; Leucht S et al. (2013) Amisulpride for negative symptoms",
+    "tags": ["negative_symptoms", "amisulpride", "CBT", "olanzapine_switch", "metabolic_health"]
+  }
+]
+
+
