@@ -41,8 +41,8 @@ export default function QuestionListPage() {
 
   return (
     <AppLayout title="Questions" subtitle={`${filtered.length} total`}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-        <div style={{ display: 'flex', gap: 6 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20, flexWrap: 'wrap', gap: 12 }}>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
           {(['all', 'active', 'inactive'] as const).map(f => (
             <button key={f} onClick={() => setFilter(f)}
               className={`btn btn-sm ${filter === f ? 'btn-primary' : 'btn-secondary'}`}>
@@ -57,53 +57,53 @@ export default function QuestionListPage() {
             </button>
           ))}
         </div>
-        <Link href="/admin/questions/new" className="btn btn-primary btn-sm">+ New</Link>
+        <Link href="/admin/questions/new" className="btn btn-primary btn-sm">+ New Question</Link>
       </div>
 
       {loading ? (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-          {[...Array(8)].map((_, i) => <div key={i} className="skeleton" style={{ height: 52, borderRadius: 10 }} />)}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {[...Array(8)].map((_, i) => <div key={i} className="skeleton" style={{ height: 60, borderRadius: 12 }} />)}
         </div>
       ) : filtered.length === 0 ? (
-        <div style={{ textAlign: 'center', padding: 60 }}>
-          <p style={{ fontSize: 13, color: 'var(--text-tertiary)' }}>No questions found.</p>
-          <Link href="/admin/questions/new" className="btn btn-primary" style={{ marginTop: 12 }}>Create the first one</Link>
+        <div style={{ textAlign: 'center', padding: '60px 24px' }}>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 16 }}>No questions found.</p>
+          <Link href="/admin/questions/new" className="btn btn-primary">Create the first one</Link>
         </div>
       ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }} className="animate-stagger">
           {filtered.map(q => (
             <Link
               key={q.id}
               href={`/admin/questions/${q.id}`}
+              className="card"
               style={{
-                display: 'flex', alignItems: 'center', gap: 10,
-                padding: '10px 14px', background: 'var(--surface-card)',
-                border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-md)',
-                textDecoration: 'none', transition: 'border-color 0.1s',
+                display: 'flex', alignItems: 'center', gap: 14,
+                padding: '14px 18px', textDecoration: 'none',
               }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--border-default)'}
-              onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border-subtle)'}
             >
               <button
                 onClick={e => { e.preventDefault(); toggle(q.id, q.is_active) }}
                 style={{
                   width: 10, height: 10, borderRadius: '50%', border: 'none', cursor: 'pointer', flexShrink: 0,
                   background: q.is_active ? 'var(--success)' : 'var(--text-tertiary)',
+                  boxShadow: q.is_active ? '0 0 8px rgba(52, 211, 153, 0.3)' : 'none',
                 }}
                 title={q.is_active ? 'Deactivate' : 'Activate'}
               />
               <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: 13, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                <div style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', fontWeight: 500 }}>
                   {trunc(q.stem, 90)}
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: 2 }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 4 }}>
                   <span className="badge badge-gray" style={{ fontSize: 10 }}>{getDomainDisplayName(q.domain)}</span>
-                  <span style={{ fontSize: 10, color: 'var(--text-tertiary)' }}>Paper {q.paper}</span>
-                  {q.difficulty && <><span style={{ fontSize: 10, color: 'var(--text-tertiary)' }}>•</span><span style={{ fontSize: 10, color: 'var(--text-tertiary)' }}>{q.difficulty}</span></>}
+                  <span style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)' }}>Paper {q.paper}</span>
+                  {q.difficulty && <><span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>·</span><span style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)' }}>{q.difficulty}</span></>}
                 </div>
               </div>
-              <span style={{ fontSize: 10, color: 'var(--text-tertiary)', flexShrink: 0 }}>{formatDate(q.created_at)}</span>
-              <span style={{ fontSize: 16, color: 'var(--text-tertiary)' }}>→</span>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)', flexShrink: 0 }}>{formatDate(q.created_at)}</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
             </Link>
           ))}
         </div>

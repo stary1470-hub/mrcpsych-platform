@@ -16,7 +16,7 @@ export default function ForgotPasswordPage() {
     setError(null)
 
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: 'https://mrcpsych-platform.vercel.app/auth/callback',
+      redirectTo: `${window.location.origin}/auth/callback`,
     })
 
     if (error) { setError(error.message); setLoading(false); return }
@@ -26,17 +26,22 @@ export default function ForgotPasswordPage() {
 
   if (sent) {
     return (
-      <div className="auth-page">
-        <div className="auth-card" style={{ textAlign: 'center', padding: '40px' }}>
-          <div style={{ fontSize: 48, marginBottom: 16 }}>✉️</div>
-          <h1 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>Check your email</h1>
-          <p style={{ color: 'var(--text-tertiary)', fontSize: 13, lineHeight: 1.5 }}>
-            If an account exists for <strong>{email}</strong>, we've sent a password reset link.
+      <div className="auth-page" style={{ position: 'relative', overflow: 'hidden' }}>
+        <div className="auth-card animate-scale-in" style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
+          <div style={{
+            width: 64, height: 64, borderRadius: 16, background: 'var(--accent-teal-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px',
+          }}>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 400, marginBottom: 12 }}>Check your email</h1>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', lineHeight: 1.7 }}>
+            If an account exists for <strong style={{ color: 'var(--text-primary)' }}>{email}</strong>, we&apos;ve sent a password reset link.
           </p>
-          <a
-            href="/login"
-            style={{ display: 'inline-block', marginTop: 20, color: 'var(--accent-blue)', fontSize: 13, textDecoration: 'none', fontWeight: 500 }}
-          >
+          <a href="/login" style={{ display: 'inline-block', marginTop: 24, fontFamily: 'var(--font-sans)', color: 'var(--accent-teal)', fontSize: 14, textDecoration: 'none', fontWeight: 600 }}>
             Back to login
           </a>
         </div>
@@ -45,44 +50,46 @@ export default function ForgotPasswordPage() {
   }
 
   return (
-    <div className="auth-page">
-      <div className="auth-card">
+    <div className="auth-page" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div style={{
+        position: 'absolute', top: '-10%', left: '50%', transform: 'translateX(-50%)',
+        width: 500, height: 500,
+        background: 'radial-gradient(circle, rgba(20, 184, 166, 0.06) 0%, transparent 70%)',
+        pointerEvents: 'none',
+      }} />
+
+      <div className="auth-card animate-scale-in" style={{ position: 'relative', zIndex: 1 }}>
         <div className="auth-header">
-          <div style={{ fontSize: 24, fontWeight: 700, background: 'var(--gradient-brand)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
-            PsychStar
-          </div>
+          <div className="auth-logo">PsychStar</div>
           <p className="auth-subtitle">Reset your password</p>
         </div>
 
-        <form onSubmit={handleReset} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+        <form onSubmit={handleReset} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           <div>
-            <label style={{ display: 'block', fontSize: 12, fontWeight: 500, color: 'var(--text-secondary)', marginBottom: 5 }}>
+            <label style={{ display: 'block', fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 600, color: 'var(--text-secondary)', marginBottom: 8, letterSpacing: '0.04em', textTransform: 'uppercase' }}>
               Email address
             </label>
-            <input
-              type="email"
-              value={email}
-              onChange={e => setEmail(e.target.value)}
-              required
-              className="input"
-              placeholder="you@example.com"
-            />
+            <input type="email" value={email} onChange={e => setEmail(e.target.value)} required className="input" placeholder="you@example.com" />
           </div>
 
           {error && (
-            <div style={{ fontSize: 12, color: 'var(--error)', background: 'var(--error-subtle)', padding: '8px 12px', borderRadius: 'var(--radius-sm)' }}>
+            <div style={{
+              fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--error)',
+              background: 'var(--error-subtle)', padding: '12px 16px', borderRadius: 'var(--radius-md)',
+              border: '1px solid rgba(248, 113, 113, 0.15)',
+            }}>
               {error}
             </div>
           )}
 
-          <button type="submit" disabled={loading} className="btn btn-primary btn-lg" style={{ marginTop: 4 }}>
+          <button type="submit" disabled={loading} className="btn btn-primary btn-lg" style={{ width: '100%' }}>
             {loading ? 'Sending...' : 'Send reset link'}
           </button>
         </form>
 
-        <p style={{ textAlign: 'center', marginTop: 20, fontSize: 13, color: 'var(--text-tertiary)' }}>
+        <p style={{ textAlign: 'center', marginTop: 28, fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)' }}>
           Remember your password?{' '}
-          <a href="/login" style={{ color: 'var(--accent-blue)', textDecoration: 'none', fontWeight: 500 }}>Sign in</a>
+          <a href="/login" style={{ color: 'var(--accent-teal)', textDecoration: 'none', fontWeight: 600 }}>Sign in</a>
         </p>
       </div>
     </div>

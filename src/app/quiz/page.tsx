@@ -72,93 +72,142 @@ export default function QuizMenuPage() {
     }
   }
 
+  const quickActions = [
+    {
+      icon: (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 16v-4" />
+          <path d="M12 8h.01" />
+        </svg>
+      ),
+      title: 'Adaptive Session',
+      desc: 'AI targets your weakest domains first',
+      accent: true,
+      action: startAdaptive,
+      loading: adapting,
+    },
+    {
+      icon: (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+          <line x1="1" y1="10" x2="23" y2="10" />
+        </svg>
+      ),
+      title: 'Random Quiz',
+      desc: 'All domains mixed',
+      accent: false,
+      action: () => startQuiz(),
+    },
+    {
+      icon: (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <circle cx="12" cy="12" r="6" />
+          <circle cx="12" cy="12" r="2" />
+        </svg>
+      ),
+      title: 'Weakest Domain',
+      desc: 'Focus on your lowest score',
+      accent: false,
+      action: () => { if (domains.length > 0) startQuiz(domains[0].domain) },
+      disabled: domains.length === 0,
+    },
+  ]
+
   return (
     <AppLayout title="Practice" subtitle="Select a domain to start">
       {/* Quick start */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 10, marginBottom: 24 }}>
-        <button
-          onClick={startAdaptive}
-          disabled={adapting}
-          className="card"
-          style={{
-            cursor: 'pointer', textAlign: 'left',
-            border: '1px solid var(--accent-blue)',
-            background: 'var(--accent-blue-subtle)',
-            opacity: adapting ? 0.6 : 1,
-          }}
-        >
-          <div style={{ fontSize: 24, marginBottom: 6 }}>🧠</div>
-          <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--accent-blue)' }}>
-            {adapting ? 'Starting...' : 'Adaptive Session'}
-          </div>
-          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>
-            AI targets your weakest domains first
-          </div>
-        </button>
-        <button onClick={() => startQuiz()} className="card" style={{ cursor: 'pointer', textAlign: 'left', border: '1px solid var(--border-subtle)' }}>
-          <div style={{ fontSize: 24, marginBottom: 6 }}>🎲</div>
-          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Random Quiz</div>
-          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>All domains mixed</div>
-        </button>
-        <button
-          onClick={() => { if (domains.length > 0) startQuiz(domains[0].domain) }}
-          disabled={domains.length === 0}
-          className="card"
-          style={{ cursor: 'pointer', textAlign: 'left', opacity: domains.length === 0 ? 0.5 : 1, border: '1px solid var(--border-subtle)' }}
-        >
-          <div style={{ fontSize: 24, marginBottom: 6 }}>🎯</div>
-          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Weakest Domain</div>
-          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>Focus on your lowest score</div>
-        </button>
-        <div className="card" style={{ border: '1px solid var(--border-subtle)' }}>
-          <div style={{ fontSize: 24, marginBottom: 6 }}>📂</div>
-          <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-primary)' }}>Pick a Domain</div>
-          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 2 }}>Choose below</div>
-        </div>
+      <div style={{
+        display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+        gap: 16, marginBottom: 32,
+      }} className="animate-stagger">
+        {quickActions.map(a => (
+          <button
+            key={a.title}
+            onClick={a.action}
+            disabled={a.disabled || a.loading}
+            className="card"
+            style={{
+              cursor: 'pointer', textAlign: 'left',
+              border: a.accent ? '1px solid var(--accent-teal)' : '1px solid var(--border-subtle)',
+              background: a.accent ? 'var(--accent-teal-subtle)' : 'var(--surface-card)',
+              opacity: (a.disabled || a.loading) ? 0.5 : 1,
+              transition: 'all 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
+            }}
+            onMouseEnter={e => {
+              if (!a.disabled && !a.loading) {
+                e.currentTarget.style.transform = 'translateY(-4px)'
+                e.currentTarget.style.boxShadow = a.accent ? 'var(--shadow-glow-teal)' : 'var(--shadow-card)'
+              }
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.transform = 'translateY(0)'
+              e.currentTarget.style.boxShadow = 'none'
+            }}
+          >
+            <div style={{ marginBottom: 12 }}>{a.icon}</div>
+            <div style={{
+              fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 700,
+              color: a.accent ? 'var(--accent-teal)' : 'var(--text-primary)', marginBottom: 4,
+            }}>
+              {a.loading ? 'Starting...' : a.title}
+            </div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', lineHeight: 1.5 }}>
+              {a.desc}
+            </div>
+          </button>
+        ))}
       </div>
 
       {/* Domain list */}
-      <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
-        <div style={{ padding: '14px 20px', borderBottom: '1px solid var(--border-subtle)' }}>
-          <h2 style={{ fontSize: 13, fontWeight: 600 }}>Domains</h2>
+      <div className="card animate-slide-up" style={{ padding: 0, overflow: 'hidden', animationDelay: '0.15s' }}>
+        <div style={{ padding: '20px 24px', borderBottom: '1px solid var(--border-subtle)' }}>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Domains</h2>
         </div>
 
         {loading ? (
-          <div style={{ padding: 16 }}>
+          <div style={{ padding: 20 }}>
             {[...Array(6)].map((_, i) => (
-              <div key={i} className="skeleton" style={{ height: 44, marginBottom: 4, borderRadius: 8 }} />
+              <div key={i} className="skeleton" style={{ height: 52, marginBottom: 8, borderRadius: 12 }} />
             ))}
           </div>
         ) : (
-          <div style={{ padding: '4px 6px' }}>
+          <div style={{ padding: '8px 12px' }} className="animate-stagger">
             {domains.map(d => (
               <button
                 key={d.domain}
                 onClick={() => startQuiz(d.domain)}
                 style={{
-                  width: '100%', display: 'flex', alignItems: 'center', gap: 10,
-                  padding: '10px 14px', border: 'none', borderRadius: 8,
+                  width: '100%', display: 'flex', alignItems: 'center', gap: 14,
+                  padding: '14px 16px', border: 'none', borderRadius: 12,
                   background: 'transparent', cursor: 'pointer',
-                  color: 'var(--text-primary)', fontSize: 13,
-                  transition: 'background 0.1s',
+                  color: 'var(--text-primary)', fontFamily: 'var(--font-sans)', fontSize: 14,
+                  transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
                 }}
-                onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-blue-subtle)'}
-                onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+                onMouseEnter={e => {
+                  e.currentTarget.style.background = 'var(--accent-teal-subtle)'
+                  e.currentTarget.style.transform = 'translateX(4px)'
+                }}
+                onMouseLeave={e => {
+                  e.currentTarget.style.background = 'transparent'
+                  e.currentTarget.style.transform = 'translateX(0)'
+                }}
               >
                 <div style={{
-                  width: 8, height: 8, borderRadius: '50%',
-                  background: getDomainColor(d.domain),
-                  flexShrink: 0,
+                  width: 10, height: 10, borderRadius: '50%',
+                  background: getDomainColor(d.domain), flexShrink: 0,
+                  boxShadow: `0 0 8px ${getDomainColor(d.domain)}40`,
                 }} />
                 <div style={{ flex: 1, textAlign: 'left' }}>
-                  <div style={{ color: 'var(--text-primary)', fontWeight: 500 }}>{getDomainDisplayName(d.domain)}</div>
-                  <div style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>
-                    {d.count} questions{d.attempted > 0 ? ` • ${d.attempted} attempted` : ''}
+                  <div style={{ fontWeight: 600 }}>{getDomainDisplayName(d.domain)}</div>
+                  <div style={{ fontSize: 12, color: 'var(--text-tertiary)', marginTop: 2 }}>
+                    {d.count} questions{d.attempted > 0 ? ` · ${d.attempted} attempted` : ''}
                   </div>
                 </div>
                 {d.percentage !== null && (
                   <span style={{
-                    fontSize: 12, fontWeight: 600,
+                    fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400,
                     color: d.percentage >= 70 ? 'var(--success)' : d.percentage >= 50 ? 'var(--warning)' : 'var(--error)',
                   }}>
                     {d.percentage}%

@@ -37,63 +37,80 @@ export default function ReviewPage() {
 
   const filtered = filter === 'all' ? entries : entries.filter(e => filter === 'correct' ? e.correct : !e.correct)
 
+  const filterButtons = [
+    { key: 'all' as const, label: 'All' },
+    { key: 'wrong' as const, label: 'Wrong' },
+    { key: 'correct' as const, label: 'Correct' },
+  ]
+
   return (
     <AppLayout title="Review" subtitle="Your answer history">
       {/* Filter */}
-      <div style={{ display: 'flex', gap: 6, marginBottom: 20 }}>
-        {(['all', 'wrong', 'correct'] as const).map(f => (
+      <div style={{ display: 'flex', gap: 8, marginBottom: 24 }}>
+        {filterButtons.map(f => (
           <button
-            key={f}
-            onClick={() => setFilter(f)}
-            className={`btn btn-sm ${filter === f ? 'btn-primary' : 'btn-secondary'}`}
+            key={f.key}
+            onClick={() => setFilter(f.key)}
+            className={`btn btn-sm ${filter === f.key ? 'btn-primary' : 'btn-secondary'}`}
           >
-            {f === 'all' ? 'All' : f.charAt(0).toUpperCase() + f.slice(1)}
-            {f === 'all' && entries.length > 0 && (
-              <span style={{ fontSize: 10, opacity: 0.7 }}>({entries.length})</span>
+            {f.label}
+            {f.key === 'all' && entries.length > 0 && (
+              <span style={{ fontSize: 11, opacity: 0.7, marginLeft: 4 }}>({entries.length})</span>
             )}
           </button>
         ))}
       </div>
 
       {loading ? (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-          {[...Array(5)].map((_, i) => <div key={i} className="skeleton" style={{ height: 72, borderRadius: 12 }} />)}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+          {[...Array(5)].map((_, i) => <div key={i} className="skeleton" style={{ height: 80, borderRadius: 16 }} />)}
         </div>
       ) : filtered.length === 0 ? (
-        <div style={{ textAlign: 'center', padding: '60px 20px' }}>
-          <p style={{ fontSize: 13, color: 'var(--text-tertiary)', marginBottom: 12 }}>
+        <div style={{ textAlign: 'center', padding: '80px 24px' }} className="animate-fade-in">
+          <div style={{
+            width: 64, height: 64, borderRadius: 16, background: 'var(--accent-teal-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px',
+          }}>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
+            </svg>
+          </div>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 20 }}>
             {entries.length === 0 ? 'No questions attempted yet.' : 'No entries match this filter.'}
           </p>
-          <Link href="/quiz" className="btn btn-primary">Start practicing →</Link>
+          <Link href="/quiz" className="btn btn-primary">Start practicing</Link>
         </div>
       ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }} className="animate-stagger">
           {filtered.map(entry => (
-            <div key={entry.id} className="card" style={{ padding: '14px 16px' }}>
-              <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+            <div key={entry.id} className="card" style={{ padding: '18px 20px' }}>
+              <div style={{ display: 'flex', gap: 14, alignItems: 'flex-start' }}>
                 <div style={{
-                  width: 28, height: 28, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  width: 32, height: 32, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
                   background: entry.correct ? 'var(--success-subtle)' : 'var(--error-subtle)',
-                  flexShrink: 0, marginTop: 1,
+                  flexShrink: 0, marginTop: 2,
                 }}>
-                  <span style={{ fontSize: 12 }}>{entry.correct ? '✓' : '✗'}</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={entry.correct ? 'var(--success)' : 'var(--error)'} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    {entry.correct ? <polyline points="20 6 9 17 4 12" /> : <><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></>}
+                  </svg>
                 </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <p style={{ fontSize: 13, lineHeight: 1.4, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>
+                  <p style={{
+                    fontFamily: 'var(--font-sans)', fontSize: 14, lineHeight: 1.5,
+                    color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis',
+                    display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical',
+                  }}>
                     {entry.question.stem}
                   </p>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: 6, flexWrap: 'wrap' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 8, flexWrap: 'wrap' }}>
                     <span className="badge badge-gray" style={{ fontSize: 10 }}>{getDomainDisplayName(entry.question.domain)}</span>
-                    <span style={{ fontSize: 10, color: 'var(--text-tertiary)' }}>You chose {getOptionLabel(entry.selected_index)}</span>
-                    <span style={{ fontSize: 10, color: 'var(--text-tertiary)' }}>•</span>
-                    <span style={{ fontSize: 10, color: 'var(--text-tertiary)' }}>{formatDate(entry.answered_at)}</span>
+                    <span style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)' }}>You chose {getOptionLabel(entry.selected_index)}</span>
+                    <span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>·</span>
+                    <span style={{ fontFamily: 'var(--font-sans)', fontSize: 11, color: 'var(--text-tertiary)' }}>{formatDate(entry.answered_at)}</span>
                   </div>
                 </div>
-                <Link
-                  href={`/quiz/${entry.question_id}`}
-                  className="btn btn-ghost btn-sm"
-                  style={{ flexShrink: 0, fontSize: 11 }}
-                >
+                <Link href={`/quiz/${entry.question_id}`} className="btn btn-ghost btn-sm" style={{ flexShrink: 0 }}>
                   Retry
                 </Link>
               </div>

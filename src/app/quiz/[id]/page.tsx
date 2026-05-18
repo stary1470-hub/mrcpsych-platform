@@ -7,8 +7,6 @@ import AppLayout from '@/components/AppLayout'
 import { getOptionLabel, getDomainDisplayName, getDomainColor } from '@/lib/utils'
 import type { Question } from '@/types'
 
-const domainColorCSS = (domain: string) => getDomainColor(domain)
-
 interface AdaptiveSessionStats {
   total_attempted: number
   total_correct: number
@@ -30,7 +28,6 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   const [submitted, setSubmitted] = useState(false)
   const [isCorrect, setIsCorrect] = useState(false)
   const [sessionStats, setSessionStats] = useState({ correct: 0, total: 0 })
-  const [adaptiveDomain, setAdaptiveDomain] = useState<string | null>(null)
   const [adaptiveStats, setAdaptiveStats] = useState<AdaptiveSessionStats | null>(null)
   const [allDone, setAllDone] = useState(false)
   const [nextLoading, setNextLoading] = useState(false)
@@ -40,13 +37,10 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   const loadQuestion = async () => {
     setLoading(true); setSelectedIndex(null); setSubmitted(false); setNextLoading(false)
 
-    // For adaptive mode, the server sends the domain targeting info
     if (isAdaptive && !domain) {
-      // This was loaded via adaptive — the domain wasn't in URL
       const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
       if (!q) { router.push('/quiz'); return }
       setQuestion(q as Question)
-      // Fetch adaptive session stats
       try {
         const res = await fetch('/api/quiz/adaptive-start')
         const data = await res.json()
@@ -56,7 +50,6 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
       return
     }
 
-    // Standard mode: load question and find next sequentially
     const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
     if (!q) { router.push('/quiz'); return }
     setQuestion(q as Question)
@@ -70,7 +63,6 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     setSubmitted(true)
     setSessionStats(p => ({ correct: p.correct + (correct ? 1 : 0), total: p.total + 1 }))
 
-    // Record answer
     const { data: { user } } = await supabase.auth.getUser()
     if (user) {
       await supabase.from('user_progress').upsert(
@@ -82,7 +74,6 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
 
   const handleNext = async () => {
     if (!isAdaptive) {
-      // Standard mode: navigate to next question in sequence
       let query = supabase.from('questions').select('id').eq('is_active', true).neq('id', id).order('id')
       if (domain && domain !== 'all') query = query.eq('domain', domain)
       const { data: nextQs } = await query.limit(1)
@@ -94,93 +85,68 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
       return
     }
 
-    // Adaptive mode: fetch next question from server
     setNextLoading(true)
     try {
       const res = await fetch(`/api/quiz/adaptive-next?previous_id=${id}`)
       const data = await res.json()
-
       if (data.all_done || !data.question) {
         setAllDone(true)
         setAdaptiveStats(data.session_stats || null)
         setNextLoading(false)
         return
       }
-
-      // Update adaptive session info
-      if (data.domain) setAdaptiveDomain(data.domain)
       if (data.session_stats) setAdaptiveStats(data.session_stats)
-
-      // Navigate to next question
       router.push(`/quiz/${data.question.id}?adaptive=true`)
     } catch {
       router.push('/quiz')
     }
   }
 
-  // ── Completion screen ──────────────────────────────────────
-
+  // Completion screen
   if (allDone && adaptiveStats) {
     const pct = adaptiveStats.total_attempted > 0
-      ? Math.round((adaptiveStats.total_correct / adaptiveStats.total_attempted) * 100)
-      : 0
+      ? Math.round((adaptiveStats.total_correct / adaptiveStats.total_attempted) * 100) : 0
 
     return (
-      <AppLayout title="Adaptive Session Complete" subtitle="You covered all available questions">
-        <div style={{ maxWidth: 500, margin: '60px auto', textAlign: 'center' }}>
-          <div style={{ fontSize: 64, marginBottom: 16 }}>🎉</div>
-          <h2 style={{ fontSize: 22, fontWeight: 700, marginBottom: 8 }}>Session Complete</h2>
-          <p style={{ fontSize: 13, color: 'var(--text-tertiary)', marginBottom: 24, lineHeight: 1.6 }}>
-            You answered all available questions across {adaptiveStats.domains_done} domains.
-            Your adaptive session is finished.
-          </p>
-
+      <AppLayout title="Session Complete" subtitle="You covered all available questions">
+        <div style={{ maxWidth: 520, margin: '60px auto', textAlign: 'center' }} className="animate-slide-up">
           <div style={{
-            display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12,
-            marginBottom: 24,
+            width: 80, height: 80, borderRadius: 20, background: 'var(--success-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 24px',
           }}>
-            <div className="stat-card">
-              <div className="stat-value" style={{ color: 'var(--accent-blue)', fontSize: 24 }}>{pct}%</div>
-              <div className="stat-label">Score</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-value" style={{ color: 'var(--success)', fontSize: 24 }}>
-                {adaptiveStats.total_correct}/{adaptiveStats.total_attempted}
-              </div>
-              <div className="stat-label">Correct</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-value" style={{ color: 'var(--accent-purple)', fontSize: 24 }}>
-                {adaptiveStats.domains_done}
-              </div>
-              <div className="stat-label">Domains</div>
-            </div>
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
           </div>
-
-          <div style={{ display: 'flex', gap: 8, justifyContent: 'center' }}>
-            <button onClick={() => router.push('/dashboard')} className="btn btn-primary">
-              View Dashboard
-            </button>
-            <button onClick={() => router.push('/quiz')} className="btn btn-secondary">
-              Back to Quiz Menu
-            </button>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 28, fontWeight: 400, marginBottom: 12 }}>Session Complete</h2>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 32, lineHeight: 1.7 }}>
+            You answered all available questions across {adaptiveStats.domains_done} domains.
+          </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16, marginBottom: 32 }}>
+            <div className="stat-card"><div className="stat-value" style={{ color: 'var(--accent-teal)', fontSize: 28 }}>{pct}%</div><div className="stat-label">Score</div></div>
+            <div className="stat-card"><div className="stat-value" style={{ color: 'var(--success)', fontSize: 28 }}>{adaptiveStats.total_correct}/{adaptiveStats.total_attempted}</div><div className="stat-label">Correct</div></div>
+            <div className="stat-card"><div className="stat-value" style={{ fontSize: 28 }}>{adaptiveStats.domains_done}</div><div className="stat-label">Domains</div></div>
+          </div>
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
+            <button onClick={() => router.push('/dashboard')} className="btn btn-primary">View Dashboard</button>
+            <button onClick={() => router.push('/quiz')} className="btn btn-secondary">Back to Quiz Menu</button>
           </div>
         </div>
       </AppLayout>
     )
   }
 
-  // ── Loading ────────────────────────────────────────────────
-
+  // Loading
   if (loading) {
     return (
       <AppLayout title="Practice">
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
-          <div className="skeleton" style={{ height: 24, width: 200, marginBottom: 16 }} />
-          <div className="card" style={{ padding: 24 }}>
-            <div className="skeleton" style={{ height: 80, marginBottom: 16 }} />
+          <div className="skeleton" style={{ height: 28, width: 200, marginBottom: 20 }} />
+          <div className="card" style={{ padding: 28 }}>
+            <div className="skeleton" style={{ height: 80, marginBottom: 20 }} />
             {[...Array(5)].map((_, i) => (
-              <div key={i} className="skeleton" style={{ height: 48, marginBottom: 8 }} />
+              <div key={i} className="skeleton" style={{ height: 52, marginBottom: 10 }} />
             ))}
           </div>
         </div>
@@ -190,85 +156,69 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
 
   if (!question) return null
 
-  // ── Question display ───────────────────────────────────────
-
   return (
     <AppLayout title="Practice" subtitle={isAdaptive ? 'Adaptive session' : 'Answer the question below'}>
       <div style={{ maxWidth: 720, margin: '0 auto' }}>
         {/* Header meta */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14, flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 20, flexWrap: 'wrap' }}>
           {isAdaptive && (
-            <span className="badge badge-blue" style={{ fontWeight: 600 }}>
-              🧠 Adaptive
+            <span className="badge badge-teal" style={{ fontWeight: 700 }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+              Adaptive
             </span>
           )}
           {question.domain && (
-            <span className="badge badge-blue" style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-              <span style={{ width: 6, height: 6, borderRadius: '50%', background: domainColorCSS(question.domain), display: 'inline-block' }} />
+            <span className="badge badge-teal" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+              <span style={{ width: 6, height: 6, borderRadius: '50%', background: getDomainColor(question.domain), display: 'inline-block', boxShadow: `0 0 6px ${getDomainColor(question.domain)}60` }} />
               {getDomainDisplayName(question.domain)}
             </span>
           )}
           {question.difficulty && (
-            <span className={`badge ${
-              question.difficulty === 'easy' ? 'badge-green' :
-              question.difficulty === 'medium' ? 'badge-amber' : 'badge-red'
-            }`}>
+            <span className={`badge ${question.difficulty === 'easy' ? 'badge-green' : question.difficulty === 'medium' ? 'badge-amber' : 'badge-red'}`}>
               {question.difficulty}
             </span>
           )}
-          {question.bloom_taxonomy && (
-            <span className="badge badge-gray">{question.bloom_taxonomy}</span>
-          )}
+          {question.bloom_taxonomy && <span className="badge badge-gray">{question.bloom_taxonomy}</span>}
           <div style={{ flex: 1 }} />
-
-          {/* Session stats */}
           {isAdaptive && adaptiveStats && (
             <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
-              <span className="badge badge-gray">
-                {adaptiveStats.domains_done}/{adaptiveStats.domains_total} domains
-              </span>
-              <span className="badge badge-gray">
-                {sessionStats.total > 0
-                  ? `${sessionStats.correct}/${sessionStats.total}`
-                  : `${adaptiveStats.total_correct}/${adaptiveStats.total_attempted}`}
-              </span>
+              <span className="badge badge-gray">{adaptiveStats.domains_done}/{adaptiveStats.domains_total} domains</span>
+              <span className="badge badge-gray">{sessionStats.total > 0 ? `${sessionStats.correct}/${sessionStats.total}` : `${adaptiveStats.total_correct}/${adaptiveStats.total_attempted}`}</span>
             </div>
           )}
           {!isAdaptive && sessionStats.total > 0 && (
-            <span style={{ fontSize: 11, color: 'var(--text-tertiary)' }}>
+            <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', fontWeight: 600 }}>
               Session: {sessionStats.correct}/{sessionStats.total}
             </span>
           )}
         </div>
 
         {/* Question card */}
-        <div className="card" style={{ padding: '24px 24px 20px', marginBottom: 12 }}>
-          <h2 style={{ fontSize: 15, lineHeight: 1.6, fontWeight: 450, color: 'var(--text-primary)' }}>
+        <div className="card animate-fade-in" style={{ padding: '28px 28px 24px', marginBottom: 16 }}>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, lineHeight: 1.7, fontWeight: 400, color: 'var(--text-primary)' }}>
             {question.stem}
           </h2>
         </div>
 
         {/* Options */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }} className="animate-stagger">
           {question.options.map((option, index) => {
             const isSelected = selectedIndex === index
-            let className = 'quiz-option'
-
+            let cls = 'quiz-option'
             if (submitted) {
-              if (index === question.correct_index) className += ' correct disabled'
-              else if (isSelected && !isCorrect) className += ' wrong disabled'
-              else className += ' disabled'
+              if (index === question.correct_index) cls += ' correct disabled'
+              else if (isSelected && !isCorrect) cls += ' wrong disabled'
+              else cls += ' disabled'
             } else if (isSelected) {
-              className += ' selected'
+              cls += ' selected'
             }
 
             return (
-              <button
-                key={index}
-                onClick={() => !submitted && setSelectedIndex(index)}
-                disabled={submitted}
-                className={className}
-              >
+              <button key={index} onClick={() => !submitted && setSelectedIndex(index)} disabled={submitted} className={cls}>
                 <span className="quiz-option-label">{getOptionLabel(index)}</span>
                 <span>{option.replace(/^ /, '')}</span>
               </button>
@@ -277,29 +227,14 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
         </div>
 
         {/* Submit / Next */}
-        <div style={{ marginTop: 16 }}>
+        <div style={{ marginTop: 20 }}>
           {!submitted ? (
-            <button
-              onClick={handleSubmit}
-              disabled={selectedIndex === null}
-              className="btn btn-primary btn-lg"
-              style={{ width: '100%' }}
-            >
+            <button onClick={handleSubmit} disabled={selectedIndex === null} className="btn btn-primary btn-lg" style={{ width: '100%' }}>
               Submit Answer
             </button>
           ) : (
-            <button
-              onClick={handleNext}
-              disabled={nextLoading}
-              className="btn btn-primary btn-lg"
-              style={{ width: '100%' }}
-            >
-              {nextLoading
-                ? 'Loading next...'
-                : isAdaptive
-                  ? 'Next Adaptive Question →'
-                  : 'Next Question →'
-              }
+            <button onClick={handleNext} disabled={nextLoading} className="btn btn-primary btn-lg" style={{ width: '100%' }}>
+              {nextLoading ? 'Loading next...' : isAdaptive ? 'Next Adaptive Question' : 'Next Question'}
             </button>
           )}
         </div>
@@ -307,37 +242,37 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
         {/* Feedback card */}
         {submitted && (
           <div className={`feedback-card ${isCorrect ? 'correct' : 'wrong'}`}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
-              <span style={{ fontSize: 20 }}>{isCorrect ? '✅' : '❌'}</span>
-              <span style={{ fontSize: 14, fontWeight: 600, color: isCorrect ? 'var(--success)' : 'var(--error)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
+              <div className={isCorrect ? 'correct-burst' : ''} style={{
+                width: 32, height: 32, borderRadius: '50%',
+                background: isCorrect ? 'var(--success)' : 'var(--error)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--surface-base)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  {isCorrect ? <polyline points="20 6 9 17 4 12" /> : <><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></>}
+                </svg>
+              </div>
+              <span style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400, color: isCorrect ? 'var(--success)' : 'var(--error)' }}>
                 {isCorrect ? 'Correct!' : 'Incorrect'}
               </span>
             </div>
 
             {!isCorrect && question.distractors_rationale?.[selectedIndex!] && (
-              <div style={{ marginBottom: 12 }}>
-                <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>
-                  Why you chose wrong
-                </div>
-                <p style={{ fontSize: 13, lineHeight: 1.5, color: 'var(--text-secondary)' }}>
-                  {question.distractors_rationale[selectedIndex!]}
-                </p>
+              <div style={{ marginBottom: 16 }}>
+                <div className="feedback-section-label">Why you chose wrong</div>
+                <p className="feedback-text">{question.distractors_rationale[selectedIndex!]}</p>
               </div>
             )}
 
             {question.teaching_point && (
               <div>
-                <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 4 }}>
-                  Teaching Point
-                </div>
-                <p style={{ fontSize: 13, lineHeight: 1.6, color: 'var(--text-secondary)' }}>
-                  {question.teaching_point}
-                </p>
+                <div className="feedback-section-label">Teaching Point</div>
+                <p className="feedback-text" style={{ lineHeight: 1.8 }}>{question.teaching_point}</p>
               </div>
             )}
 
             {question.source && (
-              <p style={{ marginTop: 10, fontSize: 11, color: 'var(--text-tertiary)', fontStyle: 'italic' }}>
+              <p style={{ marginTop: 14, fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', fontStyle: 'italic' }}>
                 Source: {question.source}
               </p>
             )}
