@@ -125,30 +125,40 @@ export function isEmiQuestion(stem: string): boolean {
   return emiMarkers.some(marker => stem.toLowerCase().includes(marker.toLowerCase()))
 }
 
-export const DOMAINS_PAPER_A = [
-  'psychopharmacology',
-  'neurobiology',
-  'psychopathology',
-  'classification',
-  'psychometrics',
-  'research_methodology',
-  'genetics',
-  'epidemiology',
-] as const
+// ═══════════════════════════════════════════
+// Official RCPSYCH Syllabus Domains
+// Source: https://www.rcpsych.ac.uk/training/exams/preparing-for-exams
+// ═══════════════════════════════════════════
 
-export const DOMAINS_PAPER_B = [
-  'affective_disorders',
-  'psychotic_disorders',
-  'anxiety_disorders',
-  'personality_disorders',
-  'legislation_mha',
-  'legislation_mca',
-  'psychotherapy',
-  'child_adolescent',
-  'forensic_psychiatry',
-  'learning_disability',
-  'old_age_psychiatry',
-  'substance_misuse',
-  'liaison_psychiatry',
-  'perinatal_psychiatry',
-] as const
+export interface DomainInfo {
+  key: string
+  name: string
+  weight: number  // percentage of exam marks
+  marks: number   // approximate marks allocated
+}
+
+// Paper A — Scientific and Theoretical Basis of Psychiatry (150 marks, 150 Qs, 3 hours)
+export const DOMAINS_PAPER_A_INFO: DomainInfo[] = [
+  { key: 'behavioural_science', name: 'Behavioural Science & Sociocultural Psychiatry', weight: 16.67, marks: 25 },
+  { key: 'human_development', name: 'Human Development', weight: 16.67, marks: 25 },
+  { key: 'basic_neurosciences', name: 'Basic Neurosciences', weight: 25.00, marks: 38 },
+  { key: 'psychopharmacology', name: 'Clinical Psychopharmacology', weight: 25.00, marks: 37 },
+  { key: 'classification_assessment', name: 'Classification & Assessment', weight: 16.67, marks: 25 },
+]
+
+export const DOMAINS_PAPER_A = DOMAINS_PAPER_A_INFO.map(d => d.key) as string[]
+
+// Paper B — Critical Review & Clinical Topics (150 marks, 150 Qs, 3 hours)
+export const DOMAINS_PAPER_B_INFO: DomainInfo[] = [
+  { key: 'critical_review', name: 'Critical Review', weight: 33.50, marks: 50 },
+  { key: 'general_adult', name: 'General Adult Psychiatry', weight: 20.00, marks: 30 },
+  { key: 'old_age', name: 'Old Age Psychiatry', weight: 9.00, marks: 14 },
+  { key: 'child_adolescent', name: 'Child & Adolescent Psychiatry', weight: 9.00, marks: 14 },
+  { key: 'substance_misuse', name: 'Substance Misuse', weight: 6.50, marks: 10 },
+  { key: 'organisation_delivery', name: 'Organisation & Delivery of Psychiatry', weight: 5.50, marks: 8 },
+  { key: 'psychotherapy', name: 'Psychotherapy', weight: 5.50, marks: 8 },
+  { key: 'forensic', name: 'Forensic Psychiatry', weight: 5.50, marks: 8 },
+  { key: 'learning_disability', name: 'Learning Disability Psychiatry', weight: 5.50, marks: 8 },
+]
+
+export const DOMAINS_PAPER_B = DOMAINS_PAPER_B_INFO.map(d => d.key) as string[]

@@ -20,11 +20,27 @@ export function formatDate(dateString: string): string {
 
 export function getDomainColor(domain: string): string {
   const colors: Record<string, string> = {
-    psychopharmacology: '#4b7bec',
-    neurobiology: '#22c55e',
+    // Paper A
+    behavioural_science: '#8b5cf6',
+    human_development: '#22c55e',
+    basic_neurosciences: '#4b7bec',
+    psychopharmacology: '#f59e0b',
+    classification_assessment: '#f43f5e',
+    // Paper B
+    critical_review: '#06b6d4',
+    general_adult: '#ec4899',
+    old_age: '#64748b',
+    child_adolescent: '#a855f7',
+    substance_misuse: '#d97706',
+    organisation_delivery: '#14b8a6',
+    psychotherapy: '#22c55e',
+    forensic: '#78716c',
+    learning_disability: '#84cc16',
+    // Legacy mappings (for existing DB data)
     psychopathology: '#8b5cf6',
-    classification: '#f59e0b',
-    psychometrics: '#f43f5e',
+    neurobiology: '#4b7bec',
+    classification: '#f43f5e',
+    psychometrics: '#ef4444',
     research_methodology: '#06b6d4',
     genetics: '#6366f1',
     epidemiology: '#14b8a6',
@@ -34,12 +50,8 @@ export function getDomainColor(domain: string): string {
     personality_disorders: '#d946ef',
     legislation_mha: '#ef4444',
     legislation_mca: '#eab308',
-    psychotherapy: '#22c55e',
-    child_adolescent: '#a855f7',
     forensic_psychiatry: '#78716c',
-    learning_disability: '#84cc16',
     old_age_psychiatry: '#64748b',
-    substance_misuse: '#d97706',
     liaison_psychiatry: '#0d9488',
     perinatal_psychiatry: '#fb7185',
   }
@@ -48,9 +60,25 @@ export function getDomainColor(domain: string): string {
 
 export function getDomainDisplayName(domain: string): string {
   const names: Record<string, string> = {
-    psychopharmacology: 'Psychopharmacology',
-    neurobiology: 'Neurobiology',
+    // Paper A
+    behavioural_science: 'Behavioural Science',
+    human_development: 'Human Development',
+    basic_neurosciences: 'Basic Neurosciences',
+    psychopharmacology: 'Clinical Psychopharmacology',
+    classification_assessment: 'Classification & Assessment',
+    // Paper B
+    critical_review: 'Critical Review',
+    general_adult: 'General Adult Psychiatry',
+    old_age: 'Old Age Psychiatry',
+    child_adolescent: 'Child & Adolescent',
+    substance_misuse: 'Substance Misuse',
+    organisation_delivery: 'Organisation & Delivery',
+    psychotherapy: 'Psychotherapy',
+    forensic: 'Forensic Psychiatry',
+    learning_disability: 'Learning Disability',
+    // Legacy mappings
     psychopathology: 'Psychopathology',
+    neurobiology: 'Neurobiology',
     classification: 'Classification',
     psychometrics: 'Psychometrics',
     research_methodology: 'Research Methodology',
@@ -62,12 +90,8 @@ export function getDomainDisplayName(domain: string): string {
     personality_disorders: 'Personality Disorders',
     legislation_mha: 'MHA Legislation',
     legislation_mca: 'MCA Legislation',
-    psychotherapy: 'Psychotherapy',
-    child_adolescent: 'Child & Adolescent',
     forensic_psychiatry: 'Forensic Psychiatry',
-    learning_disability: 'Learning Disability',
     old_age_psychiatry: 'Old Age Psychiatry',
-    substance_misuse: 'Substance Misuse',
     liaison_psychiatry: 'Liaison Psychiatry',
     perinatal_psychiatry: 'Perinatal Psychiatry',
   }

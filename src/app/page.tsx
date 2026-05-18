@@ -3,8 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
-import { DOMAINS_PAPER_A, DOMAINS_PAPER_B } from '@/types'
-import { getDomainDisplayName } from '@/lib/utils'
+import { DOMAINS_PAPER_A_INFO, DOMAINS_PAPER_B_INFO } from '@/types'
 
 const PRICING = {
   paperA: { monthly: 29, cycle: 79 },
@@ -186,29 +185,31 @@ export default function LandingPage() {
                 </div>
                 <div>
                   <div style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 400, color: 'var(--text-primary)' }}>Paper A</div>
-                  <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--accent-teal)', fontWeight: 600, letterSpacing: '0.04em' }}>Basic Sciences</div>
+                  <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--accent-teal)', fontWeight: 600, letterSpacing: '0.04em' }}>Scientific &amp; Theoretical Basis</div>
                 </div>
               </div>
 
               <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 24 }}>
-                The scientific foundations of psychiatry — neurobiology, psychopharmacology, psychopathology, classification, research methodology, and genetics. Build the clinical reasoning architecture that separates pass from fail.
+                The scientific foundations of psychiatry — behavioural science, human development, neurosciences, psychopharmacology, and classification. Two sections alone (Neurosciences + Psychopharmacology) account for 50% of marks. Build the clinical reasoning architecture that separates pass from fail.
               </p>
 
-              {/* Domain list */}
+              {/* Domain list with weights */}
               <div style={{ marginBottom: 24 }}>
                 <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--text-tertiary)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 10 }}>
-                  {DOMAINS_PAPER_A.length} Domains
+                  {DOMAINS_PAPER_A_INFO.length} Sections · 150 Marks
                 </div>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                  {DOMAINS_PAPER_A.map(d => (
-                    <span key={d} style={{
-                      fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 500,
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  {DOMAINS_PAPER_A_INFO.map(d => (
+                    <div key={d.key} style={{
+                      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                      fontFamily: 'var(--font-sans)', fontSize: 12,
                       color: 'var(--text-secondary)', background: 'rgba(20, 184, 166, 0.06)',
                       border: '1px solid rgba(20, 184, 166, 0.1)',
-                      padding: '4px 10px', borderRadius: 6,
+                      padding: '6px 12px', borderRadius: 6,
                     }}>
-                      {getDomainDisplayName(d)}
-                    </span>
+                      <span style={{ fontWeight: 500 }}>{d.name}</span>
+                      <span style={{ fontWeight: 700, color: 'var(--accent-teal)', fontSize: 11 }}>{d.weight}%</span>
+                    </div>
                   ))}
                 </div>
               </div>
@@ -258,28 +259,30 @@ export default function LandingPage() {
                 </div>
                 <div>
                   <div style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 400, color: 'var(--text-primary)' }}>Paper B</div>
-                  <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: '#ec4899', fontWeight: 600, letterSpacing: '0.04em' }}>Clinical Sciences</div>
+                  <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: '#ec4899', fontWeight: 600, letterSpacing: '0.04em' }}>Critical Review &amp; Clinical Topics</div>
                 </div>
               </div>
 
               <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 24 }}>
-                The clinical practice of psychiatry — affective disorders, psychotic disorders, legislation (MHA/MCA), psychotherapy, forensic, child &amp; adolescent, learning disability, old age, substance misuse, liaison, and perinatal psychiatry.
+                Critical review skills and clinical psychiatry — including general adult, old age, child &amp; adolescent, substance misuse, forensic, learning disability, psychotherapy, and service organisation. Critical Review alone is worth 33.5% of marks (50/150).
               </p>
 
               <div style={{ marginBottom: 24 }}>
                 <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--text-tertiary)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 10 }}>
-                  {DOMAINS_PAPER_B.length} Domains
+                  {DOMAINS_PAPER_B_INFO.length} Sections · 150 Marks
                 </div>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                  {DOMAINS_PAPER_B.map(d => (
-                    <span key={d} style={{
-                      fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 500,
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  {DOMAINS_PAPER_B_INFO.map(d => (
+                    <div key={d.key} style={{
+                      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                      fontFamily: 'var(--font-sans)', fontSize: 12,
                       color: 'var(--text-secondary)', background: 'rgba(236, 72, 153, 0.06)',
                       border: '1px solid rgba(236, 72, 153, 0.1)',
-                      padding: '4px 10px', borderRadius: 6,
+                      padding: '6px 12px', borderRadius: 6,
                     }}>
-                      {getDomainDisplayName(d)}
-                    </span>
+                      <span style={{ fontWeight: 500 }}>{d.name}</span>
+                      <span style={{ fontWeight: 700, color: '#ec4899', fontSize: 11 }}>{d.weight}%</span>
+                    </div>
                   ))}
                 </div>
               </div>

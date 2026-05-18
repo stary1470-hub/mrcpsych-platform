@@ -1,26 +1,25 @@
 'use client'
 
 import { useState } from 'react'
-import { DOMAINS_PAPER_A, DOMAINS_PAPER_B } from '@/types'
-import { getDomainDisplayName } from '@/lib/utils'
+import { DOMAINS_PAPER_A_INFO, DOMAINS_PAPER_B_INFO } from '@/types'
 
 const PLANS = [
   {
     id: 'paper-a',
     name: 'Paper A',
-    subtitle: 'Basic Sciences',
+    subtitle: 'Scientific & Theoretical Basis',
     color: 'var(--accent-teal)',
     colorSubtle: 'rgba(20, 184, 166, 0.1)',
     colorBorder: 'rgba(20, 184, 166, 0.15)',
     gradient: 'var(--gradient-teal)',
     monthly: 29,
     cycle: 79,
-    domains: DOMAINS_PAPER_A,
+    domains: DOMAINS_PAPER_A_INFO,
     features: [
-      'Full Paper A question bank',
+      'Full Paper A question bank (150 Q style)',
       'Adaptive proficiency engine',
       'Teaching cascades on wrong answers',
-      'Domain-level blind-spot mapping',
+      'Section-level blind-spot mapping',
       'Practice & exam simulation modes',
       'Performance analytics & trends',
     ],
@@ -28,19 +27,19 @@ const PLANS = [
   {
     id: 'paper-b',
     name: 'Paper B',
-    subtitle: 'Clinical Sciences',
+    subtitle: 'Critical Review & Clinical Topics',
     color: '#ec4899',
     colorSubtle: 'rgba(236, 72, 153, 0.1)',
     colorBorder: 'rgba(236, 72, 153, 0.15)',
     gradient: 'linear-gradient(135deg, #ec4899, #d946ef)',
     monthly: 29,
     cycle: 99,
-    domains: DOMAINS_PAPER_B,
+    domains: DOMAINS_PAPER_B_INFO,
     features: [
-      'Full Paper B question bank',
+      'Full Paper B question bank (150 Q style)',
+      'Critical Review practice (33.5% of marks)',
       'Adaptive proficiency engine',
       'Teaching cascades on wrong answers',
-      'Domain-level blind-spot mapping',
       'Practice & exam simulation modes',
       'Performance analytics & trends',
     ],
@@ -56,7 +55,7 @@ const PLANS = [
     gradient: 'linear-gradient(90deg, var(--accent-teal), #ec4899)',
     monthly: 39,
     cycle: 149,
-    domains: [...DOMAINS_PAPER_A, ...DOMAINS_PAPER_B],
+    domains: [...DOMAINS_PAPER_A_INFO, ...DOMAINS_PAPER_B_INFO],
     features: [
       'Everything in Paper A + Paper B',
       'Cross-paper adaptive intelligence',
@@ -204,17 +203,19 @@ export default function PricingPage() {
 
               <div style={{ marginBottom: 24, flex: 1 }}>
                 <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--text-tertiary)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 10 }}>
-                  {plan.domains.length} Domains Covered
+                  {plan.domains.length} Sections · 150 Marks
                 </div>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, marginBottom: 16 }}>
-                  {plan.domains.map(d => (
-                    <span key={d} style={{
-                      fontFamily: 'var(--font-sans)', fontSize: 10, fontWeight: 500,
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 4, marginBottom: 16 }}>
+                  {plan.domains.map((d: any) => (
+                    <div key={d.key} style={{
+                      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                      fontFamily: 'var(--font-sans)', fontSize: 11,
                       color: 'var(--text-tertiary)', background: plan.colorSubtle,
-                      padding: '3px 8px', borderRadius: 4,
+                      padding: '4px 10px', borderRadius: 4,
                     }}>
-                      {getDomainDisplayName(d)}
-                    </span>
+                      <span>{d.name}</span>
+                      <span style={{ fontWeight: 700, color: plan.color, fontSize: 10 }}>{d.weight}%</span>
+                    </div>
                   ))}
                 </div>
 

@@ -242,7 +242,7 @@ export default function Sidebar() {
           {/* Paper A section */}
           <div className="sidebar-section-label" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <span style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--accent-teal)', flexShrink: 0 }} />
-            Paper A — Basic Sciences
+            Paper A — Scientific Basis
           </div>
           {PAPER_A_ITEMS.map(item => (
             <Link
@@ -259,7 +259,7 @@ export default function Sidebar() {
           {/* Paper B section */}
           <div className="sidebar-section-label" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
             <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#ec4899', flexShrink: 0 }} />
-            Paper B — Clinical Sciences
+            Paper B — Clinical Topics
           </div>
           {PAPER_B_ITEMS.map(item => (
             <Link

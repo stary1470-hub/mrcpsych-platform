@@ -167,7 +167,7 @@ export default function DashboardPage() {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 10, height: 10, borderRadius: '50%', background: 'var(--accent-teal)' }} />
-              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Paper A — Basic Sciences</h2>
+              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Paper A — Scientific &amp; Theoretical Basis</h2>
             </div>
             <Link href="/quiz?paper=A" className="btn btn-ghost btn-sm">
               Practice
@@ -217,7 +217,7 @@ export default function DashboardPage() {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#ec4899' }} />
-              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Paper B — Clinical Sciences</h2>
+              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Paper B — Critical Review &amp; Clinical Topics</h2>
             </div>
             <Link href="/quiz?paper=B" className="btn btn-ghost btn-sm">
               Practice
