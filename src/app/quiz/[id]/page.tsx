@@ -157,6 +157,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   const isAdaptive = searchParams.get('adaptive') === 'true'
   const isExamMode = searchParams.get('exam') === 'true'
   const domain = searchParams.get('domain')
+  const paper = searchParams.get('paper')
 
   const [question, setQuestion] = useState<Question | null>(null)
   const [loading, setLoading] = useState(true)
@@ -279,7 +280,11 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
       const state = getExamState()
       if (state && state.totalQuestions === 0) {
         const { count } = await supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true)
-        state.totalQuestions = count || 200
+        // If paper filter is set, count only that paper's questions
+        const filteredCount = paper
+          ? (await supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true).eq('paper', paper)).count
+          : count
+        state.totalQuestions = filteredCount || count || 200
         saveExamState(state)
         setExamTotalQuestions(state.totalQuestions)
       } else if (state) {
@@ -330,6 +335,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     if (!isAdaptive) {
       let query = supabase.from('questions').select('id').eq('is_active', true).neq('id', id).order('id')
       if (domain && domain !== 'all') query = query.eq('domain', domain)
+      if (paper) query = query.eq('paper', paper)
 
       // In exam mode, exclude already answered questions
       if (isExamMode) {
@@ -341,8 +347,11 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
 
       const { data: nextQs } = await query.limit(1)
       if (nextQs && nextQs.length > 0) {
-        const examParam = isExamMode ? '&exam=true' : ''
-        router.push(`/quiz/${nextQs[0].id}?domain=${domain || 'all'}${examParam}`)
+        const params = new URLSearchParams()
+        params.set('domain', domain || 'all')
+        if (paper) params.set('paper', paper)
+        if (isExamMode) params.set('exam', 'true')
+        router.push(`/quiz/${nextQs[0].id}?${params.toString()}`)
       } else {
         if (isExamMode) {
           setAllDone(true)
@@ -462,7 +471,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
 
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
             <button onClick={() => router.push('/dashboard')} className="btn btn-primary">View Dashboard</button>
-            <button onClick={() => router.push('/quiz')} className="btn btn-secondary">Back to Quiz Menu</button>
+            <button onClick={() => router.push(paper ? `/quiz?paper=${paper}` : '/quiz')} className="btn btn-secondary">Back to Quiz Menu</button>
           </div>
         </div>
       </AppLayout>

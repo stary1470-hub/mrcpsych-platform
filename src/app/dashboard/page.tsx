@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import AppLayout from '@/components/AppLayout'
 import { getDomainDisplayName, getDomainColor } from '@/lib/utils'
+import { DOMAINS_PAPER_A, DOMAINS_PAPER_B, type PaperType } from '@/types'
 import Link from 'next/link'
 
 interface DomainStat {
@@ -16,31 +17,38 @@ interface DomainStat {
 export default function DashboardPage() {
   const supabase = createClient()
   const [stats, setStats] = useState<DomainStat[]>([])
-  const [totalQuestions, setTotalQuestions] = useState(0)
-  const [totalAttempted, setTotalAttempted] = useState(0)
-  const [totalCorrect, setTotalCorrect] = useState(0)
+  const [totalQuestionsA, setTotalQuestionsA] = useState(0)
+  const [totalQuestionsB, setTotalQuestionsB] = useState(0)
   const [loading, setLoading] = useState(true)
+  const [activeTab, setActiveTab] = useState<'all' | PaperType>('all')
 
   useEffect(() => {
     const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) return
 
-      const { count } = await supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true)
-      setTotalQuestions(count || 0)
+      const [qA, qB, ds] = await Promise.all([
+        supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true).eq('paper', 'A'),
+        supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true).eq('paper', 'B'),
+        supabase.rpc('get_user_domain_stats', { p_user_id: user.id }),
+      ])
 
-      const { data: ds } = await supabase.rpc('get_user_domain_stats', { p_user_id: user.id })
-      if (ds) {
-        setStats(ds as DomainStat[])
-        setTotalAttempted(ds.reduce((s: number, d: DomainStat) => s + Number(d.total_attempted), 0))
-        setTotalCorrect(ds.reduce((s: number, d: DomainStat) => s + Number(d.total_correct), 0))
-      }
+      setTotalQuestionsA(qA.count || 0)
+      setTotalQuestionsB(qB.count || 0)
+      if (ds.data) setStats(ds.data as DomainStat[])
       setLoading(false)
     }
     load()
   }, [supabase])
 
+  const domainsA = activeTab === 'B' ? [] : stats.filter(s => (DOMAINS_PAPER_A as readonly string[]).includes(s.domain))
+  const domainsB = activeTab === 'A' ? [] : stats.filter(s => (DOMAINS_PAPER_B as readonly string[]).includes(s.domain))
+  const visibleStats = activeTab === 'all' ? stats : activeTab === 'A' ? domainsA : domainsB
+
+  const totalAttempted = visibleStats.reduce((s, d) => s + Number(d.total_attempted), 0)
+  const totalCorrect = visibleStats.reduce((s, d) => s + Number(d.total_correct), 0)
   const overallPct = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : 0
+  const totalQs = activeTab === 'A' ? totalQuestionsA : activeTab === 'B' ? totalQuestionsB : totalQuestionsA + totalQuestionsB
 
   const getScoreColor = (pct: number) => {
     if (pct >= 70) return 'var(--success)'
@@ -48,8 +56,47 @@ export default function DashboardPage() {
     return 'var(--error)'
   }
 
+  const tabs = [
+    { id: 'all' as const, label: 'All Papers', color: 'var(--text-primary)' },
+    { id: 'A' as const, label: 'Paper A', color: 'var(--accent-teal)', badge: totalQuestionsA },
+    { id: 'B' as const, label: 'Paper B', color: '#ec4899', badge: totalQuestionsB },
+  ]
+
   return (
     <AppLayout title="Dashboard" subtitle="Your performance overview">
+      {/* Paper tabs */}
+      <div style={{
+        display: 'flex', gap: 4, marginBottom: 24,
+        background: 'var(--surface-card)', borderRadius: 'var(--radius-md)',
+        padding: 4, border: '1px solid var(--border-subtle)',
+        width: 'fit-content',
+      }}>
+        {tabs.map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            style={{
+              fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600,
+              padding: '8px 16px', borderRadius: 'var(--radius-sm)', border: 'none', cursor: 'pointer',
+              background: activeTab === tab.id ? tab.color : 'transparent',
+              color: activeTab === tab.id ? (tab.id === 'all' ? 'var(--surface-base)' : '#fff') : 'var(--text-tertiary)',
+              transition: 'all 0.2s',
+              display: 'flex', alignItems: 'center', gap: 6,
+            }}
+          >
+            {tab.label}
+            {tab.badge !== undefined && activeTab !== tab.id && (
+              <span style={{
+                fontSize: 10, fontWeight: 700, color: tab.color,
+                background: `${tab.color}15`, padding: '1px 6px', borderRadius: 4,
+              }}>
+                {tab.badge}
+              </span>
+            )}
+          </button>
+        ))}
+      </div>
+
       {/* Stats row */}
       <div style={{
         display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
@@ -73,7 +120,7 @@ export default function DashboardPage() {
           )}
           <div className="stat-label">Overall Score</div>
           <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', marginTop: 6 }}>
-            {totalAttempted} of {totalQuestions} answered
+            {totalAttempted} of {totalQs} answered
           </div>
         </div>
         <div className="stat-card">
@@ -103,110 +150,139 @@ export default function DashboardPage() {
               </svg>
             </div>
           </div>
-          <div className="stat-value">{stats.length}</div>
+          <div className="stat-value">{visibleStats.length}</div>
           <div className="stat-label">Domains</div>
           <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', marginTop: 6 }}>
-            {totalQuestions} total questions
+            {totalQs} total questions
           </div>
         </div>
       </div>
 
-      {/* Domain breakdown */}
-      <div className="card animate-slide-up" style={{ padding: 0, overflow: 'hidden', animationDelay: '0.2s' }}>
-        <div style={{
-          padding: '20px 24px', borderBottom: '1px solid var(--border-subtle)',
-          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        }}>
-          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Domain Performance</h2>
-          <Link href="/quiz" className="btn btn-ghost btn-sm">
-            Practice
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </Link>
-        </div>
-
-        {loading ? (
-          <div style={{ padding: 24 }}>
-            {[...Array(5)].map((_, i) => (
-              <div key={i} className="skeleton" style={{ height: 52, marginBottom: 8, borderRadius: 12 }} />
-            ))}
-          </div>
-        ) : stats.length === 0 ? (
-          <div style={{ padding: '60px 24px', textAlign: 'center' }}>
-            <div style={{
-              width: 64, height: 64, borderRadius: 16, background: 'var(--accent-teal-subtle)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px',
-            }}>
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                <path d="M2 17l10 5 10-5" />
-                <path d="M2 12l10 5 10-5" />
-              </svg>
+      {/* Paper A Domain breakdown */}
+      {(activeTab === 'all' || activeTab === 'A') && domainsA.length > 0 && (
+        <div className="card animate-slide-up" style={{ padding: 0, overflow: 'hidden', marginBottom: 24, animationDelay: '0.1s' }}>
+          <div style={{
+            padding: '20px 24px', borderBottom: '1px solid var(--border-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <span style={{ width: 10, height: 10, borderRadius: '50%', background: 'var(--accent-teal)' }} />
+              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Paper A — Basic Sciences</h2>
             </div>
-            <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 20 }}>
-              No questions attempted yet. Start your preparation journey.
-            </p>
-            <Link href="/quiz" className="btn btn-primary">Start your first practice</Link>
+            <Link href="/quiz?paper=A" className="btn btn-ghost btn-sm">
+              Practice
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+              </svg>
+            </Link>
           </div>
-        ) : (
           <div style={{ padding: '12px 24px 20px' }} className="animate-stagger">
-            {stats.map((s, i) => (
-              <Link key={s.domain} href={`/quiz?domain=${s.domain}`} style={{ textDecoration: 'none' }}>
-                <div
-                  style={{
-                    display: 'flex', alignItems: 'center', gap: 14,
-                    padding: '14px 12px', borderRadius: 12,
-                    transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
-                    cursor: 'pointer',
-                  }}
-                  onMouseEnter={e => {
-                    e.currentTarget.style.background = 'var(--accent-teal-subtle)'
-                    e.currentTarget.style.transform = 'translateX(4px)'
-                  }}
-                  onMouseLeave={e => {
-                    e.currentTarget.style.background = 'transparent'
-                    e.currentTarget.style.transform = 'translateX(0)'
-                  }}
+            {domainsA.map(s => (
+              <Link key={s.domain} href={`/quiz?domain=${s.domain}&paper=A`} style={{ textDecoration: 'none' }}>
+                <div style={{
+                  display: 'flex', alignItems: 'center', gap: 14,
+                  padding: '14px 12px', borderRadius: 12,
+                  transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                  cursor: 'pointer',
+                }}
+                  onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-teal-subtle)'; e.currentTarget.style.transform = 'translateX(4px)' }}
+                  onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.transform = 'translateX(0)' }}
                 >
-                  <div style={{
-                    width: 10, height: 10, borderRadius: '50%',
-                    background: getDomainColor(s.domain), flexShrink: 0,
-                    boxShadow: `0 0 8px ${getDomainColor(s.domain)}40`,
-                  }} />
+                  <div style={{ width: 10, height: 10, borderRadius: '50%', background: getDomainColor(s.domain), flexShrink: 0, boxShadow: `0 0 8px ${getDomainColor(s.domain)}40` }} />
                   <div style={{ flex: 1, minWidth: 0 }}>
-                    <div style={{
-                      fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 600,
-                      color: 'var(--text-primary)', overflow: 'hidden',
-                      textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                    }}>
+                    <div style={{ fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 600, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                       {getDomainDisplayName(s.domain)}
                     </div>
                     <div className="progress-bar" style={{ marginTop: 8 }}>
-                      <div
-                        className="progress-fill progress-fill-teal"
-                        style={{ width: `${s.percentage}%` }}
-                      />
+                      <div className="progress-fill progress-fill-teal" style={{ width: `${s.percentage}%` }} />
                     </div>
                   </div>
                   <div style={{ textAlign: 'right', flexShrink: 0 }}>
-                    <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
-                      {s.total_correct}/{s.total_attempted}
-                    </div>
-                    <div style={{
-                      fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400,
-                      color: getScoreColor(s.percentage),
-                    }}>
-                      {s.percentage}%
-                    </div>
+                    <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>{s.total_correct}/{s.total_attempted}</div>
+                    <div style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400, color: getScoreColor(s.percentage) }}>{s.percentage}%</div>
                   </div>
                 </div>
               </Link>
             ))}
           </div>
-        )}
-      </div>
+        </div>
+      )}
+
+      {/* Paper B Domain breakdown */}
+      {(activeTab === 'all' || activeTab === 'B') && domainsB.length > 0 && (
+        <div className="card animate-slide-up" style={{ padding: 0, overflow: 'hidden', marginBottom: 24, animationDelay: '0.2s' }}>
+          <div style={{
+            padding: '20px 24px', borderBottom: '1px solid var(--border-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#ec4899' }} />
+              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Paper B — Clinical Sciences</h2>
+            </div>
+            <Link href="/quiz?paper=B" className="btn btn-ghost btn-sm">
+              Practice
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+              </svg>
+            </Link>
+          </div>
+          <div style={{ padding: '12px 24px 20px' }} className="animate-stagger">
+            {domainsB.map(s => (
+              <Link key={s.domain} href={`/quiz?domain=${s.domain}&paper=B`} style={{ textDecoration: 'none' }}>
+                <div style={{
+                  display: 'flex', alignItems: 'center', gap: 14,
+                  padding: '14px 12px', borderRadius: 12,
+                  transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                  cursor: 'pointer',
+                }}
+                  onMouseEnter={e => { e.currentTarget.style.background = 'rgba(236, 72, 153, 0.06)'; e.currentTarget.style.transform = 'translateX(4px)' }}
+                  onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.transform = 'translateX(0)' }}
+                >
+                  <div style={{ width: 10, height: 10, borderRadius: '50%', background: getDomainColor(s.domain), flexShrink: 0, boxShadow: `0 0 8px ${getDomainColor(s.domain)}40` }} />
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 600, color: 'var(--text-primary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {getDomainDisplayName(s.domain)}
+                    </div>
+                    <div className="progress-bar" style={{ marginTop: 8 }}>
+                      <div className="progress-fill" style={{ width: `${s.percentage}%`, background: 'linear-gradient(90deg, #ec4899, #d946ef)' }} />
+                    </div>
+                  </div>
+                  <div style={{ textAlign: 'right', flexShrink: 0 }}>
+                    <div style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>{s.total_correct}/{s.total_attempted}</div>
+                    <div style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400, color: getScoreColor(s.percentage) }}>{s.percentage}%</div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Empty state */}
+      {!loading && visibleStats.length === 0 && (
+        <div style={{ padding: '60px 24px', textAlign: 'center' }}>
+          <div style={{
+            width: 64, height: 64, borderRadius: 16, background: 'var(--accent-teal-subtle)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px',
+          }}>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 20 }}>
+            {activeTab === 'A'
+              ? 'No Paper A questions attempted yet. Start with the basic sciences.'
+              : activeTab === 'B'
+                ? 'No Paper B questions attempted yet. Start with clinical sciences.'
+                : 'No questions attempted yet. Start your preparation journey.'}
+          </p>
+          <Link href={activeTab === 'B' ? '/quiz?paper=B' : '/quiz?paper=A'} className="btn btn-primary">
+            {activeTab === 'B' ? 'Start Paper B Practice' : 'Start Paper A Practice'}
+          </Link>
+        </div>
+      )}
     </AppLayout>
   )
 }

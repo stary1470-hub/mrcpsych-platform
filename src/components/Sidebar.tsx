@@ -18,8 +18,11 @@ const NAV_ITEMS = [
       </svg>
     ),
   },
+]
+
+const PAPER_A_ITEMS = [
   {
-    href: '/quiz',
+    href: '/quiz?paper=A',
     label: 'Practice',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -29,12 +32,58 @@ const NAV_ITEMS = [
     ),
   },
   {
+    href: '/quiz?paper=A&exam=true',
+    label: 'Exam Mode',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </svg>
+    ),
+  },
+]
+
+const PAPER_B_ITEMS = [
+  {
+    href: '/quiz?paper=B',
+    label: 'Practice',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M9 11l3 3L22 4" />
+        <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+      </svg>
+    ),
+  },
+  {
+    href: '/quiz?paper=B&exam=true',
+    label: 'Exam Mode',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </svg>
+    ),
+  },
+]
+
+const GENERAL_ITEMS = [
+  {
     href: '/review',
     label: 'Review',
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" />
         <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
+      </svg>
+    ),
+  },
+  {
+    href: '/pricing',
+    label: 'Pricing',
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <line x1="12" y1="1" x2="12" y2="23" />
+        <path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
       </svg>
     ),
   },
@@ -109,6 +158,12 @@ export default function Sidebar() {
 
   const isActive = (href: string) => {
     if (href === '/admin') return pathname === '/admin'
+    if (href.includes('?paper=')) {
+      const urlPaper = new URLSearchParams(href.split('?')[1]).get('paper')
+      const urlBase = href.split('?')[0]
+      return pathname === urlBase && typeof window !== 'undefined' && window.location.search.includes(`paper=${urlPaper}`)
+    }
+    if (href === '/pricing') return pathname === '/pricing'
     return pathname.startsWith(href)
   }
 
@@ -171,7 +226,56 @@ export default function Sidebar() {
         </div>
 
         <nav className="sidebar-nav">
+          {/* Main nav */}
           {NAV_ITEMS.map(item => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={`sidebar-link ${isActive(item.href) ? 'active' : ''}`}
+              onClick={() => setExpanded(false)}
+            >
+              <span className="sidebar-link-icon">{item.icon}</span>
+              {item.label}
+            </Link>
+          ))}
+
+          {/* Paper A section */}
+          <div className="sidebar-section-label" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--accent-teal)', flexShrink: 0 }} />
+            Paper A — Basic Sciences
+          </div>
+          {PAPER_A_ITEMS.map(item => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={`sidebar-link ${isActive(item.href) ? 'active' : ''}`}
+              onClick={() => setExpanded(false)}
+            >
+              <span className="sidebar-link-icon">{item.icon}</span>
+              {item.label}
+            </Link>
+          ))}
+
+          {/* Paper B section */}
+          <div className="sidebar-section-label" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#ec4899', flexShrink: 0 }} />
+            Paper B — Clinical Sciences
+          </div>
+          {PAPER_B_ITEMS.map(item => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={`sidebar-link ${isActive(item.href) ? 'active' : ''}`}
+              onClick={() => setExpanded(false)}
+            >
+              <span className="sidebar-link-icon">{item.icon}</span>
+              {item.label}
+            </Link>
+          ))}
+
+          {/* General section */}
+          <div className="sidebar-section-label">General</div>
+          {GENERAL_ITEMS.map(item => (
             <Link
               key={item.href}
               href={item.href}

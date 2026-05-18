@@ -1,10 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import AppLayout from '@/components/AppLayout'
 import { getDomainDisplayName, getDomainColor } from '@/lib/utils'
+import type { PaperType } from '@/types'
+import { DOMAINS_PAPER_A, DOMAINS_PAPER_B } from '@/types'
 
 interface DomainOption {
   domain: string; count: number; attempted: number; percentage: number | null
@@ -12,17 +14,26 @@ interface DomainOption {
 
 export default function QuizMenuPage() {
   const router = useRouter()
+  const searchParams = useSearchParams()
   const supabase = createClient()
   const [domains, setDomains] = useState<DomainOption[]>([])
   const [loading, setLoading] = useState(true)
   const [adapting, setAdapting] = useState(false)
+  const [activePaper, setActivePaper] = useState<'all' | PaperType>(
+    (searchParams.get('paper') as PaperType) || 'all'
+  )
 
   useEffect(() => {
     const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) return
 
-      const { data: allQuestions } = await supabase.from('questions').select('domain').eq('is_active', true)
+      const paperFilter = activePaper === 'all' ? null : activePaper
+
+      let q = supabase.from('questions').select('domain, paper').eq('is_active', true)
+      if (paperFilter) q = q.eq('paper', paperFilter)
+      const { data: allQuestions } = await q
+
       const countMap = new Map<string, number>()
       if (allQuestions) {
         for (const row of allQuestions) {
@@ -46,37 +57,49 @@ export default function QuizMenuPage() {
       setLoading(false)
     }
     load()
-  }, [supabase])
+  }, [supabase, activePaper])
 
   const startQuiz = async (domain?: string, examMode: boolean = false) => {
+    const paperParam = activePaper !== 'all' ? activePaper : undefined
     let query = supabase.from('questions').select('id').eq('is_active', true)
     if (domain) query = query.eq('domain', domain)
+    if (paperParam) query = query.eq('paper', paperParam)
     const { data: questions } = await query.limit(50)
     if (questions && questions.length > 0) {
-      const examParam = examMode ? '&exam=true' : ''
-      router.push(`/quiz/${questions[0].id}?domain=${domain || 'all'}${examParam}`)
+      const params = new URLSearchParams()
+      if (domain) params.set('domain', domain)
+      if (activePaper !== 'all') params.set('paper', activePaper)
+      if (examMode) params.set('exam', 'true')
+      router.push(`/quiz/${questions[0].id}?${params.toString()}`)
     }
   }
 
   const startAdaptive = async () => {
     setAdapting(true)
     try {
-      const res = await fetch('/api/quiz/adaptive-start')
+      const params = new URLSearchParams()
+      if (activePaper !== 'all') params.set('paper', activePaper)
+      const res = await fetch(`/api/quiz/adaptive-start?${params.toString()}`)
       const data = await res.json()
       if (data.all_done || !data.question) {
         router.push('/dashboard')
         return
       }
-      router.push(`/quiz/${data.question.id}?adaptive=true`)
+      const qParams = new URLSearchParams()
+      qParams.set('adaptive', 'true')
+      if (activePaper !== 'all') qParams.set('paper', activePaper)
+      router.push(`/quiz/${data.question.id}?${qParams.toString()}`)
     } catch {
       setAdapting(false)
     }
   }
 
+  const paperColor = activePaper === 'B' ? '#ec4899' : 'var(--accent-teal)'
+
   const quickActions = [
     {
       icon: (
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={paperColor} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="10" />
           <path d="M12 16v-4" />
           <path d="M12 8h.01" />
@@ -111,7 +134,7 @@ export default function QuizMenuPage() {
         </svg>
       ),
       title: 'Exam Mode',
-      desc: 'Timed — 3 hours, weighted per question',
+      desc: activePaper === 'B' ? 'Timed — 3 hours for Paper B' : activePaper === 'A' ? 'Timed — 3 hours for Paper A' : 'Timed — 3 hours, weighted per question',
       accent: false,
       action: () => startQuiz(undefined, true),
       mode: 'exam' as const,
@@ -134,7 +157,42 @@ export default function QuizMenuPage() {
   ]
 
   return (
-    <AppLayout title="Practice" subtitle="Select a domain to start">
+    <AppLayout title="Practice" subtitle={activePaper === 'A' ? 'Paper A — Basic Sciences' : activePaper === 'B' ? 'Paper B — Clinical Sciences' : 'All Papers'}>
+      {/* Paper tabs */}
+      <div style={{
+        display: 'flex', gap: 4, marginBottom: 24,
+        background: 'var(--surface-card)', borderRadius: 'var(--radius-md)',
+        padding: 4, border: '1px solid var(--border-subtle)',
+        width: 'fit-content',
+      }}>
+        {[
+          { id: 'all' as const, label: 'All Papers' },
+          { id: 'A' as const, label: 'Paper A', color: 'var(--accent-teal)' },
+          { id: 'B' as const, label: 'Paper B', color: '#ec4899' },
+        ].map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => {
+              setActivePaper(tab.id)
+              const params = new URLSearchParams()
+              if (tab.id !== 'all') params.set('paper', tab.id)
+              router.replace(`/quiz${tab.id !== 'all' ? `?${params.toString()}` : ''}`)
+            }}
+            style={{
+              fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 600,
+              padding: '8px 16px', borderRadius: 'var(--radius-sm)', border: 'none', cursor: 'pointer',
+              background: activePaper === tab.id ? (tab.color || 'var(--text-primary)') : 'transparent',
+              color: activePaper === tab.id
+                ? (tab.id === 'all' ? 'var(--surface-base)' : '#fff')
+                : 'var(--text-tertiary)',
+              transition: 'all 0.2s',
+            }}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
       {/* Mode cards */}
       <div style={{ marginBottom: 12 }}>
         <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--text-tertiary)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 12 }}>
@@ -153,12 +211,12 @@ export default function QuizMenuPage() {
               style={{
                 cursor: 'pointer', textAlign: 'left',
                 border: a.accent
-                  ? '1px solid var(--accent-teal)'
+                  ? `1px solid ${paperColor}`
                   : a.mode === 'exam'
                     ? '1px solid rgba(251, 191, 36, 0.3)'
                     : '1px solid var(--border-subtle)',
                 background: a.accent
-                  ? 'var(--accent-teal-subtle)'
+                  ? (activePaper === 'B' ? 'rgba(236, 72, 153, 0.06)' : 'var(--accent-teal-subtle)')
                   : a.mode === 'exam'
                     ? 'rgba(251, 191, 36, 0.04)'
                     : 'var(--surface-card)',
@@ -170,7 +228,7 @@ export default function QuizMenuPage() {
               onMouseEnter={e => {
                 if (!a.disabled && !a.loading) {
                   e.currentTarget.style.transform = 'translateY(-4px)'
-                  e.currentTarget.style.boxShadow = a.accent ? 'var(--shadow-glow-teal)' : 'var(--shadow-card)'
+                  e.currentTarget.style.boxShadow = a.accent ? `0 0 24px ${activePaper === 'B' ? 'rgba(236, 72, 153, 0.15)' : 'var(--shadow-glow-teal)'}` : 'var(--shadow-card)'
                 }
               }}
               onMouseLeave={e => {
@@ -192,7 +250,7 @@ export default function QuizMenuPage() {
               <div style={{ marginBottom: 10 }}>{a.icon}</div>
               <div style={{
                 fontFamily: 'var(--font-sans)', fontSize: 14, fontWeight: 700,
-                color: a.accent ? 'var(--accent-teal)' : a.mode === 'exam' ? 'var(--warning)' : 'var(--text-primary)', marginBottom: 4,
+                color: a.accent ? paperColor : a.mode === 'exam' ? 'var(--warning)' : 'var(--text-primary)', marginBottom: 4,
               }}>
                 {a.loading ? 'Starting...' : a.title}
               </div>
@@ -224,7 +282,9 @@ export default function QuizMenuPage() {
       {/* Domain list */}
       <div className="card animate-slide-up" style={{ padding: 0, overflow: 'hidden', animationDelay: '0.15s' }}>
         <div style={{ padding: '20px 24px', borderBottom: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>Domains</h2>
+          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, fontWeight: 400 }}>
+            {activePaper === 'A' ? 'Paper A Domains' : activePaper === 'B' ? 'Paper B Domains' : 'All Domains'}
+          </h2>
           <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
             {domains.length} domains · {domains.reduce((s, d) => s + d.count, 0)} questions
           </span>
@@ -235,6 +295,16 @@ export default function QuizMenuPage() {
             {[...Array(6)].map((_, i) => (
               <div key={i} className="skeleton" style={{ height: 52, marginBottom: 8, borderRadius: 12 }} />
             ))}
+          </div>
+        ) : domains.length === 0 ? (
+          <div style={{ padding: '60px 24px', textAlign: 'center' }}>
+            <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 16 }}>
+              {activePaper === 'A'
+                ? 'No Paper A questions available yet.'
+                : activePaper === 'B'
+                  ? 'No Paper B questions available yet.'
+                  : 'No questions available yet.'}
+            </p>
           </div>
         ) : (
           <div style={{ padding: '8px 12px' }} className="animate-stagger">
@@ -250,7 +320,7 @@ export default function QuizMenuPage() {
                   transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
                 }}
                 onMouseEnter={e => {
-                  e.currentTarget.style.background = 'var(--accent-teal-subtle)'
+                  e.currentTarget.style.background = activePaper === 'B' ? 'rgba(236, 72, 153, 0.06)' : 'var(--accent-teal-subtle)'
                   e.currentTarget.style.transform = 'translateX(4px)'
                 }}
                 onMouseLeave={e => {
