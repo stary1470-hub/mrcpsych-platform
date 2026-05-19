@@ -139,30 +139,70 @@ export default function QuestionsManagementPage() {
     const ids = Array.from(selected)
     if (ids.length === 0) return
 
-    if (action === 'activate') {
-      await supabase.from('questions').update({ is_active: true }).in('id', ids)
-      setQuestions(prev => prev.map(q => ids.includes(q.id) ? { ...q, is_active: true } : q))
-    } else if (action === 'deactivate') {
-      await supabase.from('questions').update({ is_active: false }).in('id', ids)
-      setQuestions(prev => prev.map(q => ids.includes(q.id) ? { ...q, is_active: false } : q))
-    } else if (action === 'delete') {
-      await supabase.from('questions').delete().in('id', ids)
-      setQuestions(prev => prev.filter(q => !ids.includes(q.id)))
+    try {
+      const res = await fetch('/api/admin/questions/bulk', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action, ids }),
+      })
+      const data = await res.json()
+
+      if (!res.ok) {
+        alert(`Error: ${data.error || 'Unknown error'}`)
+        return
+      }
+
+      if (action === 'delete') {
+        setQuestions(prev => prev.filter(q => !ids.includes(q.id)))
+      } else if (action === 'activate') {
+        setQuestions(prev => prev.map(q => ids.includes(q.id) ? { ...q, is_active: true } : q))
+      } else if (action === 'deactivate') {
+        setQuestions(prev => prev.map(q => ids.includes(q.id) ? { ...q, is_active: false } : q))
+      }
+    } catch (err: any) {
+      alert(`Network error: ${err.message}`)
     }
+
     setSelected(new Set())
     setSelectAll(false)
     setBulkActionModal({ open: false, action: '' })
   }
 
   const handleDeleteSingle = async (id: string) => {
-    await supabase.from('questions').delete().eq('id', id)
-    setQuestions(prev => prev.filter(q => q.id !== id))
+    try {
+      const res = await fetch('/api/admin/questions/bulk', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'delete', ids: [id] }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        alert(`Error: ${data.error || 'Unknown error'}`)
+        return
+      }
+      setQuestions(prev => prev.filter(q => q.id !== id))
+    } catch (err: any) {
+      alert(`Network error: ${err.message}`)
+    }
     setDeleteModal({ open: false, ids: [] })
   }
 
   const toggleActive = async (id: string, current: boolean) => {
-    await supabase.from('questions').update({ is_active: !current }).eq('id', id)
-    setQuestions(prev => prev.map(q => q.id === id ? { ...q, is_active: !current } : q))
+    try {
+      const res = await fetch('/api/admin/questions/bulk', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: current ? 'deactivate' : 'activate', ids: [id] }),
+      })
+      if (!res.ok) {
+        const data = await res.json()
+        alert(`Error: ${data.error || 'Unknown error'}`)
+        return
+      }
+      setQuestions(prev => prev.map(q => q.id === id ? { ...q, is_active: !current } : q))
+    } catch (err: any) {
+      alert(`Network error: ${err.message}`)
+    }
   }
 
   const trunc = (t: string, m: number) => t.length > m ? t.slice(0, m) + '…' : t
