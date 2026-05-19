@@ -120,7 +120,6 @@ export default function NewQuestionPage() {
         subdomain: sbaForm.subdomain.trim() || null, difficulty: sbaForm.difficulty || null,
         bloom_taxonomy: sbaForm.bloom_taxonomy || null, paper: sbaForm.paper,
         source: sbaForm.source.trim() || null, tags: tags.length > 0 ? tags : null,
-        format: 'sba',
       })
       if (e2) { setError(e2.message); setSaving(false); return }
       router.push('/admin/questions'); router.refresh()
@@ -150,8 +149,6 @@ export default function NewQuestionPage() {
         paper: emiForm.paper,
         source: emiForm.source.trim() || null,
         tags: tags.length > 0 ? tags : null,
-        format: 'emi',
-        option_labels: OPTION_LABELS(emiForm.optionCount),
       }).select('id').single()
 
       if (e2 || !question) { setError(e2?.message || 'Failed to create question'); setSaving(false); return }

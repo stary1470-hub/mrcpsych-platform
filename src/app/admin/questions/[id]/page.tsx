@@ -197,7 +197,6 @@ export default function EditQuestionPage({ params }: { params: Promise<{ id: str
         paper: emiForm.paper,
         source: emiForm.source.trim() || null,
         tags: tags.length > 0 ? tags : null,
-        option_labels: OPTION_LABELS(emiForm.optionCount),
         updated_at: new Date().toISOString(),
       }).eq('id', id)
       if (e2) { setError(e2.message); setSaving(false); return }

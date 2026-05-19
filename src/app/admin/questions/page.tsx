@@ -78,7 +78,7 @@ export default function QuestionsManagementPage() {
   useEffect(() => {
     const load = async () => {
       const { data } = await supabase.from('questions')
-        .select('id, stem, domain, subdomain, difficulty, paper, is_active, created_at, bloom_taxonomy, tags, format')
+        .select('id, stem, domain, subdomain, difficulty, paper, is_active, created_at, bloom_taxonomy, tags')
         .order('created_at', { ascending: false })
         .limit(5000)
       if (data) setQuestions(data as QRow[])
