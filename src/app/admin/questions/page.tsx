@@ -140,7 +140,7 @@ export default function QuestionsManagementPage() {
     if (ids.length === 0) return
 
     try {
-      const res = await fetch('/api/admin/questions/bulk', {
+      const res = await fetch('/api/admin/bulk-delete', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action, ids }),
@@ -170,7 +170,7 @@ export default function QuestionsManagementPage() {
 
   const handleDeleteSingle = async (id: string) => {
     try {
-      const res = await fetch('/api/admin/questions/bulk', {
+      const res = await fetch('/api/admin/bulk-delete', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: 'delete', ids: [id] }),
@@ -189,7 +189,7 @@ export default function QuestionsManagementPage() {
 
   const toggleActive = async (id: string, current: boolean) => {
     try {
-      const res = await fetch('/api/admin/questions/bulk', {
+      const res = await fetch('/api/admin/bulk-delete', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: current ? 'deactivate' : 'activate', ids: [id] }),

@@ -520,7 +520,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     if (!state) return 0
     const remaining = Math.max(0, state.totalQuestions - state.answeredIds.length)
     const questionsRemaining = Math.max(1, examTotalQuestions - examAnsweredCount)
-    return calculateQuestionTime(examTimeRemaining, questionsRemaining, question ? isEmiQuestion(question.stem) : false)
+    return calculateQuestionTime(examTimeRemaining, questionsRemaining, question ? isEmiQuestion(question) : false)
   }, [isExamMode, examTimeRemaining, examTotalQuestions, examAnsweredCount, question, getExamState])
 
   // ── Exam results screen ───────────────────────────
@@ -712,7 +712,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
 
   if (!question) return null
 
-  const isEmi = isEmiQuestion(question.stem)
+  const isEmi = isEmiQuestion(question)
   const allocatedTime = getQuestionAllocatedTime()
 
   return (

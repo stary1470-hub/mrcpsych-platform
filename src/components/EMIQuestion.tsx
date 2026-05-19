@@ -419,7 +419,7 @@ export default function EMIQuestion({ question, isExamMode = false, onComplete }
     }, 0)
 
     return (
-      <div className="card" style={{ padding: 28 }} className="animate-fade-in">
+      <div className="card animate-fade-in" style={{ padding: 28 }}>
         <div style={{ textAlign: 'center', marginBottom: 24 }}>
           <div style={{
             width: 48, height: 48, borderRadius: 16,
