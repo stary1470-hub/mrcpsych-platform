@@ -2,12 +2,23 @@ export type Difficulty = 'easy' | 'medium' | 'hard'
 export type BloomTaxonomy = 'recall' | 'application' | 'analysis'
 export type PaperType = 'A' | 'B'
 export type QuizMode = 'practice' | 'exam'
+export type QuestionFormat = 'sba' | 'emi'
+
+export interface QuestionItem {
+  id: string
+  question_id: string
+  item_number: number
+  item_text: string
+  correct_indices: number[]  // array of option indices for multi-correct support
+  marks: number
+  item_rationale: string | null
+}
 
 export interface Question {
   id: string
   stem: string
   options: string[]
-  correct_index: number
+  correct_index: number  // for SBA; first item's correct_index for EMI (redundant but kept for backwards compat)
   distractors_rationale: string[] | null
   teaching_point: string | null
   domain: string
@@ -20,6 +31,10 @@ export interface Question {
   is_active: boolean
   created_at: string
   updated_at: string
+  // ── EMI fields ──
+  format: QuestionFormat    // 'sba' or 'emi'
+  option_labels: string[] | null  // e.g. ['A','B','C','D','E','F','G','H'] for EMI
+  items: QuestionItem[] | null   // populated only for EMI questions
 }
 
 export interface QuestionInsert {
@@ -35,6 +50,9 @@ export interface QuestionInsert {
   paper: PaperType
   tags?: string[]
   source?: string
+  // ── EMI fields ──
+  format?: QuestionFormat
+  option_labels?: string[]
 }
 
 export interface UserProgress {
@@ -42,6 +60,17 @@ export interface UserProgress {
   user_id: string
   question_id: string
   selected_index: number
+  correct: boolean
+  time_taken_seconds: number | null
+  answered_at: string
+}
+
+export interface ItemProgress {
+  id: string
+  user_id: string
+  question_item_id: string
+  question_id: string
+  selected_indices: number[]
   correct: boolean
   time_taken_seconds: number | null
   answered_at: string
@@ -63,6 +92,62 @@ export interface QuizSession {
   started_at: string
 }
 
+// ── EMI-specific types ──────────────────────────────
+export interface EmiItemAnswer {
+  question_item_id: string
+  selected_indices: number[]
+  correct: boolean
+  marks_awarded: number
+  marks_total: number
+}
+
+export interface EmiAnswer {
+  question_id: string
+  items: EmiItemAnswer[]
+}
+
+/** Scoring modes for multi-correct EMI items */
+export type EmiScoringMode = 'all_or_nothing' | 'partial_credit'
+
+export const EMI_SCORING_MODE: EmiScoringMode = 'all_or_nothing'
+
+/**
+ * Score a single EMI item answer.
+ * all_or_nothing: exact match only (arrays must be identical after sorting)
+ * partial_credit: (correct_selected - incorrect_selected) / total_correct, min 0
+ */
+export function scoreEmiItem(
+  selected: number[],
+  correct: number[],
+  mode: EmiScoringMode = EMI_SCORING_MODE,
+): { correct: boolean; marks: number } {
+  const sortedSelected = [...selected].sort((a, b) => a - b)
+  const sortedCorrect = [...correct].sort((a, b) => a - b)
+
+  if (mode === 'all_or_nothing') {
+    const isCorrect =
+      sortedSelected.length === sortedCorrect.length &&
+      sortedSelected.every((v, i) => v === sortedCorrect[i])
+    return { correct: isCorrect, marks: isCorrect ? 1 : 0 }
+  }
+
+  // Partial credit mode
+  if (sortedCorrect.length === 0) return { correct: true, marks: 1 }
+  const correctSet = new Set(sortedCorrect)
+  const selectedSet = new Set(sortedSelected)
+
+  let correctSelected = 0
+  let incorrectSelected = 0
+  for (const s of sortedSelected) {
+    if (correctSet.has(s)) correctSelected++
+    else incorrectSelected++
+  }
+  const missed = sortedCorrect.length - correctSelected
+  const raw = (correctSelected - incorrectSelected) / sortedCorrect.length
+  const marks = Math.max(0, raw)
+  return { correct: marks >= 1, marks }
+}
+
 // ── Exam Mode Configuration ────────────────────────
 export interface ExamConfig {
   totalMinutes: number      // Total exam time in minutes
@@ -77,7 +162,7 @@ export const EXAM_CONFIG_DEFAULT: ExamConfig = {
   emiWeight: 1.5,
 }
 
-// localStorage key for exam state persistence across navigations
+// localStorage keys for state persistence across navigations
 export const EXAM_STORAGE_KEY = 'psychstar_exam_state'
 export const PRACTICE_STORAGE_KEY = 'psychstar_practice_state'
 
@@ -118,11 +203,14 @@ export function calculateQuestionTime(
 }
 
 /**
- * Detect if a question stem looks like an EMI (Extended Matching Item).
- * EMIs typically have longer stems with clinical vignettes and multiple sub-parts.
- * Heuristic: stem > 200 chars OR contains typical EMI markers.
+ * Detect if a question is an EMI.
+ * Prefers explicit `format` field; falls back to heuristic for migrated data.
  */
-export function isEmiQuestion(stem: string): boolean {
+export function isEmiQuestion(q: { format?: QuestionFormat; stem?: string }): boolean {
+  if (q.format === 'emi') return true
+  if (q.format === 'sba') return false
+  // Heuristic fallback for legacy data without format field
+  const stem = q.stem || ''
   if (stem.length > 250) return true
   const emiMarkers = [
     'For each patient',
@@ -133,6 +221,15 @@ export function isEmiQuestion(stem: string): boolean {
     'Which of the following applies to each',
   ]
   return emiMarkers.some(marker => stem.toLowerCase().includes(marker.toLowerCase()))
+}
+
+/**
+ * Get option label from index (A, B, C, ...).
+ * For EMI questions, uses the question's option_labels if available, else falls back to A–Z.
+ */
+export function getOptionLabel(index: number, optionLabels?: string[] | null): string {
+  if (optionLabels && index < optionLabels.length) return optionLabels[index]
+  return String.fromCharCode(65 + index) // A, B, C, D, E...
 }
 
 // ═══════════════════════════════════════════

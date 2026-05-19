@@ -11,6 +11,7 @@ interface QRow {
   id: string; stem: string; domain: string; subdomain: string | null
   difficulty: string | null; paper: string; is_active: boolean
   created_at: string; bloom_taxonomy: string | null; tags: string[] | null
+  format: string | null
 }
 
 // ── Confirm Modal ────────────────────────────────
@@ -77,7 +78,7 @@ export default function QuestionsManagementPage() {
   useEffect(() => {
     const load = async () => {
       const { data } = await supabase.from('questions')
-        .select('id, stem, domain, subdomain, difficulty, paper, is_active, created_at, bloom_taxonomy, tags')
+        .select('id, stem, domain, subdomain, difficulty, paper, is_active, created_at, bloom_taxonomy, tags, format')
         .order('created_at', { ascending: false })
         .limit(5000)
       if (data) setQuestions(data as QRow[])
@@ -290,7 +291,7 @@ export default function QuestionsManagementPage() {
         <div>
           {/* Table header */}
           <div style={{
-            display: 'grid', gridTemplateColumns: '36px 1fr 130px 90px 80px 80px 100px',
+            display: 'grid', gridTemplateColumns: '36px 1fr 130px 90px 80px 50px 80px 100px',
             gap: 10, padding: '8px 12px', alignItems: 'center',
             fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700,
             color: 'var(--text-tertiary)', letterSpacing: '0.04em', textTransform: 'uppercase',
@@ -306,6 +307,7 @@ export default function QuestionsManagementPage() {
             <div style={{ cursor: 'pointer' }} onClick={() => { setSortBy('domain'); setSortDir(d => d === 'asc' ? 'desc' : 'asc') }}>Domain {sortBy === 'domain' && (sortDir === 'asc' ? '↑' : '↓')}</div>
             <div style={{ cursor: 'pointer' }} onClick={() => { setSortBy('paper'); setSortDir(d => d === 'asc' ? 'desc' : 'asc') }}>Paper {sortBy === 'paper' && (sortDir === 'asc' ? '↑' : '↓')}</div>
             <div style={{ cursor: 'pointer' }} onClick={() => { setSortBy('difficulty'); setSortDir(d => d === 'asc' ? 'desc' : 'asc') }}>Diff {sortBy === 'difficulty' && (sortDir === 'asc' ? '↑' : '↓')}</div>
+            <div>Fmt</div>
             <div>State</div>
             <div style={{ textAlign: 'right' }}>Actions</div>
           </div>
@@ -314,7 +316,7 @@ export default function QuestionsManagementPage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
             {filtered.map(q => (
               <div key={q.id} style={{
-                display: 'grid', gridTemplateColumns: '36px 1fr 130px 90px 80px 80px 100px',
+                display: 'grid', gridTemplateColumns: '36px 1fr 130px 90px 80px 50px 80px 100px',
                 gap: 10, padding: '10px 12px', alignItems: 'center',
                 background: selected.has(q.id) ? 'var(--accent-teal-subtle)' : 'transparent',
                 borderRadius: 'var(--radius-sm)',
@@ -382,6 +384,19 @@ export default function QuestionsManagementPage() {
                       color: q.difficulty === 'easy' ? 'var(--success)' : q.difficulty === 'medium' ? 'var(--warning)' : 'var(--error)',
                     }}>{q.difficulty}</span>
                   )}
+                </div>
+
+                {/* Format (EMI / SBA) */}
+                <div>
+                  <span style={{
+                    fontFamily: 'var(--font-mono)', fontSize: 10, fontWeight: 700,
+                    color: (q as any).format === 'emi' ? 'var(--accent-teal)' : 'var(--text-tertiary)',
+                    background: (q as any).format === 'emi' ? 'var(--accent-teal-subtle)' : 'rgba(255,255,255,0.04)',
+                    padding: '1px 5px', borderRadius: 3,
+                    letterSpacing: '0.04em',
+                  }}>
+                    {(q as any).format === 'emi' ? 'EMI' : 'SBA'}
+                  </span>
                 </div>
 
                 {/* State */}

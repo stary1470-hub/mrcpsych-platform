@@ -4,8 +4,9 @@ import { useEffect, useState, useRef, useCallback, use } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import AppLayout from '@/components/AppLayout'
+import EMIQuestion from '@/components/EMIQuestion'
 import { getOptionLabel, getDomainDisplayName, getDomainColor } from '@/lib/utils'
-import type { Question } from '@/types'
+import type { Question, EmiItemAnswer } from '@/types'
 import {
   EXAM_CONFIG_DEFAULT, EXAM_STORAGE_KEY, PRACTICE_STORAGE_KEY,
   calculateQuestionTime, isEmiQuestion,
@@ -169,6 +170,11 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   const [allDone, setAllDone] = useState(false)
   const [nextLoading, setNextLoading] = useState(false)
 
+  // EMI-specific state
+  const [emiItems, setEmiItems] = useState<Question['items']>(null)
+  const [emiAnswers, setEmiAnswers] = useState<EmiItemAnswer[] | null>(null)
+  const [emiCompleted, setEmiCompleted] = useState(false)
+
   // Exam mode state
   const [examTimeRemaining, setExamTimeRemaining] = useState<number | null>(null)
   const [questionStartTime, setQuestionStartTime] = useState(Date.now())
@@ -276,11 +282,19 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   const loadQuestion = async () => {
     setLoading(true); setSelectedIndex(null); setSubmitted(false); setNextLoading(false)
     setQuestionStartTime(Date.now())
+    setEmiItems(null)
+    setEmiAnswers(null)
+    setEmiCompleted(false)
 
     if (isAdaptive && !domain) {
       const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
       if (!q) { router.push('/quiz'); return }
       setQuestion(q as Question)
+      // Fetch EMI items if applicable
+      if ((q as Question).format === 'emi') {
+        const { data: items } = await supabase.from('question_items').select('*').eq('question_id', id).order('item_number')
+        setEmiItems(items as Question['items'])
+      }
       try {
         const res = await fetch('/api/quiz/adaptive-start')
         const data = await res.json()
@@ -293,6 +307,12 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
     const { data: q } = await supabase.from('questions').select('*').eq('id', id).single()
     if (!q) { router.push('/quiz'); return }
     setQuestion(q as Question)
+
+    // Fetch EMI items if applicable
+    if ((q as Question).format === 'emi') {
+      const { data: items } = await supabase.from('question_items').select('*').eq('question_id', id).order('item_number')
+      setEmiItems(items as Question['items'])
+    }
 
     // In exam mode, update total questions if not set
     if (isExamMode) {
@@ -351,6 +371,63 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
             selectedIndex,
             correct,
             timeTakenSeconds: timeTaken,
+          })
+        }
+        saveExamState(state)
+        setExamAnsweredCount(state.answeredIds.length)
+      }
+    }
+
+    // Update practice state
+    if (!isExamMode && !isAdaptive) {
+      const practiceState = getPracticeState()
+      if (practiceState && !practiceState.answeredIds.includes(question.id)) {
+        practiceState.answeredIds.push(question.id)
+        savePracticeState(practiceState)
+        setPracticeAnswered(practiceState.answeredIds.length)
+      }
+    }
+  }
+
+  // ── EMI completion handler ───────────────────────────
+  const handleEmiComplete = async (answers: EmiItemAnswer[]) => {
+    if (!question || emiCompleted) return
+    setEmiAnswers(answers)
+    setEmiCompleted(true)
+
+    // Record all item answers
+    const { data: { user } } = await supabase.auth.getUser()
+    if (user && answers.length > 0) {
+      const itemProgressRecords = answers.map(a => ({
+        user_id: user.id,
+        question_item_id: a.question_item_id,
+        question_id: question.id,
+        selected_indices: a.selected_indices,
+        correct: a.correct,
+        time_taken_seconds: Math.floor((Date.now() - questionStartTime) / 1000),
+      }))
+      await supabase.from('item_progress').upsert(
+        itemProgressRecords,
+        { onConflict: 'user_id, question_item_id', ignoreDuplicates: false }
+      )
+    }
+
+    // Update session stats
+    const correctCount = answers.filter(a => a.correct).length
+    const totalItems = answers.length
+    setSessionStats(p => ({ correct: p.correct + correctCount, total: p.total + totalItems }))
+
+    // Update exam state (mark question as answered)
+    if (isExamMode) {
+      const state = getExamState()
+      if (state) {
+        if (!state.answeredIds.includes(question.id)) {
+          state.answeredIds.push(question.id)
+          state.answers.push({
+            questionId: question.id,
+            selectedIndex: 0, // Not meaningful for EMI
+            correct: correctCount > 0,
+            timeTakenSeconds: Math.floor((Date.now() - questionStartTime) / 1000),
           })
         }
         saveExamState(state)
@@ -687,7 +764,7 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
               {question.difficulty}
             </span>
           )}
-          {isEmi && <span className="badge badge-gray">EMI</span>}
+          {question.format === 'emi' && <span className="badge badge-gray">EMI</span>}
           {question.bloom_taxonomy && <span className="badge badge-gray">{question.bloom_taxonomy}</span>}
           {!isExamMode && !isAdaptive && practiceTotal > 0 && (
             <span className="badge" style={{ background: 'var(--accent-teal-subtle)', color: 'var(--accent-teal)', fontWeight: 600, marginLeft: 'auto' }}>
@@ -731,8 +808,37 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
           </h2>
         </div>
 
-        {/* Options */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }} className="animate-stagger">
+        {/* Options or EMI component */}
+        {question.format === 'emi' ? (
+          <div style={{ marginBottom: 16 }}>
+            <div className="card animate-fade-in" style={{ padding: '28px 28px 24px', marginBottom: 16 }}>
+              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, lineHeight: 1.7, fontWeight: 400, color: 'var(--text-primary)' }}>
+                {question.stem}
+              </h2>
+            </div>
+            <EMIQuestion
+              question={{ ...question, items: emiItems || [] }}
+              isExamMode={isExamMode}
+              onComplete={handleEmiComplete}
+            />
+            {/* Next button after EMI is submitted */}
+            {emiCompleted && (
+              <div style={{ marginTop: 20 }}>
+                <button onClick={handleNext} disabled={nextLoading} className="btn btn-primary btn-lg" style={{ width: '100%' }}>
+                  {nextLoading
+                    ? 'Loading next...'
+                    : isExamMode
+                      ? (examAnsweredCount >= examTotalQuestions ? 'Finish Exam' : 'Next Question')
+                      : isAdaptive
+                        ? 'Next Adaptive Question'
+                        : 'Next Question'
+                  }
+                </button>
+              </div>
+            )}
+          </div>
+        ) : (
+        <><div style={{ display: 'flex', flexDirection: 'column', gap: 10 }} className="animate-stagger">
           {question.options.map((option, index) => {
             const isSelected = selectedIndex === index
             let cls = 'quiz-option'
@@ -819,6 +925,8 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
             )}
           </div>
         )}
+        </>
+      )}
       </div>
     </AppLayout>
   )

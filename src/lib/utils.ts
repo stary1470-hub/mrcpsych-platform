@@ -6,8 +6,9 @@ export function formatPercentage(value: number): string {
   return `${Math.round(value * 100)}%`
 }
 
-export function getOptionLabel(index: number): string {
-  return String.fromCharCode(65 + index) // A, B, C, D, E
+export function getOptionLabel(index: number, optionLabels?: string[] | null): string {
+  if (optionLabels && index < optionLabels.length) return optionLabels[index]
+  return String.fromCharCode(65 + index) // A, B, C, D, E...
 }
 
 export function formatDate(dateString: string): string {
@@ -16,6 +17,22 @@ export function formatDate(dateString: string): string {
     month: 'short',
     year: 'numeric',
   })
+}
+
+/**
+ * Get question format badge label
+ */
+export function getFormatLabel(format?: string): string {
+  if (format === 'emi') return 'EMI'
+  return 'SBA'
+}
+
+/**
+ * Calculate total marks for a question (SBA = 1, EMI = sum of item marks)
+ */
+export function getQuestionTotalMarks(items?: { marks?: number }[] | null): number {
+  if (!items || items.length === 0) return 1
+  return items.reduce((sum, item) => sum + (item.marks || 1), 0)
 }
 
 export function getDomainColor(domain: string): string {
