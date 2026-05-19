@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
-import AppLayout from '@/components/AppLayout'
+import AdminLayout from '@/components/AdminLayout'
 import { DOMAINS_PAPER_A, DOMAINS_PAPER_B } from '@/types'
 
 export default function NewQuestionPage() {
@@ -40,7 +40,7 @@ export default function NewQuestionPage() {
   const ic = 'input'
 
   return (
-    <AppLayout title="Add Question" subtitle="Create a new question">
+    <AdminLayout title="Add Question" subtitle="Create a new question">
       <div style={{ maxWidth: 720 }}>
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           <div>
@@ -122,6 +122,6 @@ export default function NewQuestionPage() {
           </div>
         </form>
       </div>
-    </AppLayout>
+    </AdminLayout>
   )
 }

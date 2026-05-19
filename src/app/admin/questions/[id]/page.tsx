@@ -3,7 +3,7 @@
 import { useEffect, useState, use } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
-import AppLayout from '@/components/AppLayout'
+import AdminLayout from '@/components/AdminLayout'
 import { DOMAINS_PAPER_A, DOMAINS_PAPER_B } from '@/types'
 import type { Question } from '@/types'
 
@@ -67,12 +67,12 @@ export default function EditQuestionPage({ params }: { params: Promise<{ id: str
     router.push('/admin/questions'); router.refresh()
   }
 
-  if (loading) return <AppLayout title="Edit Question"><div className="skeleton" style={{ height: 400, borderRadius: 12 }} /></AppLayout>
+  if (loading) return <AdminLayout title="Edit Question"><div className="skeleton" style={{ height: 400, borderRadius: 12 }} /></AdminLayout>
 
   const ic = 'input'
 
   return (
-    <AppLayout title="Edit Question" subtitle="Update question details">
+    <AdminLayout title="Edit Question" subtitle="Update question details">
       <div style={{ maxWidth: 720 }}>
         <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
           <button onClick={toggleActive} className={`btn btn-sm ${form.is_active ? 'btn-secondary' : 'btn-primary'}`}>
@@ -161,6 +161,6 @@ export default function EditQuestionPage({ params }: { params: Promise<{ id: str
           </div>
         </form>
       </div>
-    </AppLayout>
+    </AdminLayout>
   )
 }

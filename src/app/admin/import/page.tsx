@@ -3,7 +3,7 @@
 import { useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
-import AppLayout from '@/components/AppLayout'
+import AdminLayout from '@/components/AdminLayout'
 
 export default function ImportPage() {
   const router = useRouter()
@@ -62,7 +62,7 @@ export default function ImportPage() {
   }
 
   return (
-    <AppLayout title="Import" subtitle="Bulk upload questions">
+    <AdminLayout title="Import" subtitle="Bulk upload questions">
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 16 }}>
         {/* File upload */}
         <div className="card">
@@ -130,7 +130,7 @@ export default function ImportPage() {
           )}
         </div>
       )}
-    </AppLayout>
+    </AdminLayout>
   )
 }
 
