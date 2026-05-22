@@ -77,9 +77,49 @@ export default function LandingPage() {
 
         {/* Hero */}
         <section style={{
-          textAlign: 'center', padding: '80px 24px 60px',
+          textAlign: 'center', padding: '80px 24px 40px',
           maxWidth: 800, margin: '0 auto',
         }} className="animate-slide-up">
+          {/* Trust badges row */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, marginBottom: 20, flexWrap: 'wrap' }}>
+            <div style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              background: 'rgba(52, 211, 153, 0.08)', border: '1px solid rgba(52, 211, 153, 0.15)',
+              borderRadius: 20, padding: '5px 14px',
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: 'var(--success)', letterSpacing: '0.02em' }}>
+                2,300+ Questions
+              </span>
+            </div>
+            <div style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              background: 'rgba(20, 184, 166, 0.06)', border: '1px solid rgba(20, 184, 166, 0.12)',
+              borderRadius: 20, padding: '5px 14px',
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
+              </svg>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 600, color: 'var(--accent-teal)', letterSpacing: '0.02em' }}>
+                Written by NHS Consultant
+              </span>
+            </div>
+            <div style={{
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+              background: 'rgba(251, 191, 36, 0.06)', border: '1px solid rgba(251, 191, 36, 0.12)',
+              borderRadius: 20, padding: '5px 14px',
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--warning)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 600, color: 'var(--warning)', letterSpacing: '0.02em' }}>
+                Next Paper A: {(() => { const d = new Date('2026-07-07'); const now = new Date(); const diff = Math.ceil((d.getTime() - now.getTime()) / (1000*60*60*24)); return diff > 0 ? `${diff} days` : 'Tomorrow'; })()}
+              </span>
+            </div>
+          </div>
+
           <div style={{
             display: 'inline-flex', alignItems: 'center', gap: 8,
             background: 'var(--accent-teal-subtle)', border: '1px solid rgba(20, 184, 166, 0.15)',
@@ -115,6 +155,12 @@ export default function LandingPage() {
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
               </svg>
+            </a>
+            <a href="/try" className="btn btn-ghost" style={{ fontSize: 15, padding: '14px 32px' }}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10" /><polyline points="12 16 16 12 12 8" /><line x1="8" y1="12" x2="16" y2="12" />
+              </svg>
+              Try 5 Free Questions
             </a>
             <a href="#papers" className="btn btn-ghost" style={{ fontSize: 15, padding: '14px 32px' }}>
               Explore Papers
@@ -348,6 +394,32 @@ export default function LandingPage() {
             <a href="/signup" className="btn btn-primary btn-lg" style={{ fontSize: 15, padding: '14px 40px' }}>
               Get Both Papers
             </a>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 20, marginTop: 20, flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0110 0v4" />
+                </svg>
+                <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
+                  30-day money-back guarantee
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
+                  Secure Stripe checkout
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--text-tertiary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                </svg>
+                <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
+                  Instant access after purchase
+                </span>
+              </div>
+            </div>
           </div>
         </section>
 
