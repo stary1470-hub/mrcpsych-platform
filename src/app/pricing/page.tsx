@@ -1,7 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { createClient } from '@/lib/supabase/client'
 import { DOMAINS_PAPER_A_INFO, DOMAINS_PAPER_B_INFO } from '@/types'
+import { createCheckoutSession } from '@/lib/stripe-client'
 
 const PLANS = [
   {
@@ -33,7 +35,7 @@ const PLANS = [
     colorBorder: 'rgba(236, 72, 153, 0.15)',
     gradient: 'linear-gradient(135deg, #ec4899, #d946ef)',
     monthly: 29,
-    cycle: 99,
+    cycle: 79,
     domains: DOMAINS_PAPER_B_INFO,
     features: [
       'Full Paper B question bank (150 Q style)',
@@ -53,8 +55,8 @@ const PLANS = [
     colorSubtle: 'rgba(52, 211, 153, 0.1)',
     colorBorder: 'rgba(52, 211, 153, 0.15)',
     gradient: 'linear-gradient(90deg, var(--accent-teal), #ec4899)',
-    monthly: 39,
-    cycle: 149,
+    monthly: 49,
+    cycle: 119,
     domains: [...DOMAINS_PAPER_A_INFO, ...DOMAINS_PAPER_B_INFO],
     features: [
       'Everything in Paper A + Paper B',
@@ -64,12 +66,44 @@ const PLANS = [
       'Mock exam simulations',
       'Personalised remediation plan',
     ],
-    savings: 79 + 99 - 149,
+    savings: (79 * 2) - 119, // £39 saved vs buying separate cycles
   },
 ]
 
 export default function PricingPage() {
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'cycle'>('cycle')
+  const [loading, setLoading] = useState<string | null>(null)
+  const [user, setUser] = useState<any>(null)
+  const supabase = createClient()
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data: { user } }) => setUser(user))
+  }, [])
+
+  const handleSubscribe = async (planId: string) => {
+    if (!user) {
+      window.location.href = '/signup'
+      return
+    }
+
+    // Map plan.id to stripe plan name
+    const planMap: Record<string, string> = {
+      'paper-a': 'paper_a',
+      'paper-b': 'paper_b',
+      'bundle': 'bundle',
+    }
+    const stripePlan = planMap[planId]
+    if (!stripePlan) return
+
+    setLoading(planId)
+    try {
+      await createCheckoutSession(stripePlan, billingCycle)
+    } catch (e: any) {
+      alert(e.message || 'Something went wrong')
+    } finally {
+      setLoading(null)
+    }
+  }
 
   return (
     <div style={{ minHeight: '100vh', position: 'relative', overflow: 'hidden' }}>
@@ -231,13 +265,20 @@ export default function PricingPage() {
                 </div>
               </div>
 
-              <a href="/signup" className="btn btn-primary" style={{
-                width: '100%', fontSize: 14, padding: '12px 24px',
-                background: plan.color,
-                boxShadow: `0 2px 8px ${plan.colorSubtle}`,
-              }}>
-                Get {plan.name}
-              </a>
+              <button
+                onClick={() => handleSubscribe(plan.id)}
+                disabled={loading === plan.id}
+                className="btn btn-primary"
+                style={{
+                  width: '100%', fontSize: 14, padding: '12px 24px',
+                  background: loading === plan.id ? 'var(--text-tertiary)' : plan.color,
+                  boxShadow: `0 2px 8px ${plan.colorSubtle}`,
+                  border: 'none', cursor: loading === plan.id ? 'not-allowed' : 'pointer',
+                  opacity: loading === plan.id ? 0.6 : 1,
+                }}
+              >
+                {loading === plan.id ? 'Redirecting…' : `Get ${plan.name}`}
+              </button>
             </div>
           ))}
         </div>
@@ -250,6 +291,7 @@ export default function PricingPage() {
           {[
             { q: 'Can I switch papers after purchase?', a: 'Yes. Contact support and we\'ll transfer your subscription to the other paper at no extra cost within the first 14 days.' },
             { q: 'What happens when my cycle ends?', a: 'You can renew for another cycle, switch to monthly billing, or upgrade to the bundle. Your progress and analytics are saved permanently.' },
+            { q: 'What does the bundle save me?', a: 'The bundle at £119/cycle saves £39 vs buying Paper A + Paper B separately. Monthly at £49 saves £9 vs separate subscriptions.' },
             { q: 'Is there a free trial?', a: 'Yes — sign up and access 20 free questions in each paper to experience the adaptive engine before committing.' },
             { q: 'How often is content updated?', a: 'Questions are reviewed and updated continuously. New questions are added weekly, aligned to the latest Royal College curriculum and NICE guidelines.' },
           ].map(({ q, a }) => (

@@ -801,21 +801,16 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
           )}
         </div>
 
-        {/* Question card */}
+        {/* Question card — shown once for all formats */}
         <div className="card animate-fade-in" style={{ padding: '28px 28px 24px', marginBottom: 16 }}>
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, lineHeight: 1.7, fontWeight: 400, color: 'var(--text-primary)' }}>
             {question.stem}
           </h2>
         </div>
 
-        {/* Options or EMI component */}
+        {/* EMI component */}
         {question.format === 'emi' ? (
           <div style={{ marginBottom: 16 }}>
-            <div className="card animate-fade-in" style={{ padding: '28px 28px 24px', marginBottom: 16 }}>
-              <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 18, lineHeight: 1.7, fontWeight: 400, color: 'var(--text-primary)' }}>
-                {question.stem}
-              </h2>
-            </div>
             <EMIQuestion
               question={{ ...question, items: emiItems || [] }}
               isExamMode={isExamMode}

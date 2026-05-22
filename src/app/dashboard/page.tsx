@@ -21,11 +21,26 @@ export default function DashboardPage() {
   const [totalQuestionsB, setTotalQuestionsB] = useState(0)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState<'all' | PaperType>('all')
+  const [subscription, setSubscription] = useState<any>(null)
+  const [subLoading, setSubLoading] = useState(true)
 
   useEffect(() => {
     const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
-      if (!user) return
+      if (!user) {
+        setLoading(false)
+        return
+      }
+
+      // Check subscription
+      try {
+        const res = await fetch('/api/stripe/status')
+        const data = await res.json()
+        setSubscription(data)
+      } catch {
+        setSubscription(null)
+      }
+      setSubLoading(false)
 
       const [qA, qB, ds] = await Promise.all([
         supabase.from('questions').select('id', { count: 'exact', head: true }).eq('is_active', true).eq('paper', 'A'),
@@ -64,6 +79,34 @@ export default function DashboardPage() {
 
   return (
     <AppLayout title="Dashboard" subtitle="Your performance overview">
+      {/* Subscription banner */}
+      {!subLoading && subscription && !subscription.hasAccess && (
+        <div style={{
+          background: 'linear-gradient(135deg, rgba(236, 72, 153, 0.08), rgba(20, 184, 166, 0.06))',
+          border: '1px solid rgba(236, 72, 153, 0.15)',
+          borderRadius: 'var(--radius-lg)',
+          padding: '20px 24px',
+          marginBottom: 24,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 16,
+        }}>
+          <div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 15, fontWeight: 600, color: 'var(--text-primary)', marginBottom: 4 }}>
+              Subscribe to unlock full access
+            </div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-tertiary)' }}>
+              Get unlimited questions, adaptive learning, and performance analytics.
+            </div>
+          </div>
+          <a href="/pricing" className="btn btn-primary" style={{
+            background: '#ec4899', fontSize: 13, padding: '10px 20px', whiteSpace: 'nowrap',
+          }}>
+            View Plans
+          </a>
+        </div>
+      )}
       {/* Paper tabs */}
       <div style={{
         display: 'flex', gap: 4, marginBottom: 24,
