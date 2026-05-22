@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
 
   switch (event.type) {
     case 'checkout.session.completed': {
-      const session = event.data.object
+      const session: any = event.data.object
       const userId = session.metadata?.user_id
       const plan = session.metadata?.plan
       const billingPeriod = session.metadata?.billing_period
@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
       if (!subscriptionId) break
 
       // Get subscription details from Stripe
-      const subscription = await stripe.subscriptions.retrieve(subscriptionId)
+      const subscription: any = await stripe.subscriptions.retrieve(subscriptionId)
 
       // Upsert subscription record
       await supabase.from('subscriptions').upsert({
@@ -64,11 +64,11 @@ export async function POST(request: NextRequest) {
     }
 
     case 'invoice.payment_succeeded': {
-      const invoice = event.data.object
+      const invoice: any = event.data.object
       const subscriptionId = invoice.subscription as string
       if (!subscriptionId) break
 
-      const subscription = await stripe.subscriptions.retrieve(subscriptionId)
+      const subscription: any = await stripe.subscriptions.retrieve(subscriptionId)
       
       await supabase.from('subscriptions').update({
         status: subscription.status,
@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
 
     case 'customer.subscription.updated':
     case 'customer.subscription.deleted': {
-      const subscription = event.data.object
+      const subscription: any = event.data.object
       
       await supabase.from('subscriptions').update({
         status: subscription.status,
