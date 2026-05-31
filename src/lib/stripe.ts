@@ -1,15 +1,5 @@
 import Stripe from 'stripe'
 
-const key = process.env.STRIPE_SECRET_KEY
-if (!key) {
-  throw new Error('STRIPE_SECRET_KEY environment variable is required')
-}
-
-export const stripe = new Stripe(key, {
-  apiVersion: '2026-04-22.dahlia' as any,
-  typescript: true,
-})
-
 // Price IDs — set these after creating products in Stripe Dashboard
 // Prices:
 //   Paper A:   £29/month   or £79/cycle
@@ -33,4 +23,21 @@ export function getPlanConfig(plan: PlanId) {
   const label = plan.startsWith('bundle') ? 'Both Papers' : `Paper ${parts[0].replace('paper_', '').toUpperCase()}`
   const periodLabel = period === 'cycle' ? 'Exam Cycle (3 months)' : 'Monthly'
   return { product: parts[0], period, label, periodLabel }
+}
+
+// Lazy Stripe initialization - only instantiate when needed at runtime
+let _stripe: Stripe | null = null
+
+export function getStripe(): Stripe {
+  if (!_stripe) {
+    const key = process.env.STRIPE_SECRET_KEY
+    if (!key) {
+      throw new Error('STRIPE_SECRET_KEY environment variable is required')
+    }
+    _stripe = new Stripe(key, {
+      apiVersion: '2026-04-22.dahlia' as any,
+      typescript: true,
+    })
+  }
+  return _stripe
 }
