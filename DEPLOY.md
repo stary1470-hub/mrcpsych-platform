@@ -125,7 +125,102 @@ public/
 
 1. **Content pipeline**: Build the Generator → Reviewer → Validator LLM agent workflow
 2. **Adaptive engine**: Replace the simple sequential quiz with Bayesian proficiency estimation
-3. **Payments**: Add Stripe for subscription plans
-4. **Email**: Set up Resend for transactional emails
-5. **Paper B**: Expand question domains
-6. **CASC**: Text-based branching scenarios
+3. **Email**: Set up Resend for transactional emails
+4. **Paper B**: Expand question domains
+5. **CASC**: Text-based branching scenarios
+
+---
+
+# APPENDIX: Stripe Payments Go-Live
+
+## Step 1 — Create Stripe Account & Products
+
+1. Sign up at [stripe.com](https://stripe.com) (or log in)
+2. Enable **Stripe in "live mode"** (top-left toggle in Dashboard)
+3. Run the setup script to create all 6 products and prices:
+
+```bash
+# Install Stripe CLI (one-time)
+npm install -g stripe
+
+# Set your live secret key
+export STRIPE_SECRET_KEY=sk_live_...
+
+# Create products and prices
+node scripts/setup-stripe-products.js
+```
+
+The script will output 6 price IDs like `STRIPE_PRICE_PAPER_A_MONTHLY=price_xxx`.
+
+Alternatively, create them manually in the Stripe Dashboard:
+- Products → Add Product (×3: Paper A, Paper B, Both Papers Bundle)
+- For each product, add two prices: Monthly (£29/£29/£49) and Cycle (£79/£79/£119)
+
+## Step 2 — Set Vercel Environment Variables
+
+Go to **Vercel Dashboard → Project → Settings → Environment Variables** and add:
+
+| Variable | Source |
+|----------|--------|
+| `STRIPE_SECRET_KEY` | Stripe Dashboard → Developers → API keys (live) |
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe Dashboard → Developers → API keys (live publishable) |
+| `STRIPE_PRICE_PAPER_A_MONTHLY` | Output from setup script |
+| `STRIPE_PRICE_PAPER_A_CYCLE` | Output from setup script |
+| `STRIPE_PRICE_PAPER_B_MONTHLY` | Output from setup script |
+| `STRIPE_PRICE_PAPER_B_CYCLE` | Output from setup script |
+| `STRIPE_PRICE_BUNDLE_MONTHLY` | Output from setup script |
+| `STRIPE_PRICE_BUNDLE_CYCLE` | Output from setup script |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase Dashboard → Settings → API → `service_role` key |
+
+## Step 3 — Apply Supabase Migration
+
+Run in **Supabase Dashboard → SQL Editor**:
+
+```sql
+-- Full contents of supabase/migrations/002_subscriptions.sql
+```
+
+This creates the `subscriptions` table with RLS policies and helper functions.
+
+## Step 4 — Register Webhook in Stripe
+
+1. Stripe Dashboard → **Developers → Webhooks → Add endpoint**
+2. Endpoint URL: `https://psychstar.io/api/stripe/webhook`
+3. Listen to events:
+   - `checkout.session.completed`
+   - `invoice.payment_succeeded`
+   - `customer.subscription.updated`
+   - `customer.subscription.deleted`
+4. Click **Add endpoint**
+5. Reveal and copy the **Signing secret** (`whsec_...`)
+6. Add it to Vercel env vars as `STRIPE_WEBHOOK_SECRET`
+
+## Step 5 — Test the Flow
+
+1. Visit `https://psychstar.io/pricing`
+2. Click "Get Both Papers" → should redirect to Stripe Checkout
+3. Use Stripe test card `4242 4242 4242 4242` with any future date and CVC
+4. After payment → redirected to `/dashboard` with subscription active
+5. Verify webhook by checking Stripe Dashboard → Developers → Webhooks → Recent events
+
+## Architecture Overview
+
+```
+User clicks "Subscribe"
+        │
+        ▼
+Pricing page → POST /api/stripe/checkout
+        │
+        ▼
+Stripe Checkout (hosted page)
+        │
+        ├── Success → Redirect to /dashboard?session_id=...
+        │               Dashboard calls /api/stripe/status → shows plan info
+        │
+        └── Webhook → /api/stripe/webhook (server-side, no user involved)
+                        │
+                        ├── checkout.session.completed → upsert subscription row
+                        ├── invoice.payment_succeeded → update period dates
+                        ├── customer.subscription.updated → sync status changes
+                        └── customer.subscription.deleted → mark canceled
+```
