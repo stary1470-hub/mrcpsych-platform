@@ -512,7 +512,7 @@ export default function TryPage() {
               You got {results.correct}/{DEMO_QUESTIONS.length} correct
             </h2>
             <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 24, maxWidth: 400, margin: '0 auto 24px' }}>
-              The full PsychStar platform includes 2,300+ questions with adaptive engine, blind-spot mapping, and teaching cascades for every wrong answer.
+              The full PsychStar platform includes 4,600+ questions across both papers with adaptive engine, blind-spot mapping, and teaching cascades for every wrong answer.
             </p>
             <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
               <a href="/signup" className="btn btn-primary btn-lg" style={{ fontSize: 15, padding: '14px 32px' }}>

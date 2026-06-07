@@ -91,7 +91,7 @@ export default function LandingPage() {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700, color: 'var(--success)', letterSpacing: '0.02em' }}>
-                2,300+ Questions
+                4,600+ Questions
               </span>
             </div>
             <div style={{

@@ -1,0 +1,43 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "we_1TdQEDGdOMZZwTUmXqfXbPYU",
+      "object": "webhook_endpoint",
+      "api_version": null,
+      "application": null,
+      "created": 1780298741,
+      "description": "PsychStar payment webhook",
+      "enabled_events": [
+        "checkout.session.completed",
+        "invoice.payment_succeeded",
+        "customer.subscription.updated",
+        "customer.subscription.deleted"
+      ],
+      "livemode": true,
+      "metadata": {},
+      "status": "enabled",
+      "url": "https://psychstar.io/api/stripe/webhook"
+    },
+    {
+      "id": "we_1TdQE6GdOMZZwTUmb8yTglw0",
+      "object": "webhook_endpoint",
+      "api_version": null,
+      "application": null,
+      "created": 1780298734,
+      "description": "PsychStar payment webhook",
+      "enabled_events": [
+        "checkout.session.completed",
+        "invoice.payment_succeeded",
+        "customer.subscription.updated",
+        "customer.subscription.deleted"
+      ],
+      "livemode": true,
+      "metadata": {},
+      "status": "enabled",
+      "url": "https://psychstar.io/api/stripe/webhook"
+    }
+  ],
+  "has_more": false,
+  "url": "/v1/webhook_endpoints"
+}
