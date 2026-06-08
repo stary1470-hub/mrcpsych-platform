@@ -63,7 +63,7 @@ export default function LandingPage() {
         {/* Nav bar */}
         <nav style={{
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-          padding: '20px 40px', maxWidth: 1200, margin: '0 auto',
+          padding: '20px 24px', maxWidth: 1200, margin: '0 auto',
         }}>
           <div style={{ fontFamily: 'var(--font-serif)', fontSize: 28, letterSpacing: '-0.02em' }}>
             <span style={{ color: 'var(--accent-teal)' }}>Psych</span>

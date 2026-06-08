@@ -240,7 +240,7 @@ export default function TryPage() {
         {/* Question card */}
         <div style={{
           background: 'var(--surface-card)', border: '1px solid var(--border-subtle)',
-          borderRadius: 'var(--radius-xl)', padding: 32, position: 'relative', overflow: 'hidden',
+          borderRadius: 'var(--radius-xl)', padding: 'clamp(20px, 4vw, 32px)', position: 'relative', overflow: 'hidden',
         }}>
           {/* Accent bar */}
           <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'var(--gradient-teal)' }} />
@@ -287,7 +287,7 @@ export default function TryPage() {
 
           {/* Stem */}
           <h3 style={{
-            fontFamily: 'var(--font-sans)', fontSize: 16, fontWeight: 500,
+            fontFamily: 'var(--font-sans)', fontSize: 'clamp(15px, 4vw, 16px)', fontWeight: 500,
             color: 'var(--text-primary)', lineHeight: 1.7, marginBottom: 28,
           }}>
             {q.stem}
@@ -323,12 +323,12 @@ export default function TryPage() {
                   key={i}
                   onClick={() => handleSelect(i)}
                   style={{
-                    display: 'flex', alignItems: 'center', gap: 16, width: '100%',
-                    padding: '14px 18px', borderRadius: 'var(--radius-md)',
+                    display: 'flex', alignItems: 'center', gap: 12, width: '100%',
+                    padding: '12px 14px', borderRadius: 'var(--radius-md)',
                     background: bg, border: `1px solid ${border}`,
                     cursor: revealed ? 'default' : 'pointer',
                     transition: 'all 0.15s ease', textAlign: 'left',
-                    fontFamily: 'var(--font-sans)', fontSize: 14, color: textColor,
+                    fontFamily: 'var(--font-sans)', fontSize: 'clamp(13px, 3.6vw, 14px)', color: textColor,
                     opacity: revealed && !isRevealedCorrect && !isRevealedWrong ? 0.5 : 1,
                   }}
                   onMouseEnter={e => {
@@ -345,9 +345,9 @@ export default function TryPage() {
                   }}
                 >
                   <div style={{
-                    width: 26, height: 26, borderRadius: '50%',
+                    width: 22, height: 22, borderRadius: '50%',
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontFamily: 'var(--font-sans)', fontSize: 12, fontWeight: 700,
+                    fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700,
                     flexShrink: 0,
                     background: isRevealedCorrect ? 'rgba(52, 211, 153, 0.15)' :
                                 isRevealedWrong ? 'rgba(248, 113, 113, 0.15)' :
