@@ -34,6 +34,16 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Google Ads conversion tracking */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18223404324" />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18223404324');
+          `
+        }} />
       </head>
       <body>{children}</body>
     </html>
