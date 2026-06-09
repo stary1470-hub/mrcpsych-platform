@@ -70,6 +70,7 @@ export default function LandingPage() {
             <span style={{ color: 'var(--text-primary)', opacity: 0.4 }}>Star</span>
           </div>
           <div style={{ display: 'flex', gap: 12 }}>
+            <a href="/blog" className="btn btn-ghost" style={{ fontSize: 13 }}>Blog</a>
             <a href="#pricing" className="btn btn-ghost" style={{ fontSize: 13 }}>Pricing</a>
             <a href="/signup" className="btn btn-primary" style={{ fontSize: 13 }}>Get Started</a>
           </div>
@@ -470,7 +471,12 @@ export default function LandingPage() {
             <span style={{ color: 'var(--accent-teal)' }}>Psych</span>
             <span style={{ color: 'var(--text-primary)', opacity: 0.4 }}>Star</span>
           </div>
-          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 20, marginBottom: 12 }}>
+            <a href="/blog" style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none' }}>Blog</a>
+            <a href="/pricing" style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none' }}>Pricing</a>
+            <a href="/try" style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none' }}>Try Free</a>
+          </div>
+          <p style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', margin: 0 }}>
             © {new Date().getFullYear()} PsychStar. Adaptive MRCPsych exam preparation.
           </p>
         </footer>

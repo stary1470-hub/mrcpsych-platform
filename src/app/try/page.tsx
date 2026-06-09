@@ -531,6 +531,11 @@ export default function TryPage() {
             <span style={{ color: 'var(--accent-teal)' }}>Psych</span>
             <span style={{ color: 'var(--text-primary)', opacity: 0.4 }}>Star</span>
           </a>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginTop: 8 }}>
+            <a href="/blog" style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none' }}>Blog</a>
+            <a href="/pricing" style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none' }}>Pricing</a>
+            <a href="/try" style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none' }}>Try Free</a>
+          </div>
           <p style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)', marginTop: 8 }}>
             © {new Date().getFullYear()} PsychStar. Adaptive MRCPsych exam preparation.
           </p>
