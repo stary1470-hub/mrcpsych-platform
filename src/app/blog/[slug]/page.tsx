@@ -1,18 +1,18 @@
 import { notFound } from 'next/navigation'
 import { articles } from '../articles'
 import ArticleClient from './ArticleClient'
-import type { Metadata } from 'next'
-
-interface Props {
-  params: { slug: string }
-}
+import type { Metadata, ResolvingMetadata } from 'next'
 
 export function generateStaticParams() {
   return articles.map(a => ({ slug: a.slug }))
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const article = articles.find(a => a.slug === params.slug)
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> },
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { slug } = await params
+  const article = articles.find(a => a.slug === slug)
   if (!article) return {}
   return {
     title: article.metaTitle,
@@ -20,7 +20,7 @@ export function generateMetadata({ params }: Props): Metadata {
     openGraph: {
       title: article.metaTitle,
       description: article.metaDescription,
-      type: 'article',
+      type: 'article' as const,
       publishedTime: article.date,
       authors: ['PsychStar'],
     },
@@ -35,8 +35,13 @@ export function generateMetadata({ params }: Props): Metadata {
   }
 }
 
-export default function ArticlePage({ params }: Props) {
-  const article = articles.find(a => a.slug === params.slug)
+export default async function ArticlePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  const article = articles.find(a => a.slug === slug)
   if (!article) notFound()
 
   return <ArticleClient article={article} />
