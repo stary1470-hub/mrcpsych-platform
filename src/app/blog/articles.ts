@@ -995,4 +995,481 @@ export const articles: Article[] = [
       <p>PsychStar\u2019s adaptive engine is designed to identify and close those gaps. You can try it for free at <a href="/try">psychstar.io/try</a> and see your own blind-spot map form in real time.</p>
     `
   },
+  {
+    slug: 'how-to-prepare-for-mrcpsych-casc',
+    title: 'How to Prepare for MRCPsych CASC: A Structured Approach',
+    metaTitle: 'MRCPsych CASC Preparation Guide | Stations, Marking & Strategy',
+    metaDescription: 'Practical guide to passing MRCPsych CASC. Station types, marking criteria, common pitfalls, and a 12-week preparation plan from an NHS consultant.',
+    date: '2026-06-12',
+    readTime: '14 min read',
+    category: 'CASC',
+    tags: ['CASC', 'MRCPsych', 'clinical exam', 'stations', 'communication skills'],
+    featured: false,
+    content: `
+      <p>The Clinical Assessment of Skills and Competencies (CASC) is the final hurdle in the MRCPsych examination. Unlike Paper A and Paper B, which test knowledge and reasoning, CASC tests whether you can perform as a psychiatrist in real clinical scenarios. It is an OSCE-style examination with 16 stations, each lasting 10 minutes.</p>
+
+      <p>CASC has the lowest pass rate of the three components. First-attempt pass rates are approximately 60\u201365%, and many candidates who passed Papers A and B on their first attempt find themselves retaking CASC. The reason is simple: CASC tests skills that cannot be learned from a question bank. They must be practised.</p>
+
+      <h2>CASC Station Types</h2>
+
+      <p>The 16 stations fall into four categories:</p>
+
+      <ul>
+        <li><strong>History taking (4\u20135 stations):</strong> Psychiatric history, risk assessment, collateral history, developmental history, mental state examination. The examiner is looking for structure, rapport, and elicitation of key clinical features.</li>
+        <li><strong>Management (4\u20135 stations):</strong> Acute management (agitation, overdose, catatonia), medication initiation/monitoring, electroconvulsive therapy (ECT) consent, capacity assessment. These require you to think on your feet and demonstrate clinical reasoning aloud.</li>
+        <li><strong>Communication (4\u20135 stations):</strong> Breaking bad news, dealing with relatives, explaining a diagnosis, negotiating treatment with a reluctant patient, handling a complaint. These are the stations that separate passing from distinction.</li>
+        <li><strong>Consultation (2\u20133 stations):</strong> Liaison psychiatry referrals, GP referrals, multidisciplinary team consultations. These test your ability to formulate and communicate a management plan concisely.</li>
+      </ul>
+
+      <h2>Marking Criteria</h2>
+
+      <p>Each station is marked by a single examiner using a global rating scale. The domains assessed are:</p>
+
+      <ul>
+        <li><strong>Interpersonal skills (30%):</strong> Rapport, empathy, listening, non-verbal communication. The examiner assesses whether the patient (actor) would trust you.</li>
+        <li><strong>Information gathering (25%):</strong> Structure, coverage of relevant domains, appropriate use of open and closed questions. Failure to ask about suicide risk is an automatic fail in any history station.</li>
+        <li><strong>Information giving (25%):</strong> Clarity, appropriate language level, checking understanding. You must avoid jargon unless you explain it.</li>
+        <li><strong>Management (20%):</strong> Appropriate plan, safety netting, justification of decisions. The plan must be specific, not generic.</li>
+      </ul>
+
+      <p>Candidates must pass a minimum number of stations (typically 10\u201312 out of 16) and cannot fail both communication stations. A single catastrophic failure (e.g., missing suicide risk, being rude to a patient) can result in an overall fail regardless of other station scores.</p>
+
+      <h2>12-Week CASC Preparation Plan</h2>
+
+      <h3>Weeks 1\u20134: Concept Familiarisation</h3>
+      <ul>
+        <li>Learn the station format and marking criteria thoroughly. Knowing what the examiner wants is half the preparation.</li>
+        <li>For each station type, write a structured template. For history stations: introduction \u2192 open question \u2192 history of presenting complaint \u2192 past psychiatric history \u2192 medication \u2192 social \u2192 forensic \u2192 risk \u2192 ICE (ideas, concerns, expectations) \u2192 summary \u2192 plan.</li>
+        <li>Watch example CASC performances (available from the Royal College website and training schemes). Identify what the passing candidates do differently from the failing ones.</li>
+      </ul>
+
+      <h3>Weeks 5\u20138: Paired Practice</h3>
+      <ul>
+        <li>Find a CASC partner. This is essential. You cannot prepare for CASC alone because the interactive element is the core skill being tested.</li>
+        <li>Practise 2\u20133 stations per session, 3 sessions per week. One partner plays the patient, the other the candidate. The third person (if available) times and observes.</li>
+        <li>Record your sessions on your phone. Watch them back. You will notice things you miss in the moment \u2014 rushing, interrupting, using jargon, poor eye contact.</li>
+      </ul>
+
+      <h3>Weeks 9\u201312: High-Fidelity Simulation</h3>
+      <ul>
+        <li>Full mock CASC circuits (8\u201316 stations in one sitting). Your local training scheme usually runs these. Attend every one available.</li>
+        <li>Focus on your weak station types. Most candidates struggle with communication stations because they prepare for clinical knowledge stations only.</li>
+        <li>Practise the first 30 seconds of every station type. The first impression often determines the overall score. A confident, structured opening sets the tone.</li>
+      </ul>
+
+      <h2>Common Pitfalls</h2>
+
+      <ul>
+        <li><strong>Talking at the patient rather than with them.</strong> CASC is not a viva. You must demonstrate two-way communication. Pause, listen, respond.</li>
+        <li><strong>Information dumps.</strong> When asked for a management plan, candidates often list every option they can think of. A focused, justified plan is better than a comprehensive but unfocused one.</li>
+        <li><strong>Ignoring the actor\u2019s cues.</strong> The patient actor is trained to give specific cues. If they say \u201cI\u2019m worried about the side effects,\u201d address that concern directly. Candidates who ignore cues and continue with their pre-planned script score poorly.</li>
+        <li><strong>Running out of time.</strong> Ten minutes passes quickly. Practise with a timer. If you spend 4 minutes on history, you have 6 minutes for the rest. Allocate your time consciously.</li>
+      </ul>
+
+      <h2>CASC for Text-Based Practice</h2>
+
+      <p>PsychStar is developing a CASC preparation module with text-based simulated patient interactions. Each scenario presents a clinical situation, you choose your response, and the platform shows the consequences of your choice with examiner-style feedback. This allows you to practise clinical reasoning and communication strategy outside of paired role-play sessions. Try 5 free questions at <a href=\"/try\">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'critical-review-mrcpsych-paper-b',
+    title: 'Critical Review for MRCPsych Paper B: Statistics, Study Design, and Appraisal',
+    metaTitle: 'Critical Review for MRCPsych Paper B | Statistics Guide',
+    metaDescription: 'Complete guide to critical review for MRCPsych Paper B. Statistical tests, study designs, bias, critical appraisal frameworks, and worked examples.',
+    date: '2026-06-12',
+    readTime: '15 min read',
+    category: 'Paper B',
+    tags: ['critical review', 'statistics', 'study design', 'Paper B', 'critical appraisal'],
+    featured: false,
+    content: `
+      <p>Critical review accounts for 50 of the 150 marks in Paper B. It is the single largest section in the paper, yet it is the one candidates are least prepared for. Unlike clinical psychiatry, which you practise daily, critical appraisal is a discrete skill set that requires deliberate study.</p>
+
+      <p>This guide covers the statistical knowledge, study design concepts, and appraisal frameworks you need, structured by how frequently each topic appears in the examination.</p>
+
+      <h2>Statistical Tests: When to Use Which</h2>
+
+      <p>The exam expects you to know which statistical test is appropriate for a given study design and data type. You are not expected to perform calculations (except for sensitivity, specificity, NNT) but you must interpret the output.</p>
+
+      <table>
+        <tr><th>Data type</th><th>Two groups (unpaired)</th><th>Two groups (paired)</th><th>Three+ groups</th><th>Association between variables</th></tr>
+        <tr><td>Continuous (normally distributed)</td><td>Independent t-test</td><td>Paired t-test</td><td>ANOVA</td><td>Pearson correlation</td></tr>
+        <tr><td>Continuous (skewed)</td><td>Mann-Whitney U</td><td>Wilcoxon signed-rank</td><td>Kruskal-Wallis</td><td>Spearman correlation</td></tr>
+        <tr><td>Categorical</td><td>Chi-square</td><td>McNemar</td><td>Chi-square</td><td>Chi-square / Fisher exact</td></tr>
+        <tr><td>Survival data</td><td colspan="4" style="text-align:center">Kaplan-Meier curves + log-rank test</td></tr>
+      </table>
+
+      <p>The most commonly examined distinction is between parametric tests (t-test, ANOVA, Pearson) and non-parametric tests (Mann-Whitney, Kruskal-Wallis, Spearman). The key question is: is the data normally distributed? If yes, use parametric. If no, use non-parametric.</p>
+
+      <h2>Measures of Effect</h2>
+
+      <p>These are the calculations most likely to appear. Practise them until they become automatic.</p>
+
+      <h3>Number Needed to Treat (NNT)</h3>
+      <p>NNT = 1 / Absolute Risk Reduction (ARR). ARR = Control Event Rate (CER) \u2013 Experimental Event Rate (EER).</p>
+      <p><strong>Example:</strong> In a trial, 25% of patients on placebo relapsed vs 10% on the drug. CER = 0.25, EER = 0.10. ARR = 0.15. NNT = 1 / 0.15 = 6.7. Round up to 7. You need to treat 7 patients to prevent one relapse.</p>
+
+      <h3>Number Needed to Harm (NNH)</h3>
+      <p>NNH = 1 / Attributable Risk (AR). AR = EER (adverse) \u2013 CER (adverse).</p>
+      <p><strong>Example:</strong> 5% on placebo had sedation vs 20% on the drug. AR = 0.15. NNH = 6.7. For every 7 patients treated, 1 will experience sedation.</p>
+
+      <h3>Risk Ratio (Relative Risk)</h3>
+      <p>RR = EER / CER. RR of 1 means no effect. RR < 1 means the treatment reduces risk. RR > 1 means the treatment increases risk. The exam often asks you to interpret whether the 95% confidence interval crosses 1 (not statistically significant).</p>
+
+      <h3>Odds Ratio (OR)</h3>
+      <p>Used in case-control studies. OR = (odds of exposure in cases) / (odds of exposure in controls). OR approximates RR when the outcome is rare (<10%). When the outcome is common, OR overestimates RR.</p>
+
+      <h3>Sensitivity and Specificity</h3>
+      <ul>
+        <li><strong>Sensitivity:</strong> True positives / (True positives + False negatives). A sensitive test rules disease out (SnOUT). High sensitivity = few false negatives.</li>
+        <li><strong>Specificity:</strong> True negatives / (True negatives + False positives). A specific test rules disease in (SpIN). High specificity = few false positives.</li>
+        <li><strong>Positive Predictive Value (PPV):</strong> True positives / (True positives + False positives). Depends on prevalence.</li>
+        <li><strong>Negative Predictive Value (NPV):</strong> True negatives / (True negatives + False negatives). Depends on prevalence.</li>
+      </ul>
+
+      <h2>Study Designs Ranked by Evidence Quality</h2>
+
+      <table>
+        <tr><th>Level</th><th>Design</th><th>Key features</th></tr>
+        <tr><td>1a</td><td>Systematic review / Meta-analysis of RCTs</td><td>Pooled data, forest plot, heterogeneity (I\u00b2)</td></tr>
+        <tr><td>1b</td><td>Individual RCT</td><td>Randomisation, blinding, intention-to-treat analysis</td></tr>
+        <tr><td>2a</td><td>Cohort study</td><td>Exposed vs non-exposed, followed forward. Can calculate RR. Prone to confounding and attrition bias.</td></tr>
+        <tr><td>2b</td><td>Case-control study</td><td>Cases vs controls, looks backward. Can calculate OR. Prone to recall and selection bias.</td></tr>
+        <tr><td>3</td><td>Cross-sectional study</td><td>Single time point. Can measure prevalence but not incidence. Cannot establish causation.</td></tr>
+        <tr><td>4</td><td>Case series / Case report</td><td>Descriptive only. No comparison group. Hypothesis-generating only.</td></tr>
+      </table>
+
+      <h2>Bias Types You Must Know</h2>
+
+      <ul>
+        <li><strong>Selection bias:</strong> Systematic differences between groups being compared. Example: healthier volunteers enrol in the treatment arm.</li>
+        <li><strong>Information bias (misclassification):</strong> Errors in measuring exposure or outcome. Example: recall bias in case-control studies where cases remember exposures differently.</li>
+        <li><strong>Publication bias:</strong> Studies with positive results are more likely to be published. Detected by funnel plot asymmetry.</li>
+        <li><strong>Attrition bias:</strong> Differential dropout between groups. Intention-to-treat analysis mitigates this.</li>
+        <li><strong>Detection bias:</strong> Systematic differences in how outcomes are assessed. Blinding prevents this.</li>
+        <li><strong>Performance bias:</strong> Systematic differences in care provided apart from the intervention. Blinding prevents this.</li>
+        <li><strong>Confounding:</strong> A third variable associated with both exposure and outcome. Example: age confounds the relationship between alcohol and dementia.</li>
+      </ul>
+
+      <h2>Critical Appraisal Frameworks</h2>
+
+      <p>The exam may ask you to appraise a study using a structured framework. The most common are:</p>
+
+      <ul>
+        <li><strong>CASP (Critical Appraisal Skills Programme):</strong> Three broad questions: (1) Are the results valid? (2) What are the results? (3) Will they help locally? Each has 3\u20134 sub-questions specific to the study type.</li>
+        <li><strong>SIGN (Scottish Intercollegiate Guidelines Network):</strong> Uses checklists with well-covered/adequately-addressed/poorly-reported/not-applicable ratings. Yields a study quality rating (++, +, or 0).</li>
+        <li><strong>GRADE (Grading of Recommendations Assessment, Development and Evaluation):</strong> Rates the quality of evidence across studies for a given outcome. Starts high for RCTs, low for observational studies, then adjusts up or down based on specific criteria.</li>
+      </ul>
+
+      <h2>Worked Example: Forest Plot Interpretation</h2>
+
+      <p>A forest plot from a meta-analysis shows individual study results as squares (point estimate) with horizontal lines (95% CI). The diamond at the bottom shows the pooled estimate. Key things to check:</p>
+      <ul>
+        <li>Does the diamond cross the line of no effect (1.0 for RR/OR, 0 for mean difference)? If yes, the overall result is not significant.</li>
+        <li>What is the I\u00b2 statistic? <25% = low heterogeneity, 25\u201350% = moderate, 50\u201375% = substantial, >75% = considerable. High I\u00b2 means the studies may be too different to pool meaningfully.</li>
+        <li>Is the funnel plot symmetrical? Asymmetry suggests publication bias or small-study effects.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank includes dedicated critical review questions with full teaching cascades covering statistics, study design, and bias identification. Start with 5 free questions at <a href=\"/try\">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'psychotherapy-for-mrcpsych',
+    title: 'Psychotherapy for MRCPsych Paper B: Modalities, Evidence, and Exam Strategy',
+    metaTitle: 'Psychotherapy for MRCPsych Paper B | Modalities & Evidence',
+    metaDescription: 'Guide to psychotherapy for MRCPsych Paper B. CBT, psychodynamic therapy, DBT, CAT, family therapy. Indications, evidence base, and exam question patterns.',
+    date: '2026-06-12',
+    readTime: '12 min read',
+    category: 'Paper B',
+    tags: ['psychotherapy', 'CBT', 'psychodynamic', 'DBT', 'Paper B', 'MRCPsych'],
+    featured: false,
+    content: `
+      <p>Psychotherapy accounts for approximately 5% of Paper B marks \u2014 roughly 7\u20138 questions. This is a small proportion, but the questions are predictable and high-yield. Most candidates lose marks here not because psychotherapy is difficult, but because they do not study it systematically.</p>
+
+      <p>The MRCPsych curriculum requires knowledge of the major psychotherapeutic modalities, their theoretical underpinnings, the evidence base for each, and the indications for referral. This guide covers each modality in the depth required for Paper B.</p>
+
+      <h2>Cognitive Behavioural Therapy (CBT)</h2>
+
+      <p>CBT is the most examined modality in Paper B. It has the strongest evidence base and the widest range of indications.</p>
+
+      <p><strong>Theoretical basis:</strong> The cognitive model proposes that emotional distress is maintained by dysfunctional patterns of thinking (automatic thoughts, intermediate beliefs, core beliefs) and behaviour (safety behaviours, avoidance). The goal of CBT is to identify, challenge, and modify these patterns.</p>
+
+      <p><strong>Key figures:</strong> Aaron Beck (cognitive triad: negative view of self, world, and future). Albert Ellis (Rational Emotive Behaviour Therapy, ABC model: Activating event \u2192 Belief \u2192 Consequence).</p>
+
+      <p><strong>Indications (NICE-recommended):</strong>
+      <ul>
+        <li>Depression (mild to moderate: low-intensity CBT; moderate to severe: high-intensity CBT combined with medication)</li>
+        <li>Generalised anxiety disorder</li>
+        <li>Panic disorder</li>
+        <li>Social anxiety disorder</li>
+        <li>OCD (CBT including Exposure and Response Prevention)</li>
+        <li>PTSD (trauma-focused CBT)</li>
+        <li>Bulimia nervosa (CBT-ED, specifically adapted for eating disorders)</li>
+        <li>Health anxiety</li>
+        <li>Psychosis (CBTp \u2014 CBT for psychosis, recommended for all patients with schizophrenia, though access is limited)</li>
+      </ul>
+      </p>
+
+      <p><strong>Structure:</strong> Typically 12\u201320 sessions. Each session follows a structure: agenda setting \u2192 review of homework \u2192 session content \u2192 practise new skill \u2192 set homework \u2192 session summary and feedback. The collaborative empiricism between therapist and patient is a defining feature.</p>
+
+      <p><strong>Third wave CBT:</strong> Includes Mindfulness-Based Cognitive Therapy (MBCT \u2014 for relapse prevention in recurrent depression), Acceptance and Commitment Therapy (ACT), and Dialectical Behaviour Therapy (DBT). The exam sometimes asks how third wave approaches differ from traditional CBT: greater emphasis on the relationship with thoughts (rather than changing content), and acceptance rather than control.</p>
+
+      <h2>Psychodynamic Psychotherapy</h2>
+
+      <p><strong>Theoretical basis:</strong> Unconscious mental processes influence conscious thoughts, feelings, and behaviour. Early attachment patterns shape relational templates that repeat in adult life (transference). Defence mechanisms protect the ego from anxiety.</p>
+
+      <p><strong>Key figures:</strong> Freud (structural model: id, ego, superego; developmental stages; defence mechanisms). Klein (paranoid-schizoid and depressive positions, object relations). Winnicott (transitional objects, good-enough mothering). Bowlby (attachment theory).</p>
+
+      <p><strong>Common defence mechanisms (exam favourites):</strong>
+      <ul>
+        <li><strong>Splitting:</strong> Dividing people into all-good or all-bad. Common in borderline personality disorder.</li>
+        <li><strong>Projection:</strong> Attributing unacceptable feelings to others.</li>
+        <li><strong>Projective identification:</strong> Projecting a feeling and then unconsciously inducing that feeling in the other person.</li>
+        <li><strong>Denial:</strong> Refusing to acknowledge reality.</li>
+        <li><strong>Displacement:</strong> Redirecting an impulse to a safer target.</li>
+        <li><strong>Sublimation:</strong> Channeling unacceptable impulses into socially acceptable activities.</li>
+        <li><strong>Intellectualisation:</strong> Using logic and reasoning to avoid emotional distress.</li>
+      </ul>
+      </p>
+
+      <p><strong>Indications:</strong> The evidence base is strongest for borderline personality disorder (mentalisation-based therapy, transference-focused psychotherapy), depression (particularly where relational difficulties are central), and medically unexplained symptoms. Long-term psychodynamic psychotherapy (over 12 months) has evidence for complex or chronic conditions.</p>
+
+      <h2>Dialectical Behaviour Therapy (DBT)</h2>
+
+      <p>DBT was developed by Marsha Linehan specifically for borderline personality disorder. It combines CBT with acceptance-based strategies (from Zen) and dialectical philosophy (synthesis of opposites).</p>
+
+      <p><strong>Core dialectic:</strong> Acceptance (validating the patient\u2019s experience) and change (helping the patient develop new skills). The therapist holds both simultaneously: \u201cYou are doing the best you can, and you need to try harder.\u201d</p>
+
+      <p><strong>Four modules of skills training:</strong>
+      <ul>
+        <li>Mindfulness (observing, describing, participating, non-judgementally, one-mindfully, effectively)</li>
+        <li>Distress tolerance (crisis survival strategies: TIPP, STOP, ACCEPTS, IMPROVE)</li>
+        <li>Interpersonal effectiveness (DEAR MAN, GIVE, FAST)</li>
+        <li>Emotion regulation (identifying emotions, reducing vulnerability, opposite action)</li>
+      </ul>
+      </p>
+
+      <p><strong>DBT structure:</strong> Weekly individual therapy (1 hour), weekly group skills training (2 hours), telephone coaching (between sessions for crisis management), and therapist consultation team (weekly). This multimodal structure is a defining feature and often examined.</p>
+
+      <h2>Cognitive Analytic Therapy (CAT)</h2>
+
+      <p>Developed by Anthony Ryle. Integrates cognitive and psychodynamic approaches. Time-limited (usually 16\u201324 sessions).</p>
+
+      <p><strong>Key concepts:</strong>
+      <ul>
+        <li><strong>Reciprocal roles:</strong> Patterns of relating learned in childhood that are replayed in adult relationships. For example, a patient who was criticised as a child may alternate between being critical of themselves and feeling criticised by others.</li>
+        <li><strong>Target Problem Procedure (TPP):</strong> A written reformulation that maps the patient\u2019s unhelpful patterns and their origins. The patient and therapist agree on the TPP and work to recognise and revise these patterns.</li>
+      </ul>
+      </p>
+
+      <p><strong>Indications:</strong> Depression, anxiety, eating disorders, personality disorders, and interpersonal difficulties. CAT is particularly useful where brief intervention is needed and the patient has a history of relational difficulties.</p>
+
+      <h2>Family Therapy and Systemic Practice</h2>
+
+      <p><strong>Theoretical basis:</strong> Problems are understood in the context of relationships and systems, not as individual pathology. Change in one part of the system affects the whole.</p>
+
+      <p><strong>Key figures:</strong> Minuchin (structural family therapy, boundaries, enmeshment, disengagement). Haley (strategic family therapy, paradoxical interventions). Milan group (circular questioning, positive connotation).</p>
+
+      <p><strong>Indications:</strong> Child and adolescent mental health, eating disorders (Maudsley model for anorexia), psychosis (family interventions reduce relapse rates), relationship difficulties, and where a systemic factor maintains the problem.</p>
+
+      <h2>How the Exam Tests Psychotherapy</h2>
+
+      <p>Paper B questions on psychotherapy follow predictable patterns:</p>
+
+      <ul>
+        <li><strong>Which therapy for this condition?</strong> For mild depression: CBT. For bulimia: CBT-ED. For BPD with self-harm: DBT. For childhood trauma: trauma-focused CBT or psychodynamic therapy depending on presentation.</li>
+        <li><strong>Who developed this therapy?</strong> Beck = CBT, Linehan = DBT, Ryle = CAT, Freud/Klein = psychodynamic, Minuchin = structural family therapy.</li>
+        <li><strong>Key theoretical concept:</strong> Be able to define and give an example of: transference, countertransference, defence mechanisms, the cognitive triad, reciprocal roles, the dialectic in DBT.</li>
+        <li><strong>Evidence question:</strong> Which therapy has the strongest evidence for X? Typically CBT for most conditions, DBT for BPD, family therapy for first-episode psychosis.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank includes dedicated psychotherapy questions that test both factual knowledge and clinical application. Start with 5 free questions at <a href=\"/try\">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'mrcpsych-exam-day-guide',
+    title: 'MRCPsych Exam Day: What to Expect and How to Prepare',
+    metaTitle: 'MRCPsych Exam Day Guide | Logistics, Timing & Tips',
+    metaDescription: 'Practical guide for MRCPsych exam day. What to bring, timing, anxiety management, pre-exam routine, and strategies for staying focused during the 3-hour paper.',
+    date: '2026-06-12',
+    readTime: '8 min read',
+    category: 'Exam Strategy',
+    tags: ['exam day', 'logistics', 'anxiety management', 'MRCPsych', 'exam preparation'],
+    featured: false,
+    content: `
+      <p>You have done the preparation. You have answered thousands of questions, learned the receptor profiles, memorised the ICD-11 criteria, and practised critical appraisal calculations. The final variable is the day itself. How you manage the 24 hours before and during the exam directly affects your performance.</p>
+
+      <p>This guide covers the practical logistics, medical considerations, and psychological strategies for MRCPsych exam day.</p>
+
+      <h2>Before the Exam: The Week Preceding</h2>
+
+      <h3>Day -7 to -4: Taper</h3>
+      <p>Reduce your study volume by 50% each day. No new content. Focus on high-yield review: classification criteria, receptor profiles, critical appraisal formulas, and MHA sections. These are the domains where recall is most important and most vulnerable to anxiety.</p>
+
+      <h3>Day -3 to -1: Consolidation Only</h3>
+      <p>Maximum 2\u20133 hours of light review per day. Write out the key formulas from memory. Practise one or two NNT calculations. Read through MHA section summaries. Do not attempt any more difficult questions or new topics.</p>
+
+      <p>Sleep is the most important preparation in this phase. Aim for 8 hours per night. If you cannot sleep, lie in a dark room with your eyes closed. Rest is not wasted time.</p>
+
+      <h3>Day -1: Logistics Check</h3>
+      <ul>
+        <li>Confirm the exam venue and travel time. If you have not been there before, do a practice journey.</li>
+        <li>Prepare your bag: photo ID (passport or driving licence), your exam confirmation email (printed or on your phone), water bottle (clear, no label), snacks (nuts, banana, chocolate \u2014 something that provides sustained energy), paracetamol (for headache), tissues.</li>
+        <li>Check what is not allowed: mobile phone (must be switched off and stored), smart watch, notes, bags larger than a small rucksack, food that rustles loudly.</li>
+        <li>Set two alarms. Tell someone to call you if they receive a concerned text.</li>
+        <li>Eat a normal evening meal. Avoid alcohol. Avoid caffeine after 4pm if you are sensitive to it.</li>
+      </ul>
+
+      <h2>Exam Morning</h2>
+
+      <h3>Wake-up (3 hours before the exam)</h3>
+      <p>Wake up early enough to allow a calm, unrushed morning. Eat a protein-based breakfast (eggs, yoghurt, porridge). Avoid high-sugar cereals that cause a blood glucose spike and subsequent crash during the exam.</p>
+
+      <p>Coffee or tea: one cup is fine. More than one may increase anxiety. If you do not normally drink caffeine, do not start on exam day.</p>
+
+      <h3>Travel (arrive 45\u201360 minutes early)</h3>
+      <p>Traffic, train delays, and parking are outside your control. Build in a buffer. Arriving early gives you time to find the room, use the toilet, settle yourself, and mentally rehearse. Arriving late causes cortisol elevation that takes 30\u201340 minutes to normalise.</p>
+
+      <h2>In the Exam Room</h2>
+
+      <h3>First 5 Minutes</h3>
+      <p>You will be seated at a computer terminal (the MRCPsych is now computer-based at Pearson VUE centres). The interface has been tested and is reliable. A tutorial screen explains the controls before the timer starts. Use this time to adjust your chair, screen brightness, and mouse position.</p>
+
+      <p>Write your key formulas on the laminated whiteboard provided (or on paper if offered). This is a standard strategy used by high-performing candidates. Write down:</p>
+      <ul>
+        <li>NNT = 1 / ARR</li>
+        <li>RR = EER / CER</li>
+        <li>SnOUT, SpIN</li>
+        <li>MHA section durations (S2 = 28 days, S3 = 6 months, S4 = 72 hours, S5(2) = 72 hours, S5(4) = 6 hours)</li>
+      </ul>
+
+      <h2>During the Exam</h2>
+
+      <h3>Time Management</h3>
+      <p>150 questions in 180 minutes = 1 minute 12 seconds per question. Use the three-pass strategy:</p>
+      <ol>
+        <li><strong>First pass (90 minutes):</strong> Answer questions you are confident about. Flag anything uncertain or that will take longer than 60 seconds. Do not get stuck.</li>
+        <li><strong>Second pass (60 minutes):</strong> Return to flagged questions. Use elimination. If you can get down to 2 options, you have a 50% chance.</li>
+        <li><strong>Third pass (30 minutes):</strong> Answer every remaining question. There is no negative marking. A blind guess has a 20% chance. An educated guess is higher.</li>
+      </ol>
+
+      <h3>Managing Difficult Questions</h3>
+      <p>Every candidate encounters questions they do not know. The difference between passing and failing is how you respond. If you cannot answer after 60 seconds, guess, flag, move on. The worst outcome is spending 4 minutes on one question, running out of time for 3 easier ones.</p>
+
+      <h3>Common Mistakes Under Time Pressure</h3>
+      <ul>
+        <li><strong>Reading too quickly:</strong> Misreading \u201cwhich is NOT a side effect\u201d as \u201cwhich is a side effect.\u201d The exam uses negatives deliberately. Slow down on the stem.</li>
+        <li><strong>Changing answers:</strong> Unless you have a clear reason, your first answer is usually correct. Studies consistently show that changing answers without good reason reduces your score.</li>
+        <li><strong>Rushing the final 10 questions:</strong> Fatigue is highest in the last 30 minutes. Take 3 deep breaths before starting the final block. Re-read the stems carefully.</li>
+      </ul>
+
+      <h2>Medical Considerations</h2>
+
+      <ul>
+        <li><strong>Hydration:</strong> Take small sips of water during the exam. Do not drink a large amount before starting \u2014 you cannot leave the room mid-paper.</li>
+        <li><strong>Bladder:</strong> Use the toilet immediately before entering the exam room. The 3-hour paper does not have scheduled breaks.</li>
+        <li><strong>Medication:</strong> If you take medication for anxiety, ADHD, or any other condition, take it as prescribed. Do not change your regimen on exam day.</li>
+        <li><strong>Symptoms:</strong> If you develop a headache, blurred vision, or significant anxiety during the exam, close your eyes for 30 seconds, breathe slowly, and re-engage. If symptoms are severe, alert the invigilator.</li>
+      </ul>
+
+      <h2>After the Exam</h2>
+
+      <p>Do not debrief immediately. Your post-exam recall is unreliable and discussing answers with colleagues only increases anxiety. The results are typically available within 4\u20136 weeks for Paper A and B, and 2\u20133 weeks for CASC.</p>
+
+      <p>If you have another paper the following day, return to your preparation location, eat a proper meal, and review the high-yield topics for the next paper. Do not attempt to reconstruct the paper you just sat.</p>
+
+      <p>PsychStar\u2019s exam simulation mode allows you to practise the three-pass time management strategy under realistic conditions. Try 5 free questions at <a href=\"/try\">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'child-and-adolescent-psychiatry-mrcpsych',
+    title: 'Child and Adolescent Psychiatry for MRCPsych: Essential Knowledge for Paper B',
+    metaTitle: 'Child and Adolescent Psychiatry for MRCPsych Paper B | Guide',
+    metaDescription: 'Child and adolescent psychiatry for MRCPsych Paper B. Neurodevelopmental disorders, attachment, safeguarding, ADHD, autism, and the legal framework for young people.',
+    date: '2026-06-12',
+    readTime: '13 min read',
+    category: 'Paper B',
+    tags: ['child psychiatry', 'adolescent', 'ADHD', 'autism', 'attachment', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Child and adolescent psychiatry accounts for approximately 8% of Paper B marks \u2014 roughly 12 of 150 questions. The topics tested are distinct from adult psychiatry and cover neurodevelopmental disorders, attachment theory, safeguarding, and the legal framework for minors.</p>
+
+      <p>Most candidates find child psychiatry questions challenging because they assume that knowledge from adult practice transfers directly. It does not. The presentations, assessment frameworks, and management strategies are fundamentally different.</p>
+
+      <h2>Neurodevelopmental Disorders</h2>
+
+      <h3>Attention Deficit Hyperactivity Disorder (ADHD)</h3>
+
+      <p><strong>Core features (ICD-11):</strong> Persistent pattern (at least 6 months) of inattention, hyperactivity, and impulsivity that is developmentally inappropriate, present across multiple settings, and causes functional impairment. Onset before age 12. Three presentations: predominantly inattentive, predominantly hyperactive-impulsive, and combined.</p>
+
+      <p><strong>Prevalence:</strong> Approximately 5% of children worldwide. Male:female ratio of 2:1 in childhood (narrowing in adulthood to 1:1). Comorbid with oppositional defiant disorder (ODD), conduct disorder, anxiety, depression, and autism spectrum disorder.</p>
+
+      <p><strong>Management (NICE guidance):</strong>
+      <ul>
+        <li>Under 5 years: Parent training programmes as first-line. Medication is not recommended.</li>
+        <li>School-aged children (5\u201318 years): Methylphenidate as first-line pharmacological intervention. If ineffective or not tolerated, switch to lisdexamfetamine or dexamfetamine. Guanfacine and atomoxetine are second-line options.</li>
+        <li>Environmental modifications: Behavioural interventions in the classroom, structured routines, organisational support, and psychoeducation for parents and teachers.</li>
+      </ul>
+      </p>
+
+      <p><strong>Key drug comparisons for the exam:</strong> Methylphenidate blocks dopamine and noradrenaline reuptake. Lisdexamfetamine increases dopamine and noradrenaline release. Both are Schedule 2 controlled drugs. Atomoxetine is a selective noradrenaline reuptake inhibitor, not a controlled drug, but takes 4\u20138 weeks to reach full effect. Guanfacine is an alpha-2 agonist, also not controlled.</p>
+
+      <h3>Autism Spectrum Disorder (ASD)</h3>
+
+      <p><strong>Core features (ICD-11):</strong> Persistent deficits in social communication and social interaction (across multiple contexts) AND restricted, repetitive patterns of behaviour, interests, or activities. Symptoms must be present in the developmental period (though may not fully manifest until social demands exceed capacity). ICD-11 removed the subcategories (Asperger syndrome, childhood autism) and replaced them with a single spectrum diagnosis.</p>
+
+      <p><strong>Prevalence:</strong> Approximately 1\u20132% of children. Male:female ratio of 4:1 (though this may reflect underdiagnosis in females, who tend to present with less obvious restricted interests and better surface social skills).</p>
+
+      <p><strong>Red flags in early development:</strong> Reduced joint attention (not pointing to share interest), delayed speech or unusual language development (echolalia, pronoun reversal), lack of pretend play, unusual sensory responses (hypersensitivity to sounds/textures/foods), rigid routines, and repetitive movements (hand flapping, rocking).</p>
+
+      <p><strong>Management:</strong> There is no pharmacological treatment for the core symptoms. Management focuses on behavioural and educational interventions (Early Intensive Behavioural Intervention, TEACCH, social skills training, speech and language therapy, occupational therapy for sensory integration). Medication is used only for comorbid conditions (irritability, aggression, anxiety, ADHD symptoms) and should be prescribed cautiously as children with ASD are more sensitive to side effects.</p>
+
+      <h3>Intellectual Disability (Learning Disability)</h3>
+
+      <p><strong>Definition:</strong> Significant impairment of intellectual functioning (IQ below 70) AND significant impairment of adaptive functioning, with onset during the developmental period. Severity: mild (IQ 50\u201369), moderate (IQ 35\u201349), severe (IQ 20\u201334), profound (IQ below 20).</p>
+
+      <p><strong>Common causes (exam-favourite):</strong> Down syndrome (trisomy 21), Fragile X syndrome (triplet repeat on X chromosome, most common inherited cause), Fetal alcohol spectrum disorder, Rett syndrome (MECP2 mutation, almost exclusively in females), Angelman syndrome (maternal 15q11 deletion \u2014 happy puppet, seizures, ataxia), Prader-Willi syndrome (paternal 15q11 deletion \u2014 hyperphagia, obesity, hypotonia).</p>
+
+      <p><strong>Behavioural phenotypes:</strong> Down syndrome = friendly disposition, relative strength in social skills. Fragile X = social anxiety, gaze aversion, ADHD features. Prader-Willi = food-seeking, skin picking, temper outbursts. Angelman = frequent laughter, happy demeanour, hand-flapping.</p>
+
+      <h2>Attachment Theory</h2>
+
+      <p>Attachment theory appears consistently in child psychiatry questions. The key concepts are John Bowlby\u2019s attachment theory and Mary Ainsworth\u2019s Strange Situation Procedure.</p>
+
+      <p><strong>Bowlby\u2019s key ideas:</strong> Attachment is an innate biological system that keeps the infant close to the caregiver for protection. The internal working model (mental representation of the self in relation to others) formed in infancy influences relationships throughout life.</p>
+
+      <p><strong>Ainsworth\u2019s attachment styles (Strange Situation):</strong>
+      <ul>
+        <li><strong>Secure attachment:</strong> Distressed when caregiver leaves, easily soothed on return, uses caregiver as secure base for exploration. Approximately 60\u201365% of children in low-risk samples.</li>
+        <li><strong>Insecure-avoidant attachment:</strong> Little distress when caregiver leaves, avoids or ignores caregiver on return. Caregiver is typically rejecting or unresponsive. Approximately 15\u201320%.</li>
+        <li><strong>Insecure-ambivalent (resistant) attachment:</strong> Intense distress when caregiver leaves, difficult to soothe on return, both seeks and resists contact. Caregiver is inconsistent. Approximately 10\u201315%.</li>
+        <li><strong>Disorganised attachment:</strong> Contradictory behaviours (freezing, stereotypies, approaching then turning away). Often associated with maltreatment or caregiver unresolved trauma. Approximately 5\u201310% in low-risk samples, higher in high-risk groups.</li>
+      </ul>
+      </p>
+
+      <p><strong>Clinical relevance:</strong> Insecure attachment patterns are risk factors for later psychopathology. Disorganised attachment is most strongly associated with subsequent mental health problems and is considered the attachment pattern of maltreated children.</p>
+
+      <h2>Safeguarding and Child Protection</h2>
+
+      <p>Safeguarding questions are mandatory content in Paper B. The key legal and procedural knowledge:</p>
+
+      <ul>
+        <li><strong>Types of maltreatment:</strong> Physical abuse, emotional abuse, sexual abuse, neglect, fabricated or induced illness (previously called Munchausen syndrome by proxy). The highest mortality is associated with neglect.</li>
+        <li><strong>Children Act 1989:</strong> The welfare of the child is paramount. Section 17 (duty to provide services to children in need), Section 47 (duty to investigate if significant harm is suspected). Emergency Protection Order (EPO) lasts 8 days with a possible extension of 7 days. Care order lasts until the child turns 18.</li>
+        <li><strong>Gillick competence and Fraser guidelines:</strong> A child under 16 can consent to treatment if they have sufficient understanding and intelligence to comprehend what is proposed. Fraser guidelines specifically apply to contraceptive advice. In Scotland, age of legal capacity is 12.</li>
+        <li><strong>Mental Capacity Act 2005 and children:</strong> MCA does not apply to under-16s. For 16-17 year olds, MCA applies but is modified by the Children Act. If a 16-17 year old lacks capacity, the decision is made by someone with parental responsibility or the court, applying the best interests standard.</li>
+        <li><strong>When to refer:</strong> Any concern about significant harm must be referred to the local authority children\u2019s social care. You do not need parental consent to make a safeguarding referral. If a child discloses abuse, you should listen, record verbatim, do not promise secrecy, explain what you will do, and refer.</li>
+      </ul>
+
+      <h2>Common Exam Question Patterns</h2>
+
+      <ul>
+        <li><strong>Differential diagnosis of developmental regression:</strong> Regressive autism (regression in language and social skills around 18\u201324 months), Rett syndrome (regression around 6\u201318 months in females with hand-wringing), Landau-Kleffner syndrome (acquired epileptic aphasia), and neurodegenerative disorders (rare).</li>
+        <li><strong>ADHD vs ASD overlap:</strong> Both present with inattention and social difficulties. Key distinction: ADHD inattention is modulated by interest (can focus on preferred activities), ASD social deficits are more pervasive and accompanied by restricted interests and sensory differences.</li>
+        <li><strong>Tourette syndrome:</strong> Multiple motor tics and at least one vocal tic, present for more than 1 year, onset before age 18. Comorbid with ADHD and OCD in most cases.</li>
+        <li><strong>School refusal vs truancy:</strong> School refusal is driven by anxiety (child remains at home with parental knowledge). Truancy involves concealment from parents and antisocial behaviour. Management differs: school refusal requires anxiety-focused intervention; truancy requires behavioural and social support.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B bank covers child and adolescent psychiatry with questions that reflect real exam difficulty and style. Start with 5 free questions at <a href=\"/try\">psychstar.io/try</a>.</p>
+    `
+  },
 ]
