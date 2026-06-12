@@ -1469,7 +1469,337 @@ export const articles: Article[] = [
         <li><strong>School refusal vs truancy:</strong> School refusal is driven by anxiety (child remains at home with parental knowledge). Truancy involves concealment from parents and antisocial behaviour. Management differs: school refusal requires anxiety-focused intervention; truancy requires behavioural and social support.</li>
       </ul>
 
-      <p>PsychStar\u2019s Paper B bank covers child and adolescent psychiatry with questions that reflect real exam difficulty and style. Start with 5 free questions at <a href=\"/try\">psychstar.io/try</a>.</p>
+      <p>PsychStar\u2019s Paper B bank covers child and adolescent psychiatry with questions that reflect real exam difficulty and style. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'depression-and-bipolar-mrcpsych-paper-b',
+    title: 'Depression and Bipolar Disorder for MRCPsych Paper B: Clinical Presentations and Management',
+    metaTitle: 'Depression and Bipolar for MRCPsych Paper B | NICE Guidelines & Management',
+    metaDescription: 'Clinical guide to depression and bipolar disorder for MRCPsych Paper B. Classification, NICE treatment algorithms, STAR*D and BALANCE trial data, and exam question patterns.',
+    date: '2026-06-12',
+    readTime: '15 min read',
+    category: 'Paper B',
+    tags: ['depression', 'bipolar disorder', 'mood disorders', 'antidepressants', 'mood stabilisers', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Depression and bipolar disorder together account for the largest proportion of general adult psychiatry questions in Paper B. The two conditions are often examined together because the differential diagnosis between unipolar depression and bipolar depression is a recurring question pattern. This guide covers the classification, NICE-recommended management, key trial evidence, and the specific question formats used in the examination.</p>
+
+      <h2>Depressive Disorders: ICD-11 Classification</h2>
+
+      <p>ICD-11 divides depressive disorders into single episode depressive disorder and recurrent depressive disorder. Both are further classified by severity: mild, moderate, and severe with or without psychotic symptoms. The key distinction from ICD-10 is that the symptom list is simplified and the duration requirement remains at least 2 weeks.</p>
+
+      <p><strong>Core symptoms (at least 2 required):</strong> Depressed mood, loss of interest or pleasure (anhedonia), reduced energy or fatigue.</p>
+
+      <p><strong>Additional symptoms:</strong> Reduced concentration and attention, reduced self-esteem and self-confidence, ideas of guilt and unworthiness, bleak and pessimistic views of the future, ideas or acts of self-harm or suicide, disturbed sleep (any pattern), diminished appetite or overeating. Mild = 2 core + 2-3 additional. Moderate = 2 core + 4-5 additional with functional impairment. Severe = all 3 core + 5+ additional, marked functional impairment, with or without psychotic symptoms.</p>
+
+      <p><strong>Exam pattern:</strong> Questions often give a vignette with specific symptom count and ask for the severity grade. The key is matching the number of symptoms to the severity category, not just clinical intuition.</p>
+
+      <h2>NICE Depression Treatment Algorithm</h2>
+
+      <p>NICE uses the stepped care model for depression (CG90, updated 2022). The examination tests your knowledge of which intervention at which severity level.</p>
+
+      <p><strong>Step 1 (All severities):</strong> Assessment, psychoeducation, sleep hygiene, active monitoring. No active intervention required for subthreshold or mild symptoms that are not persisting.</p>
+
+      <p><strong>Step 2 (Persistent subthreshold or mild depression):</strong> Low-intensity psychosocial interventions (guided self-help based on CBT principles, computerised CBT, structured group physical activity) OR medication if preferred. For mild depression, NICE recommends low-intensity CBT before medication. This is a frequently tested point: the exam expects you to offer low-intensity intervention first for mild depression, not an antidepressant.</p>
+
+      <p><strong>Step 3 (Moderate to severe depression):</strong> High-intensity psychological intervention (CBT or IPT) combined with an antidepressant (SSRI first-line). The combination of medication and psychological therapy is superior to either alone for moderate-severe depression.</p>
+
+      <p><strong>Step 4 (Treatment-resistant, life-threatening):</strong> Multi-disciplinary review, augmentation strategies, ECT if rapid response needed. ECT is indicated for severe depression with psychotic features or catatonia, or where a rapid response is required (high suicide risk, food/fluid refusal).</p>
+
+      <h2>Antidepressant Selection</h2>
+
+      <p><strong>First-line:</strong> An SSRI (sertraline is NICE first-choice due to favourable side-effect profile and safety in overdose). Fluoxetine has the longest half-life (4-6 days) and lowest discontinuation syndrome risk. Citalopram has the most drug interaction data but QTc prolongation at high doses restricts it.</p>
+
+      <p><strong>Switching strategies:</strong> If no response after 3-4 weeks at therapeutic dose, optimise dose first. If no response after 6-8 weeks, switch to a different SSRI or an alternative class (SNRI, mirtazapine). There is no evidence from STAR*D that any switch strategy is superior. Evidence-based augmentation options: lithium augmentation (best evidence), aripiprazole augmentation (licensed in the USA for TRD), quetiapine augmentation, or combining mirtazapine with an SSRI/SNRI.</p>
+
+      <h2>STAR*D Trial Data (Essential for the Exam)</h2>
+
+      <p>The Sequenced Treatment Alternatives to Relieve Depression (STAR*D) trial is the most commonly referenced antidepressant trial in Paper B. Key findings you must know:</p>
+      <ul>
+        <li>Level 1 (citalopram): 36.8% remission (QIDS-SR16 less than or equal to 5)</li>
+        <li>Cumulative remission after 4 steps: approximately 67%</li>
+        <li>No significant difference between switching to another antidepressant and augmenting at any level</li>
+        <li>No significant difference between switching within-class (another SSRI) and across-class (SNRI, bupropion)</li>
+        <li>When patients who could not tolerate or did not respond to citalopram were switched to sertraline, bupropion, or venlafaxine, remission rates were similar (~17-21%)</li>
+      </ul>
+
+      <h2>Bipolar Disorder: ICD-11 Classification</h2>
+
+      <p>Bipolar type I: At least one manic episode (most patients also have depressive episodes). Mania requires elevated mood OR irritability, plus increased activity or energy, lasting at least 1 week (or any duration if hospitalisation required). Additional symptoms: grandiosity, decreased need for sleep, pressured speech, flight of ideas, distractibility, increased goal-directed activity, excessive involvement in risky activities.</p>
+
+      <p>Bipolar type II: At least one hypomanic episode and one depressive episode. Hypomania lasts at least 4 days, does NOT cause marked functional impairment, does NOT require hospitalisation, and has NO psychotic features. The distinction from mania is the functional impact threshold, not just the symptom count.</p>
+
+      <p>Cyclothymic disorder: Chronic fluctuating mood disturbance with numerous hypomanic and depressive periods that do not meet full criteria for either, present for at least 2 years.</p>
+
+      <p><strong>Exam pattern:</strong> A vignette describing elevated mood with increased energy and reduced sleep for 5 days with some functional impairment but no psychosis or hospitalisation. Answer: hypomania (not mania, not anxiety).</p>
+
+      <h2>Bipolar Management: NICE Algorithm</h2>
+
+      <p><strong>Acute mania:</strong> First-line: haloperidol, olanzapine, quetiapine, or risperidone. If inadequate response after 2 weeks, switch to an alternative first-line or add lithium. If still no response, add valproate (but not in women of childbearing potential). Avoid antidepressants in acute mania.</p>
+
+      <p><strong>Bipolar depression:</strong> First-line: quetiapine (the only drug licensed for bipolar depression in the UK) or olanzapine plus fluoxetine (Symbyax in the USA). Fluoxetine alone is NOT recommended as the switch to mania risk is significant. Lithium and lamotrigine have evidence for bipolar depression prevention but are not first-line for acute treatment.</p>
+
+      <p><strong>First trimester bipolar:</strong> A recall question: a woman in first trimester with mixed affective state. Olanzapine or quetiapine are safer than valproate or lithium. Valproate is absolutely contraindicated in pregnancy. Lithium carries Ebstein\u2019s anomaly risk in first trimester (but this is lower risk than valproate teratogenicity).</p>
+
+      <p><strong>Maintenance:</strong> First-line: lithium (most evidence for preventing both manic and depressive relapse). Alternative: valproate (but not in women of childbearing potential), olanzapine, quetiapine. The BALANCE trial (2010) showed that lithium plus valproate was more effective than valproate alone, and lithium alone was comparable to combination therapy. This is an exam-favourite finding.</p>
+
+      <h2>High-Yield Recall Patterns for Mood Disorders</h2>
+
+      <ul>
+        <li><strong>Olanzapine discontinued, relapses with depression:</strong> Do NOT restart olanzapine. Start lamotrigine (if mood stabiliser needed) or quetiapine (option depending on answer set). Fluoxetine alone is rarely correct in bipolar depression.</li>
+        <li><strong>Mixed affective state + first trimester:</strong> Olanzapine or quetiapine. Valproate contraindicated.</li>
+        <li><strong>Valproate + abdominal pain + vomiting + elevated amylase:</strong> Pancreatitis. Stop valproate.</li>
+        <li><strong>Lithium + thirst + polyuria + fine tremor:</strong> Lithium-induced nephrogenic diabetes insipidus.</li>
+        <li><strong>Lamotrigine + target lesions + blistering:</strong> Stevens-Johnson syndrome. Stop lamotrigine.</li>
+        <li><strong>STAR*D meaning:</strong> No single strategy (switch vs augment) is superior. ~67% cumulative remission by step 4.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers depression and bipolar disorder with questions aligned to NICE guidelines and trial evidence. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'schizophrenia-and-psychosis-mrcpsych-paper-b',
+    title: 'Schizophrenia and Psychosis for MRCPsych Paper B: Diagnosis, Treatment, and Trial Evidence',
+    metaTitle: 'Schizophrenia and Psychosis for MRCPsych Paper B | NICE & CATIE/CUtLASS',
+    metaDescription: 'Schizophrenia and psychosis for MRCPsych Paper B. ICD-11 diagnostic criteria, antipsychotic selection, CATIE/CUtLASS trial data, clozapine protocol, and exam question patterns.',
+    date: '2026-06-12',
+    readTime: '14 min read',
+    category: 'Paper B',
+    tags: ['schizophrenia', 'psychosis', 'antipsychotics', 'clozapine', 'CATIE', 'CUtLASS', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Schizophrenia and psychotic disorders are a core component of general adult psychiatry in Paper B. The questions range from diagnostic classification using ICD-11 to antipsychotic selection guided by trial evidence. Clozapine is disproportionately represented in recall questions, reflecting its clinical importance and the detailed monitoring protocols associated with its use.</p>
+
+      <h2>ICD-11 Diagnostic Criteria for Schizophrenia</h2>
+
+      <p>ICD-11 simplified the diagnosis of schizophrenia compared to ICD-10. The core requirement is at least 1 of the following symptoms present for most of the time over a period of at least 1 month:</p>
+      <ul>
+        <li>Persistent delusions</li>
+        <li>Persistent hallucinations (auditory, visual, or other modalities)</li>
+        <li>Disorganised thinking (formal thought disorder)</li>
+        <li>Experiences of influence, passivity, or control (delusions of control)</li>
+        <li>Negative symptoms (blunted affect, alogia, avolition, anhedonia, asociality)</li>
+      </ul>
+
+      <p>ICD-11 removed the subtypes (paranoid, hebephrenic, catatonic, undifferentiated, residual) that existed in ICD-10. The diagnosis now focuses on the symptom dimensions. This is a change that exam questions test: a candidate is asked which ICD-10 subtype is no longer recognised in ICD-11.</p>
+
+      <p><strong>Schizophrenia vs autism spectrum:</strong> This is a recurring question. Features that favour schizophrenia over autism: near normal early development, mood-incongruent psychotic symptoms, later age of onset. Features that favour autism: impaired social communication from early childhood, restricted repetitive behaviours that precede psychotic symptoms.</p>
+
+      <h2>Antipsychotic Management: First-Episode Psychosis</h2>
+
+      <p>NICE guidance (CG178) recommends oral antipsychotic medication as first-line for first-episode psychosis. The choice should be made jointly with the patient, considering side-effect profile. First-line options include olanzapine, risperidone, aripiprazole, quetiapine, and amisulpride. Haloperidol is not recommended first-line due to higher EPS risk.</p>
+
+      <p>Key principles for first-episode treatment: start at low dose, titrate slowly, continue for 1-2 years after first episode before considering withdrawal. Relapse risk within 1 year of stopping medication is approximately 75% compared to 25% in those who continue maintenance treatment.</p>
+
+      <p><strong>First episode psychosis + cardiac problem:</strong> Aripiprazole (lowest QTc prolongation, least metabolic impact).</p>
+
+      <h2>Trial Evidence: CATIE and CUtLASS</h2>
+
+      <p>The two major trials comparing antipsychotics appear regularly in Paper B.</p>
+
+      <p><strong>CATIE (2005):</strong> 1,493 patients with schizophrenia, randomised to olanzapine, risperidone, quetiapine, ziprasidone, or perphenazine. Olanzapine had the lowest discontinuation rate but the greatest weight gain and metabolic effects. Perphenazine was comparable to atypicals for efficacy. No significant difference in cognitive improvement between the drugs.</p>
+
+      <p><strong>CUtLASS (2006):</strong> 227 patients with schizophrenia, randomised to FGAs (sulpiride, haloperidol, trifluoperazine) or SGAs. No significant advantage for SGAs over FGAs in quality of life, symptoms, or cost. First-generation antipsychotics are not inferior for efficacy.</p>
+
+      <p><strong>Exam takeaway:</strong> Antipsychotic choice should be guided by individual patient factors and side-effect profiles, not by assuming atypical = more effective.</p>
+
+      <h2>Clozapine: Detailed Knowledge Required</h2>
+
+      <p>Clozapine is the most heavily tested single drug in Paper B. Indications: treatment-resistant schizophrenia (failure of at least 2 antipsychotics at adequate dose for 6-8 weeks, at least one atypical). Monitoring: FBC weekly for 18 weeks, fortnightly to 52 weeks, then monthly. WCC <3.0 or neutrophils <1.5 = stop immediately, daily FBC until recovery. Rechallenge not recommended after neutropenia.</p>
+
+      <p><strong>Side effects tested in recalls:</strong></p>
+      <ul>
+        <li><strong>Myocarditis:</strong> First 2 months. Tachycardia, chest pain, fever, elevated troponin. Saddle-type ST elevations on ECG. Stop clozapine, cardiology review. Do NOT rechallenge.</li>
+        <li><strong>Cardiomyopathy:</strong> Late complication (>6 months). Reduced ejection fraction on echocardiogram.</li>
+        <li><strong>Constipation:</strong> Up to 60%. Can be fatal (bowel obstruction/perforation). Aggressive laxatives.</li>
+        <li><strong>Sialorrhoea:</strong> Worse at night. Hyoscine or amitriptyline.</li>
+        <li><strong>Tachycardia:</strong> 20-30 bpm above baseline. Beta-blocker after excluding myocarditis.</li>
+        <li><strong>Seizures:</strong> Dose-dependent, risk rises above 600mg/day. Dose reduction or valproate augmentation.</li>
+        <li><strong>Weight gain and metabolic syndrome:</strong> Most significant metabolic side-effect profile of any antipsychotic.</li>
+      </ul>
+
+      <p><strong>Clozapine + persistent symptoms at 3 months:</strong> Check compliance FIRST. Clozapine takes longer to reach full effect and non-adherence is common. If compliance confirmed and therapeutic levels achieved, augment with aripiprazole or amisulpride.</p>
+
+      <p><strong>Clozapine + ECT:</strong> Clozapine lowers seizure threshold, which can be useful in TRS where ECT is being considered.</p>
+
+      <h2>High-Yield Recall Patterns for Psychosis</h2>
+
+      <ul>
+        <li><strong>First-episode psychosis + cardiac problem:</strong> Aripiprazole</li>
+        <li><strong>Clozapine + tachycardia + high troponin:</strong> Myocarditis. Stop clozapine.</li>
+        <li><strong>Clozapine + persistent hallucinations at 3 months:</strong> Check compliance first.</li>
+        <li><strong>Tardive dyskinesia on flupentixol depot for 20 years:</strong> Lower the depot dose first.</li>
+        <li><strong>Which favours schizophrenia over autism:</strong> Near normal early development, mood-incongruent symptoms, catatonia.</li>
+        <li><strong>Amisulpride low vs high dose:</strong> Below 400mg presynaptic (negative symptom benefit), above 400mg postsynaptic (antipsychotic effect).</li>
+        <li><strong>CATIE key finding:</strong> Olanzapine lowest discontinuation, worst metabolic.</li>
+        <li><strong>CUtLASS key finding:</strong> No superiority of atypicals over typicals for quality of life.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers schizophrenia and psychosis with questions calibrated to real exam style. Try 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'substance-misuse-mrcpsych-paper-b',
+    title: 'Substance Misuse for MRCPsych Paper B: Alcohol, Opioids, and Illicit Drugs',
+    metaTitle: 'Substance Misuse for MRCPsych Paper B | Alcohol, Opioids, Stimulants',
+    metaDescription: 'Substance misuse for MRCPsych Paper B. Alcohol withdrawal management, opioid dependence treatment, cannabis and stimulant effects, and recall-confirmed exam question patterns.',
+    date: '2026-06-12',
+    readTime: '12 min read',
+    category: 'Paper B',
+    tags: ['substance misuse', 'alcohol', 'opioids', 'cannabis', 'ketamine', 'addiction', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Substance misuse accounts for approximately 8% of Paper B marks. The questions are highly predictable because the presentations, withdrawal syndromes, and management protocols are standardised across clinical practice. Recall documents confirm that the same patterns reappear across sittings: alcohol withdrawal management in liver failure, opioid overdose treatment, and distinguishing between substances based on their clinical presentation.</p>
+
+      <h2>Alcohol</h2>
+
+      <h3>Alcohol Withdrawal</h3>
+
+      <p>Alcohol withdrawal typically begins 4-12 hours after the last drink. This is a specific figure that appears in recalls. Symptoms include tremor, sweating, anxiety, agitation, nausea, tachycardia, and hypertension. Without treatment, progression to alcohol withdrawal seizures (12-48 hours) and delirium tremens (48-96 hours). Delirium tremens: confusion, visual/tactile hallucinations, autonomic hyperactivity, 5-10% mortality if untreated.</p>
+
+      <p><strong>Management of alcohol withdrawal:</strong> Reducing-dose benzodiazepine regimen. Chlordiazepoxide is the most commonly used. For acute liver failure: oxazepam (does not undergo hepatic oxidation — conjugated directly). A recall confirmed this: <em>\u201cAlcohol withdrawal, patient in acute liver failure \u2014 what to use?\u201d</em> Answer: oxazepam.</p>
+
+      <p><strong>Thiamine:</strong> All patients with alcohol dependence should receive parenteral thiamine (Pabrinex) to prevent Wernicke\u2019s encephalopathy (confusion, ataxia, ophthalmoplegia with nystagmus as most common ocular sign). Korsakoff syndrome: anterograde amnesia and confabulation.</p>
+
+      <p><strong>Alcohol + GABA-A/NMDA:</strong> Alcohol acts on BOTH GABA-A (agonist, enhanced inhibition) AND NMDA (antagonist, reduced excitation). Benzodiazepines affect GABA-A only. Ketamine affects NMDA only. Exam question: <em>\u201cWhich one acts on both GABA-A and NMDA?\u201d</em> Answer: alcohol.</p>
+
+      <h3>Alcohol Dependence Treatment</h3>
+
+      <p>Psychosocial interventions first-line. Pharmacological options: acamprosate (craving via glutamate modulation), naltrexone (opioid-mediated reward), disulfiram (aversive, second-line).</p>
+
+      <h2>Opioids</h2>
+
+      <p><strong>Opioid overdose:</strong> Pinpoint pupils, respiratory depression, reduced conscious level. Naloxone IM (short half-life of 20-60 minutes \u2014 monitor for re-emergence of overdose). Methadone overdose needs repeated naloxone or infusion due to its 24-36 hour half-life.</p>
+
+      <p><strong>Opioid dependence:</strong> Methadone (full agonist, long half-life, once daily, supervised initially) or buprenorphine (partial agonist, lower overdose risk, ceiling effect).</p>
+
+      <h2>Stimulants and Other Drugs</h2>
+
+      <p><strong>Cocaine:</strong> Short-acting full agonist at dopamine/noradrenaline/serotonin transporters. Increased energy, euphoria, decreased sleep. Medical complications: MI, seizures, aortic dissection.</p>
+
+      <p><strong>Cannabis:</strong> Laughing, giggling, relaxed, amotivational syndrome with chronic use. Synthetic cannabinoids (\u201cSpice\u201d) = full CB1 agonists (more potent, paranoia, hallucinations).</p>
+
+      <p><strong>Ketamine:</strong> NMDA antagonist. Chronic use: ketamine cystitis (bladder atrophy, bleeding, renal failure).</p>
+
+      <p><strong>Most likely to form physical dependence:</strong> Alprazolam (short half-life benzodiazepine produces severe withdrawal).</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+
+      <ul>
+        <li><strong>Alcohol withdrawal + acute liver failure:</strong> Oxazepam</li>
+        <li><strong>Acts on both GABA-A and NMDA:</strong> Alcohol</li>
+        <li><strong>Pinpoint pupils + respiratory depression:</strong> Opioid overdose = naloxone IM</li>
+        <li><strong>Laughing, giggling, relaxed, usually smoked:</strong> Cannabis</li>
+        <li><strong>Increased energy, decreased sleep, short-acting:</strong> Cocaine</li>
+        <li><strong>Full agonist, paranoia, hallucinations:</strong> Synthetic cannabinoid</li>
+        <li><strong>Chronic ketamine + bladder pain + haematuria:</strong> Ketamine cystitis</li>
+        <li><strong>Jittery, overaroused newborn + maternal history:</strong> Opioid exposure</li>
+        <li><strong>Most likely to form physical dependence:</strong> Alprazolam</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank includes dedicated substance misuse questions with recall-calibrated difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'human-development-mrcpsych-paper-a',
+    title: 'Human Development for MRCPsych Paper A: Attachment, Piaget, Erikson, and Lifespan',
+    metaTitle: 'Human Development for MRCPsych Paper A | Attachment, Piaget, Erikson',
+    metaDescription: 'Human development for MRCPsych Paper A. Attachment theory (Bowlby, Ainsworth), cognitive development (Piaget), psychosocial stages (Erikson), and lifespan development for the exam.',
+    date: '2026-06-12',
+    readTime: '11 min read',
+    category: 'Paper A',
+    tags: ['human development', 'attachment theory', 'Piaget', 'Erikson', 'lifespan', 'Paper A'],
+    featured: false,
+    content: `
+      <p>Human development accounts for approximately 10% of Paper A marks (roughly 15 of 150 questions). The content covers attachment theory, cognitive development, psychosocial development, moral development, and developmental psychopathology. Questions often present a clinical vignette and ask which developmental concept best explains the presentation.</p>
+
+      <h2>Attachment Theory</h2>
+
+      <p>Bowlby proposed that attachment is an innate biological system keeping the infant close to the caregiver for protection. The internal working model formed in infancy influences relationships throughout life. Bowlby\u2019s phases: pre-attachment (0-6 wks), attachment-in-the-making (6 wks to 6-8 mo), clear-cut attachment (6-8 mo to 18-24 mo), goal-corrected partnership (from 18-24 mo). The maternal deprivation hypothesis from Bowlby\u2019s 44 juvenile thieves study proposed that prolonged separation leads to affectionless psychopathy and cognitive delay.</p>
+
+      <p><strong>Ainsworth\u2019s attachment styles (Strange Situation):</strong></p>
+      <ul>
+        <li><strong>Secure (60-65%):</strong> Explores freely, distressed at separation, easily soothed on reunion. Sensitive, responsive caregiving.</li>
+        <li><strong>Insecure-avoidant (15-20%):</strong> Little distress, avoids caregiver on reunion. Rejecting/unresponsive caregiving.</li>
+        <li><strong>Insecure-ambivalent (10-15%):</strong> Intense distress, difficult to soothe, seeks and resists contact. Inconsistent caregiving.</li>
+        <li><strong>Disorganised (5-10%):</strong> Contradictory behaviours (freezing, stereotypies, approach-avoidance). Maltreatment or caregiver trauma. Strongest link to later psychopathology.</li>
+      </ul>
+
+      <h2>Cognitive Development: Piaget</h2>
+      <ul>
+        <li><strong>Sensorimotor (0-2):</strong> Object permanence at 8-12 months</li>
+        <li><strong>Preoperational (2-7):</strong> Symbolic thinking, egocentrism, lack of conservation</li>
+        <li><strong>Concrete operational (7-11):</strong> Logical thinking about concrete events, conservation achieved</li>
+        <li><strong>Formal operational (11+):</strong> Abstract reasoning, hypothetical thinking (~1/3 of adults reach this)</li>
+      </ul>
+
+      <h2>Psychosocial Development: Erikson (8 Stages)</h2>
+      <p>Trust vs Mistrust (Hope, 0-1), Autonomy vs Shame/Doubt (Will, 1-3), Initiative vs Guilt (Purpose, 3-6), Industry vs Inferiority (Competence, 6-12), Identity vs Role Confusion (Fidelity, 12-18), Intimacy vs Isolation (Love, 18-40), Generativity vs Stagnation (Care, 40-65), Ego Integrity vs Despair (Wisdom, 65+).</p>
+
+      <h2>Moral Development: Kohlberg</h2>
+      <p>Preconventional (obedience, self-interest), Conventional (interpersonal accord, social order), Postconventional (social contract, universal ethics). Based on responses to the Heinz dilemma.</p>
+
+      <h2>Vygotsky</h2>
+      <p>Emphasised social learning driving development (contrary to Piaget\u2019s maturation-first view). Zone of proximal development (ZPD) and scaffolding.</p>
+
+      <h2>Key Recall Patterns</h2>
+      <ul>
+        <li><strong>Object permanence:</strong> Sensorimotor stage (Piaget, 0-2)</li>
+        <li><strong>Identity vs role confusion:</strong> Adolescence (Erikson, 12-18)</li>
+        <li><strong>Disorganised attachment + maltreatment:</strong> Strongest link to later psychopathology</li>
+        <li><strong>Assimilation vs accommodation:</strong> Assimilation fits new info into existing schemas; accommodation modifies schemas</li>
+        <li><strong>44 juvenile thieves study:</strong> Bowlby, maternal deprivation hypothesis</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper A question bank covers human development with questions calibrated to exam depth. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'personality-disorders-mrcpsych-paper-b',
+    title: 'Personality Disorders for MRCPsych Paper B: Classification, Assessment, and Management',
+    metaTitle: 'Personality Disorders for MRCPsych Paper B | ICD-11, BPD, ASPD',
+    metaDescription: 'Personality disorders for MRCPsych Paper B. ICD-11 dimensional model, borderline and antisocial PD, defence mechanisms, NICE treatment guidelines, and exam question patterns.',
+    date: '2026-06-12',
+    readTime: '12 min read',
+    category: 'Paper B',
+    tags: ['personality disorders', 'BPD', 'ASPD', 'ICD-11', 'defence mechanisms', 'borderline', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Personality disorders are examined as part of general adult psychiatry in Paper B. The ICD-11 moved from the categorical approach of ICD-10 (10 distinct types) to a dimensional model, which is a recurring topic in recent examinations. Borderline personality disorder receives the most attention because of its clinical importance and specific evidence-based treatments. Defence mechanisms are a particular favourite in EMI-style questions.</p>
+
+      <h2>ICD-11 Dimensional Model</h2>
+
+      <p>ICD-11 replaced the 10 categorical types with a single personality disorder diagnosis graded by severity (mild, moderate, severe). Trait domain qualifiers: negative affectivity, detachment, dissociality, disinhibition, anankastia. The <strong>borderline pattern specifier</strong> was retained because of specific treatment implications (DBT).</p>
+
+      <h2>Borderline Personality Disorder</h2>
+
+      <p><strong>Defence mechanisms (exam-favourite):</strong> Splitting (all-good/all-bad), acting out (self-harm as the classic example), projective identification, idealisation and devaluation. ICD-11 specifically identifies acting out as a key feature. Splitting is the most commonly tested defence in BPD.</p>
+
+      <p><strong>NICE management:</strong> DBT specifically for women with recurrent self-harm. MBT and TFP are also evidence-based. Medication should not be prescribed specifically for BPD core symptoms — treat comorbid conditions only.</p>
+
+      <h2>Antisocial Personality Disorder</h2>
+
+      <p>Pervasive disregard for rights of others, present from age 15 (diagnosis from 18). Forensic associations (recall-confirmed): ASPD + LD + substance abuse = most common with sexual offending and theft. Group-based CBT (thinking skills programmes) rather than individual therapy.</p>
+
+      <h2>Other Key Distinctions</h2>
+      <ul>
+        <li><strong>Schizotypal vs schizoid:</strong> Schizotypal = anxiety + desire relationships but socially awkward. Schizoid = aloof, indifferent, prefers solitude.</li>
+        <li><strong>Avoidant vs schizoid:</strong> Avoidant WANTS relationships but fears rejection. Schizoid has no desire.</li>
+        <li><strong>OCPD vs OCD:</strong> OCPD = personality pattern, believes their way is right. OCD = recognises behaviours as excessive.</li>
+      </ul>
+
+      <h2>High-Yield Recall Patterns</h2>
+      <ul>
+        <li><strong>Most common defence in BPD (ICD-11):</strong> Splitting AND acting out</li>
+        <li><strong>Persistent anxiety + social anxiety:</strong> Schizotypal PD (NOT schizoid)</li>
+        <li><strong>Sexual reoffending strongest predictor:</strong> Sexual deviancy + antisocial PD</li>
+        <li><strong>BPD + recurrent self-harm:</strong> DBT (NICE-recommended)</li>
+        <li><strong>ASPD treatment:</strong> Group-based CBT / thinking skills programmes</li>
+        <li><strong>ICD-11 change:</strong> Dimensional model. Borderline specifier retained for DBT implications.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers personality disorders with questions calibrated to real exam difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
     `
   },
 ]
