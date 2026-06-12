@@ -1802,4 +1802,207 @@ export const articles: Article[] = [
       <p>PsychStar\u2019s Paper B question bank covers personality disorders with questions calibrated to real exam difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
     `
   },
+  {
+    slug: 'history-and-philosophy-mrcpsych-paper-a',
+    title: 'History and Philosophy of Psychiatry for MRCPsych Paper A: Key Figures, Movements, and Ideas',
+    metaTitle: 'History and Philosophy of Psychiatry for MRCPsych Paper A | Key Figures & Schools',
+    metaDescription: 'History and philosophy of psychiatry for MRCPsych Paper A. Kraepelin, Bleuler, Freud, Jaspers, Schneider, anti-psychiatry movement, phenomenology, and ethical principles for the exam.',
+    date: '2026-06-12',
+    readTime: '13 min read',
+    category: 'Paper A',
+    tags: ['history of psychiatry', 'philosophy', 'Kraepelin', 'Bleuler', 'Jaspers', 'anti-psychiatry', 'Paper A'],
+    featured: false,
+    content: `
+      <p>History and philosophy of psychiatry accounts for approximately 8% of Paper A marks (roughly 12 of 150 questions). The content divides evenly between historical figures and their contributions, philosophical schools and their influence on psychiatric theory, and ethical principles. The questions are factual and reward precise knowledge rather than interpretation. A candidate who knows who said what and when can answer most of this section confidently.</p>
+
+      <h2>Early History: The Birth of Modern Psychiatry</h2>
+
+      <p><strong>Philippe Pinel (1745-1826):</strong> French physician credited with the first systematic classification of mental disorders. He is best known for striking the chains from patients at the Bic\u00eatre Hospital in Paris (1793) and later at the Salp\u00eatri\u00e8re (1795). This symbolises the moral treatment movement, which viewed mental illness as a disruption of the passions that could be treated through humane and compassionate engagement. Pinel published <em>Treatise on Insanity</em> (1801) and classified melancholia, mania, dementia, and idiotism as distinct categories. His student Jean-\u00c9tienne Esquirol (1772-1840) introduced the term hallucination, distinguishing it from illusion, and developed the concept of monomania (a partial insanity focused on a single subject).</p>
+
+      <p><strong>William Tuke (1732-1822):</strong> English Quaker who founded the York Retreat (1796), a model of moral treatment emphasising rest, work, religious and social activities, and minimal restraint. The Tuke family ran the Retreat for generations and influenced the development of humane psychiatry in England.</p>
+
+      <p><strong>Emil Kraepelin (1856-1926):</strong> German psychiatrist who created the first systematic classification of mental illness based on longitudinal course and outcome, not just cross-sectional symptomatology. He divided psychotic illnesses into dementia praecox (a deteriorating course, later renamed schizophrenia by Bleuler) and manic-depressive insanity (an episodic course with recovery between episodes). This dichotomy dominated psychiatric classification for a century and is the foundation of ICD and DSM. Kraepelin also contributed to the study of cross-cultural psychiatry (studying in Java) and psychopharmacology (investigating the effects of various substances on mental states).</p>
+
+      <p><strong>Eugen Bleuler (1857-1939):</strong> Swiss psychiatrist who introduced the term \u201cschizophrenia\u201d (from Greek \u201csplit mind\u201d \u2014 referring to the splitting of psychic functions, not dissociative identity disorder). He argued that the fundamental symptoms (the four A\u2019s) were specific to schizophrenia: loose Associations, Autism (social withdrawal), Ambivalence, and Affective blunting. The accessory symptoms (hallucinations, delusions, catatonia) were not specific and could occur in other conditions. This distinction between fundamental and accessory symptoms is sometimes tested.</p>
+
+      <p><strong>Karl Jaspers (1883-1969):</strong> German psychiatrist and philosopher whose work <em>General Psychopathology</em> (1913) established the methodological foundations for descriptive psychopathology. Jaspers introduced the crucial distinction between meaningful connections (that can be understood through empathy \u2014 <em>verstehen</em>) and causal explanations (that must be explained through scientific method \u2014 <em>erkl\u00e4ren</em>). He distinguished between true delusions (primary delusions \u2014 not psychologically understandable) and delusion-like ideas (secondary delusions \u2014 psychologically understandable). This distinction remains central to the assessment of psychotic symptoms.</p>
+
+      <p><strong>Kurt Schneider (1887-1967):</strong> German psychiatrist who described first-rank symptoms of schizophrenia for the purpose of reliable diagnosis. These include: auditory hallucinations (voices commenting, voices discussing the patient, thought echo), thought disorder (thought insertion, thought withdrawal, thought broadcast), passivity phenomena (bodily passivity, made impulses, made volitions, made affects), and delusional perception. Schneider never intended these to be pathognomonic but emphasised their diagnostic weight. First-rank symptoms are no longer required for ICD-11 diagnosis but remain clinically useful.</p>
+
+      <h2>The Psychoanalytic Tradition</h2>
+
+      <p><strong>Sigmund Freud (1856-1939):</strong> Austrian neurologist who founded psychoanalysis. His structural model divided the psyche into id (unconscious, pleasure principle), ego (reality principle, mediates between id and superego), and superego (internalised moral standards). His topographical model divided consciousness into conscious, preconscious, and unconscious. Freud proposed psychosexual stages (oral, anal, phallic, latency, genital) and described defence mechanisms (repression, projection, rationalisation, reaction formation, sublimation, displacement, denial, intellectualisation). His therapeutic method (free association, dream analysis, interpretation of transference) dominated psychotherapy for much of the 20th century. Important collaborators and dissenters include Jung (analytic psychology, collective unconscious, archetypes), Adler (individual psychology, inferiority complex), and Klein (object relations, paranoid-schizoid and depressive positions).</p>
+
+      <p><strong>Carl Jung (1875-1961):</strong> Broke with Freud in 1913. Proposed the collective unconscious (shared ancestral memories and archetypes), psychological types (introversion/extraversion, thinking/feeling, sensing/intuiting), and the process of individuation (integration of the conscious and unconscious). His word association test remains a standard neuropsychological tool.</p>
+
+      <p><strong>Melanie Klein (1882-1960):</strong> Extended psychoanalysis to children through play therapy. Described the paranoid-schizoid position (first 6 months \u2014 splitting, projective identification) and depressive position (capacity for concern and guilt, recognition of whole objects). Her concepts of projective identification are frequently referenced in modern psychotherapy literature and examined in Paper B.</p>
+
+      <p><strong>John Bowlby (1907-1990):</strong> Attachment theory. His work is tested in both Paper A (human development section) and Paper B. See the human development article for details.</p>
+
+      <h2>Philosophical Schools in Psychiatry</h2>
+
+      <p><strong>Phenomenology:</strong> The study of subjective experience as it is lived, bracketing (epoch\u00e9) assumptions about causation. Jaspers introduced phenomenology to psychiatry as a method for understanding the patient\u2019s inner world. This contrasts with positivism (the view that only objective, measurable phenomena are real). The phenomenological approach underpins descriptive psychopathology and the mental state examination.</p>
+
+      <p><strong>Hermeneutics:</strong> The theory of interpretation, emphasising that understanding requires grasping the meaning of human action within its context. In psychiatry, this is relevant to psychotherapy (interpreting the meaning of symptoms) and to the qualitative research methods increasingly used in psychiatric research.</p>
+
+      <p><strong>Positivism:</strong> The view that only empirical, observable phenomena can count as knowledge. This is the dominant epistemology in biological psychiatry and evidence-based medicine. The tension between positivism and hermeneutics in psychiatry is a philosophical question that appears in the exam: can mental illness be fully explained by neuroscience, or does it require interpretive understanding?</p>
+
+      <p><strong>Mind-body problem:</strong> The philosophical question of how mental phenomena relate to physical processes. Positions include dualism (Descartes: mind and body are separate substances), materialism (mental states are identical to brain states), epiphenomenalism (mental states are caused by brain states but have no causal power themselves), functionalism (mental states are defined by their causal roles, not their physical substrate), and identity theory (mental types are identical to brain types). The development of psychopharmacology and neuroimaging has shifted psychiatry toward materialism, but the philosophical debate remains relevant to questions of free will, responsibility, and the nature of psychiatric disorder.</p>
+
+      <h2>The Anti-Psychiatry Movement</h2>
+
+      <p>The anti-psychiatry movement of the 1960s-70s challenged the medical model of mental illness. This is a recurring topic that the exam tests in factual terms.</p>
+
+      <p><strong>Thomas Szasz (1920-2012):</strong> American psychiatrist who argued that mental illness is a myth (1961) \u2014 a metaphor for problems in living. He distinguished between brain disease (organic) and mental illness (behavioural deviance labelled as disease). Szasz was a libertarian who opposed involuntary psychiatric treatment and the insanity defence in criminal law. His position was that mental illness is a matter of social values, not medical facts.</p>
+
+      <p><strong>R.D. Laing (1927-1989):</strong> Scottish psychiatrist associated with the anti-psychiatry movement (though he rejected the label). He argued that schizophrenia was a rational response to an insane social environment, particularly the double-bind hypothesis (Bateson 1956 \u2014 contradictory messages from caregivers that the child cannot resolve). His book <em>The Divided Self</em> (1960) attempted to make psychotic experience intelligible from the patient\u2019s perspective. He established therapeutic communities (like Kingsley Hall) where patients and staff lived together without traditional medical hierarchies.</p>
+
+      <p><strong>Michel Foucault (1926-1984):</strong> French philosopher who wrote <em>Madness and Civilisation</em> (1961), arguing that the confinement of the mad was a form of social exclusion that occurred after the Enlightenment, not a scientific advance. The \u201cgreat confinement\u201d removed the mad from public life and replaced their medieval status (sometimes tolerated, housed in leper colonies) with institutionalisation. Foucault\u2019s work connects the history of psychiatry to broader questions of power and social control.</p>
+
+      <p><strong>Erving Goffman (1922-1982):</strong> American sociologist who studied total institutions (asylums, prisons, monasteries). His book <em>Asylums</em> (1961) described the mortification of the self through institutional rituals (loss of personal belongings, uniforms, loss of privacy, subordination to authority). He introduced the concept of the moral career of the mental patient and the process by which institutionalisation itself creates disability (institutionalisation syndrome: apathy, dependence, loss of initiative).</p>
+
+      <h2>The Development of Classification</h2>
+
+      <p><strong>ICD (International Classification of Diseases):</strong> First published by WHO in 1948 (ICD-6). ICD-8 (1965) included a glossary of mental disorders. ICD-9 (1975) expanded the coverage. ICD-10 (1992) introduced operationalised diagnostic criteria for the first time, using an alphanumeric coding system (F00-F99 for mental and behavioural disorders). ICD-11 (2019, adopted 2022) introduced the dimensional model for personality disorders, removed schizophrenia subtypes, simplified depressive disorder criteria, and introduced new categories such as gaming disorder and complex PTSD.</p>
+
+      <p><strong>DSM (Diagnostic and Statistical Manual of Mental Disorders):</strong> Published by the American Psychiatric Association. DSM-I (1952) reflected psychodynamic theory. DSM-II (1968) was similar. DSM-III (1980) was a paradigm shift \u2014 introduced explicit diagnostic criteria, multiaxial assessment, and a descriptive (atheoretical) approach aligned with the Feighner criteria and Research Diagnostic Criteria. This publication transformed psychiatric research and clinical practice. DSM-IV (1994) and DSM-IV-TR (2000) refined the criteria. DSM-5 (2013) removed the multiaxial system, reorganized some categories, and introduced dimensional measures for some disorders. DSM-5-TR (2022) updated the text with current evidence.</p>
+
+      <p><strong>ICD vs DSM:</strong> ICD is the official classification system for the UK and most of the world. DSM is used primarily in the USA and for psychiatric research. They have converged considerably since DSM-III but retain differences. For MRCPsych, ICD-11 is the relevant classification. DSM criteria are sometimes used to supplement understanding but the exam questions reference ICD.</p>
+
+      <h2>Ethics in Psychiatry</h2>
+
+      <p>The four principles of medical ethics (Beauchamp and Childress): autonomy (respect the patient\u2019s right to self-determination), beneficence (act in the patient\u2019s best interest), non-maleficence (do no harm), and justice (fair distribution of resources). In psychiatry, these principles frequently conflict: withholding treatment against a patient\u2019s wishes under the MHA (autonomy vs beneficence/non-maleficence), allocating scarce resources like inpatient beds (justice vs beneficence).</p>
+
+      <p>The <strong>Bournewood gap</strong> (1997): An autistic man who lacked capacity was informally admitted to hospital without using the MHA. The European Court of Human Rights found this violated Article 5 (right to liberty). This led to the introduction of Deprivation of Liberty Safeguards (DOLS) in the MCA 2005, and more recently the Liberty Protection Safeguards (LPS).</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+
+      <ul>
+        <li><strong>Struck chains from patients:</strong> Philippe Pinel (1793, Bic\u00eatre)</li>
+        <li><strong>First systematic classification by course/outcome:</strong> Emil Kraepelin (dementia praecox vs manic-depressive)</li>
+        <li><strong>Coined the term schizophrenia:</strong> Eugen Bleuler (four A\u2019s: Associations, Autism, Ambivalence, Affect)</li>
+        <li><strong>First-rank symptoms of schizophrenia:</strong> Kurt Schneider</li>
+        <li><strong>Verstehen vs erkl\u00e4ren (understanding vs explaining):</strong> Karl Jaspers (<em>General Psychopathology</em>, 1913)</li>
+        <li><strong>True delusions vs delusion-like ideas:</strong> Jaspers \u2014 true delusions are not psychologically understandable</li>
+        <li><strong>Mental illness is a myth:</strong> Thomas Szasz</li>
+        <li><strong>Schizophrenia as a rational response to double-bind:</strong> R.D. Laing (<em>The Divided Self</em>)</li>
+        <li><strong>Great confinement / social exclusion of madness:</strong> Michel Foucault (<em>Madness and Civilisation</em>)</li>
+        <li><strong>Total institutions / mortification of self:</strong> Erving Goffman (<em>Asylums</em>)</li>
+        <li><strong>Moral treatment / York Retreat:</strong> William Tuke (1796)</li>
+        <li><strong>Psychoanalysis founder:</strong> Sigmund Freud (id/ego/superego, psychosexual stages, defence mechanisms)</li>
+        <li><strong>Collective unconscious / archetypes:</strong> Carl Jung</li>
+        <li><strong>Object relations / play therapy:</strong> Melanie Klein (paranoid-schizoid and depressive positions)</li>
+        <li><strong>Four principles of medical ethics:</strong> Autonomy, beneficence, non-maleficence, justice</li>
+        <li><strong>Bournewood gap:</strong> Led to DOLS/LPS</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper A question bank includes history and philosophy questions calibrated to real exam depth. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'old-age-psychiatry-mrcpsych-paper-b',
+    title: 'Old Age Psychiatry for MRCPsych Paper B: Dementia, Delirium, and Late-Life Mental Health',
+    metaTitle: 'Old Age Psychiatry for MRCPsych Paper B | Dementia, Delirium & Late-Life Care',
+    metaDescription: 'Old age psychiatry for MRCPsych Paper B. Dementia subtypes (Alzheimer\u2019s, vascular, DLB, FTD), delirium diagnosis and management, depression in older adults, and service organisation.',
+    date: '2026-06-12',
+    readTime: '14 min read',
+    category: 'Paper B',
+    tags: ['old age psychiatry', 'dementia', 'Alzheimer\u2019s', 'delirium', 'BPSD', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Old age psychiatry accounts for approximately 10% of Paper B marks (roughly 15 of 150 questions). The content covers dementia subtypes and their management, delirium, depression in older adults, late-life psychosis, and service organisation for older people\u2019s mental health. The number of effective treatments is small, so the exam tests distinctions between dementia subtypes, appropriate pharmacological management, risk assessment, and the interface between mental health and social care.</p>
+
+      <h2>Dementia: Classification and Diagnosis</h2>
+
+      <p>Dementia is a clinical syndrome characterised by progressive cognitive decline that interferes with daily function, in a clear sensorium (unlike delirium), with onset in later life. The most common early-onset dementia is Alzheimer\u2019s disease, despite the common belief that frontotemporal dementia is more frequent in younger patients.</p>
+
+      <h3>Alzheimer\u2019s Disease (~60% of dementias)</h3>
+
+      <p>Core features: Insidious onset, gradual progression over years. Early and prominent impairment of episodic memory (hippocampal dysfunction) \u2014 the patient forgets recent events while remote memories are relatively preserved early on. As the disease progresses, language impairment (anomia, then aphasia), visuospatial deficits, and executive dysfunction emerge. Behavioural and psychological symptoms occur in 80-90% over the course of the illness: apathy (most common), agitation, aggression, depression, psychosis, sleep disturbance.</p>
+
+      <p><strong>Pathology:</strong> Extracellular amyloid-beta plaques, intracellular neurofibrillary tangles (hyperphosphorylated tau protein), and neuronal loss. The earliest changes occur in the entorhinal cortex and hippocampus (Braak stages), then spread to temporal, parietal, and frontal cortex. ApoE4 is the strongest genetic risk factor (not causal). Early-onset familial Alzheimer\u2019s (<65 years) is associated with mutations in amyloid precursor protein (APP), presenilin 1 (PSEN1), and presenilin 2 (PSEN2) genes.</p>
+
+      <p><strong>Investigations:</strong> CT/MRI shows hippocampal atrophy, particularly on coronal sections. CSF shows reduced amyloid-beta 42 and increased total tau and phospho-tau. FDG-PET shows temporoparietal hypometabolism.</p>
+
+      <h3>Vascular Dementia (~15% of dementias)</h3>
+
+      <p>Core features: Stepwise deterioration corresponding to cerebrovascular events. Cognitive deficits are variable depending on the location of the infarcts. Executive dysfunction (slow processing, poor concentration, impaired planning) is often more prominent than memory loss, in contrast to Alzheimer\u2019s. Focal neurological signs are common. Risk factors are those for cerebrovascular disease: hypertension, diabetes, smoking, atrial fibrillation, hypercholesterolaemia.</p>
+
+      <p><strong>Subtypes:</strong> Multi-infarct dementia (multiple cortical infarcts), strategic infarct dementia (single infarct in a critical area like thalamus), small vessel disease (Binswanger\u2019s disease: widespread subcortical white matter changes, more gradual progression). A recall question described a patient with memory loss, hypertension, and MRI showing infarcts \u2014 answer: Binswanger\u2019s disease.</p>
+
+      <p><strong>Imaging:</strong> CT/MRI shows evidence of infarcts, white matter hyperintensities (leukoaraiosis). The key distinction from Alzheimer\u2019s is relative preservation of hippocampal volume.</p>
+
+      <h3>Dementia with Lewy Bodies (DLB, ~10% of dementias)</h3>
+
+      <p>Core features: The clinical triad is fluctuating cognition (marked variation in attention and alertness over hours to days), recurrent well-formed visual hallucinations (detailed, vivid images of people or animals), and parkinsonism (rigidity, bradykinesia, postural instability \u2014 less prominent tremor than Parkinson\u2019s disease). REM sleep behaviour disorder (acting out dreams) is a supportive feature. Dysautonomia is common.</p>
+
+      <p><strong>Diagnostic significance:</strong> DLB is the dementia most likely to present with psychiatric symptoms first (hallucinations, depression, behavioural disturbance). This is important when the exam presents a patient with visual hallucinations and cognitive fluctuations \u2014 the answer is DLB, not primary psychotic disorder.</p>
+
+      <p><strong>Management:</strong> First-line for psychosis in DLB is rivastigmine (a cholinesterase inhibitor that may improve cognition and hallucinations). Antipsychotics are used with extreme caution and only when necessary, as patients with DLB are exquisitely sensitive to D2 blockade \u2014 up to 50% will develop severe neuroleptic sensitivity (parkinsonism, sedation, confusion, autonomic instability, can be fatal). If an antipsychotic is necessary, risperidone or olanzapine (low starting dose) is used, but quetiapine is often preferred for its lower D2 occupancy. This is a recurring question.</p>
+
+      <h3>Frontotemporal Dementia (FTD, ~5% of dementias)</h3>
+
+      <p>Core features: Earlier onset than Alzheimer\u2019s (typically 45-65 years). Two main presentations: behavioural variant (bvFTD \u2014 personality change, executive dysfunction, loss of empathy, disinhibition, apathy, stereotyped behaviours) and primary progressive aphasia (language variant \u2014 progressive loss of language function, classified as non-fluent/agrammatic, semantic, or logopenic). A recall question described Pick\u2019s disease (FTD with Pick bodies on histology) as presenting with no insight, cognitive decline, and primary motor dysphasia (non-fluent aphasia). Insight is notably impaired early in bvFTD.</p>
+
+      <p><strong>Pathology:</strong> Tau protein inclusions (Pick bodies) or TDP-43 inclusions. Atrophy is most prominent in the frontal and anterior temporal lobes (on CT/MRI), with the characteristic \u201cknife-edge\u201d gyral atrophy. SPECT shows frontal and anterior temporal hypoperfusion, which helps distinguish FTD from Alzheimer\u2019s (which shows temporoparietal changes).</p>
+
+      <p><strong>Management:</strong> No pharmacological treatments are approved for FTD. Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) are NOT effective in FTD and may worsen behavioural symptoms. Management is non-pharmacological: behavioural interventions, environmental modification, carer support. SSRIs may help with disinhibition and repetitive behaviours.</p>
+
+      <h2>Pharmacological Management of Dementia</h2>
+
+      <p><strong>Cholinesterase inhibitors (donepezil, rivastigmine, galantamine):</strong> Licensed for mild to moderate Alzheimer\u2019s disease. NICE recommends them as options for managing Alzheimer\u2019s (reviewed at 3-6 month intervals). Donepezil (once daily) is most commonly used. Rivastigmine is the only one licensed for DLB and Parkinson\u2019s disease dementia. Galantamine is also a nicotinic receptor modulator. Side effects: nausea, vomiting, diarrhoea, bradycardia, and muscle cramps donepezil can cause bradycardia and hypotension (recall question: patient on donepezil 10mg, hypotensive, ankle oedema \u2014 ECG shows sinus bradycardia).</p>
+
+      <p><strong>Memantine:</strong> NMDA receptor antagonist. Licensed for moderate to severe Alzheimer\u2019s disease (NICE recommends it as an option for managing Alzheimer\u2019s in people with moderate or severe disease). Can be used alone or in combination with a cholinesterase inhibitor. Side effects: constipation, headache, dizziness, hypertension.</p>
+
+      <p><strong>BPSD management (Behavioural and Psychological Symptoms of Dementia):</strong> First-line is non-pharmacological (ABC approach: Antecedent, Behaviour, Consequence \u2014 identifying triggers and modifying the environment, carer training, structured activities). Medication is reserved for severe distress or risk to self/others. The first-line antipsychotic is risperidone (licensed for up to 6 weeks for persistent aggression in Alzheimer\u2019s). Haloperidol is used for severe agitation or psychosis but carries higher EPS risk. Antipsychotics increase stroke risk (all antipsychotics, approximately 2-fold) and mortality in dementia, and should be used at the lowest effective dose for the shortest possible time.</p>
+
+      <h2>Delirium</h2>
+
+      <p>Delirium is an acute, fluctuating disturbance in attention and awareness caused by an underlying medical condition. It is the most common acute neuropsychiatric syndrome in hospitalised older adults and is associated with increased length of stay, institutionalisation, and mortality. The detection and management of delirium is a mandatory competency and appears regularly in Paper B.</p>
+
+      <p><strong>Clinical features (ICD-11 criteria):</strong> Disturbance in attention (reduced ability to direct, focus, sustain, and shift attention) and awareness (disorientation, reduced orientation to environment), developing over hours to days, fluctuating during the day. Additional features: cognitive disturbance (memory, language, orientation), perceptual disturbances (illusions, hallucinations \u2014 often visual or tactile), delusions (often persecutory, poorly formed), psychomotor disturbance (hyperactive: agitation, restlessness; hypoactive: lethargy, reduced movement; mixed), emotional disturbance (anxiety, fear, irritability, apathy).</p>
+
+      <p><strong>Hyperactive vs hypoactive delirium:</strong> Hyperactive delirium is more likely to be recognised (agitation, wandering, shouting, hallucinations). Hypoactive delirium (withdrawn, quiet, lethargic, reduced speech) is more common but frequently missed. Both types are equally serious in prognosis. Between the two, hypoactive delirium has higher mortality but is less easily detected. A standard question asks about the hypoactive subtype being missed in clinical practice.</p>
+
+      <p><strong>Causes (PINCH ME mnemonic):</strong> Pain, Infection (UTI, chest), Nutrition (dehydration, electrolyte imbalance), Constipation, Hypoxia, Medication (anticholinergics, sedatives, opioids, steroids), Environment (sensory impairment, sleep deprivation). Polypharmacy and anticholinergic burden are the most common reversible contributing factors.</p>
+
+      <p><strong>Assessment:</strong> Confusion Assessment Method (CAM) is the validated screening tool: acute onset and fluctuating course, inattention, and either disorganised thinking or altered level of consciousness. Additional investigations: FBC, U&Es, glucose, calcium, LFTs, TFTs, B12/folate, infection screen (blood cultures, urine, chest X-ray), ECG, CT head if indicated.</p>
+
+      <p><strong>Management:</strong> Identify and treat the underlying cause. Environmental measures: frequent orientation cues, familiar objects, clear communication, family presence, adequate lighting, sleep hygiene. Medication if the patient is distressed or at risk (do not medicate purely for staffing convenience). First-line for severe agitation: haloperidol 0.5-2mg (lower dose than in younger patients) OR lorazepam (particularly when cause is alcohol withdrawal or if antipsychotics are contraindicated). Second-line: olanzapine or risperidone.</p>
+
+      <h2>Depression in Older Adults</h2>
+
+      <p>Depression in older adults presents differently than in younger adults. Somatic symptoms (pain, fatigue, gastrointestinal disturbance) are more prominent. Psychomotor change (retardation or agitation) is more common. Cognitive impairment resembling dementia (depressive pseudodementia) can occur and may be difficult to distinguish from early dementia. The key distinction: in pseudodementia, cognitive deficits improve with treatment of depression. Neuropsychological testing may show inconsistent performance (variable across assessments, unlike Alzheimer\u2019s where deficits are consistent).</p>
+
+      <p><strong>Suicide risk in older adults:</strong> Older adults (particularly older men) have the highest suicide rates of any demographic group. Risk factors: male sex, widowed/divorced, living alone, physical illness, functional decline, recent bereavement, access to means. Suicide attempts in older adults are more lethal (higher completion rate). This is a high-yield concern in old age psychiatry questions.</p>
+
+      <p><strong>Treatment:</strong> SSRIs (sertraline first-line) are the pharmacological first choice at half the usual starting dose. Agomelatine is an alternative with favourable side-effect profile and no significant drug interactions. ECT is particularly effective and safe in older adults and is underutilised in this population. It should be considered early in severe depression with psychotic features, catatonia, or food/fluid refusal.</p>
+
+      <h2>Service Organisation for Older Adults</h2>
+
+      <p>Old age psychiatry services in the UK are community-oriented, with most patients managed at home or in care homes. The multidisciplinary team includes psychiatrists, community psychiatric nurses, occupational therapists, psychologists, social workers, and liaison with primary care. Memory clinics provide specialist assessment and diagnosis of dementia. Care home liaison services provide regular input to care homes to manage BPSD and reduce inappropriate antipsychotic prescribing.</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+
+      <ul>
+        <li><strong>Most common early-onset dementia:</strong> Alzheimer\u2019s disease (NOT FTD)</li>
+        <li><strong>Alzheimer\u2019s CT finding:</strong> Hippocampal atrophy</li>
+        <li><strong>Donepezil + bradycardia + hypotension:</strong> Sinus bradycardia (reduce or stop donepezil)</li>
+        <li><strong>Visual hallucinations + Parkinson\u2019s:</strong> Rivastigmine first-line, or consider low-dose quetiapine</li>
+        <li><strong>Visual hallucinations + fluctuating cognition + parkinsonism:</strong> DLB</li>
+        <li><strong>DLB + antipsychotics:</strong> Extreme neuroleptic sensitivity (50% develop severe reactions). Quetiapine preferred if needed.</li>
+        <li><strong>Stepwise deterioration + hypertension + infarcts on MRI:</strong> Vascular dementia / Binswanger\u2019s disease</li>
+        <li><strong>Early onset + personality change + loss of insight + language impairment:</strong> FTD / Pick\u2019s disease</li>
+        <li><strong>Pick\u2019s disease + language:</strong> Primary motor dysphasia (non-fluent aphasia)</li>
+        <li><strong>Acute confusion + fluctuating + inattention + medical cause:</strong> Delirium. Use CAM to screen.</li>
+        <li><strong>Hypoactive delirium:</strong> More common, higher mortality, more often missed than hyperactive</li>
+        <li><strong>Best dementia scale for non-English speaker with low education:</strong> RUDAS (Rowland Universal Dementia Assessment Scale)</li>
+        <li><strong>Becoming frail, query MCI vs dementia:</strong> Collateral history of functional impairment is key</li>
+        <li><strong>Depressive pseudodementia vs Alzheimer\u2019s:</strong> Inconsistent cognitive performance, improves with antidepressant treatment</li>
+        <li><strong>Highest suicide rate demographic:</strong> Older men (widowed, living alone, physical illness)</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers old age psychiatry with questions calibrated to real exam difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
 ]
