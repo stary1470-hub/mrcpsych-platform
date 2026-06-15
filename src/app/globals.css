@@ -1061,6 +1061,14 @@ tr:hover td { background: rgba(20, 184, 166, 0.03); }
   }
 }
 
+/* ── Blog Card Hover (no JS) ─────────────── */
+.blog-card-hover {
+  transition: border-color 0.15s ease;
+}
+.blog-card-hover:hover {
+  border-color: var(--accent-teal) !important;
+}
+
 /* ── Animations ───────────────────────────── */
 @keyframes fadeIn {
   from { opacity: 0; }

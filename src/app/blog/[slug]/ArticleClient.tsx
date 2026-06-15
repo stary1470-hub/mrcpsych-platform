@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import { Article } from '../articles'
 
@@ -8,10 +6,6 @@ interface Props {
 }
 
 export default function ArticleClient({ article }: Props) {
-  const currentIndex = article.slug === 'best-mrcpsych-question-banks-2026' ? 0 :
-    article.slug === 'how-to-pass-mrcpsych-paper-a' ? 1 :
-    article.slug === 'mrcpsych-paper-a-vs-paper-b' ? 2 : -1
-
   return (
     <div style={{ minHeight: '100vh', position: 'relative', overflow: 'hidden' }}>
       <div style={{ position: 'fixed', inset: 0, zIndex: 0, background: 'var(--gradient-hero)' }} />
@@ -93,7 +87,7 @@ export default function ArticleClient({ article }: Props) {
           </div>
         </div>
 
-        {/* Article content */}
+        {/* Article content — rendered as server HTML for Googlebot */}
         <article style={{
           fontFamily: 'var(--font-sans)', fontSize: 16, color: 'var(--text-primary)',
           lineHeight: 1.8, maxWidth: '100%',
@@ -143,31 +137,25 @@ export default function ArticleClient({ article }: Props) {
           </h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
             <Link href="/blog/best-mrcpsych-question-banks-2026" style={{ textDecoration: 'none' }}>
-              <div style={{
+              <div className="blog-card-hover" style={{
                 display: 'flex', alignItems: 'center', gap: 12, padding: '12px 16px',
                 background: 'var(--surface-card)', border: '1px solid var(--border-subtle)',
-                borderRadius: 'var(--radius-md)', transition: 'all 0.15s ease',
-              }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent-teal)' }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-subtle)' }}
-              >
+                borderRadius: 'var(--radius-md)',
+              }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="15 18 9 12 15 6" />
                 </svg>
                 <span style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-primary)' }}>
-                  Best MRCPsych Question Banks in 2026: A Consultant’s Review
+                  Best MRCPsych Question Banks in 2026: A Consultant&#8217;s Review
                 </span>
               </div>
             </Link>
             <Link href="/blog/how-to-pass-mrcpsych-paper-a" style={{ textDecoration: 'none' }}>
-              <div style={{
+              <div className="blog-card-hover" style={{
                 display: 'flex', alignItems: 'center', gap: 12, padding: '12px 16px',
                 background: 'var(--surface-card)', border: '1px solid var(--border-subtle)',
-                borderRadius: 'var(--radius-md)', transition: 'all 0.15s ease',
-              }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent-teal)' }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-subtle)' }}
-              >
+                borderRadius: 'var(--radius-md)',
+              }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="15 18 9 12 15 6" />
                 </svg>
@@ -177,14 +165,11 @@ export default function ArticleClient({ article }: Props) {
               </div>
             </Link>
             <Link href="/blog/mrcpsych-paper-a-vs-paper-b" style={{ textDecoration: 'none' }}>
-              <div style={{
+              <div className="blog-card-hover" style={{
                 display: 'flex', alignItems: 'center', gap: 12, padding: '12px 16px',
                 background: 'var(--surface-card)', border: '1px solid var(--border-subtle)',
-                borderRadius: 'var(--radius-md)', transition: 'all 0.15s ease',
-              }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent-teal)' }}
-                onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-subtle)' }}
-              >
+                borderRadius: 'var(--radius-md)',
+              }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-teal)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="15 18 9 12 15 6" />
                 </svg>
