@@ -2005,4 +2005,772 @@ export const articles: Article[] = [
       <p>PsychStar\u2019s Paper B question bank covers old age psychiatry with questions calibrated to real exam difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
     `
   },
+  {
+    slug: 'psychological-models-behavioural-science-mrcpsych-paper-a',
+    title: 'Psychological Models and Behavioural Science for MRCPsych Paper A',
+    metaTitle: 'Psychological Models for MRCPsych Paper A | Learning Theory & Behavioural Science',
+    metaDescription: 'Psychological models and behavioural science for MRCPsych Paper A. Classical and operant conditioning, social learning theory, cognitive models, defence mechanisms, and social psychology for the exam.',
+    date: '2026-06-17',
+    readTime: '14 min read',
+    category: 'Paper A',
+    tags: ['psychological models', 'behavioural science', 'learning theory', 'Pavlov', 'Bandura', 'social psychology', 'Paper A'],
+    featured: false,
+    content: `
+      <p>Psychological models and behavioural science account for approximately 17% of Paper A marks (roughly 25 of 150 questions), making it the third-largest section after neurosciences and psychopharmacology. The content covers learning theories, cognitive and behavioural models of mental disorder, social psychology, and the psychological underpinnings of psychiatric treatment. This material is conceptually straightforward but requires precise knowledge of theorists, terminology, and experimental paradigms.</p>
+
+      <h2>Learning Theories</h2>
+
+      <h3>Classical (Pavlovian) Conditioning</h3>
+      <p>Ivan Pavlov demonstrated that a neutral stimulus (bell) paired with an unconditioned stimulus (food) that elicits an unconditioned response (salivation) can come to elicit a conditioned response (salivation to bell alone). Key concepts: acquisition (initial learning), extinction (decline in conditioned response when CS presented without UCS), spontaneous recovery (reappearance after a pause), generalisation (similar stimuli elicit the response), discrimination (learning to respond only to the specific CS). Higher-order conditioning occurs when a new CS is paired with the established CS. Clinical relevance: development of phobias (Watson and Rayner\u2019s Little Albert), aversion therapy, and exposure-based treatments.</p>
+
+      <h3>Operant (Instrumental) Conditioning</h3>
+      <p>B.F. Skinner demonstrated that behaviour is shaped by its consequences. Reinforcement increases behaviour; punishment decreases it. Positive reinforcement adds a desirable stimulus (praise), negative reinforcement removes an aversive stimulus (stopping a loud noise). Positive punishment adds an aversive stimulus (scolding), negative punishment removes a desirable stimulus (loss of privileges). Schedules of reinforcement: continuous (every response reinforced, fastest acquisition but fastest extinction), fixed ratio (after every nth response, high response rate), variable ratio (after unpredictable number, most resistant to extinction, highest response rate), fixed interval (after a fixed time, scalloped response pattern), variable interval (after unpredictable time, moderate steady rate). Shaping involves reinforcing successive approximations to the target behaviour. Clinical relevance: token economies in inpatient settings, behavioural activation for depression, contingency management in substance misuse.</p>
+
+      <h3>Social Learning Theory</h3>
+      <p>Albert Bandura emphasised observational learning (learning by watching others). The Bobo doll experiment (1961) showed that children who observed an adult behaving aggressively toward a Bobo doll were more likely to imitate that behaviour. Key concepts: vicarious reinforcement (learning from observing others being reinforced or punished), self-efficacy (belief in one\u2019s ability to succeed), reciprocal determinism (behaviour, cognition, and environment influence each other). The four stages of observational learning: attention, retention, reproduction, motivation. Clinical relevance: modelling in CBT, social skills training, understanding the role of media violence.</p>
+
+      <h3>Learned Helplessness</h3>
+      <p>Martin Seligman\u2019s experiments with dogs showed that repeated exposure to inescapable shock led to passivity and failure to escape even when escape became possible (Seligman and Maier, 1967). This became the animal model of depression. Abramson, Seligman, and Teasdale (1978) reformulated this as attributional style: people who attribute negative events to internal, stable, and global causes are at higher risk for depression. Clinical relevance: cognitive model of depression, attributional retraining in CBT.</p>
+
+      <h2>Cognitive Models of Mental Disorder</h2>
+
+      <p><strong>Aaron Beck\u2019s cognitive model of depression:</strong> The cognitive triad (negative view of self, world, and future) arises from dysfunctional schemas (core beliefs) formed by early experience. These schemas are activated by life events that match them, leading to automatic negative thoughts. The cognitive specificity hypothesis states that each emotional disorder has a characteristic cognitive profile: depression = themes of loss and worthlessness; anxiety = themes of threat and danger; anger = themes of unfairness and violation. Beck\u2019s cognitive therapy aims to identify, challenge, and modify these distorted cognitions.</p>
+
+      <p><strong>Albert Ellis\u2019s Rational Emotive Behaviour Therapy (REBT):</strong> The ABC model: Activating event \u2192 Belief (irrational) \u2192 Consequence (emotional/behavioural). The goal is to identify and dispute irrational beliefs (musturbation, awfulising, low frustration tolerance) and replace them with rational beliefs.</p>
+
+      <p><strong>Locus of control (Rotter, 1966):</strong> The extent to which individuals believe they have control over events affecting them. Internal locus = outcomes depend on own actions; external locus = outcomes depend on luck, fate, or others. External locus of control is associated with higher rates of depression and anxiety.</p>
+
+      <h2>Defence Mechanisms</h2>
+
+      <p>Defence mechanisms are unconscious psychological strategies used to cope with anxiety and maintain self-esteem. The exam tests both the definition and clinical examples of each. Mature defences (adaptive): sublimation (channelling unacceptable impulses into socially valued activities), humour, altruism, suppression (conscious deferral). Neurotic defences: repression (unconscious forgetting\ufffd the foundation of all defences), rationalisation (logical explanation for irrational behaviour), intellectualisation (detached analytical thinking), displacement (redirecting impulse to safer target), reaction formation (adopting opposite attitude). Immature defences: projection (attributing own feelings to others), projective identification (projecting then inducing the feeling in others), splitting (all-good/all-bad), acting out (impulse expressed through action not words), denial, regression (reverting to earlier developmental stage), idealisation/devaluation. Freud\u2019s original list included repression as the primary defence, with others as variations. Anna Freud expanded the list in <em>The Ego and the Mechanisms of Defence</em> (1936).</p>
+
+      <h2>Social Psychology</h2>
+
+      <p><strong>Attribution theory (Heider, 1958; Kelley, 1967):</strong> How people explain the causes of behaviour. Internal/dispositional attributions (the person\u2019s character) vs external/situational attributions (the environment). The fundamental attribution error (overestimating dispositional factors, underestimating situational factors in others\u2019 behaviour) and the actor-observer effect (attributing own behaviour to situation, others\u2019 behaviour to disposition).</p>
+
+      <p><strong>Cognitive dissonance theory (Festinger, 1957):</strong> When attitudes and behaviours are inconsistent, people experience psychological discomfort and are motivated to reduce it by changing attitudes, behaviours, or by rationalising. The classic experiment: participants paid $1 to lie about a boring task showed greater attitude change than those paid $20 (insufficient justification leads to stronger dissonance). Clinical relevance: motivational interviewing uses cognitive dissonance amplification to promote behaviour change.</p>
+
+      <p><strong>Conformity and obedience:</strong> Asch\u2019s line judgement studies (1951) showed that 37% of participants conformed to an obviously incorrect group judgement (line length comparison) when alone against a unanimous majority. Milgram\u2019s obedience studies (1963) showed that 65% of participants administered what they believed to be dangerous electric shocks to a learner under the instruction of an authority figure. Factors that increase obedience: proximity of authority, legitimacy of setting, distance from victim, gradual escalation of demands.</p>
+
+      <p><strong>Group processes:</strong> Zimbardo\u2019s Stanford Prison Experiment (1971) demonstrated how social roles shape behaviour (guards became abusive, prisoners became passive within days). Social loafing (Ringelmann effect: individuals exert less effort in groups than alone), group polarisation (group discussion leads to more extreme positions), groupthink (conformity in decision-making groups leading to flawed decisions, Janis, 1972).</p>
+
+      <p><strong>Helping behaviour:</strong> Latane and Darley\u2019s bystander intervention model: the more people present, the less likely any individual is to help (bystander effect). Diffusion of responsibility, pluralistic ignorance (looking to others to define the situation, interpreting inaction as evidence that help is not needed). The Genovese murder (1964) in which 38 witnesses did not intervene or call police, was the impetus for this research.</p>
+
+      <p><strong>Prejudice and stereotypes:</strong> The realistic conflict theory (Sherif\u2019s Robbers Cave experiment, 1954) showed that intergroup conflict arises from competition for scarce resources and can be reduced by superordinate goals that require cooperation. Social identity theory (Tajfel & Turner, 1979): people derive part of their identity from group membership and favour their own group (in-group bias) even in minimal group situations.</p>
+
+      <h2>High-Yield Exam Patterns</h2>
+      <ul>
+        <li><strong>Bobo doll experiment:</strong> Bandura, observational learning / social learning theory</li>
+        <li><strong>Learned helplessness:</strong> Seligman, inescapable shock, animal model of depression</li>
+        <li><strong>Little Albert:</strong> Watson and Rayner, classical conditioning of phobia (11-month-old, white rat, loud noise)</li>
+        <li><strong>Variable ratio schedule:</strong> Most resistant to extinction (slot machines)</li>
+        <li><strong>Asch study:</strong> Conformity, line judgement, 37% conformed to incorrect majority</li>
+        <li><strong>Milgram study:</strong> Obedience to authority, 65% delivered maximum shock, gradual escalation</li>
+        <li><strong>Stanford Prison Experiment:</strong> Zimbardo, social roles and deindividuation</li>
+        <li><strong>Bystander effect:</strong> Latane and Darley, diffusion of responsibility, more people = less help</li>
+        <li><strong>Cognitive dissonance:</strong> Festinger, $1/$20 experiment, insufficient justification</li>
+        <li><strong>Rotter locus of control:</strong> External = higher depression/anxiety</li>
+        <li><strong>Fundamental attribution error:</strong> Overestimate disposition, underestimate situation for others</li>
+        <li><strong>Sherif Robbers Cave:</strong> Superordinate goals reduce intergroup conflict</li>
+        <li><strong>Tajfel minimal groups:</strong> In-group bias even without history of conflict</li>
+        <li><strong>Defence mechanisms most examined:</strong> Splitting (BPD), projection, projective identification, acting out, sublimation</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper A question bank covers psychological models with questions calibrated to the SPMM depth expected in the exam. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'descriptive-psychopathology-mrcpsych',
+    title: 'Descriptive Psychopathology for MRCPsych: Mood, Thought, Perception, and Cognition',
+    metaTitle: 'Descriptive Psychopathology for MRCPsych | Mental State Examination Terms',
+    metaDescription: 'Descriptive psychopathology for MRCPsych. Disorders of mood, thought form, thought content, perception, cognition, and insight \u2014 key terms and exam-relevant definitions from the SPMM syllabus.',
+    date: '2026-06-17',
+    readTime: '13 min read',
+    category: 'Paper A',
+    tags: ['psychopathology', 'mental state examination', 'thought disorder', 'hallucinations', 'delusions', 'Paper A'],
+    featured: false,
+    content: `
+      <p>Descriptive psychopathology is the systematic description and classification of abnormal mental experiences as they are reported by the patient and observed by the clinician. It underpins the mental state examination and is tested in both Paper A (as foundational knowledge) and Paper B (as applied clinical skill). The SPMM syllabus section 5.22 covers this material in depth, and the exam rewards precise use of psychopathological terminology.</p>
+
+      <h2>Disorders of Mood and Affect</h2>
+
+      <p>Mood refers to a pervasive, sustained emotional state (the \u201cclimate\u201d of the mind). Affect refers to the moment-to-moment expression of emotion (the \u201cweather\u201d). Both have subjective (patient\u2019s report) and objective (clinician\u2019s observation) components. Key aspects of affect: valence (quality: happy, sad, anxious, perplexed), reactivity (responsiveness to environmental cues), range (restricted or constricted in depression), congruence (matching between expressed affect and reported emotion), stability (absence of emotional lability), and control (emotional incontinence in organic states).</p>
+
+      <p><strong>Blunted affect:</strong> Reduced intensity of emotional expression. Bleuler proposed this as a fundamental (primary) symptom of schizophrenia. <strong>Flat affect:</strong> Near-absence of any emotional expression. <strong>Labile affect:</strong> Rapid, abrupt changes in emotion, seen in histrionic PD, BPD, and PTSD. <strong>Emotional incontinence:</strong> Extreme lability with no control, seen in organic states (pseudobulbar palsy, frontal lobe damage). <strong>Incongruent affect:</strong> Affect that does not match the expressed emotion or situation (e.g., laughing while describing distressing events, seen in hebephrenic schizophrenia and learning disability).</p>
+
+      <p>Mixed affective states are common in bipolar disorder and are tested in the exam. A mixed state involves different combinations of mood, thought, and will components: manic stupor (high mood, low will, low thought), depressive mania (low mood, high will, high thought), and inhibited mania (high mood, low will, high thought).</p>
+
+      <h2>Disorders of Perception</h2>
+
+      <p><strong>Hallucinations:</strong> Perceptions without an external stimulus, occurring in any sensory modality. True hallucinations have the full quality of a genuine perception (vivid, real, located in objective space). <strong>Pseudohallucinations:</strong> Perceptions without external stimulus that are less vivid, occur in subjective inner space (inside the head), and are often recognised as not real by the patient. The distinction is debated but tested: pseudohallucinations are more commonly associated with non-psychotic conditions (personality disorder, PTSD).</p>
+
+      <p><strong>Illusions:</strong> Misinterpretations of a real external stimulus (e.g., seeing a shadow as a person). Distinguish from hallucinations (no stimulus) and delusions (false belief, not perceptual).</p>
+
+      <p><strong>Auditory hallucinations:</strong> Second-person (addressing the patient directly, \u201cyou are stupid\u201d) vs third-person (voices discussing the patient, \u201cshe deserves it\u201d). Schneider\u2019s first-rank symptoms: voices commenting, voices discussing, thought echo. Musical hallucinations occur in hearing impairment (Charles Bonnet syndrome, though Charles Bonnet syndrome classically involves visual hallucinations in the context of reduced eyesight).</p>
+
+      <p><strong>Visual hallucinations:</strong> Formed (faces, people, animals) vs unformed (flashes, colours, patterns). Well-formed visual hallucinations with preserved insight suggest Charles Bonnet syndrome. Vivid, detailed, and accompanied by fluctuating cognition suggest DLB. Peduncular hallucinosis (Lhermitte syndrome) describes tiny figures (Lilliputian hallucinations) from midbrain lesions.</p>
+
+      <p><strong>Functional hallucinations:</strong> A stimulus in one modality triggers a hallucination in the same modality (e.g., hearing voices triggered by the sound of running water). <strong>Reflex hallucinations:</strong> A stimulus in one modality triggers a hallucination in a different modality (e.g., seeing a face triggered by hearing a voice). These are rare but tested.</p>
+
+      <p><strong>Extracampine hallucinations:</strong> Hallucinations occurring outside the sensory field (e.g., seeing someone who is behind the patient). <strong>Hypnagogic and hypnopompic:</strong> Hallucinations occurring while falling asleep (hypnagogic) or waking up (hypnopompic). These are normal experiences but also occur in narcolepsy.</p>
+
+      <h2>Disorders of Thought</h2>
+
+      <p><strong>Thought form (stream of thought):</strong> The rate and rhythm of thinking. Disorders include: pressure (racing thoughts, flight of ideas in mania), poverty (reduced quantity in depression or schizophrenia), retardation (slow thinking in depression), circumstantiality (unnecessary detail, but eventually reaches the goal), tangentiality (never reaches the goal, veers off), perseveration (persistent repetition of words or themes), thought blocking (sudden interruption of the train of thought, characteristic of schizophrenia), and derailment (loose associations, illogical connections, characteristic of schizophrenia).</p>
+
+      <p><strong>Thought content:</strong> Overvalued ideas (reasonable but preoccupying beliefs held with less than delusional conviction, e.g., health anxiety), obsessions (recurrent, intrusive thoughts, images or impulses that the person recognises as their own and tries to resist), compulsions (repetitive behaviours performed in response to an obsession), delusions (fixed, false, culturally inappropriate beliefs held with complete conviction).</p>
+
+      <p><strong>Delusions:</strong> Classified by content: persecutory (most common), grandiose, referential, erotomanic (De Clerambault syndrome: belief that someone, usually of higher status, is in love with the patient), nihilistic (Cotard syndrome: belief that one is dead or does not exist), somatic (hypochondriacal delusions, Ekbom syndrome: delusional parasitosis), jealousy (Othello syndrome: belief that partner is unfaithful). Schneider distinguished primary delusions (true delusions, not psychologically understandable, arising de novo) from secondary delusions (delusion-like ideas that are psychologically understandable given the patient\u2019s mood or life experience). Jaspers\u2019 criteria: true delusions are held with absolute certainty, are not amenable to reason, and are impossible in content.</p>
+
+      <p><strong>Delusional perception:</strong> A Schneiderian first-rank symptom. A normal perception is suddenly invested with a new, delusional meaning (\u201cThe traffic light turned red, which means the Mafia are controlling my thoughts\u201d). This is distinct from a delusional idea (a belief that arises independently of a perception).</p>
+
+      <h2>Disorders of Speech</h2>
+
+      <p>Pressure of speech (rapid, abundant speech in mania), poverty of speech (reduced quantity in depression/schizophrenia), mutism (no speech, seen in catatonia, elective mutism), neologisms (new words created by the patient), word salad (incomprehensible jumble), clanging (speech driven by sound rather than meaning, e.g., rhyming), echolalia (pathological repetition of others\u2019 words), palilalia (repeating own words), and schizophasia (severe thought disorder). <strong>Dysphasias:</strong> Broca\u2019s (non-fluent, effortful, preserved comprehension), Wernicke\u2019s (fluent but meaningless, impaired comprehension), conduction (fluent, good comprehension, poor repetition), anomic (word-finding difficulty, fluent with circumlocution), transcortical motor (similar to Broca\u2019s but repetition preserved), transcortical sensory (similar to Wernicke\u2019s but repetition preserved), and global (all aspects severely impaired).</p>
+
+      <h2>Disorders of Experience of Self</h2>
+
+      <p>Depersonalisation (feeling detached from one\u2019s own mental processes or body), derealisation (feeling detached from one\u2019s surroundings, the world feels unreal), and passivity phenomena (Schneiderian first-rank: the experience that one\u2019s impulses, feelings, volitions, or bodily movements are controlled by an external force). <strong>Made impulses</strong> (actions imposed by external force), <strong>made volitions</strong> (acts of will replaced by external control), <strong>made affects</strong> (emotions imposed from outside), <strong>passivity of bodily function</strong> (bodily sensations imposed externally). These are pathognomonic for schizophrenia.</p>
+
+      <h2>Memory Disorders</h2>
+
+      <p>Amnesia (loss of memory): anterograde (difficulty forming new memories, hippocampal damage), retrograde (difficulty recalling past memories), transient global amnesia (temporary, affects both old and new memory, normal cognition otherwise). Paramnesias: delusional memory (false memory held with delusional conviction), confabulation (filling memory gaps with invented material, no intention to deceive, characteristic of Korsakoff syndrome), jamais vu (feeling of unfamiliarity with a familiar situation), deja vu (feeling of familiarity with a new situation).</p>
+
+      <h2>Insight and Judgement</h2>
+
+      <p>Insight is the patient\u2019s awareness and understanding of their mental condition. The standard grading: complete denial of illness (Grade 1), slight awareness of being different/blaming external factors (Grade 2), awareness but blames organic causes (Grade 3), intellectual insight (acknowledges illness but does not apply the knowledge to modify behaviour, Grade 4), true emotional insight (awareness that leads to change in behaviour and feelings, Grade 5).</p>
+
+      <h2>High-Yield Exam Patterns</h2>
+      <ul>
+        <li><strong>First-rank symptoms of schizophrenia (Schneider):</strong> Voices commenting, voices discussing, thought echo, thought insertion/withdrawal/broadcast, passivity phenomena (made impulses, volitions, affects), delusional perception</li>
+        <li><strong>Fundamental vs accessory symptoms (Bleuler):</strong> Four A\u2019s (loose Associations, Autism, Ambivalence, Affective blunting) = fundamental. Hallucinations, delusions, catatonia = accessory.</li>
+        <li><strong>Verstehen vs erkl\u00e4ren (Jaspers):</strong> True delusions cannot be understood (erkl\u00e4ren, causal explanation only). Secondary delusions can be understood (verstehen, meaningful connections).</li>
+        <li><strong>Cotard:</strong> Nihilistic delusion (dead, organs missing)</li>
+        <li><strong>De Clerambault:</strong> Erotomania (someone of higher status loves the patient)</li>
+        <li><strong>Othello syndrome:</strong> Delusional jealousy</li>
+        <li><strong>Cappras syndrome:</strong> Delusion that familiar people have been replaced by imposters</li>
+        <li><strong>Fregoli delusion:</strong> Strangers are familiar people in disguise</li>
+        <li><strong>Charles Bonnet:</strong> Visual hallucinations with preserved insight, reduced eyesight</li>
+        <li><strong>Lhermitte / peduncular hallucinosis:</strong> Lilliputian hallucinations, midbrain lesion</li>
+        <li><strong>Ganser syndrome:</strong> Approximate answers (\u201c2+2=5\u201d), often in prisoners</li>
+        <li><strong>Kluver-Bucy:</strong> Bilateral temporal damage, hypersexuality, hyperorality</li>
+        <li><strong>Ekbom:</strong> Delusional parasitosis (also: restless legs)</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper A question bank covers descriptive psychopathology with questions calibrated to SPMM exam depth. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'rating-scales-and-eponyms-mrcpsych',
+    title: 'Rating Scales, Eponyms, and Syndromes for MRCPsych: High-Yield Recall Guide',
+    metaTitle: 'Rating Scales and Eponyms for MRCPsych | High-Yield Syndromes Guide',
+    metaDescription: 'Rating scales and eponymous syndromes for MRCPsych Paper A and B. Hamilton, PANSS, MADRS, GAF, Y-BOCS, MMSE, and the key eponyms from Alzheimer to Wernicke for the exam.',
+    date: '2026-06-17',
+    readTime: '12 min read',
+    category: 'Paper A',
+    tags: ['rating scales', 'eponyms', 'syndromes', 'PANSS', 'MMSE', 'Hamilton', 'Paper A'],
+    featured: false,
+    content: `
+      <p>Rating scales and eponymous syndromes appear consistently in both Paper A and Paper B. The exam tests knowledge of what each scale measures, the population it is validated for, and the number of items. Eponyms are tested by asking the candidate to identify the syndrome from a brief clinical description. This is one of the most pattern-recognition-heavy sections of the syllabus.</p>
+
+      <h2>Rating Scales Used in Psychiatry</h2>
+
+      <h3>Mood Disorders</h3>
+      <p><strong>Hamilton Depression Rating Scale (HDRS / Ham-D):</strong> 17 items (the original version; 21-item and 24-item versions also exist). Clinician-rated. Covers depressed mood, guilt, suicide, insomnia, work/activities, retardation, agitation, anxiety (psychic and somatic), somatic symptoms (GI, general, genital), hypochondriasis, weight loss, and insight. Does NOT assess atypical symptoms (hypersomnia, hyperphagia) well. Scores: 0-7 normal, 8-13 mild, 14-18 moderate, 19-22 severe. A 50% reduction from baseline defines treatment response.</p>
+
+      <p><strong>Montgomery-Asberg Depression Rating Scale (MADRS):</strong> 10 items, clinician-rated. More sensitive to change over time than the Hamilton, making it preferred for clinical trials. Items: apparent sadness, reported sadness, inner tension, reduced sleep, reduced appetite, concentration difficulties, lassitude, inability to feel, pessimistic thoughts, suicidal thoughts. Each item scored 0-6, total 0-60.</p>
+
+      <p><strong>Beck Depression Inventory (BDI-II):</strong> 21 items, self-report. Corresponds to DSM criteria for major depression. Each item 0-3, total 0-63. 0-13 minimal, 14-19 mild, 20-28 moderate, 29-63 severe.</p>
+
+      <p><strong>Patient Health Questionnaire (PHQ-9):</strong> 9 items, self-report. Widely used in primary care and IAPT services in the UK. Each item corresponds to DSM-5 diagnostic criteria. Total 0-27. A score of 10 or above has sensitivity and specificity of approximately 88% for major depression. The PHQ-2 is the two-item ultra-brief version (low mood and anhedonia) used as a screening tool.</p>
+
+      <p><strong>Young Mania Rating Scale (YMRS):</strong> 11 items, clinician-rated. Used to assess severity of manic symptoms. Items include elevated mood, increased motor activity/energy, sexual interest, sleep, irritability, speech, language/thought disorder, content, disruptive/aggressive behaviour, appearance, and insight.</p>
+
+      <h3>Psychotic Disorders</h3>
+      <p><strong>PANSS (Positive and Negative Syndrome Scale):</strong> 30 items, clinician-rated. 7 positive items, 7 negative items, 16 general psychopathology items. Each item scored 1-7 (absent to extreme). The most widely used scale in schizophrenia clinical trials. The positive scale includes delusions, conceptual disorganisation, hallucinatory behaviour, excitement, grandiosity, suspiciousness/persecution, and hostility. The negative scale includes blunted affect, emotional withdrawal, poor rapport, passive/apathetic social withdrawal, difficulty in abstract thinking, lack of spontaneity/flow of conversation, and stereotyped thinking. The SAPS (Scale for Assessment of Positive Symptoms) and SANS (Scale for Assessment of Negative Symptoms) are an alternative with 30 and 25 items respectively.</p>
+
+      <p><strong>BPRS (Brief Psychiatric Rating Scale):</strong> 18 items (original; expanded version has 24 items), clinician-rated. Shorter than PANSS, used for assessing change in clinical trials. Items rated 1-7. Covers psychotic symptoms, depression, anxiety, hostility, and activation.</p>
+
+      <h3>Anxiety, OCD, PTSD</h3>
+      <p><strong>Hamilton Anxiety Rating Scale (HAM-A):</strong> 14 items, clinician-rated. Covers both psychic anxiety (anxious mood, tension, fears, insomnia, intellectual, depressed mood, behaviour at interview) and somatic anxiety (somatic muscular, sensory, cardiovascular, respiratory, gastrointestinal, genitourinary, autonomic). Each item 0-4.</p>
+
+      <p><strong>Yale-Brown Obsessive Compulsive Scale (Y-BOCS):</strong> 10 items, clinician-rated. 5 items for obsessions (time, interference, distress, resistance, control) and 5 identical items for compulsions. Total 0-40. Also includes a symptom checklist (not part of the severity score). A score of 0-7 is subclinical, 8-15 mild, 16-23 moderate, 24-31 severe, 32-40 extreme.</p>
+
+      <p><strong>Impact of Events Scale (IES-R):</strong> 22 items, self-report. Measures subjective distress caused by traumatic events. Three subscales: intrusion, avoidance, and hyperarousal.</p>
+
+      <h3>Dementia and Cognition</h3>
+      <p><strong>Mini-Mental State Examination (MMSE):</strong> 30 items/points. Tests orientation (10), registration (3), attention and calculation (5), recall (3), language (8), and visuospatial function (1). Cut-off commonly used: 24/30 or below suggests dementia. Scores affected by age, education, and language. Copyright restrictions apply (can no longer be freely reproduced).</p>
+
+      <p><strong>Montreal Cognitive Assessment (MoCA):</strong> 30 points. More sensitive than MMSE for mild cognitive impairment (MCI) and vascular dementia. Includes executive function (trail-making, clock drawing, verbal fluency), visuospatial, language, attention, abstraction, delayed recall, and orientation. Increasingly replacing MMSE in clinical practice. The Addenbrooke\u2019s Cognitive Exam (ACE-III) is another widely used alternative (100 points, includes MMSE items as subset). RUDAS (Rowland Universal Dementia Assessment Scale) is designed for culturally and linguistically diverse populations.</p>
+
+      <p><strong>Clinical Dementia Rating (CDR):</strong> Global assessment of dementia severity (0 = no dementia, 0.5 = questionable, 1 = mild, 2 = moderate, 3 = severe) based on six domains: memory, orientation, judgement/problem-solving, community affairs, home/hobbies, personal care. Obtained from both patient and informant.</p>
+
+      <h2>Eponymous Syndromes (High-Yield for EMI Questions)</h2>
+
+      <p>The exam typically presents a brief clinical description and asks the candidate to identify the syndrome or eponym. The following are the most frequently tested:</p>
+
+      <h3>Delusional Syndromes</h3>
+      <ul>
+        <li><strong>Capgras syndrome:</strong> Belief that familiar people have been replaced by identical-looking imposters. Most common in schizophrenia and dementia. Associated with right hemisphere lesions and face-processing deficits.</li>
+        <li><strong>Fregoli syndrome:</strong> Belief that different strangers are in fact the same familiar person in disguise. Opposite of Capgras.</li>
+        <li><strong>Cotard syndrome:</strong> Nihilistic delusions: belief that one is dead, does not exist, has lost organs, or has no blood. Most common in severe depression with psychosis. Can occur in schizophrenia.</li>
+        <li><strong>De Clerambault syndrome (erotomania):</strong> Belief that someone, usually of higher social status, is in love with the patient. Most often in women; the target is often unobtainable. Can occur in schizophrenia, bipolar disorder.</li>
+        <li><strong>Othello syndrome (morbid jealousy):</strong> Delusional belief of a partner\u2019s infidelity. Associated with alcohol misuse, organic brain syndromes, and schizophrenia. Can lead to domestic violence and homicide.</li>
+        <li><strong>Ekbom syndrome (delusional parasitosis):</strong> Belief that the skin is infested with parasites. Associated with cocaine use and organic brain syndromes. Patients often present with skin lesions from picking or samples for the clinician to examine (matchbox sign).</li>
+      </ul>
+
+      <h3>Amnesic and Cognitive Syndromes</h3>
+      <ul>
+        <li><strong>Korsakoff syndrome:</strong> Anterograde amnesia with confabulation, caused by thiamine deficiency (usually alcohol-related). Pathology: mammillary body and dorsomedial thalamic atrophy.</li>
+        <li><strong>Wernicke encephalopathy:</strong> Acute triad: confusion, ataxia, ophthalmoplegia (nystagmus). Also thiamine deficiency. Immediate parenteral thiamine (Pabrinex) prevents progression to Korsakoff.</li>
+        <li><strong>Gerstmann syndrome:</strong> Dominant parietal lobe lesion (usually angular gyrus). Tetrad: finger agnosia, agraphia, right-left disorientation, acalculia.</li>
+        <li><strong>Balint syndrome:</strong> Bilateral superior parieto-occipital lesions. Triad: simultanagnosia (cannot perceive the visual field as a whole), optic ataxia (misreaching), and oculomotor apraxia (difficulty shifting gaze).</li>
+        <li><strong>Anton syndrome:</strong> Denial of blindness with confabulation; bilateral occipital cortex lesions. The patient acts as if they can see despite objective blindness.</li>
+        <li><strong>Geschwind syndrome:</strong> Interictal behaviour in temporal lobe epilepsy: hyposexuality, hyperreligiosity, hypergraphia, and viscosity (difficulty ending conversations).</li>
+      </ul>
+
+      <h3>Neurological and Personality Syndromes</h3>
+      <ul>
+        <li><strong>Kl\u00fcver-Bucy syndrome:</strong> Bilateral temporal lobe (amygdala) damage. Hyperorality, hypersexuality, visual agnosia (psychic blindness), emotional blunting, bulimia, hypermetamorphosis (excessive exploration of environment).</li>
+        <li><strong>Kleine-Levin syndrome:</strong> Recurrent episodes of hypersomnia, hyperphagia, and hypersexuality. Classically in adolescent males. Episodes last days to weeks, separated by months of normal functioning.</li>
+        <li><strong>Ganser syndrome:</strong> Approximate answers to simple questions (\u201c2+2=5\u201d), often accompanied by disorientation, hallucinations, and conversion symptoms. Classically described in prisoners; debated relationship to factitious disorder or dissociative disorder.</li>
+        <li><strong>M\u00fcnchausen syndrome:</strong> Factitious disorder with physical symptoms. The patient feigns or induces illness to assume the sick role. M\u00fcnchausen by proxy (fabricated or induced illness in a dependent). In the ICD-11, this is classified within the category of factitious disorder.</li>
+        <li><strong>Briquet syndrome:</strong> An older term for somatisation disorder; multiple somatic complaints across organ systems as a manifestation of anxiety.</li>
+        <li><strong>Da Costa syndrome:</strong> Older term for panic disorder; the experience of anxiety attacks accompanied by attempts to avoid them.</li>
+        <li><strong>Heller syndrome:</strong> Childhood disintegrative disorder; loss of milestones after age 2 in multiple domains.</li>
+      </ul>
+
+      <h3>Movement and Catatonia Syndromes</h3>
+      <ul>
+        <li><strong>Kahlbaum syndrome:</strong> Catatonia; waxy posturing or purposeless excitement, treatable with benzodiazepines and ECT.</li>
+        <li><strong>Bell mania:</strong> Disorganised hyperactivity (as opposed to waxy flexibility) in lethal catatonia; rare due to antipsychotics.</li>
+        <li><strong>Gjessing syndrome:</strong> Periodic catatonia; fluctuating withdrawal or agitation.</li>
+        <li><strong>Meige syndrome:</strong> Dystonic blepharospasm; often antipsychotic-induced (hypodopaminergic state).</li>
+        <li><strong>Brueghel syndrome:</strong> Trigeminal dystonia affecting the mouth; sometimes provoked by antipsychotics.</li>
+      </ul>
+
+      <h2>High-Yield Fact Summary</h2>
+      <ul>
+        <li><strong>HAM-D vs MADRS:</strong> Both 17/10 items, clinician-rated for depression. MADRS more sensitive to change (favoured in trials).</li>
+        <li><strong>PANSS:</strong> 30 items (7 positive, 7 negative, 16 general). Most common schizophrenia trial scale.</li>
+        <li><strong>Y-BOCS:</strong> 10 items (5 obsessions, 5 compulsions). Score 0-40.</li>
+        <li><strong>MMSE vs MoCA:</strong> MMSE 30 points, insensitive to MCI. MoCA 30 points, more sensitive to MCI and vascular dementia.</li>
+        <li><strong>PHQ-9:</strong> 9 items, self-report, 0-27. Score >=10 = 88% sens/spec for major depression.</li>
+        <li><strong>ACE-III:</strong> 100 points, includes MMSE items plus more executive and language testing.</li>
+        <li><strong>RUDAS:</strong> Designed for culturally diverse populations; does not rely on reading/writing.</li>
+        <li><strong>CDR:</strong> 0-3 dementia staging (0=none, 0.5=questionable, 1=mild, 2=moderate, 3=severe).</li>
+      </ul>
+
+      <p>PsychStar\u2019s question banks for both Paper A and Paper B include dedicated eponym and rating scale questions. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'oed-and-related-disorders-mrcpsych-paper-b',
+    title: 'OCD and Related Disorders for MRCPsych Paper B: Diagnosis, Treatment, and Exam Patterns',
+    metaTitle: 'OCD for MRCPsych Paper B | Y-BOCS, ERP, NICE Guidelines',
+    metaDescription: 'OCD and related disorders for MRCPsych Paper B. ICD-11 diagnostic criteria, CBT with ERP, NICE stepped care model, Y-BOCS scoring, and recall-confirmed exam patterns.',
+    date: '2026-06-17',
+    readTime: '11 min read',
+    category: 'Paper B',
+    tags: ['OCD', 'obsessive-compulsive', 'exposure and response prevention', 'Y-BOCS', 'body dysmorphic', 'Paper B'],
+    featured: false,
+    content: `
+      <p>OCD and related disorders appear in Paper B as part of the anxiety and obsessive-compulsive spectrum. The ICD-11 introduced a new grouping for obsessive-compulsive and related disorders, separating them from anxiety disorders. This change is examined. Body dysmorphic disorder, hoarding disorder, trichotillomania, and excoriation disorder are included in this grouping. NICE guidance CG31 (2005, updated 2024) provides the treatment algorithm.</p>
+
+      <h2>ICD-11 Classification</h2>
+
+      <p>ICD-11 created a separate chapter for obsessive-compulsive and related disorders, distinct from anxiety and fear-related disorders. This is an important change from ICD-10 (where OCD was classified under neurotic, stress-related, and somatoform disorders). Conditions included: OCD, body dysmorphic disorder (BDD), olfactory reference disorder, hypochondriasis (illness anxiety disorder), hoarding disorder, trichotillomania (hair-pulling disorder), and excoriation disorder (skin-picking).</p>
+
+      <p><strong>OCD diagnostic criteria (ICD-11):</strong> Either obsessions, compulsions, or both. Obsessions are repetitive, intrusive thoughts, images, or impulses that are unwanted and cause anxiety. Compulsions are repetitive behaviours or mental acts that the person feels driven to perform in response to an obsession or according to rigid rules. The symptoms must be time-consuming (more than 1 hour per day), cause marked distress or functional impairment, and not be attributable to another medical condition. The person usually recognises the obsessions and compulsions as excessive or unreasonable (insight specifier: good/fair, poor, absent/delusional).</p>
+
+      <p><strong>Body dysmorphic disorder:</strong> Preoccupation with perceived defects or flaws in physical appearance that are not observable or appear only slight to others. Repetitive behaviours (checking mirrors, comparing, camouflaging, seeking reassurance). A recall question confirmed: <em>\u201cBody dysmorphic disorder in adolescents\u201d</em> \u2014 increased risk of self-harm and suicide (NOT benign, NOT self-limiting).</p>
+
+      <h2>NICE Treatment for OCD (CG31)</h2>
+
+      <p><strong>Stepped care for OCD:</strong> Step 1: Recognition and assessment (use Y-BOCS). Step 2: Mild functional impairment \u2014 brief CBT (less than 10 therapist hours) incorporating ERP, either individual or group, or guided self-help. Step 3: Moderate to severe functional impairment \u2014 more intensive CBT (more than 10 therapist hours) incorporating ERP, or an SSRI (first-line: fluoxetine, fluvoxamine, sertraline, paroxetine, citalopram) plus ongoing CBT/ERP. Step 4: Severe, complex, or treatment-resistant OCD \u2014 combined SSRI + CBT/ERP, multidisciplinary review. Consider augmentation with clomipramine (the TCA with the best evidence in OCD), or antipsychotic augmentation (risperidone, aripiprazole).</p>
+
+      <p><strong>Key treatment points for the exam:</strong> ERP is the essential psychological intervention (not just general CBT). The key principle: exposure to the trigger without performing the compulsion leads to habituation and extinction of the anxiety response. Response prevention is the critical component. The SSRI dose for OCD is generally higher than for depression and takes longer to work (8-12 weeks for response, compared to 4-6 weeks for depression). Clomipramine is highly effective but less well-tolerated due to anticholinergic side effects. NICE does NOT recommend clomipramine as first-line \u2014 SSRIs are preferred.</p>
+
+      <p><strong>Treatment-resistant OCD:</strong> NICE recommends adding an antipsychotic (risperidone has the best evidence, aripiprazole is also used). For severe refractory OCD, consider intensive inpatient or residential treatment. A recall question tested: <em>\u201cWhat is approved by NICE for refractory OCD?\u201d</em> \u2014 Anterior cingulotomy or DBS (deep brain stimulation) were the options, with DBS having more current evidence. Anterior cingulotomy is a neurosurgical ablation procedure that is rarely performed in the UK.</p>
+
+      <h2>Comorbidity (Recall-Confirmed)</h2>
+
+      <p>A recall question tested: <em>\u201cMost common comorbidity in OCD in adults?\u201d</em> \u2014 Major depressive disorder (NOT OCPD, GAD, or social anxiety). Another question: <em>\u201cMost common comorbidity in OCD in children?\u201d</em> \u2014 Depression again, not GAD. Depression is the most common comorbid condition in OCD across all age groups. Approximately 30-50% of OCD patients have lifetime major depression.</p>
+
+      <p><strong>OCD vs OCPD (anankastic personality disorder):</strong> OCD involves ego-dystonic obsessions and compulsions (the patient recognises them as unreasonable, experiences distress). OCPD is ego-syntonic (the patient believes their perfectionism and orderliness are appropriate). OCPD is a personality pattern, not an anxiety disorder. This distinction is frequently examined.</p>
+
+      <h2>PANDAS</h2>
+
+      <p>Paediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal Infections (PANDAS): Sudden onset of OCD symptoms and/or tics following group A streptococcal infection in children. The mechanism is cross-reactive antibodies against basal ganglia. The exam may ask about this as a phenomenon, though its clinical significance is debated and it is not a formal ICD-11 diagnosis. Sydenham\u2019s chorea following rheumatic fever is a better-established post-streptococcal neuropsychiatric syndrome with OCD features.</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+      <ul>
+        <li><strong>ICD-11 change for OCD:</strong> Separate chapter from anxiety disorders, includes BDD, hoarding, trichotillomania, excoriation, hypochondriasis, olfactory reference disorder</li>
+        <li><strong>First-line psychological treatment for OCD:</strong> CBT incorporating ERP (Exposure and Response Prevention)</li>
+        <li><strong>First-line medication for OCD:</strong> SSRI at higher doses than depression (fluoxetine 40-60mg, sertraline 150-200mg, citalopram 40-60mg)</li>
+        <li><strong>Augmentation for treatment-resistant OCD:</strong> Antipsychotic (risperidone first-line evidence)</li>
+        <li><strong>BDD in adolescents:</strong> Increased suicide/self-harm risk, NOT benign</li>
+        <li><strong>OCD most common comorbidity:</strong> Major depressive disorder (adults and children)</li>
+        <li><strong>OCD vs OCPD:</strong> Ego-dystonic vs ego-syntonic. OCD has obsessions/compulsions, OCPD has perfectionism/orderliness.</li>
+        <li><strong>Clomipramine:</strong> Effective but anticholinergic burden limits use. Third-line.</li>
+        <li><strong>Y-BOCS:</strong> 10 items (5 obsessions + 5 compulsions), 0-40. Most common OCD severity scale.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers OCD and related disorders with questions aligned to real exam difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'eating-disorders-mrcpsych-paper-b',
+    title: 'Eating Disorders for MRCPsych Paper B: Anorexia, Bulimia, and Binge-Eating Disorder',
+    metaTitle: 'Eating Disorders for MRCPsych Paper B | Anorexia, Bulimia & NICE Guidelines',
+    metaDescription: 'Eating disorders for MRCPsych Paper B. ICD-11 criteria for anorexia and bulimia nervosa, NICE stepped-care treatment, medical complications, and recall-confirmed exam patterns.',
+    date: '2026-06-17',
+    readTime: '11 min read',
+    category: 'Paper B',
+    tags: ['eating disorders', 'anorexia nervosa', 'bulimia nervosa', 'binge eating', 'refeeding syndrome', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Eating disorders appear in Paper B as part of general adult psychiatry and feeding and eating disorders under ICD-11. The conditions tested are anorexia nervosa (including its medical complications), bulimia nervosa, and binge-eating disorder. Recall questions confirm that specific electrolyte disturbances, refeeding risks, and treatment approaches for adolescents are recurring themes.</p>
+
+      <h2>ICD-11 Diagnostic Criteria</h2>
+
+      <p><strong>Anorexia nervosa:</strong> Significantly low body weight (BMI below 18.5 in adults, or below the 5th percentile in children/adolescents) that is less than minimal expected for the individual\u2019s age, sex, and developmental trajectory. The weight loss is caused by restricted energy intake relative to energy requirements. There is an intense fear of weight gain or persistent behaviour that prevents weight gain, and body image disturbance (weight or shape overvalued in self-evaluation, or persistent lack of recognition of the seriousness of the low weight). Anorexia may be restricting type (weight loss primarily through dieting/fasting) or binge-purge type (regular binge eating or purging behaviours). The ICD-11 removed the requirement for amenorrhea (which was in ICD-10). The BMI thresholds for severity: mild (BMI 17-18.5), moderate (16-17), severe (15-16), extreme (less than 15).</p>
+
+      <p><strong>Bulimia nervosa:</strong> Recurrent episodes of binge eating (eating an abnormally large amount of food in a discrete period with a sense of loss of control) occurring at least once per week for at least 1 month. Recurrent compensatory behaviours to prevent weight gain (vomiting, laxatives, diuretics, fasting, excessive exercise). Self-evaluation is unduly influenced by weight and shape. In contrast to anorexia, weight is usually within the normal range or overweight.</p>
+
+      <p><strong>Binge-eating disorder:</strong> Recurrent binge eating (as above) WITHOUT regular compensatory behaviours. Binge-eating episodes are associated with eating more rapidly than normal, eating until uncomfortably full, eating large amounts when not hungry, eating alone because of embarrassment, and feeling disgusted, depressed, or guilty afterwards. Distress about binge eating is required. Occurs at least once per week for 3 months.</p>
+
+      <p><strong>Exam pattern — prevalence:</strong> A recall question tested comparisons of prevalence. The key facts: bulimia nervosa is more common than anorexia nervosa. Lifetime prevalence: anorexia ~0.5-1%, bulimia ~1-2%, binge-eating disorder ~2-3%. All eating disorders are increasing in prevalence across developed countries.</p>
+
+      <h2>Medical Complications (High-Yield for Recall Questions)</h2>
+
+      <p><strong>Anorexia nervosa:</strong> The most concerning electrolyte abnormality is hypokalaemia (especially in the binge-purge subtype). ECG findings in hypokalaemia: U waves, prolonged QT, T wave inversion, ST depression. A recall question: <em>\u201cAnorexic girl, abusing diuretics and laxatives, presents with lethargy and muscle cramps \u2014 likely ECG finding?\u201d</em> Answer: hypokalaemia-related ECG changes (U waves, long PR). Other complications: bradycardia, hypotension, osteoporosis, delayed gastric emptying, constipation, hypothermia, lanugo hair, salivary gland hypertrophy (from vomiting), dental erosion (perimolysis), Russell\u2019s sign (knuckle calluses from self-induced vomiting), refeeding syndrome (hypophosphataemia, hypokalaemia, hypomagnesaemia, fluid shifts, cardiac arrhythmia) when nutrition is reintroduced too aggressively.</p>
+
+      <p><strong>Bulimia nervosa:</strong> Hypokalaemia from vomiting or laxative use is the most dangerous complication. Calluses on knuckles (Russell\u2019s sign), salivary gland hypertrophy (parotid enlargement), dental erosion, oesophageal tears (Mallory-Weiss syndrome), and aspiration pneumonitis. Unlike anorexia, the BMI is normal or elevated, so medical complications may be overlooked.</p>
+
+      <p><strong>Refeeding syndrome:</strong> Occurs within 4 days of reintroducing nutrition after a period of starvation. The hallmark is hypophosphataemia (phosphate moves from serum into cells during refeeding). Other features: hypokalaemia, hypomagnesaemia, fluid overload, cardiac arrhythmia, delirium, seizures, and death. Prevention: start refeeding at low calorie levels (5-10 kcal/kg/day for the first 3-5 days), monitor phosphate, potassium, magnesium daily, and replace electrolytes aggressively. NICE guidance for inpatient refeeding. This is a high-yield exam topic.</p>
+
+      <h2>NICE Treatment Guidelines (NG69)</h2>
+
+      <p><strong>Anorexia nervosa:</strong> Psychological therapy is first-line. For adolescents, family therapy (specifically the Maudsley model, involving parents in refeeding) is the first-line psychological treatment. This is a high-yield distinction from bulimia, where individual CBT is first-line. For adults, CBT-ED (adapted for eating disorders), focal psychodynamic therapy, and cognitive analytic therapy have evidence. Weight restoration is the primary goal in the underweight patient. No medication is licensed for anorexia specifically. Olanzapine has some evidence for promoting weight gain and reducing anorexic cognitions but is not first-line. There is strong evidence that SSRIs are NOT effective in the underweight anorexic patient \u2014 they become effective only after weight restoration.</p>
+
+      <p><strong>Bulimia nervosa:</strong> CBT-ED (16-20 sessions) is first-line. SSRI medication (fluoxetine 60mg is the only licensed dose for bulimia) is an alternative or adjunct. The high dose (60mg) is specific to bulimia and differs from the depression dose. SSRIs are more effective than placebo for reducing binge eating and purging, with an approximately 60% reduction in binge frequency. Combined treatment (CBT-ED + SSRI) is no more effective than CBT-ED alone for long-term outcomes.</p>
+
+      <p><strong>Binge-eating disorder:</strong> CBT-ED is first-line. Self-help approaches (guided CBT-based self-help) can be effective for less severe cases. Lisdexamfetamine has evidence for reducing binge frequency and is licensed in some jurisdictions (USA) but not routinely in the UK.</p>
+
+      <h2>Prognosis and Mortality</h2>
+
+      <p>Anorexia nervosa has the highest mortality rate of any psychiatric disorder (standardised mortality ratio approximately 5-6). Death is from medical complications (starvation, electrolyte disturbance) or suicide. The crude mortality rate is about 5-10% over 10-20 years. Bulimia has a lower mortality rate (SMR approximately 2). Recovery rates: approximately 50% of anorexia patients recover completely, 30% improve partially, 20% have a chronic illness trajectory. For bulimia, recovery rates are higher (approximately 60-70% with treatment). Suicide risk is elevated in all eating disorders but highest in anorexia.</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+      <ul>
+        <li><strong>Most concerning electrolyte disturbance in anorexia:</strong> Potassium (hypokalaemia) \u2014 risk of cardiac arrhythmia. NOT bicarbonate, phosphate alone</li>
+        <li><strong>ECG finding in laxative/diuretic abuse + anorexia:</strong> U waves, long PR, T inversion (hypokalaemia)</li>
+        <li><strong>Adolescent anorexia first-line treatment:</strong> Family therapy (Maudsley model)</li>
+        <li><strong>Bulimia first-line treatment:</strong> CBT-ED (16-20 sessions). SSRI fluoxetine 60mg is alternative.</li>
+        <li><strong>Fluoxetine dose for bulimia:</strong> 60mg (not 20mg, not 40mg)</li>
+        <li><strong>SSRIs in underweight anorexia:</strong> NOT effective until weight restored</li>
+        <li><strong>Refeeding syndrome key marker:</strong> Hypophosphataemia — start refeeding at 5-10 kcal/kg/day</li>
+        <li><strong>Russell\u2019s sign:</strong> Knuckle calluses from self-induced vomiting (bulimia, anorexia binge-purge type)</li>
+        <li><strong>Salivary gland enlargement:</strong> Parotid hypertrophy from vomiting (bulimia)</li>
+        <li><strong>Highest mortality psychiatric disorder:</strong> Anorexia nervosa (SMR 5-6)</li>
+        <li><strong>Bulimia more common than anorexia:</strong> Yes. And all EDs increasing across developed countries.</li>
+        <li><strong>Binge-eating disorder vs bulimia:</strong> BED has NO regular compensatory behaviours. This is the key distinction.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers eating disorders with questions calibrated to real exam difficulty. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'anxiety-disorders-trauma-mrcpsych-paper-b',
+    title: 'Anxiety Disorders, Trauma, and Stressor-Related Disorders for MRCPsych Paper B',
+    metaTitle: 'Anxiety Disorders for MRCPsych Paper B | GAD, Panic, PTSD, Phobias',
+    metaDescription: 'Anxiety disorders, trauma and stressor-related disorders for MRCPsych Paper B. GAD, panic disorder, PTSD, phobias, ICD-11 criteria, NICE stepped care, and recall patterns.',
+    date: '2026-06-17',
+    readTime: '12 min read',
+    category: 'Paper B',
+    tags: ['anxiety disorders', 'PTSD', 'panic disorder', 'GAD', 'phobias', 'ICD-11', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Anxiety and fear-related disorders together with trauma and stressor-related disorders constitute a significant proportion of general adult psychiatry questions in Paper B. ICD-11 reorganised these conditions into two separate chapters: anxiety and fear-related disorders (GAD, panic disorder, agoraphobia, social anxiety disorder, specific phobia, separation anxiety disorder, selective mutism) and disorders specifically associated with stress (PTSD, complex PTSD, prolonged grief disorder, adjustment disorder, reactive attachment disorder, disinhibited social engagement disorder). This restructuring is examined.</p>
+
+      <h2>Generalised Anxiety Disorder (GAD)</h2>
+
+      <p><strong>ICD-11 criteria:</strong> Generalised anxiety disorder is characterised by marked symptoms of anxiety that are present most days over a period of at least 6 months. The core feature is generalised and persistent anxiety that is not restricted to any particular environmental circumstance (free-floating anxiety). Symptoms include motor tension (trembling, restlessness, headache), autonomic overactivity (palpitations, sweating, dry mouth, epigastric discomfort, dizziness), apprehensive expectation (worry about future events, excessive worry about everyday matters), and hypervigilance (difficulty concentrating, initial insomnia, irritability). The individual finds it difficult to control the worry.</p>
+
+      <p><strong>NICE treatment (CG113):</strong> Step 1: Identification and assessment in primary care. Step 2: Low-intensity psychological intervention (guided self-help based on CBT principles, psychoeducation, monitoring). Step 3: High-intensity psychological intervention (CBT or applied relaxation, 12-15 sessions) OR an SSRI (sertraline first-line, then fluoxetine, citalopram, escitalopram or paroxetine). Step 4: If inadequate response, consider specialist review, alternative SSRI, or SNRI (venlafaxine, duloxetine), or pregabalin. Pregabalin has evidence for GAD but carries risk of dependence and is scheduled as a controlled drug under the Misuse of Drugs Act. Buspirone (5-HT1A partial agonist) is a non-sedating alternative but less effective.</p>
+
+      <p><strong>GAD vs worry in healthy individuals:</strong> The key distinction is the pervasiveness, duration (6 months), and functional impairment. The worry in GAD is difficult to control and accompanied by somatic symptoms. Benzodiazepines are NOT recommended for long-term treatment of GAD beyond 2-4 weeks due to tolerance and dependence.</p>
+
+      <h2>Panic Disorder and Agoraphobia</h2>
+
+      <p><strong>ICD-11 criteria:</strong> Panic disorder is characterised by recurrent, unexpected panic attacks (discrete episodes of intense fear or discomfort accompanied by autonomic and cognitive symptoms) that are not restricted to specific situations or stimuli. The individual experiences persistent worry about future attacks and the implications of the attacks (e.g., fear of losing control, going mad, having a heart attack, dying). Agoraphobia involves fear and avoidance of situations from which escape might be difficult (crowds, public transport, open spaces, being outside the home alone). The two frequently co-occur but can be diagnosed independently in ICD-11.</p>
+
+      <p><strong>Panic attack symptoms (any 4 of the following):</strong> Palpitations, sweating, trembling, shortness of breath, choking sensation, chest pain, nausea, dizziness, derealisation, fear of losing control, fear of dying, paraesthesias, chills or hot flushes. Panic attacks reach peak intensity within minutes and typically resolve within 20-30 minutes. They can be expected (cue-related, in response to a phobic stimulus) or unexpected (uncued, out of the blue).</p>
+
+      <p><strong>NICE treatment (CG113):</strong> First-line psychological intervention: CBT for panic disorder (7-14 hours total). First-line medication: SSRI (sertraline, fluoxetine, or escitalopram). Avoid benzodiazepines beyond short-term crisis management (maximum 2-4 weeks). If no response to SSRI after 12 weeks, consider switching to another SSRI, SNRI (venlafaxine), or tricyclic (clomipramine). The combination of CBT + SSRI is more effective than either alone for moderate-severe panic disorder.</p>
+
+      <h2>Social Anxiety Disorder (Social Phobia)</h2>
+
+      <p><strong>ICD-11 criteria:</strong> Marked and disproportionate fear or anxiety about one or more social situations where the individual is exposed to possible scrutiny by others (e.g., conversations, meeting unfamiliar people, eating in public, performing). The individual fears that they will act in a way that will be negatively evaluated. The social situations are avoided or endured with intense fear. The symptoms persist for at least several months.</p>
+
+      <p><strong>Treatment:</strong> First-line: individual CBT specifically for social anxiety (CBT-SA). Medication options: SSRI (escitalopram, sertraline, fluoxetine, paroxetine). SNRI (venlafaxine) is an alternative. The combination of CBT and SSRI is superior to either alone. Beta-blockers (propranolol) are sometimes used for performance anxiety (stage fright) but are not NICE-recommended for generalised social anxiety.</p>
+
+      <p><strong>Key distinction — social anxiety vs schizotypal PD:</strong> A recall question tested this. Social anxiety involves fear of negative evaluation with desire for social connection. Schizotypal PD involves eccentric behaviour, magical thinking, perceptual distortions, and social anxiety that is more pervasive and accompanied by cognitive/perceptual oddities. Schizoid PD involves no desire for social connection.</p>
+
+      <h2>Post-Traumatic Stress Disorder (PTSD)</h2>
+
+      <p><strong>ICD-11 criteria:</strong> PTSD requires exposure to an event or situation of an extremely threatening or horrific nature (traumatic event). The core features are: 1) Re-experiencing the traumatic event in the present, involving vivid intrusive memories, flashbacks, or nightmares accompanied by strong emotions of fear or horror. 2) Deliberate avoidance of reminders of the trauma. 3) Persistent perceptions of heightened current threat (hypervigilance, exaggerated startle response). Symptoms must persist for at least several weeks and cause functional impairment. The ICD-11 simplified the PTSD criteria from ICD-10 (which had 6 clusters) to these 3 core clusters.</p>
+
+      <p><strong>Complex PTSD (ICD-11 addition):</strong> In addition to the core PTSD symptoms, complex PTSD includes severe and pervasive disturbances in affect regulation (emotional dysregulation), negative self-concept (feelings of worthlessness, shame, guilt), and interpersonal difficulties (difficulty sustaining relationships, feeling distant from others). It is associated with prolonged, repeated, or multiple forms of traumatic exposure (childhood abuse, domestic violence, torture, genocide). This is a new ICD-11 category that may appear in the exam.</p>
+
+      <p><strong>NICE treatment (NG116, updated 2024):</strong> First-line: trauma-focused psychological therapy. Options: trauma-focused CBT (TF-CBT), eye movement desensitisation and reprocessing (EMDR), or prolonged exposure therapy. These are recommended before medication. For adults, TF-CBT or EMDR (8-12 sessions). For children, TF-CBT. Medication: paroxetine or venlafaxine are recommended as second-line (when psychological therapy is declined or unavailable or not effective). Antipsychotics are NOT recommended for PTSD. Benzodiazepines should NOT be used. Early single-session debriefing (psychological debriefing) immediately after trauma is NOT recommended and may be harmful.</p>
+
+      <p><strong>Risk factors for PTSD:</strong> Greater trauma severity, prior trauma history, prior psychiatric disorder, female sex, low social support, peritraumatic dissociation, and high emotional reactivity during the event.</p>
+
+      <h2>Adjustment Disorder</h2>
+
+      <p><strong>ICD-11 criteria:</strong> A maladaptive reaction to an identifiable psychosocial stressor (such as divorce, job loss, illness, or bereavement) that emerges within 1 month of the stressor. The reaction is characterised by preoccupation with the stressor and failure to adapt (symptoms of depression, anxiety, or behavioural disturbance). The condition typically resolves within 6 months if the stressor or its consequences are removed. The key distinction from major depression is the temporal relationship to the stressor and the absence of full depressive syndrome. Adjustment disorder can be acute (persists less than 3 months) or prolonged (persists 3-12 months).</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+      <ul>
+        <li><strong>GAD minimum duration:</strong> 6 months of symptoms present most days. Distinguishes it from adjustment disorder (1 month) and mixed anxiety-depression.</li>
+        <li><strong>Panic attack physiological peak:</strong> Minutes. 20-30 minutes typical duration.</li>
+        <li><strong>PTSD core symptom clusters (ICD-11):</strong> Re-experiencing, avoidance, hypervigilance (3 clusters, simplified from ICD-10 which had 6)</li>
+        <li><strong>Complex PTSD added features:</strong> Affect dysregulation, negative self-concept, interpersonal difficulties — from prolonged/repeated trauma</li>
+        <li><strong>First-line PTSD treatment:</strong> Trauma-focused CBT or EMDR (NOT medication)</li>
+        <li><strong>Unhelpful PTSD intervention:</strong> Psychological debriefing (single session) — NOT recommended, may be harmful</li>
+        <li><strong>Benzodiazepine role in anxiety:</strong> Maximum 2-4 weeks. Not for long-term treatment.</li>
+        <li><strong>Pregabalin:</strong> Evidence for GAD but dependence risk. Controlled drug.</li>
+        <li><strong>Beta-blockers:</strong> Propranolol for performance anxiety only (not generalised social anxiety)</li>
+        <li><strong>Social anxiety vs schizotypal vs schizoid:</strong> Social anxiety = fear with desire for connection. Schizotypal = odd/eccentric + social anxiety. Schizoid = no desire for connection.</li>
+        <li><strong>Prolonged grief disorder (ICD-11):</strong> Persistent and pervasive grief response lasting longer than 6 months, characterised by longing for the deceased, preoccupation with thoughts of the deceased, and intense emotional pain.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers anxiety disorders, PTSD, and trauma-related conditions with questions calibrated to real exam depth. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'sleep-disorders-mrcpsych-paper-b',
+    title: 'Sleep Disorders for MRCPsych Paper B: Insomnia, Parasomnias, and Circadian Rhythm Disorders',
+    metaTitle: 'Sleep Disorders for MRCPsych Paper B | Insomnia, Narcolepsy, Parasomnias',
+    metaDescription: 'Sleep disorders for MRCPsych Paper B. Insomnia management, narcolepsy, sleep apnoea, parasomnias, restless legs, circadian rhythm disorders, and exam question patterns.',
+    date: '2026-06-17',
+    readTime: '10 min read',
+    category: 'Paper B',
+    tags: ['sleep disorders', 'insomnia', 'narcolepsy', 'sleep apnoea', 'parasomnias', 'restless legs', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Sleep disorders appear in Paper B as part of both general adult psychiatry and liaison psychiatry. Understanding the interface between psychiatric conditions and sleep disturbance is essential, as sleep complaints are common to almost every psychiatric disorder but also represent primary sleep disorders that require specific management. The ICSD-3 (International Classification of Sleep Disorders) is the specialist classification, though ICD-11 is the reference for the exam.</p>
+
+      <h2>Insomnia Disorder</h2>
+
+      <p><strong>ICD-11 criteria:</strong> Insomnia disorder is characterised by difficulty initiating or maintaining sleep, or early morning waking, that occurs at least several times per week for at least 3 months and is associated with significant daytime distress or functional impairment (fatigue, mood disturbance, cognitive impairment, reduced performance). The sleep disturbance must occur despite adequate opportunity for sleep. Primary insomnia is distinguished from insomnia secondary to another mental disorder (e.g., depression, anxiety) or to a medical condition (e.g., pain, hyperthyroidism) \u2014 though in practice, insomnia frequently co-occurs with these conditions and both should be treated.</p>
+
+      <p><strong>NICE treatment (CG34):</strong> First-line is non-pharmacological: CBT for insomnia (CBT-I) — stimulus control, sleep restriction, cognitive restructuring, relaxation, sleep hygiene education. Sleep hygiene alone (regular sleep schedule, avoid caffeine/alcohol before bed, cool dark quiet room, avoid screens) is recommended as a first step but is insufficient for moderate-severe insomnia. Medication should be considered only when CBT-I is not available or has been ineffective. Z-drugs (zopiclone, zolpidem, zaleplon) and benzodiazepines are effective short-term but should be prescribed at the lowest dose for the shortest possible time (maximum 2-4 weeks) due to tolerance, dependence, and withdrawal risks. Melatonin (prolonged-release) is licensed for primary insomnia in patients aged 55 and over. Melatonin is also used for sleep-onset insomnia in children with ADHD or autism (off-label). Antidepressants with sedative properties (mitrazapine, trazodone, amitriptyline) are sometimes used for insomnia associated with depression but are not licensed for primary insomnia.</p>
+
+      <p><strong>Exam key point:</strong> CBT-I is the first-line treatment. Z-drugs are second-line, short-term only. Antihistamines (promethazine, diphenhydramine) have minimal evidence and significant daytime sedation.</p>
+
+      <h2>Sleep-Related Breathing Disorders</h2>
+
+      <p><strong>Obstructive sleep apnoea (OSA):</strong> Collapse of the upper airway during sleep leading to repetitive apnoeas (cessation of breathing for >10 seconds) and hypopnoeas, with associated oxygen desaturations and arousals from sleep. Symptoms: loud snoring, witnessed apnoeas, gasping or choking at night, excessive daytime sleepiness, morning headaches, irritability, poor concentration, low libido. Risk factors: obesity (especially neck circumference >40cm), male sex, older age, smoking, alcohol before sleep, craniofacial abnormalities. The STOP-BANG questionnaire (Snoring, Tiredness, Observed apnoea, Pressure/BP, BMI>35, Age>50, Neck circumference>40, Gender=male) screens for OSA. Diagnosis is by overnight polysomnography (AHI — Apnoea-Hypopnoea Index). Treatment: CPAP (continuous positive airway pressure) is first-line. Alternative: mandibular advancement devices, weight loss, positional therapy. OSA is associated with hypertension, cardiovascular disease, stroke, type 2 diabetes, and depression.</p>
+
+      <p><strong>Central sleep apnoea:</strong> Cessation of respiratory effort due to loss of brainstem drive (not airway obstruction). Associated with heart failure, opioid use, and stroke. Treatment: adaptive servo-ventilation (ASV) or treating the underlying cause.</p>
+
+      <p><strong>Psychiatric relevance:</strong> OSA frequently presents with depressive symptoms, fatigue, and cognitive complaints that are misattributed to primary depression. Treatment of OSA with CPAP improves these symptoms. The exam may present a patient with treatment-resistant depression and risk factors for OSA \u2014 the correct answer is to screen for sleep apnoea.</p>
+
+      <h2>Central Disorders of Hypersomnolence</h2>
+
+      <p><strong>Narcolepsy (G\u00e9lineau syndrome):</strong> Tetrad of symptoms: 1) Excessive daytime sleepiness (the most disabling symptom, with irresistible sleep attacks). 2) Cataplexy (sudden bilateral loss of muscle tone triggered by strong emotions, especially laughter or surprise — the patient may have head drooping, jaw sagging, or fall to the ground, while remaining fully conscious throughout). 3) Sleep paralysis (inability to move or speak on waking or falling asleep). 4) Hypnagogic/hypnopompic hallucinations (vivid dreamlike experiences, often frightening, occurring at sleep onset or waking). Narcolepsy type 1 has cataplexy; type 2 does not. Pathophysiology: loss of hypocretin (orexin) neurons in the lateral hypothalamus, likely autoimmune-mediated. Associated with HLA-DQB1*0602. Onset typically in adolescence or young adulthood. Diagnosis by polysomnography and Multiple Sleep Latency Test (MSLT) showing mean sleep latency of less than 8 minutes and 2 or more sleep-onset REM periods. Treatment: modafinil (first-line for daytime sleepiness, a wakefulness-promoting agent with low abuse potential), methylphenidate, dexamfetamine. Cataplexy: sodium oxybate (gamma-hydroxybutyrate) or antidepressants (venlafaxine, clomipramine) that suppress REM sleep.</p>
+
+      <p><strong>Kleine-Levin syndrome:</strong> Recurrent episodes of hypersomnia (sleeping 16-20 hours/day) lasting days to weeks, accompanied by hyperphagia, hypersexuality, and behavioural changes. Classically in adolescent males. Normal functioning between episodes. Ursodeoxycholic acid and lithium have some evidence for prophylaxis.</p>
+
+      <p><strong>Idiopathic hypersomnia:</strong> Excessive daytime sleepiness without cataplexy and with long (often unrefreshing) naps. Distinguish from narcolepsy by the absence of REM-specific phenomena and the length of naps.</p>
+
+      <h2>Circadian Rhythm Sleep-Wake Disorders</h2>
+
+      <p>Disruption of the endogenous circadian pacemaker in the suprachiasmatic nucleus of the hypothalamus. Types: delayed sleep-wake phase (night owls \u2014 most common, common in adolescents), advanced sleep-wake phase (early birds, more common in older adults), irregular sleep-wake rhythm (disorganised, no clear circadian pattern, common in dementia), non-24-hour (free-running, common in blind individuals), shift work disorder, and jet lag disorder. Treatment: timed melatonin, bright light therapy (morning light for delayed phase, evening light for advanced phase), and strict sleep scheduling.</p>
+
+      <h2>Parasomnias</h2>
+
+      <p><strong>Non-REM parasomnias (disorders of arousal):</strong> Confusional arousals (awakening confused, disoriented), sleepwalking (ambulation during NREM sleep), and sleep terrors (screaming, autonomic arousal, no dream recall). These occur during NREM stage 3 (slow-wave sleep), usually in the first third of the night. The patient has no memory of the event and cannot be easily awakened. Common in children, typically resolves with age. Treatment: reassurance, sleep hygiene, safety measures. In severe cases: clonazepam or scheduled awakenings.</p>
+
+      <p><strong>REM parasomnias:</strong> REM sleep behaviour disorder (RBD): loss of the normal muscle atonia during REM sleep, causing the patient to act out dreams (punching, kicking, shouting). Classically associated with synucleinopathies (Parkinson\u2019s disease, DLB, multiple system atrophy). Can precede the onset of Parkinson\u2019s disease by years or decades. Treatment: clonazepam (first-line) or melatonin. Nightmare disorder: recurrent, unpleasant, well-remembered dreams. Treatment: imagery rehearsal therapy (IRT), prazosin for PTSD-associated nightmares.</p>
+
+      <p><strong>Sleep-related movement disorders:</strong> Restless legs syndrome (Willis-Ekbom disease): distressing urge to move the legs, worse at rest, partially relieved by movement, worse in the evening or at night. Associated with iron deficiency (check ferritin), renal failure, pregnancy, and dopaminergic medications. Treatment: dopamine agonists (pramipexole, ropinirole — first-line), gabapentin, clonazepam. Periodic limb movement disorder: repetitive, stereotyped limb movements (typically dorsiflexion of the toes and ankle) during sleep, often associated with restless legs, causing arousals and daytime sleepiness.</p>
+
+      <h2>Bruxism</h2>
+
+      <p>Clenching or grinding of teeth during sleep, associated with stress, anxiety, and certain substances (serotonergic antidepressants, caffeine, alcohol). Can cause tooth wear and jaw pain. Treatment: occlusal splints (mouth guards), stress reduction, avoiding triggers. Clonazepam or botulinum toxin in severe cases.</p>
+
+      <h2>Sleep and Psychiatric Medication</h2>
+
+      <p>The effect of psychiatric medications on sleep is tested: SSRIs suppress REM sleep (can worsen restless legs and cause teeth grinding), mitrazapine improves sleep continuity (H1 blockade), olanzapine and quetiapine are sedating (H1, 5-HT2C), bupropion is activating (can worsen insomnia), modafinil is wake-promoting, melatonin promotes sleep onset. Antipsychotics with significant H1 blockade (olanzapine, quetiapine, chlorpromazine) improve sleep continuity. Clozapine causes hypersalivation that can worsen sleep for the patient.</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+      <ul>
+        <li><strong>First-line insomnia treatment:</strong> CBT-I. Z-drugs second-line, short-term (max 2-4 weeks).</li>
+        <li><strong>Narcolepsy tetrad:</strong> EDS, cataplexy (emotional trigger, preserved consciousness), sleep paralysis, hypnagogic hallucinations</li>
+        <li><strong>Cataplexy triggered by:</strong> Strong emotions, especially laughter. Key distinguishing feature from seizure/psychogenic.</li>
+        <li><strong>First-line for EDS in narcolepsy:</strong> Modafinil (wakefulness-promoting, low abuse potential)</li>
+        <li><strong>First-line for cataplexy:</strong> Sodium oxybate, or antidepressants (venlafaxine, clomipramine) — REM suppressants</li>
+        <li><strong>OSA screening tool:</strong> STOP-BANG — snoring, tiredness, observed apnoea, pressure, BMI>35, age>50, neck>40cm, male</li>
+        <li><strong>OSA first-line treatment:</strong> CPAP. Weight loss and MAD are alternatives.</li>
+        <li><strong>Restless legs first-line:</strong> Pramipexole or ropinirole (dopamine agonists). Check ferritin first.</li>
+        <li><strong>REM sleep behaviour disorder:</strong> Acting out dreams, loss of muscle atonia. Associated with synucleinopathies (PD, DLB). Treat with clonazepam.</li>
+        <li><strong>Sleep terrors vs nightmares:</strong> Terrors = NREM stage 3 (first third of night), no recall, screaming. Nightmares = REM (last third), well-remembered.</li>
+        <li><strong>Kleine-Levin:</strong> Hypersomnia + hyperphagia + hypersexuality in adolescent males. Episodic.</li>
+        <li><strong>Melatonin licensed for:</strong> Patients aged 55+ with primary insomnia (prolonged-release). Also used off-label for circadian phase disorders.</li>
+        <li><strong>Prazosin for:</strong> PTSD-associated nightmares</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers sleep disorders with questions calibrated to real exam style. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'learning-disability-mrcpsych-paper-b',
+    title: 'Learning Disability (Intellectual Disability) for MRCPsych Paper B',
+    metaTitle: 'Learning Disability for MRCPsych Paper B | ICD-11, Behavioural Phenotypes',
+    metaDescription: 'Learning disability / intellectual disability for MRCPsych Paper B. ICD-11 classification, behavioural phenotypes of genetic syndromes, mental health in LD, legal framework, and diagnostic overshadowing.',
+    date: '2026-06-17',
+    readTime: '11 min read',
+    category: 'Paper B',
+    tags: ['learning disability', 'intellectual disability', 'behavioural phenotypes', 'Down syndrome', 'diagnostic overshadowing', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Learning disability (intellectual disability) accounts for approximately 6% of Paper B marks. The questions cover the ICD-11 classification and severity grading, behavioural phenotypes of specific genetic syndromes, the assessment and management of mental health conditions in people with LD, diagnostic overshadowing, and the legal framework (MCA, safeguarding, and the interface with forensic services). Recall documents confirm that specific syndrome presentation questions (Down syndrome, Fragile X, Rett, cri du chat, neurofibromatosis) are recurring.</p>
+
+      <h2>ICD-11 Definition and Classification</h2>
+
+      <p>Intellectual disability (the ICD-11 term, though \u201clearning disability\u201d is the preferred UK clinical term) is defined by significant impairment of intellectual functioning (IQ approximately below 70) AND significant impairment of adaptive functioning (conceptual, social, and practical skills), with onset during the developmental period (before age 18). Severity is graded by adaptive functioning, not by IQ alone:</p>
+      <ul>
+        <li><strong>Mild (IQ 50-69, ~85% of LD):</strong> Can achieve academic skills up to approximately age 11-12. Able to live independently with support, hold employment, and maintain relationships. Often not diagnosed until school age.</li>
+        <li><strong>Moderate (IQ 35-49, ~10%):</strong> Academic skills up to approximately age 8-9. Need more support with daily living, usually live in supported accommodation. Most have identifiable genetic cause.</li>
+        <li><strong>Severe (IQ 20-34, ~4%):</strong> Limited language (single words, simple phrases), require support with all activities of daily living. High likelihood of comorbid physical disabilities, epilepsy, and sensory impairments.</li>
+        <li><strong>Profound (IQ below 20, ~1%):</strong> Minimal language, complete dependence on others for all aspects of care. High rates of physical disability, epilepsy, and medical comorbidity. Life expectancy reduced.</li>
+      </ul>
+
+      <h2>Behavioural Phenotypes of Genetic Syndromes</h2>
+
+      <p>These are the most frequently tested LD recall questions. The exam presents a brief clinical description and asks the candidate to identify the syndrome.</p>
+
+      <ul>
+        <li><strong>Down syndrome (trisomy 21):</strong> The most common genetic cause of LD. Typical physical features: upslanting palpebral fissures, epicanthic folds, flat nasal bridge, protruding tongue, single palmar crease, hypotonia. Behavioural phenotype: friendly, sociable disposition, relative strength in social skills and visual-spatial abilities compared to language. Associated with Alzheimer\u2019s disease (virtually all have Alzheimer pathology by age 40), congenital heart defects, hypothyroidism, leukaemia, atlantoaxial instability, and hearing/vision impairments. The gene for amyloid precursor protein (APP) is on chromosome 21, linking Down syndrome to early Alzheimer pathology.</li>
+        <li><strong>Fragile X syndrome (Martin-Bell):</strong> The most common inherited cause of LD. Caused by trinucleotide (CGG) repeat expansion on the X chromosome (FMR1 gene). More common and more severe in males (who have only one X chromosome). Physical features: long face, prominent ears, large testicles (macro-orchidism, post-pubertal). Behavioural phenotype: social anxiety, gaze aversion, ADHD features, autistic traits (up to 30% meet criteria for autism), hand flapping, and perseverative speech. Females with Fragile X tend to have milder LD or normal IQ with anxiety and shyness.</li>
+        <li><strong>Rett syndrome:</strong> Caused by MECP2 mutation on the X chromosome, almost exclusively in females (males are typically non-viable). Normal development for 6-18 months, then regression with loss of acquired skills (hand skills, language), acquired microcephaly, stereotypic hand-wringing/hand-washing movements, ataxia, breathing dysrhythmia (hyperventilation, breath-holding), and seizures. The regression and characteristic hand movements are pathognomonic. A recall question confirmed: <em>\u201cMECP2 gene \u2014 Rett syndrome.\u201d</em></li>
+        <li><strong>Cri du chat syndrome (5p deletion):</strong> Deletion of short arm of chromosome 5. Physical features: severe LD, microcephaly, hypertelorism (wide-set eyes), and a distinctive high-pitched cat-like cry in infancy. Behavioural phenotype: hyperactivity, repetitive behaviours, self-injury. A recall question: <em>\u201cVery noisy kid, severe LD, hypertelorism\u201d</em> \u2014 Cri du chat.</li>
+        <li><strong>Prader-Willi syndrome (paternal 15q11 deletion):</strong> Deletion of the paternal copy of chromosome 15q11-q13 (the maternal copy is imprinted, so this deletion removes the only active copy). In infancy: hypotonia, poor feeding, failure to thrive. In childhood: hyperphagia (insatiable appetite), obesity, compulsive food-seeking. Behavioural phenotype: temper outbursts, skin picking (self-injury), obsessive-compulsive traits, and high pain threshold. Distinctive physical features: almond-shaped eyes, narrow temples, small hands and feet, hypogonadism.</li>
+        <li><strong>Angelman syndrome (maternal 15q11 deletion):</strong> The same genetic locus as Prader-Willi but the deletion is on the maternal chromosome. Normal development initially, then severe developmental delay, ataxia, seizures, and a characteristic happy demeanour with frequent laughter, hand-flapping, and excitability. \u201cHappy puppet\u201d was the older term (now considered pejorative).</li>
+        <li><strong>Williams syndrome (7q11 deletion):</strong> Distinctive \u201celfin\u201d facies (small upturned nose, wide mouth, full lips, small chin), hypercalcaemia, and cardiovascular disease (supravalvular aortic stenosis). Behavioural phenotype: very sociable, verbally fluent (often articulate beyond their cognitive level), friendly, and musically talented. However, they have poor visuospatial skills, anxiety (especially social anxiety), and ADHD.</li>
+        <li><strong>Tuberous sclerosis (TSC1/TSC2):</strong> Autosomal dominant. Physical features: facial angiofibromas (adenoma sebaceum), hypopigmented ash-leaf spots, shagreen patches (connective tissue naevi on the lumbar region), and periungual fibromas. CNS: cortical tubers (hamartomas in the brain), subependymal nodules, and subependymal giant cell astrocytomas (SEGA). Associated with epilepsy (often infantile spasms), autism, ADHD, and LD of variable severity.</li>
+        <li><strong>Neurofibromatosis type 1 (NF1, 17q11):</strong> Autosomal dominant. Physical features: caf\u00e9-au-lait spots (>6, >5mm in children, >15mm in adults), axillary/inguinal freckling, neurofibromas, Lisch nodules (iris hamartomas), and optic pathway gliomas. Associated with LD (30-60%), ADHD, and social difficulties. A recall question confirmed: <em>\u201cShort, has freckles, Lisch nodules, LD\u201d</em> \u2014 Neurofibromatosis type 1.</li>
+      </ul>
+
+      <h2>Diagnostic Overshadowing</h2>
+
+      <p><strong>Diagnostic overshadowing</strong> is the tendency to attribute new symptoms (e.g., agitation, low mood, auditory hallucinations) to the person\u2019s existing learning disability rather than recognising the possibility of a concurrent psychiatric disorder. This is a key concept tested in Paper B. It leads to underdiagnosis and undertreatment of mental health conditions in people with LD. People with LD have higher rates of psychiatric disorders than the general population (estimated 30-50% have a comorbid mental health condition, compared to 15-20% in the general population). The most common are: anxiety disorders, depression, schizophrenia (3-4 times higher), ADHD, and autism (which overlaps heavily with LD). Behavioural phenotypes and diagnostic overshadowing mean that mental illness in LD requires assessment by clinicians with specialist training. The <em>Diagnostic Manual \u2014 Intellectual Disability (DM-ID)</em> and the Royal College of Psychiatrists\u2019 DC-LD provide adapted diagnostic criteria.</p>
+
+      <h2>Mental Health in LD: Assessment and Management</h2>
+
+      <p>Assessment of mental health in people with LD requires: obtaining collateral history (carers, family, support staff), observation over time, use of validated adapted assessment tools (PAS-ADD, Mini PAS-ADD, ABC — Aberrant Behaviour Checklist), and exclusion of physical causes (pain from constipation, dental caries, gastro-oesophageal reflux, epilepsy). The same NICE treatment guidelines apply for most conditions, but with adaptations: lower starting doses, slower titration, more careful monitoring of side effects, and involving the person\u2019s support network in the treatment plan. Psychological interventions should be adapted to the person\u2019s developmental level. People with LD are more vulnerable to medication side effects (especially antipsychotic-induced EPS and metabolic syndrome).</p>
+
+      <p>Atypical antipsychotics should NOT be used as chemical restraint for challenging behaviour without an appropriate psychiatric diagnosis. NICE (NG11) recommends a comprehensive behavioural assessment before prescribing and regular reviews with a plan to reduce or stop medication. This is a clinical governance priority.</p>
+
+      <h2>Legal Framework for LD</h2>
+
+      <p>The MCA 2005 is particularly relevant for people with LD, as many will lack capacity to make specific decisions. The functional test of capacity and best interests decision-making are the same as for other conditions, but the assessor must take into account the person\u2019s communication needs and provide all practical support to enable them to participate in decision-making. The MHA 1983 can be used for people with LD who meet the criteria for detention \u2014 the Mental Health Act Code of Practice specifies that the MHA is preferred to the MCA for decisions about compulsory treatment of mental disorder. The MCA is used for decisions about care and treatment of physical health problems where the person lacks capacity. The interface between the two (Bournewood gap) was discussed in the old age psychiatry article. Safeguarding is critical: people with LD are at higher risk of abuse (physical, sexual, financial, institutional). Any concern must be referred to adult safeguarding under the Care Act 2014.</p>
+
+      <h2>High-Yield Recall Patterns</h2>
+      <ul>
+        <li><strong>Most common inherited cause of LD:</strong> Fragile X syndrome (triplet repeat on X chromosome)</li>
+        <li><strong>Most common genetic cause of LD overall:</strong> Down syndrome (trisomy 21)</li>
+        <li><strong>MECP2 mutation:</strong> Rett syndrome (females, regression at 6-18mo, hand-wringing, microcephaly)</li>
+        <li><strong>5p deletion:</strong> Cri du chat (cat-like cry, severe LD, hypertelorism, hyperactivity)</li>
+        <li><strong>7q11 deletion:</strong> Williams syndrome (elfin facies, friendly/fluent, supravalvular aortic stenosis, hypercalcaemia)</li>
+        <li><strong>Paternal 15q11 deletion:</strong> Prader-Willi (hyperphagia, obesity, hypotonia, skin picking)</li>
+        <li><strong>Maternal 15q11 deletion:</strong> Angelman (happy puppet, seizures, ataxia, frequent laughter)</li>
+        <li><strong>NF1 triad:</strong> Short stature, caf\u00e9-au-lait spots, Lisch nodules, LD</li>
+        <li><strong>Diagnostic overshadowing:</strong> Attributing new psychiatric symptoms to the LD rather than recognising a treatable mental illness</li>
+        <li><strong>Down syndrome + Alzheimer\u2019s:</strong> Virtually all have Alzheimer pathology by age 40. APP gene on chromosome 21.</li>
+        <li><strong>LD prevalence of psychiatric comorbidity:</strong> Approximately 30-50% (vs 15-20% general population)</li>
+        <li><strong>Antipsychotics in LD:</strong> Do NOT use for challenging behaviour without psychiatric diagnosis. NICE NG11.</li>
+        <li><strong>Sexual offending + LD:</strong> Antisocial PD + LD + substance abuse most commonly associated. Recall confirmed.</li>
+        <li><strong>Fetal alcohol syndrome:</strong> Microcephaly, growth retardation, distinct facies (smooth philtrum, thin upper lip). Recall confirmed.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper B question bank covers learning disability with recall-calibrated questions. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'classification-icd11-vs-icd10-mrcpsych',
+    title: 'Classification in Psychiatry: ICD-11 vs ICD-10 Changes for MRCPsych',
+    metaTitle: 'ICD-11 vs ICD-10 for MRCPsych | Key Changes & Exam Impact',
+    metaDescription: 'ICD-11 vs ICD-10 classification changes for MRCPsych. Personality disorders dimensional model, schizophrenia subtypes removed, PTSD simplified, new diagnoses, and how the exam tests these changes.',
+    date: '2026-06-17',
+    readTime: '9 min read',
+    category: 'Paper A',
+    tags: ['classification', 'ICD-11', 'ICD-10', 'DSM-5', 'diagnosis', 'Paper A', 'Paper B'],
+    featured: false,
+    content: `
+      <p>Classification in psychiatry accounts for approximately 17% of Paper A marks and underpins diagnostic questions in Paper B. The transition from ICD-10 to ICD-11 (adopted by WHO member states in 2022) is the most significant change to psychiatric classification in a generation and is a high-yield topic for the current exam sitting. The exam tests both knowledge of diagnostic criteria AND awareness of the structural changes between editions.</p>
+
+      <h2>What Changed in ICD-11: A Summary</h2>
+
+      <p>The ICD-11 classification of mental, behavioural, or neurodevelopmental disorders represents the first major revision since ICD-10 (1992). ICD-11 was adopted at the World Health Assembly in May 2019 and came into effect for WHO member states on 1 January 2022. The UK has transitioned to ICD-11 coding, and the MRCPsych now expects candidates to be familiar with ICD-11 criteria.</p>
+
+      <p><strong>Key structural changes:</strong></p>
+      <ul>
+        <li>Reorganisation of diagnostic groupings (e.g., OCD and related disorders separated from anxiety disorders; gender identity disorders moved to a new chapter on conditions related to sexual health)</li>
+        <li>Dimensional model for personality disorders (replacing categorical ICD-10 types)</li>
+        <li>Simplification of criteria for several disorders (schizophrenia, depressive episode, PTSD)</li>
+        <li>New diagnoses: complex PTSD, prolonged grief disorder, gaming disorder, body integrity dysphoria, olfactory reference disorder</li>
+        <li>Removal of some ICD-10 diagnoses: schizophrenia subtypes, dysthymia (replaced by persistent mood disorders), hypochondriasis (replaced by health anxiety / illness anxiety disorder)</li>
+        <li>Lifespan approach: childhood and adult diagnoses integrated in the same chapter structure</li>
+        <li>Eliminated the ICD-10 requirement for social and occupational impairment in some diagnoses</li>
+      </ul>
+
+      <h2>Personality Disorders: The Biggest Change</h2>
+
+      <p>The ICD-11 replaced the 10 categorical personality disorder types from ICD-10 with a single dimensional diagnosis of personality disorder, graded by severity (mild, moderate, or severe) based on the degree of impairment in self-functioning (identity, self-direction) and interpersonal functioning (empathy, intimacy). The candidate assigns one or more of five trait domain qualifiers: negative affectivity, detachment, dissociality, disinhibition, and anankastia. The borderline pattern specifier was retained because of its specific treatment implications (DBT, MBT). The exam tests this change directly: \u201cWhich ICD-10 personality disorder categories are no longer recognised in ICD-11?\u201d \u2014 all of them, replaced by the dimensional model with the borderline pattern specifier. Schizotypal disorder was moved out of the PD chapter and into the schizophrenia spectrum chapter (as schizotypal disorder, not schizotypal PD).</p>
+
+      <h2>Schizophrenia and Psychotic Disorders</h2>
+
+      <p>ICD-11 removed all schizophrenia subtypes (paranoid, hebephrenic, catatonic, undifferentiated, residual) that existed in ICD-10. The diagnosis of schizophrenia now requires at least 1 of the following symptoms present for most of the time over at least 1 month: persistent delusions, persistent hallucinations, disorganised thinking, experiences of influence/passivity/control, or negative symptoms. The catatonic presentation is now specified as a separate entity (catatonia associated with another mental disorder) rather than a subtype of schizophrenia. Schizoaffective disorder remains but with stricter criteria requiring that mood and psychotic symptoms occur together for most of the illness duration. This is a change from ICD-10 where the mood symptoms needed to meet criteria for a mood episode for a \u201csubstantial part\u201d of the total illness duration.</p>
+
+      <h2>Depressive Disorders</h2>
+
+      <p>ICD-11 simplified the criteria for depressive episode. The ICD-10 requirement of at least 2 of 3 typical symptoms (depressed mood, loss of interest, reduced energy) was retained. However, the number of additional symptoms was simplified: mild requires 2 core + 2-3 additional, moderate requires 2 core + 4-5 additional, severe requires all 3 core + 5+ additional. The symptom list was streamlined. Dysthymia (chronic low-grade depression in ICD-10) was replaced by persistent depressive disorders (chronic depression lasting at least 2 years, which may include dysthymic presentations). The ICD-10 concept of recurrent brief depressive disorder was retained. Mixed anxiety and depressive disorder (ICD-10 F41.2) was retained but reconceptualised.</p>
+
+      <h2>Trauma and Stress-Related Disorders</h2>
+
+      <p>PTSD was simplified to 3 core clusters (re-experiencing, avoidance, hypervigilance) from ICD-10\u2019s 6 clusters. This makes the diagnosis more specific and reduces overlap with other conditions. Complex PTSD was added (see the anxiety disorders article). Prolonged grief disorder was added (persistent grief lasting >6 months). Adjustment disorder criteria were tightened with a 1-month onset requirement and a 6-month maximum duration. Reactive attachment disorder and disinhibited social engagement disorder were retained for children.</p>
+
+      <h2>Obsessive-Compulsive and Related Disorders</h2>
+
+      <p>This new chapter separates OCD from anxiety disorders (ICD-10\u2019s grouping). The chapter includes: OCD, body dysmorphic disorder, olfactory reference disorder (preoccupation with perceived body odour, new to ICD-11), hypochondriasis (illness anxiety disorder), hoarding disorder, trichotillomania, and excoriation disorder. The insight specifier (good/fair, poor, absent/delusional) is used across all these conditions.</p>
+
+      <h2>Feeding and Eating Disorders</h2>
+
+      <p>ICD-11 retained anorexia, bulimia, and binge-eating disorder (which was not in ICD-10 but is now included). The amenorrhea requirement for anorexia was removed. ARFID (avoidant/restrictive food intake disorder) was added, capturing conditions like picky eating that result in nutritional deficiency without body image disturbance. Pica and rumination disorder were retained.</p>
+
+      <h2>Neurodevelopmental Disorders</h2>
+
+      <p>Autism spectrum disorder replaced the ICD-10 subtypes (childhood autism, Asperger syndrome, atypical autism, Rett syndrome, other childhood disintegrative disorder). Rett syndrome was moved to the developmental anomalies chapter. ADHD criteria were tightened: onset required before age 12 (ICD-10 required before age 7). Intellectual disability (the ICD-11 diagnostic term) replaced mental retardation. The severity is now graded primarily by adaptive functioning.</p>
+
+      <h2>Other Notable Changes</h2>
+
+      <ul>
+        <li><strong>Gaming disorder:</strong> Added as a new diagnosis (pattern of gaming behaviour with impaired control, increasing priority, and continuation despite negative consequences for at least 12 months)</li>
+        <li><strong>Body integrity dysphoria:</strong> The desire to have a specific physical disability (wanting amputation of a healthy limb, wanting to be blind or paralysed). Distinguished from Munchausen syndrome by the absence of secondary gain and the specific focus on body integrity.</li>
+        <li><strong>Catatonia:</strong> Now classified as a separate diagnostic entity (catatonia associated with another mental disorder and catatonia induced by substances/medications), not as a subtype of schizophrenia. This reflects the fact that catatonia occurs across a wider range of conditions.</li>
+        <li><strong>Gender incongruence:</strong> Removed from the mental disorders chapter and placed in a new chapter on conditions related to sexual health. This was a significant destigmatising change.</li>
+        <li><strong>Bipolar type II</strong> and cyclothymia were retained. The criteria for the manic/hypomanic episode were standardised (mania = 1 week, hypomania = 4 days, with requirement for increased activity/energy in addition to mood change).</li>
+      </ul>
+
+      <h2>High-Yield Exam Patterns for ICD-11 Changes</h2>
+      <ul>
+        <li><strong>Schizophrenia subtypes removed:</strong> Paranoid, hebephrenic, catatonic, undifferentiated, residual all out of ICD-11</li>
+        <li><strong>Personality disorders now dimensional:</strong> Severity (mild/moderate/severe) + trait specifiers. Borderline pattern specifier retained for treatment implications.</li>
+        <li><strong>Catatonia now a separate entity:</strong> Not a subtype of schizophrenia. Can be associated with any mental disorder.</li>
+        <li><strong>PTSD simplified to 3 clusters:</strong> Re-experiencing, avoidance, hypervigilance. Complex PTSD added.</li>
+        <li><strong>OCD separated from anxiety disorders:</strong> Now its own chapter (OCRDs) including BDD, hoarding, trichotillomania.</li>
+        <li><strong>ASD unified:</strong> Asperger, childhood autism, atypical autism all replaced by autism spectrum disorder.</li>
+        <li><strong>ADHD onset age changed:</strong> From <7 (ICD-10) to <12 (ICD-11). Three presentations: inattentive, hyperactive-impulsive, combined.</li>
+        <li><strong>Anorexia amenorrhea requirement:</strong> Removed in ICD-11</li>
+        <li><strong>Binge-eating disorder:</strong> New to ICD-11</li>
+        <li><strong>Gaming disorder:</strong> New diagnosis</li>
+        <li><strong>Gender incongruence:</strong> Moved out of mental disorders chapter</li>
+      </ul>
+
+      <p>PsychStar\u2019s question banks for both Paper A and Paper B reflect ICD-11 diagnostic criteria and test knowledge of the changes from ICD-10. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
+  {
+    slug: 'dynamic-psychopathology-mrcpsych-freud-psychoanalysis',
+    title: 'Dynamic Psychopathology for MRCPsych: Freud, Defence Mechanisms, and the Psychoanalytic Tradition',
+    metaTitle: 'Dynamic Psychopathology for MRCPsych | Freud, Jung, Klein, Defence Mechanisms',
+    metaDescription: 'Dynamic psychopathology for MRCPsych Paper A. Freud\u2019s structural and topographical models, Jung\u2019s analytical psychology, Klein\u2019s object relations, defence mechanisms, and the psychoanalytic tradition for the exam.',
+    date: '2026-06-17',
+    readTime: '10 min read',
+    category: 'Paper A',
+    tags: ['dynamic psychopathology', 'Freud', 'Jung', 'Klein', 'psychoanalysis', 'defence mechanisms', 'Paper A'],
+    featured: false,
+    content: `
+      <p>Dynamic psychopathology covers psychoanalytic theory and its application to understanding mental disorders. This overlaps with both the psychological models section and descriptive psychopathology syllabus of Paper A. While psychoanalytic theory has declined in clinical dominance, its concepts remain embedded in psychiatric terminology and are regularly examined. The SPMM syllabus section 5.23 covers this material. Defence mechanisms, in particular, are a high-yield EMI topic.</p>
+
+      <h2>Freud\u2019s Structural Model of the Mind</h2>
+
+      <p>Sigmund Freud (1856-1939) proposed that the mind is divided into three structures that develop over childhood:</p>
+
+      <p><strong>The id:</strong> Present at birth. Operates on the pleasure principle (seeks immediate gratification of instinctual drives). Unconscious. Contains the life instincts (Eros, libido) and the death instinct (Thanatos, the drive toward aggression and self-destruction). The id has no awareness of reality or morality \u2014 its only goal is tension reduction.</p>
+
+      <p><strong>The ego:</strong> Develops during the first year of life as the infant learns to negotiate reality. Operates on the reality principle (delays gratification until an appropriate object or situation is available). The ego mediates between the id\u2019s demands, the superego\u2019s prohibitions, and external reality. Functions include perception, memory, judgement, and reality testing. The ego uses defence mechanisms to manage conflicts between the id and superego.</p>
+
+      <p><strong>The superego:</strong> Develops around age 3-5 (phallic stage), through resolution of the Oedipus complex and internalisation of parental and societal values. Comprises the conscience (what is forbidden, guilt) and the ego-ideal (what is aspired to, pride). The superego is the internal representative of moral standards and ideals.</p>
+
+      <p><strong>Topographical model:</strong> Freud also described the mind in terms of consciousness: the conscious mind (current awareness), the preconscious (accessible memories and knowledge), and the unconscious (inaccessible material, drives, repressed memories, the contents of the id and superego). The goal of psychoanalysis is to make the unconscious conscious.</p>
+
+      <h2>Freud\u2019s Psychosexual Stages of Development</h2>
+
+      <p>Freud proposed that psychological development proceeds through a fixed sequence of stages, each centred on a different erogenous zone. Fixation at any stage (due to excessive frustration or gratification) leads to characteristic adult personality traits.</p>
+
+      <ul>
+        <li><strong>Oral stage (0-18 months):</strong> Pleasure centres on the mouth (sucking, biting). Weaning is the central conflict. Oral fixation: dependent, gullible, passive personality, or sarcastic/aggressive (oral aggressive). Disorders linked: depression, eating disorders, dependence.</li>
+        <li><strong>Anal stage (18-36 months):</strong> Pleasure centres on bowel and bladder control. Toilet training is the central conflict. Anal fixation: anal-retentive (orderly, stingy, obstinate) vs anal-expulsive (messy, disorganised, rebellious). Disorders linked: obsessive-compulsive traits.</li>
+        <li><strong>Phallic stage (3-6 years):</strong> Pleasure centres on the genitals. The central conflict is the Oedipus complex (boys: desire for the mother, fear of castration by the father, identification with father resolves the conflict) or Electra complex (girls: penis envy, desire for father, identification with mother resolves the conflict). Phallic fixation: vanity, recklessness, pride. Disorders linked: hysteria, sexual dysfunction.</li>
+        <li><strong>Latency stage (6-12 years):</strong> Sexual impulses are dormant. The child focuses on developing skills, social relationships, and intellectual pursuits. No new conflict.</li>
+        <li><strong>Genital stage (12+ years):</strong> Mature sexual interests emerge. The goal is healthy adult relationships combining love and work. The earlier stages have been successfully integrated.</li>
+      </ul>
+
+      <h2>Defence Mechanisms</h2>
+
+      <p>Defence mechanisms are unconscious mental processes that protect the individual from anxiety by distorting or denying reality. Anna Freud (Sigmund\u2019s daughter) systematised the list in <em>The Ego and the Mechanisms of Defence</em> (1936). The exam tests the definition and clinical recognition of each.</p>
+
+      <p><strong>Mature defences (adaptive, higher-level):</strong> Sublimation (channelling unacceptable impulses into socially valued activities \u2014 e.g., aggression into competitive sport), humour (expressing feelings without discomfort), altruism (meeting needs through helping others), suppression (conscious, voluntary deferral of a feeling or impulse \u2014 the only conscious defence), anticipation (preparing for future discomfort), and asceticism (renouncing needs to rise above them).</p>
+
+      <p><strong>Neurotic defences (intermediate):</strong> Repression (unconscious forgetting of unacceptable ideas or impulses \u2014 the most fundamental defence, from which others derive), displacement (redirecting an impulse to a safer target \u2014 e.g., angry at boss, takes it out on partner), intellectualisation (detached, analytical thinking about an emotionally charged issue, avoiding the feeling), rationalisation (constructing logical explanations for irrational behaviour), reaction formation (adopting attitudes and behaviours opposite to genuine impulses \u2014 e.g., being excessively kind to someone you dislike), isolation of affect (separating an idea from its associated emotion), undoing (ritualistic behaviour that symbolically reverses a previous action or thought).</p>
+
+      <p><strong>Immature defences (primitive, lower-level):</strong> Projection (attributing one\u2019s own unacceptable feelings to others \u2014 e.g., \u201cI\u2019m not angry, he is angry with me\u201d), projective identification (projecting a feeling and unconsciously behaving in a way that induces that feeling in the other — closely associated with BPD), splitting (dividing objects into all-good or all-bad \u2014 the most characteristic defence in BPD), acting out (expressing unconscious impulses through action rather than words — self-harm is the classic example), denial (refusing to acknowledge a painful reality), regression (reverting to an earlier developmental stage), idealisation and devaluation (alternating between seeing the self or others as perfect and worthless), and schizoid fantasy (retreating into fantasy to avoid interpersonal conflict).</p>
+
+      <h2>Jung\u2019s Analytical Psychology</h2>
+
+      <p>Carl Jung (1875-1961) broke with Freud in 1913 over the primacy of sexuality (Jung argued for a broader understanding of libido as general psychic energy). His key concepts: the collective unconscious (a universal, inherited layer of the unconscious shared by all humans, containing archetypes), archetypes (universal symbols and patterns \u2014 the Persona, Shadow, Anima/Animus, Self), individuation (the lifelong process of integrating the conscious and unconscious aspects of the self), psychological types (introversion/extraversion, and four functions \u2014 thinking, feeling, sensing, intuiting), word association test (a method of revealing unconscious complexes by measuring response times to stimulus words). The self (the archetype of wholeness, the goal of individuation) is distinct from the ego (the centre of consciousness). Mandala symbolism represents the self and appears in dreams and art during the individuation process.</p>
+
+      <h2>Klein\u2019s Object Relations Theory</h2>
+
+      <p>Melanie Klein (1882-1960) extended psychoanalysis to children through play therapy (interpreting children\u2019s play as equivalent to free association). She proposed that the infant\u2019s inner world is populated by internal objects (mental representations of early relationships). Development proceeds through two positions (not stages, as they can be revisited throughout life):</p>
+
+      <ul>
+        <li><strong>Paranoid-schizoid position (first 6 months):</strong>The infant experiences anxiety about the survival of the self. Objects are split into all-good and all-bad (the good breast vs the bad breast). Splitting and projective identification are the primary defences. The infant projects destructive impulses onto the bad object, which then feels persecutory (hence \u201cparanoid\u201d). This is a normal developmental phase but can be the basis for later paranoid or borderline pathology if not resolved.</li>
+        <li><strong>Depressive position (from around 6 months):</strong> The infant recognises that the good and bad objects are actually the same whole object (the mother, who is both gratifying and frustrating). This generates concern for the object and guilt for previous destructive fantasies (hence \u201cdepressive\u201d). The infant develops the capacity for reparation (making amends) and concern for others. Successful resolution leads to gratitude, creativity, and the ability to tolerate ambivalence. Failure leads to depressive pathology, guilt, and difficulty maintaining relationships.</li>
+      </ul>
+
+      <p><strong>Wilfred Bion</strong> extended Klein\u2019s work: the mother\u2019s capacity for reverie (holding and processing the infant\u2019s projected distress) and the container-contained model (the mother contains the infant\u2019s unbearable feelings and returns them in a metabolised, manageable form). <strong>Donald Winnicott</strong> contributed the concepts of the transitional object (a comfort object that bridges the infant\u2019s inner and outer reality \u2014 a teddy bear, blanket), the true self (spontaneous, authentic) vs the false self (compliant, defensive), and the good-enough mother (who meets the infant\u2019s needs sufficiently for healthy development without being perfect).</p>
+
+      <h2>Other Psychoanalytic Concepts Tested in the Exam</h2>
+
+      <p><strong>Transference:</strong> The patient unconsciously transfers feelings and attitudes from past relationships onto the therapist. The analysis of transference is a core component of psychoanalytic therapy. Positive transference: affectionate, idealising feelings. Negative transference: hostile, critical feelings. Erotic transference: sexualised feelings. The therapist uses their own emotional response (countertransference) as a source of information about the patient\u2019s internal world.</p>
+
+      <p><strong>Resistance:</strong> Any behaviour or mental process that interferes with the progress of treatment, particularly the uncovering of unconscious material. Resistance is not opposition to therapy but a manifestation of the patient\u2019s defences. Examples: missing sessions, silence, intellectualisation, forgetting dreams, acting out.</p>
+
+      <p><strong>The therapeutic alliance (working alliance):</strong> The collaborative, rational aspect of the therapeutic relationship, as distinct from the transference. A strong therapeutic alliance is the best predictor of therapeutic outcome across all psychotherapies.</p>
+
+      <h2>High-Yield Exam Patterns</h2>
+      <ul>
+        <li><strong>Id/ego/superego and topographical model:</strong> Be able to identify which structure is operating in a given scenario</li>
+        <li><strong>Oedipus complex resolution:</strong> Identification with the same-sex parent. Age 3-5 (phallic stage).</li>
+        <li><strong>Most fundamental defence mechanism:</strong> Repression (from which others derive, per Freud)</li>
+        <li><strong>Defence most characteristic of BPD:</strong> Splitting (all-good/all-bad) AND acting out (ICD-11 emphasis)</li>
+        <li><strong>Sublimation:</strong> The most adaptive/mature defence (channelling into productive activity)</li>
+        <li><strong>Projective identification:</strong> Klein. Projecting then inducing the feeling in the other. Associated with BPD.</li>
+        <li><strong>Paranoid-schizoid vs depressive position (Klein):</strong> First 6 months = splitting/projection. From 6 months = concern, guilt, reparation.</li>
+        <li><strong>Transitional object:</strong> Winnicott. First \u201cnot-me\u201d possession (teddy bear, blanket). Bridges inner and outer reality.</li>
+        <li><strong>False self:</strong> Winnicott. Compliant, defensive adaptation to inadequate early care.</li>
+        <li><strong>Collective unconscious:</strong> Jung. Archetypes (Persona, Shadow, Anima/Animus, Self).</li>
+        <li><strong>Individuation:</strong> Jung. Integration of conscious and unconscious. The goal of analytical psychology.</li>
+      </ul>
+
+      <p>PsychStar\u2019s Paper A question bank covers dynamic psychopathology with questions calibrated to the SPMM syllabus. Start with 5 free questions at <a href="/try">psychstar.io/try</a>.</p>
+    `
+  },
 ]

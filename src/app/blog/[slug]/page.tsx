@@ -7,6 +7,9 @@ export function generateStaticParams() {
   return articles.map(a => ({ slug: a.slug }))
 }
 
+export const dynamic = 'force-static'
+export const revalidate = 86400
+
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> },
   parent: ResolvingMetadata
