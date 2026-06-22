@@ -129,17 +129,215 @@ const DEMO_QUESTIONS: DemoQuestion[] = [
     difficulty: 'Hard',
     paper: 'Paper B',
   },
+  {
+    stem: 'Which neurotransmitter receptor is the primary target of atypical antipsychotics such as clozapine and olanzapine, distinguishing them from typical antipsychotics?',
+    options: [
+      'D2 dopamine receptor antagonism',
+      '5-HT2A serotonin receptor antagonism',
+      'Alpha-1 adrenergic receptor antagonism',
+      'Muscarinic M1 receptor antagonism',
+      'Histamine H1 receptor antagonism',
+    ],
+    correctIndex: 1,
+    explanation:
+      'Atypical antipsychotics are characterised by higher affinity for 5-HT2A receptors relative to D2 receptors (higher 5-HT2A/D2 ratio). This serotonin-dopamine antagonism hypothesis explains their lower extrapyramidal side effect profile and efficacy in treatment-resistant schizophrenia. Clozapine has the highest 5-HT2A/D2 affinity ratio.',
+    distractorExplanations: [
+      'D2 antagonism is the primary mechanism of TYPICAL antipsychotics (e.g., haloperidol). Atypicals have lower D2 affinity.',
+      'CORRECT. 5-HT2A antagonism is the defining feature of atypical antipsychotics, explaining their lower EPS profile.',
+      'Alpha-1 antagonism causes postural hypotension — a side effect, not the therapeutic mechanism.',
+      'M1 antagonism causes anticholinergic side effects (dry mouth, constipation) — not therapeutic.',
+      'H1 antagonism causes sedation and weight gain — side effects, not therapeutic targets.',
+    ],
+    domain: 'Clinical Psychopharmacology',
+    difficulty: 'Medium',
+    paper: 'Paper A',
+  },
+  {
+    stem: 'Under the Mental Health Act 1983 (as amended 2007), which section allows for compulsory admission for assessment for up to 28 days?',
+    options: [
+      'Section 2',
+      'Section 3',
+      'Section 4',
+      'Section 5(2)',
+      'Section 136',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Section 2 MHA allows detention for assessment for up to 28 days. Requires application by AMHP or nearest relative, supported by TWO medical recommendations (one must be Section 12 approved). Cannot be renewed. Section 3 is for treatment (up to 6 months, renewable).',
+    distractorExplanations: [
+      'CORRECT. Section 2 = assessment, up to 28 days, 2 medical recommendations, non-renewable.',
+      'Section 3 = treatment, up to 6 months initially, renewable (6 months → 6 months → 12 months). Requires 2 medical recommendations.',
+      'Section 4 = emergency admission for assessment (up to 72 hours). Requires only ONE medical recommendation. Used when waiting for second doctor would cause delay.',
+      'Section 5(2) = doctors holding power (up to 72 hours). Used by the responsible clinician to detain an informal patient already in hospital.',
+      'Section 136 = police power to remove person from public place to place of safety (up to 24 hours). Not a hospital admission section.',
+    ],
+    domain: 'Legislation',
+    difficulty: 'Easy',
+    paper: 'Paper A',
+  },
+  {
+    stem: 'A 7-year-old child presents with persistent difficulties in social communication, restricted repetitive behaviours, and intense preoccupation with trains. Symptoms have been present since early childhood and impair functioning at school. Which diagnosis is most likely?',
+    options: [
+      'Attention deficit hyperactivity disorder',
+      'Autism spectrum disorder',
+      'Social communication disorder',
+      'Obsessive-compulsive disorder',
+      'Schizoid personality disorder',
+    ],
+    correctIndex: 1,
+    explanation:
+      'Autism spectrum disorder (ASD) is characterised by: (1) persistent deficits in social communication/interaction across multiple contexts, AND (2) restricted, repetitive patterns of behaviour, interests, or activities. Symptoms must be present in early developmental period and cause clinically significant impairment. DSM-5 replaced Asperger\'s, childhood disintegrative disorder, and PDD-NOS with ASD.',
+    distractorExplanations: [
+      'ADHD involves inattention, hyperactivity, impulsivity — not the core social communication deficits and repetitive behaviours seen here.',
+      'CORRECT. ASD = social communication deficits + restricted/repetitive behaviours + early onset + functional impairment.',
+      'Social communication disorder involves social communication deficits WITHOUT the restricted/repetitive behaviours. This child has both.',
+      'OCD involves obsessions and compulsions, not the pervasive social communication deficits and developmental onset seen in ASD.',
+      'Schizoid personality disorder involves detachment from social relationships but not repetitive behaviours or early developmental onset. Personality disorders are not diagnosed in children.',
+    ],
+    domain: 'Child & Adolescent',
+    difficulty: 'Medium',
+    paper: 'Paper B',
+  },
+  {
+    stem: 'Which psychological therapy has the strongest evidence base for treating bulimia nervosa according to NICE guidelines?',
+    options: [
+      'Psychodynamic psychotherapy',
+      'Cognitive behavioural therapy (CBT-BN)',
+      'Interpersonal psychotherapy',
+      'Dialectical behaviour therapy',
+      'Family therapy',
+    ],
+    correctIndex: 1,
+    explanation:
+      'NICE guidelines recommend CBT-BN (adapted CBT for bulimia) as first-line psychological treatment for bulimia nervosa. CBT-BN focuses on: (1) psychoeducation, (2) establishing regular eating patterns, (3) identifying triggers for binge/purge cycles, (4) challenging dietary rules, (5) addressing body image concerns. Remission rates ~30-50%.',
+    distractorExplanations: [
+      'Psychodynamic therapy has limited evidence for bulimia nervosa. Not recommended as first-line by NICE.',
+      'CORRECT. CBT-BN is first-line for bulimia nervosa per NICE. Adapted protocol with specific focus on binge-purge cycle.',
+      'IPT is second-line for bulimia (less effective than CBT-BN but an option if CBT declined or unavailable).',
+      'DBT is used for borderline personality disorder and sometimes adapted for binge eating disorder, but not first-line for bulimia.',
+      'Family therapy (e.g., Maudsley model) is first-line for adolescent anorexia nervosa, not bulimia.',
+    ],
+    domain: 'Psychotherapy',
+    difficulty: 'Medium',
+    paper: 'Paper B',
+  },
+  {
+    stem: 'An 82-year-old woman with vascular dementia becomes increasingly agitated in the evenings, wandering and asking for her deceased husband. Her daughter is distressed. What is the most appropriate first-line management?',
+    options: [
+      'Prescribe haloperidol 0.5mg PRN',
+      'Prescribe donepezil 5mg daily',
+      'Non-pharmacological interventions and carer education',
+      'Prescribe lorazepam 0.5mg PRN',
+      'Refer for ECT assessment',
+    ],
+    correctIndex: 2,
+    explanation:
+      'NICE guidelines for dementia: first-line management of behavioural and psychological symptoms of dementia (BPSD) is ALWAYS non-pharmacological. This includes: identifying triggers (pain, infection, environment), structured activities, music therapy, carer education, simplifying environment. Antipsychotics (if absolutely necessary for severe distress/risk) should be low-dose, time-limited, and reviewed regularly. Donepezil is for cognitive symptoms, not BPSD.',
+    distractorExplanations: [
+      'Haloperidol (typical antipsychotic) is contraindicated in dementia due to increased stroke risk. If antipsychotic needed, use atypical (risperidone) at lowest dose for shortest time.',
+      'Donepezil (AChE inhibitor) is for cognitive symptoms in mild-moderate Alzheimer\'s, not for acute agitation/BPSD.',
+      'CORRECT. Non-pharmacological interventions are first-line for BPSD. Address triggers, provide structure, educate carers.',
+      'Benzodiazepines increase fall risk, confusion, and paradoxical agitation in elderly with dementia. Avoid.',
+      'ECT is reserved for severe treatment-resistant depression, not for dementia-related agitation.',
+    ],
+    domain: 'Old Age',
+    difficulty: 'Easy',
+    paper: 'Paper B',
+  },
+  {
+    stem: 'The amygdala receives its primary sensory input via the lateral nucleus. Which structure does the central nucleus of the amygdala primarily project to, mediating the autonomic components of the fear response?',
+    options: [
+      'Prefrontal cortex',
+      'Hippocampus',
+      'Hypothalamus (via stria terminalis)',
+      'Thalamus',
+      'Basal ganglia',
+    ],
+    correctIndex: 2,
+    explanation:
+      'The amygdala fear circuit: sensory input → lateral amygdala → central amygdala → hypothalamus (via stria terminalis) and brainstem (via ventral amygdalofugal pathway). The central nucleus output to the hypothalamus activates the HPA axis and autonomic nervous system, producing the physiological fear response (tachycardia, sweating, cortisol release).',
+    distractorExplanations: [
+      'The prefrontal cortex receives projections FROM the amygdala (modulating emotional regulation) but is not the primary output target for autonomic fear responses.',
+      'The hippocampus provides contextual memory input TO the amygdala but is not the primary output target for autonomic responses.',
+      'CORRECT. Central amygdala → hypothalamus (via stria terminalis) mediates autonomic fear responses: HPA activation, sympathetic arousal.',
+      'The thalamus provides sensory input TO the amygdala (low-road fear pathway) but is not the output target.',
+      'The basal ganglia are involved in motor output, not the autonomic fear response.',
+    ],
+    domain: 'Neurosciences',
+    difficulty: 'Hard',
+    paper: 'Paper A',
+  },
+  {
+    stem: 'In a randomised controlled trial, the relative risk (RR) of suicide attempt with Drug A vs. placebo is 0.67 (95% CI: 0.45–0.99). Which statement is correct?',
+    options: [
+      'Drug A increases suicide risk by 67%',
+      'The result is not statistically significant',
+      'Drug A reduces suicide risk by 33% and the result is statistically significant',
+      'The confidence interval includes 1, so the result is inconclusive',
+      'The number needed to treat cannot be calculated from this data',
+    ],
+    correctIndex: 2,
+    explanation:
+      'RR = 0.67 means the risk in the treatment group is 67% of the control group — a 33% relative risk reduction (1 − 0.67 = 0.33). The 95% CI is 0.45–0.99. Since the upper limit is 0.99 (just below 1.0), the result is statistically significant at p < 0.05. If the CI included 1.0, the result would not be significant.',
+    distractorExplanations: [
+      'RR < 1 means REDUCED risk, not increased. RR = 0.67 = 33% risk reduction.',
+      'The 95% CI (0.45–0.99) does NOT include 1.0, so the result IS statistically significant (p < 0.05).',
+      'CORRECT. RR 0.67 = 33% reduction. CI 0.45–0.99 excludes 1.0 → statistically significant.',
+      'The CI is 0.45–0.99. The upper bound is 0.99, which is BELOW 1.0. The CI does NOT include 1.',
+      'NNT can be calculated if you know the baseline risk (control event rate), which is not provided here — but this is not the BEST answer.',
+    ],
+    domain: 'Statistics & EBM',
+    difficulty: 'Medium',
+    paper: 'Paper A',
+  },
+  {
+    stem: 'According to ICD-11, which of the following is a core feature of personality disorder?',
+    options: [
+      'Presence of hallucinations',
+      'An enduring pattern of inner experience and behaviour that deviates from cultural expectations',
+      'Onset before age 10 years',
+      'Response to pharmacological treatment',
+      'Presence of a single maladaptive trait',
+    ],
+    correctIndex: 1,
+    explanation:
+      'ICD-11 defines personality disorder as an enduring pattern of inner experience (in cognition, affectivity, interpersonal functioning) and behaviour that deviates markedly from the expectations of the individual\'s culture, is pervasive and inflexible, has onset in adolescence/early adulthood, is stable over time, and leads to distress or impairment. ICD-11 moved to a dimensional severity model (mild, moderate, severe) rather than categorical types.',
+    distractorExplanations: [
+      'Hallucinations are psychotic symptoms, not core features of personality disorder. They may occur in schizotypal PD but are not defining.',
+      'CORRECT. Enduring pattern deviating from cultural expectations, pervasive, inflexible, onset in adolescence, stable over time, causes distress/impairment.',
+      'Personality disorder typically has onset in adolescence or early adulthood, not before age 10. Early-onset pervasive patterns suggest neurodevelopmental conditions.',
+      'Personality disorders are primarily treated with psychological therapies, not pharmacological treatment. Medication may target specific symptoms but is not the core treatment.',
+      'ICD-11 requires a pervasive pattern across multiple domains (cognition, affect, interpersonal, impulse control), not a single trait.',
+    ],
+    domain: 'Classification',
+    difficulty: 'Easy',
+    paper: 'Paper A',
+  },
 ]
 
+const SIGNUP_GATE_AFTER = 3 // Show signup wall after this many questions
+
 export default function TryPage() {
+  const [selectedPaper, setSelectedPaper] = useState<'Paper A' | 'Paper B'>('Paper A')
   const [currentQ, setCurrentQ] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
   const [revealed, setRevealed] = useState(false)
   const [results, setResults] = useState<{ correct: number; total: number; answered: boolean[] }>({ correct: 0, total: 0, answered: [] })
+  const [showSignupGate, setShowSignupGate] = useState(false)
 
-  const q = DEMO_QUESTIONS[currentQ]
+  const filteredQuestions = DEMO_QUESTIONS.filter(q => q.paper === selectedPaper)
+  const q = filteredQuestions[currentQ]
   const isCorrect = selected === q.correctIndex
   const hasAnswered = results.answered[currentQ]
+
+  const handlePaperChange = (paper: 'Paper A' | 'Paper B') => {
+    setSelectedPaper(paper)
+    setCurrentQ(0)
+    setSelected(null)
+    setRevealed(false)
+    setResults({ correct: 0, total: 0, answered: [] })
+    setShowSignupGate(false)
+  }
 
   const handleSelect = (index: number) => {
     if (revealed) return
@@ -159,11 +357,23 @@ export default function TryPage() {
   }
 
   const handleNext = () => {
-    if (currentQ < DEMO_QUESTIONS.length - 1) {
+    if (currentQ < filteredQuestions.length - 1) {
+      // Show signup gate after SIGNUP_GATE_AFTER questions
+      if (results.total === SIGNUP_GATE_AFTER && !showSignupGate) {
+        setShowSignupGate(true)
+        return
+      }
       setCurrentQ(currentQ + 1)
       setSelected(null)
       setRevealed(false)
     }
+  }
+
+  const handleContinueAfterGate = () => {
+    setShowSignupGate(false)
+    setCurrentQ(currentQ + 1)
+    setSelected(null)
+    setRevealed(false)
   }
 
   const handleReset = () => {
@@ -212,7 +422,7 @@ export default function TryPage() {
               Free taster — no signup required
             </span>
             <span style={{ fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)' }}>
-              · Try {results.total} of {DEMO_QUESTIONS.length} questions
+              · Try {results.total} of {filteredQuestions.length} questions
             </span>
           </div>
           {results.total > 0 && (
@@ -237,6 +447,147 @@ export default function TryPage() {
           )}
         </div>
 
+        {/* Paper Selector */}
+        <div style={{
+          display: 'flex', gap: 12, marginBottom: 28, justifyContent: 'center',
+        }}>
+          <button
+            onClick={() => handlePaperChange('Paper A')}
+            style={{
+              padding: '10px 24px',
+              borderRadius: 'var(--radius-md)',
+              border: selectedPaper === 'Paper A' ? '2px solid var(--accent-teal)' : '1px solid var(--border-subtle)',
+              background: selectedPaper === 'Paper A' ? 'rgba(20, 184, 166, 0.1)' : 'var(--surface-card)',
+              color: selectedPaper === 'Paper A' ? 'var(--accent-teal)' : 'var(--text-secondary)',
+              fontFamily: 'var(--font-sans)',
+              fontSize: 14,
+              fontWeight: 600,
+              cursor: 'pointer',
+              transition: 'all 0.2s ease',
+            }}
+          >
+            Paper A — Scientific Basis
+          </button>
+          <button
+            onClick={() => handlePaperChange('Paper B')}
+            style={{
+              padding: '10px 24px',
+              borderRadius: 'var(--radius-md)',
+              border: selectedPaper === 'Paper B' ? '2px solid var(--accent-teal)' : '1px solid var(--border-subtle)',
+              background: selectedPaper === 'Paper B' ? 'rgba(20, 184, 166, 0.1)' : 'var(--surface-card)',
+              color: selectedPaper === 'Paper B' ? 'var(--accent-teal)' : 'var(--text-secondary)',
+              fontFamily: 'var(--font-sans)',
+              fontSize: 14,
+              fontWeight: 600,
+              cursor: 'pointer',
+              transition: 'all 0.2s ease',
+            }}
+          >
+            Paper B — Clinical Topics
+          </button>
+        </div>
+
+        {/* Signup Gate Modal */}
+        {showSignupGate && (
+          <div style={{
+            position: 'fixed', inset: 0, zIndex: 100,
+            background: 'rgba(0, 0, 0, 0.8)', backdropFilter: 'blur(8px)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            padding: 20,
+          }}>
+            <div style={{
+              background: 'var(--surface-card)', borderRadius: 'var(--radius-xl)',
+              border: '1px solid var(--border-subtle)', padding: 'clamp(24px, 5vw, 40px)',
+              maxWidth: 480, width: '100%', position: 'relative',
+            }}>
+              {/* Accent bar */}
+              <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'var(--gradient-teal)' }} />
+
+              {/* Close button */}
+              <button
+                onClick={() => setShowSignupGate(false)}
+                style={{
+                  position: 'absolute', top: 16, right: 16,
+                  background: 'transparent', border: 'none', cursor: 'pointer',
+                  color: 'var(--text-tertiary)', padding: 4,
+                }}
+                aria-label="Close"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
+
+              {/* Score badge */}
+              <div style={{
+                display: 'inline-flex', alignItems: 'center', gap: 8,
+                padding: '8px 16px', borderRadius: 20,
+                background: 'rgba(52, 211, 153, 0.08)', border: '1px solid rgba(52, 211, 153, 0.2)',
+                marginBottom: 20,
+              }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+                <span style={{ fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 700, color: 'var(--success)' }}>
+                  You scored {results.correct}/{SIGNUP_GATE_AFTER}
+                </span>
+              </div>
+
+              <h2 style={{
+                fontFamily: 'var(--font-serif)', fontSize: 'clamp(20px, 5vw, 24px)',
+                color: 'var(--text-primary)', marginBottom: 12, lineHeight: 1.3,
+              }}>
+                Unlock your blind-spot analysis
+              </h2>
+
+              <p style={{
+                fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-secondary)',
+                lineHeight: 1.7, marginBottom: 24,
+              }}>
+                You've answered {SIGNUP_GATE_AFTER} questions. Create a free account to see which domains you're strongest in — and where you need work.
+              </p>
+
+              {/* Features list */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 28 }}>
+                {[
+                  { icon: '🎯', text: 'Adaptive engine targets your weak areas' },
+                  { icon: '📊', text: 'Blind-spot map across all MRCPsych domains' },
+                  { icon: '📚', text: '4,600+ questions with teaching cascades' },
+                ].map((feature, i) => (
+                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                    <span style={{ fontSize: 18 }}>{feature.icon}</span>
+                    <span style={{ fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-secondary)' }}>
+                      {feature.text}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              {/* CTA buttons */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                <a
+                  href="/signup"
+                  className="btn btn-primary btn-lg"
+                  style={{ fontSize: 15, padding: '14px 28px', textAlign: 'center', textDecoration: 'none' }}
+                >
+                  Create Free Account
+                </a>
+                <button
+                  onClick={handleContinueAfterGate}
+                  style={{
+                    background: 'transparent', border: 'none', cursor: 'pointer',
+                    fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-tertiary)',
+                    padding: '8px 0', textDecoration: 'underline',
+                  }}
+                >
+                  Continue without signing up
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Question card */}
         <div style={{
           background: 'var(--surface-card)', border: '1px solid var(--border-subtle)',
@@ -253,7 +604,7 @@ export default function TryPage() {
               border: '1px solid rgba(20, 184, 166, 0.1)',
             }}>
               <span style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--accent-teal)' }}>
-                Question {currentQ + 1} of {DEMO_QUESTIONS.length}
+                Question {currentQ + 1} of {filteredQuestions.length}
               </span>
             </div>
             <div style={{
@@ -383,7 +734,7 @@ export default function TryPage() {
                 Reveal Answer
               </button>
             ) : (
-              currentQ < DEMO_QUESTIONS.length - 1 ? (
+              currentQ < filteredQuestions.length - 1 ? (
                 <button onClick={handleNext} className="btn btn-primary btn-lg" style={{ fontSize: 14, padding: '12px 28px' }}>
                   Next Question
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -502,14 +853,14 @@ export default function TryPage() {
         </div>
 
         {/* Bottom CTA */}
-        {currentQ === DEMO_QUESTIONS.length - 1 && revealed && (
+        {currentQ === filteredQuestions.length - 1 && revealed && (
           <div style={{
             textAlign: 'center', marginTop: 40,
             background: 'var(--surface-card)', borderRadius: 'var(--radius-xl)',
             border: '1px solid var(--border-subtle)', padding: 32,
           }}>
             <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 24, color: 'var(--text-primary)', marginBottom: 8 }}>
-              You got {results.correct}/{DEMO_QUESTIONS.length} correct
+              You got {results.correct}/{filteredQuestions.length} correct
             </h2>
             <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 24, maxWidth: 400, margin: '0 auto 24px' }}>
               The full PsychStar platform includes 4,600+ questions across both papers with adaptive engine, blind-spot mapping, and teaching cascades for every wrong answer.
