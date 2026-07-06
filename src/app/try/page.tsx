@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 interface DemoQuestion {
   stem: string
@@ -315,28 +315,50 @@ const DEMO_QUESTIONS: DemoQuestion[] = [
   },
 ]
 
-const SIGNUP_GATE_AFTER = 3 // Show signup wall after this many questions
+const SIGNUP_GATE_AFTER = 5 // Show signup wall after this many questions
 
 export default function TryPage() {
+  useEffect(() => { document.title = 'Try Free MRCPsych Questions | PsychStar' }, [])
   const [selectedPaper, setSelectedPaper] = useState<'Paper A' | 'Paper B'>('Paper A')
   const [currentQ, setCurrentQ] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
   const [revealed, setRevealed] = useState(false)
   const [results, setResults] = useState<{ correct: number; total: number; answered: boolean[] }>({ correct: 0, total: 0, answered: [] })
   const [showSignupGate, setShowSignupGate] = useState(false)
+  // Track progress per paper separately
+  const [paperProgress, setPaperProgress] = useState<{
+    'Paper A': { correct: number; total: number; answered: boolean[] }
+    'Paper B': { correct: number; total: number; answered: boolean[] }
+  }>({
+    'Paper A': { correct: 0, total: 0, answered: Array(5).fill(false) },
+    'Paper B': { correct: 0, total: 0, answered: Array(5).fill(false) }
+  })
 
-  const filteredQuestions = DEMO_QUESTIONS.filter(q => q.paper === selectedPaper)
+  // Limit to exactly 5 questions per paper
+  const paperAQuestions = DEMO_QUESTIONS.filter(q => q.paper === 'Paper A').slice(0, 5)
+  const paperBQuestions = DEMO_QUESTIONS.filter(q => q.paper === 'Paper B').slice(0, 5)
+  const filteredQuestions = selectedPaper === 'Paper A' ? paperAQuestions : paperBQuestions
   const q = filteredQuestions[currentQ]
   const isCorrect = selected === q.correctIndex
   const hasAnswered = results.answered[currentQ]
 
   const handlePaperChange = (paper: 'Paper A' | 'Paper B') => {
+    // Don't allow paper switching if gate is active
+    if (showSignupGate) return
+    
+    // Save current paper's progress before switching
+    setPaperProgress(prev => ({
+      ...prev,
+      [selectedPaper]: { ...results }
+    }))
+    
     setSelectedPaper(paper)
     setCurrentQ(0)
     setSelected(null)
     setRevealed(false)
-    setResults({ correct: 0, total: 0, answered: [] })
-    setShowSignupGate(false)
+    
+    // Load the target paper's progress
+    setResults(paperProgress[paper])
   }
 
   const handleSelect = (index: number) => {
@@ -357,26 +379,22 @@ export default function TryPage() {
   }
 
   const handleNext = () => {
+    // Block navigation if user has reached the limit
+    if (results.total >= SIGNUP_GATE_AFTER) {
+      setShowSignupGate(true)
+      return
+    }
+    
     if (currentQ < filteredQuestions.length - 1) {
-      // Show signup gate after SIGNUP_GATE_AFTER questions
-      if (results.total === SIGNUP_GATE_AFTER && !showSignupGate) {
-        setShowSignupGate(true)
-        return
-      }
       setCurrentQ(currentQ + 1)
       setSelected(null)
       setRevealed(false)
     }
   }
 
-  const handleContinueAfterGate = () => {
-    setShowSignupGate(false)
-    setCurrentQ(currentQ + 1)
-    setSelected(null)
-    setRevealed(false)
-  }
-
   const handleReset = () => {
+    // Don't allow reset if gate is active
+    if (showSignupGate) return
     setCurrentQ(0)
     setSelected(null)
     setRevealed(false)
@@ -385,17 +403,167 @@ export default function TryPage() {
 
   const progressPercent = results.total > 0 ? Math.round((results.correct / (currentQ + (hasAnswered ? 1 : 0))) * 100) : 0
 
+  // If signup gate is active, render ONLY the gate - nothing else
+  if (showSignupGate) {
+    return (
+      <div style={{ 
+        minHeight: '100vh', 
+        position: 'relative', 
+        overflow: 'hidden',
+        width: '100%',
+        maxWidth: '100vw'
+      }}>
+        <div style={{ 
+          position: 'fixed', 
+          inset: 0, 
+          zIndex: 0, 
+          background: 'var(--gradient-hero)' 
+        }} />
+        <div style={{
+          position: 'fixed', 
+          top: '10%', 
+          left: '50%', 
+          transform: 'translateX(-50%)',
+          width: 800, 
+          height: 600,
+          background: 'radial-gradient(ellipse, rgba(20, 184, 166, 0.04) 0%, transparent 70%)',
+          pointerEvents: 'none', 
+          zIndex: 0,
+        }} />
+
+        <div style={{ 
+          position: 'relative', 
+          zIndex: 1, 
+          maxWidth: 800, 
+          margin: '0 auto', 
+          padding: '40px 20px', 
+          width: '100%', 
+          boxSizing: 'border-box',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '100vh'
+        }}>
+          {/* Signup Gate - Full Screen Block */}
+          <div style={{
+            background: 'var(--surface-card)', 
+            borderRadius: 'var(--radius-xl)',
+            border: '1px solid var(--border-subtle)', 
+            padding: 'clamp(24px, 5vw, 40px)',
+            maxWidth: 480, 
+            width: '100%', 
+            position: 'relative',
+          }}>
+            {/* Accent bar */}
+            <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'var(--gradient-teal)' }} />
+
+            {/* Score badge */}
+            <div style={{
+              display: 'inline-flex', alignItems: 'center', gap: 8,
+              padding: '8px 16px', borderRadius: 20,
+              background: 'rgba(52, 211, 153, 0.08)', border: '1px solid rgba(52, 211, 153, 0.2)',
+              marginBottom: 20,
+            }}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              <span style={{ fontFamily: 'var(--font-sans)', fontSize: 13, fontWeight: 700, color: 'var(--success)' }}>
+                You scored {results.correct}/{SIGNUP_GATE_AFTER}
+              </span>
+            </div>
+
+            <h2 style={{
+              fontFamily: 'var(--font-serif)', fontSize: 'clamp(20px, 5vw, 24px)',
+              color: 'var(--text-primary)', marginBottom: 12, lineHeight: 1.3,
+            }}>
+              Unlock your blind-spot analysis
+            </h2>
+
+            <p style={{
+              fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-secondary)',
+              lineHeight: 1.7, marginBottom: 24,
+            }}>
+              You've answered {SIGNUP_GATE_AFTER} questions. Create a free account to see which domains you're strongest in — and where you need work.
+            </p>
+
+            {/* Features list */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 28 }}>
+              {[
+                { icon: '🎯', text: 'Adaptive engine targets your weak areas' },
+                { icon: '📊', text: 'Blind-spot map across all MRCPsych domains' },
+                { icon: '📚', text: '4,600+ questions with teaching cascades' },
+              ].map((feature, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <span style={{ fontSize: 18 }}>{feature.icon}</span>
+                  <span style={{ fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-secondary)' }}>
+                    {feature.text}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            {/* CTA buttons */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+              <a
+                href="/signup"
+                className="btn btn-primary btn-lg"
+                style={{ fontSize: 15, padding: '14px 28px', textAlign: 'center', textDecoration: 'none' }}
+              >
+                Create Free Account
+              </a>
+              <p style={{
+                fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)',
+                textAlign: 'center', margin: 0, lineHeight: 1.5,
+              }}>
+                You've reached the free trial limit. Sign up to continue with the full question bank.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
-    <div style={{ minHeight: '100vh', position: 'relative', overflow: 'hidden' }}>
-      <div style={{ position: 'fixed', inset: 0, zIndex: 0, background: 'var(--gradient-hero)' }} />
+    <div style={{ 
+      minHeight: '100vh', 
+      position: 'relative', 
+      overflow: 'hidden',
+      width: '100%',
+      maxWidth: '100vw'
+    }}>
+      <div style={{ 
+        position: 'fixed', 
+        inset: 0, 
+        zIndex: 0, 
+        background: 'var(--gradient-hero)' 
+      }} />
       <div style={{
-        position: 'fixed', top: '10%', left: '50%', transform: 'translateX(-50%)',
-        width: 800, height: 600,
+        position: 'fixed', 
+        top: '10%', 
+        left: '50%', 
+        transform: 'translateX(-50%)',
+        width: 800, 
+        height: 600,
         background: 'radial-gradient(ellipse, rgba(20, 184, 166, 0.04) 0%, transparent 70%)',
-        pointerEvents: 'none', zIndex: 0,
+        pointerEvents: 'none', 
+        zIndex: 0,
       }} />
 
-      <div style={{ position: 'relative', zIndex: 1, maxWidth: 800, margin: '0 auto', padding: '40px 24px' }}>
+      <div style={{ 
+        position: 'relative', 
+        zIndex: 1, 
+        maxWidth: 800, 
+        margin: '0 auto', 
+        padding: '40px 16px', 
+        width: '100%', 
+        boxSizing: 'border-box',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'stretch'
+      }}>
         {/* Nav */}
         <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 40 }}>
           <a href="/" style={{ fontFamily: 'var(--font-serif)', fontSize: 22, textDecoration: 'none' }}>
@@ -449,41 +617,56 @@ export default function TryPage() {
 
         {/* Paper Selector */}
         <div style={{
-          display: 'flex', gap: 12, marginBottom: 28, justifyContent: 'center',
+          display: 'flex', gap: 10, marginBottom: 28, justifyContent: 'center', flexWrap: 'wrap',
+          maxWidth: '100%',
         }}>
           <button
             onClick={() => handlePaperChange('Paper A')}
             style={{
-              padding: '10px 24px',
+              padding: '10px 16px',
               borderRadius: 'var(--radius-md)',
               border: selectedPaper === 'Paper A' ? '2px solid var(--accent-teal)' : '1px solid var(--border-subtle)',
               background: selectedPaper === 'Paper A' ? 'rgba(20, 184, 166, 0.1)' : 'var(--surface-card)',
               color: selectedPaper === 'Paper A' ? 'var(--accent-teal)' : 'var(--text-secondary)',
               fontFamily: 'var(--font-sans)',
-              fontSize: 14,
+              fontSize: 'clamp(11px, 3vw, 14px)',
               fontWeight: 600,
               cursor: 'pointer',
               transition: 'all 0.2s ease',
+              flex: '1 1 140px',
+              minWidth: 0,
+              maxWidth: '180px',
+              whiteSpace: 'normal',
+              textAlign: 'center',
+              lineHeight: 1.3,
             }}
           >
-            Paper A — Scientific Basis
+            Paper A
+            <div style={{ fontSize: 'clamp(9px, 2.5vw, 11px)', opacity: 0.7, marginTop: 2 }}>Scientific Basis</div>
           </button>
           <button
             onClick={() => handlePaperChange('Paper B')}
             style={{
-              padding: '10px 24px',
+              padding: '10px 16px',
               borderRadius: 'var(--radius-md)',
               border: selectedPaper === 'Paper B' ? '2px solid var(--accent-teal)' : '1px solid var(--border-subtle)',
               background: selectedPaper === 'Paper B' ? 'rgba(20, 184, 166, 0.1)' : 'var(--surface-card)',
               color: selectedPaper === 'Paper B' ? 'var(--accent-teal)' : 'var(--text-secondary)',
               fontFamily: 'var(--font-sans)',
-              fontSize: 14,
+              fontSize: 'clamp(11px, 3vw, 14px)',
               fontWeight: 600,
               cursor: 'pointer',
               transition: 'all 0.2s ease',
+              flex: '1 1 140px',
+              minWidth: 0,
+              maxWidth: '180px',
+              whiteSpace: 'normal',
+              textAlign: 'center',
+              lineHeight: 1.3,
             }}
           >
-            Paper B — Clinical Topics
+            Paper B
+            <div style={{ fontSize: 'clamp(9px, 2.5vw, 11px)', opacity: 0.7, marginTop: 2 }}>Clinical Topics</div>
           </button>
         </div>
 
@@ -502,21 +685,6 @@ export default function TryPage() {
             }}>
               {/* Accent bar */}
               <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'var(--gradient-teal)' }} />
-
-              {/* Close button */}
-              <button
-                onClick={() => setShowSignupGate(false)}
-                style={{
-                  position: 'absolute', top: 16, right: 16,
-                  background: 'transparent', border: 'none', cursor: 'pointer',
-                  color: 'var(--text-tertiary)', padding: 4,
-                }}
-                aria-label="Close"
-              >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </button>
 
               {/* Score badge */}
               <div style={{
@@ -573,16 +741,12 @@ export default function TryPage() {
                 >
                   Create Free Account
                 </a>
-                <button
-                  onClick={handleContinueAfterGate}
-                  style={{
-                    background: 'transparent', border: 'none', cursor: 'pointer',
-                    fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-tertiary)',
-                    padding: '8px 0', textDecoration: 'underline',
-                  }}
-                >
-                  Continue without signing up
-                </button>
+                <p style={{
+                  fontFamily: 'var(--font-sans)', fontSize: 12, color: 'var(--text-tertiary)',
+                  textAlign: 'center', margin: 0, lineHeight: 1.5,
+                }}>
+                  You've reached the free trial limit. Sign up to continue with the full question bank.
+                </p>
               </div>
             </div>
           </div>
@@ -597,7 +761,7 @@ export default function TryPage() {
           <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'var(--gradient-teal)' }} />
 
           {/* Question meta */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 20 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 20, flexWrap: 'wrap' }}>
             <div style={{
               display: 'flex', alignItems: 'center', gap: 6, padding: '4px 10px',
               background: 'rgba(20, 184, 166, 0.06)', borderRadius: 6,

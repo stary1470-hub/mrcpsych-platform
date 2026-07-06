@@ -71,6 +71,7 @@ const PLANS = [
 ]
 
 export default function PricingPage() {
+  useEffect(() => { document.title = 'Pricing | PsychStar' }, [])
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'cycle'>('cycle')
   const [loading, setLoading] = useState<string | null>(null)
   const [user, setUser] = useState<any>(null)
@@ -292,7 +293,7 @@ export default function PricingPage() {
             { q: 'Can I switch papers after purchase?', a: 'Yes. Contact support and we\'ll transfer your subscription to the other paper at no extra cost within the first 14 days.' },
             { q: 'What happens when my cycle ends?', a: 'You can renew for another cycle, switch to monthly billing, or upgrade to the bundle. Your progress and analytics are saved permanently.' },
             { q: 'What does the bundle save me?', a: 'The bundle at £119/cycle saves £39 vs buying Paper A + Paper B separately. Monthly at £49 saves £9 vs separate subscriptions.' },
-            { q: 'Is there a free trial?', a: 'Yes — sign up and access 20 free questions in each paper to experience the adaptive engine before committing.' },
+            { q: 'Is there a free trial?', a: 'Yes — try 5 free questions at psychstar.io/try with no signup required. Experience the adaptive engine before committing.' },
             { q: 'How often is content updated?', a: 'Questions are reviewed and updated continuously. New questions are added weekly, aligned to the latest Royal College curriculum and NICE guidelines.' },
           ].map(({ q, a }) => (
             <div key={q} style={{

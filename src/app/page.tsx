@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import { DOMAINS_PAPER_A_INFO, DOMAINS_PAPER_B_INFO } from '@/types'
@@ -151,17 +151,17 @@ export default function LandingPage() {
           </p>
 
           <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="/signup" className="btn btn-primary btn-lg" style={{ fontSize: 15, padding: '14px 32px' }}>
-              Start Free Trial
+            <a href="/try" className="btn btn-primary btn-lg" style={{ fontSize: 15, padding: '14px 32px' }}>
+              Try 5 Free Questions
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
               </svg>
             </a>
-            <a href="/try" className="btn btn-ghost" style={{ fontSize: 15, padding: '14px 32px' }}>
+            <a href="/pricing" className="btn btn-ghost" style={{ fontSize: 15, padding: '14px 32px' }}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10" /><polyline points="12 16 16 12 12 8" /><line x1="8" y1="12" x2="16" y2="12" />
+                <line x1="12" y1="1" x2="12" y2="23" /><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
               </svg>
-              Try 5 Free Questions
+              View Pricing
             </a>
             <a href="#papers" className="btn btn-ghost" style={{ fontSize: 15, padding: '14px 32px' }}>
               Explore Papers
@@ -198,15 +198,6 @@ export default function LandingPage() {
 
         {/* ─── Paper Sections ─── */}
         <section id="papers" style={{ maxWidth: 1100, margin: '0 auto', padding: '0 24px 80px' }}>
-          <div style={{ textAlign: 'center', marginBottom: 48 }} className="animate-slide-up">
-            <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 36, fontWeight: 400, color: 'var(--text-primary)', marginBottom: 12 }}>
-              Choose Your Paper
-            </h2>
-            <p style={{ fontFamily: 'var(--font-sans)', fontSize: 16, color: 'var(--text-tertiary)', maxWidth: 500, margin: '0 auto' }}>
-              Each paper is a complete, self-contained exam preparation product with its own adaptive engine and domain map.
-            </p>
-          </div>
-
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 24 }}>
             {/* Paper A Card */}
             <div className="paper-card animate-slide-up" style={{

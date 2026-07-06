@@ -16,8 +16,25 @@ export default function ReviewPage() {
   const [entries, setEntries] = useState<Entry[]>([])
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState<'all' | 'correct' | 'wrong'>('all')
+  const [hasAccess, setHasAccess] = useState(false)
+  const [accessChecked, setAccessChecked] = useState(false)
 
   useEffect(() => {
+    const checkAccess = async () => {
+      try {
+        const res = await fetch('/api/stripe/status')
+        const data = await res.json()
+        setHasAccess(data.hasAccess)
+      } catch {
+        setHasAccess(false)
+      }
+      setAccessChecked(true)
+    }
+    checkAccess()
+  }, [])
+
+  useEffect(() => {
+    if (!hasAccess) return
     const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) return
@@ -33,7 +50,7 @@ export default function ReviewPage() {
       setLoading(false)
     }
     load()
-  }, [supabase])
+  }, [supabase, hasAccess])
 
   const filtered = filter === 'all' ? entries : entries.filter(e => filter === 'correct' ? e.correct : !e.correct)
 
@@ -60,6 +77,35 @@ export default function ReviewPage() {
           </button>
         ))}
       </div>
+
+      {/* Subscription banner */}
+      {accessChecked && !hasAccess && (
+        <div style={{
+          background: 'linear-gradient(135deg, rgba(236, 72, 153, 0.08), rgba(20, 184, 166, 0.06))',
+          border: '1px solid rgba(236, 72, 153, 0.15)',
+          borderRadius: 'var(--radius-lg)',
+          padding: '20px 24px',
+          marginBottom: 24,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 16,
+        }}>
+          <div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 15, fontWeight: 600, color: 'var(--text-primary)', marginBottom: 4 }}>
+              Subscribe to unlock full access
+            </div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-tertiary)' }}>
+              Get unlimited questions, adaptive learning, and performance analytics.
+            </div>
+          </div>
+          <a href="/pricing" className="btn btn-primary" style={{
+            background: '#ec4899', fontSize: 13, padding: '10px 20px', whiteSpace: 'nowrap',
+          }}>
+            View Plans
+          </a>
+        </div>
+      )}
 
       {loading ? (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>

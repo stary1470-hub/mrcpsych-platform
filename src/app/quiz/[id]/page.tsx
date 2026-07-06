@@ -280,6 +280,19 @@ export default function QuizQuestionPage({ params }: { params: Promise<{ id: str
   useEffect(() => { loadQuestion() }, [id])
 
   const loadQuestion = async () => {
+    // Check subscription first
+    try {
+      const res = await fetch('/api/stripe/status')
+      const data = await res.json()
+      if (!data.hasAccess) {
+        router.push('/quiz')
+        return
+      }
+    } catch {
+      router.push('/quiz')
+      return
+    }
+
     setLoading(true); setSelectedIndex(null); setSubmitted(false); setNextLoading(false)
     setQuestionStartTime(Date.now())
     setEmiItems(null)

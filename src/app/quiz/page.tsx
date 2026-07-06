@@ -22,12 +22,23 @@ export default function QuizMenuPage() {
   const [activePaper, setActivePaper] = useState<'all' | PaperType>(
     (searchParams.get('paper') as PaperType) || 'all'
   )
+  const [subscription, setSubscription] = useState<any>(null)
+  const [subLoading, setSubLoading] = useState(true)
 
   useEffect(() => {
     const load = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) return
 
+      // Check subscription
+      try {
+        const res = await fetch('/api/stripe/status')
+        const data = await res.json()
+        setSubscription(data)
+      } catch {
+        setSubscription(null)
+      }
+      setSubLoading(false)
       const paperFilter = activePaper === 'all' ? null : activePaper
 
       let q = supabase.from('questions').select('domain, paper').eq('is_active', true)
@@ -130,6 +141,7 @@ export default function QuizMenuPage() {
       accent: true,
       action: startAdaptive,
       loading: adapting,
+      disabled: !subscription?.hasAccess,
       mode: 'practice' as const,
     },
     {
@@ -144,6 +156,7 @@ export default function QuizMenuPage() {
       desc: 'Untimed — learn at your own pace',
       accent: false,
       action: () => startQuiz(),
+      disabled: !subscription?.hasAccess,
       mode: 'practice' as const,
     },
     {
@@ -157,6 +170,7 @@ export default function QuizMenuPage() {
       desc: activePaper === 'B' ? 'Timed — 3 hours for Paper B' : activePaper === 'A' ? 'Timed — 3 hours for Paper A' : 'Timed — 3 hours, weighted per question',
       accent: false,
       action: () => startQuiz(undefined, true),
+      disabled: !subscription?.hasAccess,
       mode: 'exam' as const,
     },
     {
@@ -171,7 +185,7 @@ export default function QuizMenuPage() {
       desc: 'Focus on your lowest score',
       accent: false,
       action: () => { if (domains.length > 0) startQuiz(domains[0].domain) },
-      disabled: domains.length === 0,
+      disabled: domains.length === 0 || !subscription?.hasAccess,
       mode: 'practice' as const,
     },
   ]
@@ -213,13 +227,43 @@ export default function QuizMenuPage() {
         ))}
       </div>
 
+      {/* Subscription banner */}
+      {!subLoading && subscription && !subscription.hasAccess && (
+        <div style={{
+          background: 'linear-gradient(135deg, rgba(236, 72, 153, 0.08), rgba(20, 184, 166, 0.06))',
+          border: '1px solid rgba(236, 72, 153, 0.15)',
+          borderRadius: 'var(--radius-lg)',
+          padding: '20px 24px',
+          marginBottom: 24,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 16,
+        }}>
+          <div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 15, fontWeight: 600, color: 'var(--text-primary)', marginBottom: 4 }}>
+              Subscribe to unlock full access
+            </div>
+            <div style={{ fontFamily: 'var(--font-sans)', fontSize: 13, color: 'var(--text-tertiary)' }}>
+              Get unlimited questions, adaptive learning, and performance analytics.
+            </div>
+          </div>
+          <a href="/pricing" className="btn btn-primary" style={{
+            background: '#ec4899', fontSize: 13, padding: '10px 20px', whiteSpace: 'nowrap',
+          }}>
+            View Plans
+          </a>
+        </div>
+      )}
+
       {/* Mode cards */}
       <div style={{ marginBottom: 12 }}>
         <div style={{ fontFamily: 'var(--font-sans)', fontSize: 11, fontWeight: 700, color: 'var(--text-tertiary)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 12 }}>
           Quick Start
         </div>
         <div style={{
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(200px, 100%), 1fr))',
           gap: 14,
         }} className="animate-stagger">
           {quickActions.map(a => (

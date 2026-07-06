@@ -1,10 +1,11 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 
 export default function SignupPage() {
+  useEffect(() => { document.title = 'Sign Up | PsychStar' }, [])
   const router = useRouter()
   const supabase = createClient()
   const [email, setEmail] = useState('')

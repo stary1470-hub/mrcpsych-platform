@@ -1,0 +1,2 @@
+// This file intentionally left empty - middleware logic moved to middleware.ts
+export async function proxy() {}
