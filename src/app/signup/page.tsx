@@ -41,15 +41,15 @@ export default function SignupPage() {
             display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px',
           }}>
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-              <polyline points="22,6 12,13 2,6" />
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
             </svg>
           </div>
-          <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 400, marginBottom: 12 }}>Check your email</h1>
+          <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 400, marginBottom: 12 }}>Account created</h1>
           <p style={{ fontFamily: 'var(--font-sans)', fontSize: 14, color: 'var(--text-tertiary)', marginBottom: 24, lineHeight: 1.6 }}>
-            We&apos;ve sent a confirmation link to <strong style={{ color: 'var(--text-primary)' }}>{email}</strong>
+            Your account is ready. Sign in to start practicing.
           </p>
-          <a href="/login" className="btn btn-secondary">Back to sign in</a>
+          <a href="/login" className="btn btn-primary">Sign in</a>
         </div>
       </div>
     )
